@@ -7,4 +7,4 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata |
 | :---: | :---: | :---: | :---: |
 | v1.0.0 | 2023-09-21 | [Data Dictionary](v1.0.0/20230921145534_DataDictionary_8ba2fa.csv) | [Metadata](v1.0.0/Bridge2AIDEVELOPMENT_2023-09-21_1504.REDCap.xml) |
-| v1.0.0 | 2023-11-14 | [Data Dictionary](v2.0.0/20231115111528_DataDictionary_03f538.csv) | [Metadata](v2.0.0/Bridge2AIPRODUCTION_2023-11-15_1118.REDCap.xml) |
+| v1.0.0 | 2023-11-15 | [Data Dictionary](v2.0.0/20231115111528_DataDictionary_03f538.csv) | [Metadata](v2.0.0/Bridge2AIPRODUCTION_2023-11-15_1118.REDCap.xml) |
