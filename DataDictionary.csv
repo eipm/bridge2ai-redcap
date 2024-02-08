@@ -6,7 +6,7 @@ withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn C
 withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,,"[consent_status] = 3",,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
 enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,,"[enrolled] = 1",,,,,,
-enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","USF, USF | WCM, WCM | MIT, MIT",,,,,,,y,,,,,
+enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","BCH, BCH | MIT, MIT | mt_sinai, Mt. Sinai | USF, USF | VUMC, VUMC | WCM, WCM",,,,,,,y,,,,,
 researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,,,y,,,,,
 first_name,subjectparticipant_contact_information,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
 last_name,subjectparticipant_contact_information,,text,"Last Name",,,,,,y,,y,,,,,
@@ -21,42 +21,46 @@ laryng_cancer,subjectparticipant_eligible_studies,"<div class=""rich-text-field-
 <em><span style=""text-decoration: underline;"">(Check all that apply if you currently have the condition)</span></em></p></div></div>
 
 Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+benign_cord_lesion,subjectparticipant_eligible_studies,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 rrp,subjectparticipant_eligible_studies,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-benign_cord_lesion,subjectparticipant_eligible_studies,,radio,"Benign vocal cord lesion","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-dementia,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,Dementia,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-alzheimers,subjectparticipant_eligible_studies,,radio,Alzheimer's,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-stroke,subjectparticipant_eligible_studies,,radio,Stroke,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
+spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, dementia, or mild cognitive impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 als,subjectparticipant_eligible_studies,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-ataxia,subjectparticipant_eligible_studies,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-parkinsons,subjectparticipant_eligible_studies,,radio,Parkinson's,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-depression,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+parkinsons,subjectparticipant_eligible_studies,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
+alcohol_subst_abuse,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+gad,subjectparticipant_eligible_studies,,radio,"Anxiety disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+add_adhd,subjectparticipant_eligible_studies,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+asd,subjectparticipant_eligible_studies,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 bipolar,subjectparticipant_eligible_studies,,radio,"Bipolar Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-gad,subjectparticipant_eligible_studies,,radio,"Generalized Anxiety Disorder (GAD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+bpd,subjectparticipant_eligible_studies,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+depression,subjectparticipant_eligible_studies,,radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+ed,subjectparticipant_eligible_studies,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+insomnia,subjectparticipant_eligible_studies,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 ocd,subjectparticipant_eligible_studies,,radio,"Obsessive-Compulsive Disorder (OCD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 panic,subjectparticipant_eligible_studies,,radio,"Panic Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 ptsd,subjectparticipant_eligible_studies,,radio,"Post-Traumatic Stress Disorder (PTSD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 schizophrenia,subjectparticipant_eligible_studies,,radio,Schizophrenia,"0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 soc_anx_dis,subjectparticipant_eligible_studies,,radio,"Social Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-alcohol_subst_abuse,subjectparticipant_eligible_studies,,radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-bpd,subjectparticipant_eligible_studies,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-asd,subjectparticipant_eligible_studies,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-add_adhd,subjectparticipant_eligible_studies,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-ed,subjectparticipant_eligible_studies,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-insomnia,subjectparticipant_eligible_studies,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 other_psych,subjectparticipant_eligible_studies,,radio,"Other psychiatric disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 asthma,subjectparticipant_eligible_studies,"Respiratory disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
-copd,subjectparticipant_eligible_studies,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
+airway_stenosis,subjectparticipant_eligible_studies,,radio,"Airway stenosis (for example: subglottic stenosis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
 chronic_cough,subjectparticipant_eligible_studies,,radio,"Chronic Cough","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
-osa,subjectparticipant_eligible_studies,,radio,OSA,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
-airway_stenosis,subjectparticipant_eligible_studies,,radio,"Airway Stenosis","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
+copd,subjectparticipant_eligible_studies,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
+osa,subjectparticipant_eligible_studies,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
 autism,subjectparticipant_eligible_studies,"Pediatric disorders
 ",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
 speech_delay,subjectparticipant_eligible_studies,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
 ef_select_language,enrollment_form,"Select a language",radio,"Select a language","1, English | 2, Español | 3, Français",,,,,,,y,,,,,
-ef_completed_by_self,enrollment_form,"Who is completing the survey?",yesno,"Completed by self",,,,,,,,y,,,,,
-ef_completed_by_other,enrollment_form,,checkbox,"Check the boxes to all that apply:","1, Completed by Assistant | 2, Completed by Parent/Caregiver",,,,,,"[ef_completed_by_self] = false",,,,,,
+ef_any_vision_related_req,enrollment_form,"Let's customize your experience",yesno,"This application requires you to read text to answer questions. Do you have any vision-related requirements we can assist with?",,,,,,,,y,,,,,
+ef_vision_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to change the font size | 2, I would like to change the font color (high contrast mode) | 3, I would like to use a screen reader | 4, I would like a person to read the text to me",,,,,,"[ef_any_vision_related_req] = '1'",,,,,,
+ef_any_hearing_related_req,enrollment_form,,yesno,"This application may present some sound files for you to listen to. Do you have any hearing-related requirements we can assist with?",,,,,,,,y,,,,,
+ef_hearing_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to turn up the volume | 2, I would like to turn on closed captions | 3, I would like to use haptic feedback (vibrations) instead of audio cues",,,,,,"[ef_any_hearing_related_req] = '1'",,,,,,
+ef_any_physical_challenges,enrollment_form,,yesno,"This application requires you to navigate through the questions using a touch screen. Do you have any physical challenges we can accomodate?",,,,,,,,,,,,,
+ef_physical_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to increase the size of the buttons | 2, I have an alternative keyboard I'd like to connect instead | 3, I would like to navigate the survey using voice commands instead of the touch screen",,,,,,"[ef_any_physical_challenges] = '1'",,,,,,
+ef_any_cognitive_challeges,enrollment_form,,yesno,"This application requires you to read text, answer questions, and follow directions. Do you have any cognitive challenges, including difficulty reading, that we can assist with?",,,,,,,,y,,,,,
+ef_cognitive_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like the questions to be read to me using text-to-speech | 2, I would like a person to read the text to me | 3, I would like to speak my answers instead of typing them",,,,,,"[ef_any_cognitive_challeges] = '1'",,,,,,
+ef_completed_by,enrollment_form,"Who is participating in completing this survey?",checkbox,"Check all that apply","1, Self | 2, Assistant | 3, Parent/Caregiver",,,,,,,,,,,,
 ef_primary_language,enrollment_form,"Tell us about yourself",radio,"What is your primary language?","1, English | 2, French | 3, Spanish | 4, Other (Please specify below)",,,,,,,y,,,,,
 ef_primary_language_other,enrollment_form,,text,"If primary language is ""other"", please specify:",,,,,,,"[ef_primary_language] = '4'",,,,,,
 ef_fluent_languages,enrollment_form,,checkbox,"Do you speak any additional language(s) fluently (similar to a native speaker)?
@@ -67,43 +71,36 @@ ef_laryng_cancer,enrollment_form,"<div class=""rich-text-field-label""><p>Do you
 (Check all that apply if you currently have the condition)</p></div>
 
 Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_voc_fold_paralysis,enrollment_form,,radio,"Vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_spas_dys,enrollment_form,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_benign_cord_lesion,enrollment_form,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_rrp,enrollment_form,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_benign_cord_lesion,enrollment_form,,radio,"Benign vocal cord lesion","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_dementia,enrollment_form,"Neurological and Neurodegenerative Disorders",radio,Dementia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
-ef_alzheimers,enrollment_form,,radio,Alzheimer's,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
-ef_stroke,enrollment_form,,radio,Stroke,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
+ef_spas_dys,enrollment_form,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_voc_fold_paralysis,enrollment_form,,radio,"Vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_alz_dementia_mci,enrollment_form,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, dementia, or mild cognitive impairment","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_als,enrollment_form,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
-ef_ataxia,enrollment_form,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
-ef_parkinsons,enrollment_form,,radio,Parkinson's,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
-ef_depression,enrollment_form,"Mood and Psychiatric Disorders",radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_parkinsons,enrollment_form,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
+ef_alcohol_subst_abuse,enrollment_form,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_gad,enrollment_form,,radio,"Anxiety disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_add_adhd,enrollment_form,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_asd,enrollment_form,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_bipolar,enrollment_form,,radio,"Bipolar Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_gad,enrollment_form,,radio,"Generalized Anxiety Disorder (GAD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_bpd,enrollment_form,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_depression,enrollment_form,,radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_ed,enrollment_form,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_insomnia,enrollment_form,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_ocd,enrollment_form,,radio,"Obsessive-Compulsive Disorder (OCD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_panic,enrollment_form,,radio,"Panic Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_ptsd,enrollment_form,,radio,"Post-Traumatic Stress Disorder (PTSD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_schizophrenia,enrollment_form,,radio,Schizophrenia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_soc_anx_dis,enrollment_form,,radio,"Social Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_alcohol_subst_abuse,enrollment_form,,radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_bpd,enrollment_form,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_asd,enrollment_form,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_add_adhd,enrollment_form,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_ed,enrollment_form,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_insomnia,enrollment_form,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_other_psych,enrollment_form,,radio,"Other psychiatric disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_asthma,enrollment_form,"Respiratory disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
-ef_copd,enrollment_form,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
+ef_airway_stenosis,enrollment_form,,radio,"Airway stenosis (for example: subglottic stenosis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_chronic_cough,enrollment_form,,radio,"Chronic Cough","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
-ef_osa,enrollment_form,,radio,OSA,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
-ef_airway_stenosis,enrollment_form,,radio,"Airway Stenosis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
+ef_copd,enrollment_form,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
+ef_osa,enrollment_form,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_autism,enrollment_form,"Pediatric disorders",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
 ef_speech_delay,enrollment_form,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
-ef_read,enrollment_form,"Eligible Studies",radio,"Can you read?","1, Yes | 0, No | 2, Some",,,,,,,y,,,ef_digital_literacy,,
-ef_write,enrollment_form,,radio,"Can you write?","1, Yes | 0, No | 2, Some",,,,,,,y,,,ef_digital_literacy,,
-ef_smart_device,enrollment_form,,radio,"Can you use a smart device?","1, Yes | 0, No | 2, Some",,,,,,,y,,,ef_digital_literacy,,
-ef_smart_device_access,enrollment_form,,yesno,"Do you have access to a smart device on a regular basis?",,,,,,,,y,,,,,
-ef_eligible_studies,enrollment_form,,checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
+ef_eligible_studies,enrollment_form,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
 ef_first_name,enrollment_form,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
 ef_last_name,enrollment_form,,text,"Last Name",,,,,,y,,y,,,,,
 ef_phone_number,enrollment_form,,text,"Phone Number",,###-###-####,phone,,,y,,,,,,,
@@ -114,69 +111,80 @@ My information will not be shared with third parties.",,,,,,,,y,,,,,
 ef_enrollment,enrollment_form,"<div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Review and Enroll:</span></p></div>",radio,"<div class=""rich-text-field-label""><p>Please review your answers reading all the way through the bottom and select an option. <br /><br /><em>If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.</em></p></div>","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,,"[ef_reason_decline_enroll]=""5""",,,,,,
-ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","USF, USF | WCM, WCM | MIT, MIT",,,,,,,,,,,,
+ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","BCH, BCH | MIT, MIT | mt_sinai, Mt. Sinai | USF, USF | VUMC, VUMC | WCM, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,,,,,,,,
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-page_1,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page2,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page3,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_4,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_5,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page6,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page7,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page8,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_9,bridge2ai_consent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-consent_usf_question,bridge2ai_consent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research and Authorization for the Collection, Use and Disclosure of Health Information:<br /><span style=""font-weight: normal;"">I freely give my consent to take part in this study and authorize that my health information as agreed above, be collected/disclosed in this study. I understand that by signing this form I am agreeing to take part in research. I have received a copy of this form to take with me. I understand that by filling out the best future contact below, I am consenting to be contacted in the future for further voice data collection if long term follow up is required as part of an eventual extension of this grant after the 4-year duration.</span><br /><span style=""font-weight: normal;"">Please select one of the three statements below that you consent to.</span></p></div>","1, I consent to having all data I submit shared only with the researchers of this study. | 2, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers. | 3, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers as well as publicly in the form of an open-source database.",,,,,,,y,LV,,,,
-consent_usf_signature,bridge2ai_consent_main_icf_usf_english,,file,"Signature of Person Taking Part in Study
+paper_consent_notes,bridge2ai_paper_consent_all_sites_english,"Paper Consent Form for all Sites",descriptive,"Fill out Instructions
+1. Upload the .pdf of the paper consent.
+2. Select the Enrollment Institution.
+3. Paper Consent Uploaded By is automatically calculated
+4. Once all the fields are entered mark this form as ""Complete""
+
+If uploading a paper consent form instead of eConsent, navigate to Form ""Subject/Participant - Basic Information"" and update Consent Status to ""Consented""",,,,,,,,,,,,,
+paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Paper Consent PDF - All Sites",,,,,,,,y,,,,,
+paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","BCH, BCH | MIT, MIT | mt_sinai, Mt. Sinai | USF, USF | VUMC, VUMC | WCM, WCM",,,,,,,y,,,,,
+paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,,,y,,,,," @USERNAME
+@READONLY"
+page_1,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page2,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page3,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page_4,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page_5,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page6,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page7,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page8,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page_9,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+consent_usf_question,bridge2ai_econsent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research and Authorization for the Collection, Use and Disclosure of Health Information:<br /><span style=""font-weight: normal;"">I freely give my consent to take part in this study and authorize that my health information as agreed above, be collected/disclosed in this study. I understand that by signing this form I am agreeing to take part in research. I have received a copy of this form to take with me. I understand that by filling out the best future contact below, I am consenting to be contacted in the future for further voice data collection if long term follow up is required as part of an eventual extension of this grant after the 4-year duration.</span><br /><span style=""font-weight: normal;"">Please select one of the three statements below that you consent to.</span></p></div>","1, I consent to having all data I submit shared only with the researchers of this study. | 2, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers. | 3, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers as well as publicly in the form of an open-source database.",,,,,,,y,LV,,,,
+consent_usf_signature,bridge2ai_econsent_main_icf_usf_english,,file,"Signature of Person Taking Part in Study
 [Authorization]
 
 
 ",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_usf_name,bridge2ai_consent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_usf_date,bridge2ai_consent_main_icf_usf_english,,text,Date,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
-researcher_statement2,bridge2ai_consent_main_icf_usf_researcher_statemen,,descriptive,,,,,,,,,,,,,,
-researcher_signature,bridge2ai_consent_main_icf_usf_researcher_statemen,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-researcher_name,bridge2ai_consent_main_icf_usf_researcher_statemen,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-researcher_date,bridge2ai_consent_main_icf_usf_researcher_statemen,,text,Date,,,date_ymd,,,,,y,,,,,
-combined_pdf_main_icf_usf,bridge2ai_consent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,,,,,,,,
-consent_wcm_p1,bridge2ai_consent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p2,bridge2ai_consent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p3,bridge2ai_consent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p4,bridge2ai_consent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_statement,bridge2ai_consent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1,bridge2ai_consent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_permission_2,bridge2ai_consent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_statement_2,bridge2ai_consent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_p5,bridge2ai_consent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_signature,bridge2ai_consent_addendum_wcm_english,,file,"Signature of Person Taking Part in Study 
+consent_usf_name,bridge2ai_econsent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
+consent_usf_date,bridge2ai_econsent_main_icf_usf_english,,text,Date,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+researcher_statement2,bridge2ai_econsent_main_icf_usf_researcher_stateme,,descriptive,,,,,,,,,,,,,,
+researcher_signature,bridge2ai_econsent_main_icf_usf_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
+researcher_name,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
+researcher_date,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
+combined_pdf_main_icf_usf,bridge2ai_econsent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,,,,,,,,
+consent_wcm_p1,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p2,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p3,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p4,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_statement,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_permission_1,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_permission_2,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_statement_2,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_p5,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_signature,bridge2ai_econsent_addendum_wcm_english,,file,"Signature of Person Taking Part in Study 
 [Authorization]",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_name,bridge2ai_consent_addendum_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_date,bridge2ai_consent_addendum_wcm_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_p6,bridge2ai_consent_addendum_wcm_researcher_statemen,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature,bridge2ai_consent_addendum_wcm_researcher_statemen,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-consent_wcm_rs_name,bridge2ai_consent_addendum_wcm_researcher_statemen,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-consent_wcm_rs_date,bridge2ai_consent_addendum_wcm_researcher_statemen,,text,Date,,,date_ymd,,,,,y,,,,,
-upload_addendums,bridge2ai_consent_combined_pdf_addendum_wcm,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
-consent_wcm_p1_mit,bridge2ai_consent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p2_mit,bridge2ai_consent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p3_mit,bridge2ai_consent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p4_mit,bridge2ai_consent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_statement_mit,bridge2ai_consent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_mit,bridge2ai_consent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_permission_2_mit,bridge2ai_consent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_statement_2_mit,bridge2ai_consent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_p5_mit,bridge2ai_consent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_signature_mit,bridge2ai_consent_addendum_mit_english,,file,"Signature of Person Taking Part in Study 
+consent_wcm_name,bridge2ai_econsent_addendum_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
+consent_wcm_date,bridge2ai_econsent_addendum_wcm_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+consent_wcm_p6,bridge2ai_econsent_addendum_wcm_researcher_stateme,,descriptive,,,,,,,,,,,,,,
+consent_wcm_rs_signature,bridge2ai_econsent_addendum_wcm_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
+consent_wcm_rs_name,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
+consent_wcm_rs_date,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
+upload_addendums,bridge2ai_econsent_combined_pdf_addendum_wcm,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
+consent_wcm_p1_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p3_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p4_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_statement_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_permission_1_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_permission_2_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_statement_2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_p5_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
+consent_wcm_signature_mit,bridge2ai_econsent_addendum_mit_english,,file,"Signature of Person Taking Part in Study 
 [Authorization]",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_name_mit,bridge2ai_consent_addendum_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_date_mit,bridge2ai_consent_addendum_mit_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_p6_mit,bridge2ai_consent_addendum_mit_researcher_statemen,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature_mit,bridge2ai_consent_addendum_mit_researcher_statemen,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-consent_wcm_rs_name_mit,bridge2ai_consent_addendum_mit_researcher_statemen,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-consent_wcm_rs_date_mit,bridge2ai_consent_addendum_mit_researcher_statemen,,text,Date,,,date_ymd,,,,,y,,,,,
-upload_addendums_mit,bridge2ai_consent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
+consent_wcm_name_mit,bridge2ai_econsent_addendum_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
+consent_wcm_date_mit,bridge2ai_econsent_addendum_mit_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+consent_wcm_p6_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,descriptive,,,,,,,,,,,,,,
+consent_wcm_rs_signature_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
+consent_wcm_rs_name_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
+consent_wcm_rs_date_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
+upload_addendums_mit,bridge2ai_econsent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
 diagnosis_vfp_gsd,diagnosis_voice_disorders_vocal_fold_paralysis,"1. Gold Standard Diagnosis",radio,"Does the patient have VFP confirmed by laryngoscopy/stroboscopy?","0, No | 1, Yes | 2, Not certain",,,,,,,y,,,,,
 diagnosis_vfp_ds,diagnosis_voice_disorders_vocal_fold_paralysis,"2. Disease Subtype",radio,"Which side is the paralysis?","1, Left | 2, Right",,,,,,,y,,,,,
 diagnosis_vfp_etiology,diagnosis_voice_disorders_vocal_fold_paralysis,"3. Etiology",radio,"What is the etiology?","1, Idiopathic | 2, Iatrogenic (surgery/intubation) | 3, Tumor invading RLN | 4, Radiation",,,,,,,y,,,,,
@@ -256,51 +264,67 @@ recording_id,recording,,text,"Recording ID",,,,,,,,y,,,,," @READONLY"
 recording_acoustic_task_id,recording,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 recording_session_id,recording,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 recording_name,recording,,text,"Recording Name",,,,,,,,y,,,,," @READONLY"
-recording_filepath,recording,,text,"Recording Filepath",,,,,,,,y,,,,,
+recording_filepath,recording,,text,"Recording Filepath",,,,,,,,y,,,,," @READONLY"
 recording_storage_account,recording,,text,"Storage Account",,,,,,,,y,,,,," @READONLY"
 recording_file_share,recording,,text,"File Share",,,,,,,,y,,,,," @READONLY"
 recording_duration,recording,,text,"Duration (Seconds)",,,,,,,,y,,,,," @READONLY"
 recording_size,recording,,text,"Recording Size (KiB)",,,,,,,,y,,,,," @READONLY"
 recording_created_at,recording,,text,"File Created At",,,,,,,,,,,,," @READONLY"
-recording_profile,recording,,radio,"Recording Profile Version","1, v1.0.0",,,,,,,y,,,,," @READONLY"
+recording_profile_name,recording,,radio,"Recording Profile Name","speech, Speech | breathe, Breathe | cough, Cough",,,,,,,y,,,,," @READONLY"
+recording_profile_version,recording,,radio,"Recording Profile Version","1, v1.0.0",,,,,,,y,,,,," @READONLY"
+recording_input_gain,recording,,text,"Recording Input Gain",,,,,,,,y,,,,," @READONLY"
+recording_microphone,recording,,text,"Recording Microphone",,,,,,,,y,,,,," @READONLY"
 demographics_session_id,questionnaire_across_all_cohorts_demographics,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 demographics_started_at,questionnaire_across_all_cohorts_demographics,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
 demographics_completed_at,questionnaire_across_all_cohorts_demographics,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
 demographics_duration,questionnaire_across_all_cohorts_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-city,questionnaire_across_all_cohorts_demographics,Address,text,City,,,,,,,,,,,,,
+demographics_completed_by,questionnaire_across_all_cohorts_demographics,,checkbox,"Who is completing this survey?","1, Self | 2, Assistant | 3, Parent/Caregiver",,,,,,,,,,,,
+city,questionnaire_across_all_cohorts_demographics,"Address Information",text,City,,,,,,,,,,,,,
 state_province,questionnaire_across_all_cohorts_demographics,,text,State/Province,,,,,,,,,,,,,
 zipcode,questionnaire_across_all_cohorts_demographics,,text,Zipcode,,,zipcode,,,,,,,,,,
-country,questionnaire_across_all_cohorts_demographics,,dropdown,Country,"1, USA",,,,,,,y,,,,,
-gender_identity,questionnaire_across_all_cohorts_demographics,"Patient Demographics",radio,"What is your gender identity?","man, Cis Man: same gender as the sex assigned at birth | woman, Cis Woman: same gender as the sex assigned at birth | nonBinary, Non-binary | transMan, Trans man | transWoman, Trans woman | other, Other (please specify) | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+country,questionnaire_across_all_cohorts_demographics,,dropdown,Country,"1, USA | 2, Canada",,,,,,,y,,,,,
+gender_identity,questionnaire_across_all_cohorts_demographics,"Patient Demographics",radio,"What is your gender identity?","female, Female gender identity | male, Male gender identity | nonBinary, Non-binary or genderqueer gender identity | other, Other | noAnswer, Prefer not to answer",,,,,,,,,,,,
 other_gender_identity,questionnaire_across_all_cohorts_demographics,,text,"If you selected ""other"" for gender identity, please specify:",,,,,,,[gender_identity]='other',,,,,,
+specify_gender_identity,questionnaire_across_all_cohorts_demographics,,radio,"Please specify gender identity","cis, Cis: same gender as the sex assigned at birth | trans, Trans",,,,,,"[gender_identity]=""female"" or [gender_identity]=""male""",,,,,,
 sexual_orientation,questionnaire_across_all_cohorts_demographics,,radio,"What is your sexual orientation?","bisexual, Bisexual | heterosexual, Heterosexual | homosexual, Homosexual | other, Other (Please specify) | noAnswer, Prefer not to answer",,,,,,,y,,,,,
 other_sex_orientation,questionnaire_across_all_cohorts_demographics,,text,"If you selected ""other"" for sexual orientation, please specify:",,,,,,,[sexual_orientation]='other',,,,,,
-race_ethnicity,questionnaire_across_all_cohorts_demographics,,checkbox,"What is your race/ethnicity?
-
-(Choose all that apply)","1, Black | 2, Brown | 3, White | 4, North African | 5, Sub-Saharan African | 6, African American | 7, Latin American | 8, Indigenous, First Nation | 9, Caribbean | 10, Central Asian | 11, East Asian | 12, South Asian | 13, Southeast Asian | 14, Eastern European | 15, Northern European | 16, Southern European | 17, Western European | 18, Hispanic or Latino/a/x | 19, Middle Eastern | 20, Pacific Islander | 21, Romani | 22, Race and/or ethnicity not listed, please specify | 23, Prefer not to answer",,,,,,,y,,,,,
-other_raceeth_specify,questionnaire_across_all_cohorts_demographics,,text,"If race/ethnicity not listed above, please specify:",,,,,,,"[race_ethnicity(22)] = ""1""",,,,,,
-edu_level,questionnaire_across_all_cohorts_demographics,,radio,"What is your highest level of education?","1, No education | 2, Some elementary school | 3, Some high school | 4, High school diploma | 5, Some college | 6, Associate's degree | 7, Bachelor's degree | 8, Some post-graduate work | 9, Graduate degree | 10, Other (Please specify) | 11, Prefer not to answer",,,,,y,,y,,,,,
-other_edu_level,questionnaire_across_all_cohorts_demographics,,text,"If you selected ""other"" level of education, please specify:",,,,,,,"[edu_level]=""10""",,,,,,
-disability_status,questionnaire_across_all_cohorts_demographics,,radio,"What is your disability status?","ableBodied, Able-bodied | disabledAbleToWork, Disabled, able to work | disabledUnableToWork, Disabled, unable to work | noAnswer, Prefer not to answer",,,,,,,y,,,,,
-disabilities,questionnaire_across_all_cohorts_demographics,,checkbox,"What types of disability(ies) do you experience?
-
-(Choose all that apply)","1, Vision | 2, Movement | 3, Thinking | 4, Remembering | 5, Learning | 6, Communicating | 7, Hearing | 8, Mental Health | 9, Social Relationships",,,,,,"[disability_status] = 'disabledAbleToWork' or [disability_status] = 'disabledUnableToWork'",,,,,,
-disabilities_others,questionnaire_across_all_cohorts_demographics,,text,"Please specify your disability(ies)? Consider those that are visible to others and those that are not visible to others.",,,,,,,"[disability_status] = 2 or [disability_status] = 3",,,,,,
-employ_status,questionnaire_across_all_cohorts_demographics,,checkbox,"What is your employment status?
+race,questionnaire_across_all_cohorts_demographics,,checkbox,"Which race category best describes you? Choose all that apply","1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or other Pacific Islander | 5, White | 6, Canadian Indigenous or Aboriginal | 7, Other | 8, Prefer not to answer",,,,,,,,,,,,
+native_american_race,questionnaire_across_all_cohorts_demographics,,checkbox,"American Indian or Alaska Native","1004_1, American Indian | 1735_0, Alaska Native",,,,,,"[race(1)] = ""1""",,,,,,
+asian_race,questionnaire_across_all_cohorts_demographics,,checkbox,Asian,"2029_7, Asian Indian | 2030_5, Bangladeshi | 2031_3, Bhutanese | 2032_1, Burmese | 2033_9, Cambodian | 2034_7, Chinese | 2035_4, Taiwanese | 2036_2, Filipino | 2037_0, Hmong | 2038_8, Indonesian | 2039_6, Japanese | 2040_4, Korean | 2041_2, Laotian | 2042_0, Malaysian | 2043_8, Okinawan | 2044_6, Pakistani | 2045_3, Sri Lankan | 2046_1, Thai | 2047_9, Vietnamese | 2048_7, Iwo Jiman | 2049_5, Maldivian | 2050_3, Nepalese | 2051_1, Singaporean | 2052_9, Madagascar",,,,,,"[race(2)]=""1""",,,,,,
+black_race,questionnaire_across_all_cohorts_demographics,,checkbox,"Black or African American","2058_6, African American | 2060_2, African | 2067_7, Bahamian | 2068_5, Barbadian | 2069_3, Dominican | 2070_1, Dominica Islander | 2071_9, Haitian | 2072_7, Jamaican | 2073_5, Tobagoan | 2074_3, Trinidadian | 2075_0, West Indian",,,,,,"[race(3)]=""1""",,,,,,
+pacific_islander_race,questionnaire_across_all_cohorts_demographics,,checkbox,"Native Hawaiian or other Pacific Islander","2078_4, Polynesian | 2085_9, Micronesian | 2100_6, Melanesian | 2500_7, Other Pacific Islander",,,,,,"[race(4)]=""1""",,,,,,
+white_race,questionnaire_across_all_cohorts_demographics,,checkbox,White,"2108_9, European | 2118_8, Middle Eastern Or North African | 2129_5, Arab",,,,,,"[race(5)]=""1""",,,,,,
+canadian_race,questionnaire_across_all_cohorts_demographics,,checkbox,"Canadian Indigenous or Aboriginal","ca_first_nation, First Nation | ca_inuit, Inuk/inuit | ca_metis, Metis",,,,,,"[race(6)]=""1""",,,,,,
+other_race_specify,questionnaire_across_all_cohorts_demographics,,text,"If race not listed above, please specify:",,,,,,,"[race(7)] = ""1""",,,,,,
+ethnicity,questionnaire_across_all_cohorts_demographics,,radio,"What is your ethnic or cultural origin?","yes, Hispanic or Latino | no, Not Hispanic or Latino | noAnswer, Prefer not to answer",,,,,,,,,,,,
+hispanic_latino_selection,questionnaire_across_all_cohorts_demographics,,checkbox,"Check all that apply","1, Spaniard | 2, Mexican | 3, Central American | 4, South American | 5, Latin American | 6, Puerto Rican | 7, Cuban | 8, Dominican",,,,,,"[ethnicity] = ""yes""",,,,,,
+edu_level,questionnaire_across_all_cohorts_demographics,Education,radio,"What is your highest level of education?","1, No formal education | 2, Some elementary school | 3, Some secondary or high school education | 4, High School or secondary school degree complete | 5, Some college education | 6, Associate's or technical degree complete | 7, College or baccalaureate degree complete | 8, Some post-baccalaureate education | 9, Graduate or professional degree complete | 10, Doctoral or post graduate education | 11, Other | 12, Prefer not to answer",,,,,y,,y,,,,,
+other_edu_level,questionnaire_across_all_cohorts_demographics,,text,"If you selected ""other"" level of education, please specify:",,,,,,,"[edu_level]=""11""",,,,,,
+hearing,questionnaire_across_all_cohorts_demographics,"Disability Questions",radio,"Are you deaf or do you have serious difficulty hearing?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+vision,questionnaire_across_all_cohorts_demographics,,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+cognition,questionnaire_across_all_cohorts_demographics,,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+mobility,questionnaire_across_all_cohorts_demographics,,radio,"Do you have serious difficulty walking or climbing stairs?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+self_care,questionnaire_across_all_cohorts_demographics,,radio,"Do you have difficulty dressing or bathing?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+independent_living,questionnaire_across_all_cohorts_demographics,,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+employ_status,questionnaire_across_all_cohorts_demographics,"Employment Status",checkbox,"What is your employment status?
 
 Choose all that apply
 ","1, Employed, freelance | 2, Employed, full time | 3, Employed, part time | 4, Employed, multiple part time jobs | 5, Student | 6, Self-employed | 7, Retired | 8, Unemployed | 9, Other (Please specify)",,,,,,,y,,,,,
 other_employ_specify,questionnaire_across_all_cohorts_demographics,,notes,"<div class=""rich-text-field-label""><p>If you selected ""other"" employment status, please specify.</p></div>",,,,,,,"[employ_status(9)] = ""1""",,,,,,
 occupation,questionnaire_across_all_cohorts_demographics,,text,"What is your occupation?",,,,,,,,,,,,,
 veteran,questionnaire_across_all_cohorts_demographics,,yesno,"Are you a veteran?",,,,,,,,y,,,,,
-income_share,questionnaire_across_all_cohorts_demographics,"Demographics - Optional",radio,"Would you like to share your estimated household income?","1, Yes | 2, Prefer not to answer",,,,,,,y,,,,,
-est_income,questionnaire_across_all_cohorts_demographics,,text,"What is your estimated annual household income?",,,,,,,[income_share]='1',,,,,,
-assistance_programs,questionnaire_across_all_cohorts_demographics,,checkbox,"Do you take advantage of any of the following programs? 
-Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,,,,,,,
-immigration_status,questionnaire_across_all_cohorts_demographics,,radio,"What is your immigration status?","1, US citizen | 2, US permanent resident [Green card holder] | 3, Non-citizen US national | 4, Refugee | 5, Asylum seeker | 6, Non-immigrant student | 7, Non-immigrant worker | 8, Prefer not to answer",,,,,,,y,,,,,
+household_income_usa,questionnaire_across_all_cohorts_demographics,"Demographics - Optional",radio,"What was your total household income last year (USD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc.","1, < $15,000 | 2, $15,000 to $29,999 | 3, $30,000 to $$49,999 | 4, $50,000 to $99,999 | 5, $100,000 to $149,999 | 6, $150,000 to $199,999 | 7, $200,000 to $249,999 | 8, >$250,000 | 9, Prefer not to answer",,,,,,"[country] =""1""",,,,,,
+financial_assistance_usa,questionnaire_across_all_cohorts_demographics,,radio,"Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed in the question below.","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,"[country] =""1""",,,,,,
+assistance_programs_usa,questionnaire_across_all_cohorts_demographics,,checkbox,"Do you take advantage of any of the following programs? 
+Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country] =""1""",,,,,,
+household_income_ca,questionnaire_across_all_cohorts_demographics,,radio,"What was your total household income last year (CAD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc.","1, < $15,000 | 2, $15,000 to $29,999 | 3, $30,000 to $$49,999 | 4, $50,000 to $99,999 | 5, $100,000 to $149,999 | 6, $150,000 to $199,999 | 7, $200,000 to $249,999 | 8, >$250,000 | 9, Prefer not to answer",,,,,,"[country]=""2""",,,,,,
+financial_assistance_ca,questionnaire_across_all_cohorts_demographics,,radio,"Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed below.","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,"[country]=""2""",,,,,,
+assistance_programs_ca,questionnaire_across_all_cohorts_demographics,,checkbox,"Do you take advantage of any of the following programs? 
+Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country]=""2""",,,,,,
+citizen,questionnaire_across_all_cohorts_demographics,Citizenship,radio,Citizen,"1, Citizen | 2, Permanent resident (Green card holder) | 3, Non-citizen US/Canadian national | 4, Refugee | 5, Asylum seeker | 6, Non-immigrant student | 7, Non-immigrant worker | 8, Prefer not to answer",,,,,,,,,,,,
 marital_status,questionnaire_across_all_cohorts_demographics,,checkbox,"What is your marital status?
-Choose all that apply","1, Single | 2, In a relationship, not married, living with partner | 3, In a relationship, not married, not living with partner | 4, Married | 5, Separated | 6, Divorced | 7, Widowed",,,,,,,,,,,,
-housing_status,questionnaire_across_all_cohorts_demographics,,radio,"What is your current housing status?","1, Assisted living | 2, Live with parent/care giver | 3, Own home | 4, Rent home | 5, Skilled nursing facility/nursing home | 6, Unhoused-temporarily | 7, Unhoused-permanently",,,,,,,y,,,,,
+Choose all that apply","1, Single | 2, Married | 3, In a relationship | 4, Not married | 5, Separated | 6, Divorced | 7, Widowed",,,,,,,,,,,,
+housing_status,questionnaire_across_all_cohorts_demographics,,radio,"What is your current housing status?","1, Assisted living | 2, Own home | 3, Rent home | 4, Skilled nursing facility/nursing home | 5, Unhoused-temporarily | 6, Unhoused-permanently",,,,,,,y,,,,,
 household_count,questionnaire_across_all_cohorts_demographics,,text,"<div class=""rich-text-field-label""><p>How many people live in your household? <br /><em>Please specify a number</em></p></div>",,,number,,,,,y,,,,,
 spouse_partner_sig_other,questionnaire_across_all_cohorts_demographics,"Who lives with you? Choose all that apply",radio,"Spouse/partner/significant other","1, Yes | 0, No",,,,,,[household_count]>0,,,,live_with_household,,
 children,questionnaire_across_all_cohorts_demographics,,radio,"One or more children","1, Yes | 0, No",,,,,,[household_count]>0,,,,live_with_household,,
@@ -315,21 +339,22 @@ confounders_session_id,questionnaire_across_all_cohorts_confounders,"Questionnai
 confounders_started_at,questionnaire_across_all_cohorts_confounders,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
 confounders_completed_at,questionnaire_across_all_cohorts_confounders,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
 confounders_duration,questionnaire_across_all_cohorts_confounders,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-is_regular_smoker,questionnaire_across_all_cohorts_confounders,SMOKING,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[dementia] = ""1""",,,,,,
-smoking_hx,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>Have you ever smoked regularly (more than a few times a month for at least two months)?<br /><em><span style=""font-weight: normal;"">This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.</span></em></p></div>","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke",,,,,,"[dementia] != ""1""",y,,,,,
-age_start_smoking,questionnaire_across_all_cohorts_confounders,,text,"At what age did you start smoking?",,,number,,,,"[smoking_hx]=""2"" or [smoking_hx]=""3""",,,,,,
-age_stop_smoking,questionnaire_across_all_cohorts_confounders,,text,"At what age did you stop smoking?",,,number,,,,"[smoking_hx]=""2"" or [smoking_hx]=""3""",,,,,,
-smoking_types,questionnaire_across_all_cohorts_confounders,,checkbox,"Please select smoking types used (Check all that apply)","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other (Please specify)",,,,,,"[smoking_hx]=""2"" or [smoking_hx]= ""3""",,,,,,
+is_regular_smoker,questionnaire_across_all_cohorts_confounders,SMOKING,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
+smoking_hx,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>Have you ever smoked regularly (more than a few times a month for at least two months)?<br /><em><span style=""font-weight: normal;"">This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.</span></em></p></div>","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
+age_start_smoking,questionnaire_across_all_cohorts_confounders,,text,"At what age did you start smoking?",,,number,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
+age_stop_smoking,questionnaire_across_all_cohorts_confounders,,text,"At what age did you stop smoking?",,,number,,,,"[smoking_hx]=""past""",,,,,,
+smoking_types,questionnaire_across_all_cohorts_confounders,,checkbox,"Please select smoking types used (Check all that apply)","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other (Please specify) | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
 other_smoking_specify,questionnaire_across_all_cohorts_confounders,,text,"If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
-smoking_freq,questionnaire_across_all_cohorts_confounders,,radio,"How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year",,,,,,"[smoking_hx]=""2"" or [smoking_hx]=""3""",,,,,,
-alcohol_yn,questionnaire_across_all_cohorts_confounders,"ALCOHOL CONSUMPTION",yesno,"Do you drink alcohol?",,,,,,,,y,,,,,
-alcohol_freq,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>How often do you have at least one drink containing alcohol?<br /><em><span style=""font-weight: normal;"">Drinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor</span></em></p></div>","1, Never | 2, Monthly or less | 3, 2 - 4 times a month | 4, 2 - 3 times a week | 5, 4 or more times a week",,,,,,"[alcohol_yn]=""1""",,,,,,
-alcohol_amt,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>How many drinks containing alcohol do you have on a typical day when you are drinking?<br /><span style=""font-weight: normal;""><em>One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor</em></span></p></div>","1, 0 - 2 | 2, 3 or 4 | 3, 5 or 6 | 4, 7 or 9 | 5, 10 or more",,,,,,"[alcohol_yn]=""1""",,,,,,
-alcohol_today,questionnaire_across_all_cohorts_confounders,,yesno,"Have you drunk alcohol today?",,,,,,,"[alcohol_yn]=""1""",,,,,,
-drinks_today_number,questionnaire_across_all_cohorts_confounders,,text,"How many drinks have you had today?",,,number,,,,"[alcohol_today]=""1""",,,,,,
-alcohol_rehab,questionnaire_across_all_cohorts_confounders,,yesno,"Have you ever required rehab/counseling for heavy alcohol use?",,,,,,,"[alcohol_yn]=""1""",,,,,,
-current_recovery_alcohol,questionnaire_across_all_cohorts_confounders,,yesno,"Are you currently in recovery for alcohol use?",,,,,,,"[alcohol_yn]=""1""",,,,,,
-recreational_drug_use,questionnaire_across_all_cohorts_confounders,"SUBSTANCE USE",yesno,"<div class=""rich-text-field-label""><p>How many times in the past year have you used a recreational substance or used a prescription medication for nonmedical reasons?<br /><em><span style=""font-weight: normal;"">Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).</span></em></p> <p>More than one</p></div>",,,,,,,,y,,,,,
+smoking_freq,questionnaire_across_all_cohorts_confounders,,radio,"How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year | noAnswer, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
+alcohol_yn,questionnaire_across_all_cohorts_confounders,"ALCOHOL CONSUMPTION",radio,"Do you drink alcohol?","yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+alcohol_freq,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>How often do you have at least one drink containing alcohol?<br /><em><span style=""font-weight: normal;"">Drinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor</span></em></p></div>","1, Monthly or less | 2, 2 - 4 times a month | 3, 2 - 3 times a week | 4, 4 or more times a week | 5, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+alcohol_amt,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>How many drinks containing alcohol do you have on a typical day when you are drinking?<br /><span style=""font-weight: normal;""><em>One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor</em></span></p></div>","1, 0 - 2 | 2, 3 - 4 | 3, 5 - 6 | 4, 7 - 9 | 5, 10 or more | 6, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+alcohol_drinks,questionnaire_across_all_cohorts_confounders,,radio,"How often did you have six or more drinks on one occasion in the past year?","neverInThePastYear, Never in the past year | lessThanMonthly, Less than monthly | monthly, Monthly | weekly, Weekly | daily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+alcohol_today,questionnaire_across_all_cohorts_confounders,,yesno,"Have you drunk alcohol today?",,,,,,,"[alcohol_yn]=""yes""",,,,,,
+drinks_today_number,questionnaire_across_all_cohorts_confounders,,text,"How many drinks did you have?",,,number,,,,"[alcohol_today]=""1""",,,,,,
+alcohol_rehab,questionnaire_across_all_cohorts_confounders,,radio,"Have you ever been in rehab or counseling for heavy alcohol use?","neverInThePastYear, Never in the past year | lessThanMonthly, Less than monthly | monthly, Monthly | weekly, Weekly | daily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,"[alcohol_yn]=""yes"" or [alcohol_yn]=""noAnswer""",,,,,,
+current_recovery_alcohol,questionnaire_across_all_cohorts_confounders,,yesno,"Are you currently in recovery for alcohol use?",,,,,,,"[alcohol_yn]=""yes"" or [alcohol_yn]=""noAnswer""",,,,,,
+recreational_drug_use,questionnaire_across_all_cohorts_confounders,"SUBSTANCE USE",yesno,"<div class=""rich-text-field-label""><p class=""p1"">How many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?</p> <p class=""p1""><span style=""font-weight: normal;""><em>Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).</em></span></p> <p>More than one</p></div>",,,,,,,,y,,,,,
 substance_use_recovery,questionnaire_across_all_cohorts_confounders,,yesno,"Are you currently in recovery for substance use?",,,,,,,"[recreational_drug_use]=""1""",,,,,,
 painkillers,questionnaire_across_all_cohorts_confounders,"During the past TWO (2) WEEKS, about how often did you use any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed?",radio,"Painkillers (like Vicodin)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 stimulants,questionnaire_across_all_cohorts_confounders,,radio,"Stimulants (like Ritalin, Adderall)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
@@ -338,78 +363,53 @@ marijuana,questionnaire_across_all_cohorts_confounders,,radio,Marijuana,"none, N
 cocaine,questionnaire_across_all_cohorts_confounders,,radio,"Cocaine or crack","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 club_drugs,questionnaire_across_all_cohorts_confounders,,radio,"Club drugs (like ecstasy)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 hallucinogens,questionnaire_across_all_cohorts_confounders,,radio,"Hallucinogens (like LSD)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
-heroin,questionnaire_across_all_cohorts_confounders,,radio,Heroin,"none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
+heroin,questionnaire_across_all_cohorts_confounders,,radio,"Heroin or other opioids, including synthetic opioids like fentanyl","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 inhalants,questionnaire_across_all_cohorts_confounders,,radio,"Inhalants or solvents (like glue)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 methamphetamine,questionnaire_across_all_cohorts_confounders,,radio,"Methamphetamine (like speed)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
-caffeine_intake,questionnaire_across_all_cohorts_confounders,"CAFFEINE INTAKE",text,"How many 8 oz / 230 ml / (small) cups of coffee OR shots of espresso OR caffeinated teas have you had today?",,,number,,,,,y,,,,,
-hydration,questionnaire_across_all_cohorts_confounders,HYDRATION,text,"How many 8 oz / 230 ml (small) cups of water have you had today?",,,number,,,,,y,,,,,
-dental_problems,questionnaire_across_all_cohorts_confounders,"ORAL OR DENTAL PROBLEMS",yesno,"Do you have any oral or dental problems that might affect speech?",,,,,,,,y,,,,,
+caffeine_intake,questionnaire_across_all_cohorts_confounders,"CAFFEINE INTAKE",text,"How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?",,,number,,,,,y,,,,,
+caffeine_intake_today,questionnaire_across_all_cohorts_confounders,,text,"How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?",,,,,,,,,,,,,
+hydration,questionnaire_across_all_cohorts_confounders,HYDRATION,text,"How many small (8oz or 230ml) cups of water do you drink on a typical day?",,,number,,,,,y,,,,,
+hydration_today,questionnaire_across_all_cohorts_confounders,,text,"How many small (8oz or 230ml) cups of water have you had TODAY?",,,,,,,,,,,,,
+dental_problems,questionnaire_across_all_cohorts_confounders,"DENTAL PROBLEMS",yesno,"Do you have any dental problems that might affect speech?",,,,,,,,y,,,,,
 dental_tx,questionnaire_across_all_cohorts_confounders,,text,"Do you currently have any tooth loss, dentures, retainers or braces? (Please specify)",,,,,,,[dental_problems]='1',,,,,,
-allergies_cold,questionnaire_across_all_cohorts_confounders,"ALLERGIES OR COLD SYMPTOMS",yesno,"Do you currently have allergies or cold-like symptoms?",,,,,,,,y,,,,,
+seasonal_allergies,questionnaire_across_all_cohorts_confounders,"ALLERGIES OR COLD SYMPTOMS",yesno,"Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?",,,,,,,,,,,,,
+seasonal_allergies_options,questionnaire_across_all_cohorts_confounders,,checkbox,"Check all that apply:","1, Nasal congestion or obstruction | 2, Cough | 3, Scratchy or sore throat | 4, Shortness of breath",,,,,,"[seasonal_allergies]=""1""",,,,,,
 tired_measure,questionnaire_across_all_cohorts_confounders,TIREDNESS,radio,"<div class=""rich-text-field-label""><p>How tired are you?<br /><em><span style=""font-weight: normal;"">0=not tired at all, 10=extremely tired</span></em></p></div>","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
 height,questionnaire_across_all_cohorts_confounders,"HEIGHT AND WEIGHT",text,"Height (inches)",,inches,number,,,,,,,,,,
 weight,questionnaire_across_all_cohorts_confounders,,text,"Weight (pounds)",,lbs,number,,,,,,,,,,
-unit,questionnaire_across_all_cohorts_confounders,,dropdown,Unit,"1, Metric | 2, Imperial",,,,,,,,,,,,
-medical_history,questionnaire_across_all_cohorts_confounders,"<p>EAR, NOSE, THROAT MEDICAL HISTORY<br /><br />Do you have any of these voice, communication, or hearing conditions or had any of the interventions mentioned below? (check all that apply)</p>",checkbox,"Medical History","1, Chronic ear infection | 2, Chronic rhinosinusitis | 3, Cochlear implant | 4, Cancer: throat | 5, Dysphagia (difficulty swallowing) | 6, Frequent sinusitis | 7, Hearing loss | 8, Migraine | 9, Pre-cancerous lesion (e.g., laryngeal leukoplakia or keratosis) | 10, Radiation around head, neck, or ears | 11, Reflux (heartburn) | 12, Reinke's edema, polypoid corditis, or smoker's larynx | 13, Seasonal allergies | 14, Sjögren's syndrome | 15, Swallowing disorders (dysphagia) | 16, Thyroid disease | 17, Velopharyngeal insufficiency | 18, Vocal fold polyp, nodule, or cyst | 19, Vocal hemorrhage or bleed | 20, Voice/throat disorder",,,,,,,,,,,,
-surgical_history,questionnaire_across_all_cohorts_confounders,,checkbox,"Surgical History","1, Chronic ear surgery (e.g. mastoid) | 2, Ear tubes | 3, Head/Neck cancer (e.g. oropharyngeal cancer) | 4, Sinus surgery | 5, Septoplasty/Rhinoplasty | 6, Sleep surgery | 7, Throat surgery | 8, Thyroid surgery | 9, Tonsillectomy/Adenoidectomy",,,,,,,,,,,,
-neurological_symptoms,questionnaire_across_all_cohorts_confounders,"NEUROLOGICAL MEDICAL HISTORY
+unit,questionnaire_across_all_cohorts_confounders,,dropdown,Unit,"1, Metric | 2, US customary units",,,,,,,,,,,,
+symptoms,questionnaire_across_all_cohorts_confounders,SYMPTOMS,checkbox,"There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply.","1, Anxiety or nervousness | 2, Confusion | 3, Dizziness | 4, Frequent or severe headache or migraine | 5, Sleep disturbance | 6, Speech difficulty | 7, Prefer not to answer",,,,,,,,,,,,
+ear_med_history,questionnaire_across_all_cohorts_confounders,"<p>EAR, NOSE, THROAT MEDICAL HISTORY<br /><br />Do you have any of these voice, communication, or hearing conditions? (check all that apply)</p>",checkbox,Ear,"1, Chronic ear infection | 2, Cochlear implant | 3, Hearing loss",,,,,,,,,,,,
+nose_med_history,questionnaire_across_all_cohorts_confounders,,checkbox,Nose,"1, Frequent sinusitis",,,,,,,,,,,,
+throat_med_history,questionnaire_across_all_cohorts_confounders,,checkbox,Throat,"1, Pre-cancerous throat lesion (e.g. laryngeal leukoplakia or keratosis | 2, Reflux (heartburn) | 3, Reinke's edema, polypoid corditis, or smoker's larynx | 4, Sjögren's syndrome | 5, Swallowing disorders (dysphagia) | 6, Throat cancer | 7, Thyroid disease | 8, Velopharyngeal insufficiency | 9, Vocal fold dysfunction, paradoxical vocal fold motion, or inducible laryngeal obstruction | 10, Vocal fold polyp, nodule, or cyst | 11, Vocal hemorrhage or bleed | 12, Voice/throat disorder",,,,,,,,,,,,
+head_med_history,questionnaire_across_all_cohorts_confounders,,checkbox,Head,"1, Radiation around head and neck | 2, Seasonal allergies",,,,,,,,,,,,
+ear_surgical,questionnaire_across_all_cohorts_confounders,"Have you had any of the interventions mentioned below? (check all that apply)",checkbox,Ear,"1, Chronic ear surgery (e.g. mastoid) | 2, Ear tubes",,,,,,,,,,,,
+nose_surgical,questionnaire_across_all_cohorts_confounders,,checkbox,Nose,"1, Septoplasty/Rhinoplasty | 2, Sinus surgery",,,,,,,,,,,,
+throat_surgical,questionnaire_across_all_cohorts_confounders,,checkbox,Throat,"1, Airway surgery | 2, Throat surgery | 3, Thyroid surgery | 4, Tonsillectomy/Adenoidectomy",,,,,,,,,,,,
+head_surgical,questionnaire_across_all_cohorts_confounders,,checkbox,Head,"1, Head/Neck cancer (e.g. oropharyngeal cancer) | 2, Sleep surgery",,,,,,,,,,,,
+neurological_history,questionnaire_across_all_cohorts_confounders,"NEUROLOGICAL MEDICAL HISTORY
 
-Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological symptoms","1, Dizziness | 2, Frequent or severe headache | 3, Speech difficulty",,,,,,,,,,,,
-neurological_history,questionnaire_across_all_cohorts_confounders,,checkbox,"Neurological history","1, Alzheimer's Disease | 2, Brain tumor | 3, Dementia | 4, Epilepsy | 5, Migraine | 6, Multiple sclerosis | 7, Parkinson's Disease | 8, Stroke | 9, Traumatic brain injury",,,,,,,,,,,,
-current_neuro_dx,questionnaire_across_all_cohorts_confounders,,radio,"<p>Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?","1, None | 2, Only some | 3, All",,,,,,"[neurological_symptoms(1)] = ""1"" or
-[neurological_symptoms(2)] = ""1"" or
-[neurological_symptoms(3)] = ""1"" or
-[neurological_history(1)] = ""1"" or
+Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological Medical History","1, Brain tumor | 2, Dysarthria | 3, Epilepsy | 4, Multiple sclerosis | 5, Traumatic brain injury | 6, Other",,,,,,,,,,,,
+current_neuro_dx,questionnaire_across_all_cohorts_confounders,,radio,"<p>Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?","1, None | 2, Only some | 3, All",,,,,,"[neurological_history(1)] = ""1"" or
 [neurological_history(2)] = ""1"" or
 [neurological_history(3)] = ""1"" or
 [neurological_history(4)] = ""1"" or
 [neurological_history(5)] = ""1"" or
-[neurological_history(6)] = ""1"" or
-[neurological_history(7)] = ""1"" or
-[neurological_history(8)] = ""1"" or
-[neurological_history(9)] = ""1""",,RH,,,,
+[neurological_history(6)] = ""1""",,RH,,,,
 specify_current_neuro,questionnaire_across_all_cohorts_confounders,,text,"Which ones do you currently have? (please specify)",,,,,,,[current_neuro_dx]=2,,RH,,,,
-psychiatric_symptoms,questionnaire_across_all_cohorts_confounders,"PSYCHIATRIC CONDITIONS
+respiratory_conditions,questionnaire_across_all_cohorts_confounders,"RESPIRATORY CONDITIONS",checkbox,"Respiratory Conditions","1, Bronchiectasis | 2, Cancer (lung or metastatic) | 3, Emphysema | 4, Interstitial lung disease (sarcoidosis, pulmonary fibrosis) | 5, Pneumothorax or atelectasis (collapsed lung) | 6, Pulmonary hypertension | 7, Radiation to the chest | 8, Tuberculosis",,,,,,,,,,,,
+lung_or_metastatic,questionnaire_across_all_cohorts_confounders,,checkbox,"Cancer (lung or metastatic)","1, Lung | 2, Metastatic",,,,,,"[respiratory_conditions(2)]=""1""",,,,,,
+covid,questionnaire_across_all_cohorts_confounders,,checkbox,"Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)","past_year, COVID in the past year | long, Long COVID (symptoms persisted at least four weeks after initial infection)",,,,,,,,,,,,
+covid_past,questionnaire_across_all_cohorts_confounders,,radio,"Have you had COVID in the past month?","yes, Yes | no, No",,,,,,"[covid(past_year)]=""1""",,,,,,
+cpap_conditions,questionnaire_across_all_cohorts_confounders,,checkbox,"Are you currently using CPAP or supplemental oxygen? (check all that apply)","1, Active CPAP use | 2, On supplemental oxygen",,,,,,,,,,,,
+resp_medical_history,questionnaire_across_all_cohorts_confounders,,checkbox,"Have you had any of the interventions mentioned below? (check all that apply)
 
-Have you been diagnosed with any of these mental health conditions by a clinician? (check all that apply)",checkbox,"Psychiatric Symptoms","1, Confusion | 2, Nervous/Anxious | 3, Sleep disturbance",,,,,,,,,,,,
-psychiatric_diagnosis,questionnaire_across_all_cohorts_confounders,,checkbox,"Psychiatric Diagnosis","1, Agoraphobia | 2, Attention-Deficit / Hyperactivity Disorder (ADD/ADHD) | 3, Autism Spectrum Disorder (ASD) | 4, Bipolar Disorder | 5, Borderline Personality Disorder (BPD) | 6, Eating Disorder (ED) | 7, Generalized Anxiety Disorder (GAD) | 8, Insomnia / sleep disorder | 9, Major Depressive Disorder | 10, Obsessive-Compulsive Disorder (OCD) | 11, Panic Disorder | 12, Post-Traumatic Stress Disorder (PTSD) | 13, Schizophrenia | 14, Social Anxiety Disorder | 15, Substance Use Disorder",,,,,,,,,,,,
-current_psych,questionnaire_across_all_cohorts_confounders,,radio,"Do you currently have these conditions?","1, None | 2, Only some | 3, All",,,,,,"[psychiatric_symptoms(1)] = ""1"" or
-[psychiatric_symptoms(2)] = ""1"" or
-[psychiatric_symptoms(3)] = ""1"" or
-[psychiatric_diagnosis(1)] = ""1"" or
-[psychiatric_diagnosis(2)] = ""1"" or
-[psychiatric_diagnosis(3)] = ""1"" or
-[psychiatric_diagnosis(4)] = ""1"" or
-[psychiatric_diagnosis(5)] = ""1"" or
-[psychiatric_diagnosis(6)] = ""1"" or
-[psychiatric_diagnosis(7)] = ""1"" or
-[psychiatric_diagnosis(8)] = ""1"" or
-[psychiatric_diagnosis(9)] = ""1"" or
-[psychiatric_diagnosis(10)] = ""1"" or
-[psychiatric_diagnosis(11)] = ""1"" or
-[psychiatric_diagnosis(12)] = ""1"" or
-[psychiatric_diagnosis(13)] = ""1"" or
-[psychiatric_diagnosis(14)] = ""1"" or
-[psychiatric_diagnosis(15)] = ""1""",,RH,,,,
-specify_current_psych,questionnaire_across_all_cohorts_confounders,,text,"Which ones do you currently have? (please specify)",,,,,,,[current_psych]=2,,RH,,,,
-current_psych_tx,questionnaire_across_all_cohorts_confounders,,yesno,"Do you currently receive treatment for these conditions?",,,,,,,"[psychiatric_symptoms(1)] = ""1"" or
-[psychiatric_symptoms(2)] = ""1"" or
-[psychiatric_symptoms(3)] = ""1"" or
-[psychiatric_diagnosis(1)] = ""1"" or
-[psychiatric_diagnosis(2)] = ""1"" or
-[psychiatric_diagnosis(3)] = ""1"" or
-[psychiatric_diagnosis(4)] = ""1"" or
-[psychiatric_diagnosis(5)] = ""1"" or
-[psychiatric_diagnosis(6)] = ""1"" or
-[psychiatric_diagnosis(7)] = ""1"" or
-[psychiatric_diagnosis(8)] = ""1"" or
-[psychiatric_diagnosis(9)] = ""1"" or
-[psychiatric_diagnosis(10)] = ""1"" or
-[psychiatric_diagnosis(11)] = ""1"" or
-[psychiatric_diagnosis(12)] = ""1"" or
-[psychiatric_diagnosis(13)] = ""1"" or
-[psychiatric_diagnosis(14)] = ""1"" or
-[psychiatric_diagnosis(15)] = ""1""",,RH,,,,
+Respiratory medical history","1, Craniofacial or chest wall trauma | 2, Previous lobectomy | 3, Prior chest/airway surgery | 4, Prolonged intubation (more than a week)",,,,,,,,,,,,
+exposed_environmental_pollution,questionnaire_across_all_cohorts_confounders,,radio,"Have you been exposed to environmental pollution that may affect your breathing or voice?","yes, Yes | no, No",,,,,,,,,,,,
+circulatory_conditions,questionnaire_across_all_cohorts_confounders,"CIRCULATORY AND OTHER CONDITIONS",checkbox,"Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)","1, Atrial fibrillation | 2, Cardiac condition | 3, Chronic pericarditis | 4, Congestive heart failure | 5, Coronary heart disease | 6, Hypertension",,,,,,,,,,,,
+cardiac_condition,questionnaire_across_all_cohorts_confounders,,text,"Cardiac condition",,,,,,,"[circulatory_conditions(2)]=""1""",,,,,,
+circulatory_med_history,questionnaire_across_all_cohorts_confounders,,checkbox,"Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)","1, Chronic kidney disease | 2, Diabetes | 3, Infectious disease | 4, Obesity | 5, Scoliosis",,,,,,,,,,,,
+infection_disease,questionnaire_across_all_cohorts_confounders,,text,"Infectious disease",,,,,,,"[circulatory_med_history(3)]=""1""",,,,,,
 ph_standing,questionnaire_across_all_cohorts_confounders,"PHYSICAL HEALTH
 		
 In the past 30 days, how much difficulty did you have in:",radio,"Standing for long periods such as 30 minutes?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
@@ -428,12 +428,14 @@ physical_health_freq,questionnaire_across_all_cohorts_confounders,,text,"Overall
 phys_health_impact,questionnaire_across_all_cohorts_confounders,,text,"In the past 30 days, for how many days were you totally unable to carry out your usual activities or work because of any health condition?",,days,number,,,,,y,RH,,,,
 phys_health_limited,questionnaire_across_all_cohorts_confounders,,text,"In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?",,days,,,,,,y,RH,,,,
 medications,questionnaire_across_all_cohorts_confounders,"MEDICATIONS
-",checkbox,"Do you currently take or use any of these medications or substances? (Check all that apply)","1, Antibiotics | 2, Antihistamines | 3, Cocaine use | 4, Diuretics | 5, Hormone use - oral contraceptives | 6, Inhaled corticosteroids for asthma | 7, Pain medications | 8, Psychotropic medications | 9, Tricyclic antidepressants | 10, Vitamins | 11, Other (please specify)",,,,,,,,,,,,
-other_meds_specify,questionnaire_across_all_cohorts_confounders,,text,"If you checked ""other"" medications are used currently, please specify:",,,,,,,"[medications(11)]=""1""",,RH,,,,
-menstruate,questionnaire_across_all_cohorts_confounders,GYNECOLOGICAL,radio,"Do you menstruate?","1, Does not apply | 2, Yes | 3, I am pregnant | 4, I have an IUD | 5, I have gone through menopause | 6, Other (Please specify)",,,,,,,y,,,,,
-other_menstruate_specify,questionnaire_across_all_cohorts_confounders,,text,"If you selected ""other"" for menstruate, please specify:",,,,,,,"[menstruate] = ""6""",,,,,,
-menstrual_cycle_status,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>Where in your cycle are you? <br /><em><span style=""font-weight: normal;"">(We ask because this may affect your voice.)</span></em></p></div>","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='2',,,,,,
-voice_activity,questionnaire_across_all_cohorts_confounders,"VOICE ACTIVITY",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)","1, Bartender | 2, Waiter, receptionist | 3, Speaking (secretary, call center, attorney, salesperson) | 4, K-12 Teacher | 5, Singer | 6, Cheerleading | 7, Other (please specify)",,,,,,,,,,,,
+",checkbox,"Do you currently take or use any of these medications or substances? (Check all that apply)","1, Antibiotics | 2, Anti-histamines (allergy medications) | 3, Anti-Hypertensive Medications (Blood Pressure Medication) | 4, Diuretics (ex: Lasix) | 5, Decongestants | 6, Muscle relaxants (ex: Baclofen) | 7, Hormone use | 8, Inhaled corticosteroids | 9, Oral steroids | 10, Anti-anxiety medications: (ex: Benzodiazepine) | 11, Chronic Pain medication | 12, Psychotropic/antipsychotic medications (ex: Clozapine) | 13, Antidepressants (ex: amitryptiline) | 14, Immune suppressors (ex: Methotrexate) | 15, Reflux medications (ex: Pantoprazole, Nexium) | 16, Anticholinergics (ex: Ventolin) | 17, Anticoagulants (blood thinners) | 18, Antiepileptic (ex: Phenytoin)",,,,,,,,,,,,
+hormone_use,questionnaire_across_all_cohorts_confounders,,checkbox,"Hormone use","1, Oral contraceptive | 2, Hormonal replacement therapy (HRT) | 3, Androgenic steroids | 4, Other",,,,,,"[medications(7)]=""1""",,,,,,
+pain_medication,questionnaire_across_all_cohorts_confounders,,checkbox,"Chronic Pain medication","1, NSAIDs (ex: Ibuprofen/Advil/Cerebrex) | 2, Morphine/Oxycodone | 3, Neuro-modulators (ex: Gabapentin, Lyrica)",,,,,,"[medications(11)]=""1""",,,,,,
+menstruate,questionnaire_across_all_cohorts_confounders,GYNECOLOGICAL,radio,"Do you menstruate?","doesNotApply, Does not apply | yes, Yes | no, No | noAnswer, Prefer no to answer",,,,,,,y,,,,,
+menstruate_no,questionnaire_across_all_cohorts_confounders,,radio,"Please explain","pregnant, I am pregnant | iud, I have an IUD | menopause, I have gone through menopause | other, Other",,,,,,"[menstruate]=""no""",,,,,,
+other_menstruate_specify,questionnaire_across_all_cohorts_confounders,,text,"If you selected ""other"" for menstruate, please specify:",,,,,,,"[menstruate_no] = ""other""",,,,,,
+menstrual_cycle_status,questionnaire_across_all_cohorts_confounders,,radio,"<div class=""rich-text-field-label""><p>Where in your cycle are you? <br /><em><span style=""font-weight: normal;"">(We ask because this may affect your voice.)</span></em></p></div>","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='yes',,,,,,
+voice_activity,questionnaire_across_all_cohorts_confounders,"VOICE ACTIVITY",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)","1, Bartender | 2, Waiter, receptionist | 3, Speaking  (secretary, call center, attorney, salesperson) | 4, Teacher | 5, Singer | 6, Cheerleading | 7, Other",,,,,,,,,,,,
 other_voice_activity,questionnaire_across_all_cohorts_confounders,,text,"If you selected ""other"" for voice activity, please specify:",,,,,,,"[voice_activity(7)] = ""1""",,RH,,,,
 hours_voice_activity,questionnaire_across_all_cohorts_confounders,,text,"How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?",,hours,number,,,,"[voice_activity(1)] = ""1"" or
 [voice_activity(2)] = ""1"" or
