@@ -2,8 +2,10 @@
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, Español | 3, Français",,,,,,,y,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent",,,,,,,y,,,,,
+consent_method,subjectparticipant_basic_information,,radio,"Consent Method","paper, Paper Consent | econsent, eConsent | e_video_consent, Video Consent",,,,,,"[consent_status] = '2'",y,,,,,
 withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn Consent Reason",,,,,,,"[consent_status] = 3",,,,,,
 withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,,"[consent_status] = 3",,,,,,
+is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
 enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,,"[enrolled] = 1",,,,,,
 enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
@@ -101,6 +103,9 @@ ef_osa,enrollment_form,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1,
 ef_autism,enrollment_form,"Pediatric disorders",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
 ef_speech_delay,enrollment_form,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
 ef_eligible_studies,enrollment_form,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
+ef_learn_about_this_study,enrollment_form,"How did you learn about this study?",radio,"How did you learn about this study?","physician, Through my physician/provider | flyer, A flyer | social_media, Social Media | bridge2ai_website, Bridge2AI Website | event, At an event | other, Other",,,,,,,,,,,,
+ef_learn_about_this_study_event,enrollment_form,,text,"If ""At an event"", please specify:",,,,,,,"[ef_learn_about_this_study] = 'event'",,,,,,
+ef_learn_about_this_study_other,enrollment_form,,text,"If ""Other"", please specify:",,,,,,,"[ef_learn_about_this_study] = 'other'",,,,,,
 ef_first_name,enrollment_form,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
 ef_last_name,enrollment_form,,text,"Last Name",,,,,,y,,y,,,,,
 ef_phone_number,enrollment_form,,text,"Phone Number",,###-###-####,phone,,,y,,,,,,,
@@ -113,6 +118,7 @@ ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for decl
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,,,,,,,,
+ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Enrollment Website",,,,,,,,,,,," @READONLY"
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
@@ -1263,3 +1269,7 @@ random_started_at,q_neuro_random_item_generation,,text,"Questionnaire Started At
 random_completed_at,q_neuro_random_item_generation,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
 random_duration,q_neuro_random_item_generation,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
 random_item_generation_category,q_neuro_random_item_generation," Random item generation / semantic fluency",radio,"Random item generation category","numbers, Numbers | letters, Letters | firstNames, First names | cityNames, City names | countryNames, Country names | jobs, Jobs | fruits, Fruits | drinks, Drinks | animals, Animals | wordStartingWithT, English words starting with ""t""",,,,,,,,,,,,
+moca_notes,q_neuro_moca,"MoCA Test Questionnaire",descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">Steps to download MoCA test results from the DUO app and upload them here:</span></p> <ol> <li><span style=""font-weight: normal;"">Export MoCA test results in .pdf format to your Sinai email ID from the MoCA DUO app</span></li> <li><span style=""font-weight: normal;"">Open the pdf, enter the password (Rater's MoCA login password)</span></li> <li><span style=""font-weight: normal;"">Remove the password from the .pdf document and save it as a new document.<br /></span><span style=""font-weight: normal;""><br />How to remove a password from a .pdf using Adobe Acrobat<br /></span> <table style=""border-collapse: collapse; width: 100%; height: 99.7812px;"" border=""1""> <tbody> <tr style=""height: 99.7812px;""> <td style=""width: 99.8519%; height: 99.7812px;""> <p><span style=""font-weight: normal;"">Open the PDF in Adobe Acrobat.</span><br /><span style=""font-weight: normal;"">Go to ""File"" > ""Properties"" > ""Security"".</span><br /><span style=""font-weight: normal;"">Choose ""No Security"" from the security method drop-down menu (you might need to enter the password).</span><br /><span style=""font-weight: normal;"">Save the document to apply changes.</span></p> </td> </tr> </tbody> </table> </li> <li><span style=""font-weight: normal;"">Upload the scanned pdf to Bridge2AI REDCap field below</span></li> </ol></div>",,,,,,,,,,,,,
+moca_duo_pdf,q_neuro_moca,,file,"MoCA DUO PDF",,,,,,,,y,,,,,
+moca_pdf_uploaded_by,q_neuro_moca,,text,"MoCA DUO PDF Uploaded By",,,,,,,,y,,,,," @USERNAME
+@READONLY"
