@@ -3,16 +3,17 @@ record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, Español | 3, Français",,,,,,,y,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent",,,,,,,y,,,,,
 consent_method,subjectparticipant_basic_information,,radio,"Consent Method","paper, Paper Consent | econsent, eConsent | e_video_consent, Video Consent",,,,,,"[consent_status] = '2'",y,,,,,
-withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn Consent Reason",,,,,,,"[consent_status] = 3",,,,,,
-withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,,"[consent_status] = 3",,,,,,
+withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn Consent Reason",,,,,,y,"[consent_status] = 3",,,,,,
+withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,y,"[consent_status] = 3",,,,,,
 is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
-enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,,"[enrolled] = 1",,,,,,
+enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,y,"[enrolled] = 1",,,,,,
 enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
-researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,,,y,,,,,
+researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,y,,,,,
 first_name,subjectparticipant_contact_information,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
 last_name,subjectparticipant_contact_information,,text,"Last Name",,,,,,y,,y,,,,,
 dob,subjectparticipant_contact_information,,text,"What is your date of birth?",,,date_ymd,,,y,,y,,,,,
+age,subjectparticipant_contact_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
 phone_number,subjectparticipant_contact_information,,text,"Phone Number",,###-###-####,,,,y,,y,,,,,
 email,subjectparticipant_contact_information,,text,Email,,,email,,,y,,y,,,,,
 contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. 
@@ -115,12 +116,12 @@ ef_contact_info_stored,enrollment_form,,yesno,"I want my contact information to 
 My information will not be shared with third parties.",,,,,,,,y,,,,,
 ef_enrollment,enrollment_form,"<div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Review and Enroll:</span></p></div>",radio,"<div class=""rich-text-field-label""><p>Please review your answers reading all the way through the bottom and select an option. <br /><br /><em>If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.</em></p></div>","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
-ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,,"[ef_reason_decline_enroll]=""5""",,,,,,
+ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
-ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,,,,,,,,
+ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,y,,,,,,,
 ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Enrollment Website",,,,,,,,,,,," @READONLY"
-ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,,,,,,,," @READONLY"
-ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,,,,,,,," @READONLY"
+ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
+ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,y,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 paper_consent_notes,bridge2ai_paper_consent_all_sites_english,"Paper Consent Form for all Sites",descriptive,"Fill out Instructions
 1. Upload the .pdf of the paper consent.
@@ -129,9 +130,9 @@ paper_consent_notes,bridge2ai_paper_consent_all_sites_english,"Paper Consent For
 4. Once all the fields are entered mark this form as ""Complete""
 
 If uploading a paper consent form instead of eConsent, navigate to Form ""Subject/Participant - Basic Information"" and update Consent Status to ""Consented""",,,,,,,,,,,,,
-paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Paper Consent PDF - All Sites",,,,,,,,y,,,,,
+paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Paper Consent PDF - All Sites",,,,,,y,,y,,,,,
 paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
-paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,,,y,,,,," @USERNAME
+paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
 page_1,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
 page2,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
@@ -142,67 +143,67 @@ page6,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
 page7,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
 page8,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
 page_9,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-consent_usf_question,bridge2ai_econsent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research and Authorization for the Collection, Use and Disclosure of Health Information:<br /><span style=""font-weight: normal;"">I freely give my consent to take part in this study and authorize that my health information as agreed above, be collected/disclosed in this study. I understand that by signing this form I am agreeing to take part in research. I have received a copy of this form to take with me. I understand that by filling out the best future contact below, I am consenting to be contacted in the future for further voice data collection if long term follow up is required as part of an eventual extension of this grant after the 4-year duration.</span><br /><span style=""font-weight: normal;"">Please select one of the three statements below that you consent to.</span></p></div>","1, I consent to having all data I submit shared only with the researchers of this study. | 2, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers. | 3, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers as well as publicly in the form of an open-source database.",,,,,,,y,LV,,,,
+consent_usf_question,bridge2ai_econsent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research and Authorization for the Collection, Use and Disclosure of Health Information:<br><span style=""font-weight: normal;"">I freely give my consent to take part in this study and authorize that my health information as agreed above, be collected/disclosed in this study. I understand that by signing this form I am agreeing to take part in research. I have received a copy of this form to take with me. I understand that by filling out the best future contact below, I am consenting to be contacted in the future for further voice data collection if long term follow up is required as part of an eventual extension of this grant after the 4-year duration.</span><br><span style=""font-weight: normal;"">Please select one of the three statements below that you consent to.</span></p></div>","1, I consent to having all data I submit shared only with the researchers of this study. | 2, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers. | 3, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers as well as publicly in the form of an open-source database.",,,,,y,,y,LV,,,,
 consent_usf_signature,bridge2ai_econsent_main_icf_usf_english,,file,"Signature of Person Taking Part in Study
 [Authorization]
 
 
-",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_usf_name,bridge2ai_econsent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_usf_date,bridge2ai_econsent_main_icf_usf_english,,text,Date,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_usf_name,bridge2ai_econsent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_usf_date,bridge2ai_econsent_main_icf_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 researcher_statement2,bridge2ai_econsent_main_icf_usf_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-researcher_signature,bridge2ai_econsent_main_icf_usf_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-researcher_name,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-researcher_date,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
-combined_pdf_main_icf_usf,bridge2ai_econsent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,,,,,,,,
+researcher_signature,bridge2ai_econsent_main_icf_usf_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
+researcher_name,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
+researcher_date,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
+combined_pdf_main_icf_usf,bridge2ai_econsent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,y,,,,,,,
 consent_wcm_p1,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p2,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p3,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p4,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_statement,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_permission_2,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_permission_1,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
+consent_wcm_permission_2,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
 consent_wcm_statement_2,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
 consent_wcm_p5,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_signature,bridge2ai_econsent_addendum_wcm_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_name,bridge2ai_econsent_addendum_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_date,bridge2ai_econsent_addendum_wcm_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_name,bridge2ai_econsent_addendum_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_date,bridge2ai_econsent_addendum_wcm_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 consent_wcm_p6,bridge2ai_econsent_addendum_wcm_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature,bridge2ai_econsent_addendum_wcm_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-consent_wcm_rs_name,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-consent_wcm_rs_date,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
-upload_addendums,bridge2ai_econsent_combined_pdf_addendum_wcm,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
+consent_wcm_rs_signature,bridge2ai_econsent_addendum_wcm_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
+consent_wcm_rs_name,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
+consent_wcm_rs_date,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
+upload_addendums,bridge2ai_econsent_combined_pdf_addendum_wcm,,file,"Combined PDF-WCM English Addendum",,,,,,y,,,,,,,
 consent_wcm_p1_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p3_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_p4_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_statement_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_permission_2_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_permission_1_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
+consent_wcm_permission_2_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
 consent_wcm_statement_2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
 consent_wcm_p5_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
 consent_wcm_signature_mit,bridge2ai_econsent_addendum_mit_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_name_mit,bridge2ai_econsent_addendum_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_date_mit,bridge2ai_econsent_addendum_mit_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_name_mit,bridge2ai_econsent_addendum_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_date_mit,bridge2ai_econsent_addendum_mit_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 consent_wcm_p6_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,,,y,,,,,
-consent_wcm_rs_name_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,,,y,,,,,
-consent_wcm_rs_date_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,Date,,,date_ymd,,,,,y,,,,,
-upload_addendums_mit,bridge2ai_econsent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,,,,,,,,
+consent_wcm_rs_signature_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
+consent_wcm_rs_name_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
+consent_wcm_rs_date_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
+upload_addendums_mit,bridge2ai_econsent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,y,,,,,,,
 consent_bch_p1,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
 consent_bch_p2,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
 consent_bch_p3,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
 consent_bch_p4,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
 consent_bch_statement,bridge2ai_econsent_addendum_bch_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,,,y,,,,,
-consent_wcm_permission_2_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,,,y,,,,,
+consent_wcm_permission_1_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
+consent_wcm_permission_2_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
 consent_wcm_statement_2_bch,bridge2ai_econsent_addendum_bch_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
 consent_wcm_signature_bch,bridge2ai_econsent_addendum_bch_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_name_bch,bridge2ai_econsent_addendum_bch_english,,text,"Printed Name of Person Taking Part in Study",,,,,,,,y,,,,," @READONLY-FORM"
-consent_wcm_date_bch,bridge2ai_econsent_addendum_bch_english,,text,,,,date_ymd,,,,,y,,,,," @READONLY-FORM"
+[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_name_bch,bridge2ai_econsent_addendum_bch_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_date_bch,bridge2ai_econsent_addendum_bch_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 diagnosis_vfp_gsd,d_voice_vocal_fold_paralysis,"1. Gold Standard Diagnosis",radio,"Does the patient have VFP confirmed by laryngoscopy/stroboscopy?","0, No | 1, Yes | 2, Not certain",,,,,,,y,,,,,
 diagnosis_vfp_ds,d_voice_vocal_fold_paralysis,"2. Disease Subtype",radio,"Which side is the paralysis?","1, Left | 2, Right",,,,,,,y,,,,,
 diagnosis_vfp_etiology,d_voice_vocal_fold_paralysis,"3. Etiology",radio,"What is the etiology?","1, Idiopathic | 2, Iatrogenic (surgery/intubation) | 3, Tumor invading RLN | 4, Radiation",,,,,,,y,,,,,
@@ -264,29 +265,36 @@ diagnosis_bipolar_etiology_depression,d_mood_depression_or_major_depressive_diso
 diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_disorder,"5.	Disease Severity",radio,"Disease Severity","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
 diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,"6.	Treatment obtained",text,"List any current medications/therapies",,,,,,,,,,,,,
 diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any former medications/therapies",,,,,,,,,,,,,
-diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis<br><br>4. Disease Severity",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
-diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy/bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_as_gsd_yes,d_resp_airway_stenosis,,radio,"Confirmed by","bronchoscopy, Confirmed by bronchoscopy/laryngoscopy | ct, Confirmed by CT imaging",,,,,,"[diagnosis_as_gsd] = ""yes""",y,,,,,
-diagnosis_as_ds,d_resp_airway_stenosis,"2. Disease Subtype",radio,"Disease Subtype","subgloticStenosis, Subglottic Stenosis | bilateralVocalFoldImmobility, Bilateral Vocal fold immobility | glotticStenosis, Glottic Stenosis | supraglotticStenosis, Supraglottic Stenosis | trachealStenosis, Tracheal Stenosis | multilevelUpperAirwayStenosis, Multi-Level Upper Airway Stenosis",,,,,,,y,,,,,
-diagnosis_as_ds_bvfi,d_resp_airway_stenosis,,radio,"Bilateral Vocal fold immobility Subtype","posteriorGlotticStenosis, Posterior Glottic Stenosis | bilateralVocalFoldParalysis, Bilateral Vocal Fold Paralysis | tbd, To be Determined/Not certain",,,,,,"[diagnosis_as_ds] = 'bilateralVocalFoldImmobility'",y,,,,,
-diagnosis_as_etiology,d_resp_airway_stenosis,"3. Etiology",radio,"What is the etiology?","tbd, Not certain / TBD | iatrogenic, Iatrogenic (surgery/intubation) | idiopathic, Idiopathic | autoImmune, Auto-immune / granulomatous disease | radiation, Radiation | other, Other",,,,,,,y,,,,,
-diagnosis_as_etiology_auto_immune,d_resp_airway_stenosis,,radio,"Auto-immune / granulomatous disease Subcategory","gpa, Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease) | relapsingPolychondritis, Relapsing Polychondritis | other, Other",,,,,,"[diagnosis_as_etiology] = 'autoImmune'",y,,,,,
-diagnosis_as_etiology_other,d_resp_airway_stenosis,,radio,"Other Subcategory","gerd, GERD | injury, Caustic Injury/Inhalation Injury | infectious, Infectious (Diphteria, TB, Bacterial Tracheitis, other) | rrp, Recurrent Respiratory Papillomatosis | other, Other",,,,,,"[diagnosis_as_etiology] = 'other'",y,,,,,
-diagnosis_as_ds_mcg,d_resp_airway_stenosis,"4. Disease Severity",radio,"Degree of Stenosis (Myer-Cotton Grade)","gradeI, Grade I | gradeII, Grade II | gradeIII, Grade III | gradeIV, Grade IV",,,,,,"[diagnosis_as_ds] = 'subgloticStenosis'",y,,,,,
+diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_as_gsd_yes,d_resp_airway_stenosis,,checkbox,"Confirmed by","bronchoscopy, Confirmed by bronchoscopy or laryngoscopy | ct, Confirmed by CT imaging",,,,,,"[diagnosis_as_gsd] = ""yes""",y,,,,,
+diagnosis_as_ds,d_resp_airway_stenosis,"2. Disease Subtype",radio,"Disease Subtype","subglotticStenosis, Subglottic Stenosis | bilateralVocalFoldImmobilityGlotticStenosis, Bilateral Vocal fold immobility or Glottic Stenosis | supraglotticStenosis, Supraglottic Stenosis | trachealStenosis, Tracheal Stenosis | multilevelUpperAirwayStenosis, Multi-Level Upper Airway Stenosis",,,,,,,y,,,,,
+diagnosis_as_ds_bvfi_gs,d_resp_airway_stenosis,,radio,"Bilateral Vocal fold immobility or Glottic Stenosis Subtype","posteriorGlotticStenosis, Posterior Glottic Stenosis | bilateralVocalFoldParalysis, Bilateral Vocal Fold Paralysis | anteriorGlotticWeb, Anterior glottic Web | tbd, Not certain or TBD | other, Other",,,,,,"[diagnosis_as_ds] = 'bilateralVocalFoldImmobilityGlotticStenosis'",y,,,,,
+diagnosis_as_ds_bvfi_gs_other,d_resp_airway_stenosis,,text,"Other, Please specify",,,,,,,"[diagnosis_as_ds_bvfi_gs] = 'other'",,,,,,
+diagnosis_as_etiology,d_resp_airway_stenosis,"3. Etiology",radio,"What is the etiology?","tbd, Not certain or TBD | iatrogenic, Iatrogenic (surgery or intubation) | idiopathic, Idiopathic | autoImmune, Auto-immune or granulomatous disease | radiation, Radiation | gerd, GERD | causticInjuryInhalationInjury, Caustic Injury or Inhalation Injury | infectious, Infectious (Diphtheria, TB, Bacterial Tracheitis, other) | other, Other",,,,,,,y,,,,,
+diagnosis_as_etiology_other,d_resp_airway_stenosis,,text,"Other, Please specify",,,,,,,"[diagnosis_as_etiology] = 'other'",y,,,,,
+diagnosis_as_etiology_auto_immune,d_resp_airway_stenosis,,radio,"Auto-immune or granulomatous disease Subcategory","gpa, Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease) | relapsingPolychondritis, Relapsing Polychondritis | other, Other",,,,,,"[diagnosis_as_etiology] = 'autoImmune'",y,,,,,
+diagnosis_as_ds_mcg,d_resp_airway_stenosis,,radio,"Degree of Stenosis (Myer-Cotton Grade)","gradeI, Grade I | gradeII, Grade II | gradeIII, Grade III | gradeIV, Grade IV",,,,,,"[diagnosis_as_ds] = 'subglotticStenosis' or [diagnosis_as_ds] = 'trachealStenosis'",y,,,,,
 diagnosis_as_ds_mcg_ref,d_resp_airway_stenosis,,descriptive,"Degree of Stenosis (Myer-Cotton Grade) 
-Picture for reference",,,,,,,"[diagnosis_as_ds] = 'subgloticStenosis'",,,,,,
+Picture for reference",,,,,,,"[diagnosis_as_ds] = 'subglotticStenosis' or [diagnosis_as_ds] = 'trachealStenosis'",,,,,,
+diagnosis_as_ds_bc,d_resp_airway_stenosis,,radio,"Degree of Stenosis (Bogdasarian Classification)","class1, (a) Class 1 | class2, (b) Class 2 | class3, (c) Class 3 | class4, (d) Class 4",,,,,,"[diagnosis_as_ds_bvfi_gs] = 'posteriorGlotticStenosis'",y,,,,,
+diagnosis_as_ds_bc_ref,d_resp_airway_stenosis,,descriptive,"Degree of Stenosis (Bogdasarian Classification)
+Picture for reference",,,,,,,"[diagnosis_as_ds_bvfi_gs] = 'posteriorGlotticStenosis'",,,,,,
+diagnosis_as_ds_agw,d_resp_airway_stenosis,,radio,"Anterior Glottic Web classification (Cohen)","grade1, Grade 1 (0-35% obstruction) | grade2, Grade 2 (35-50% obstruction) | grade3, Grade 3 (51-75% obstruction) | grade4, Grade 4 (76-100% obstruction)",,,,,,"[diagnosis_as_ds_bvfi_gs]=""anteriorGlotticWeb""",,,,,,
+diagnosis_as_ds_cc_ref,d_resp_airway_stenosis,,descriptive,"Anterior Glottic Web classification (Cohen)
+Picture for reference",,,,,,,"[diagnosis_as_ds_bvfi_gs]=""anteriorGlotticWeb""",,,,,,
+diagnosis_as_ds_ac,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade1, Grade 1 | grade2, Grade 2 | grade3, Grade 3 | grade4, Grade 4 | unsure, Unsure",,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",y,,,,,
+diagnosis_as_ds_ac_grade_4,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade4t, Grade 4T | grade4g, Grade 4G | grade4tg, Grade 4TG",,,,,,"[diagnosis_as_ds_ac] = 'grade4'",y,,,,,
 diagnosis_as_ds_ac_ref,d_resp_airway_stenosis,,descriptive,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)
 Picture for reference",,,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",,,,,,
-diagnosis_as_ds_bc,d_resp_airway_stenosis,,radio,"Degree of Stenosis (Bogdasarian Classification)","class1, Class 1 | class2, Class 2 | class3, Class 3 | class4, Class 4",,,,,,"[diagnosis_as_ds] = 'glotticStenosis' or [diagnosis_as_ds] = 'trachealStenosis'",y,,,,,
-diagnosis_as_ds_ac,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade1, Grade 1 | grade2, Grade 2 | grade3, Grade 3 | grade4, Grade 4 | unsure, Unsure",,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",y,,,,,
-diagnosis_as_ds_bc_ref,d_resp_airway_stenosis,,descriptive,"Degree of Stenosis (Bogdasarian Classification)
-Picture for reference",,,,,,,"[diagnosis_as_ds] = 'glotticStenosis' or [diagnosis_as_ds] = 'trachealStenosis'",,,,,,
-diagnosis_as_ds_ac_grade_4,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade4t, Grade 4T | grade4g, Grade 4G | grade4tg, Grade 4TG",,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis' and [diagnosis_as_ds_ac] = 'gradeIV'",y,,,,,
+diagnosis_as_ds_mluas,d_resp_airway_stenosis,,notes,"Please describe levels and severity of stenosis involved",,,,,,,[diagnosis_as_ds]='multilevelUpperAirwayStenosis',,RH,,,,
 diagnosis_as_ds_ods,d_resp_airway_stenosis,,radio,"How would you subjectively classify the overall degree of stenosis?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
-diagnosis_as_treatment,d_resp_airway_stenosis,"5. Treatment obtained",radio,"What treatment has the patient undergone for their stenosis?","noTreatment, No treatment | surgery, Surgery | inOfficeTreatment, In-office treatment",,,,,,,y,,,,,
-diagnosis_as_treatment_surgery,d_resp_airway_stenosis,,radio,"Surgery options","endoscopicIntervention, Endoscopic intervention with Laser and Balloon dilation and steroid injection | endoscopicExcision, Endoscopic laser wedge excision | laryngotrachealReconstruction, Laryngotracheal reconstruction | laryngotracheoplasty, Laryngotracheoplasty (Maddern procedure) | tracheostomy, Tracheostomy",,,,,,"[diagnosis_as_treatment] = 'surgery'",y,,,,,
-diagnosis_as_treatment_in_office,d_resp_airway_stenosis,,radio,"In-office treatment options","steroidInjection, Steroid injection(s) | dilation, In-office dilation | laser, In-office laser",,,,,,"[diagnosis_as_treatment] = 'inOfficeTreatment'",y,,,,,
+diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?",,,number,,,,,,RH,,,,
+diagnosis_as_treatment,d_resp_airway_stenosis,"5. Treatment obtained",checkbox,"What treatment has the patient undergone for their stenosis?","no_treatment, No treatment | surgery, Surgery | in_office_treatment, In-office treatment",,,,,,,y,,,,,
+diagnosis_as_treatment_surgery,d_resp_airway_stenosis,,checkbox,"Surgery options","endoscopic_intervention, Endoscopic intervention with Laser and Balloon dilation and steroid injection | endoscopic_excision, Endoscopic laser wedge excision with balloon dilation and steroid injection | laryngotracheal_reconstruction, Open Laryngotracheal reconstruction | laryngotracheoplasty, Laryngotracheoplasty (Maddern procedure) | tracheostomy, Tracheostomy | other, Other",,,,,,"[diagnosis_as_treatment(surgery)] = ""1""",y,,,,,
+diagnosis_as_treatment_surgery_other,d_resp_airway_stenosis,,text,"Other Surgery option, Please Specify",,,,,,,"[diagnosis_as_treatment_surgery(other)]=""1""",,,,,,
+diagnosis_as_treatment_in_office,d_resp_airway_stenosis,,checkbox,"In-office/awake treatment options","steroid_injections_sole, Awake Steroid injection(s) as sole treatment | steroid_injections_adjunct, Awake Steroid injection(s) as adjunct treatment | dilation, In-office or awake dilation | laser, In-office or awake laser",,,,,,"[diagnosis_as_treatment(in_office_treatment)] = ""1""",y,,,,,
 diagnosis_alz_dementia_mci_gsd_clinical_history,d_neuro_alzheimers_disease_mild_cognitive_impairme,"1. Gold Standard Diagnosis
 Does the patient have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia confirmed by going through
 (must fill at least one):",text,"Clinical history:",,,,,,,,,,,,,
@@ -377,8 +385,8 @@ diagnosis_als_treatment_and_management_yes_supportive_care_other,d_neuro_amyotro
 diagnosis_healthy_developmentally_typical_children_ci,d_peds_healthy_developmentallytypical_children,"1. Clinical Information",radio,"Can you confirm that based on the current clinical status this child is healthy and developmentally-typical at this time? (e.g., could this code (ICD 10 Z00. 129) be applied for a visit at this time)","yes, Yes | no, No",,,,,,,y,,,,,
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
-session_started_at,session,,text,"Session Started At",,,,,,,,,,,,," @READONLY"
-session_completed_at,session,,text,"Session Completed At",,,,,,,,,,,,," @READONLY"
+session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
+session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 session_site,session,,radio,"Session Site?","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,," @READONLY"
 acoustic_task_id,acoustic_task,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
@@ -386,31 +394,31 @@ acoustic_task_session_id,acoustic_task,,text,"Session ID",,,,,,,,y,,,,," @READON
 acoustic_task_name,acoustic_task,,text,"Acoustic Task Name",,,,,,,,y,,,,," @READONLY"
 acoustic_task_cohort,acoustic_task,,text,"Acoustic Task Cohort",,,,,,,,y,,,,," @READONLY"
 acoustic_task_status,acoustic_task,,radio,"Acoustic Task Status","1, Skipped | 2, Completed",,,,,,,,,,,," @READONLY"
-acoustic_task_started_at,acoustic_task,,text,"Acoustic Task Started At",,,,,,,,,,,,," @READONLY"
-acoustic_task_completed_at,acoustic_task,,text,"Acoustic Task Completed At",,,,,,,,,,,,," @READONLY"
+acoustic_task_started_at,acoustic_task,,text,"Acoustic Task Started At",,,,,,y,,,,,,," @READONLY"
+acoustic_task_completed_at,acoustic_task,,text,"Acoustic Task Completed At",,,,,,y,,,,,,," @READONLY"
 acoustic_task_duration,acoustic_task,,text,"Acoustic Task Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 recording_id,recording,,text,"Recording ID",,,,,,,,y,,,,," @READONLY"
 recording_acoustic_task_id,recording,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 recording_session_id,recording,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 recording_name,recording,,text,"Recording Name",,,,,,,,y,,,,," @READONLY"
-recording_filepath,recording,,text,"Recording Filepath",,,,,,,,y,,,,," @READONLY"
-recording_storage_account,recording,,text,"Storage Account",,,,,,,,y,,,,," @READONLY"
-recording_file_share,recording,,text,"File Share",,,,,,,,y,,,,," @READONLY"
+recording_filepath,recording,,text,"Recording Filepath",,,,,,y,,y,,,,," @READONLY"
+recording_storage_account,recording,,text,"Storage Account",,,,,,y,,y,,,,," @READONLY"
+recording_file_share,recording,,text,"File Share",,,,,,y,,y,,,,," @READONLY"
 recording_duration,recording,,text,"Duration (Seconds)",,,,,,,,y,,,,," @READONLY"
 recording_size,recording,,text,"Recording Size (KiB)",,,,,,,,y,,,,," @READONLY"
-recording_created_at,recording,,text,"File Created At",,,,,,,,,,,,," @READONLY"
+recording_created_at,recording,,text,"File Created At",,,,,,y,,,,,,," @READONLY"
 recording_profile_name,recording,,radio,"Recording Profile Name","speech, Speech | breathe, Breathe | cough, Cough",,,,,,,y,,,,," @READONLY"
 recording_profile_version,recording,,radio,"Recording Profile Version","1, v1.0.0",,,,,,,y,,,,," @READONLY"
 recording_input_gain,recording,,text,"Recording Input Gain",,,,,,,,y,,,,," @READONLY"
 recording_microphone,recording,,text,"Recording Microphone",,,,,,,,y,,,,," @READONLY"
 demographics_session_id,q_generic_demographics,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-demographics_started_at,q_generic_demographics,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
-demographics_completed_at,q_generic_demographics,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+demographics_started_at,q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
+demographics_completed_at,q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 demographics_duration,q_generic_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 demographics_completed_by,q_generic_demographics,,checkbox,"Who is completing this survey?","1, Self | 2, Assistant | 3, Parent/Caregiver",,,,,,,,,,,,
-city,q_generic_demographics,"Address Information",text,City,,,,,,,,,,,,,
+city,q_generic_demographics,"Address Information",text,City,,,,,,y,,,,,,,
 state_province,q_generic_demographics,,text,State/Province,,,,,,,,,,,,,
-zipcode,q_generic_demographics,,text,Zipcode,,,,,,,,,,,,,
+zipcode,q_generic_demographics,,text,Zipcode,,,,,,y,,,,,,,
 country,q_generic_demographics,,dropdown,Country,"1, USA | 2, Canada",,,,,,,y,,,,,
 gender_identity,q_generic_demographics,"Patient Demographics",radio,"What is your gender identity?","female, Female gender identity | male, Male gender identity | nonBinary, Non-binary or genderqueer gender identity | other, Other | noAnswer, Prefer not to answer",,,,,,,,,,,,
 other_gender_identity,q_generic_demographics,,text,"If you selected ""other"" for gender identity, please specify:",,,,,,,[gender_identity]='other',,,,,,
@@ -465,8 +473,8 @@ transportation_yn,q_generic_demographics,,yesno,"Do you have a reliable mode of 
 primary_transportation,q_generic_demographics,,radio,"What is your primary mode of transportation?","1, Personal vehicle | 2, Shared vehicle | 3, Public transportation | 4, Ride with someone else | 5, Ride service | 6, Bicycle/Motorbike | 7, Walking | 8, Other (Please specify)",,,,,,"[transportation_yn]=""1""",,,,,,
 other_transportation,q_generic_demographics,,text,"If you selected ""other"" transportation, please specify.",,,,,,,"[primary_transportation]=""8""",,,,,,
 confounders_session_id,q_generic_confounders,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-confounders_started_at,q_generic_confounders,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
-confounders_completed_at,q_generic_confounders,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+confounders_started_at,q_generic_confounders,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
+confounders_completed_at,q_generic_confounders,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 confounders_duration,q_generic_confounders,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 is_regular_smoker,q_generic_confounders,SMOKING,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
 smoking_hx,q_generic_confounders,,radio,"<div class=""rich-text-field-label""><p>Have you ever smoked regularly (more than a few times a month for at least two months)?<br /><em><span style=""font-weight: normal;"">This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.</span></em></p></div>","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
@@ -582,13 +590,13 @@ hours_voice_activity,q_generic_confounders,,text,"How many hours per day do you 
 [voice_activity(7)] = ""1""",,RH,,,,
 reading_aloud,q_generic_confounders,"READING ACTIVITY",radio,"""How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?""","excellent, Excellent | veryGood, Very good | good, Good | fair, Fair | poor, Poor",,,,,,,y,,,,,
 voice_perception_session_id,q_generic_voice_perception,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-voice_perception_started_at,q_generic_voice_perception,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-voice_perception_completed_at,q_generic_voice_perception,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+voice_perception_started_at,q_generic_voice_perception,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+voice_perception_completed_at,q_generic_voice_perception,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 voice_perception_duration,q_generic_voice_perception,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 voice_quality_perception,q_generic_voice_perception,"Voice Quality Perception",radio,"<div class=""rich-text-field-label""><p>How would rate your voice quality today from 1-10?<br /><em>1 is the lowest quality and 10 is the best voice quality</em></p></div>","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
 vhi_session_id,q_generic_voice_handicap_index_vhi10,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-vhi_started_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-vhi_completed_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+vhi_started_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+vhi_completed_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 vhi_duration,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 voice_difficult_hear,q_generic_voice_handicap_index_vhi10,"Voice Handicap Index (VHI-10)",radio,"My voice makes it difficult for people to hear me.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
 tough_to_understand,q_generic_voice_handicap_index_vhi10,,radio,"People have difficulty understanding me in a noisy room.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
@@ -601,8 +609,8 @@ voice_upsetting,q_generic_voice_handicap_index_vhi10,,radio,"My voice problem up
 voice_handicapped,q_generic_voice_handicap_index_vhi10,,radio,"My voice makes me feel handicapped.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
 ask_whats_wrong_voice,q_generic_voice_handicap_index_vhi10,,radio,"People ask, ""What's wrong with your voice?""","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
 phq_9_session_id,q_generic_patient_health_questionnaire9,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-phq_9_started_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-phq_9_completed_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+phq_9_started_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+phq_9_completed_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 phq_9_duration,q_generic_patient_health_questionnaire9,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 no_interest,q_generic_patient_health_questionnaire9,"Over the last 2 weeks, how often have you been bothered by any of the following problems?",radio,"Little interest or pleasure in doing things.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,phq_9,,
 feeling_depressed,q_generic_patient_health_questionnaire9,,radio,"Feeling down, depressed, or hopeless.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,phq_9,,
@@ -623,8 +631,8 @@ hard_to_work,q_generic_patient_health_questionnaire9,,radio,"How difficult have 
 [move_speak_slow] > 0 or
 [thoughts_death] > 0",,,,,,
 gad_7_session_id,q_generic_gad7_anxiety,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-gad_7_started_at,q_generic_gad7_anxiety,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-gad_7_completed_at,q_generic_gad7_anxiety,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+gad_7_started_at,q_generic_gad7_anxiety,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+gad_7_completed_at,q_generic_gad7_anxiety,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 gad_7_duration,q_generic_gad7_anxiety,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 nervous_anxious,q_generic_gad7_anxiety,"Over the last two weeks, how often have you been bothered by the following problems?",radio,"Feeling nervous, anxious, or on edge.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,gad_7_anxiety,,
 cant_control_worry,q_generic_gad7_anxiety,,radio,"Not being able to stop or control worrying.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,gad_7_anxiety,,
@@ -641,13 +649,13 @@ tough_to_work,q_generic_gad7_anxiety,,radio,"How difficult have they made it for
 [easily_agitated] > 0 or
 [afraid_of_things] > 0",,,,,,
 voice_severity_session_id,q_voice_voice_problem_severity,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-voice_severity_started_at,q_voice_voice_problem_severity,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-voice_severity_completed_at,q_voice_voice_problem_severity,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+voice_severity_started_at,q_voice_voice_problem_severity,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+voice_severity_completed_at,q_voice_voice_problem_severity,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 voice_severity_duration,q_voice_voice_problem_severity,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 describe_the_severity_of_a,q_voice_voice_problem_severity,"Voice problem severity",slider,"<div class=""rich-text-field-label""><p>Describe the severity of auditory-perceptual attributes of a voice problem<br /><br /><span style=""font-weight: normal;""><em>*Overall severity scale (0-100)</em></span></p></div>","0 |  | 100",,number,,,,,y,RH,,,,
 panas_session_id,q_mood_panas,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-panas_started_at,q_mood_panas,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-panas_completed_at,q_mood_panas,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+panas_started_at,q_mood_panas,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+panas_completed_at,q_mood_panas,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 panas_duration,q_mood_panas,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 upset,q_mood_panas,"Thinking about yourself and how you normally feel, to what extent do you generally feel?
 
@@ -662,8 +670,8 @@ attentive,q_mood_panas,,radio,Attentive,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,
 afraid,q_mood_panas,,radio,Afraid,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,panas,,
 active,q_mood_panas,,radio,Active,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,panas,,
 custom_affect_scale_session_id,q_mood_custom_affect_scale,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-custom_affect_scale_started_at,q_mood_custom_affect_scale,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-custom_affect_scale_completed_at,q_mood_custom_affect_scale,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+custom_affect_scale_started_at,q_mood_custom_affect_scale,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+custom_affect_scale_completed_at,q_mood_custom_affect_scale,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 custom_affect_scale_duration,q_mood_custom_affect_scale,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 sad_or_down,q_mood_custom_affect_scale,"Thinking about yourself and how you normally feel, to what extent do you generally feel?
 
@@ -681,8 +689,8 @@ relaxed,q_mood_custom_affect_scale,,radio,"Relaxed or calm","0, 0 | 1, 1 | 2, 2 
 worried,q_mood_custom_affect_scale,,radio,"Worried or anxious","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,,,custom_affect_scale,,
 desire_to_escape,q_mood_custom_affect_scale,,radio,"Desire to escape (your thoughts and/or feelings)","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,,,custom_affect_scale,,
 dsm_5_session_id,q_mood_dsm5_adult,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-dsm_5_started_at,q_mood_dsm5_adult,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-dsm_5_completed_at,q_mood_dsm5_adult,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+dsm_5_started_at,q_mood_dsm5_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+dsm_5_completed_at,q_mood_dsm5_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 dsm_5_duration,q_mood_dsm5_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 little_interest,q_mood_dsm5_adult,"During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?
 
@@ -733,8 +741,8 @@ social_phobia_8,q_mood_dsm5_adult,,radio,"spent a lot of time preparing what to 
 social_phobia_9,q_mood_dsm5_adult,,radio,"distracted myself to avoid thinking about social situations","0, Never | 1, Occasionally | 2, Half of the time | 3, Most of the time | 4, All of the time",,,,,,"[feeling_nervous] >= 2 or [feeling_panic] >= 2 or [avoiding_situations] >= 2",,,,dsm_5_adult_social_phobia1,,
 social_phobia_10,q_mood_dsm5_adult,,radio,"needed help to cope with social situations (e.g., alcohol or medications, superstitious objects)","0, Never | 1, Occasionally | 2, Half of the time | 3, Most of the time | 4, All of the time",,,,,,"[feeling_nervous] >= 2 or [feeling_panic] >= 2 or [avoiding_situations] >= 2",,,,dsm_5_adult_social_phobia1,,
 ptsd_session_id,q_mood_ptsd_adult,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-ptsd_started_at,q_mood_ptsd_adult,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-ptsd_completed_at,q_mood_ptsd_adult,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+ptsd_started_at,q_mood_ptsd_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+ptsd_completed_at,q_mood_ptsd_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 ptsd_duration,q_mood_ptsd_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 traumatic_event,q_mood_ptsd_adult,"Severity of Posttraumatic Stress Symptoms - Adult",notes,"Please list the traumatic event that you experienced",,,,,,,,,,,,,
 traumatic_event_date,q_mood_ptsd_adult,,text,"Date of the traumatic event:",,,date_ymd,,,,,,,,,,
@@ -750,8 +758,8 @@ super_alert,q_mood_ptsd_adult,,radio,"Being ""super alert"", on guard, or consta
 feeling_jumpy,q_mood_ptsd_adult,,radio,"Feeling jumpy or easily startled when you hear an unexpected noise?","0, 0=Not at all | 1, 1=A little bit | 2, 2=Moderately | 3, 3=Quite a bit | 4, 4=Extremely",,,,,,,y,,,ptsd_adult,,
 irritable,q_mood_ptsd_adult,,radio,"Being extremely irritable or angry to the point where you yelled at other people, got into fights, or destroyed things?","0, 0=Not at all | 1, 1=A little bit | 2, 2=Moderately | 3, 3=Quite a bit | 4, 4=Extremely",,,,,,,y,,,ptsd_adult,,
 adhd_session_id,q_mood_adhd_adult,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-adhd_started_at,q_mood_adhd_adult,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-adhd_completed_at,q_mood_adhd_adult,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+adhd_started_at,q_mood_adhd_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+adhd_completed_at,q_mood_adhd_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 adhd_duration,q_mood_adhd_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 wrapping_up,q_mood_adhd_adult,"Please answer the questions below, rating yourself on each of the criteria shown using the scale on the right side of the page. As you answer each question, select the box that best describes how you have felt and conducted yourself over the past 6 months.",radio,"How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 things_in_order,q_mood_adhd_adult,,radio,"How often do you have difficulty getting things in order when you have to do a task that requires organization?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
@@ -772,8 +780,8 @@ finish_other_sent,q_mood_adhd_adult,,radio,"When you're in a conversation, how o
 difficulty_waiting,q_mood_adhd_adult,,radio,"How often do you have difficulty waiting your turn in situations when turn taking is required?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 interrupt_others,q_mood_adhd_adult,,radio,"How often do you interrupt others when they are busy?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 dyspnea_index_session_id,q_resp_dyspnea_index_di,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-dyspnea_index_started_at,q_resp_dyspnea_index_di,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-dyspnea_index_completed_at,q_resp_dyspnea_index_di,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+dyspnea_index_started_at,q_resp_dyspnea_index_di,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+dyspnea_index_completed_at,q_resp_dyspnea_index_di,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 dyspnea_index_duration,q_resp_dyspnea_index_di,,text,"Questionnaire Duration (seconds)",,,,,,,,y,,,,," @READONLY"
 di_air_in,q_resp_dyspnea_index_di,"Please answer the following questions using a 0-4 rating scale.
 
@@ -788,8 +796,8 @@ di_exercise,q_resp_dyspnea_index_di,,radio,"My shortness of breath gets worse wi
 di_breathing_stresses_me,q_resp_dyspnea_index_di,,radio,"My breathing problem makes me feel stressed.","never, Never | almostNever, Almost never | sometimes, Sometimes | almostAlways, Almost always | always, Always",,,,,,,y,,,di,,
 di_restrict_personal_social_life,q_resp_dyspnea_index_di,,radio,"My breathing problem causes me to restrict my personal and social life.","never, Never | almostNever, Almost never | sometimes, Sometimes | almostAlways, Almost always | always, Always",,,,,,,y,,,di,,
 leicester_cough_session_id,q_resp_leicester_cough_questionnaire_lcq,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
-leicester_cough_started_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Started At",,,,,,,,y,,,,," @READONLY"
-leicester_cough_completed_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Completed At",,,,,,,,y,,,,," @READONLY"
+leicester_cough_started_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
+leicester_cough_completed_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 leicester_cough_duration,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Duration (seconds)",,,,,,,,y,,,,," @READONLY"
 lcq_chest_stomach_pains,q_resp_leicester_cough_questionnaire_lcq,"Please answer the following questions using a 1-7 rating scale.
 
@@ -813,8 +821,8 @@ lcq_partner,q_resp_leicester_cough_questionnaire_lcq,,radio,"In the last 2 weeks
 lcq_felt_in_control,q_resp_leicester_cough_questionnaire_lcq,,radio,"In the last 2 weeks, have you felt in control of your cough?","noneOfTheTime, None of the time | hardlyAnyOfTheTime, Hardly any of the time | aLittleOfTheTime, A little of the time | someOfTheTime, Some of the time | aGoodBitOfTheTime, A good bit of the time | mostOfTheTime, Most of the time | allOfTheTime, All of the time",,,,,,,y,,,leicester_cough,,
 lcq_energy,q_resp_leicester_cough_questionnaire_lcq,,radio,"In the last 2 weeks, have you had a lot of energy?","noneOfTheTime, None of the time | hardlyAnyOfTheTime, Hardly any of the time | aLittleOfTheTime, A little of the time | someOfTheTime, Some of the time | aGoodBitOfTheTime, A good bit of the time | mostOfTheTime, Most of the time | allOfTheTime, All of the time",,,,,,,y,,,leicester_cough,,
 winograd_session_id,q_neuro_winograd_schemas,"Questionnaire - Metadata",text,"Session ID",,,,,,,,,,,,," @READONLY"
-winograd_started_at,q_neuro_winograd_schemas,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
-winograd_completed_at,q_neuro_winograd_schemas,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+winograd_started_at,q_neuro_winograd_schemas,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
+winograd_completed_at,q_neuro_winograd_schemas,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 winograd_duration,q_neuro_winograd_schemas,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
 winograd_score,q_neuro_winograd_schemas,"Winograd Schema Scoring",text,"Winograd Schema Score",,,,,,,,,,,,," @READONLY"
 winograd_number_questions,q_neuro_winograd_schemas,,text,"Number of questions asked",,,,,,,,,,,,," @READONLY"
@@ -1097,9 +1105,9 @@ winograd_q_274,q_neuro_winograd_schemas,,radio,"274. Emma did not pass the ball 
 winograd_q_275,q_neuro_winograd_schemas,,radio,"275. Joe saw his brother skiing on TV last night but the fool didn't recognize him. Who is the fool?","correct, Joe | incorrect, Joe's brother",,,,,,,,LV,,,,
 winograd_q_276,q_neuro_winograd_schemas,,radio,"276. Joe saw his brother skiing on TV last night but the fool didn't have a coat on. Who is the fool?","incorrect, Joe | correct, Joe's brother",,,,,,,,LV,,,,
 stroop_session_id,q_neuro_wordcolor_stroop,"Questionnaire - Metadata",text,"Session ID",,,,,,,,,,,,," @READONLY"
-stroop_started_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
 stroop_recording_acoustic_task_id,q_neuro_wordcolor_stroop,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
-stroop_completed_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+stroop_started_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
+stroop_completed_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 stroop_duration,q_neuro_wordcolor_stroop,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
 stroop_item_stimulus_1,q_neuro_wordcolor_stroop,"Item 1",radio,"Item 1
 Stimulus","oooo, oooo | red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
@@ -1222,10 +1230,10 @@ Time Start",,,,,,,,,,,,,
 stroop_item_correct_15,q_neuro_wordcolor_stroop,,radio,"Item 15
 Correct?","yes, Yes | no, No",,,,,,,,,,,,
 vocabulary_session_id,q_neuro_productive_vocabulary,"Questionnaire - Metadata",text,"Session ID",,,,,,,,,,,,," @READONLY"
-vocabulary_started_at,q_neuro_productive_vocabulary,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
 vocabulary_recording_acoustic_task_id,q_neuro_productive_vocabulary,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
+vocabulary_started_at,q_neuro_productive_vocabulary,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 vocabulary_completed_at,q_neuro_productive_vocabulary,,text,"Questionnaire Completed At
-",,,,,,,,,,,,," @READONLY"
+",,,,,,y,,,,,,," @READONLY"
 vocabulary_duration,q_neuro_productive_vocabulary,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
 vocabulary_item_word_1,q_neuro_productive_vocabulary,"Item 1",radio,"Item 1
 Word","boil, boil | duckling, duckling | cupboard, cupboard | workbench, workbench | agreeable, agreeable | swear, swear | cap, cap | unwire, unwire | guitarist, guitarist | hardcover, hardcover | broccoli, broccoli | unsolved, unsolved | coral, coral | gladiator, gladiator | monkey, monkey | jobless, jobless | capitalization, capitalization | selfish, selfish | emptiness, emptiness | pain, pain | brainpower, brainpower | lettuce, lettuce | wartime, wartime | newsboy, newsboy | equipment, equipment | sensation, sensation | burglar, burglar | idiotic, idiotic | spoils, spoils | belong, belong | greeter, greeter | screech, screech | tardy, tardy | viewing, viewing | heating, heating | homeward, homeward | payment, payment | refereeing, refereeing | canyon, canyon | nutmeg, nutmeg | birdcage, birdcage | killer, killer | waistband, waistband | mutter, mutter | specific, specific | clerk, clerk | orphaned, orphaned | bat, bat | bakeshop, bakeshop | hilarious, hilarious | cheeseburger, cheeseburger | able, able | morning, morning | tradition, tradition | jean, jean | merry, merry | sunset, sunset | stand, stand | sportsmanlike, sportsmanlike | superstitious, superstitious | weightless, weightless | vibration, vibration | spotless, spotless | plank, plank | pebble, pebble | wastebasket, wastebasket | envy, envy | hammer, hammer | sun, sun | whole, whole | faucet, faucet | cursive, cursive | tire, tire | perch, perch | invitation, invitation | continent, continent | membership, membership | scramble, scramble | wood, wood | pheasant, pheasant | anonymous, anonymous | strategic, strategic | polling, polling | combustion, combustion | remembrance, remembrance | obscure, obscure | cleric, cleric | outrank, outrank | absolution, absolution | priesthood, priesthood | critic, critic | uncensored, uncensored | hobbyist, hobbyist | perilous, perilous | irate, irate | global, global | hovel, hovel | sophomore, sophomore | dirham, dirham | keen, keen | fuddle, fuddle | battlewagon, battlewagon | entail, entail | scarab, scarab | dank, dank | guarantee, guarantee | adjuster, adjuster | enliven, enliven | biodegradable, biodegradable | enfold, enfold | amputee, amputee | trench, trench | ovation, ovation | unsuitable, unsuitable | suburban, suburban | memento, memento | inevitable, inevitable | marine, marine | uncorrupted, uncorrupted | mystique, mystique | behemoth, behemoth | marshland, marshland | unaltered, unaltered | minority, minority | illicit, illicit | stockbroker, stockbroker | luster, luster | contort, contort | crimping, crimping | finery, finery | feminist, feminist | hallmark, hallmark | showy, showy | tarantella, tarantella | restaurateur, restaurateur | uncanny, uncanny | kilter, kilter | legislation, legislation | illogical, illogical | entirety, entirety | irreparable, irreparable | itinerary, itinerary | concept, concept | quivering, quivering | plagiarize, plagiarize | effectiveness, effectiveness | portrayal, portrayal | civilization, civilization | variation, variation | omen, omen | teriyaki, teriyaki | oligarch, oligarch | compartmentalize, compartmentalize | lemma, lemma | aquaplane, aquaplane | homicidal, homicidal | editorialize, editorialize | inkling, inkling | valency, valency | mesosphere, mesosphere | distillate, distillate | deduce, deduce | deformation, deformation | puerile, puerile | cynical, cynical | surreal, surreal | denigrate, denigrate | unconventionally, unconventionality | maceration, maceration | jocularity, jocularity | poignant, poignant | subornation, subornation | heliotrope, heliotrope | clef, clef | exudation, exudation | inequitable, inequitable | lox, lox | loyalist, loyalist | immutable, immutable | conga, conga | affirmation, affirmation | pejorative, pejorative",,,,,,,,,,,,
@@ -1265,11 +1273,11 @@ vocabulary_item_correct_6,q_neuro_productive_vocabulary,,radio,"Item 6
 Correct?","yes, Yes | no, No",,,,,,,,,,,,
 random_session_id,q_neuro_random_item_generation,"Questionnaire - Metadata",text,"Session ID",,,,,,,,,,,,," @READONLY"
 random_recording_acoustic_task_id,q_neuro_random_item_generation,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
-random_started_at,q_neuro_random_item_generation,,text,"Questionnaire Started At",,,,,,,,,,,,," @READONLY"
-random_completed_at,q_neuro_random_item_generation,,text,"Questionnaire Completed At",,,,,,,,,,,,," @READONLY"
+random_started_at,q_neuro_random_item_generation,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
+random_completed_at,q_neuro_random_item_generation,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 random_duration,q_neuro_random_item_generation,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
 random_item_generation_category,q_neuro_random_item_generation," Random item generation / semantic fluency",radio,"Random item generation category","numbers, Numbers | letters, Letters | firstNames, First names | cityNames, City names | countryNames, Country names | jobs, Jobs | fruits, Fruits | drinks, Drinks | animals, Animals | wordStartingWithT, English words starting with ""t""",,,,,,,,,,,,
 moca_notes,q_neuro_moca,"MoCA Test Questionnaire",descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">Steps to download MoCA test results from the DUO app and upload them here:</span></p> <ol> <li><span style=""font-weight: normal;"">Export MoCA test results in .pdf format to your Sinai email ID from the MoCA DUO app</span></li> <li><span style=""font-weight: normal;"">Open the pdf, enter the password (Rater's MoCA login password)</span></li> <li><span style=""font-weight: normal;"">Remove the password from the .pdf document and save it as a new document.<br /></span><span style=""font-weight: normal;""><br />How to remove a password from a .pdf using Adobe Acrobat<br /></span> <table style=""border-collapse: collapse; width: 100%; height: 99.7812px;"" border=""1""> <tbody> <tr style=""height: 99.7812px;""> <td style=""width: 99.8519%; height: 99.7812px;""> <p><span style=""font-weight: normal;"">Open the PDF in Adobe Acrobat.</span><br /><span style=""font-weight: normal;"">Go to ""File"" > ""Properties"" > ""Security"".</span><br /><span style=""font-weight: normal;"">Choose ""No Security"" from the security method drop-down menu (you might need to enter the password).</span><br /><span style=""font-weight: normal;"">Save the document to apply changes.</span></p> </td> </tr> </tbody> </table> </li> <li><span style=""font-weight: normal;"">Upload the scanned pdf to Bridge2AI REDCap field below</span></li> </ol></div>",,,,,,,,,,,,,
-moca_duo_pdf,q_neuro_moca,,file,"MoCA DUO PDF",,,,,,,,y,,,,,
-moca_pdf_uploaded_by,q_neuro_moca,,text,"MoCA DUO PDF Uploaded By",,,,,,,,y,,,,," @USERNAME
+moca_duo_pdf,q_neuro_moca,,file,"MoCA DUO PDF",,,,,,y,,y,,,,,
+moca_pdf_uploaded_by,q_neuro_moca,,text,"MoCA DUO PDF Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
