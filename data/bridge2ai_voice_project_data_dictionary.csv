@@ -20,6 +20,7 @@ contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my con
 
 My information will not be shared with third parties.",,,,,,,,y,,,,,
 eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
+is_control_participant,subjectparticipant_eligible_studies,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 laryng_cancer,subjectparticipant_eligible_studies,"<div class=""rich-text-field-label""><div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Do you have any of these conditions, diagnosed by a clinician?</span>
 <em><span style=""text-decoration: underline;"">(Check all that apply if you currently have the condition)</span></em></p></div></div>
 
@@ -115,6 +116,7 @@ ef_contact_info_stored,enrollment_form,,yesno,"I want my contact information to 
 
 My information will not be shared with third parties.",,,,,,,,y,,,,,
 ef_enrollment,enrollment_form,"<div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Review and Enroll:</span></p></div>",radio,"<div class=""rich-text-field-label""><p>Please review your answers reading all the way through the bottom and select an option. <br /><br /><em>If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.</em></p></div>","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
+ef_is_control_participant,enrollment_form,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
@@ -222,22 +224,182 @@ diagnosis_degree_b,d_voice_vocal_fold_paralysis,,slider,Breathiness,"MI | MO | S
 diagnosis_degree_b_2,d_voice_vocal_fold_paralysis,,radio,Breathiness,"1, Consistent | 2, Intermittent",,,,,,,y,RH,,,,
 diagnosis_degree_s,d_voice_vocal_fold_paralysis,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
 diagnosis_degree_s_2,d_voice_vocal_fold_paralysis,,radio,Strain,"1, Consistent | 2, Intermittent",,,,,,,y,RH,,,,
-diagnosis_degree_p_nature,d_voice_vocal_fold_paralysis,,text,"Pitch
-(Indicate the nature of the abnormality):",,,,,,,,y,RH,,,,
 diagnosis_degree_p,d_voice_vocal_fold_paralysis,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_degree_p_nature,d_voice_vocal_fold_paralysis,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_degree_p] > 0",,RH,,,,
 diagnosis_degree_p_2,d_voice_vocal_fold_paralysis,,radio,Pitch,"1, Consistent | 2, Intermittent",,,,,,,y,RH,,,,
-diagnosis_degree_l_nature,d_voice_vocal_fold_paralysis,,text,"Loudness
-(Indicate the nature of the abnormality):",,,,,,,,y,RH,,,,
 diagnosis_degree_l,d_voice_vocal_fold_paralysis,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_degree_l_nature,d_voice_vocal_fold_paralysis,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_degree_l] > 0",,RH,,,,
 diagnosis_degree_l_2,d_voice_vocal_fold_paralysis,,radio,Loudness,"1, Consistent | 2, Intermittent",,,,,,,y,RH,,,,
 diagnosis_degree_comments,d_voice_vocal_fold_paralysis,,radio,"Comments about resonance","1, Normal | 2, Other",,,,,,,y,RH,,,,
-diagnosis_degree_comments_other,d_voice_vocal_fold_paralysis,,text,"Please specify",,,,,,,"[diagnosis_degree_comments] = 2",,RH,,,,
+diagnosis_degree_comments_other,d_voice_vocal_fold_paralysis,,text,"Please specify",,,,,,,"[diagnosis_degree_comments] = 2",y,RH,,,,
 diagnosis_degree_comments_other_2,d_voice_vocal_fold_paralysis,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
 diagnosis_vfp_treatment,d_voice_vocal_fold_paralysis,"5. Treatment obtained",radio,"Has the patient undergone any treatment for his condition?","1, Surgery | 2, Speech therapy | 3, No treatment",,,,,,,y,,,,,
-diagnosis_vfp_treatment_surgery,d_voice_vocal_fold_paralysis,,radio,"Surgery - Subcategory","1, Thyroplasty | 2, Vocal fold injection augmentation",,,,,,"[diagnosis_vfp_treatment] = 1",,,,,,
+diagnosis_vfp_treatment_surgery,d_voice_vocal_fold_paralysis,,radio,"Surgery - Subcategory","1, Thyroplasty | 2, Vocal fold injection augmentation",,,,,,"[diagnosis_vfp_treatment] = 1",y,,,,,
 diagnosis_vfp_treatment_surgery_thyroplasty,d_voice_vocal_fold_paralysis,,radio,"Thyroplasty - Subcategory","1, Goretex | 2, Silastic",,,,,,"[diagnosis_vfp_treatment_surgery] = 1",y,,,,,
 diagnosis_vfp_treatment_surgery_vfia,d_voice_vocal_fold_paralysis,,radio,"Vocal fold injection augmentation - Subcategory","1, Caha | 2, Gel | 3, Hyaluronic Acid augmentation | 4, Fat injection",,,,,,"[diagnosis_vfp_treatment_surgery] = 2",y,,,,,
+diagnosis_ld_qete,d_voice_laryngeal_dystonia,"Gold Standard Diagnosis:",checkbox,"Does the patient have laryngeal dystonia as determined by qualitative expert team evaluation?
+(Select all that apply).","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology | neurologist_specializing_disorders, Neurologist specializing in movement disorders",,,,,,,y,,,,,
+diagnosis_ld_assessment,d_voice_laryngeal_dystonia,,checkbox,"Did the patient have the following assessment?
+(Select all that apply).","aural_perceptual_evaluation, Aural-perceptual evaluation | laryngoscopy_or_stroboscopy, Laryngoscopy or stroboscopy | neurological_evaluation, Neurological evaluation",,,,,,,y,,,,,
+diagnosis_ld_ds,d_voice_laryngeal_dystonia,"2. Disease Subtypes: 
+(Select all that apply).",checkbox,,"adld, Adductor laryngeal dystonia (ADLD) | abld, Abductor laryngeal dystonia (ABLD) | vocal_tremor, Vocal Tremor | mixed_laryngeal_dystonia, Mixed laryngeal dystonia | sld, Singer's laryngeal dystonia (SLD) | arld, Adductor laryngeal spasms during inspiration (ARLD)",,,,,,,y,,,,,
+diagnosis_ld_etiology,d_voice_laryngeal_dystonia,Etiology,radio,"What is the etiology?","idiopathic, Idiopathic | familial, Familial | trauma, Trauma | unknown, Unknown | other, Other",,,,,,,y,,,,,
+diagnosis_ld_etiology_other,d_voice_laryngeal_dystonia,,text,"Please specify",,,,,,,"[diagnosis_ld_etiology] = 'other'",y,,,,,
+diagnosis_ld_etiology_cc,d_voice_laryngeal_dystonia,,checkbox,"Does the patient have any of the following concomitant conditions?
+(Select all that apply).","essential_tremor_of_the_hands, Essential Tremor of the hands | essential_tremor_of_the_head, Essential tremor of the head | jaw_tremor, Jaw tremor | dystonia_of_the_head_and_neck, Dystonia of the head and neck | other_type_of_dystonia, Other type of dystonia",,,,,,,,,,,,
+diagnosis_ld_etiology_cc_other,d_voice_laryngeal_dystonia,,text,"Other type of dystonia",,,,,,,"[diagnosis_ld_etiology_cc(other_type_of_dystonia)]=""1""",y,,,,,
+diagnosis_ld_degree_text,d_voice_laryngeal_dystonia,"4. Disease Severity",descriptive,"Degree of dysphonia
+
+CAPE-V scale",,,,,,,,,,,,,
+diagnosis_ld_degree_legend,d_voice_laryngeal_dystonia,,descriptive,"<div class=""rich-text-field-label""><p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
+diagnosis_ld_degree_os_1,d_voice_laryngeal_dystonia,,slider,"Overall Severity","MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_os_2,d_voice_laryngeal_dystonia,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_r_1,d_voice_laryngeal_dystonia,,slider,Roughness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_r_2,d_voice_laryngeal_dystonia,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_b_1,d_voice_laryngeal_dystonia,,slider,Breathiness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_b_2,d_voice_laryngeal_dystonia,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_s_1,d_voice_laryngeal_dystonia,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_s_2,d_voice_laryngeal_dystonia,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_p_1,d_voice_laryngeal_dystonia,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_p_nature,d_voice_laryngeal_dystonia,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_ld_degree_p_1] > 0",,RH,,,,
+diagnosis_ld_degree_p_2,d_voice_laryngeal_dystonia,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_l_1,d_voice_laryngeal_dystonia,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_ld_degree_l_nature,d_voice_laryngeal_dystonia,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_ld_degree_l_1] > 0",,RH,,,,
+diagnosis_ld_degree_l_2,d_voice_laryngeal_dystonia,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_ld_degree_comments,d_voice_laryngeal_dystonia,,radio,"Comments about resonance","normal, Normal | other, Other",,,,,,,y,RH,,,,
+diagnosis_ld_degree_comments_other,d_voice_laryngeal_dystonia,,text,"Please specify",,,,,,,"[diagnosis_ld_degree_comments] = 'other'",y,RH,,,,
+diagnosis_ld_degree_comments_other_2,d_voice_laryngeal_dystonia,,text,"Additional Features
+(for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
+diagnosis_ld_treatment,d_voice_laryngeal_dystonia,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ld_treatment_select,d_voice_laryngeal_dystonia,,checkbox,"Select all that apply:","botox_injections, Botox injections | voice_or_speech_therapy, Voice/speech therapy | vibrotactile_stimulation, Vibrotactile stimulation | deep_brain_stimulation, Deep brain stimulation | mrgfus, Magnetic resonance imaging-guided focused ultrasound (MRgFUS) | other, Other",,,,,,"[diagnosis_ld_treatment]=""yes""",y,,,,,
+diagnosis_ld_treatment_bi_li,d_voice_laryngeal_dystonia,,text,"When was the last injection?",,"weeks ago",number,,,,"[diagnosis_ld_treatment_select(botox_injections)]=""1""",y,,,,,
+diagnosis_ld_treatment_other,d_voice_laryngeal_dystonia,,text,"Other, please specify",,,,,,,"[diagnosis_ld_treatment_select(other)]=""1""",y,,,,,
+diagnois_pl_gsd_ls,d_voice_precancerous_lesions,"1. Gold Standard Diagnosis",radio,"Does the patient have a precancerous vocal fold lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnois_pl_gsd_bp,d_voice_precancerous_lesions,,radio,"Does the patient have a precancerous vocal fold lesion confirmed by biopsy/pathology?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_pl_ds,d_voice_precancerous_lesions,"2. Disease Subtype",checkbox,"What is the diagnosis?
+(Select all that apply).","keratosis, Keratosis | leukoplakia, Leukoplakia | erythroplakia, Erythroplakia | other, Other",,,,,,,y,,,,,
+diagnosis_pl_ds_k,d_voice_precancerous_lesions,,radio,Keratosis,"withDysplasia, With dysplasia | withoutDysplasia, Without dysplasia",,,,,,"[diagnosis_pl_ds(keratosis)]=""1""",y,,,,,
+diagnosis_pl_ds_k_wd_g,d_voice_precancerous_lesions,,radio,"Keratosis with dysplasia","lowGrade, Low grade | moderateGrade, Moderate grade | highGrade, High grade",,,,,,"[diagnosis_pl_ds_k]=""withDysplasia""",y,,,,,
+diagnosis_pl_ds_l,d_voice_precancerous_lesions,,radio,Leukoplakia,"withDysplasia, With dysplasia | withoutDysplasia, Without dysplasia",,,,,,"[diagnosis_pl_ds(leukoplakia)]=""1""",y,,,,,
+diagnosis_pl_ds_l_wd_g,d_voice_precancerous_lesions,,radio,"Leukoplakia with dysplasia","lowGrade, Low grade | moderateGrade, Moderate grade | highGrade, High grade",,,,,,"[diagnosis_pl_ds_l]=""withDysplasia""",y,,,,,
+diagnosis_pl_ds_e,d_voice_precancerous_lesions,,radio,Erythroplakia,"withDysplasia, With dysplasia | withoutDysplasia, Without dysplasia",,,,,,"[diagnosis_pl_ds(erythroplakia)]=""1""",y,,,,,
+diagnosis_pl_ds_e_wd_g,d_voice_precancerous_lesions,,radio,"Erythroplakia with dysplasia","lowGrade, Low grade | moderateGrade, Moderate grade | highGrade, High grade",,,,,,"[diagnosis_pl_ds_e]=""withDysplasia""",y,,,,,
+diagnosis_pl_ds_other,d_voice_precancerous_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_pl_ds(other)]=""1""",y,,,,,
+diagnosis_pl_etiology,d_voice_precancerous_lesions,"3. Etiology",checkbox,"Does the patient have the following risk factors?
+(Select all that apply).","past_or_present_smoking, Past or present smoking | laryngopharyngeal_reflux, Laryngopharyngeal reflux | other_irritants, Other irritants",,,,,,,y,,,,,
+diagnosis_pl_etiology_other,d_voice_precancerous_lesions,,text,"Other irritants",,,,,,,"[diagnosis_pl_etiology(other_irritants)]=""1""",y,,,,,
+diagnosis_pl_ds_ll,d_voice_precancerous_lesions,"4. Disease Severity",checkbox,"Location of lesion(s)
+(Select all that apply).","right_vocal_fold, Right vocal fold | left_vocal_fold, Left vocal fold | both_vocal_folds, Both vocal folds | ventricular_folds, Ventricular folds (right or left) | subglottal_areas, Subglottal areas",,,,,,,y,,,,,
+diagnosis_pl_degree_text,d_voice_precancerous_lesions,,descriptive,"Degree of dysphonia
+
+Clinician places slider between 0 and 100; indicates C or I. ""Indicate the nature.."" and Additional features responses are free text. Comments about resonance: Indicate normal or Other, if other then free text",,,,,,,,,,,,,
+diagnosis_pl_degree_legend,d_voice_precancerous_lesions,,descriptive,"<div class=""rich-text-field-label""><p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
+diagnosis_pl_degree_os_1,d_voice_precancerous_lesions,,slider,"Overall Severity","MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_os_2,d_voice_precancerous_lesions,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_r_1,d_voice_precancerous_lesions,,slider,Roughness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_r_2,d_voice_precancerous_lesions,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_b_1,d_voice_precancerous_lesions,,slider,Breathiness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_b_2,d_voice_precancerous_lesions,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_s_1,d_voice_precancerous_lesions,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_s_2,d_voice_precancerous_lesions,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_p_1,d_voice_precancerous_lesions,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_p_nature,d_voice_precancerous_lesions,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_pl_degree_p_1] > 0",,RH,,,,
+diagnosis_pl_degree_p_2,d_voice_precancerous_lesions,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_l_1,d_voice_precancerous_lesions,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_pl_degree_l_nature,d_voice_precancerous_lesions,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_pl_degree_l_1] > 0",,RH,,,,
+diagnosis_pl_degree_l_2,d_voice_precancerous_lesions,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_pl_degree_comments,d_voice_precancerous_lesions,,radio,"Comments about resonance","normal, Normal | other, Other",,,,,,,y,RH,,,,
+diagnosis_pl_degree_comments_other,d_voice_precancerous_lesions,,text,"Please specify",,,,,,,"[diagnosis_pl_degree_comments]=""other""",y,RH,,,,
+diagnosis_pl_degree_comments_other_2,d_voice_precancerous_lesions,,text,"Additional Features
+(for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
+diagnosis_pl_treatment,d_voice_precancerous_lesions,"5. Treatment obtained",radio,"Has the patient undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_pl_treatment_select,d_voice_precancerous_lesions,,checkbox,"Select all that apply:","surveillance_only, Surveillance only (previous diagnosis) | laser_resection, Laser resection | laser_ablation, Laser ablation | microlaryngeal_surgery_without_laser, Microlaryngeal surgery without laser | radiotherapy_persistent_or_recurrent_lesions, Radiotherapy for persistent or recurrent lesions | voice_or_speech_therapy, Voice/speech therapy | other, Other",,,,,,"[diagnosis_pl_treatment]=""yes""",y,,,,,
+diagnosis_pl_treatment_other,d_voice_precancerous_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_pl_treatment_select(other)]=""1""",y,,,,,
+diagnois_lc_gsd_sll,d_voice_laryngeal_cancer,"1. Gold Standard Diagnosis",radio,"Did the patient get a laryngoscopy/stroboscopy confirming the presence of a suspicious laryngeal lesion?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_lc_gsd_bpr,d_voice_laryngeal_cancer,,radio,"Does the patient have laryngeal cancer confirmed by biopsy/pathology report?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_lc_gsd_uots,d_voice_laryngeal_cancer,,checkbox,"Did the patient undergo other types of scans?
+(Select all that apply).","ct_neck, CT of the neck | ct_chest, CT of the chest | mri_neck, MRI of the neck | pet_ct, PET-CT | ultrasound_neck, Ultrasound of the neck",,,,,,,,,,,,
+diagnosis_lc_ds,d_voice_laryngeal_cancer,"2. Disease Subtype",checkbox,"Which laryngeal structures are/were involved?
+(Select all that apply).","right_vocal_fold, Right vocal fold | left_vocal_fold, Left vocal fold | both_vocal_folds, Both vocal folds | anterior_commissure, Anterior commissure | ventricular_folds, Ventricular folds (right or left) | subglottal_areas, Subglottal areas",,,,,,,,,,,,
+diagnosis_lc_etiology,d_voice_laryngeal_cancer,"3. Etiology",checkbox,"Check any risk factors of this patient in relation to their laryngeal cancer.
+(Select all that apply).","smoking, Smoking | alcohol, Alcohol | family_history, Family history | hpv, Human Papilloma Virus (HPV) | exposure_other_harmful_substances, Exposure to other harmful substances",,,,,,,,,,,,
+diagnosis_lc_etiology_other,d_voice_laryngeal_cancer,,text,"Please specify:",,,,,,,"[diagnosis_lc_etiology(exposure_other_harmful_substances)]=""1""",,,,,,
+diagnosis_lc_ds_t_stage,d_voice_laryngeal_cancer,"4. Disease Severity",radio,"What is the T stage of the cancer based on the AJCC Classification?","tis, Tis (carcinoma in situ) | t1a, T1a | t1b, T1b | t2, T2 | t3, T3 | t4a, T4a | t4b, T4b | unknownYet, Unknown yet",,,,,,,y,,,,,
+diagnosis_lc_ds_t_ref,d_voice_laryngeal_cancer,,descriptive,"Please see the table for reference:",,,,,,,,,,,,,
+diagnosis_lc_ds_n_stage,d_voice_laryngeal_cancer,,radio,"What is the N stage of the cancer based on the AJCC Classification?","n0, N0 | n1, N1 | n2a, N2a | n2b, N2b | n2c, N2c | n3, N3 | unknownYet, Unknown yet",,,,,,,y,,,,,
+diagnosis_lc_ds_n_ref,d_voice_laryngeal_cancer,,descriptive,"Please see Table for reference:",,,,,,,,,,,,,
+diagnosis_lc_ds_m_stage,d_voice_laryngeal_cancer,,radio,"What is the M stage of the cancer based on the AJCC Classification?","m0, M0: no distant metastasis | m1, M1: Any distant metastasis",,,,,,,y,,,,,
+diagnosis_lc_degree_text,d_voice_laryngeal_cancer,,descriptive,"What is the degree of dysphonia?
+
+Clinician places slider between 0 and 100; indicates C or I. ""Indicate the nature.."" and Additional
+features responses are free text. Comments about resonance: Indicate normal or Other, if other then free text",,,,,,,,,,,,,
+diagnosis_lc_degree_legend,d_voice_laryngeal_cancer,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
+diagnosis_lc_degree_os_1,d_voice_laryngeal_cancer,,slider,"Overall Severity","MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_os_2,d_voice_laryngeal_cancer,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_r_1,d_voice_laryngeal_cancer,,slider,Roughness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_r_2,d_voice_laryngeal_cancer,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_b_1,d_voice_laryngeal_cancer,,slider,Breathiness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_b_2,d_voice_laryngeal_cancer,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_s_1,d_voice_laryngeal_cancer,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_s_2,d_voice_laryngeal_cancer,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_p_1,d_voice_laryngeal_cancer,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_p_nature,d_voice_laryngeal_cancer,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_lc_degree_p_1] > 0",,,,,,
+diagnosis_lc_degree_p_2,d_voice_laryngeal_cancer,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_l_1,d_voice_laryngeal_cancer,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_lc_degree_l_nature,d_voice_laryngeal_cancer,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_lc_degree_l_1] > 0",,,,,,
+diagnosis_lc_degree_l_2,d_voice_laryngeal_cancer,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_lc_degree_comments,d_voice_laryngeal_cancer,,radio,"Comments about resonance","normal, Normal | other, Other",,,,,,,y,RH,,,,
+diagnosis_lc_degree_comments_other,d_voice_laryngeal_cancer,,text,"Please specify",,,,,,,[diagnosis_lc_degree_comments]='other',y,RH,,,,
+diagnosis_lc_degree_comments_other_2,d_voice_laryngeal_cancer,,text,"Additional Features
+(for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
+diagnosis_as_ds_ccsr,d_voice_laryngeal_cancer,,radio,"Is the cancer causing stridor at rest?","noStridor, No, the patient does not have stridor | mildStridor, Yes, mild stridor | moderateStridor, Yes, moderate stridor | severeStridor, Yes, severe stridor",,,,,,,y,,,,,
+diagnosis_lc_treatment,d_voice_laryngeal_cancer,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_lc_treatment_select,d_voice_laryngeal_cancer,,checkbox,"Select all that apply:","radiation, Radiation | chemotherapy, Chemotherapy | immunotherapy, Immunotherapy | surgery, Surgery | voice_or_speech_therapy, Voice/Speech therapy | other, Other",,,,,,"[diagnosis_lc_treatment]=""yes""",y,,,,,
+diagnosis_lc_treatment_s,d_voice_laryngeal_cancer,,checkbox,Surgery,"endoscopic_laser, Endoscopic laser | partial_laryngectomy, Partial laryngectomy",,,,,,"[diagnosis_lc_treatment_select(surgery)]=""1""",y,,,,,
+diagnosis_lc_treatment_other,d_voice_laryngeal_cancer,,text,"Other, please specify",,,,,,,"[diagnosis_lc_treatment_select(other)]=""1""",,,,,,
+diagnois_bl_gsd,d_voice_benign_lesions,"1. Gold Standard Diagnosis",radio,"Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_bl_ds,d_voice_benign_lesions,"2. Disease Subtype",radio,"What is the benign lesion diagnosis?","vocalFoldNodules, Vocal fold nodules | vocalFoldPolyp, Vocal fold polyp | vocalFoldCyst, Vocal fold cyst | reinkesEdema, Reinke's edema | vocalFoldUlcers, Vocal fold ulcers | recurrentRespiratoryPapilloma, Recurrent respiratory papilloma | fibrousMasses, Fibrous masse (s) | rheumatoidNodules, Rheumatoid nodules | other, Other",,,,,,,y,,,,,
+diagnosis_bl_ds_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,"[diagnosis_bl_ds]=""other""",,,,,,
+diagnosis_bl_etiology,d_voice_benign_lesions,"3. Etiology",radio,"What is the etiology?","phonotrauma, Phonotrauma | rrp, HPV virus (RRP) | other, Other",,,,,,,y,,,,,
+diagnosis_bl_etiology_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,"[diagnosis_bl_etiology]=""other""",,,,,,
+diagnosis_bl_ds_ll,d_voice_benign_lesions,"4. Disease Severity",radio,"Location of lesion(s)","rightVocalFold, Right vocal fold | leftVocalFold, Left vocal fold | bothVocalFolds, Both vocal folds",,,,,,,y,,,,,
+diagnosis_bl_degree_text,d_voice_benign_lesions,,descriptive,"Degree of dysphonia
+
+CAPE-V scale",,,,,,,,,,,,,
+diagnosis_bl_degree_legend,d_voice_benign_lesions,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
+diagnosis_bl_degree_os_1,d_voice_benign_lesions,,slider,"Overall Severity","MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_os_2,d_voice_benign_lesions,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_r_1,d_voice_benign_lesions,,slider,Roughness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_r_2,d_voice_benign_lesions,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_b_1,d_voice_benign_lesions,,slider,Breathiness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_b_2,d_voice_benign_lesions,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_s_1,d_voice_benign_lesions,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_s_2,d_voice_benign_lesions,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_p_1,d_voice_benign_lesions,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_p_nature,d_voice_benign_lesions,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_bl_degree_p_1] > 0",,RH,,,,
+diagnosis_bl_degree_p_2,d_voice_benign_lesions,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_l_1,d_voice_benign_lesions,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_bl_degree_l_nature,d_voice_benign_lesions,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_bl_degree_l_1] > 0",,RH,,,,
+diagnosis_bl_degree_l_2,d_voice_benign_lesions,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_bl_degree_comments,d_voice_benign_lesions,,radio,"Comments about resonance","normal, Normal | other, Other",,,,,,,y,RH,,,,
+diagnosis_bl_degree_comments_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,[diagnosis_bl_degree_comments]='other',,,,,,
+diagnosis_bl_degree_comments_other_2,d_voice_benign_lesions,,text,"Additional Features
+(for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,,,,,
+diagnosis_bl_treatment,d_voice_benign_lesions,"5. Treatment obtained",radio,"Has the patient undergone any treatment for his condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_bl_treatment_select,d_voice_benign_lesions,,checkbox,"Select all that apply:","voice_or_speech_therapy, Voice/speech therapy | laryngeal_microsurgery, Laryngeal microsurgery | voice_rest, Voice rest | other, Other",,,,,,"[diagnosis_bl_treatment]=""yes""",y,,,,,
+diagnosis_bl_treatment_other,d_voice_benign_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_bl_treatment_select(other)]=""1""",y,,,,,
+diagnosis_bl_treatment_lm,d_voice_benign_lesions,,radio,"Laryngeal microsurgery","withLaser, With laser | withoutLaser, Without laser",,,,,,"[diagnosis_bl_treatment_select(laryngeal_microsurgery)]=""1""",y,,,,,
 diagnosis_bipolar_gsd,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,Diagnosis,"bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,y,,,,,
 diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?",,,,,,,,y,,,,,
 diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?",,,,,,,,y,,,,,
@@ -386,6 +548,7 @@ diagnosis_healthy_developmentally_typical_children_ci,d_peds_healthy_development
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
 session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
+session_is_control_participant,session,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 session_site,session,,radio,"Session Site?","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,," @READONLY"
