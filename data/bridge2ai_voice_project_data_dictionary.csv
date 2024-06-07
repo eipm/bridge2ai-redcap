@@ -8,7 +8,7 @@ withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Con
 is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
 enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,y,"[enrolled] = 1",,,,,,
-enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
+enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,y,,,,,
 first_name,subjectparticipant_contact_information,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
 last_name,subjectparticipant_contact_information,,text,"Last Name",,,,,,y,,y,,,,,
@@ -26,6 +26,7 @@ laryng_cancer,subjectparticipant_eligible_studies,"<div class=""rich-text-field-
 
 Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 benign_cord_lesion,subjectparticipant_eligible_studies,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+mtd,subjectparticipant_eligible_studies,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 rrp,subjectparticipant_eligible_studies,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
@@ -76,6 +77,7 @@ ef_laryng_cancer,enrollment_form,"<div class=""rich-text-field-label""><p>Do you
 
 Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_benign_cord_lesion,enrollment_form,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_mtd,enrollment_form,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_rrp,enrollment_form,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_spas_dys,enrollment_form,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_voc_fold_paralysis,enrollment_form,,radio,"Unilateral vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
@@ -119,7 +121,7 @@ ef_enrollment,enrollment_form,"<div class=""rich-text-field-label""><p><span sty
 ef_is_control_participant,enrollment_form,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
-ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
+ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,y,,,,,,,
 ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Enrollment Website",,,,,,,,,,,," @READONLY"
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
@@ -133,7 +135,7 @@ paper_consent_notes,bridge2ai_paper_consent_all_sites_english,"Paper Consent For
 
 If uploading a paper consent form instead of eConsent, navigate to Form ""Subject/Participant - Basic Information"" and update Consent Status to ""Consented""",,,,,,,,,,,,,
 paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Paper Consent PDF - All Sites",,,,,,y,,y,,,,,
-paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
+paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
 page_1,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
@@ -194,18 +196,18 @@ consent_wcm_rs_signature_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,
 consent_wcm_rs_name_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
 consent_wcm_rs_date_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
 upload_addendums_mit,bridge2ai_econsent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,y,,,,,,,
-consent_bch_p1,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p2,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p3,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p4,bridge2ai_econsent_addendum_bch_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_statement,bridge2ai_econsent_addendum_bch_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_permission_2_bch,bridge2ai_econsent_addendum_bch_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_statement_2_bch,bridge2ai_econsent_addendum_bch_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_signature_bch,bridge2ai_econsent_addendum_bch_english,,file,"Signature of Person Taking Part in Study 
+consent_bch_p1,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
+consent_bch_p2,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
+consent_bch_p3,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
+consent_bch_p4,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
+consent_bch_statement,bridge2ai_econsent_addendum_sickkids_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_permission_1_bch,bridge2ai_econsent_addendum_sickkids_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
+consent_wcm_permission_2_bch,bridge2ai_econsent_addendum_sickkids_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
+consent_wcm_statement_2_bch,bridge2ai_econsent_addendum_sickkids_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
+consent_wcm_signature_bch,bridge2ai_econsent_addendum_sickkids_english,,file,"Signature of Person Taking Part in Study 
 [Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_name_bch,bridge2ai_econsent_addendum_bch_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_date_bch,bridge2ai_econsent_addendum_bch_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_name_bch,bridge2ai_econsent_addendum_sickkids_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_date_bch,bridge2ai_econsent_addendum_sickkids_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 diagnosis_vfp_gsd,d_voice_unilateral_vocal_fold_paralysis,"1. Gold Standard Diagnosis",radio,"Does the patient have VFP confirmed by laryngoscopy/stroboscopy?","0, No | 1, Yes | 2, Not certain",,,,,,,y,,,,,
 diagnosis_uvfp_ds,d_voice_unilateral_vocal_fold_paralysis,"2. Disease Subtype",checkbox,"Which side is the paralysis? Choose all that apply","left, Left | right, Right",,,,,,,y,,,,,
 diagnosis_vfp_etiology,d_voice_unilateral_vocal_fold_paralysis,"3. Etiology",radio,"What is the etiology?","1, Idiopathic | 2, Iatrogenic (surgery/intubation) | 3, Tumor invading RLN | 4, Radiation | 5, Other",,,,,,,y,,,,,
@@ -405,6 +407,36 @@ diagnosis_bl_treatment,d_voice_benign_lesions,"5. Treatment obtained",radio,"Has
 diagnosis_bl_treatment_select,d_voice_benign_lesions,,checkbox,"Select all that apply:","voice_or_speech_therapy, Voice/speech therapy | laryngeal_microsurgery, Laryngeal microsurgery | voice_rest, Voice rest | other, Other",,,,,,"[diagnosis_bl_treatment]=""yes""",y,,,,,
 diagnosis_bl_treatment_other,d_voice_benign_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_bl_treatment_select(other)]=""1""",y,,,,,
 diagnosis_bl_treatment_lm,d_voice_benign_lesions,,radio,"Laryngeal microsurgery","withLaser, With laser | withoutLaser, Without laser",,,,,,"[diagnosis_bl_treatment_select(laryngeal_microsurgery)]=""1""",y,,,,,
+diagnosis_mtd_gsd_evaluations,d_voice_muscle_tension_dysphonia_mtd,"1. Gold Standard Diagnosis",checkbox,"Does the patient have MTD as determined by qualitative expert team evaluations? (Select all that apply)","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology",,,,,,,y,,,,,
+diagnosis_mtd_gsd_assessments,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"Did the patient have any of the following assessments? (Select all that apply)","detailed_case_history, Detailed case history | aural_perceptual_evaluation, Aural-perceptual evaluation | flexible_rigid_laryngoscopy, Flexible/Rigid laryngoscopy | voice_speech_evaluation, Voice/speech evaluation",,,,,,,y,,,,,
+diagnosis_mtd_ds,d_voice_muscle_tension_dysphonia_mtd,"2. Disease Subtype",radio,,"primaryMTD, Primary MTD - neck muscles are tense with no abnormality in the larynx | secondaryMTD, Secondary MTD - abnormality in larynx causes the patient to overuse other muscles involved in voice production",,,,,,,y,,,,,
+diagnosis_mtd_etiology,d_voice_muscle_tension_dysphonia_mtd,"3. Etiology",checkbox,"What is the etiology? (Select all that apply)","psychological_personality_factors, Psychological and/or personality factors | environmental_irritants, Environmental irritants | vocal_misuse_abuse, Vocal misuse and abuse | compensation_underlying_disease, Compensation for underlying disease | other, Other",,,,,,,,,,,,
+diagnosis_mtd_etiology_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_etiology(other)]=""1""",,,,,,
+diagnosis_mtd_degree_text,d_voice_muscle_tension_dysphonia_mtd,"4. Disease Severity",descriptive,"<div class=""rich-text-field-label""><p>Degree of dysphonia<br><br>CAPE-V scale</p></div>",,,,,,,,,,,,,
+diagnosis_mtd_degree_legend,d_voice_muscle_tension_dysphonia_mtd,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
+diagnosis_mtd_degree_os_1,d_voice_muscle_tension_dysphonia_mtd,,slider,"Overall Severity","MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_os_2,d_voice_muscle_tension_dysphonia_mtd,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_r_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Roughness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_r_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
+diagnosis_mtd_degree_b_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Breathiness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_b_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_s_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Strain,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_s_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_p_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Pitch,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_p_nature,d_voice_muscle_tension_dysphonia_mtd,,text,"Pitch
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_mtd_degree_p_1] > 0",,RH,,,,
+diagnosis_mtd_degree_p_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_l_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Loudness,"MI | MO | SE",,number,,,,,y,RH,,,,
+diagnosis_mtd_degree_l_nature,d_voice_muscle_tension_dysphonia_mtd,,text,"Loudness
+(Indicate the nature of the abnormality):",,,,,,,"[diagnosis_mtd_degree_l_1] > 0",,RH,,,,
+diagnosis_mtd_degree_l_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_comments,d_voice_muscle_tension_dysphonia_mtd,,radio,"Comments about resonance","normal, Normal | other, Other",,,,,,,y,RH,,,,
+diagnosis_mtd_degree_comments_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_degree_comments] = 'other'",y,RH,,,,
+diagnosis_mtd_degree_comments_other_2,d_voice_muscle_tension_dysphonia_mtd,,text,"Additional Features
+(for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
+diagnosis_mtd_treatment,d_voice_muscle_tension_dysphonia_mtd,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_mtd_treatment_select,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"Select all that apply:","vocal_hygiene_and_patient_education, Vocal hygiene and patient education | voice_or_speech_therapy, Voice/speech therapy | circumlaryngeal_manual_therapy, Circumlaryngeal manual therapy | surgery_for_secondary_organic_lesions, Surgery for secondary organic lesions | other, Other medical treatment",,,,,,"[diagnosis_mtd_treatment]=""yes""",,,,,,
+diagnosis_mtd_treatment_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_treatment_select(other)]=""1""",,,,,,
 diagnosis_bipolar_gsd,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,Diagnosis,"bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,y,,,,,
 diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?",,,,,,,,y,,,,,
 diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?",,,,,,,,y,,,,,
@@ -556,7 +588,7 @@ session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
 session_is_control_participant,session,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-session_site,session,,radio,"Session Site?","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,," @READONLY"
+session_site,session,,radio,"Session Site?","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,," @READONLY"
 acoustic_task_id,acoustic_task,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_session_id,acoustic_task,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_name,acoustic_task,,text,"Acoustic Task Name",,,,,,,,y,,,,," @READONLY"
