@@ -212,7 +212,7 @@ consent_wcm_date_bch,bridge2ai_econsent_addendum_sickkids_english,,text,,,,date_
 diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the patient, and by hearing their voice, do you think this patient has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_c_ac_specified,d_control,,text,"Please specify:",,,,,,,"[diagnosis_c_ac] = 'yes'",,,,,,
 diagnosis_vfp_gsd,d_voice_unilateral_vocal_fold_paralysis,"1. Gold Standard Diagnosis",radio,"Does the patient have VFP confirmed by laryngoscopy/stroboscopy?","0, No | 1, Yes | 2, Not certain",,,,,,,y,,,,,
-diagnosis_uvfp_ds,d_voice_unilateral_vocal_fold_paralysis,"2. Disease Subtype",checkbox,"Which side is the paralysis? Choose all that apply","left, Left | right, Right",,,,,,,y,,,,,
+diagnosis_uvfp_ds,d_voice_unilateral_vocal_fold_paralysis,"2. Disease Subtype",radio,"On which side is the paralysis?","left, Left | right, Right",,,,,,,y,,,,,
 diagnosis_vfp_etiology,d_voice_unilateral_vocal_fold_paralysis,"3. Etiology",radio,"What is the etiology?","1, Idiopathic | 2, Iatrogenic (surgery/intubation) | 3, Tumor invading RLN | 4, Radiation | 5, Other",,,,,,,y,,,,,
 diagnosis_uvfp_etiology_other,d_voice_unilateral_vocal_fold_paralysis,,text,"Please specify",,,,,,,"[diagnosis_vfp_etiology] = 5",,,,,,
 diagnosis_vfp_iatrogenic,d_voice_unilateral_vocal_fold_paralysis,,radio,"Iatrogenic (surgery/intubation) subcategory","1, Thyroidectomy | 2, ACDF | 3, Lung surgery | 4, Heart Surgery | 5, Intubation | 6, Brain Surgery | 7, Other",,,,,,"[diagnosis_vfp_etiology] = 2",y,,,,,
