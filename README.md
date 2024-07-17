@@ -2,7 +2,8 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![Github](https://img.shields.io/badge/github-3.9.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Github](https://img.shields.io/badge/github-3.9.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/694816121.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
