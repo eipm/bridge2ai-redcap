@@ -9,6 +9,12 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 | :---: | :---: | :---: | :---: | :---: |
 | v3.10.0 | 2024-07-18 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
+## 🤝 License
+See [LICENSE](./LICENSE)
+
+## 📚 How to Cite
+> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap: v3.10.0 (v3.10.0). Zenodo. https://doi.org/10.5281/zenodo.12774807
+
 ## Protocol Overview
 
 ### Part A | Generic Protocol
