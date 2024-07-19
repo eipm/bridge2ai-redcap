@@ -84,6 +84,14 @@ See [LICENSE](./LICENSE)
 | 35 | Random Item Generation | Acoustic Task 🎤 | 02:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |
 | 36 | Cinderella Story | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) |
 
+### 🎤 Acoustic Tasks | YouTube Playlist
+
+All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](https://youtube.com/playlist?list=PL72MPaFiuoRY66W7QsZ1_IeBwNosOzeap&si=9nr51lsmEYUncRMN).
+
+### 📕 Questionnaires
+
+All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instrument_pdfs/) in this repository.
+
 ## Clinically Validated Diagnoses Forms
 
 | # | Protocol | Clinically Validated Diagnosis | Form PDF Link |
