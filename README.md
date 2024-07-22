@@ -2,18 +2,18 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![Github](https://img.shields.io/badge/github-3.10.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/694816121.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![Github](https://img.shields.io/badge/github-3.11.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/694816121.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.10.0 | 2024-07-18 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.11.0 | 2024-07-22 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
 
 ## 📚 How to Cite
-> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap: v3.10.0 (v3.10.0). Zenodo. https://doi.org/10.5281/zenodo.12774807
+> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap: v3.11.0 (v3.11.0). Zenodo. https://doi.org/10.5281/zenodo.12774807
 
 ## Protocol Overview
 
@@ -106,7 +106,8 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 | 8 | Mood and Psychiatric Disorders Protocol | Bipolar Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Bipolar%20Disorder.pdf) |
 | 9 | Mood and Psychiatric Disorders Protocol | Depression or Major Depressive Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) |
 | 10 | Respiratoty Disorders | Airway Stenosis | [PDF](data/instrument_pdfs/D%20Resp%20Airway%20Stenosis.pdf) |
-| 11 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
-| 12 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
-| 13 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
-| 14 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
+| 11 |  Respiratoty Disorders | Unexplained Chronic Cough | [PDF](data/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
+| 12 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
+| 13 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
+| 14 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
+| 15 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
