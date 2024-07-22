@@ -13,7 +13,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 See [LICENSE](./LICENSE)
 
 ## 📚 How to Cite
-> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap: v3.11.0 (v3.11.0). Zenodo. https://doi.org/10.5281/zenodo.12774807
+> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap. Zenodo. [https://doi.org/10.5281/zenodo.12774807](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 ## Protocol Overview
 
