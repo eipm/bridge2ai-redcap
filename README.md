@@ -57,7 +57,7 @@ See [LICENSE](./LICENSE)
 | 9 | Rainbow Passage | Acoustic Task 🎤 | 01:30 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
 | 10 | Glides | Acoustic Task 🎤 | 01:00 | Generic Protocol | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
 | 11 | Loudness | Acoustic Task 🎤 | 01:00 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
-| 12 | Didaochokinesis | Acoustic Task 🎤 | 01:00 | Generic Protocol | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
+| 12 | Diadochokinesis | Acoustic Task 🎤 | 01:00 | Generic Protocol | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
 | 13 | Free Speech | Acoustic Task 🎤 | 02:00 | Generic Protocol | 10 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
 | 14 | Respiration and cough | Acoustic Task 🎤 | 03:00 | Generic Protocol | 3 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
 | 15 | Picture Description | Acoustic Task 🎤 | 01:30 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
