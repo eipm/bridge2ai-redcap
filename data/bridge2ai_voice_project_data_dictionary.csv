@@ -1,6 +1,6 @@
 ﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
-selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, Español | 3, Français",,,,,,,y,,,,,
+selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent",,,,,,,y,,,,,
 contact_participant,subjectparticipant_basic_information,,radio,"Contact participant re: incidental findings?","yes, Yes | no, No",,,,,,,y,,,,,
 consent_method,subjectparticipant_basic_information,,radio,"Consent Method","paper, Paper Consent | econsent, eConsent | e_video_consent, Video Consent",,,,,,"[consent_status] = '2'",y,,,,,
@@ -8,7 +8,9 @@ withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn C
 withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,y,"[consent_status] = 3",,,,,,
 is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
-enrollment_reason,subjectparticipant_basic_information,,text,"<div class=""rich-text-field-label""><p>Enrollment Reason</p> <p>To be completed when enrolling a person that declined initially.</p></div>",,,,,,y,"[enrolled] = 1",,,,,,
+enrollment_reason,subjectparticipant_basic_information,,text,"Enrollment Reason
+
+To be completed when enrolling a person that declined initially.",,,,,,y,"[enrolled] = 1",,,,,,
 enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,y,,,,,
 first_name,subjectparticipant_contact_information,"Contact Information",text,"First Name",,,,,,y,,y,,,,,
@@ -17,15 +19,11 @@ dob,subjectparticipant_contact_information,,text,"What is your date of birth?",,
 age,subjectparticipant_contact_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
 phone_number,subjectparticipant_contact_information,,text,"Phone Number",,###-###-####,,,,y,,y,,,,,
 email,subjectparticipant_contact_information,,text,Email,,,email,,,y,,y,,,,,
-contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. 
-
-My information will not be shared with third parties.",,,,,,,,y,,,,,
+contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,y,,,,,
 eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
 is_control_participant,subjectparticipant_eligible_studies,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
-laryng_cancer,subjectparticipant_eligible_studies,"<div class=""rich-text-field-label""><div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Do you have any of these conditions, diagnosed by a clinician?</span>
-<em><span style=""text-decoration: underline;"">(Check all that apply if you currently have the condition)</span></em></p></div></div>
-
-Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+cond_sel_prompt,subjectparticipant_eligible_studies,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
+laryng_cancer,subjectparticipant_eligible_studies,"Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 laryngitis,subjectparticipant_eligible_studies,,radio,Laryngitis,"0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 benign_cord_lesion,subjectparticipant_eligible_studies,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 mtd,subjectparticipant_eligible_studies,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
@@ -58,26 +56,23 @@ osa,subjectparticipant_eligible_studies,,radio,"Obstructive Sleep Apnea (OSA)","
 autism,subjectparticipant_eligible_studies,"Pediatric disorders
 ",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
 speech_delay,subjectparticipant_eligible_studies,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
-ef_select_language,enrollment_form,"Select a language",radio,"Select a language","1, English | 2, Español | 3, Français",,,,,,,y,,,,,
+ef_select_language,enrollment_form,"Select a language",radio,"Select a language","1, English | 2, Français | 3, Español",,,,,,,y,,,,,
 ef_any_vision_related_req,enrollment_form,"Let's customize your experience",yesno,"This application requires you to read text to answer questions. Do you have any vision-related requirements we can assist with?",,,,,,,,y,,,,,
 ef_vision_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to change the font size | 2, I would like to change the font color (high contrast mode) | 3, I would like to use a screen reader | 4, I would like a person to read the text to me",,,,,,"[ef_any_vision_related_req] = '1'",,,,,,
 ef_any_hearing_related_req,enrollment_form,,yesno,"This application may present some sound files for you to listen to. Do you have any hearing-related requirements we can assist with?",,,,,,,,y,,,,,
 ef_hearing_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to turn up the volume | 2, I would like to turn on closed captions | 3, I would like to use haptic feedback (vibrations) instead of audio cues",,,,,,"[ef_any_hearing_related_req] = '1'",,,,,,
-ef_any_physical_challenges,enrollment_form,,yesno,"This application requires you to navigate through the questions using a touch screen. Do you have any physical challenges we can accomodate?",,,,,,,,y,,,,,
+ef_any_physical_challenges,enrollment_form,,yesno,"This application requires you to navigate through the questions using a touch screen. Do you have any physical challenges we can accommodate?",,,,,,,,y,,,,,
 ef_physical_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like to increase the size of the buttons | 2, I have an alternative keyboard I'd like to connect instead | 3, I would like to navigate the survey using voice commands instead of the touch screen",,,,,,"[ef_any_physical_challenges] = '1'",,,,,,
 ef_any_cognitive_challeges,enrollment_form,,yesno,"This application requires you to read text, answer questions, and follow directions. Do you have any cognitive challenges, including difficulty reading, that we can assist with?",,,,,,,,y,,,,,
 ef_cognitive_a11y_options,enrollment_form,,checkbox,"Yes, I would like to use some of the accessibility features of the app","1, I would like the questions to be read to me using text-to-speech | 2, I would like a person to read the text to me | 3, I would like to speak my answers instead of typing them",,,,,,"[ef_any_cognitive_challeges] = '1'",,,,,,
 ef_completed_by,enrollment_form,"Who is participating in completing this survey?",checkbox,"Check all that apply","1, Self | 2, Assistant | 3, Parent/Caregiver",,,,,,,,,,,,
 ef_primary_language,enrollment_form,"Tell us about yourself",radio,"What is your primary language?","1, English | 2, French | 3, Spanish | 4, Other (Please specify below)",,,,,,,y,,,,,
 ef_primary_language_other,enrollment_form,,text,"If primary language is ""other"", please specify:",,,,,,,"[ef_primary_language] = '4'",,,,,,
-ef_fluent_languages,enrollment_form,,checkbox,"Do you speak any additional language(s) fluently (similar to a native speaker)?
-","1, None | 2, English | 3, French | 4, Spanish | 5, Other (please specify below)",,,,,,,y,,,,,
+ef_fluent_languages,enrollment_form,,checkbox,"Do you speak any additional language(s) fluently (similar to a native speaker)?","1, None | 2, English | 3, French | 4, Spanish | 5, Other (please specify below)",,,,,,,y,,,,,
 ef_fluent_language_other,enrollment_form,,text,"If you speak any other languages fluently, please specify:",,,,,,,"[ef_fluent_languages(5)] = '1'",,,,,,
 ef_dob,enrollment_form,,text,"What is your date of birth?",,,date_ymd,,,y,,y,,,,,
-ef_laryng_cancer,enrollment_form,"<div class=""rich-text-field-label""><p>Do you have any of these conditions, diagnosed by a clinician?
-(Check all that apply if you currently have the condition)</p></div>
-
-Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_cond_prompt,enrollment_form,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
+ef_laryng_cancer,enrollment_form,"Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_laryngitis,enrollment_form,,radio,Laryngitis,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_benign_cord_lesion,enrollment_form,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_mtd,enrollment_form,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
@@ -102,12 +97,12 @@ ef_ptsd,enrollment_form,,radio,"Post-Traumatic Stress Disorder (PTSD)","0, Unche
 ef_schizophrenia,enrollment_form,,radio,Schizophrenia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_soc_anx_dis,enrollment_form,,radio,"Social Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_other_psych,enrollment_form,,radio,"Other psychiatric disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_asthma,enrollment_form,"Respiratory disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
+ef_asthma,enrollment_form,"Respiratory Disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_airway_stenosis,enrollment_form,,radio,"Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_chronic_cough,enrollment_form,,radio,"Chronic Cough","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_copd,enrollment_form,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_osa,enrollment_form,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
-ef_autism,enrollment_form,"Pediatric disorders",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
+ef_autism,enrollment_form,"Pediatric Disorders",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
 ef_speech_delay,enrollment_form,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,ef_peds_dis,,
 ef_eligible_studies,enrollment_form,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
 ef_learn_about_this_study,enrollment_form,"How did you learn about this study?",radio,"How did you learn about this study?","physician, Through my physician/provider | flyer, A flyer | social_media, Social Media | bridge2ai_website, Bridge2AI Website | event, At an event | other, Other",,,,,,,,,,,,
@@ -117,10 +112,8 @@ ef_first_name,enrollment_form,"Contact Information",text,"First Name",,,,,,y,,y,
 ef_last_name,enrollment_form,,text,"Last Name",,,,,,y,,y,,,,,
 ef_phone_number,enrollment_form,,text,"Phone Number",,###-###-####,phone,,,y,,,,,,,
 ef_email,enrollment_form,,text,Email,,,email,,,y,,y,,,,,
-ef_contact_info_stored,enrollment_form,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. 
-
-My information will not be shared with third parties.",,,,,,,,y,,,,,
-ef_enrollment,enrollment_form,"<div class=""rich-text-field-label""><p><span style=""text-decoration: underline;"">Review and Enroll:</span></p></div>",radio,"<div class=""rich-text-field-label""><p>Please review your answers reading all the way through the bottom and select an option. <br /><br /><em>If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.</em></p></div>","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
+ef_contact_info_stored,enrollment_form,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,y,,,,,
+ef_enrollment,enrollment_form,"Review and Enroll",radio,"Please review your answers reading all the way through the bottom and select an option. If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
 ef_is_control_participant,enrollment_form,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
@@ -707,26 +700,20 @@ cognition,q_generic_demographics,,radio,"Because of a physical, mental, or emoti
 mobility,q_generic_demographics,,radio,"Do you have serious difficulty walking or climbing stairs?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 self_care,q_generic_demographics,,radio,"Do you have difficulty dressing or bathing?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 independent_living,q_generic_demographics,,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
-employ_status,q_generic_demographics,"Employment Status",checkbox,"What is your employment status?
-
-Choose all that apply
-","1, Employed, freelance | 2, Employed, full time | 3, Employed, part time | 4, Employed, multiple part time jobs | 5, Student | 6, Self-employed | 7, Retired | 8, Unemployed | 9, Other",,,,,,,y,,,,,
-other_employ_specify,q_generic_demographics,,notes,"<div class=""rich-text-field-label""><p>If you selected ""other"" employment status, please specify.</p></div>",,,,,,,"[employ_status(9)] = ""1""",,,,,,
+employ_status,q_generic_demographics,"Employment Status",checkbox,"What is your employment status? Choose all that apply","1, Employed, freelance | 2, Employed, full time | 3, Employed, part time | 4, Employed, multiple part time jobs | 5, Student | 6, Self-employed | 7, Retired | 8, Unemployed | 9, Other",,,,,,,y,,,,,
+other_employ_specify,q_generic_demographics,,notes,"If you selected ""other"" employment status, please specify.",,,,,,,"[employ_status(9)] = ""1""",,,,,,
 occupation,q_generic_demographics,,text,"What is your occupation?",,,,,,,,,,,,,
 veteran,q_generic_demographics,,yesno,"Are you a veteran?",,,,,,,,y,,,,,
 household_income_usa,q_generic_demographics,"Demographics - Optional",radio,"What was your total household income last year (USD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc.","1, < $15,000 | 2, $15,000 to $29,999 | 3, $30,000 to $$49,999 | 4, $50,000 to $99,999 | 5, $100,000 to $149,999 | 6, $150,000 to $199,999 | 7, $200,000 to $249,999 | 8, >$250,000 | 9, Prefer not to answer",,,,,,"[country] =""1""",,,,,,
 financial_assistance_usa,q_generic_demographics,,radio,"Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed in the question below.","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,"[country] =""1""",,,,,,
-assistance_programs_usa,q_generic_demographics,,checkbox,"Do you take advantage of any of the following programs? 
-Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country] =""1""",,,,,,
+assistance_programs_usa,q_generic_demographics,,checkbox,"Do you take advantage of any of the following programs? Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country] =""1""",,,,,,
 household_income_ca,q_generic_demographics,,radio,"What was your total household income last year (CAD)? Please include all sources of income, including pensions, dividends, alimony, child support, etc.","1, < $15,000 | 2, $15,000 to $29,999 | 3, $30,000 to $$49,999 | 4, $50,000 to $99,999 | 5, $100,000 to $149,999 | 6, $150,000 to $199,999 | 7, $200,000 to $249,999 | 8, >$250,000 | 9, Prefer not to answer",,,,,,"[country]=""2""",,,,,,
-financial_assistance_ca,q_generic_demographics,,radio,"Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed below.","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,"[country]=""2""",,,,,,
-assistance_programs_ca,q_generic_demographics,,checkbox,"Do you take advantage of any of the following programs? 
-Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country]=""2""",,,,,,
+financial_assistance_ca,q_generic_demographics,,radio,"Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed in the question below.","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,"[country]=""2""",,,,,,
+assistance_programs_ca,q_generic_demographics,,checkbox,"Do you take advantage of any of the following programs? Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country]=""2""",,,,,,
 citizen,q_generic_demographics,Citizenship,radio,Citizen,"1, Citizen | 2, Permanent resident (Green card holder) | 3, Non-citizen US/Canadian national | 4, Refugee | 5, Asylum seeker | 6, Non-immigrant student | 7, Non-immigrant worker | 8, Prefer not to answer",,,,,,,y,,,,,
-marital_status,q_generic_demographics,,checkbox,"What is your marital status?
-Choose all that apply","1, Single | 2, Married | 3, In a relationship | 4, Not married | 5, Separated | 6, Divorced | 7, Widowed",,,,,,,,,,,,
+marital_status,q_generic_demographics,,checkbox,"What is your marital status? Choose all that apply","1, Single | 2, Married | 3, In a relationship | 4, Not married | 5, Separated | 6, Divorced | 7, Widowed",,,,,,,,,,,,
 housing_status,q_generic_demographics,,radio,"What is your current housing status?","1, Assisted living | 3, Own home | 4, Rent home | 5, Skilled nursing facility/nursing home | 6, Unhoused-temporarily | 7, Unhoused-permanently",,,,,,,y,,,,,
-household_count,q_generic_demographics,,text,"<div class=""rich-text-field-label""><p>How many people live in your household? <br /><em>Please specify a number</em></p></div>",,,number,,,,,y,,,,,
+household_count,q_generic_demographics,,text,"How many people live in your household? Please specify a number",,,number,,,,,y,,,,,
 spouse_partner_sig_other,q_generic_demographics,"Who lives with you? Choose all that apply",radio,"Spouse/partner/significant other","1, Yes | 0, No",,,,,,[household_count]>0,,,,live_with_household,,
 children,q_generic_demographics,,radio,"One or more children","1, Yes | 0, No",,,,,,[household_count]>0,,,,live_with_household,,
 parent,q_generic_demographics,,radio,"One or more parent","1, Yes | 0, No",,,,,,[household_count]>0,,,,live_with_household,,
@@ -740,24 +727,29 @@ confounders_session_id,q_generic_confounders,"Questionnaire - Metadata",text,"Se
 confounders_started_at,q_generic_confounders,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 confounders_completed_at,q_generic_confounders,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 confounders_duration,q_generic_confounders,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-is_regular_smoker,q_generic_confounders,SMOKING,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
-smoking_hx,q_generic_confounders,,radio,"<div class=""rich-text-field-label""><p>Have you ever smoked regularly (more than a few times a month for at least two months)?<br /><em><span style=""font-weight: normal;"">This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.</span></em></p></div>","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
+is_regular_smoker,q_generic_confounders,Smoking,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
+smoking_hx,q_generic_confounders,,radio,"Have you ever smoked regularly (more than a few times a month for at least two months)?
+This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
 age_start_smoking,q_generic_confounders,,text,"At what age did you start smoking?",,,number,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
 age_stop_smoking,q_generic_confounders,,text,"At what age did you stop?",,,number,,,,"[smoking_hx]=""past""",,,,,,
-smoking_types,q_generic_confounders,,checkbox,"Please select smoking types used (Check all that apply)","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other (Please specify) | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
-other_smoking_specify,q_generic_confounders,,text,"If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
+smoking_types,q_generic_confounders,,checkbox,"Please select smoking types used (Check all that apply)","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
 smoking_freq,q_generic_confounders,,radio,"How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year | noAnswer, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
-alcohol_yn,q_generic_confounders,"ALCOHOL CONSUMPTION",radio,"Do you drink alcohol?","yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
-alcohol_freq,q_generic_confounders,,radio,"<div class=""rich-text-field-label""><p>How often do you have at least one drink containing alcohol?<br /><em><span style=""font-weight: normal;"">Drinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor</span></em></p></div>","1, Monthly or less | 2, 2 - 4 times a month | 3, 2 - 3 times a week | 4, 4 or more times a week | 5, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
-alcohol_amt,q_generic_confounders,,radio,"<div class=""rich-text-field-label""><p>How many drinks containing alcohol do you have on a typical day when you are drinking?<br /><span style=""font-weight: normal;""><em>One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor</em></span></p></div>","1, 0 - 2 | 2, 3 - 4 | 3, 5 - 6 | 4, 7 - 9 | 5, 10 or more | 6, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
-alcohol_drinks,q_generic_confounders,,radio,"How often did you have six or more drinks on one occasion in the past year?      ","neverInThePastYear, Never in the past year | lessThanMonthly, Less than monthly | monthly, Monthly | weekly, Weekly | daily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+other_smoking_specify,q_generic_confounders,,text,"If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
+alcohol_yn,q_generic_confounders,"Alcohol consumption",radio,"Do you drink alcohol?","yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+alcohol_freq,q_generic_confounders,,radio,"How often do you have at least one drink containing alcohol?
+Drinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor","1, Monthly or less | 2, 2 - 4 times a month | 3, 2 - 3 times a week | 4, 4 or more times a week | 5, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+alcohol_amt,q_generic_confounders,,radio,"How many drinks containing alcohol do you have on a typical day when you are drinking?
+One drink is 12 oz. beer, 5 oz. wine, 1.5 oz. (one shot) liquor","1, 0 - 2 | 2, 3 - 4 | 3, 5 - 6 | 4, 7 - 9 | 5, 10 or more | 6, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
+alcohol_drinks,q_generic_confounders,,radio,"How often did you have six or more drinks on one occasion in the past year?","neverInThePastYear, Never in the past year | lessThanMonthly, Less than monthly | monthly, Monthly | weekly, Weekly | daily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
 alcohol_today,q_generic_confounders,,yesno,"Have you drunk alcohol today?",,,,,,,"[alcohol_yn]=""yes""",,,,,,
 drinks_today_number,q_generic_confounders,,text,"How many drinks did you have?",,,number,,,,"[alcohol_today]=""1""",,,,,,
 alcohol_rehab,q_generic_confounders,,radio,"Have you ever been in rehab or counseling for heavy alcohol use?","neverInThePastYear, Never in the past year | lessThanMonthly, Less than monthly | monthly, Monthly | weekly, Weekly | daily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,"[alcohol_yn]=""yes"" or [alcohol_yn]=""noAnswer""",,,,,,
 current_recovery_alcohol,q_generic_confounders,,yesno,"Are you currently in recovery for alcohol use?",,,,,,,"[alcohol_yn]=""yes"" or [alcohol_yn]=""noAnswer""",,,,,,
-recreational_drug_use,q_generic_confounders,"SUBSTANCE USE",yesno,"<div class=""rich-text-field-label""><p class=""p1"">How many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?</p> <p class=""p1""><em><span style=""font-weight: normal;"">Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).</span></em></p> <p>More than one</p></div>",,,,,,,,y,,,,,
+recreational_drug_use,q_generic_confounders,"Substance use",yesno,"How many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?
+Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).
+More than one",,,,,,,,y,,,,,
 substance_use_recovery,q_generic_confounders,,yesno,"Are you currently in recovery for substance use?",,,,,,,"[recreational_drug_use]=""1""",,,,,,
-painkillers,q_generic_confounders,"During the past TWO (2) WEEKS, about how often did you use any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed?",radio,"Painkillers (like Vicodin)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
+painkillers,q_generic_confounders,"During the past TWO (2) WEEKS, about how often did you use any of the following substances or medications for reasons or in doses other than prescribed?",radio,"Painkillers (like Vicodin)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 stimulants,q_generic_confounders,,radio,"Stimulants (like Ritalin, Adderall)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 sedatives,q_generic_confounders,,radio,"Sedatives or tranquilizers (like sleeping pills or Valium)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 marijuana,q_generic_confounders,,radio,Marijuana,"none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
@@ -767,21 +759,22 @@ hallucinogens,q_generic_confounders,,radio,"Hallucinogens (like LSD)","none, Not
 heroin,q_generic_confounders,,radio,"Heroin or other opioids, including synthetic opioids like fentanyl","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 inhalants,q_generic_confounders,,radio,"Inhalants or solvents (like glue)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
 methamphetamine,q_generic_confounders,,radio,"Methamphetamine (like speed)","none, Not at all | oneOrTwoDays, One or two days | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,"[recreational_drug_use]=""1""",,,,substance_use_options,,
-caffeine_intake,q_generic_confounders,"CAFFEINE INTAKE",text,"How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?",,,number,,,,,y,,,,,
+caffeine_intake,q_generic_confounders,"Caffeine intake",text,"How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?",,,number,,,,,y,,,,,
 caffeine_intake_today,q_generic_confounders,,text,"How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?",,,,,,,,,,,,,
-hydration,q_generic_confounders,HYDRATION,text,"How many small (8oz or 230ml) cups of water do you drink on a typical day?",,,number,,,,,y,,,,,
+hydration,q_generic_confounders,Hydration,text,"How many small (8oz or 230ml) cups of water do you drink on a typical day?",,,number,,,,,y,,,,,
 hydration_today,q_generic_confounders,,text,"How many small (8oz or 230ml) cups of water have you had TODAY?",,,,,,,,,,,,,
-dental_problems,q_generic_confounders,"DENTAL PROBLEMS",yesno,"Do you have any dental problems that might affect speech?",,,,,,,,,,,,,
+dental_problems,q_generic_confounders,"Dental problems",yesno,"Do you have any dental problems that might affect speech?",,,,,,,,,,,,,
 dental_tx,q_generic_confounders,,text,"Do you currently have any tooth loss, dentures, retainers or braces? (Please specify)",,,,,,,[dental_problems]='1',,,,,,
-seasonal_allergies,q_generic_confounders,"ALLERGIES OR COLD SYMPTOMS",yesno,"Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?",,,,,,,,,,,,,
+seasonal_allergies,q_generic_confounders,"Allergies or cold symptoms",yesno,"Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?",,,,,,,,,,,,,
 seasonal_allergies_options,q_generic_confounders,,checkbox,"Check all that apply:","1, Nasal congestion or obstruction | 2, Cough | 3, Scratchy or sore throat | 4, Shortness of breath",,,,,,"[seasonal_allergies]=""1""",,,,,,
-tired_measure,q_generic_confounders,TIREDNESS,radio,"<div class=""rich-text-field-label""><p>How tired are you?<br /><em><span style=""font-weight: normal;"">0=not tired at all, 10=extremely tired</span></em></p></div>","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
-height,q_generic_confounders,"HEIGHT AND WEIGHT",text,"Height (inches)",,inches,number,,,,,,,,,,
+tired_measure,q_generic_confounders,Tiredness,radio,"How tired are you? 0=not tired at all, 10=extremely tired","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
+height,q_generic_confounders,"Height and Weight",text,"Height (inches)",,inches,number,,,,,,,,,,
 weight,q_generic_confounders,,text,"Weight (pounds)",,lbs,number,,,,,,,,,,
 unit,q_generic_confounders,,dropdown,Unit,"1, Metric | 2, US customary units",,,,,,,,,,,,
-symptoms,q_generic_confounders,SYMPTOMS,checkbox,"There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply.","1, Anxiety or nervousness | 2, Confusion | 3, Dizziness | 4, Frequent or severe headache or migraine | 5, Sleep disturbance | 6, Speech difficulty | 7, Prefer not to answer",,,,,,,,,,,,
-ear_med_history,q_generic_confounders,"<p>EAR, NOSE, THROAT MEDICAL HISTORY<br /><br />Do you have any of these voice, communication, or hearing conditions? (check all that apply)</p>
-",checkbox,Ear,"1, Chronic ear infection | 2, Cochlear implant | 3, Hearing loss",,,,,,,,,,,,
+symptoms,q_generic_confounders,Symptoms,checkbox,"There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply.","1, Anxiety or nervousness | 2, Confusion | 3, Dizziness | 4, Frequent or severe headache or migraine | 5, Sleep disturbance | 6, Speech difficulty | 7, Prefer not to answer",,,,,,,,,,,,
+e_n_t_m_h_space,q_generic_confounders,"Ear, Nose, Throat Medical History
+",descriptive,,,,,,,,,,,,,,
+ear_med_history,q_generic_confounders,"Do you have any of these voice, communication, or hearing conditions? (check all that apply)",checkbox,Ear,"1, Chronic ear infection | 2, Cochlear implant | 3, Hearing loss",,,,,,,,,,,,
 nose_med_history,q_generic_confounders,,checkbox,Nose,"1, Frequent sinusitis",,,,,,,,,,,,
 throat_med_history,q_generic_confounders,,checkbox,Throat,"1, Pre-cancerous throat lesion (e.g. laryngeal leukoplakia or keratosis | 2, Reflux (heartburn) | 3, Reinke's edema, polypoid corditis, or smoker's larynx | 4, Sjögren's syndrome | 5, Swallowing disorders (dysphagia) | 6, Throat cancer | 7, Thyroid disease | 8, Velopharyngeal insufficiency | 9, Vocal fold dysfunction, paradoxical vocal fold motion, or inducible laryngeal obstruction | 10, Vocal fold polyp, nodule, or cyst | 11, Vocal hemorrhage or bleed | 12, Voice/throat disorder",,,,,,,,,,,,
 head_med_history,q_generic_confounders,,checkbox,Head,"1, Radiation around head and neck | 2, Seasonal allergies",,,,,,,,,,,,
@@ -789,9 +782,8 @@ ear_surgical,q_generic_confounders,"Have you had any of the interventions mentio
 nose_surgical,q_generic_confounders,,checkbox,Nose,"1, Septoplasty/Rhinoplasty | 2, Sinus surgery",,,,,,,,,,,,
 throat_surgical,q_generic_confounders,,checkbox,Throat,"1, Airway surgery | 2, Throat surgery | 3, Thyroid surgery | 4, Tonsillectomy/Adenoidectomy",,,,,,,,,,,,
 head_surgical,q_generic_confounders,,checkbox,Head,"1, Head/Neck cancer (e.g. oropharyngeal cancer) | 2, Sleep surgery",,,,,,,,,,,,
-neurological_history,q_generic_confounders,"NEUROLOGICAL MEDICAL HISTORY
-
-Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological Medical History","1, Brain tumor | 2, Dysarthria | 3, Epilepsy | 4, Multiple sclerosis | 5, Traumatic brain injury | 6, Other",,,,,,,,,,,,
+n_m_h_space,q_generic_confounders,"Neurological Medical History",descriptive,,,,,,,,,,,,,,
+neurological_history,q_generic_confounders,"Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological Medical History","1, Brain tumor | 2, Dysarthria | 3, Epilepsy | 4, Multiple sclerosis | 5, Traumatic brain injury | 6, Other",,,,,,,,,,,,
 current_neuro_dx,q_generic_confounders,,radio,"<p>Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?","1, None | 2, Only some | 3, All",,,,,,"[neurological_history(1)] = ""1"" or
 [neurological_history(2)] = ""1"" or
 [neurological_history(3)] = ""1"" or
@@ -799,8 +791,7 @@ current_neuro_dx,q_generic_confounders,,radio,"<p>Do you currently have these co
 [neurological_history(5)] = ""1"" or
 [neurological_history(6)] = ""1""",,RH,,,,
 specify_current_neuro,q_generic_confounders,,text,"Which ones do you currently have? (please specify)",,,,,,,[current_neuro_dx]=2,,RH,,,,
-respiratory_conditions,q_generic_confounders,"RESPIRATORY CONDITIONS
-",checkbox,"Respiratory Conditions","1, Bronchiectasis | 2, Cancer (lung or metastatic) | 3, Emphysema | 4, Interstitial lung disease (sarcoidosis, pulmonary fibrosis) | 5, Pneumothorax or atelectasis (collapsed lung) | 6, Pulmonary hypertension | 7, Radiation to the chest | 8, Tuberculosis",,,,,,,,,,,,
+respiratory_conditions,q_generic_confounders,"Respiratory Conditions",checkbox,"Respiratory Conditions","1, Bronchiectasis | 2, Cancer (lung or metastatic) | 3, Emphysema | 4, Interstitial lung disease (sarcoidosis, pulmonary fibrosis) | 5, Pneumothorax or atelectasis (collapsed lung) | 6, Pulmonary hypertension | 7, Radiation to the chest | 8, Tuberculosis",,,,,,,,,,,,
 lung_or_metastatic,q_generic_confounders,,checkbox,"Cancer (lung or metastatic)","1, Lung | 2, Metastatic",,,,,,"[respiratory_conditions(2)]=""1""",,,,,,
 covid,q_generic_confounders,,checkbox,"Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)","past_year, COVID in the past year | long, Long COVID (symptoms persisted at least four weeks after initial infection)",,,,,,,,,,,,
 covid_past,q_generic_confounders,,radio,"Have you had COVID in the past month?","yes, Yes | no, No",,,,,,"[covid(past_year)]=""1""",,,,,,
@@ -814,13 +805,12 @@ breathe_today_difficulty,q_generic_confounders,,radio,"Please specify the level 
 cough_today,q_generic_confounders,,radio,"Are you coughing today?","yes, Yes | no, No",,,,,,"[eligible_studies(4)] = 1",,,,,,
 cough_today_severity,q_generic_confounders,,radio,"What is the severity of your cough?
 A selection of 10 being means the most severe.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,"[eligible_studies(4)] = 1 and [cough_today] = 'yes'",,,,,,
-circulatory_conditions,q_generic_confounders,"CIRCULATORY AND OTHER CONDITIONS",checkbox,"Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)","1, Atrial fibrillation | 2, Cardiac condition | 3, Chronic pericarditis | 4, Congestive heart failure | 5, Coronary heart disease | 6, Hypertension",,,,,,,,,,,,
+circulatory_conditions,q_generic_confounders,"Circulatory and Other Conditions",checkbox,"Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)","1, Atrial fibrillation | 2, Cardiac condition | 3, Chronic pericarditis | 4, Congestive heart failure | 5, Coronary heart disease | 6, Hypertension",,,,,,,,,,,,
 cardiac_condition,q_generic_confounders,,text,"Cardiac condition",,,,,,,"[circulatory_conditions(2)]=""1""",,RH,,,,
 circulatory_med_history,q_generic_confounders,,checkbox,"Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)","1, Chronic kidney disease | 2, Diabetes | 3, Infectious disease | 4, Obesity | 5, Scoliosis",,,,,,,,,,,,
 infection_disease,q_generic_confounders,,text,"Infectious disease",,,,,,,"[circulatory_med_history(3)]=""1""",,RH,,,,
-ph_standing,q_generic_confounders,"PHYSICAL HEALTH
-		
-In the past 30 days, how much difficulty did you have in:",radio,"Standing for long periods such as 30 minutes?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
+p_h_space,q_generic_confounders,"Physical Health",descriptive,,,,,,,,,,,,,,
+ph_standing,q_generic_confounders,"In the past 30 days, how much difficulty did you have in:",radio,"Standing for long periods such as 30 minutes?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_take_care,q_generic_confounders,,radio,"Taking care of your household responsibilities?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_learn_task,q_generic_confounders,,radio,"Learning a new task, for example, learning how to get to a new place?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_problem_join,q_generic_confounders,,radio,"How much of a problem did you have joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
@@ -835,15 +825,14 @@ ph_day_to_day_work,q_generic_confounders,,radio,"Your day-to-day work?","none, N
 physical_health_freq,q_generic_confounders,,text,"Overall, in the past 30 days, how many days were these difficulties present?",,days,number,,,,,y,RH,,,,
 phys_health_impact,q_generic_confounders,,text,"In the past 30 days, for how many days were you totally unable to carry out your usual activities or work because of any health condition?",,days,number,,,,,y,RH,,,,
 phys_health_limited,q_generic_confounders,,text,"In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?",,days,,,,,,y,RH,,,,
-medications,q_generic_confounders,"MEDICATIONS
-",checkbox,"Do you currently take or use any of these medications or substances? (Check all that apply)","1, Antibiotics | 2, Anti-histamines (allergy medications) | 3, Anti-Hypertensive Medications (Blood Pressure Medication) | 4, Diuretics (ex: Lasix) | 5, Decongestants | 6, Muscle relaxants (ex: Baclofen) | 7, Hormone use | 8, Inhaled corticosteroids | 9, Oral steroids | 10, Anti-anxiety medications: (ex: Benzodiazepine) | 11, Chronic Pain medication | 12, Psychotropic/antipsychotic medications (ex: Clozapine) | 13, Antidepressants (ex: amitryptiline) | 14, Immune suppressors (ex: Methotrexate) | 15, Reflux medications (ex: Pantoprazole, Nexium) | 16, Anticholinergics (ex: Ventolin) | 17, Anticoagulants (blood thinners) | 18, Antiepileptic (ex: Phenytoin)",,,,,,,,,,,,
+medications,q_generic_confounders,Medications,checkbox,"Do you currently take or use any of these medications or substances? (Check all that apply)","1, Antibiotics | 2, Anti-histamines (allergy medications) | 3, Anti-Hypertensive Medications (Blood Pressure Medication) | 4, Diuretics (ex: Lasix) | 5, Decongestants | 6, Muscle relaxants (ex: Baclofen) | 7, Hormone use | 8, Inhaled corticosteroids | 9, Oral steroids | 10, Anti-anxiety medications: (ex: Benzodiazepine) | 11, Chronic Pain medication | 12, Psychotropic/antipsychotic medications (ex: Clozapine) | 13, Antidepressants (ex: amitryptiline) | 14, Immune suppressors (ex: Methotrexate) | 15, Reflux medications (ex: Pantoprazole, Nexium) | 16, Anticholinergics (ex: Ventolin) | 17, Anticoagulants (blood thinners) | 18, Antiepileptic (ex: Phenytoin)",,,,,,,,,,,,
 hormone_use,q_generic_confounders,,checkbox,"Hormone use","1, Oral contraceptive | 2, Hormonal replacement therapy (HRT) | 3, Androgenic steroids | 4, Other",,,,,,"[medications(7)]=""1""",,,,,,
 pain_medication,q_generic_confounders,,checkbox,"Chronic Pain medication","1, NSAIDs (ex: Ibuprofen/Advil/Cerebrex) | 2, Morphine/Oxycodone | 3, Neuro-modulators (ex: Gabapentin, Lyrica)",,,,,,"[medications(11)]=""1""",,,,,,
-menstruate,q_generic_confounders,GYNECOLOGICAL,radio,"Do you menstruate?","doesNotApply, Does not apply | yes, Yes | no, No | noAnswer, Prefer no to answer",,,,,,,y,,,,,
+menstruate,q_generic_confounders,Gynecological,radio,"Do you menstruate?","doesNotApply, Does not apply | yes, Yes | no, No | noAnswer, Prefer no to answer",,,,,,,y,,,,,
 menstruate_no,q_generic_confounders,,radio,"Please explain","pregnant, I am pregnant | iud, I have an IUD | menopause, I have gone through menopause | other, Other",,,,,,"[menstruate]=""no""",,,,,,
 other_menstruate_specify,q_generic_confounders,,text,"If you selected ""other"" for menstruate, please specify:",,,,,,,"[menstruate_no] = ""other""",,,,,,
-menstrual_cycle_status,q_generic_confounders,,radio,"<div class=""rich-text-field-label""><p>Where in your cycle are you? <br /><em><span style=""font-weight: normal;"">(We ask because this may affect your voice.)</span></em></p></div>","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='yes',,,,,,
-voice_activity,q_generic_confounders,"VOICE ACTIVITY",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)","1, Bartender | 2, Waiter, receptionist | 3, Speaking  (secretary, call center, attorney, salesperson) | 4, Teacher | 5, Singer | 6, Cheerleading | 7, Other",,,,,,,,,,,,
+menstrual_cycle_status,q_generic_confounders,,radio,"Where in your cycle are you? (We ask because this may affect your voice.)","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='yes',,,,,,
+voice_activity,q_generic_confounders,"Voice Activity",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)","1, Bartender | 2, Waiter, receptionist | 3, Speaking  (secretary, call center, attorney, salesperson) | 4, Teacher | 5, Singer | 6, Cheerleading | 7, Other",,,,,,,,,,,,
 other_voice_activity,q_generic_confounders,,text,"If you selected ""other"" for voice activity, please specify:",,,,,,,"[voice_activity(7)] = ""1""",,RH,,,,
 hours_voice_activity,q_generic_confounders,,text,"How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?",,hours,number,,,,"[voice_activity(1)] = ""1"" or
 [voice_activity(2)] = ""1"" or
@@ -852,7 +841,7 @@ hours_voice_activity,q_generic_confounders,,text,"How many hours per day do you 
 [voice_activity(5)] = ""1"" or
 [voice_activity(6)] = ""1"" or
 [voice_activity(7)] = ""1""",,RH,,,,
-reading_aloud,q_generic_confounders,"READING ACTIVITY",radio,"""How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?""","excellent, Excellent | veryGood, Very good | good, Good | fair, Fair | poor, Poor",,,,,,,y,,,,,
+reading_aloud,q_generic_confounders,"READING ACTIVITY",radio,"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?","excellent, Excellent | veryGood, Very good | good, Good | fair, Fair | poor, Poor",,,,,,,y,,,,,
 voice_perception_session_id,q_generic_voice_perception,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 voice_perception_started_at,q_generic_voice_perception,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 voice_perception_completed_at,q_generic_voice_perception,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
