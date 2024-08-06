@@ -1,4 +1,4 @@
-﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent",,,,,,,y,,,,,
@@ -527,9 +527,12 @@ diagnosis_as_ds_ac,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classi
 diagnosis_as_ds_ac_grade_4,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade4t, Grade 4T | grade4g, Grade 4G | grade4tg, Grade 4TG",,,,,,"[diagnosis_as_ds_ac] = 'grade4'",y,,,,,
 diagnosis_as_ds_ac_ref,d_resp_airway_stenosis,,descriptive,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)
 Picture for reference",,,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",,,,,,
-diagnosis_as_ds_mluas,d_resp_airway_stenosis,,notes,"Please describe levels and severity of stenosis involved",,,,,,,[diagnosis_as_ds]='multilevelUpperAirwayStenosis',,RH,,,,
-diagnosis_as_ds_ods,d_resp_airway_stenosis,,radio,"How would you subjectively classify the overall degree of stenosis?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
 diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?",,,number,,,,,,RH,,,,
+diagnosis_as_ds_ods,d_resp_airway_stenosis,,radio,"How would you subjectively classify the overall degree of stenosis?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
+diagnosis_as_as,d_resp_airway_stenosis,,radio,"Does this patient have audible stridor at rest or when talking? ","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_as_as_s,d_resp_airway_stenosis,,radio,"Can you subjectively classify the severity of the stridor?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,"[diagnosis_as_as] = 'yes'",y,,,,,
+diagnosis_as_as_c,d_resp_airway_stenosis,,radio,"Is the stridor:","inspiratory, Inspiratory | expiratory, Expiratory | biphasic, Biphasic",,,,,,"[diagnosis_as_as] = 'yes'",y,,,,,
+diagnosis_as_ds_mluas,d_resp_airway_stenosis,,notes,"Please describe levels and severity of stenosis involved",,,,,,,[diagnosis_as_ds]='multilevelUpperAirwayStenosis',,RH,,,,
 diagnosis_as_treatment,d_resp_airway_stenosis,"5. Treatment obtained",checkbox,"What treatment has the patient undergone for their stenosis?","no_treatment, No treatment | surgery, Surgery | in_office_treatment, In-office treatment",,,,,,,y,,,,,
 diagnosis_as_treatment_surgery,d_resp_airway_stenosis,,checkbox,"Surgery options","endoscopic_intervention, Endoscopic intervention with Laser and Balloon dilation and steroid injection | endoscopic_excision, Endoscopic laser wedge excision with balloon dilation and steroid injection | laryngotracheal_reconstruction, Open Laryngotracheal reconstruction | laryngotracheoplasty, Laryngotracheoplasty (Maddern procedure) | tracheostomy, Tracheostomy | other, Other",,,,,,"[diagnosis_as_treatment(surgery)] = ""1""",y,,,,,
 diagnosis_as_treatment_surgery_other,d_resp_airway_stenosis,,text,"Other Surgery option, Please Specify",,,,,,,"[diagnosis_as_treatment_surgery(other)]=""1""",,,,,,
