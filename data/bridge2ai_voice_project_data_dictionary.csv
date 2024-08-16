@@ -20,7 +20,7 @@ age,subjectparticipant_contact_information,,calc,Age,"rounddown((datediff([dob],
 phone_number,subjectparticipant_contact_information,,text,"Phone Number",,###-###-####,,,,y,,y,,,,,
 email,subjectparticipant_contact_information,,text,Email,,,email,,,y,,y,,,,,
 contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,y,,,,,
-eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | 5, Pediatric Disorders",,,,,,,y,,,,,
+eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]",,,,,,,y,,,,,
 is_control_participant,subjectparticipant_eligible_studies,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 cond_sel_prompt,subjectparticipant_eligible_studies,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
 laryng_cancer,subjectparticipant_eligible_studies,"Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
@@ -134,76 +134,6 @@ paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Pap
 paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
-page_1,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page2,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page3,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_4,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_5,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page6,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page7,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page8,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-page_9,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
-consent_usf_question,bridge2ai_econsent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research and Authorization for the Collection, Use and Disclosure of Health Information:<br><span style=""font-weight: normal;"">I freely give my consent to take part in this study and authorize that my health information as agreed above, be collected/disclosed in this study. I understand that by signing this form I am agreeing to take part in research. I have received a copy of this form to take with me. I understand that by filling out the best future contact below, I am consenting to be contacted in the future for further voice data collection if long term follow up is required as part of an eventual extension of this grant after the 4-year duration.</span><br><span style=""font-weight: normal;"">Please select one of the three statements below that you consent to.</span></p></div>","1, I consent to having all data I submit shared only with the researchers of this study. | 2, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers. | 3, I consent to having all data I submit shared with the researchers of this study and to having my audio recordings and de-identified written responses shared with other qualified researchers as well as publicly in the form of an open-source database.",,,,,y,,y,LV,,,,
-consent_usf_signature,bridge2ai_econsent_main_icf_usf_english,,file,"Signature of Person Taking Part in Study
-[Authorization]
-
-
-",,,signature,,,y,,y,,,,," @READONLY-FORM"
-consent_usf_name,bridge2ai_econsent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
-consent_usf_date,bridge2ai_econsent_main_icf_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
-researcher_statement2,bridge2ai_econsent_main_icf_usf_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-researcher_signature,bridge2ai_econsent_main_icf_usf_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
-researcher_name,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
-researcher_date,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
-combined_pdf_main_icf_usf,bridge2ai_econsent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,y,,,,,,,
-consent_wcm_p1,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p2,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p3,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p4,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_statement,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_permission_2,bridge2ai_econsent_addendum_wcm_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_statement_2,bridge2ai_econsent_addendum_wcm_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_p5,bridge2ai_econsent_addendum_wcm_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_signature,bridge2ai_econsent_addendum_wcm_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_name,bridge2ai_econsent_addendum_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_date,bridge2ai_econsent_addendum_wcm_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_p6,bridge2ai_econsent_addendum_wcm_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature,bridge2ai_econsent_addendum_wcm_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
-consent_wcm_rs_name,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
-consent_wcm_rs_date,bridge2ai_econsent_addendum_wcm_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
-upload_addendums,bridge2ai_econsent_combined_pdf_addendum_wcm,,file,"Combined PDF-WCM English Addendum",,,,,,y,,,,,,,
-consent_wcm_p1_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p3_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_p4_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_statement_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_permission_2_mit,bridge2ai_econsent_addendum_mit_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_statement_2_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_p5_mit,bridge2ai_econsent_addendum_mit_english,,descriptive,,,,,,,,,,,,,,
-consent_wcm_signature_mit,bridge2ai_econsent_addendum_mit_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_name_mit,bridge2ai_econsent_addendum_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_date_mit,bridge2ai_econsent_addendum_mit_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_p6_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,descriptive,,,,,,,,,,,,,,
-consent_wcm_rs_signature_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
-consent_wcm_rs_name_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
-consent_wcm_rs_date_mit,bridge2ai_econsent_addendum_mit_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
-upload_addendums_mit,bridge2ai_econsent_combined_pdf_addendum_mit,,file,"Combined PDF-WCM English Addendum",,,,,,y,,,,,,,
-consent_bch_p1,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p2,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p3,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_p4,bridge2ai_econsent_addendum_sickkids_english,,descriptive,,,,,,,,,,,,,,
-consent_bch_statement,bridge2ai_econsent_addendum_sickkids_english,,descriptive,"<div class=""rich-text-field-label""><p>RESEARCH PARTICIPANT: On the checklist below, please indicate if you would permit the researchers to store and/or share your voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers for future research.<br /><span style=""font-weight: normal;"">We will use and share your information only as described in this form; however, people outside WCM who receive your information may not be covered by this promise or by the federal Privacy Rule. We try to make sure that everyone who needs to see your information keeps it confidential - but we cannot guarantee that your information will not be re-disclosed.</span><br /><span style=""font-weight: normal;"">By checking ""Yes"" and signing this consent form, you agree to give your data and Protected Health Information to Weill Cornell Medicine for research purposes.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_permission_1_bch,bridge2ai_econsent_addendum_sickkids_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES, </strong>I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers<strong><i> </i></strong>to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50<strong><i> </i></strong>years and will be destroyed after the research is completed.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_permission_2_bch,bridge2ai_econsent_addendum_sickkids_english,,yesno,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;""><strong>YES</strong>, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire<i> </i>answers to be <strong>shared </strong>with other qualified <strong>researchers</strong> for future research.</span></p></div>",,,,,,y,,y,,,,,
-consent_wcm_statement_2_bch,bridge2ai_econsent_addendum_sickkids_english,,descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.</span><br /><span style=""font-weight: normal;"">If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you.</span></p></div>",,,,,,,,,,,,," @READONLY-FORM"
-consent_wcm_signature_bch,bridge2ai_econsent_addendum_sickkids_english,,file,"Signature of Person Taking Part in Study 
-[Authorization]",,,signature,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_name_bch,bridge2ai_econsent_addendum_sickkids_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
-consent_wcm_date_bch,bridge2ai_econsent_addendum_sickkids_english,,text,,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the patient, and by hearing their voice, do you think this patient has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_c_ac_specified,d_control,,text,"Please specify:",,,,,,,"[diagnosis_c_ac] = 'yes'",,,,,,
 diagnois_bl_gsd,d_voice_benign_lesions,"1. Gold Standard Diagnosis",radio,"Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
@@ -477,33 +407,136 @@ diagnosis_uvfp_treatment_surgery,d_voice_unilateral_vocal_fold_paralysis,,checkb
 diagnosis_uvfp_treatment_surgery_other,d_voice_unilateral_vocal_fold_paralysis,,text,"Other Surgery / Procedure, please specify",,,,,,,"[diagnosis_uvfp_treatment_surgery(other)]=""1""",,,,,,
 diagnosis_uvfp_treatment_surgery_thyroplasty,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Thyroplasty - Subcategory","goretex, Gore-Tex | silastic, Silastic",,,,,,"[diagnosis_uvfp_treatment_surgery(thyroplasty)]=""1""",y,,,,,
 diagnosis_uvfp_treatment_surgery_vfia,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Vocal fold injection augmentation - Subcategory","caha, CaHA | gel, Gel | hyaluronic_acid_augmentation, Hyaluronic acid augmentation | fat_injection, Fat injection",,,,,,"[diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation)]=""1""",y,,,,,
-diagnosis_bipolar_gsd,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,Diagnosis,"bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,y,,,,,
-diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?",,,,,,,,y,,,,,
-diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?",,,,,,,,y,,,,,
-diagnosis_bipolar_gsd_oquw,d_mood_bipolar_disorder,,radio,"Which objective questionnaire was used?","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",y,,,,,
-diagnosis_bipolar_gsd_oqu_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",y,,,,,
-diagnosis_bipolar_active_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",text,"Enter list of active problems",,,,,,,,y,,,,,
-diagnosis_bipolar_history_problems,d_mood_bipolar_disorder,,text,"Enter any history of problems",,,,,,,,,,,,,
-diagnosis_bipolar_subtype_active,d_mood_bipolar_disorder,"3. Disease Subtype",radio,"Disease Subtype","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
-diagnosis_bipolar_psychotic,d_mood_bipolar_disorder,,radio,"Psychotic Symptoms","with, With | without, Without",,,,,,,y,,,,,
-diagnosis_bipolar_etiology,d_mood_bipolar_disorder,"4. Etiology",text,"Describe life events that may relate to the diagnosis",,,,,,,,y,,,,,
-diagnosis_bipolar_severity,d_mood_bipolar_disorder,"5. Disease Severity",radio,"Disease Severity","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
-diagnosis_bipolar_current_med_therapies,d_mood_bipolar_disorder,"6. Treatment obtained",text,"List any current medications/therapies",,,,,,,,,,,,,
-diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"List any former medications/therapies",,,,,,,,,,,,,
-diagnosis_depression_gsd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,Diagnosis,"clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,y,,,,,
-diagnosis_depression_clinical_subcategory,d_mood_depression_or_major_depressive_disorder,,radio,"Clinical depression (major depressive disorder) Subcategory","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",y,,,,,
-diagnosis_depression_gsd_interview,d_mood_depression_or_major_depressive_disorder,,yesno,"Was a structured clinical interview done?",,,,,,,,y,,,,,
-diagnosis_depression_gsd_oqu,d_mood_depression_or_major_depressive_disorder,,yesno,"Was an objective questionnaire used?",,,,,,,,y,,,,,
-diagnosis_depression_gsd_oquw,d_mood_depression_or_major_depressive_disorder,,radio,"Which objective questionnaire was used?","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",y,,,,,
-diagnosis_depression_gsd_oqu_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",y,,,,,
-diagnosis_bipolar_active_problems_depression,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",text,"Enter list of active problems",,,,,,,,y,,,,,
-diagnosis_bipolar_history_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter any history of problems",,,,,,,,,,,,,
-diagnosis_bipolar_subtype_active_depression,d_mood_depression_or_major_depressive_disorder,"3.	Disease Subtype",radio,"Disease Subtype","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
-diagnosis_bipolar_psychotic_depression,d_mood_depression_or_major_depressive_disorder,,radio,"Psychotic Symptoms","with, With | without, Without",,,,,,,y,,,,,
-diagnosis_bipolar_etiology_depression,d_mood_depression_or_major_depressive_disorder,"4.	Etiology",text,"Describe life events that may relate to the diagnosis",,,,,,,,y,,,,,
-diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_disorder,"5.	Disease Severity",radio,"Disease Severity","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
-diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,"6.	Treatment obtained",text,"List any current medications/therapies",,,,,,,,,,,,,
-diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any former medications/therapies",,,,,,,,,,,,,
+mbd_diagnosed_bm,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with Bipolar Disorder?","yes, Yes | no, No",,,,,,,y,,,,,
+mbd_diagnosed_bipolar_i_ii_other,d_mood_bipolar_disorder,,radio,"Were you diagnosed with Bipolar I, Bipolar II, or Other/unspecified?","bipolarI, Bipolar I | bipolarII, Bipolar II | other, Other/unspecified",,,,,,,y,,,,,
+mbd_diagnosed_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_diagnosed_bipolar_i_ii_other]=""other""",y,,,,,
+mbd_ever_seen_heard,d_mood_bipolar_disorder,,radio,"Have you ever seen things other people can't see or heard things other people can't hear?","yes, Yes | no, No",,,,,,,y,,,,,
+mbd_had_manic_episode,d_mood_bipolar_disorder,,radio,"Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_bipolar_gsd,d_mood_bipolar_disorder,,radio,"Diagnosis
+
+(Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,y,,,,,
+diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_gsd_oquw,d_mood_bipolar_disorder,,radio,"Which objective questionnaire was used?
+
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",y,,,,,
+diagnosis_bipolar_gsd_oqu_other,d_mood_bipolar_disorder,,text,"Please specify
+
+(Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",y,,,,,
+mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+mbd_active_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",y,,,,,
+mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+mbd_hist_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",y,,,,,
+diagnosis_bipolar_active_problems,d_mood_bipolar_disorder,,text,"Enter list of active problems
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_history_problems,d_mood_bipolar_disorder,,text,"Enter any history of problems
+
+(Legacy)",,,,,,,,,,,,,
+mbd_last_depressive_episode,d_mood_bipolar_disorder,"3. Bipolar History",text,"When was your last depressive episode (feeling down and depressed more days than not over two weeks)?",,,date_ymd,,,y,,,,,,,
+mbd_many_depressive_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,y,,,,,
+mbd_last_manic_episode,d_mood_bipolar_disorder,,text,"When was your last manic episode?",,,date_ymd,,,y,,,,,,,
+mbd_many_manic_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many manic episodes have you had in your life?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,y,,,,,
+diagnosis_bipolar_subtype_active,d_mood_bipolar_disorder,"3. Disease Subtype  
+
+(Legacy)",radio,"Disease Subtype
+
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
+diagnosis_bipolar_psychotic,d_mood_bipolar_disorder,,radio,"Psychotic Symptoms
+
+(Legacy)","with, With | without, Without",,,,,,,y,,,,,
+diagnosis_bipolar_etiology,d_mood_bipolar_disorder,"4. Etiology
+
+(Legacy)",text,"Describe life events that may relate to the diagnosis
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_severity,d_mood_bipolar_disorder,"5. Disease Severity
+
+(Legacy)",radio,"Disease Severity
+
+(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
+mbd_prescribed_medication,d_mood_bipolar_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
+and how many times per day.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
+mbd_previous_medication,d_mood_bipolar_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
+approximate dates you were taking them, and why they were discontinued.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
+mbd_see_mental_health_professional,d_mood_bipolar_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+mbd_describe_psychotherapy,d_mood_bipolar_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
+dates, reasons for seeking therapy, etc.).",,,,,,,"[mbd_see_mental_health_professional]=""yes""",y,,,,,
+diagnosis_bipolar_current_med_therapies,d_mood_bipolar_disorder,,text,"List any current medications/therapies
+
+(Legacy)",,,,,,,,,,,,,
+diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"List any former medications/therapies
+
+(Legacy)",,,,,,,,,,,,,
+dmdd_diagnosed_dd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with a depressive disorder?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_depression_gsd,d_mood_depression_or_major_depressive_disorder,,radio,"Diagnosis 
+
+(Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,y,,,,,
+diagnosis_depression_clinical_subcategory,d_mood_depression_or_major_depressive_disorder,,radio,"Clinical depression (major depressive disorder) Subcategory
+
+(Legacy)","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",y,,,,,
+diagnosis_depression_gsd_interview,d_mood_depression_or_major_depressive_disorder,,yesno,"Was a structured clinical interview done?
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_depression_gsd_oqu,d_mood_depression_or_major_depressive_disorder,,yesno,"Was an objective questionnaire used?
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_depression_gsd_oquw,d_mood_depression_or_major_depressive_disorder,,radio,"Which objective questionnaire was used?
+
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",y,,,,,
+diagnosis_depression_gsd_oqu_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
+
+(Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",y,,,,,
+dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+dmdd_active_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",y,,,,,
+dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+dmdd_hist_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",y,,,,,
+diagnosis_bipolar_active_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter list of active problems
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_history_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter any history of problems
+
+(Legacy)",,,,,,,,,,,,,
+dmdd_last_depressive_episode,d_mood_depression_or_major_depressive_disorder,"3. Depression History",text,"When was your last depressive episode (feeling anxious more days than not over
+two weeks)?",,,date_ymd,,,,,,,,,,
+dmdd_how_many_depressive_episodes,d_mood_depression_or_major_depressive_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
+diagnosis_bipolar_subtype_active_depression,d_mood_depression_or_major_depressive_disorder,"3.	Disease Subtype
+
+(Legacy)",radio,"Disease Subtype
+
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
+diagnosis_bipolar_psychotic_depression,d_mood_depression_or_major_depressive_disorder,,radio,"Psychotic Symptoms
+
+(Legacy)","with, With | without, Without",,,,,,,y,,,,,
+diagnosis_bipolar_etiology_depression,d_mood_depression_or_major_depressive_disorder,"4.	Etiology
+
+(Legacy)",text,"Describe life events that may relate to the diagnosis
+
+(Legacy)",,,,,,,,y,,,,,
+diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_disorder,"5.	Disease Severity
+
+(Legacy)",radio,"Disease Severity
+
+(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
+dmdd_prescribed_medication,d_mood_depression_or_major_depressive_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+dmdd_current_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
+and how many times per day.",,,,,,,"[dmdd_prescribed_medication]=""yes""",y,,,,,
+dmdd_previous_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
+approximate dates you were taking them, and why they were discontinued.",,,,,,,"[dmdd_prescribed_medication]=""yes""",y,,,,,
+dmdd_see_mental_health_professional,d_mood_depression_or_major_depressive_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+dmdd_describe_psychotherapy,d_mood_depression_or_major_depressive_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
+dates, reasons for seeking therapy, etc.).",,,,,,,"[dmdd_see_mental_health_professional]=""yes""",y,,,,,
+diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any current medications/therapies
+
+(Legacy)",,,,,,,,,,,,,
+diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any former medications/therapies
+
+(Legacy)",,,,,,,,,,,,,
 diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
 diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
@@ -539,7 +572,7 @@ diagnosis_as_treatment_surgery_other,d_resp_airway_stenosis,,text,"Other Surgery
 diagnosis_as_treatment_in_office,d_resp_airway_stenosis,,checkbox,"In-office/awake treatment options","steroid_injections_sole, Awake Steroid injection(s) as sole treatment | steroid_injections_adjunct, Awake Steroid injection(s) as adjunct treatment | dilation, In-office or awake dilation | laser, In-office or awake laser",,,,,,"[diagnosis_as_treatment(in_office_treatment)] = ""1""",y,,,,,
 diagnosis_ucc_persisted,d_resp_unexplained_chronic_cough,"1. Initial screening criteria",radio,"Has the cough persisted longer than eight weeks?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_hsoe,d_resp_unexplained_chronic_cough,,radio,"Does the patient have a history of smoking or occupational exposures?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_hspd,d_resp_unexplained_chronic_cough,,checkbox,"Does the patient have a history of pulmonary disease? (Select all that apply)","lung_cancer, Lung cancer | copd, COPD | asthma, Asthma | tb_infection, TB infection | bronchiectasis, Bronchiectasis | pulmonary_granuloma, Pulmonary granuloma | idiopathic_pulmonary_fibrosis, Idiopathic pulmonary fibrosis | other, Other",,,,,,,y,,,,,
+diagnosis_ucc_hspd,d_resp_unexplained_chronic_cough,,checkbox,"Does the patient have a history of pulmonary disease? (Select all that apply)","lung_cancer, Lung cancer | copd, COPD | asthma, Asthma | tb_infection, TB infection | bronchiectasis, Bronchiectasis | pulmonary_granuloma, Pulmonary granuloma | idiopathic_pulmonary_fibrosis, Idiopathic pulmonary fibrosis | other, Other",,,,,,,,,,,,
 diagnosis_ucc_cuae,d_resp_unexplained_chronic_cough,,radio,"Has the chronic cough remained unexplained after evaluation and therapeutic intervention?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_hcxob,d_resp_unexplained_chronic_cough,,radio,"Has the patient had a chest x-ray, CT chest or bronchoscopy?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_cxcob,d_resp_unexplained_chronic_cough,,checkbox,"Select all that apply","chest_xray, Chest X-ray | ct_chest, CT Chest | bronchoscopy, Bronchoscopy",,,,,,"[diagnosis_ucc_hcxob] = ""yes""",y,,,,,
@@ -641,7 +674,6 @@ diagnosis_parkinsons_treatment_obtained_yes_medications,d_neuro_parkinsons_disea
 diagnosis_parkinsons_treatment_obtained_yes_medications_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(medications)] = 1 and [diagnosis_parkinsons_treatment_obtained_yes_medications(other)] = 1",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_npi,d_neuro_parkinsons_disease,,checkbox,"Non-pharmacological interventions:","physical_therapy, Physical therapy | occupational_therapy, Occupational therapy | speech_therapy, Speech therapy | dbs, Deep Brain Stimulation (DBS) therapy | other, Other",,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(npi)] = 1",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_npi_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(npi)] = 1 and [diagnosis_parkinsons_treatment_obtained_yes_npi(other)] = 1",y,,,,,
-diagnosis_healthy_developmentally_typical_children_ci,d_peds_healthy_developmentallytypical_children,"1. Clinical Information",radio,"Can you confirm that based on the current clinical status this child is healthy and developmentally-typical at this time? (e.g., could this code (ICD 10 Z00. 129) be applied for a visit at this time)","yes, Yes | no, No",,,,,,,y,,,,,
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
 session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
@@ -735,7 +767,7 @@ smoking_hx,q_generic_confounders,,radio,"Have you ever smoked regularly (more th
 This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
 age_start_smoking,q_generic_confounders,,text,"At what age did you start smoking?",,,number,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
 age_stop_smoking,q_generic_confounders,,text,"At what age did you stop?",,,number,,,,"[smoking_hx]=""past""",,,,,,
-smoking_types,q_generic_confounders,,checkbox,"Please select smoking types used (Check all that apply)","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
+smoking_types,q_generic_confounders,,checkbox,"Checklist of different types (choose all that apply):","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
 smoking_freq,q_generic_confounders,,radio,"How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year | noAnswer, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
 other_smoking_specify,q_generic_confounders,,text,"If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
 alcohol_yn,q_generic_confounders,"Alcohol consumption",radio,"Do you drink alcohol?","yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
@@ -767,17 +799,18 @@ caffeine_intake_today,q_generic_confounders,,text,"How many small (8oz or 230ml)
 hydration,q_generic_confounders,Hydration,text,"How many small (8oz or 230ml) cups of water do you drink on a typical day?",,,number,,,,,y,,,,,
 hydration_today,q_generic_confounders,,text,"How many small (8oz or 230ml) cups of water have you had TODAY?",,,,,,,,,,,,,
 dental_problems,q_generic_confounders,"Dental problems",yesno,"Do you have any dental problems that might affect speech?",,,,,,,,,,,,,
-dental_tx,q_generic_confounders,,text,"Do you currently have any tooth loss, dentures, retainers or braces? (Please specify)",,,,,,,[dental_problems]='1',,,,,,
+dental_tx,q_generic_confounders,,text,"Do you currently have any tooth loss, dentures, retainers or braces?",,,,,,,[dental_problems]='1',,,,,,
 seasonal_allergies,q_generic_confounders,"Allergies or cold symptoms",yesno,"Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?",,,,,,,,,,,,,
 seasonal_allergies_options,q_generic_confounders,,checkbox,"Check all that apply:","1, Nasal congestion or obstruction | 2, Cough | 3, Scratchy or sore throat | 4, Shortness of breath",,,,,,"[seasonal_allergies]=""1""",,,,,,
-tired_measure,q_generic_confounders,Tiredness,radio,"How tired are you? 0=not tired at all, 10=extremely tired","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
-height,q_generic_confounders,"Height and Weight",text,"Height (inches)",,inches,number,,,,,,,,,,
-weight,q_generic_confounders,,text,"Weight (pounds)",,lbs,number,,,,,,,,,,
+tired_measure,q_generic_confounders,Tiredness,radio,"How tired are you?
+0=not tired at all, 10=extremely tired","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
+height,q_generic_confounders,"Height and Weight",text,Height,,inches,number,,,,,,,,,,
+weight,q_generic_confounders,,text,Weight,,lbs,number,,,,,,,,,,
 unit,q_generic_confounders,,dropdown,Unit,"1, Metric | 2, US customary units",,,,,,,,,,,,
 symptoms,q_generic_confounders,Symptoms,checkbox,"There are some symptoms that can affect your voice. Are you currently experiencing any of these symptoms? Check all that apply.","1, Anxiety or nervousness | 2, Confusion | 3, Dizziness | 4, Frequent or severe headache or migraine | 5, Sleep disturbance | 6, Speech difficulty | 7, Prefer not to answer",,,,,,,,,,,,
-e_n_t_m_h_space,q_generic_confounders,"Ear, Nose, Throat Medical History
-",descriptive,,,,,,,,,,,,,,
-ear_med_history,q_generic_confounders,"Do you have any of these voice, communication, or hearing conditions? (check all that apply)",checkbox,Ear,"1, Chronic ear infection | 2, Cochlear implant | 3, Hearing loss",,,,,,,,,,,,
+ear_med_history,q_generic_confounders,"Ear, Nose, Throat Medical History
+
+Do you have any of these voice, communication, or hearing conditions? (check all that apply)",checkbox,Ear,"1, Chronic ear infection | 2, Cochlear implant | 3, Hearing loss",,,,,,,,,,,,
 nose_med_history,q_generic_confounders,,checkbox,Nose,"1, Frequent sinusitis",,,,,,,,,,,,
 throat_med_history,q_generic_confounders,,checkbox,Throat,"1, Pre-cancerous throat lesion (e.g. laryngeal leukoplakia or keratosis | 2, Reflux (heartburn) | 3, Reinke's edema, polypoid corditis, or smoker's larynx | 4, Sjögren's syndrome | 5, Swallowing disorders (dysphagia) | 6, Throat cancer | 7, Thyroid disease | 8, Velopharyngeal insufficiency | 9, Vocal fold dysfunction, paradoxical vocal fold motion, or inducible laryngeal obstruction | 10, Vocal fold polyp, nodule, or cyst | 11, Vocal hemorrhage or bleed | 12, Voice/throat disorder",,,,,,,,,,,,
 head_med_history,q_generic_confounders,,checkbox,Head,"1, Radiation around head and neck | 2, Seasonal allergies",,,,,,,,,,,,
@@ -785,35 +818,34 @@ ear_surgical,q_generic_confounders,"Have you had any of the interventions mentio
 nose_surgical,q_generic_confounders,,checkbox,Nose,"1, Septoplasty/Rhinoplasty | 2, Sinus surgery",,,,,,,,,,,,
 throat_surgical,q_generic_confounders,,checkbox,Throat,"1, Airway surgery | 2, Throat surgery | 3, Thyroid surgery | 4, Tonsillectomy/Adenoidectomy",,,,,,,,,,,,
 head_surgical,q_generic_confounders,,checkbox,Head,"1, Head/Neck cancer (e.g. oropharyngeal cancer) | 2, Sleep surgery",,,,,,,,,,,,
-n_m_h_space,q_generic_confounders,"Neurological Medical History",descriptive,,,,,,,,,,,,,,
-neurological_history,q_generic_confounders,"Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological Medical History","1, Brain tumor | 2, Dysarthria | 3, Epilepsy | 4, Multiple sclerosis | 5, Traumatic brain injury | 6, Other",,,,,,,,,,,,
-current_neuro_dx,q_generic_confounders,,radio,"<p>Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?","1, None | 2, Only some | 3, All",,,,,,"[neurological_history(1)] = ""1"" or
+neurological_history,q_generic_confounders,"Neurological Medical History
+
+Have you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)",checkbox,"Neurological Medical History","1, Brain tumor | 2, Dysarthria | 3, Epilepsy | 4, Multiple sclerosis | 5, Traumatic brain injury | 6, Other",,,,,,,,,,,,
+current_neuro_dx,q_generic_confounders,,radio,"Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?","1, None | 2, Only some | 3, All",,,,,,"[neurological_history(1)] = ""1"" or
 [neurological_history(2)] = ""1"" or
 [neurological_history(3)] = ""1"" or
 [neurological_history(4)] = ""1"" or
 [neurological_history(5)] = ""1"" or
 [neurological_history(6)] = ""1""",,RH,,,,
-specify_current_neuro,q_generic_confounders,,text,"Which ones do you currently have? (please specify)",,,,,,,[current_neuro_dx]=2,,RH,,,,
+specify_current_neuro,q_generic_confounders,,text,"Which ones do you currently have?",,,,,,,[current_neuro_dx]=2,,RH,,,,
 respiratory_conditions,q_generic_confounders,"Respiratory Conditions",checkbox,"Respiratory Conditions","1, Bronchiectasis | 2, Cancer (lung or metastatic) | 3, Emphysema | 4, Interstitial lung disease (sarcoidosis, pulmonary fibrosis) | 5, Pneumothorax or atelectasis (collapsed lung) | 6, Pulmonary hypertension | 7, Radiation to the chest | 8, Tuberculosis",,,,,,,,,,,,
 lung_or_metastatic,q_generic_confounders,,checkbox,"Cancer (lung or metastatic)","1, Lung | 2, Metastatic",,,,,,"[respiratory_conditions(2)]=""1""",,,,,,
 covid,q_generic_confounders,,checkbox,"Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)","past_year, COVID in the past year | long, Long COVID (symptoms persisted at least four weeks after initial infection)",,,,,,,,,,,,
 covid_past,q_generic_confounders,,radio,"Have you had COVID in the past month?","yes, Yes | no, No",,,,,,"[covid(past_year)]=""1""",,,,,,
 cpap_conditions,q_generic_confounders,,checkbox,"Are you currently using CPAP or supplemental oxygen? (check all that apply)","1, Active CPAP use | 2, On supplemental oxygen",,,,,,,,,,,,
-resp_medical_history,q_generic_confounders,,checkbox,"Have you had any of the interventions mentioned below? (check all that apply)
-
-Respiratory medical history","1, Craniofacial or chest wall trauma | 2, Previous lobectomy | 3, Prior chest/airway surgery | 4, Prolonged intubation (more than a week)",,,,,,,,,,,,
+resp_medical_history,q_generic_confounders,"Have you had any of the interventions mentioned below? (check all that apply)",checkbox,"Respiratory medical history","1, Craniofacial or chest wall trauma | 2, Previous lobectomy | 3, Prior chest/airway surgery | 4, Prolonged intubation (more than a week)",,,,,,,,,,,,
 exposed_environmental_pollution,q_generic_confounders,,radio,"Have you been exposed to environmental pollution that may affect your breathing or voice?","yes, Yes | no, No",,,,,,,,,,,,
 breathe_today,q_generic_confounders,,radio,"Are you having difficulty breathing today?","yes, Yes | no, No",,,,,,"[eligible_studies(4)] = 1",,,,,,
-breathe_today_difficulty,q_generic_confounders,,radio,"Please specify the level of difficulty ","slightDifficulty, Slight Difficulty | moderateDifficulty, Moderate Difficulty | significantDifficulty, Significant Difficulty",,,,,,"[eligible_studies(4)] = 1 and [breathe_today] = 'yes'",,,,,,
+breathe_today_difficulty,q_generic_confounders,,radio,"Please specify the level of difficulty","slightDifficulty, Slight Difficulty | moderateDifficulty, Moderate Difficulty | significantDifficulty, Significant Difficulty",,,,,,"[eligible_studies(4)] = 1 and [breathe_today] = 'yes'",,,,,,
 cough_today,q_generic_confounders,,radio,"Are you coughing today?","yes, Yes | no, No",,,,,,"[eligible_studies(4)] = 1",,,,,,
-cough_today_severity,q_generic_confounders,,radio,"What is the severity of your cough?
-A selection of 10 being means the most severe.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,"[eligible_studies(4)] = 1 and [cough_today] = 'yes'",,,,,,
+cough_today_severity,q_generic_confounders,,radio,"What is the severity of your cough?","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,"[eligible_studies(4)] = 1 and [cough_today] = 'yes'",,,,,,
 circulatory_conditions,q_generic_confounders,"Circulatory and Other Conditions",checkbox,"Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)","1, Atrial fibrillation | 2, Cardiac condition | 3, Chronic pericarditis | 4, Congestive heart failure | 5, Coronary heart disease | 6, Hypertension",,,,,,,,,,,,
 cardiac_condition,q_generic_confounders,,text,"Cardiac condition",,,,,,,"[circulatory_conditions(2)]=""1""",,RH,,,,
 circulatory_med_history,q_generic_confounders,,checkbox,"Some other conditions can affect the sound of your voice. Have you been diagnosed with any of these conditions by a clinician? (check all that apply)","1, Chronic kidney disease | 2, Diabetes | 3, Infectious disease | 4, Obesity | 5, Scoliosis",,,,,,,,,,,,
 infection_disease,q_generic_confounders,,text,"Infectious disease",,,,,,,"[circulatory_med_history(3)]=""1""",,RH,,,,
-p_h_space,q_generic_confounders,"Physical Health",descriptive,,,,,,,,,,,,,,
-ph_standing,q_generic_confounders,"In the past 30 days, how much difficulty did you have in:",radio,"Standing for long periods such as 30 minutes?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
+ph_standing,q_generic_confounders,"Physical Health
+
+In the past 30 days, how much difficulty did you have in:",radio,"Standing for long periods such as 30 minutes?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_take_care,q_generic_confounders,,radio,"Taking care of your household responsibilities?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_learn_task,q_generic_confounders,,radio,"Learning a new task, for example, learning how to get to a new place?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
 ph_problem_join,q_generic_confounders,,radio,"How much of a problem did you have joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?","none, None | mild, Mild | moderate, Moderate | severe, Severe | extreme, Extreme or cannot do",,,,,,,y,,,physcial_health_group,,
@@ -828,14 +860,14 @@ ph_day_to_day_work,q_generic_confounders,,radio,"Your day-to-day work?","none, N
 physical_health_freq,q_generic_confounders,,text,"Overall, in the past 30 days, how many days were these difficulties present?",,days,number,,,,,y,RH,,,,
 phys_health_impact,q_generic_confounders,,text,"In the past 30 days, for how many days were you totally unable to carry out your usual activities or work because of any health condition?",,days,number,,,,,y,RH,,,,
 phys_health_limited,q_generic_confounders,,text,"In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?",,days,,,,,,y,RH,,,,
-medications,q_generic_confounders,Medications,checkbox,"Do you currently take or use any of these medications or substances? (Check all that apply)","1, Antibiotics | 2, Anti-histamines (allergy medications) | 3, Anti-Hypertensive Medications (Blood Pressure Medication) | 4, Diuretics (ex: Lasix) | 5, Decongestants | 6, Muscle relaxants (ex: Baclofen) | 7, Hormone use | 8, Inhaled corticosteroids | 9, Oral steroids | 10, Anti-anxiety medications: (ex: Benzodiazepine) | 11, Chronic Pain medication | 12, Psychotropic/antipsychotic medications (ex: Clozapine) | 13, Antidepressants (ex: amitryptiline) | 14, Immune suppressors (ex: Methotrexate) | 15, Reflux medications (ex: Pantoprazole, Nexium) | 16, Anticholinergics (ex: Ventolin) | 17, Anticoagulants (blood thinners) | 18, Antiepileptic (ex: Phenytoin)",,,,,,,,,,,,
+medications,q_generic_confounders,Medications,checkbox,"Do you currently take or use any of these medications or substances? Please check all that apply","1, Antibiotics | 2, Anti-histamines (allergy medications) | 3, Anti-Hypertensive Medications (Blood Pressure Medication) | 4, Diuretics (ex: Lasix) | 5, Decongestants | 6, Muscle relaxants (ex: Baclofen) | 7, Hormone use | 8, Inhaled corticosteroids | 9, Oral steroids | 10, Anti-anxiety medications: (ex: Benzodiazepine) | 11, Chronic Pain medication | 12, Psychotropic/antipsychotic medications (ex: Clozapine) | 13, Antidepressants (ex: amitryptiline) | 14, Immune suppressors (ex: Methotrexate) | 15, Reflux medications (ex: Pantoprazole, Nexium) | 16, Anticholinergics (ex: Ventolin) | 17, Anticoagulants (blood thinners) | 18, Antiepileptic (ex: Phenytoin)",,,,,,,,,,,,
 hormone_use,q_generic_confounders,,checkbox,"Hormone use","1, Oral contraceptive | 2, Hormonal replacement therapy (HRT) | 3, Androgenic steroids | 4, Other",,,,,,"[medications(7)]=""1""",,,,,,
 pain_medication,q_generic_confounders,,checkbox,"Chronic Pain medication","1, NSAIDs (ex: Ibuprofen/Advil/Cerebrex) | 2, Morphine/Oxycodone | 3, Neuro-modulators (ex: Gabapentin, Lyrica)",,,,,,"[medications(11)]=""1""",,,,,,
-menstruate,q_generic_confounders,Gynecological,radio,"Do you menstruate?","doesNotApply, Does not apply | yes, Yes | no, No | noAnswer, Prefer no to answer",,,,,,,y,,,,,
+menstruate,q_generic_confounders,Gynecological,radio,"Do you menstruate?","doesNotApply, Does not apply | yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
 menstruate_no,q_generic_confounders,,radio,"Please explain","pregnant, I am pregnant | iud, I have an IUD | menopause, I have gone through menopause | other, Other",,,,,,"[menstruate]=""no""",,,,,,
 other_menstruate_specify,q_generic_confounders,,text,"If you selected ""other"" for menstruate, please specify:",,,,,,,"[menstruate_no] = ""other""",,,,,,
-menstrual_cycle_status,q_generic_confounders,,radio,"Where in your cycle are you? (We ask because this may affect your voice.)","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='yes',,,,,,
-voice_activity,q_generic_confounders,"Voice Activity",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)","1, Bartender | 2, Waiter, receptionist | 3, Speaking  (secretary, call center, attorney, salesperson) | 4, Teacher | 5, Singer | 6, Cheerleading | 7, Other",,,,,,,,,,,,
+menstrual_cycle_status,q_generic_confounders,,radio,"Where in your cycle are you? We ask because this may affect your voice.","menstruating, Menstruating | premenstrual, Premenstrual | postmenstrual, Postmenstrual | noAnswer, Prefer not to answer",,,,,,[menstruate]='yes',,,,,,
+voice_activity,q_generic_confounders,"Voice Activity",checkbox,"Do you do one of these jobs or hobbies that requires using your voice for many hours a day? Check all that apply","1, Bartender | 2, Waiter, receptionist | 3, Speaking (secretary, call center, attorney, salesperson) | 4, Teacher | 5, Singer | 6, Cheerleading | 7, Other",,,,,,,,,,,,
 other_voice_activity,q_generic_confounders,,text,"If you selected ""other"" for voice activity, please specify:",,,,,,,"[voice_activity(7)] = ""1""",,RH,,,,
 hours_voice_activity,q_generic_confounders,,text,"How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?",,hours,number,,,,"[voice_activity(1)] = ""1"" or
 [voice_activity(2)] = ""1"" or
@@ -844,12 +876,13 @@ hours_voice_activity,q_generic_confounders,,text,"How many hours per day do you 
 [voice_activity(5)] = ""1"" or
 [voice_activity(6)] = ""1"" or
 [voice_activity(7)] = ""1""",,RH,,,,
-reading_aloud,q_generic_confounders,"READING ACTIVITY",radio,"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?","excellent, Excellent | veryGood, Very good | good, Good | fair, Fair | poor, Poor",,,,,,,y,,,,,
+reading_aloud,q_generic_confounders,"Reading Activity",radio,"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?","excellent, Excellent | veryGood, Very good | good, Good | fair, Fair | poor, Poor",,,,,,,y,,,,,
 voice_perception_session_id,q_generic_voice_perception,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 voice_perception_started_at,q_generic_voice_perception,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 voice_perception_completed_at,q_generic_voice_perception,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 voice_perception_duration,q_generic_voice_perception,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-voice_quality_perception,q_generic_voice_perception,"Voice Quality Perception",radio,"<div class=""rich-text-field-label""><p>How would rate your voice quality today from 1-10?<br /><em>1 is the lowest quality and 10 is the best voice quality</em></p></div>","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
+voice_quality_perception,q_generic_voice_perception,"Voice Quality Perception",radio,"How would rate your voice quality today from 1-10?
+1 is the lowest quality and 10 is the best voice quality","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
 vhi_session_id,q_generic_voice_handicap_index_vhi10,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 vhi_started_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 vhi_completed_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
@@ -908,7 +941,8 @@ voice_severity_session_id,q_voice_voice_problem_severity,"Questionnaire - Metada
 voice_severity_started_at,q_voice_voice_problem_severity,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 voice_severity_completed_at,q_voice_voice_problem_severity,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 voice_severity_duration,q_voice_voice_problem_severity,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-describe_the_severity_of_a,q_voice_voice_problem_severity,"Voice problem severity",slider,"<div class=""rich-text-field-label""><p>Describe the severity of auditory-perceptual attributes of a voice problem<br /><br /><span style=""font-weight: normal;""><em>*Overall severity scale (0-100)</em></span></p></div>","0 |  | 100",,number,,,,,y,RH,,,,
+describe_the_severity_of_a,q_voice_voice_problem_severity,"Voice problem severity",slider,"Describe the severity of auditory-perceptual attributes of a voice problem
+*Overall severity scale (0-100)","0 |  | 100",,number,,,,,y,RH,,,,
 panas_session_id,q_mood_panas,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 panas_started_at,q_mood_panas,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 panas_completed_at,q_mood_panas,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
@@ -977,7 +1011,8 @@ q1_happy,q_mood_dsm5_adult,"DSM-5 Adult (ASRM)
 
 Choose the one statement in each group that best describes the way you (the individual receiving care) have been feeling for the past week.
 
-Please note: The word ""occasionally"" when used here means once or twice; ""often"" means several times or more and ""frequently"" means most of the time.",radio,"Question 1","1, I do not feel happier or more cheerful than usual. | 2, I occasionally feel happier or more cheerful than usual. | 3, I often feel happier or more cheerful than usual. | 4, I feel happier or more cheerful than usual most of the time. | 5, I feel happier or more cheerful than usual all of the time.",,,,,,"[sleeping_less] >= 2 or [starting_more_projects] >= 2",,,,,,
+Please note:
+The word ""occasionally"" when used here means once or twice; ""often"" means several times or more and ""frequently"" means most of the time.",radio,"Question 1","1, I do not feel happier or more cheerful than usual. | 2, I occasionally feel happier or more cheerful than usual. | 3, I often feel happier or more cheerful than usual. | 4, I feel happier or more cheerful than usual most of the time. | 5, I feel happier or more cheerful than usual all of the time.",,,,,,"[sleeping_less] >= 2 or [starting_more_projects] >= 2",,,,,,
 q2_self_confident,q_mood_dsm5_adult,,radio,"Question 2","1, I do not feel more self-confident than usual. | 2, I occasionally feel more self-confident than usual. | 3, I often feel more self-confident than usual. | 4, I frequently feel more self-confident than usual. | 5, I feel extremely self-confident all of the time.",,,,,,"[sleeping_less] >= 2 or [starting_more_projects] >= 2",,,,,,
 q3_sleep,q_mood_dsm5_adult,,radio,"Question 3","1, I do not need less sleep than usual. | 2, I occasionally need less sleep than usual. | 3, I often need less sleep than usual. | 4, I frequently need less sleep than usual. | 5, I can go all day and all night without any sleep and still not feel tired.",,,,,,"[sleeping_less] >= 2 or [starting_more_projects] >= 2",,,,,,
 q4_talk,q_mood_dsm5_adult,,radio,"Question 4","1, I do not talk more than usual. | 2, I occasionally talk more than usual. | 3, I often talk more than usual. | 4, I frequently talk more than usual. | 5, I talk constantly and cannot be interrupted.",,,,,,"[sleeping_less] >= 2 or [starting_more_projects] >= 2",,,,,,
