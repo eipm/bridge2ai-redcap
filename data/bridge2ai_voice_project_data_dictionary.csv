@@ -1,4 +1,4 @@
-﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent",,,,,,,y,,,,,
@@ -20,36 +20,36 @@ age,subjectparticipant_contact_information,,calc,Age,"rounddown((datediff([dob],
 phone_number,subjectparticipant_contact_information,,text,"Phone Number",,###-###-####,,,,y,,y,,,,,
 email,subjectparticipant_contact_information,,text,Email,,,email,,,y,,y,,,,,
 contact_info_stored,subjectparticipant_contact_information,,yesno,"I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,y,,,,,
-eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]",,,,,,,y,,,,,
+eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder",,,,,,,y,,,,,
 is_control_participant,subjectparticipant_eligible_studies,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 cond_sel_prompt,subjectparticipant_eligible_studies,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
-laryng_cancer,subjectparticipant_eligible_studies,"Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+laryng_cancer,subjectparticipant_eligible_studies,"Voice Disorders",radio,"Laryngeal Cancer","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 laryngitis,subjectparticipant_eligible_studies,,radio,Laryngitis,"0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 benign_cord_lesion,subjectparticipant_eligible_studies,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 mtd,subjectparticipant_eligible_studies,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-rrp,subjectparticipant_eligible_studies,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
-alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, dementia, or mild cognitive impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
+rrp,subjectparticipant_eligible_studies,,radio,"Recurrent Laryngeal Papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic Dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral Vocal Fold Paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
+alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 als,subjectparticipant_eligible_studies,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 parkinsons,subjectparticipant_eligible_studies,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 alcohol_subst_abuse,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-gad,subjectparticipant_eligible_studies,,radio,"Anxiety disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+gad,subjectparticipant_eligible_studies,,radio,"Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 add_adhd,subjectparticipant_eligible_studies,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 asd,subjectparticipant_eligible_studies,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 bipolar,subjectparticipant_eligible_studies,,radio,"Bipolar Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 bpd,subjectparticipant_eligible_studies,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 depression,subjectparticipant_eligible_studies,,radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 ed,subjectparticipant_eligible_studies,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-insomnia,subjectparticipant_eligible_studies,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+insomnia,subjectparticipant_eligible_studies,,radio,"Insomnia / Sleep Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 ocd,subjectparticipant_eligible_studies,,radio,"Obsessive-Compulsive Disorder (OCD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 panic,subjectparticipant_eligible_studies,,radio,"Panic Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 ptsd,subjectparticipant_eligible_studies,,radio,"Post-Traumatic Stress Disorder (PTSD)","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 schizophrenia,subjectparticipant_eligible_studies,,radio,Schizophrenia,"0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 soc_anx_dis,subjectparticipant_eligible_studies,,radio,"Social Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
-other_psych,subjectparticipant_eligible_studies,,radio,"Other psychiatric disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
+other_psych,subjectparticipant_eligible_studies,,radio,"Other Psychiatric Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
 asthma,subjectparticipant_eligible_studies,"Respiratory disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
-airway_stenosis,subjectparticipant_eligible_studies,,radio,"Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
+airway_stenosis,subjectparticipant_eligible_studies,,radio,"Airway Stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
 chronic_cough,subjectparticipant_eligible_studies,,radio,"Chronic Cough","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
 copd,subjectparticipant_eligible_studies,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
 osa,subjectparticipant_eligible_studies,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1, Checked",,,,,,,y,,,resp_dis,,
@@ -72,33 +72,33 @@ ef_fluent_languages,enrollment_form,,checkbox,"Do you speak any additional langu
 ef_fluent_language_other,enrollment_form,,text,"If you speak any other languages fluently, please specify:",,,,,,,"[ef_fluent_languages(5)] = '1'",,,,,,
 ef_dob,enrollment_form,,text,"What is your date of birth?",,,date_ymd,,,y,,y,,,,,
 ef_cond_prompt,enrollment_form,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
-ef_laryng_cancer,enrollment_form,"Voice Disorders",radio,"Laryngeal cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_laryng_cancer,enrollment_form,"Voice Disorders",radio,"Laryngeal Cancer","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_laryngitis,enrollment_form,,radio,Laryngitis,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_benign_cord_lesion,enrollment_form,,radio,"Lesions of the vocal cord (nodule, polyp, cyst)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_mtd,enrollment_form,,radio,"Muscle Tension Dysphonia (MTD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_rrp,enrollment_form,,radio,"Recurrent laryngeal papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_spas_dys,enrollment_form,,radio,"Spasmodic dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_voc_fold_paralysis,enrollment_form,,radio,"Unilateral vocal fold paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
-ef_alz_dementia_mci,enrollment_form,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, dementia, or mild cognitive impairment","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
+ef_rrp,enrollment_form,,radio,"Recurrent Laryngeal Papilloma (RRP)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_spas_dys,enrollment_form,,radio,"Spasmodic Dysphonia / Laryngeal Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_voc_fold_paralysis,enrollment_form,,radio,"Unilateral Vocal Fold Paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
+ef_alz_dementia_mci,enrollment_form,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_als,enrollment_form,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_parkinsons,enrollment_form,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_alcohol_subst_abuse,enrollment_form,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_gad,enrollment_form,,radio,"Anxiety disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_gad,enrollment_form,,radio,"Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_add_adhd,enrollment_form,,radio,"Attention-Deficit / Hyperactivity Disorder (ADHD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_asd,enrollment_form,,radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_bipolar,enrollment_form,,radio,"Bipolar Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_bpd,enrollment_form,,radio,"Borderline Personality Disorder (BPD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_depression,enrollment_form,,radio,"Depression or Major Depressive Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_ed,enrollment_form,,radio,"Eating Disorder (ED)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_insomnia,enrollment_form,,radio,"Insomnia / sleep disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_insomnia,enrollment_form,,radio,"Insomnia / Sleep Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_ocd,enrollment_form,,radio,"Obsessive-Compulsive Disorder (OCD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_panic,enrollment_form,,radio,"Panic Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_ptsd,enrollment_form,,radio,"Post-Traumatic Stress Disorder (PTSD)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_schizophrenia,enrollment_form,,radio,Schizophrenia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_soc_anx_dis,enrollment_form,,radio,"Social Anxiety Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
-ef_other_psych,enrollment_form,,radio,"Other psychiatric disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
+ef_other_psych,enrollment_form,,radio,"Other Psychiatric Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
 ef_asthma,enrollment_form,"Respiratory Disorders",radio,Asthma,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
-ef_airway_stenosis,enrollment_form,,radio,"Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
+ef_airway_stenosis,enrollment_form,,radio,"Airway Stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_chronic_cough,enrollment_form,,radio,"Chronic Cough","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_copd,enrollment_form,,radio,COPD,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
 ef_osa,enrollment_form,,radio,"Obstructive Sleep Apnea (OSA)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_resp_dis,,
@@ -408,32 +408,32 @@ diagnosis_uvfp_treatment_surgery_other,d_voice_unilateral_vocal_fold_paralysis,,
 diagnosis_uvfp_treatment_surgery_thyroplasty,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Thyroplasty - Subcategory","goretex, Gore-Tex | silastic, Silastic",,,,,,"[diagnosis_uvfp_treatment_surgery(thyroplasty)]=""1""",y,,,,,
 diagnosis_uvfp_treatment_surgery_vfia,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Vocal fold injection augmentation - Subcategory","caha, CaHA | gel, Gel | hyaluronic_acid_augmentation, Hyaluronic acid augmentation | fat_injection, Fat injection",,,,,,"[diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation)]=""1""",y,,,,,
 mbd_diagnosed_bm,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with Bipolar Disorder?","yes, Yes | no, No",,,,,,,y,,,,,
-mbd_diagnosed_bipolar_i_ii_other,d_mood_bipolar_disorder,,radio,"Were you diagnosed with Bipolar I, Bipolar II, or Other/unspecified?","bipolarI, Bipolar I | bipolarII, Bipolar II | other, Other/unspecified",,,,,,,y,,,,,
+mbd_diagnosed_bipolar_i_ii_other,d_mood_bipolar_disorder,,radio,"Were you diagnosed with Bipolar I, Bipolar II, or Other/unspecified?","bipolar_1, Bipolar I | bipolar_2, Bipolar II | other, Other/unspecified",,,,,,,y,,,,,
 mbd_diagnosed_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_diagnosed_bipolar_i_ii_other]=""other""",y,,,,,
 mbd_ever_seen_heard,d_mood_bipolar_disorder,,radio,"Have you ever seen things other people can't see or heard things other people can't hear?","yes, Yes | no, No",,,,,,,y,,,,,
 mbd_had_manic_episode,d_mood_bipolar_disorder,,radio,"Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_bipolar_gsd,d_mood_bipolar_disorder,,radio,"Diagnosis
 
-(Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,y,,,,,
+(Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,,,,,,
 diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_gsd_oquw,d_mood_bipolar_disorder,,radio,"Which objective questionnaire was used?
 
-(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",y,,,,,
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",,,,,,
 diagnosis_bipolar_gsd_oqu_other,d_mood_bipolar_disorder,,text,"Please specify
 
-(Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",y,,,,,
-mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+(Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",,,,,,
+mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
 mbd_active_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",y,,,,,
-mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
 mbd_hist_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",y,,,,,
 diagnosis_bipolar_active_problems,d_mood_bipolar_disorder,,text,"Enter list of active problems
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_history_problems,d_mood_bipolar_disorder,,text,"Enter any history of problems
 
 (Legacy)",,,,,,,,,,,,,
@@ -445,23 +445,22 @@ diagnosis_bipolar_subtype_active,d_mood_bipolar_disorder,"3. Disease Subtype
 
 (Legacy)",radio,"Disease Subtype
 
-(Legacy)","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,,
 diagnosis_bipolar_psychotic,d_mood_bipolar_disorder,,radio,"Psychotic Symptoms
 
-(Legacy)","with, With | without, Without",,,,,,,y,,,,,
+(Legacy)","with, With | without, Without",,,,,,,,,,,,
 diagnosis_bipolar_etiology,d_mood_bipolar_disorder,"4. Etiology
 
 (Legacy)",text,"Describe life events that may relate to the diagnosis
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_severity,d_mood_bipolar_disorder,"5. Disease Severity
 
 (Legacy)",radio,"Disease Severity
 
 (Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
 mbd_prescribed_medication,d_mood_bipolar_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
-mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
-and how many times per day.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
+mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
 mbd_previous_medication,d_mood_bipolar_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
 approximate dates you were taking them, and why they were discontinued.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
 mbd_see_mental_health_professional,d_mood_bipolar_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
@@ -476,29 +475,29 @@ diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"List any f
 dmdd_diagnosed_dd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with a depressive disorder?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_depression_gsd,d_mood_depression_or_major_depressive_disorder,,radio,"Diagnosis 
 
-(Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,y,,,,,
+(Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,,,,,,
 diagnosis_depression_clinical_subcategory,d_mood_depression_or_major_depressive_disorder,,radio,"Clinical depression (major depressive disorder) Subcategory
 
-(Legacy)","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",y,,,,,
+(Legacy)","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",,,,,,
 diagnosis_depression_gsd_interview,d_mood_depression_or_major_depressive_disorder,,yesno,"Was a structured clinical interview done?
 
 (Legacy)",,,,,,,,y,,,,,
 diagnosis_depression_gsd_oqu,d_mood_depression_or_major_depressive_disorder,,yesno,"Was an objective questionnaire used?
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_depression_gsd_oquw,d_mood_depression_or_major_depressive_disorder,,radio,"Which objective questionnaire was used?
 
-(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",y,,,,,
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",,,,,,
 diagnosis_depression_gsd_oqu_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
 
-(Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",y,,,,,
-dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+(Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",,,,,,
+dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
 dmdd_active_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",y,,,,,
-dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
 dmdd_hist_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",y,,,,,
 diagnosis_bipolar_active_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter list of active problems
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_history_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter any history of problems
 
 (Legacy)",,,,,,,,,,,,,
@@ -509,20 +508,20 @@ diagnosis_bipolar_subtype_active_depression,d_mood_depression_or_major_depressiv
 
 (Legacy)",radio,"Disease Subtype
 
-(Legacy)","active, Active | recurrent, Recurrent",,,,,,,y,,,,,
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,,
 diagnosis_bipolar_psychotic_depression,d_mood_depression_or_major_depressive_disorder,,radio,"Psychotic Symptoms
 
-(Legacy)","with, With | without, Without",,,,,,,y,,,,,
+(Legacy)","with, With | without, Without",,,,,,,,,,,,
 diagnosis_bipolar_etiology_depression,d_mood_depression_or_major_depressive_disorder,"4.	Etiology
 
 (Legacy)",text,"Describe life events that may relate to the diagnosis
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_disorder,"5.	Disease Severity
 
 (Legacy)",radio,"Disease Severity
 
-(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
+(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,,,,,,
 dmdd_prescribed_medication,d_mood_depression_or_major_depressive_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
 dmdd_current_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
 and how many times per day.",,,,,,,"[dmdd_prescribed_medication]=""yes""",y,,,,,
@@ -537,6 +536,21 @@ diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_de
 diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any former medications/therapies
 
 (Legacy)",,,,,,,,,,,,,
+diagnosis_diagnosed_ad,d_mood_anxiety_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with an anxiety disorder?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ad_active_psy_med_problems,d_mood_anxiety_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+diagnosis_ad_active_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify",,,,,,,"[diagnosis_ad_active_psy_med_problems(other)]=""1""",y,,,,,
+diagnosis_ad_hist_psy_med_problems,d_mood_anxiety_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
+diagnosis_ad_hist_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify",,,,,,,"[diagnosis_ad_hist_psy_med_problems(other)]=""1""",y,,,,,
+diagnosis_ad_last_anxious_episode,d_mood_anxiety_disorder,"3. Depression History",text,"When was your last anxious episode (feeling anxious more days than not over
+two weeks)?",,,date_ymd,,,,,,,,,,
+diagnosis_ad_prescribed_medication,d_mood_anxiety_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ad_current_medication,d_mood_anxiety_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
+and how many times per day.",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",y,,,,,
+diagnosis_ad_previous_medication,d_mood_anxiety_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
+approximate dates you were taking them, and why they were discontinued.",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",y,,,,,
+diagnosis_ad_see_mental_health_professional,d_mood_anxiety_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ad_describe_psychotherapy,d_mood_anxiety_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
+dates, reasons for seeking therapy, etc.).",,,,,,,"[diagnosis_ad_see_mental_health_professional]=""yes""",y,,,,,
 diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
 diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,

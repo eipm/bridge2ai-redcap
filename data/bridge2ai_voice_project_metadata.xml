@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Bridge2AI - PRODUCTION" AsOfDateTime="2024-08-16T14:45:03" CreationDateTime="2024-08-16T14:45:03" SourceSystem="REDCap" SourceSystemVersion="14.0.35">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Bridge2AI - PRODUCTION" AsOfDateTime="2024-08-20T14:53:05" CreationDateTime="2024-08-20T14:53:05" SourceSystem="REDCap" SourceSystemVersion="14.0.35">
 <Study OID="Project.Bridge2AIPRODUCTION">
 <GlobalVariables>
 	<StudyName>Bridge2AI - PRODUCTION</StudyName>
@@ -78,9 +78,9 @@
 &lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="subject_email" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="2" pdf_econsent_version="I01.16.2023" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="1" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
 	</redcap:SurveysGroup>
 	<redcap:UserRolesGroup>
-		<redcap:UserRoles role_name="Admin/Dev" unique_role_name="U-921AA9MWHE" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][review_and_enroll,1][bridge2ai_econsent_main_icf_usf_english,1][subjectparticipant_additional_details,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][questionnaire_voice_disorders_voice_problem_severi,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][session,1][acoustic_task,1][recording,1][diagnosis_voice_disorders_vocal_fold_paralysis,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_addendum_bch_english,1][diagnosis_respiratory_disorders_airway_stenosis,1][diagnosis_neurological_and_neurogenerative_disorde,1][diagnosis_neurological_and_neurogenerative_di_c4e3,1][diagnosis_neurological_and_neurogenerative_di_1d1d,1][diagnosis_pediatric_disorders_healthy_developmenta,1][questionnaire_respiratory_disorders_dyspnea_index,1][questionnaire_respiratory_disorders_leicester_coug,1][questionnaire_neurological_and_neurogenerative_dis,1][questionnaire_neurological_and_neurogenerativ_55fe,1][questionnaire_neurological_and_neurogenerativ_c046,1][questionnaire_neurological_and_neurogenerativ_c2de,1][diagnosis_neurological_and_neurogenerative_di_ee01,1][diagnosis_neurological_and_neurogenerative_di_5967,1][questionnaire_neurological_and_neurogenerativ_919a,1][questionnaire_neurological_and_neurogenerativ_6ced,1][questionnaire_neurological_and_neurogenerativ_6688,1][d_voice_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1][pediatric_enrollment_form,1][bridge2ai_econsent_addendum_vumc_english,1][bridge2ai_econsent_addendum_vumc_researcher_statem,1][bridge2ai_econsent_combined_pdf_addendum_vumc,1][bridge2ai_econsent_icf_mt_sinai_english,1][pediatric_d_healthy_developmentallytypical_childre,1][pediatric_q_generic_demographics,1][pediatric_q_generic_confounders,1][pediatric_q_generic_vhi_10,1][pediatric_q_generic_voice_outcome_survey,1][pediatric_q_generic_voice_related_qol_survey,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][review_and_enroll,1][bridge2ai_econsent_main_icf_usf_english,1][subjectparticipant_additional_details,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][questionnaire_voice_disorders_voice_problem_severi,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][session,1][acoustic_task,1][recording,1][diagnosis_voice_disorders_vocal_fold_paralysis,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_addendum_bch_english,1][diagnosis_respiratory_disorders_airway_stenosis,1][diagnosis_neurological_and_neurogenerative_disorde,1][diagnosis_neurological_and_neurogenerative_di_c4e3,1][diagnosis_neurological_and_neurogenerative_di_1d1d,1][diagnosis_pediatric_disorders_healthy_developmenta,1][questionnaire_respiratory_disorders_dyspnea_index,1][questionnaire_respiratory_disorders_leicester_coug,1][questionnaire_neurological_and_neurogenerative_dis,1][questionnaire_neurological_and_neurogenerativ_55fe,1][questionnaire_neurological_and_neurogenerativ_c046,1][questionnaire_neurological_and_neurogenerativ_c2de,1][diagnosis_neurological_and_neurogenerative_di_ee01,1][diagnosis_neurological_and_neurogenerative_di_5967,1][questionnaire_neurological_and_neurogenerativ_919a,1][questionnaire_neurological_and_neurogenerativ_6ced,1][questionnaire_neurological_and_neurogenerativ_6688,1][d_voice_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1][pediatric_enrollment_form,1][bridge2ai_econsent_addendum_vumc_english,1][bridge2ai_econsent_addendum_vumc_researcher_statem,1][bridge2ai_econsent_combined_pdf_addendum_vumc,1][bridge2ai_econsent_icf_mt_sinai_english,1][pediatric_d_healthy_developmentallytypical_childre,1][pediatric_q_generic_demographics,1][pediatric_q_generic_confounders,1][pediatric_q_generic_vhi_10,1][pediatric_q_generic_voice_outcome_survey,1][pediatric_q_generic_voice_related_qol_survey,1]" api_export="1" api_import="1" api_modules="0" mobile_app="1" mobile_app_download_data="1" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
+		<redcap:UserRoles role_name="Admin/Dev" unique_role_name="U-921AA9MWHE" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][review_and_enroll,1][bridge2ai_econsent_main_icf_usf_english,1][subjectparticipant_additional_details,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][questionnaire_voice_disorders_voice_problem_severi,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][session,1][acoustic_task,1][recording,1][diagnosis_voice_disorders_vocal_fold_paralysis,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_addendum_bch_english,1][diagnosis_respiratory_disorders_airway_stenosis,1][diagnosis_neurological_and_neurogenerative_disorde,1][diagnosis_neurological_and_neurogenerative_di_c4e3,1][diagnosis_neurological_and_neurogenerative_di_1d1d,1][diagnosis_pediatric_disorders_healthy_developmenta,1][questionnaire_respiratory_disorders_dyspnea_index,1][questionnaire_respiratory_disorders_leicester_coug,1][questionnaire_neurological_and_neurogenerative_dis,1][questionnaire_neurological_and_neurogenerativ_55fe,1][questionnaire_neurological_and_neurogenerativ_c046,1][questionnaire_neurological_and_neurogenerativ_c2de,1][diagnosis_neurological_and_neurogenerative_di_ee01,1][diagnosis_neurological_and_neurogenerative_di_5967,1][questionnaire_neurological_and_neurogenerativ_919a,1][questionnaire_neurological_and_neurogenerativ_6ced,1][questionnaire_neurological_and_neurogenerativ_6688,1][d_voice_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1][pediatric_enrollment_form,1][bridge2ai_econsent_addendum_vumc_english,1][bridge2ai_econsent_addendum_vumc_researcher_statem,1][bridge2ai_econsent_combined_pdf_addendum_vumc,1][bridge2ai_econsent_icf_mt_sinai_english,1][pediatric_d_healthy_developmentallytypical_childre,1][pediatric_q_generic_demographics,1][pediatric_q_generic_confounders,1][pediatric_q_generic_vhi_10,1][pediatric_q_generic_voice_outcome_survey,1][pediatric_q_generic_voice_related_qol_survey,1][d_mood_anxiety_disorder,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][review_and_enroll,1][bridge2ai_econsent_main_icf_usf_english,1][subjectparticipant_additional_details,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][questionnaire_voice_disorders_voice_problem_severi,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][session,1][acoustic_task,1][recording,1][diagnosis_voice_disorders_vocal_fold_paralysis,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_addendum_bch_english,1][diagnosis_respiratory_disorders_airway_stenosis,1][diagnosis_neurological_and_neurogenerative_disorde,1][diagnosis_neurological_and_neurogenerative_di_c4e3,1][diagnosis_neurological_and_neurogenerative_di_1d1d,1][diagnosis_pediatric_disorders_healthy_developmenta,1][questionnaire_respiratory_disorders_dyspnea_index,1][questionnaire_respiratory_disorders_leicester_coug,1][questionnaire_neurological_and_neurogenerative_dis,1][questionnaire_neurological_and_neurogenerativ_55fe,1][questionnaire_neurological_and_neurogenerativ_c046,1][questionnaire_neurological_and_neurogenerativ_c2de,1][diagnosis_neurological_and_neurogenerative_di_ee01,1][diagnosis_neurological_and_neurogenerative_di_5967,1][questionnaire_neurological_and_neurogenerativ_919a,1][questionnaire_neurological_and_neurogenerativ_6ced,1][questionnaire_neurological_and_neurogenerativ_6688,1][d_voice_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1][pediatric_enrollment_form,1][bridge2ai_econsent_addendum_vumc_english,1][bridge2ai_econsent_addendum_vumc_researcher_statem,1][bridge2ai_econsent_combined_pdf_addendum_vumc,1][bridge2ai_econsent_icf_mt_sinai_english,1][pediatric_d_healthy_developmentallytypical_childre,1][pediatric_q_generic_demographics,1][pediatric_q_generic_confounders,1][pediatric_q_generic_vhi_10,1][pediatric_q_generic_voice_outcome_survey,1][pediatric_q_generic_voice_related_qol_survey,1][d_mood_anxiety_disorder,1]" api_export="1" api_import="1" api_modules="0" mobile_app="1" mobile_app_download_data="1" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
 		<redcap:UserRoles role_name="Read &amp; Export  (with PHI)" unique_role_name="U-572R4YH4YR" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_main_icf_usf_english,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][bridge2ai_econsent_addendum_bch_english,1][d_voice_vocal_fold_paralysis,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][session,1][acoustic_task,1][recording,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,2][subjectparticipant_eligible_studies,1][enrollment_form,2][bridge2ai_paper_consent_all_sites_english,1][bridge2ai_econsent_main_icf_usf_english,2][bridge2ai_econsent_main_icf_usf_researcher_stateme,2][bridge2ai_econsent_combined_pdf_main_icf_usf,2][bridge2ai_econsent_addendum_wcm_english,2][bridge2ai_econsent_addendum_wcm_researcher_stateme,2][bridge2ai_econsent_combined_pdf_addendum_wcm,2][bridge2ai_econsent_addendum_bch_english,1][d_voice_vocal_fold_paralysis,1][d_voice_laryngeal_dystonia,1][d_voice_precancerous_lesions,1][d_voice_laryngeal_cancer,1][d_voice_benign_lesions,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_parkinsons_disease,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_peds_healthy_developmentallytypical_children,1][session,2][acoustic_task,2][recording,2][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1][d_voice_unilateral_vocal_fold_paralysis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_control,1][d_voice_laryngitis,1][d_resp_unexplained_chronic_cough,1][bridge2ai_econsent_addendum_mit_english,1][bridge2ai_econsent_addendum_mit_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_mit,1][bridge2ai_econsent_addendum_sickkids_english,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
-		<redcap:UserRoles role_name="Read &amp; Export (No-PHI)" unique_role_name="U-356JYLH9F3" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,2][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,2][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
+		<redcap:UserRoles role_name="Read &amp; Export (No-PHI)" unique_role_name="U-356JYLH9F3" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,2][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1][d_control,1][d_voice_benign_lesions,1][d_voice_laryngeal_cancer,1][d_voice_laryngeal_dystonia,1][d_voice_laryngitis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_voice_precancerous_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_resp_unexplained_chronic_cough,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_neuro_parkinsons_disease,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,2][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1][d_control,1][d_voice_benign_lesions,1][d_voice_laryngeal_cancer,1][d_voice_laryngeal_dystonia,1][d_voice_laryngitis,1][d_voice_muscle_tension_dysphonia_mtd,1][d_voice_precancerous_lesions,1][d_voice_unilateral_vocal_fold_paralysis,1][d_mood_bipolar_disorder,1][d_mood_depression_or_major_depressive_disorder,1][d_resp_airway_stenosis,1][d_resp_unexplained_chronic_cough,1][d_neuro_alzheimers_disease_mild_cognitive_impairme,1][d_neuro_amyotrophic_lateral_sclerosis_als,1][d_neuro_parkinsons_disease,1][q_generic_demographics,1][q_generic_confounders,1][q_generic_voice_perception,1][q_generic_voice_handicap_index_vhi10,1][q_generic_patient_health_questionnaire9,1][q_generic_gad7_anxiety,1][q_voice_voice_problem_severity,1][q_mood_panas,1][q_mood_custom_affect_scale,1][q_mood_dsm5_adult,1][q_mood_ptsd_adult,1][q_mood_adhd_adult,1][q_resp_dyspnea_index_di,1][q_resp_leicester_cough_questionnaire_lcq,1][q_neuro_winograd_schemas,1][q_neuro_wordcolor_stroop,1][q_neuro_productive_vocabulary,1][q_neuro_random_item_generation,1][q_neuro_moca,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
 		<redcap:UserRoles role_name="Read Only (No-PHI)" unique_role_name="U-611LYEL7TR" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,0][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,0][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,0][diagnosis_mood_disorders_bipolar_disorder,0][diagnosis_mood_disorders_depression_or_major_depre,0][session,0][acoustic_task,0][recording,0][questionnaire_across_all_cohorts_demographics,0][questionnaire_across_all_cohorts_confounders,0][questionnaire_across_all_cohorts_voice_perception,0][questionnaire_across_all_cohorts_voice_handicap_in,0][questionnaire_across_all_cohorts_patient_health_qu,0][questionnaire_across_all_cohorts_gad7_anxiety,0][questionnaire_voice_disorders_voice_problem_severi,0][questionnaire_mood_disorders_panas,0][questionnaire_mood_disorders_custom_affect_scale,0][questionnaire_mood_disorders_dsm5_adult,0][questionnaire_mood_disorders_ptsd_adult,0][questionnaire_mood_disorders_adhd_adult,0][bridge2ai_paper_consent_all_sites_english,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,2][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
 		<redcap:UserRoles role_name="Read Only (with PHI)" unique_role_name="U-19879YN8E9" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,0][subjectparticipant_contact_information,0][subjectparticipant_eligible_studies,0][enrollment_form,0][bridge2ai_econsent_main_icf_usf_english,0][bridge2ai_econsent_main_icf_usf_researcher_stateme,0][bridge2ai_econsent_combined_pdf_main_icf_usf,0][bridge2ai_econsent_addendum_wcm_english,0][bridge2ai_econsent_addendum_wcm_researcher_stateme,0][bridge2ai_econsent_combined_pdf_addendum_wcm,0][diagnosis_voice_disorders_vocal_fold_paralysis,0][diagnosis_mood_disorders_bipolar_disorder,0][diagnosis_mood_disorders_depression_or_major_depre,0][session,0][acoustic_task,0][recording,0][questionnaire_across_all_cohorts_demographics,0][questionnaire_across_all_cohorts_confounders,0][questionnaire_across_all_cohorts_voice_perception,0][questionnaire_across_all_cohorts_voice_handicap_in,0][questionnaire_across_all_cohorts_patient_health_qu,0][questionnaire_across_all_cohorts_gad7_anxiety,0][questionnaire_voice_disorders_voice_problem_severi,0][questionnaire_mood_disorders_panas,0][questionnaire_mood_disorders_custom_affect_scale,0][questionnaire_mood_disorders_dsm5_adult,0][questionnaire_mood_disorders_ptsd_adult,0][questionnaire_mood_disorders_adhd_adult,0][bridge2ai_paper_consent_all_sites_english,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,2][subjectparticipant_contact_information,2][subjectparticipant_eligible_studies,2][enrollment_form,2][bridge2ai_econsent_main_icf_usf_english,2][bridge2ai_econsent_main_icf_usf_researcher_stateme,2][bridge2ai_econsent_combined_pdf_main_icf_usf,2][bridge2ai_econsent_addendum_wcm_english,2][bridge2ai_econsent_addendum_wcm_researcher_stateme,2][bridge2ai_econsent_combined_pdf_addendum_wcm,2][diagnosis_voice_disorders_vocal_fold_paralysis,2][diagnosis_mood_disorders_bipolar_disorder,2][diagnosis_mood_disorders_depression_or_major_depre,2][session,2][acoustic_task,2][recording,2][questionnaire_across_all_cohorts_demographics,2][questionnaire_across_all_cohorts_confounders,2][questionnaire_across_all_cohorts_voice_perception,2][questionnaire_across_all_cohorts_voice_handicap_in,2][questionnaire_across_all_cohorts_patient_health_qu,2][questionnaire_across_all_cohorts_gad7_anxiety,2][questionnaire_voice_disorders_voice_problem_severi,2][questionnaire_mood_disorders_panas,2][questionnaire_mood_disorders_custom_affect_scale,2][questionnaire_mood_disorders_dsm5_adult,2][questionnaire_mood_disorders_ptsd_adult,2][questionnaire_mood_disorders_adhd_adult,2][bridge2ai_paper_consent_all_sites_english,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
 		<redcap:UserRoles role_name="Read, Edit &amp; Export (with PHI)" unique_role_name="U-125FNEJXAD" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][subjectparticipant_eligible_studies,1][enrollment_form,1][bridge2ai_econsent_main_icf_usf_english,1][bridge2ai_econsent_main_icf_usf_researcher_stateme,1][bridge2ai_econsent_combined_pdf_main_icf_usf,1][bridge2ai_econsent_addendum_wcm_english,1][bridge2ai_econsent_addendum_wcm_researcher_stateme,1][bridge2ai_econsent_combined_pdf_addendum_wcm,1][diagnosis_voice_disorders_vocal_fold_paralysis,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][session,1][acoustic_task,1][recording,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_voice_disorders_voice_problem_severi,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][bridge2ai_paper_consent_all_sites_english,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="0" data_entry="[subjectparticipant_basic_information,1][subjectparticipant_contact_information,1][subjectparticipant_eligible_studies,1][enrollment_form,2][bridge2ai_econsent_main_icf_usf_english,2][bridge2ai_econsent_main_icf_usf_researcher_stateme,2][bridge2ai_econsent_combined_pdf_main_icf_usf,2][bridge2ai_econsent_addendum_wcm_english,2][bridge2ai_econsent_addendum_wcm_researcher_stateme,2][bridge2ai_econsent_combined_pdf_addendum_wcm,2][diagnosis_voice_disorders_vocal_fold_paralysis,1][diagnosis_mood_disorders_bipolar_disorder,1][diagnosis_mood_disorders_depression_or_major_depre,1][session,1][acoustic_task,1][recording,1][questionnaire_across_all_cohorts_demographics,1][questionnaire_across_all_cohorts_confounders,1][questionnaire_across_all_cohorts_voice_perception,1][questionnaire_across_all_cohorts_voice_handicap_in,1][questionnaire_across_all_cohorts_patient_health_qu,1][questionnaire_across_all_cohorts_gad7_anxiety,1][questionnaire_voice_disorders_voice_problem_severi,1][questionnaire_mood_disorders_panas,1][questionnaire_mood_disorders_custom_affect_scale,1][questionnaire_mood_disorders_dsm5_adult,1][questionnaire_mood_disorders_ptsd_adult,1][questionnaire_mood_disorders_adhd_adult,1][bridge2ai_paper_consent_all_sites_english,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="0" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
@@ -117,6 +117,7 @@
 		<redcap:Reports title="Controls" unique_report_name="R-996EEHDHNK" report_order="28" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([is_feasibility_participant] = &quot;no&quot;)" filter_type="RECORD" dynamic_filter1="enrollment_institution" dynamic_filter2="is_control_participant" dynamic_filter3="" hash="P47348ET7WLCLWAN" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([is_feasibility_participant] = &quot;no&quot;)" redcap_reports_fields="record_id,is_control_participant,enrollment_institution" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="ea2f4267918640343671c75c7fe08f9731f9de26"/>
 		<redcap:Reports title="Demographics_By Institution" unique_report_name="R-883MN9HRPX" report_order="29" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="enrollment_institution" orderby_sort1="ASC" orderby_field2="session_completed_at" orderby_sort2="ASC" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="RECORD" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="747AAJ9PD4JMNDMT" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="enrollment_institution,record_id,age,demographics_completed_at,gender_identity,other_gender_identity,sexual_orientation,other_sex_orientation,race,other_race_specify,ethnicity" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="6650e92ae025bfd0dd862a812f481301eb61148c"/>
 		<redcap:Reports title="Checking for multiple conditions and validations" unique_report_name="R-237AHLHHL8" report_order="30" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="RECORD" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="3NRTDKNL9NHAPYLR" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,first_name,last_name,is_control_participant,d_control_complete,laryng_cancer,laryngitis,benign_cord_lesion,mtd,rrp,spas_dys,voc_fold_paralysis,alz_dementia_mci,als,parkinsons,alcohol_subst_abuse,gad,add_adhd,asd,bipolar,bpd,depression,ed,insomnia,ocd,panic,ptsd,schizophrenia,soc_anx_dis,other_psych,asthma,airway_stenosis,chronic_cough,copd,osa,autism,speech_delay,d_voice_benign_lesions_complete,d_voice_laryngeal_cancer_complete,d_voice_laryngeal_dystonia_complete,d_voice_laryngitis_complete,d_voice_muscle_tension_dysphonia_mtd_complete,d_voice_precancerous_lesions_complete,d_mood_bipolar_disorder_complete,d_mood_depression_or_major_depressive_disorder_complete,d_resp_airway_stenosis_complete,d_resp_unexplained_chronic_cough_complete,d_neuro_alzheimers_disease_mild_cognitive_impairme_complete,d_neuro_amyotrophic_lateral_sclerosis_als_complete,d_neuro_parkinsons_disease_complete" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="4423de773a713d742c09157e6d313ea2de02e16d"/>
+		<redcap:Reports title="Stenosis Filter" unique_report_name="R-853F7KF9K7" report_order="31" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([airway_stenosis] = &quot;1&quot;)" filter_type="RECORD" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="LJAPWK99L4YK7HPJ" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([airway_stenosis] = &quot;1&quot;)" redcap_reports_fields="record_id,first_name,last_name,dob,airway_stenosis" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="6695cf12286db6f0c30fccb3eaff6c248dd1da85"/>
 	</redcap:ReportsGroup>
 	<redcap:RecordDashboardsGroup>
 		<redcap:RecordDashboards title="Clinical Diagnosis" description="" filter_logic="[is_feasibility_participant] = &#039;No&#039;" orientation="H" group_by="event" selected_forms_events="" arm="" sort_event_id="session_arm_1" sort_field_name="record_id" sort_order="ASC"/>
@@ -296,7 +297,7 @@
 &lt;p&gt; &lt;/p&gt;" dash_order="1" user_access="ALL" is_public="0" ID="95e815d1541bf6f358cfffbe66ab3af0d0c09d09"/>
 	</redcap:ProjectDashboardsGroup>
 </GlobalVariables>
-<MetaDataVersion OID="Metadata.Bridge2AIPRODUCTION_2024-08-16_1445" Name="Bridge2AI - PRODUCTION" redcap:RecordIdField="record_id">
+<MetaDataVersion OID="Metadata.Bridge2AIPRODUCTION_2024-08-20_1453" Name="Bridge2AI - PRODUCTION" redcap:RecordIdField="record_id">
 	<FormDef OID="Form.subjectparticipant_basic_information" Name="Subject/Participant - Basic Information" Repeating="No" redcap:FormName="subjectparticipant_basic_information">
 		<ItemGroupRef ItemGroupOID="subjectparticipant_basic_information.record_id" Mandatory="No"/>
 		<ItemGroupRef ItemGroupOID="subjectparticipant_basic_information.enrolled" Mandatory="No"/>
@@ -476,6 +477,15 @@
 		<ItemGroupRef ItemGroupOID="d_mood_depression_or_major_depressive_disorder.dmdd_prescribed_medication" Mandatory="No"/>
 		<ItemGroupRef ItemGroupOID="d_mood_depression_or_major_depressive_disorder.dmdd_current_medication" Mandatory="No"/>
 		<ItemGroupRef ItemGroupOID="d_mood_depression_or_major_depressive_disorder.d_mood_depression_or_major_depressive_disorder_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.d_mood_anxiety_disorder" Name="D Mood Anxiety Disorder" Repeating="No" redcap:FormName="d_mood_anxiety_disorder">
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_diagnosed_ad" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_ad_active_psy_med_problems___adhd" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_ad_active_psy_med_prob_other" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_ad_last_anxious_episode" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_ad_prescribed_medication" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.diagnosis_ad_current_medication" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="d_mood_anxiety_disorder.d_mood_anxiety_disorder_complete" Mandatory="No"/>
 	</FormDef>
 	<FormDef OID="Form.d_resp_airway_stenosis" Name="D Resp Airway Stenosis" Repeating="No" redcap:FormName="d_resp_airway_stenosis">
 		<ItemGroupRef ItemGroupOID="d_resp_airway_stenosis.diagnosis_as_pft" Mandatory="No"/>
@@ -828,6 +838,7 @@
 		<ItemRef ItemOID="eligible_studies___age_4_6" Mandatory="Yes" redcap:Variable="eligible_studies"/>
 		<ItemRef ItemOID="eligible_studies___age_6_10" Mandatory="Yes" redcap:Variable="eligible_studies"/>
 		<ItemRef ItemOID="eligible_studies___age_10_plus" Mandatory="Yes" redcap:Variable="eligible_studies"/>
+		<ItemRef ItemOID="eligible_studies___5" Mandatory="Yes" redcap:Variable="eligible_studies"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="subjectparticipant_eligible_studies.is_control_participant" Name="Subject/Participant - Eligible Studies" Repeating="No">
 		<ItemRef ItemOID="is_control_participant" Mandatory="Yes" redcap:Variable="is_control_participant"/>
@@ -1522,11 +1533,11 @@
 		<ItemRef ItemOID="mbd_diagnosed_other" Mandatory="Yes" redcap:Variable="mbd_diagnosed_other"/>
 		<ItemRef ItemOID="mbd_ever_seen_heard" Mandatory="Yes" redcap:Variable="mbd_ever_seen_heard"/>
 		<ItemRef ItemOID="mbd_had_manic_episode" Mandatory="Yes" redcap:Variable="mbd_had_manic_episode"/>
-		<ItemRef ItemOID="diagnosis_bipolar_gsd" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_gsd"/>
-		<ItemRef ItemOID="diagnosis_bipolar_gsd_interview" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_gsd_interview"/>
-		<ItemRef ItemOID="diagnosis_bipolar_gsd_oqu" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_gsd_oqu"/>
-		<ItemRef ItemOID="diagnosis_bipolar_gsd_oquw" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_gsd_oquw"/>
-		<ItemRef ItemOID="diagnosis_bipolar_gsd_oqu_other" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_gsd_oqu_other"/>
+		<ItemRef ItemOID="diagnosis_bipolar_gsd" Mandatory="No" redcap:Variable="diagnosis_bipolar_gsd"/>
+		<ItemRef ItemOID="diagnosis_bipolar_gsd_interview" Mandatory="No" redcap:Variable="diagnosis_bipolar_gsd_interview"/>
+		<ItemRef ItemOID="diagnosis_bipolar_gsd_oqu" Mandatory="No" redcap:Variable="diagnosis_bipolar_gsd_oqu"/>
+		<ItemRef ItemOID="diagnosis_bipolar_gsd_oquw" Mandatory="No" redcap:Variable="diagnosis_bipolar_gsd_oquw"/>
+		<ItemRef ItemOID="diagnosis_bipolar_gsd_oqu_other" Mandatory="No" redcap:Variable="diagnosis_bipolar_gsd_oqu_other"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.mbd_active_psy_med_problems___adhd" Name="2. Medical and Psychiatric comorbidities" Repeating="No">
 		<ItemRef ItemOID="mbd_active_psy_med_problems___adhd" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
@@ -1534,8 +1545,8 @@
 		<ItemRef ItemOID="mbd_active_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_active_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_active_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
-		<ItemRef ItemOID="mbd_active_psy_med_problems___laryngealcancer" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
-		<ItemRef ItemOID="mbd_active_psy_med_problems___seasonalallergies" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
+		<ItemRef ItemOID="mbd_active_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
+		<ItemRef ItemOID="mbd_active_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_active_psy_med_problems___other" Mandatory="Yes" redcap:Variable="mbd_active_psy_med_problems"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.mbd_active_psy_med_prob_other" Name="D Mood Bipolar Disorder" Repeating="No">
@@ -1545,11 +1556,11 @@
 		<ItemRef ItemOID="mbd_hist_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_hist_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_hist_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
-		<ItemRef ItemOID="mbd_hist_psy_med_problems___laryngealcancer" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
-		<ItemRef ItemOID="mbd_hist_psy_med_problems___seasonalallergies" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
+		<ItemRef ItemOID="mbd_hist_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
+		<ItemRef ItemOID="mbd_hist_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_hist_psy_med_problems___other" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="mbd_hist_psy_med_prob_other" Mandatory="Yes" redcap:Variable="mbd_hist_psy_med_prob_other"/>
-		<ItemRef ItemOID="diagnosis_bipolar_active_problems" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_active_problems"/>
+		<ItemRef ItemOID="diagnosis_bipolar_active_problems" Mandatory="No" redcap:Variable="diagnosis_bipolar_active_problems"/>
 		<ItemRef ItemOID="diagnosis_bipolar_history_problems" Mandatory="No" redcap:Variable="diagnosis_bipolar_history_problems"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.mbd_last_depressive_episode" Name="3. Bipolar History" Repeating="No">
@@ -1563,15 +1574,15 @@
 	<ItemGroupDef OID="d_mood_bipolar_disorder.diagnosis_bipolar_subtype_active" Name="3. Disease Subtype  
 
 (Legacy)" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_subtype_active" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_subtype_active"/>
+		<ItemRef ItemOID="diagnosis_bipolar_subtype_active" Mandatory="No" redcap:Variable="diagnosis_bipolar_subtype_active"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.diagnosis_bipolar_psychotic" Name="D Mood Bipolar Disorder" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_psychotic" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_psychotic"/>
+		<ItemRef ItemOID="diagnosis_bipolar_psychotic" Mandatory="No" redcap:Variable="diagnosis_bipolar_psychotic"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.diagnosis_bipolar_etiology" Name="4. Etiology
 
 (Legacy)" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_etiology" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_etiology"/>
+		<ItemRef ItemOID="diagnosis_bipolar_etiology" Mandatory="No" redcap:Variable="diagnosis_bipolar_etiology"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_bipolar_disorder.diagnosis_bipolar_severity" Name="5. Disease Severity
 
@@ -1596,12 +1607,12 @@
 		<ItemRef ItemOID="dmdd_diagnosed_dd" Mandatory="Yes" redcap:Variable="dmdd_diagnosed_dd"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.diagnosis_depression_gsd" Name="D Mood Depression Or Major Depressive Disorder" Repeating="No">
-		<ItemRef ItemOID="diagnosis_depression_gsd" Mandatory="Yes" redcap:Variable="diagnosis_depression_gsd"/>
-		<ItemRef ItemOID="diagnosis_depression_clinical_subcategory" Mandatory="Yes" redcap:Variable="diagnosis_depression_clinical_subcategory"/>
+		<ItemRef ItemOID="diagnosis_depression_gsd" Mandatory="No" redcap:Variable="diagnosis_depression_gsd"/>
+		<ItemRef ItemOID="diagnosis_depression_clinical_subcategory" Mandatory="No" redcap:Variable="diagnosis_depression_clinical_subcategory"/>
 		<ItemRef ItemOID="diagnosis_depression_gsd_interview" Mandatory="Yes" redcap:Variable="diagnosis_depression_gsd_interview"/>
-		<ItemRef ItemOID="diagnosis_depression_gsd_oqu" Mandatory="Yes" redcap:Variable="diagnosis_depression_gsd_oqu"/>
-		<ItemRef ItemOID="diagnosis_depression_gsd_oquw" Mandatory="Yes" redcap:Variable="diagnosis_depression_gsd_oquw"/>
-		<ItemRef ItemOID="diagnosis_depression_gsd_oqu_other" Mandatory="Yes" redcap:Variable="diagnosis_depression_gsd_oqu_other"/>
+		<ItemRef ItemOID="diagnosis_depression_gsd_oqu" Mandatory="No" redcap:Variable="diagnosis_depression_gsd_oqu"/>
+		<ItemRef ItemOID="diagnosis_depression_gsd_oquw" Mandatory="No" redcap:Variable="diagnosis_depression_gsd_oquw"/>
+		<ItemRef ItemOID="diagnosis_depression_gsd_oqu_other" Mandatory="No" redcap:Variable="diagnosis_depression_gsd_oqu_other"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.dmdd_active_psy_med_problems___adhd" Name="2.	Medical and Psychiatric comorbidities" Repeating="No">
 		<ItemRef ItemOID="dmdd_active_psy_med_problems___adhd" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
@@ -1609,8 +1620,8 @@
 		<ItemRef ItemOID="dmdd_active_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_active_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_active_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
-		<ItemRef ItemOID="dmdd_active_psy_med_problems___laryngealcancer" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
-		<ItemRef ItemOID="dmdd_active_psy_med_problems___seasonalallergies" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
+		<ItemRef ItemOID="dmdd_active_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
+		<ItemRef ItemOID="dmdd_active_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_active_psy_med_problems___other" Mandatory="Yes" redcap:Variable="dmdd_active_psy_med_problems"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.dmdd_active_psy_med_prob_other" Name="D Mood Depression Or Major Depressive Disorder" Repeating="No">
@@ -1620,11 +1631,11 @@
 		<ItemRef ItemOID="dmdd_hist_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_hist_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_hist_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
-		<ItemRef ItemOID="dmdd_hist_psy_med_problems___laryngealcancer" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
-		<ItemRef ItemOID="dmdd_hist_psy_med_problems___seasonalallergies" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
+		<ItemRef ItemOID="dmdd_hist_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
+		<ItemRef ItemOID="dmdd_hist_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_hist_psy_med_problems___other" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_problems"/>
 		<ItemRef ItemOID="dmdd_hist_psy_med_prob_other" Mandatory="Yes" redcap:Variable="dmdd_hist_psy_med_prob_other"/>
-		<ItemRef ItemOID="diagnosis_bipolar_active_problems_depression" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_active_problems_depression"/>
+		<ItemRef ItemOID="diagnosis_bipolar_active_problems_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_active_problems_depression"/>
 		<ItemRef ItemOID="diagnosis_bipolar_history_problems_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_history_problems_depression"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.dmdd_last_depressive_episode" Name="3. Depression History" Repeating="No">
@@ -1636,20 +1647,20 @@
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.diagnosis_bipolar_subtype_active_depression" Name="3.	Disease Subtype
 
 (Legacy)" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_subtype_active_depression" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_subtype_active_depression"/>
+		<ItemRef ItemOID="diagnosis_bipolar_subtype_active_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_subtype_active_depression"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.diagnosis_bipolar_psychotic_depression" Name="D Mood Depression Or Major Depressive Disorder" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_psychotic_depression" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_psychotic_depression"/>
+		<ItemRef ItemOID="diagnosis_bipolar_psychotic_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_psychotic_depression"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.diagnosis_bipolar_etiology_depression" Name="4.	Etiology
 
 (Legacy)" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_etiology_depression" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_etiology_depression"/>
+		<ItemRef ItemOID="diagnosis_bipolar_etiology_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_etiology_depression"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.diagnosis_bipolar_severity_depression" Name="5.	Disease Severity
 
 (Legacy)" Repeating="No">
-		<ItemRef ItemOID="diagnosis_bipolar_severity_depression" Mandatory="Yes" redcap:Variable="diagnosis_bipolar_severity_depression"/>
+		<ItemRef ItemOID="diagnosis_bipolar_severity_depression" Mandatory="No" redcap:Variable="diagnosis_bipolar_severity_depression"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.dmdd_prescribed_medication" Name="4. Treatment obtained" Repeating="No">
 		<ItemRef ItemOID="dmdd_prescribed_medication" Mandatory="Yes" redcap:Variable="dmdd_prescribed_medication"/>
@@ -1664,6 +1675,46 @@
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_mood_depression_or_major_depressive_disorder.d_mood_depression_or_major_depressive_disorder_complete" Name="Form Status" Repeating="No">
 		<ItemRef ItemOID="d_mood_depression_or_major_depressive_disorder_complete" Mandatory="No" redcap:Variable="d_mood_depression_or_major_depressive_disorder_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_diagnosed_ad" Name="1. Gold Standard Diagnosis" Repeating="No">
+		<ItemRef ItemOID="diagnosis_diagnosed_ad" Mandatory="Yes" redcap:Variable="diagnosis_diagnosed_ad"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_ad_active_psy_med_problems___adhd" Name="2.	Medical and Psychiatric comorbidities" Repeating="No">
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___adhd" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___anxiety" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_problems___other" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_problems"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_ad_active_psy_med_prob_other" Name="D Mood Anxiety Disorder" Repeating="No">
+		<ItemRef ItemOID="diagnosis_ad_active_psy_med_prob_other" Mandatory="Yes" redcap:Variable="diagnosis_ad_active_psy_med_prob_other"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___adhd" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___anxiety" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___ocd" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___stroke" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___epilepsy" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___seasonal_allergies" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_problems___other" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_problems"/>
+		<ItemRef ItemOID="diagnosis_ad_hist_psy_med_prob_other" Mandatory="Yes" redcap:Variable="diagnosis_ad_hist_psy_med_prob_other"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_ad_last_anxious_episode" Name="3. Depression History" Repeating="No">
+		<ItemRef ItemOID="diagnosis_ad_last_anxious_episode" Mandatory="No" redcap:Variable="diagnosis_ad_last_anxious_episode"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_ad_prescribed_medication" Name="4. Treatment obtained" Repeating="No">
+		<ItemRef ItemOID="diagnosis_ad_prescribed_medication" Mandatory="Yes" redcap:Variable="diagnosis_ad_prescribed_medication"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.diagnosis_ad_current_medication" Name="D Mood Anxiety Disorder" Repeating="No">
+		<ItemRef ItemOID="diagnosis_ad_current_medication" Mandatory="Yes" redcap:Variable="diagnosis_ad_current_medication"/>
+		<ItemRef ItemOID="diagnosis_ad_previous_medication" Mandatory="Yes" redcap:Variable="diagnosis_ad_previous_medication"/>
+		<ItemRef ItemOID="diagnosis_ad_see_mental_health_professional" Mandatory="Yes" redcap:Variable="diagnosis_ad_see_mental_health_professional"/>
+		<ItemRef ItemOID="diagnosis_ad_describe_psychotherapy" Mandatory="Yes" redcap:Variable="diagnosis_ad_describe_psychotherapy"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="d_mood_anxiety_disorder.d_mood_anxiety_disorder_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="d_mood_anxiety_disorder_complete" Mandatory="No" redcap:Variable="d_mood_anxiety_disorder_complete"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_resp_airway_stenosis.diagnosis_as_pft" Name="1. Gold Standard Diagnosis" Repeating="No">
 		<ItemRef ItemOID="diagnosis_as_pft" Mandatory="Yes" redcap:Variable="diagnosis_as_pft"/>
@@ -3474,6 +3525,10 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<Question><TranslatedText>Eligible Studies</TranslatedText></Question>
 		<CodeListRef CodeListOID="eligible_studies___age_10_plus.choices"/>
 	</ItemDef>
+	<ItemDef OID="eligible_studies___5" Name="eligible_studies___5" DataType="boolean" Length="1" redcap:Variable="eligible_studies" redcap:FieldType="checkbox" redcap:SectionHeader="Eligible Studies" redcap:RequiredField="y">
+		<Question><TranslatedText>Eligible Studies</TranslatedText></Question>
+		<CodeListRef CodeListOID="eligible_studies___5.choices"/>
+	</ItemDef>
 	<ItemDef OID="is_control_participant" Name="is_control_participant" DataType="text" Length="3" redcap:Variable="is_control_participant" redcap:FieldType="radio" redcap:RequiredField="y">
 		<Question><TranslatedText>Is Control Participant?</TranslatedText></Question>
 		<CodeListRef CodeListOID="is_control_participant.choices"/>
@@ -3482,7 +3537,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<Question><TranslatedText>(Check all that apply if you currently have the condition)</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="laryng_cancer" Name="laryng_cancer" DataType="text" Length="1" redcap:Variable="laryng_cancer" redcap:FieldType="radio" redcap:SectionHeader="Voice Disorders" redcap:RequiredField="y" redcap:MatrixGroupName="voice_disorders">
-		<Question><TranslatedText>Laryngeal cancer</TranslatedText></Question>
+		<Question><TranslatedText>Laryngeal Cancer</TranslatedText></Question>
 		<CodeListRef CodeListOID="laryng_cancer.choices"/>
 	</ItemDef>
 	<ItemDef OID="laryngitis" Name="laryngitis" DataType="text" Length="1" redcap:Variable="laryngitis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="voice_disorders">
@@ -3498,19 +3553,19 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="mtd.choices"/>
 	</ItemDef>
 	<ItemDef OID="rrp" Name="rrp" DataType="text" Length="1" redcap:Variable="rrp" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="voice_disorders">
-		<Question><TranslatedText>Recurrent laryngeal papilloma (RRP)</TranslatedText></Question>
+		<Question><TranslatedText>Recurrent Laryngeal Papilloma (RRP)</TranslatedText></Question>
 		<CodeListRef CodeListOID="rrp.choices"/>
 	</ItemDef>
 	<ItemDef OID="spas_dys" Name="spas_dys" DataType="text" Length="1" redcap:Variable="spas_dys" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="voice_disorders">
-		<Question><TranslatedText>Spasmodic dysphonia / Laryngeal Tremor</TranslatedText></Question>
+		<Question><TranslatedText>Spasmodic Dysphonia / Laryngeal Tremor</TranslatedText></Question>
 		<CodeListRef CodeListOID="spas_dys.choices"/>
 	</ItemDef>
 	<ItemDef OID="voc_fold_paralysis" Name="voc_fold_paralysis" DataType="text" Length="1" redcap:Variable="voc_fold_paralysis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="voice_disorders">
-		<Question><TranslatedText>Unilateral vocal fold paralysis</TranslatedText></Question>
+		<Question><TranslatedText>Unilateral Vocal Fold Paralysis</TranslatedText></Question>
 		<CodeListRef CodeListOID="voc_fold_paralysis.choices"/>
 	</ItemDef>
 	<ItemDef OID="alz_dementia_mci" Name="alz_dementia_mci" DataType="text" Length="1" redcap:Variable="alz_dementia_mci" redcap:FieldType="radio" redcap:SectionHeader="Neurological and Neurodegenerative Disorders" redcap:RequiredField="y" redcap:MatrixGroupName="neuro_neurodeg_dis">
-		<Question><TranslatedText>Alzheimer&#039;s, dementia, or mild cognitive impairment</TranslatedText></Question>
+		<Question><TranslatedText>Alzheimer&#039;s, Dementia, or Mild Cognitive Impairment</TranslatedText></Question>
 		<CodeListRef CodeListOID="alz_dementia_mci.choices"/>
 	</ItemDef>
 	<ItemDef OID="als" Name="als" DataType="text" Length="1" redcap:Variable="als" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="neuro_neurodeg_dis">
@@ -3526,7 +3581,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="alcohol_subst_abuse.choices"/>
 	</ItemDef>
 	<ItemDef OID="gad" Name="gad" DataType="text" Length="1" redcap:Variable="gad" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="mood_psych_dis">
-		<Question><TranslatedText>Anxiety disorder</TranslatedText></Question>
+		<Question><TranslatedText>Anxiety Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="gad.choices"/>
 	</ItemDef>
 	<ItemDef OID="add_adhd" Name="add_adhd" DataType="text" Length="1" redcap:Variable="add_adhd" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="mood_psych_dis">
@@ -3554,7 +3609,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ed.choices"/>
 	</ItemDef>
 	<ItemDef OID="insomnia" Name="insomnia" DataType="text" Length="1" redcap:Variable="insomnia" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="mood_psych_dis">
-		<Question><TranslatedText>Insomnia / sleep disorder</TranslatedText></Question>
+		<Question><TranslatedText>Insomnia / Sleep Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="insomnia.choices"/>
 	</ItemDef>
 	<ItemDef OID="ocd" Name="ocd" DataType="text" Length="1" redcap:Variable="ocd" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="mood_psych_dis">
@@ -3578,7 +3633,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="soc_anx_dis.choices"/>
 	</ItemDef>
 	<ItemDef OID="other_psych" Name="other_psych" DataType="text" Length="1" redcap:Variable="other_psych" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="mood_psych_dis">
-		<Question><TranslatedText>Other psychiatric disorder</TranslatedText></Question>
+		<Question><TranslatedText>Other Psychiatric Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="other_psych.choices"/>
 	</ItemDef>
 	<ItemDef OID="asthma" Name="asthma" DataType="text" Length="1" redcap:Variable="asthma" redcap:FieldType="radio" redcap:SectionHeader="Respiratory disorders" redcap:RequiredField="y" redcap:MatrixGroupName="resp_dis">
@@ -3586,7 +3641,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="asthma.choices"/>
 	</ItemDef>
 	<ItemDef OID="airway_stenosis" Name="airway_stenosis" DataType="text" Length="1" redcap:Variable="airway_stenosis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="resp_dis">
-		<Question><TranslatedText>Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)</TranslatedText></Question>
+		<Question><TranslatedText>Airway Stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)</TranslatedText></Question>
 		<CodeListRef CodeListOID="airway_stenosis.choices"/>
 	</ItemDef>
 	<ItemDef OID="chronic_cough" Name="chronic_cough" DataType="text" Length="1" redcap:Variable="chronic_cough" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="resp_dis">
@@ -3735,7 +3790,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<Question><TranslatedText>(Check all that apply if you currently have the condition)</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="ef_laryng_cancer" Name="ef_laryng_cancer" DataType="text" Length="1" redcap:Variable="ef_laryng_cancer" redcap:FieldType="radio" redcap:SectionHeader="Voice Disorders" redcap:RequiredField="y" redcap:MatrixGroupName="ef_voice_disorders">
-		<Question><TranslatedText>Laryngeal cancer</TranslatedText></Question>
+		<Question><TranslatedText>Laryngeal Cancer</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_laryng_cancer.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_laryngitis" Name="ef_laryngitis" DataType="text" Length="1" redcap:Variable="ef_laryngitis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_voice_disorders">
@@ -3751,19 +3806,19 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ef_mtd.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_rrp" Name="ef_rrp" DataType="text" Length="1" redcap:Variable="ef_rrp" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_voice_disorders">
-		<Question><TranslatedText>Recurrent laryngeal papilloma (RRP)</TranslatedText></Question>
+		<Question><TranslatedText>Recurrent Laryngeal Papilloma (RRP)</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_rrp.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_spas_dys" Name="ef_spas_dys" DataType="text" Length="1" redcap:Variable="ef_spas_dys" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_voice_disorders">
-		<Question><TranslatedText>Spasmodic dysphonia / Laryngeal Tremor</TranslatedText></Question>
+		<Question><TranslatedText>Spasmodic Dysphonia / Laryngeal Tremor</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_spas_dys.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_voc_fold_paralysis" Name="ef_voc_fold_paralysis" DataType="text" Length="1" redcap:Variable="ef_voc_fold_paralysis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_voice_disorders">
-		<Question><TranslatedText>Unilateral vocal fold paralysis</TranslatedText></Question>
+		<Question><TranslatedText>Unilateral Vocal Fold Paralysis</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_voc_fold_paralysis.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_alz_dementia_mci" Name="ef_alz_dementia_mci" DataType="text" Length="1" redcap:Variable="ef_alz_dementia_mci" redcap:FieldType="radio" redcap:SectionHeader="Neurological and Neurodegenerative Disorders" redcap:RequiredField="y" redcap:MatrixGroupName="ef_neuro_neurodeg_dis">
-		<Question><TranslatedText>Alzheimer&#039;s, dementia, or mild cognitive impairment</TranslatedText></Question>
+		<Question><TranslatedText>Alzheimer&#039;s, Dementia, or Mild Cognitive Impairment</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_alz_dementia_mci.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_als" Name="ef_als" DataType="text" Length="1" redcap:Variable="ef_als" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_neuro_neurodeg_dis">
@@ -3779,7 +3834,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ef_alcohol_subst_abuse.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_gad" Name="ef_gad" DataType="text" Length="1" redcap:Variable="ef_gad" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_mood_psych_dis">
-		<Question><TranslatedText>Anxiety disorder</TranslatedText></Question>
+		<Question><TranslatedText>Anxiety Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_gad.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_add_adhd" Name="ef_add_adhd" DataType="text" Length="1" redcap:Variable="ef_add_adhd" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_mood_psych_dis">
@@ -3807,7 +3862,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ef_ed.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_insomnia" Name="ef_insomnia" DataType="text" Length="1" redcap:Variable="ef_insomnia" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_mood_psych_dis">
-		<Question><TranslatedText>Insomnia / sleep disorder</TranslatedText></Question>
+		<Question><TranslatedText>Insomnia / Sleep Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_insomnia.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_ocd" Name="ef_ocd" DataType="text" Length="1" redcap:Variable="ef_ocd" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_mood_psych_dis">
@@ -3831,7 +3886,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ef_soc_anx_dis.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_other_psych" Name="ef_other_psych" DataType="text" Length="1" redcap:Variable="ef_other_psych" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_mood_psych_dis">
-		<Question><TranslatedText>Other psychiatric disorder</TranslatedText></Question>
+		<Question><TranslatedText>Other Psychiatric Disorder</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_other_psych.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_asthma" Name="ef_asthma" DataType="text" Length="1" redcap:Variable="ef_asthma" redcap:FieldType="radio" redcap:SectionHeader="Respiratory Disorders" redcap:RequiredField="y" redcap:MatrixGroupName="ef_resp_dis">
@@ -3839,7 +3894,7 @@ To be completed when enrolling a person that declined initially.</TranslatedText
 		<CodeListRef CodeListOID="ef_asthma.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_airway_stenosis" Name="ef_airway_stenosis" DataType="text" Length="1" redcap:Variable="ef_airway_stenosis" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_resp_dis">
-		<Question><TranslatedText>Airway stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)</TranslatedText></Question>
+		<Question><TranslatedText>Airway Stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)</TranslatedText></Question>
 		<CodeListRef CodeListOID="ef_airway_stenosis.choices"/>
 	</ItemDef>
 	<ItemDef OID="ef_chronic_cough" Name="ef_chronic_cough" DataType="text" Length="1" redcap:Variable="ef_chronic_cough" redcap:FieldType="radio" redcap:RequiredField="y" redcap:MatrixGroupName="ef_resp_dis">
@@ -5297,31 +5352,31 @@ CAPE-V scale</TranslatedText></Question>
 		<Question><TranslatedText>Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?</TranslatedText></Question>
 		<CodeListRef CodeListOID="mbd_had_manic_episode.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_gsd" Name="diagnosis_bipolar_gsd" DataType="text" Length="11" redcap:Variable="diagnosis_bipolar_gsd" redcap:FieldType="radio" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_gsd" Name="diagnosis_bipolar_gsd" DataType="text" Length="11" redcap:Variable="diagnosis_bipolar_gsd" redcap:FieldType="radio">
 		<Question><TranslatedText>Diagnosis
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_gsd.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_gsd_interview" Name="diagnosis_bipolar_gsd_interview" DataType="boolean" Length="1" redcap:Variable="diagnosis_bipolar_gsd_interview" redcap:FieldType="yesno" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_gsd_interview" Name="diagnosis_bipolar_gsd_interview" DataType="boolean" Length="1" redcap:Variable="diagnosis_bipolar_gsd_interview" redcap:FieldType="yesno">
 		<Question><TranslatedText>Was a structured clinical interview done?
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_gsd_interview.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_gsd_oqu" Name="diagnosis_bipolar_gsd_oqu" DataType="boolean" Length="1" redcap:Variable="diagnosis_bipolar_gsd_oqu" redcap:FieldType="yesno" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_gsd_oqu" Name="diagnosis_bipolar_gsd_oqu" DataType="boolean" Length="1" redcap:Variable="diagnosis_bipolar_gsd_oqu" redcap:FieldType="yesno">
 		<Question><TranslatedText>Was an objective questionnaire used?
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_gsd_oqu.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_gsd_oquw" Name="diagnosis_bipolar_gsd_oquw" DataType="text" Length="5" redcap:Variable="diagnosis_bipolar_gsd_oquw" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_bipolar_gsd_oqu]=&quot;1&quot;">
+	<ItemDef OID="diagnosis_bipolar_gsd_oquw" Name="diagnosis_bipolar_gsd_oquw" DataType="text" Length="5" redcap:Variable="diagnosis_bipolar_gsd_oquw" redcap:FieldType="radio" redcap:BranchingLogic="[diagnosis_bipolar_gsd_oqu]=&quot;1&quot;">
 		<Question><TranslatedText>Which objective questionnaire was used?
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_gsd_oquw.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_gsd_oqu_other" Name="diagnosis_bipolar_gsd_oqu_other" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_gsd_oqu_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_bipolar_gsd_oquw]=&quot;other&quot;">
+	<ItemDef OID="diagnosis_bipolar_gsd_oqu_other" Name="diagnosis_bipolar_gsd_oqu_other" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_gsd_oqu_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_bipolar_gsd_oquw]=&quot;other&quot;">
 		<Question><TranslatedText>Please specify
 
 (Legacy)</TranslatedText></Question>
@@ -5346,13 +5401,13 @@ CAPE-V scale</TranslatedText></Question>
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
 		<CodeListRef CodeListOID="mbd_active_psy_med_problems___epilepsy.choices"/>
 	</ItemDef>
-	<ItemDef OID="mbd_active_psy_med_problems___laryngealcancer" Name="mbd_active_psy_med_problems___laryngealcancer" DataType="boolean" Length="1" redcap:Variable="mbd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2. Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+	<ItemDef OID="mbd_active_psy_med_problems___laryngeal_cancer" Name="mbd_active_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="mbd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2. Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="mbd_active_psy_med_problems___laryngealcancer.choices"/>
+		<CodeListRef CodeListOID="mbd_active_psy_med_problems___laryngeal_cancer.choices"/>
 	</ItemDef>
-	<ItemDef OID="mbd_active_psy_med_problems___seasonalallergies" Name="mbd_active_psy_med_problems___seasonalallergies" DataType="boolean" Length="1" redcap:Variable="mbd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2. Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+	<ItemDef OID="mbd_active_psy_med_problems___seasonal_allergies" Name="mbd_active_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="mbd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2. Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="mbd_active_psy_med_problems___seasonalallergies.choices"/>
+		<CodeListRef CodeListOID="mbd_active_psy_med_problems___seasonal_allergies.choices"/>
 	</ItemDef>
 	<ItemDef OID="mbd_active_psy_med_problems___other" Name="mbd_active_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="mbd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2. Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
@@ -5381,13 +5436,13 @@ CAPE-V scale</TranslatedText></Question>
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
 		<CodeListRef CodeListOID="mbd_hist_psy_med_problems___epilepsy.choices"/>
 	</ItemDef>
-	<ItemDef OID="mbd_hist_psy_med_problems___laryngealcancer" Name="mbd_hist_psy_med_problems___laryngealcancer" DataType="boolean" Length="1" redcap:Variable="mbd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+	<ItemDef OID="mbd_hist_psy_med_problems___laryngeal_cancer" Name="mbd_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="mbd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="mbd_hist_psy_med_problems___laryngealcancer.choices"/>
+		<CodeListRef CodeListOID="mbd_hist_psy_med_problems___laryngeal_cancer.choices"/>
 	</ItemDef>
-	<ItemDef OID="mbd_hist_psy_med_problems___seasonalallergies" Name="mbd_hist_psy_med_problems___seasonalallergies" DataType="boolean" Length="1" redcap:Variable="mbd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+	<ItemDef OID="mbd_hist_psy_med_problems___seasonal_allergies" Name="mbd_hist_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="mbd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="mbd_hist_psy_med_problems___seasonalallergies.choices"/>
+		<CodeListRef CodeListOID="mbd_hist_psy_med_problems___seasonal_allergies.choices"/>
 	</ItemDef>
 	<ItemDef OID="mbd_hist_psy_med_problems___other" Name="mbd_hist_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="mbd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
@@ -5396,7 +5451,7 @@ CAPE-V scale</TranslatedText></Question>
 	<ItemDef OID="mbd_hist_psy_med_prob_other" Name="mbd_hist_psy_med_prob_other" DataType="text" Length="999" redcap:Variable="mbd_hist_psy_med_prob_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[mbd_hist_psy_med_problems(other)]=&quot;1&quot;">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_active_problems" Name="diagnosis_bipolar_active_problems" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_active_problems" redcap:FieldType="text" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_active_problems" Name="diagnosis_bipolar_active_problems" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_active_problems" redcap:FieldType="text">
 		<Question><TranslatedText>Enter list of active problems
 
 (Legacy)</TranslatedText></Question>
@@ -5422,13 +5477,13 @@ CAPE-V scale</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bipolar_subtype_active" Name="diagnosis_bipolar_subtype_active" DataType="text" Length="9" redcap:Variable="diagnosis_bipolar_subtype_active" redcap:FieldType="radio" redcap:SectionHeader="3. Disease Subtype  
 
-(Legacy)" redcap:RequiredField="y">
+(Legacy)">
 		<Question><TranslatedText>Disease Subtype
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_subtype_active.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_psychotic" Name="diagnosis_bipolar_psychotic" DataType="text" Length="7" redcap:Variable="diagnosis_bipolar_psychotic" redcap:FieldType="radio" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_psychotic" Name="diagnosis_bipolar_psychotic" DataType="text" Length="7" redcap:Variable="diagnosis_bipolar_psychotic" redcap:FieldType="radio">
 		<Question><TranslatedText>Psychotic Symptoms
 
 (Legacy)</TranslatedText></Question>
@@ -5436,7 +5491,7 @@ CAPE-V scale</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bipolar_etiology" Name="diagnosis_bipolar_etiology" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_etiology" redcap:FieldType="text" redcap:SectionHeader="4. Etiology
 
-(Legacy)" redcap:RequiredField="y">
+(Legacy)">
 		<Question><TranslatedText>Describe life events that may relate to the diagnosis
 
 (Legacy)</TranslatedText></Question>
@@ -5454,8 +5509,7 @@ CAPE-V scale</TranslatedText></Question>
 		<CodeListRef CodeListOID="mbd_prescribed_medication.choices"/>
 	</ItemDef>
 	<ItemDef OID="mbd_current_medication" Name="mbd_current_medication" DataType="text" Length="999" redcap:Variable="mbd_current_medication" redcap:FieldType="textarea" redcap:RequiredField="y" redcap:BranchingLogic="[mbd_prescribed_medication]=&quot;yes&quot;">
-		<Question><TranslatedText>Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
-and how many times per day.</TranslatedText></Question>
+		<Question><TranslatedText>Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="mbd_previous_medication" Name="mbd_previous_medication" DataType="text" Length="999" redcap:Variable="mbd_previous_medication" redcap:FieldType="textarea" redcap:RequiredField="y" redcap:BranchingLogic="[mbd_prescribed_medication]=&quot;yes&quot;">
 		<Question><TranslatedText>Please list any previous psychiatric medications (to the best of your recollection), including medication names,
@@ -5487,13 +5541,13 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 		<Question><TranslatedText>Have you been diagnosed with a depressive disorder?</TranslatedText></Question>
 		<CodeListRef CodeListOID="dmdd_diagnosed_dd.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_depression_gsd" Name="diagnosis_depression_gsd" DataType="text" Length="19" redcap:Variable="diagnosis_depression_gsd" redcap:FieldType="radio" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_depression_gsd" Name="diagnosis_depression_gsd" DataType="text" Length="19" redcap:Variable="diagnosis_depression_gsd" redcap:FieldType="radio">
 		<Question><TranslatedText>Diagnosis 
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_depression_gsd.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_depression_clinical_subcategory" Name="diagnosis_depression_clinical_subcategory" DataType="text" Length="30" redcap:Variable="diagnosis_depression_clinical_subcategory" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_depression_gsd] = &quot;clinical_depression&quot;">
+	<ItemDef OID="diagnosis_depression_clinical_subcategory" Name="diagnosis_depression_clinical_subcategory" DataType="text" Length="30" redcap:Variable="diagnosis_depression_clinical_subcategory" redcap:FieldType="radio" redcap:BranchingLogic="[diagnosis_depression_gsd] = &quot;clinical_depression&quot;">
 		<Question><TranslatedText>Clinical depression (major depressive disorder) Subcategory
 
 (Legacy)</TranslatedText></Question>
@@ -5505,19 +5559,19 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_depression_gsd_interview.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_depression_gsd_oqu" Name="diagnosis_depression_gsd_oqu" DataType="boolean" Length="1" redcap:Variable="diagnosis_depression_gsd_oqu" redcap:FieldType="yesno" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_depression_gsd_oqu" Name="diagnosis_depression_gsd_oqu" DataType="boolean" Length="1" redcap:Variable="diagnosis_depression_gsd_oqu" redcap:FieldType="yesno">
 		<Question><TranslatedText>Was an objective questionnaire used?
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_depression_gsd_oqu.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_depression_gsd_oquw" Name="diagnosis_depression_gsd_oquw" DataType="text" Length="5" redcap:Variable="diagnosis_depression_gsd_oquw" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_depression_gsd_oqu]=&quot;1&quot;">
+	<ItemDef OID="diagnosis_depression_gsd_oquw" Name="diagnosis_depression_gsd_oquw" DataType="text" Length="5" redcap:Variable="diagnosis_depression_gsd_oquw" redcap:FieldType="radio" redcap:BranchingLogic="[diagnosis_depression_gsd_oqu]=&quot;1&quot;">
 		<Question><TranslatedText>Which objective questionnaire was used?
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_depression_gsd_oquw.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_depression_gsd_oqu_other" Name="diagnosis_depression_gsd_oqu_other" DataType="text" Length="999" redcap:Variable="diagnosis_depression_gsd_oqu_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_depression_gsd_oquw]=&quot;other&quot;">
+	<ItemDef OID="diagnosis_depression_gsd_oqu_other" Name="diagnosis_depression_gsd_oqu_other" DataType="text" Length="999" redcap:Variable="diagnosis_depression_gsd_oqu_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_depression_gsd_oquw]=&quot;other&quot;">
 		<Question><TranslatedText>Please specify
 
 (Legacy)</TranslatedText></Question>
@@ -5542,13 +5596,13 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
 		<CodeListRef CodeListOID="dmdd_active_psy_med_problems___epilepsy.choices"/>
 	</ItemDef>
-	<ItemDef OID="dmdd_active_psy_med_problems___laryngealcancer" Name="dmdd_active_psy_med_problems___laryngealcancer" DataType="boolean" Length="1" redcap:Variable="dmdd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+	<ItemDef OID="dmdd_active_psy_med_problems___laryngeal_cancer" Name="dmdd_active_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="dmdd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="dmdd_active_psy_med_problems___laryngealcancer.choices"/>
+		<CodeListRef CodeListOID="dmdd_active_psy_med_problems___laryngeal_cancer.choices"/>
 	</ItemDef>
-	<ItemDef OID="dmdd_active_psy_med_problems___seasonalallergies" Name="dmdd_active_psy_med_problems___seasonalallergies" DataType="boolean" Length="1" redcap:Variable="dmdd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+	<ItemDef OID="dmdd_active_psy_med_problems___seasonal_allergies" Name="dmdd_active_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="dmdd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="dmdd_active_psy_med_problems___seasonalallergies.choices"/>
+		<CodeListRef CodeListOID="dmdd_active_psy_med_problems___seasonal_allergies.choices"/>
 	</ItemDef>
 	<ItemDef OID="dmdd_active_psy_med_problems___other" Name="dmdd_active_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="dmdd_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
@@ -5577,13 +5631,13 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
 		<CodeListRef CodeListOID="dmdd_hist_psy_med_problems___epilepsy.choices"/>
 	</ItemDef>
-	<ItemDef OID="dmdd_hist_psy_med_problems___laryngealcancer" Name="dmdd_hist_psy_med_problems___laryngealcancer" DataType="boolean" Length="1" redcap:Variable="dmdd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+	<ItemDef OID="dmdd_hist_psy_med_problems___laryngeal_cancer" Name="dmdd_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="dmdd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="dmdd_hist_psy_med_problems___laryngealcancer.choices"/>
+		<CodeListRef CodeListOID="dmdd_hist_psy_med_problems___laryngeal_cancer.choices"/>
 	</ItemDef>
-	<ItemDef OID="dmdd_hist_psy_med_problems___seasonalallergies" Name="dmdd_hist_psy_med_problems___seasonalallergies" DataType="boolean" Length="1" redcap:Variable="dmdd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+	<ItemDef OID="dmdd_hist_psy_med_problems___seasonal_allergies" Name="dmdd_hist_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="dmdd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
-		<CodeListRef CodeListOID="dmdd_hist_psy_med_problems___seasonalallergies.choices"/>
+		<CodeListRef CodeListOID="dmdd_hist_psy_med_problems___seasonal_allergies.choices"/>
 	</ItemDef>
 	<ItemDef OID="dmdd_hist_psy_med_problems___other" Name="dmdd_hist_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="dmdd_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
 		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
@@ -5592,7 +5646,7 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 	<ItemDef OID="dmdd_hist_psy_med_prob_other" Name="dmdd_hist_psy_med_prob_other" DataType="text" Length="999" redcap:Variable="dmdd_hist_psy_med_prob_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[dmdd_hist_psy_med_problems(other)]=&quot;1&quot;">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_active_problems_depression" Name="diagnosis_bipolar_active_problems_depression" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_active_problems_depression" redcap:FieldType="text" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_active_problems_depression" Name="diagnosis_bipolar_active_problems_depression" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_active_problems_depression" redcap:FieldType="text">
 		<Question><TranslatedText>Enter list of active problems
 
 (Legacy)</TranslatedText></Question>
@@ -5612,13 +5666,13 @@ two weeks)?</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bipolar_subtype_active_depression" Name="diagnosis_bipolar_subtype_active_depression" DataType="text" Length="9" redcap:Variable="diagnosis_bipolar_subtype_active_depression" redcap:FieldType="radio" redcap:SectionHeader="3.	Disease Subtype
 
-(Legacy)" redcap:RequiredField="y">
+(Legacy)">
 		<Question><TranslatedText>Disease Subtype
 
 (Legacy)</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bipolar_subtype_active_depression.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bipolar_psychotic_depression" Name="diagnosis_bipolar_psychotic_depression" DataType="text" Length="7" redcap:Variable="diagnosis_bipolar_psychotic_depression" redcap:FieldType="radio" redcap:RequiredField="y">
+	<ItemDef OID="diagnosis_bipolar_psychotic_depression" Name="diagnosis_bipolar_psychotic_depression" DataType="text" Length="7" redcap:Variable="diagnosis_bipolar_psychotic_depression" redcap:FieldType="radio">
 		<Question><TranslatedText>Psychotic Symptoms
 
 (Legacy)</TranslatedText></Question>
@@ -5626,14 +5680,14 @@ two weeks)?</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bipolar_etiology_depression" Name="diagnosis_bipolar_etiology_depression" DataType="text" Length="999" redcap:Variable="diagnosis_bipolar_etiology_depression" redcap:FieldType="text" redcap:SectionHeader="4.	Etiology
 
-(Legacy)" redcap:RequiredField="y">
+(Legacy)">
 		<Question><TranslatedText>Describe life events that may relate to the diagnosis
 
 (Legacy)</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bipolar_severity_depression" Name="diagnosis_bipolar_severity_depression" DataType="text" Length="8" redcap:Variable="diagnosis_bipolar_severity_depression" redcap:FieldType="radio" redcap:SectionHeader="5.	Disease Severity
 
-(Legacy)" redcap:RequiredField="y">
+(Legacy)">
 		<Question><TranslatedText>Disease Severity
 
 (Legacy)</TranslatedText></Question>
@@ -5672,6 +5726,108 @@ dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
 	<ItemDef OID="d_mood_depression_or_major_depressive_disorder_complete" Name="d_mood_depression_or_major_depressive_disorder_complete" DataType="text" Length="1" redcap:Variable="d_mood_depression_or_major_depressive_disorder_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
 		<Question><TranslatedText>Complete?</TranslatedText></Question>
 		<CodeListRef CodeListOID="d_mood_depression_or_major_depressive_disorder_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_diagnosed_ad" Name="diagnosis_diagnosed_ad" DataType="text" Length="3" redcap:Variable="diagnosis_diagnosed_ad" redcap:FieldType="radio" redcap:SectionHeader="1. Gold Standard Diagnosis" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you been diagnosed with an anxiety disorder?</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_diagnosed_ad.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___adhd" Name="diagnosis_ad_active_psy_med_problems___adhd" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___adhd.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___anxiety" Name="diagnosis_ad_active_psy_med_problems___anxiety" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___anxiety.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___ocd" Name="diagnosis_ad_active_psy_med_problems___ocd" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___ocd.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___stroke" Name="diagnosis_ad_active_psy_med_problems___stroke" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___stroke.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___epilepsy" Name="diagnosis_ad_active_psy_med_problems___epilepsy" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___epilepsy.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___laryngeal_cancer" Name="diagnosis_ad_active_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___laryngeal_cancer.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___seasonal_allergies" Name="diagnosis_ad_active_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___seasonal_allergies.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_problems___other" Name="diagnosis_ad_active_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:FieldType="checkbox" redcap:SectionHeader="2.	Medical and Psychiatric comorbidities" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any active psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_active_psy_med_problems___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_active_psy_med_prob_other" Name="diagnosis_ad_active_psy_med_prob_other" DataType="text" Length="999" redcap:Variable="diagnosis_ad_active_psy_med_prob_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ad_active_psy_med_problems(other)]=&quot;1&quot;">
+		<Question><TranslatedText>Please specify</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___adhd" Name="diagnosis_ad_hist_psy_med_problems___adhd" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___adhd.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___anxiety" Name="diagnosis_ad_hist_psy_med_problems___anxiety" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___anxiety.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___ocd" Name="diagnosis_ad_hist_psy_med_problems___ocd" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___ocd.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___stroke" Name="diagnosis_ad_hist_psy_med_problems___stroke" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___stroke.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___epilepsy" Name="diagnosis_ad_hist_psy_med_problems___epilepsy" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___epilepsy.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer" Name="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___seasonal_allergies" Name="diagnosis_ad_hist_psy_med_problems___seasonal_allergies" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___seasonal_allergies.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_problems___other" Name="diagnosis_ad_hist_psy_med_problems___other" DataType="boolean" Length="1" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Please select any historical psychiatric problems and medical problems (select all that apply).</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_hist_psy_med_problems___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_hist_psy_med_prob_other" Name="diagnosis_ad_hist_psy_med_prob_other" DataType="text" Length="999" redcap:Variable="diagnosis_ad_hist_psy_med_prob_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ad_hist_psy_med_problems(other)]=&quot;1&quot;">
+		<Question><TranslatedText>Please specify</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_last_anxious_episode" Name="diagnosis_ad_last_anxious_episode" DataType="date" Length="999" redcap:Variable="diagnosis_ad_last_anxious_episode" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="3. Depression History">
+		<Question><TranslatedText>When was your last anxious episode (feeling anxious more days than not over
+two weeks)?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_prescribed_medication" Name="diagnosis_ad_prescribed_medication" DataType="text" Length="3" redcap:Variable="diagnosis_ad_prescribed_medication" redcap:FieldType="radio" redcap:SectionHeader="4. Treatment obtained" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_prescribed_medication.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_current_medication" Name="diagnosis_ad_current_medication" DataType="text" Length="999" redcap:Variable="diagnosis_ad_current_medication" redcap:FieldType="textarea" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ad_prescribed_medication]=&quot;yes&quot;">
+		<Question><TranslatedText>Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
+and how many times per day.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_previous_medication" Name="diagnosis_ad_previous_medication" DataType="text" Length="999" redcap:Variable="diagnosis_ad_previous_medication" redcap:FieldType="textarea" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ad_prescribed_medication]=&quot;yes&quot;">
+		<Question><TranslatedText>Please list any previous psychiatric medications (to the best of your recollection), including medication names,
+approximate dates you were taking them, and why they were discontinued.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_see_mental_health_professional" Name="diagnosis_ad_see_mental_health_professional" DataType="text" Length="3" redcap:Variable="diagnosis_ad_see_mental_health_professional" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="diagnosis_ad_see_mental_health_professional.choices"/>
+	</ItemDef>
+	<ItemDef OID="diagnosis_ad_describe_psychotherapy" Name="diagnosis_ad_describe_psychotherapy" DataType="text" Length="999" redcap:Variable="diagnosis_ad_describe_psychotherapy" redcap:FieldType="textarea" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ad_see_mental_health_professional]=&quot;yes&quot;">
+		<Question><TranslatedText>Please briefly describe your psychotherapy history (e.g.,
+dates, reasons for seeking therapy, etc.).</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="d_mood_anxiety_disorder_complete" Name="d_mood_anxiety_disorder_complete" DataType="text" Length="1" redcap:Variable="d_mood_anxiety_disorder_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="d_mood_anxiety_disorder_complete.choices"/>
 	</ItemDef>
 	<ItemDef OID="diagnosis_as_pft" Name="diagnosis_as_pft" DataType="text" Length="10" redcap:Variable="diagnosis_as_pft" redcap:FieldType="radio" redcap:SectionHeader="1. Gold Standard Diagnosis" redcap:RequiredField="y">
 		<Question><TranslatedText>Has the patient had pulmonary function testing within the past 3 months?</TranslatedText></Question>
@@ -10394,35 +10550,39 @@ Save the document to apply changes.      Upload the scanned pdf to Bridge2AI RED
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___1.choices" Name="eligible_studies___1" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___1.choices" Name="eligible_studies___1" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___2.choices" Name="eligible_studies___2" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___2.choices" Name="eligible_studies___2" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___3.choices" Name="eligible_studies___3" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___3.choices" Name="eligible_studies___3" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___4.choices" Name="eligible_studies___4" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___4.choices" Name="eligible_studies___4" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___age_2_4.choices" Name="eligible_studies___age_2_4" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___age_2_4.choices" Name="eligible_studies___age_2_4" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___age_4_6.choices" Name="eligible_studies___age_4_6" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___age_4_6.choices" Name="eligible_studies___age_4_6" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___age_6_10.choices" Name="eligible_studies___age_6_10" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___age_6_10.choices" Name="eligible_studies___age_6_10" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="eligible_studies___age_10_plus.choices" Name="eligible_studies___age_10_plus" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+]">
+	<CodeList OID="eligible_studies___age_10_plus.choices" Name="eligible_studies___age_10_plus" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="eligible_studies___5.choices" Name="eligible_studies___5" DataType="boolean" redcap:Variable="eligible_studies" redcap:CheckboxChoices="1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders [Ages 2-4] | age_4_6, Pediatric Disorders [Ages 4-6] | age_6_10, Pediatric Disorders [Ages 6-10] | age_10_plus, Pediatric Disorders [Ages 10+] | 5, Pediatric Placeholder">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
@@ -11800,8 +11960,8 @@ Save the document to apply changes.      Upload the scanned pdf to Bridge2AI RED
 		<CodeListItem CodedValue="no"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
 	</CodeList>
 	<CodeList OID="mbd_diagnosed_bipolar_i_ii_other.choices" Name="mbd_diagnosed_bipolar_i_ii_other" DataType="text" redcap:Variable="mbd_diagnosed_bipolar_i_ii_other">
-		<CodeListItem CodedValue="bipolarI"><Decode><TranslatedText>Bipolar I</TranslatedText></Decode></CodeListItem>
-		<CodeListItem CodedValue="bipolarII"><Decode><TranslatedText>Bipolar II</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="bipolar_1"><Decode><TranslatedText>Bipolar I</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="bipolar_2"><Decode><TranslatedText>Bipolar II</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="other"><Decode><TranslatedText>Other/unspecified</TranslatedText></Decode></CodeListItem>
 	</CodeList>
 	<CodeList OID="mbd_ever_seen_heard.choices" Name="mbd_ever_seen_heard" DataType="text" redcap:Variable="mbd_ever_seen_heard">
@@ -11832,67 +11992,67 @@ Save the document to apply changes.      Upload the scanned pdf to Bridge2AI RED
 		<CodeListItem CodedValue="bdi"><Decode><TranslatedText>Beck Depression Inventory (BDI)</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="other"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___adhd.choices" Name="mbd_active_psy_med_problems___adhd" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___adhd.choices" Name="mbd_active_psy_med_problems___adhd" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___anxiety.choices" Name="mbd_active_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___anxiety.choices" Name="mbd_active_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___ocd.choices" Name="mbd_active_psy_med_problems___ocd" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___ocd.choices" Name="mbd_active_psy_med_problems___ocd" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___stroke.choices" Name="mbd_active_psy_med_problems___stroke" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___stroke.choices" Name="mbd_active_psy_med_problems___stroke" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___epilepsy.choices" Name="mbd_active_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___epilepsy.choices" Name="mbd_active_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___laryngealcancer.choices" Name="mbd_active_psy_med_problems___laryngealcancer" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___laryngeal_cancer.choices" Name="mbd_active_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___seasonalallergies.choices" Name="mbd_active_psy_med_problems___seasonalallergies" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___seasonal_allergies.choices" Name="mbd_active_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_active_psy_med_problems___other.choices" Name="mbd_active_psy_med_problems___other" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_active_psy_med_problems___other.choices" Name="mbd_active_psy_med_problems___other" DataType="boolean" redcap:Variable="mbd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___adhd.choices" Name="mbd_hist_psy_med_problems___adhd" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___adhd.choices" Name="mbd_hist_psy_med_problems___adhd" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___anxiety.choices" Name="mbd_hist_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___anxiety.choices" Name="mbd_hist_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___ocd.choices" Name="mbd_hist_psy_med_problems___ocd" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___ocd.choices" Name="mbd_hist_psy_med_problems___ocd" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___stroke.choices" Name="mbd_hist_psy_med_problems___stroke" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___stroke.choices" Name="mbd_hist_psy_med_problems___stroke" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___epilepsy.choices" Name="mbd_hist_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___epilepsy.choices" Name="mbd_hist_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___laryngealcancer.choices" Name="mbd_hist_psy_med_problems___laryngealcancer" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___laryngeal_cancer.choices" Name="mbd_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___seasonalallergies.choices" Name="mbd_hist_psy_med_problems___seasonalallergies" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___seasonal_allergies.choices" Name="mbd_hist_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="mbd_hist_psy_med_problems___other.choices" Name="mbd_hist_psy_med_problems___other" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="mbd_hist_psy_med_problems___other.choices" Name="mbd_hist_psy_med_problems___other" DataType="boolean" redcap:Variable="mbd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
@@ -11964,67 +12124,67 @@ Save the document to apply changes.      Upload the scanned pdf to Bridge2AI RED
 		<CodeListItem CodedValue="bdi"><Decode><TranslatedText>Beck Depression Inventory (BDI)</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="other"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___adhd.choices" Name="dmdd_active_psy_med_problems___adhd" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___adhd.choices" Name="dmdd_active_psy_med_problems___adhd" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___anxiety.choices" Name="dmdd_active_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___anxiety.choices" Name="dmdd_active_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___ocd.choices" Name="dmdd_active_psy_med_problems___ocd" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___ocd.choices" Name="dmdd_active_psy_med_problems___ocd" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___stroke.choices" Name="dmdd_active_psy_med_problems___stroke" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___stroke.choices" Name="dmdd_active_psy_med_problems___stroke" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___epilepsy.choices" Name="dmdd_active_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___epilepsy.choices" Name="dmdd_active_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___laryngealcancer.choices" Name="dmdd_active_psy_med_problems___laryngealcancer" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___laryngeal_cancer.choices" Name="dmdd_active_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___seasonalallergies.choices" Name="dmdd_active_psy_med_problems___seasonalallergies" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___seasonal_allergies.choices" Name="dmdd_active_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_active_psy_med_problems___other.choices" Name="dmdd_active_psy_med_problems___other" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_active_psy_med_problems___other.choices" Name="dmdd_active_psy_med_problems___other" DataType="boolean" redcap:Variable="dmdd_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___adhd.choices" Name="dmdd_hist_psy_med_problems___adhd" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___adhd.choices" Name="dmdd_hist_psy_med_problems___adhd" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___anxiety.choices" Name="dmdd_hist_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___anxiety.choices" Name="dmdd_hist_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___ocd.choices" Name="dmdd_hist_psy_med_problems___ocd" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___ocd.choices" Name="dmdd_hist_psy_med_problems___ocd" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___stroke.choices" Name="dmdd_hist_psy_med_problems___stroke" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___stroke.choices" Name="dmdd_hist_psy_med_problems___stroke" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___epilepsy.choices" Name="dmdd_hist_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___epilepsy.choices" Name="dmdd_hist_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___laryngealcancer.choices" Name="dmdd_hist_psy_med_problems___laryngealcancer" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___laryngeal_cancer.choices" Name="dmdd_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___seasonalallergies.choices" Name="dmdd_hist_psy_med_problems___seasonalallergies" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___seasonal_allergies.choices" Name="dmdd_hist_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
-	<CodeList OID="dmdd_hist_psy_med_problems___other.choices" Name="dmdd_hist_psy_med_problems___other" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngealCancer, Laryngeal cancer | seasonalAllergies, Seasonal allergies | other, Other">
+	<CodeList OID="dmdd_hist_psy_med_problems___other.choices" Name="dmdd_hist_psy_med_problems___other" DataType="boolean" redcap:Variable="dmdd_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
 	</CodeList>
@@ -12056,6 +12216,87 @@ Save the document to apply changes.      Upload the scanned pdf to Bridge2AI RED
 		<CodeListItem CodedValue="no"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
 	</CodeList>
 	<CodeList OID="d_mood_depression_or_major_depressive_disorder_complete.choices" Name="d_mood_depression_or_major_depressive_disorder_complete" DataType="text" redcap:Variable="d_mood_depression_or_major_depressive_disorder_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_diagnosed_ad.choices" Name="diagnosis_diagnosed_ad" DataType="text" redcap:Variable="diagnosis_diagnosed_ad">
+		<CodeListItem CodedValue="yes"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="no"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___adhd.choices" Name="diagnosis_ad_active_psy_med_problems___adhd" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___anxiety.choices" Name="diagnosis_ad_active_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___ocd.choices" Name="diagnosis_ad_active_psy_med_problems___ocd" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___stroke.choices" Name="diagnosis_ad_active_psy_med_problems___stroke" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___epilepsy.choices" Name="diagnosis_ad_active_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___laryngeal_cancer.choices" Name="diagnosis_ad_active_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___seasonal_allergies.choices" Name="diagnosis_ad_active_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_active_psy_med_problems___other.choices" Name="diagnosis_ad_active_psy_med_problems___other" DataType="boolean" redcap:Variable="diagnosis_ad_active_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___adhd.choices" Name="diagnosis_ad_hist_psy_med_problems___adhd" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___anxiety.choices" Name="diagnosis_ad_hist_psy_med_problems___anxiety" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___ocd.choices" Name="diagnosis_ad_hist_psy_med_problems___ocd" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___stroke.choices" Name="diagnosis_ad_hist_psy_med_problems___stroke" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___epilepsy.choices" Name="diagnosis_ad_hist_psy_med_problems___epilepsy" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer.choices" Name="diagnosis_ad_hist_psy_med_problems___laryngeal_cancer" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___seasonal_allergies.choices" Name="diagnosis_ad_hist_psy_med_problems___seasonal_allergies" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_hist_psy_med_problems___other.choices" Name="diagnosis_ad_hist_psy_med_problems___other" DataType="boolean" redcap:Variable="diagnosis_ad_hist_psy_med_problems" redcap:CheckboxChoices="adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_prescribed_medication.choices" Name="diagnosis_ad_prescribed_medication" DataType="text" redcap:Variable="diagnosis_ad_prescribed_medication">
+		<CodeListItem CodedValue="yes"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="no"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="diagnosis_ad_see_mental_health_professional.choices" Name="diagnosis_ad_see_mental_health_professional" DataType="text" redcap:Variable="diagnosis_ad_see_mental_health_professional">
+		<CodeListItem CodedValue="yes"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="no"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="d_mood_anxiety_disorder_complete.choices" Name="d_mood_anxiety_disorder_complete" DataType="text" redcap:Variable="d_mood_anxiety_disorder_complete">
 		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
 		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
