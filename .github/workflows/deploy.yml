@@ -1,0 +1,29 @@
+name: Trigger Target Workflow
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Message
+        run: |
+          echo "Notifying reproschema repo"
+      - name: Trigger Workflow in Another Repository
+        uses: convictional/trigger-workflow-and-wait@v1.6.1
+        with:
+            owner: sensein
+            repo: b2ai-redcap2rs
+            github_token: ${{ secrets.AUTH }}
+            workflow_file_name: deploy.yml
+            ref: main
+            wait_interval: 10
+            propagate_failure: false
+            trigger_workflow: true
+            wait_workflow: true 
+
+  
