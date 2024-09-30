@@ -144,26 +144,26 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 
 #### Task Overview
 
-| # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Pediatric Protocol 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
+| # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Pediatric Protocol Ages 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Pediatric Demographics | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Demographics.pdf) |
-| 2 | Pediatric VHI10 | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20VHI10.pdf) |
-| 3 | Pediatric Voice Outcome Survey | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Outcome%20Survey.pdf) |
-| 4 | Pediatric Voice Related QOL Survey | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Related%20QOL%20Survey.pdf) |
-| 5 | Pediatric PHQ-A | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20PHQ-A.pdf) |
-| 6 | Conversation (Simple) | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6) | 2 | NA |
-| 7 | Abcs and 123s | Acoustic Task 🎤 | NA | Ages [2 - 4) | 2 | NA |
-| 8 | Noisy Sounds | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6), Ages [6 - 10) | 10 | NA |
-| 9 | Identifying Pictures | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6), Ages [6 - 10), Ages 10+ | 37 | NA |
-| 10 | Days and Number Naming | Acoustic Task 🎤 | NA | Ages [4 - 6) | 3 | NA |
-| 11 | Silly Sounds | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 4 | NA |
-| 12 | Repeating Sentences | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 6 | NA |
-| 13 | Picture Description | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 1 | NA |
-| 14 | Conversation (Advanced) | Acoustic Task 🎤 | NA | Ages [6 - 10), Ages 10+ | 4 | NA |
-| 15 | Role naming tasks sounds | Acoustic Task 🎤 | NA | Ages [6 - 10) | 3 | NA |
-| 16 | Reading Passage | Acoustic Task 🎤 | NA | Ages [6 - 10), Ages 10+ | 11 | NA |
-| 17 | Generative Naming Task | Acoustic Task 🎤 | NA | Ages 10+ | 2 | NA |
-| 18 | Long Sounds | Acoustic Task 🎤 | NA | Ages 10+ | 2 | NA |
+| 1 | Pediatric Demographics | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Demographics.pdf) |
+| 2 | Pediatric VHI10 | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20VHI10.pdf) |
+| 3 | Pediatric Voice Outcome Survey | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Outcome%20Survey.pdf) |
+| 4 | Pediatric Voice Related QOL Survey | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Related%20QOL%20Survey.pdf) |
+| 5 | Pediatric PHQ-A | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20PHQ-A.pdf) |
+| 6 | Conversation (Simple) | Acoustic Task 🎤 | NA | [2 - 4), <br> [4 - 6) | 2 | NA |
+| 7 | Abcs and 123s | Acoustic Task 🎤 | NA | [2 - 4) | 2 | NA |
+| 8 | Noisy Sounds | Acoustic Task 🎤 | NA | [2 - 4), <br> [4 - 6), <br> [6 - 10) | 10 | NA |
+| 9 | Identifying Pictures | Acoustic Task 🎤 | NA | [2 - 4), <br> [4 - 6), <br> [6 - 10), <br> 10+ | 37 | NA |
+| 10 | Days and Number Naming | Acoustic Task 🎤 | NA | [4 - 6) | 3 | NA |
+| 11 | Silly Sounds | Acoustic Task 🎤 | NA | [4 - 6), <br> [6 - 10), <br> 10+ | 4 | NA |
+| 12 | Repeating Sentences | Acoustic Task 🎤 | NA | [4 - 6), <br> [6 - 10), <br> 10+ | 6 | NA |
+| 13 | Picture Description | Acoustic Task 🎤 | NA | [4 - 6), <br> [6 - 10), <br> 10+ | 1 | NA |
+| 14 | Conversation (Advanced) | Acoustic Task 🎤 | NA | [6 - 10), <br> 10+ | 4 | NA |
+| 15 | Role naming tasks sounds | Acoustic Task 🎤 | NA | [6 - 10) | 3 | NA |
+| 16 | Reading Passage | Acoustic Task 🎤 | NA | [6 - 10), <br> 10+ | 11 | NA |
+| 17 | Generative Naming Task | Acoustic Task 🎤 | NA | 10+ | 2 | NA |
+| 18 | Long Sounds | Acoustic Task 🎤 | NA | 10+ | 2 | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
