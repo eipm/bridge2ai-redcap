@@ -2,11 +2,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![Github](https://img.shields.io/badge/github-3.14.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![Github](https://img.shields.io/badge/github-3.15.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.14.0 | 2024-08-20 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.15.0 | 2024-09-30 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
@@ -16,13 +16,31 @@ See [LICENSE](./LICENSE)
 
 ## Protocol Overview
 
-### Part A | Generic Protocol
+- [Adult Protocols](#adult-protocols)
+  - [Part A | Generic Protocol](#part-a--generic-protocol)
+  - [Part B | Disease Specific Protocols](#part-b--disease-specific-protocols)
+  - [Part A & B | Total Metrics per Protocol](#part-a--b--total-metrics-per-protocol)
+  - [Task Overview](#task-overview)
+  - [🎤 Acoustic Tasks | YouTube Playlist](#-acoustic-tasks--youtube-playlist)
+  - [📕 Questionnaires](#-questionnaires)
+  - [Clinically Validated Diagnoses Forms](#clinically-validated-diagnoses-forms)
+- [Pediatric Protocols](#pediatric-protocols)
+  - [Age Specific Protocols](#age-specific-protocols)
+  - [Task Overview](#task-overview-1)
+  - [🎤 Acoustic Tasks | YouTube Playlist](#-acoustic-tasks--youtube-playlist-1)
+  - [📕 Questionnaires](#-questionnaires-1)
+
+---
+
+### Adult Protocols
+
+#### Part A | Generic Protocol
 
 | # | Protocol 📓 | # of Questionnaires 📕 | # of Acoustic Tasks 🎤 | # of Recordings 🔊 | Estimated time to complete (mm:ss) ⏳ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Generic Protocol | 6 | 10 | 28 | 37:00 |
 
-### Part B | Disease Specific Protocols
+#### Part B | Disease Specific Protocols
 
 | # | Protocol 📓 | # of Questionnaires 📕 | # of Acoustic Tasks 🎤 | # of Recordings 🔊 | Estimated time to complete (mm:ss) ⏳ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -31,7 +49,7 @@ See [LICENSE](./LICENSE)
 | 3 | Respiratory Disorders | 2 | 2 | 2 | 06:30 |
 | 4 | Neurological and Neurodegenerative Disorders | 1 | 4 | 9 | 12:00 |
 
-### Part A & B | Total Metrics per Protocol
+#### Part A & B | Total Metrics per Protocol
 
 | # | Protocol 📓 | Total # of Questionnaires 📕 | Total # of Acoustic Tasks 🎤 | Total # of Recordings 🔊 | Estimated time to complete (mm:ss) ⏳ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -41,8 +59,7 @@ See [LICENSE](./LICENSE)
 | 3 | Respiratory Disorders | 8 | 12 | 30 | 43:30 |
 | 4 | Neurological and Neurodegenerative Disorders | 7 | 14 | 37 | 49:00 |
 
-
-## Task Overview
+#### Task Overview
 
 | # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Protocol 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -83,15 +100,15 @@ See [LICENSE](./LICENSE)
 | 35 | Random Item Generation | Acoustic Task 🎤 | 02:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |
 | 36 | Cinderella Story | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) |
 
-### 🎤 Acoustic Tasks | YouTube Playlist
+#### 🎤 Acoustic Tasks | YouTube Playlist
 
 All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](https://youtube.com/playlist?list=PL72MPaFiuoRY66W7QsZ1_IeBwNosOzeap&si=9nr51lsmEYUncRMN).
 
-### 📕 Questionnaires
+#### 📕 Questionnaires
 
 All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instrument_pdfs/) in this repository.
 
-## Clinically Validated Diagnoses Forms
+#### Clinically Validated Diagnoses Forms
 
 | # | Protocol | Clinically Validated Diagnosis | Form PDF Link |
 | :---: | :---: | :---: | :---: |
@@ -111,3 +128,47 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 | 14 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
 | 15 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
 | 16 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
+
+---
+
+### Pediatric Protocols
+
+#### Age Specific Protocols
+
+| # | Protocol 📓 | # of Questionnaires 📕 | # of Acoustic Tasks 🎤 | # of Recordings 🔊 | Estimated time to complete (mm:ss) ⏳ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | Pediatric Disorders - Ages [2-4)] | 5 | 4 | 51 | NA |
+| 2 | Pediatric Disorders - Ages [4-6)] | 5 | 7 | 63 | NA |
+| 3 | Pediatric Disorders - Ages [6-10)]| 5 | 8 | 76 | NA |
+| 4 | Pediatric Disorders - Ages 10+ | 5 | 8 | 67 | NA |
+
+#### Task Overview
+
+| # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Pediatric Protocol 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | Pediatric Demographics | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Demographics.pdf) |
+| 2 | Pediatric VHI10 | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20VHI10.pdf) |
+| 3 | Pediatric Voice Outcome Survey | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Outcome%20Survey.pdf) |
+| 4 | Pediatric Voice Related QOL Survey | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Related%20QOL%20Survey.pdf) |
+| 5 | Pediatric PHQ-A | Questionnaire 📕| NA | All Pediatric Protocols | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20PHQ-A.pdf) |
+| 6 | Conversation (Simple) | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6) | 2 | NA |
+| 7 | Abcs and 123s | Acoustic Task 🎤 | NA | Ages [2 - 4) | 2 | NA |
+| 8 | Noisy Sounds | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6), Ages [6 - 10) | 10 | NA |
+| 9 | Identifying Pictures | Acoustic Task 🎤 | NA | Ages [2 - 4), Ages [4 - 6), Ages [6 - 10), Ages 10+ | 37 | NA |
+| 10 | Days and Number Naming | Acoustic Task 🎤 | NA | Ages [4 - 6) | 3 | NA |
+| 11 | Silly Sounds | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 4 | NA |
+| 12 | Repeating Sentences | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 6 | NA |
+| 13 | Picture Description | Acoustic Task 🎤 | NA | Ages [4 - 6), Ages [6 - 10), Ages 10+ | 1 | NA |
+| 14 | Conversation (Advanced) | Acoustic Task 🎤 | NA | Ages [6 - 10), Ages 10+ | 4 | NA |
+| 15 | Role naming tasks sounds | Acoustic Task 🎤 | NA | Ages [6 - 10) | 3 | NA |
+| 16 | Reading Passage | Acoustic Task 🎤 | NA | Ages [6 - 10), Ages 10+ | 11 | NA |
+| 17 | Generative Naming Task | Acoustic Task 🎤 | NA | Ages 10+ | 2 | NA |
+| 18 | Long Sounds | Acoustic Task 🎤 | NA | Ages 10+ | 2 | NA |
+
+#### 🎤 Acoustic Tasks | YouTube Playlist
+
+The Acoustic Task Playlist for Pediatrics is currently under development.
+
+#### 📕 Questionnaires
+
+All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instrument_pdfs/) in this repository.
