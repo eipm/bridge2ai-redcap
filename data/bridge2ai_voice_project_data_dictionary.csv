@@ -412,10 +412,11 @@ diagnosis_uvfp_treatment_surgery_other,d_voice_unilateral_vocal_fold_paralysis,,
 diagnosis_uvfp_treatment_surgery_thyroplasty,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Thyroplasty - Subcategory","goretex, Gore-Tex | silastic, Silastic",,,,,,"[diagnosis_uvfp_treatment_surgery(thyroplasty)]=""1""",y,,,,,
 diagnosis_uvfp_treatment_surgery_vfia,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Vocal fold injection augmentation - Subcategory","caha, CaHA | gel, Gel | hyaluronic_acid_augmentation, Hyaluronic acid augmentation | fat_injection, Fat injection",,,,,,"[diagnosis_uvfp_treatment_surgery(vocal_fold_injection_augmentation)]=""1""",y,,,,,
 mbd_diagnosed_bm,d_mood_bipolar_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with Bipolar Disorder?","yes, Yes | no, No",,,,,,,y,,,,,
-mbd_diagnosed_bipolar_i_ii_other,d_mood_bipolar_disorder,,radio,"Were you diagnosed with Bipolar I, Bipolar II, or Other/unspecified?","bipolar_1, Bipolar I | bipolar_2, Bipolar II | other, Other/unspecified",,,,,,,y,,,,,
-mbd_diagnosed_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_diagnosed_bipolar_i_ii_other]=""other""",y,,,,,
-mbd_ever_seen_heard,d_mood_bipolar_disorder,,radio,"Have you ever seen things other people can't see or heard things other people can't hear?","yes, Yes | no, No",,,,,,,y,,,,,
-mbd_had_manic_episode,d_mood_bipolar_disorder,,radio,"Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?","yes, Yes | no, No",,,,,,,y,,,,,
+mbd_diagnosed_bm_selection,d_mood_bipolar_disorder,,radio,"Bipolar I and II Disorders","6A60, 6A60 Bipolar type I disorder | 6A61, 6A61 Bipolar type II disorder | 6A62, 6A62 Cyclothymic disorder | 6A6Y, 6A6Y Other specified bipolar or related disorders | 6A6Z, 6A6Z Bipolar or related disorders, unspecified",,,,,,[mbd_diagnosed_bm]='yes',y,,,,,
+mbd_diagnosed_bipolar_i_ii_other,d_mood_bipolar_disorder,,radio,"Were you diagnosed with Bipolar I, Bipolar II, or Other/unspecified?","bipolar_1, Bipolar I | bipolar_2, Bipolar II | other, Other/unspecified",,,,,,,,,,,,
+mbd_diagnosed_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_diagnosed_bipolar_i_ii_other]=""other""",,,,,,
+mbd_ever_seen_heard,d_mood_bipolar_disorder,,radio,"Have you ever seen things other people can't see or heard things other people can't hear?","yes, Yes | no, No",,,,,,,,,,,,
+mbd_had_manic_episode,d_mood_bipolar_disorder,,radio,"Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?","yes, Yes | no, No",,,,,,,,,,,,
 diagnosis_bipolar_gsd,d_mood_bipolar_disorder,,radio,"Diagnosis
 
 (Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,,,,,,
@@ -431,10 +432,18 @@ diagnosis_bipolar_gsd_oquw,d_mood_bipolar_disorder,,radio,"Which objective quest
 diagnosis_bipolar_gsd_oqu_other,d_mood_bipolar_disorder,,text,"Please specify
 
 (Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",,,,,,
-mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-mbd_active_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",y,,,,,
-mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-mbd_hist_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",y,,,,,
+mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+mbd_active_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",,,,,,
+mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+mbd_hist_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",,,,,,
 diagnosis_bipolar_active_problems,d_mood_bipolar_disorder,,text,"Enter list of active problems
 
 (Legacy)",,,,,,,,,,,,,
@@ -442,9 +451,9 @@ diagnosis_bipolar_history_problems,d_mood_bipolar_disorder,,text,"Enter any hist
 
 (Legacy)",,,,,,,,,,,,,
 mbd_last_depressive_episode,d_mood_bipolar_disorder,"3. Bipolar History",text,"When was your last depressive episode (feeling down and depressed more days than not over two weeks)?",,,date_ymd,,,y,,,,,,,
-mbd_many_depressive_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,y,,,,,
+mbd_many_depressive_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
 mbd_last_manic_episode,d_mood_bipolar_disorder,,text,"When was your last manic episode?",,,date_ymd,,,y,,,,,,,
-mbd_many_manic_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many manic episodes have you had in your life?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,y,,,,,
+mbd_many_manic_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many manic episodes have you had in your life?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
 diagnosis_bipolar_subtype_active,d_mood_bipolar_disorder,"3. Disease Subtype  
 
 (Legacy)",radio,"Disease Subtype
@@ -463,13 +472,23 @@ diagnosis_bipolar_severity,d_mood_bipolar_disorder,"5. Disease Severity
 (Legacy)",radio,"Disease Severity
 
 (Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
-mbd_prescribed_medication,d_mood_bipolar_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
-mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
+mbd_prescribed_medication,d_mood_bipolar_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,,
 mbd_previous_medication,d_mood_bipolar_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
-approximate dates you were taking them, and why they were discontinued.",,,,,,,"[mbd_prescribed_medication]=""yes""",y,,,,,
-mbd_see_mental_health_professional,d_mood_bipolar_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+approximate dates you were taking them, and why they were discontinued.
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,,
+mbd_see_mental_health_professional,d_mood_bipolar_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
 mbd_describe_psychotherapy,d_mood_bipolar_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
-dates, reasons for seeking therapy, etc.).",,,,,,,"[mbd_see_mental_health_professional]=""yes""",y,,,,,
+dates, reasons for seeking therapy, etc.).
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_see_mental_health_professional]=""yes""",,,,,,
 diagnosis_bipolar_current_med_therapies,d_mood_bipolar_disorder,,text,"List any current medications/therapies
 
 (Legacy)",,,,,,,,,,,,,
@@ -477,6 +496,7 @@ diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"List any f
 
 (Legacy)",,,,,,,,,,,,,
 dmdd_diagnosed_dd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with a depressive disorder?","yes, Yes | no, No",,,,,,,y,,,,,
+dmdd_diagnosed_dd_selection,d_mood_depression_or_major_depressive_disorder,,radio,"Major Depressive Disorder","6B43, 6B43 Adjustment disorder | 6B20, 6B20 OCD | 6A70, 6A70 Single episode depressive disorder | 6A71, 6A71 Recurrent depressive disorder | 6A72, 6A72 Dysthymic disorder | 6A73, 6A73 Mixed depressive and anxiety disorder | GA34.41, GA34.41 Premenstrual dysphoric disorder | 6A7Y, 6A7Y Other specified depressive disorders | 6A7Z, 6A7Z Depressive disorders, unspecified",,,,,,[dmdd_diagnosed_dd]='yes',y,,,,,
 diagnosis_depression_gsd,d_mood_depression_or_major_depressive_disorder,,radio,"Diagnosis 
 
 (Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,,,,,,
@@ -495,17 +515,25 @@ diagnosis_depression_gsd_oquw,d_mood_depression_or_major_depressive_disorder,,ra
 diagnosis_depression_gsd_oqu_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
 
 (Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",,,,,,
-dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-dmdd_active_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",y,,,,,
-dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-dmdd_hist_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",y,,,,,
+dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+dmdd_active_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",,,,,,
+dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+dmdd_hist_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",,,,,,
 diagnosis_bipolar_active_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter list of active problems
 
 (Legacy)",,,,,,,,,,,,,
 diagnosis_bipolar_history_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter any history of problems
 
 (Legacy)",,,,,,,,,,,,,
-dmdd_last_depressive_episode,d_mood_depression_or_major_depressive_disorder,"3. Depression History",text,"When was your last depressive episode (feeling anxious more days than not over
+dmdd_last_depressive_episode,d_mood_depression_or_major_depressive_disorder,"3. Depression History",text,"When was your last depressive episode (feeling depressed more days than not over
 two weeks)?",,,date_ymd,,,,,,,,,,
 dmdd_how_many_depressive_episodes,d_mood_depression_or_major_depressive_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
 diagnosis_bipolar_subtype_active_depression,d_mood_depression_or_major_depressive_disorder,"3.	Disease Subtype
@@ -526,14 +554,24 @@ diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_diso
 (Legacy)",radio,"Disease Severity
 
 (Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,,,,,,
-dmdd_prescribed_medication,d_mood_depression_or_major_depressive_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+dmdd_prescribed_medication,d_mood_depression_or_major_depressive_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
 dmdd_current_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
-and how many times per day.",,,,,,,"[dmdd_prescribed_medication]=""yes""",y,,,,,
+and how many times per day.
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,,
 dmdd_previous_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
-approximate dates you were taking them, and why they were discontinued.",,,,,,,"[dmdd_prescribed_medication]=""yes""",y,,,,,
-dmdd_see_mental_health_professional,d_mood_depression_or_major_depressive_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+approximate dates you were taking them, and why they were discontinued.
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,,
+dmdd_see_mental_health_professional,d_mood_depression_or_major_depressive_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
 dmdd_describe_psychotherapy,d_mood_depression_or_major_depressive_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
-dates, reasons for seeking therapy, etc.).",,,,,,,"[dmdd_see_mental_health_professional]=""yes""",y,,,,,
+dates, reasons for seeking therapy, etc.).
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_see_mental_health_professional]=""yes""",,,,,,
 diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any current medications/therapies
 
 (Legacy)",,,,,,,,,,,,,
@@ -541,20 +579,40 @@ diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_dep
 
 (Legacy)",,,,,,,,,,,,,
 diagnosis_diagnosed_ad,d_mood_anxiety_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with an anxiety disorder?","yes, Yes | no, No",,,,,,,y,,,,,
-diagnosis_ad_active_psy_med_problems,d_mood_anxiety_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-diagnosis_ad_active_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify",,,,,,,"[diagnosis_ad_active_psy_med_problems(other)]=""1""",y,,,,,
-diagnosis_ad_hist_psy_med_problems,d_mood_anxiety_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,y,,,,,
-diagnosis_ad_hist_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify",,,,,,,"[diagnosis_ad_hist_psy_med_problems(other)]=""1""",y,,,,,
-diagnosis_ad_last_anxious_episode,d_mood_anxiety_disorder,"3. Depression History",text,"When was your last anxious episode (feeling anxious more days than not over
+diagnosis_diagnosed_ad_selection,d_mood_anxiety_disorder,,radio,"Anxiety Disorder","6B80, 6B80 Anorexia nervosa | 6B81, 6B81 Bulimia nervosa | 6B82, 6B82 Binge eating disorder | 6B83, 6B83 Avoidant-restrictive food intake disorder | 6B84, 6B84 Pica | 6B85, 6B85 Rumination-regurgitation disorder | 6B8Y, 6B8Y Other specified feeding or eating disorders | 6B8Z, 6B8Z Feeding or eating disorders, unspecified | 6B00, 6B00 Generalized Anxiety Disorder | 6B01, 6B01 Panic Disorder | 6B02, 6B02 Agoraphobia | 6B04, 6B04 Social Anxiety Disorder | 6B05, 6B05 Separation Anxiety Disorder | 6B06, 6B06 Selective Mutism | 6B0Y, 6B0Y Other Specified Anxiety or Fear-Related Disorders | 6B0Z, 6B0Z Anxiety or fear-related disorders, unspecified",,,,,,[diagnosis_diagnosed_ad]='yes',y,,,,,
+diagnosis_ad_active_psy_med_problems,d_mood_anxiety_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+diagnosis_ad_active_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_active_psy_med_problems(other)]=""1""",,,,,,
+diagnosis_ad_hist_psy_med_problems,d_mood_anxiety_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
+
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+diagnosis_ad_hist_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_hist_psy_med_problems(other)]=""1""",,,,,,
+diagnosis_ad_last_anxious_episode,d_mood_anxiety_disorder,"3. Anxiety History",text,"When was your last anxious episode (feeling anxious more days than not over
 two weeks)?",,,date_ymd,,,,,,,,,,
-diagnosis_ad_prescribed_medication,d_mood_anxiety_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ad_prescribed_medication,d_mood_anxiety_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
 diagnosis_ad_current_medication,d_mood_anxiety_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
-and how many times per day.",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",y,,,,,
+and how many times per day.
+
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,,
 diagnosis_ad_previous_medication,d_mood_anxiety_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
-approximate dates you were taking them, and why they were discontinued.",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",y,,,,,
-diagnosis_ad_see_mental_health_professional,d_mood_anxiety_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,y,,,,,
+approximate dates you were taking them, and why they were discontinued.
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,,
+diagnosis_ad_see_mental_health_professional,d_mood_anxiety_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
+
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
 diagnosis_ad_describe_psychotherapy,d_mood_anxiety_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
-dates, reasons for seeking therapy, etc.).",,,,,,,"[diagnosis_ad_see_mental_health_professional]=""yes""",y,,,,,
+dates, reasons for seeking therapy, etc.).
+
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_see_mental_health_professional]=""yes""",,,,,,
 diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
 diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
@@ -1088,6 +1146,20 @@ talking_too_much,q_mood_adhd_adult,,radio,"How often do you find yourself talkin
 finish_other_sent,q_mood_adhd_adult,,radio,"When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish them themselves?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 difficulty_waiting,q_mood_adhd_adult,,radio,"How often do you have difficulty waiting your turn in situations when turn taking is required?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 interrupt_others,q_mood_adhd_adult,,radio,"How often do you interrupt others when they are busy?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
+mph_session_id,q_mood_participant_history,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,,
+mph_started_at,q_mood_participant_history,,text,"Questionnaire Started At",,,,,,y,,y,,,,,
+mph_completed_at,q_mood_participant_history,,text,"Questionnaire Completed At",,,,,,y,,y,,,,,
+mph_duration,q_mood_participant_history,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,,
+mph_active_psy_med_problems,q_mood_participant_history,"Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+mph_active_psy_med_prob_other,q_mood_participant_history,,text,"Please specify",,,,,,,"[mph_active_psy_med_problems(other)]=""1""",,,,,,
+mph_hist_psy_med_problems,q_mood_participant_history,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+mph_hist_psy_med_prob_other,q_mood_participant_history,,text,"Please specify",,,,,,,"[mph_hist_psy_med_problems(other)]=""1""",,,,,,
+mph_prescribed_medication,q_mood_participant_history,"Treatment Obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,,,,,,
+mph_current_medication,q_mood_participant_history,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.",,,,,,,"[mph_prescribed_medication]=""yes""",,,,,,
+mph_previous_medication,q_mood_participant_history,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
+approximate dates you were taking them, and why they were discontinued.",,,,,,,"[mph_prescribed_medication]=""yes""",,,,,,
+mph_see_mental_health_professional,q_mood_participant_history,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?","yes, Yes | no, No",,,,,,,,,,,,
+mph_describe_psychotherapy,q_mood_participant_history,,notes,"Please briefly describe your psychotherapy history (e.g., dates, reasons for seeking therapy, etc.).",,,,,,,"[mph_see_mental_health_professional]=""yes""",,,,,,
 dyspnea_index_session_id,q_resp_dyspnea_index_di,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 dyspnea_index_started_at,q_resp_dyspnea_index_di,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 dyspnea_index_completed_at,q_resp_dyspnea_index_di,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"

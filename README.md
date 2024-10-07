@@ -6,7 +6,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.15.0 | 2024-10-07 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.16.0 | 2024-10-07 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
@@ -45,7 +45,7 @@ See [LICENSE](./LICENSE)
 | # | Protocol 📓 | # of Questionnaires 📕 | # of Acoustic Tasks 🎤 | # of Recordings 🔊 | Estimated time to complete (mm:ss) ⏳ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Voice Disorders Protocol | 1 | 3 | 8 | 04:00 | 
-| 2 | Mood and Psychiatric Disorders Protocol | 5 | 2 | 2 | 18:30 |
+| 2 | Mood and Psychiatric Disorders Protocol | 6 | 2 | 2 | 20:30 |
 | 3 | Respiratory Disorders | 2 | 2 | 2 | 06:30 |
 | 4 | Neurological and Neurodegenerative Disorders | 1 | 4 | 9 | 12:00 |
 
@@ -55,7 +55,7 @@ See [LICENSE](./LICENSE)
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Generic Protocol | 6 | 10 | 28 | 37:00 |
 | 1 | Voice Disorders Protocol | 7 | 13 | 36 | 41:00 | 
-| 2 | Mood and Psychiatric Disorders Protocol | 11 | 12 | 30 | 55:30 |
+| 2 | Mood and Psychiatric Disorders Protocol | 12 | 12 | 30 | 57:30 |
 | 3 | Respiratory Disorders | 8 | 12 | 30 | 43:30 |
 | 4 | Neurological and Neurodegenerative Disorders | 7 | 14 | 37 | 49:00 |
 
@@ -63,12 +63,12 @@ See [LICENSE](./LICENSE)
 
 | # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Protocol 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | Questionnaire 📕| 03:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Demographics.pdf) |
-| 2 | Confounders | Questionnaire 📕| 12:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Confounders.pdf) |
-| 3 | Voice Perception | Questionnaire 📕| 00:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Voice%20Perception.pdf) |
-| 4 | VHI-10 | Questionnaire 📕| 01:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Voice%20Handicap%20Index%20Vhi10.pdf) |
-| 5 | Patient Health Questionnaire-9 | Questionnaire 📕| 01:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Patient%20Health%20Questionnaire9.pdf) |
-| 6 | GAD-7 Anxiety | Questionnaire 📕| 01:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Generic%20-%20Gad7%20Anxiety.pdf) |
+| 1 | Demographics | Questionnaire 📕 | 03:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Demographics.pdf) |
+| 2 | Confounders | Questionnaire 📕 | 12:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Confounders.pdf) |
+| 3 | Voice Perception | Questionnaire 📕 | 00:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Voice%20Perception.pdf) |
+| 4 | VHI-10 | Questionnaire 📕 | 01:00 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Voice%20Handicap%20Index%20Vhi10.pdf) |
+| 5 | Patient Health Questionnaire-9 | Questionnaire 📕 | 01:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20Generic%20Patient%20Health%20Questionnaire9.pdf) |
+| 6 | GAD-7 Anxiety | Questionnaire 📕 | 01:30 | Generic Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Generic%20-%20Gad7%20Anxiety.pdf) |
 | 7 | Prolonged Vowel | Acoustic Task 🎤 | 01:00 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
 | 8 | Maximum Phonation Time | Acoustic Task 🎤 | 02:00 | Generic Protocol | 3 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
 | 9 | Rainbow Passage | Acoustic Task 🎤 | 01:30 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
@@ -79,26 +79,27 @@ See [LICENSE](./LICENSE)
 | 14 | Respiration and cough | Acoustic Task 🎤 | 03:00 | Generic Protocol | 3 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
 | 15 | Picture Description | Acoustic Task 🎤 | 01:30 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
 | 16 | Story Recall | Acoustic Task 🎤 | 03:30 | Generic Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
-| 17 | Voice Problem Severity | Questionnaire 📕| 00:30 | Voice Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Voice%20-%20Voice%20Problem%20Severity.pdf) |
+| 17 | Voice Problem Severity | Questionnaire 📕 | 00:30 | Voice Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Voice%20-%20Voice%20Problem%20Severity.pdf) |
 | 18 | Caterpillar Passage | Acoustic Task 🎤 | 01:30 | Voice Disorders Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=jN7bGT-PFXY) |
 | 19 | Cape V Sentences | Acoustic Task 🎤 | 01:00 | Voice Disorders Protocol | 6 | [YouTube Link](https://www.youtube.com/watch?v=1qbiCdWxuSY) |
 | 20 | Free Speech | Acoustic Task 🎤 | 01:00 | Voice Disorders Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) |
-| 21 | PANAS | Questionnaire 📕| 01:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Panas.pdf) |
-| 22 | Custom Affect Scale | Questionnaire 📕| 01:30 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.pdf) |
-| 23 | DSM-5 Adult | Questionnaire 📕| 06:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Dsm5%20Adult.pdf) |
-| 24 | PTSD Adult | Questionnaire 📕| 03:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Ptsd%20Adult.pdf) |
-| 25 | ADHD Adult | Questionnaire 📕| 03:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Adhd%20Adult.pdf) |
+| 21 | PANAS | Questionnaire 📕 | 01:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Panas.pdf) |
+| 22 | Custom Affect Scale | Questionnaire 📕 | 01:30 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.pdf) |
+| 23 | DSM-5 Adult | Questionnaire 📕 | 06:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Dsm5%20Adult.pdf) |
+| 24 | PTSD Adult | Questionnaire 📕 | 03:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Ptsd%20Adult.pdf) |
+| 25 | ADHD Adult | Questionnaire 📕 | 03:00 | Mood and Psychiatric Disorders Protocol | - | [PDF](data/instrument_pdfs/Q%20-%20Mood%20-%20Adhd%20Adult.pdf) |
 | 26 | Animal Fluency | Acoustic Task 🎤 | 01:30 | Mood and Psychiatric Disorders Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=4lkEAxDiEE8) |
-| 27 | Open response questions | Acoustic Task 🎤 | 02:30 | Mood and Psychiatric Disorders Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) |
-| 28 | Dyspnea Index (DI) | Questionnaire 📕| 01:00 | Respiratory Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Resp%20-%20Dyspnea%20Index%20Di.pdf) |
-| 29 | Leicester Cough Questionnaire (LCQ) | Questionnaire 📕| 03:00 | Respiratory Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20Lcq.pdf) |
-| 30 | Breath Sounds | Acoustic Task 🎤 | 01:30 | Respiratory Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) |
-| 31 | Voluntary Cough | Acoustic Task 🎤 | 01:00 | Respiratory Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) |
-| 32 | Winograd Questionnaire | Questionnaire 📕| 01:00 | Neurological and Neurodegenerative Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Neuro%20Winograd%20Schemas.pdf) |
-| 33 | Word-color Stroop | Acoustic Task 🎤 | 01:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=IzotHKbYh30)|
-| 34 | Productive Vocabulary | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 6 | [YouTube Link](https://www.youtube.com/watch?v=TEshcUAlfPA) |
-| 35 | Random Item Generation | Acoustic Task 🎤 | 02:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |
-| 36 | Cinderella Story | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) |
+| 27 | Participant History | Questionnaire 📕 | 02:00 | Mood and Psychiatric Disorders Protocol | 1 | [PDF](data/instrument_pdfs/Q%20Mood%20Participant%20History.pdf) |
+| 28 | Open response questions | Acoustic Task 🎤 | 02:30 | Mood and Psychiatric Disorders Protocol | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) |
+| 29 | Dyspnea Index (DI) | Questionnaire 📕 | 01:00 | Respiratory Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Resp%20-%20Dyspnea%20Index%20Di.pdf) |
+| 30 | Leicester Cough Questionnaire (LCQ) | Questionnaire 📕 | 03:00 | Respiratory Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20Lcq.pdf) |
+| 31 | Breath Sounds | Acoustic Task 🎤 | 01:30 | Respiratory Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) |
+| 32 | Voluntary Cough | Acoustic Task 🎤 | 01:00 | Respiratory Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) |
+| 33 | Winograd Questionnaire | Questionnaire 📕 | 01:00 | Neurological and Neurodegenerative Disorders | - | [PDF](data/instrument_pdfs/Q%20-%20Neuro%20Winograd%20Schemas.pdf) |
+| 34 | Word-color Stroop | Acoustic Task 🎤 | 01:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=IzotHKbYh30)|
+| 35 | Productive Vocabulary | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 6 | [YouTube Link](https://www.youtube.com/watch?v=TEshcUAlfPA) |
+| 36 | Random Item Generation | Acoustic Task 🎤 | 02:30 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |
+| 37 | Cinderella Story | Acoustic Task 🎤 | 05:00 | Neurological and Neurodegenerative Disorders | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
@@ -146,11 +147,11 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 
 | # | Task Name | Type | Estimated Time to Complete (mm:ss) ⏳ | Pediatric Protocol Ages 📓 | Total # of Recordings 🔊 (if Acoustic Task) | Questionnaire Form PDF Link / Acoustic Task Description Youtube Link | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Pediatric Demographics | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Demographics.pdf) |
-| 2 | Pediatric VHI10 | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20VHI10.pdf) |
-| 3 | Pediatric Voice Outcome Survey | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Outcome%20Survey.pdf) |
-| 4 | Pediatric Voice Related QOL Survey | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Related%20QOL%20Survey.pdf) |
-| 5 | Pediatric PHQ-A | Questionnaire 📕| NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20PHQ-A.pdf) |
+| 1 | Pediatric Demographics | Questionnaire 📕 | NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Demographics.pdf) |
+| 2 | Pediatric VHI10 | Questionnaire 📕 | NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20VHI10.pdf) |
+| 3 | Pediatric Voice Outcome Survey | Questionnaire 📕 | NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Outcome%20Survey.pdf) |
+| 4 | Pediatric Voice Related QOL Survey | Questionnaire 📕 | NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20Voice%20Related%20QOL%20Survey.pdf) |
+| 5 | Pediatric PHQ-A | Questionnaire 📕 | NA | All | - | [PDF](data/instrument_pdfs/Q%20Pediatric%20PHQ-A.pdf) |
 | 6 | Conversation (Simple) | Acoustic Task 🎤 | NA | [2 - 4), <br> [4 - 6) | 2 | NA |
 | 7 | Abcs and 123s | Acoustic Task 🎤 | NA | [2 - 4) | 2 | NA |
 | 8 | Noisy Sounds | Acoustic Task 🎤 | NA | [2 - 4), <br> [4 - 6), <br> [6 - 10) | 10 | NA |
