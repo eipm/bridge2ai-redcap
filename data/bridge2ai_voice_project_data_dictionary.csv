@@ -838,14 +838,37 @@ confounders_session_id,q_generic_confounders,"Questionnaire - Metadata",text,"Se
 confounders_started_at,q_generic_confounders,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 confounders_completed_at,q_generic_confounders,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 confounders_duration,q_generic_confounders,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-is_regular_smoker,q_generic_confounders,Smoking,yesno,"Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
-smoking_hx,q_generic_confounders,,radio,"Have you ever smoked regularly (more than a few times a month for at least two months)?
-This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",y,,,,,
-age_start_smoking,q_generic_confounders,,text,"At what age did you start smoking?",,,number,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
-age_stop_smoking,q_generic_confounders,,text,"At what age did you stop?",,,number,,,,"[smoking_hx]=""past""",,,,,,
-smoking_types,q_generic_confounders,,checkbox,"Checklist of different types (choose all that apply):","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
-smoking_freq,q_generic_confounders,,radio,"How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year | noAnswer, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
-other_smoking_specify,q_generic_confounders,,text,"If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
+smoking_entire_life,q_generic_confounders,Smoking,radio,"Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)?","yes, Yes | no, No | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+smoking_occurrence,q_generic_confounders,,radio,"Do you now smoke cigarettes every day, some days, or not at all?","everyDay, Every day | someDays, Some days | notAtAll, Not at all | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_entire_life]=""yes""",y,,,,,
+smoking_age_regular_cigarette_smoking,q_generic_confounders,,radio,"How old were you when you first started regular cigarette smoking?","specify, Specify | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_entire_life]=""yes""",y,,,,,
+smoking_age_regular_cigarette_smoking_age,q_generic_confounders,,text,Age:,,,integer,0,125,,"[smoking_age_regular_cigarette_smoking]=""specify""",y,,,,,
+smoking_age_stopped,q_generic_confounders,,radio,"If you have completely stopped smoking cigarettes, about how old were you when you stopped?","specify, Specify | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_occurrence]=""notAtAll""",y,,,,,
+smoking_age_stopped_age,q_generic_confounders,,text,"Age when you stopped smoking:",,,integer,0,125,,"[smoking_age_stopped]=""specify""",y,,,,,
+smoking_years_cigarettes,q_generic_confounders,,radio,"How many years have you or did you smoke cigarettes?","specify, Specify | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_occurrence]=""notAtAll""",y,,,,,
+smoking_years_cigarettes_years,q_generic_confounders,,text,"Number of years:",,,integer,0,125,,"[smoking_years_cigarettes]=""specify""",y,,,,,
+smoking_cigarettes_day_current_avg,q_generic_confounders,,radio,"On average, how many cigarettes do you smoke per day now? (There are 20 cigarettes in a pack.)","specify, Specify | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_occurrence]=""everyDay"" or [smoking_occurrence]=""someDays""",y,,,,,
+smoking_cigarettes_day_current_avg_number,q_generic_confounders,,text,"Number of cigarettes per day:",,,integer,0,1000,,"[smoking_cigarettes_day_current_avg]=""specify""",y,,,,,
+smoking_cigarettes_day_past_avg,q_generic_confounders,,radio,"On average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)","specify, Specify | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_entire_life]=""yes""",y,,,,,
+smoking_cigarettes_day_past_avg_number,q_generic_confounders,,text,"Number of cigarettes per day:",,,integer,0,1000,,"[smoking_cigarettes_day_past_avg]=""specify""",y,,,,,
+smoking_marijuana,q_generic_confounders,,radio,"In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?","never, Never | onceOrTwice, Once or twice | monthly, Monthly | weekly, Weekly | dailyOrAlmostDaily, Daily or almost daily | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+smoking_electronic,q_generic_confounders,,radio,"Have you ever used an electronic nicotine product, even one or two times?
+(Electronic nicotine products include e- cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)","yes, Yes | no, No | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,,y,,,,,
+smoking_electronic_current_occurence,q_generic_confounders,,radio,"Do you now use electronic nicotine products?","everyDay, Every day | someDays, Some days | notAtAll, Not at all | doNotKnow, Don't know | noAnswer, Prefer not to answer",,,,,,"[smoking_electronic]=""yes""",y,,,,,
+is_regular_smoker,q_generic_confounders,,yesno,"[LEGACY]
+Have you been a regular smoker or not within the last 3 years?",,,,,,,"[alz_dementia_mci] = ""1""",,,,,,
+smoking_hx,q_generic_confounders,,radio,"[LEGACY]
+Have you ever smoked regularly (more than a few times a month for at least two months)?
+This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes.","never, I've never smoked regularly | past, I used to smoke | currently, I currently smoke | noAnswer, Prefer not to answer",,,,,,"[alz_dementia_mci] != ""1""",,,,,,
+age_start_smoking,q_generic_confounders,,text,"[LEGACY]
+At what age did you start smoking?",,,number,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
+age_stop_smoking,q_generic_confounders,,text,"[LEGACY]
+At what age did you stop?",,,number,,,,"[smoking_hx]=""past""",,,,,,
+smoking_types,q_generic_confounders,,checkbox,"[LEGACY]
+Checklist of different types (choose all that apply):","1, Tobacco cigarettes | 2, Cannabis joints, bong, pipe | 3, Vapes | 4, e-cigarettes | 5, Hookah | 6, Pipes | 7, Other | 8, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]= ""currently""",,,,,,
+smoking_freq,q_generic_confounders,,radio,"[LEGACY]
+How often do/did you smoke?","multipleTimes, Multiple times a day | onceDay, About once a day | fewWeek, A few times a week | fewMonth, A few times a month | fewYear, A few times a year | noAnswer, Prefer not to answer",,,,,,"[smoking_hx]=""past"" or [smoking_hx]=""currently""",,,,,,
+other_smoking_specify,q_generic_confounders,,text,"[LEGACY]
+If you selected ""other"" for smoking type, please specify:",,,,,,,"[smoking_types(7)]=""1""",,RH,,,,
 alcohol_yn,q_generic_confounders,"Alcohol consumption",radio,"Do you drink alcohol?","yes, Yes | no, No | noAnswer, Prefer not to answer",,,,,,,y,,,,,
 alcohol_freq,q_generic_confounders,,radio,"How often do you have at least one drink containing alcohol?
 Drinks can be beer, wine, shots of liquor, cocktails containing a shot of liquor","1, Monthly or less | 2, 2 - 4 times a month | 3, 2 - 3 times a week | 4, 4 or more times a week | 5, Prefer not to answer",,,,,,"[alcohol_yn]=""yes""",,,,,,
