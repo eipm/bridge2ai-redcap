@@ -1,4 +1,4 @@
-﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 age,subjectparticipant_basic_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
@@ -1173,8 +1173,10 @@ mph_session_id,q_mood_participant_history,"Questionnaire - Metadata",text,"Sessi
 mph_started_at,q_mood_participant_history,,text,"Questionnaire Started At",,,,,,y,,y,,,,,
 mph_completed_at,q_mood_participant_history,,text,"Questionnaire Completed At",,,,,,y,,y,,,,,
 mph_duration,q_mood_participant_history,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,,
-mph_active_psy_med_problems,q_mood_participant_history,"Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+mph_active_psy_medical_problems,q_mood_participant_history,"Medical and Psychiatric comorbidities",text,"Please list any active psychiatric problems and medical problems.",,,,,,,,,,,,,
+mph_active_psy_med_problems,q_mood_participant_history,,checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
 mph_active_psy_med_prob_other,q_mood_participant_history,,text,"Please specify",,,,,,,"[mph_active_psy_med_problems(other)]=""1""",,,,,,
+mph_hist_psy_medical_problems,q_mood_participant_history,,text,"Please list any historical psychiatric problems and medical problems (select all that apply).",,,,,,,,,,,,,
 mph_hist_psy_med_problems,q_mood_participant_history,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
 mph_hist_psy_med_prob_other,q_mood_participant_history,,text,"Please specify",,,,,,,"[mph_hist_psy_med_problems(other)]=""1""",,,,,,
 mph_prescribed_medication,q_mood_participant_history,"Treatment Obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,,,,,,
