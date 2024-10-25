@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Bridge2AI - PRODUCTION" AsOfDateTime="2024-10-23T16:02:48" CreationDateTime="2024-10-23T16:02:48" SourceSystem="REDCap" SourceSystemVersion="14.0.43">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Bridge2AI - PRODUCTION" AsOfDateTime="2024-10-25T14:17:15" CreationDateTime="2024-10-25T14:17:15" SourceSystem="REDCap" SourceSystemVersion="14.0.43">
 <Study OID="Project.Bridge2AIPRODUCTION">
 <GlobalVariables>
 	<StudyName>Bridge2AI - PRODUCTION</StudyName>
@@ -317,7 +317,7 @@
 &lt;p&gt; &lt;/p&gt;" dash_order="1" user_access="ALL" is_public="0" ID="95e815d1541bf6f358cfffbe66ab3af0d0c09d09"/>
 	</redcap:ProjectDashboardsGroup>
 </GlobalVariables>
-<MetaDataVersion OID="Metadata.Bridge2AIPRODUCTION_2024-10-23_1602" Name="Bridge2AI - PRODUCTION" redcap:RecordIdField="record_id">
+<MetaDataVersion OID="Metadata.Bridge2AIPRODUCTION_2024-10-25_1417" Name="Bridge2AI - PRODUCTION" redcap:RecordIdField="record_id">
 	<FormDef OID="Form.subjectparticipant_basic_information" Name="Subject/Participant - Basic Information" Repeating="No" redcap:FormName="subjectparticipant_basic_information">
 		<ItemGroupRef ItemGroupOID="subjectparticipant_basic_information.record_id" Mandatory="No"/>
 		<ItemGroupRef ItemGroupOID="subjectparticipant_basic_information.enrolled" Mandatory="No"/>
@@ -1174,21 +1174,21 @@
 	<ItemGroupDef OID="d_voice_benign_lesions.diagnosis_bl_degree_text" Name="D Voice Benign Lesions" Repeating="No">
 		<ItemRef ItemOID="diagnosis_bl_degree_text" Mandatory="No" redcap:Variable="diagnosis_bl_degree_text"/>
 		<ItemRef ItemOID="diagnosis_bl_degree_legend" Mandatory="No" redcap:Variable="diagnosis_bl_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_r_1"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_bl_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_bl_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_bl_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_bl_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_bl_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_bl_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_bl_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_bl_degree_comments" Mandatory="No" redcap:Variable="diagnosis_bl_degree_comments"/>
 		<ItemRef ItemOID="diagnosis_bl_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_bl_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_bl_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_bl_degree_comments_other_2"/>
 	</ItemGroupDef>
@@ -1245,22 +1245,22 @@
 		<ItemRef ItemOID="diagnosis_lc_ds_m_stage" Mandatory="Yes" redcap:Variable="diagnosis_lc_ds_m_stage"/>
 		<ItemRef ItemOID="diagnosis_lc_degree_text" Mandatory="No" redcap:Variable="diagnosis_lc_degree_text"/>
 		<ItemRef ItemOID="diagnosis_lc_degree_legend" Mandatory="No" redcap:Variable="diagnosis_lc_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_r_1"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_lc_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_lc_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_lc_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_lc_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_lc_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_lc_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_lc_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_comments" Mandatory="No" redcap:Variable="diagnosis_lc_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_lc_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_lc_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_lc_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_lc_degree_comments_other_2"/>
 		<ItemRef ItemOID="diagnosis_as_ds_ccsr" Mandatory="Yes" redcap:Variable="diagnosis_as_ds_ccsr"/>
 	</ItemGroupDef>
@@ -1316,22 +1316,22 @@
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_laryngeal_dystonia.diagnosis_ld_degree_legend" Name="D Voice Laryngeal Dystonia" Repeating="No">
 		<ItemRef ItemOID="diagnosis_ld_degree_legend" Mandatory="No" redcap:Variable="diagnosis_ld_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_r_1"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_ld_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_ld_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_ld_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_ld_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_ld_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_ld_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_ld_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_comments" Mandatory="No" redcap:Variable="diagnosis_ld_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_ld_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_ld_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_ld_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_ld_degree_comments_other_2"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_laryngeal_dystonia.diagnosis_ld_treatment" Name="5. Treatment obtained" Repeating="No">
@@ -1387,22 +1387,22 @@
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_laryngitis.diagnosis_l_degree_legend" Name="D Voice Laryngitis" Repeating="No">
 		<ItemRef ItemOID="diagnosis_l_degree_legend" Mandatory="No" redcap:Variable="diagnosis_l_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_l_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_l_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_r_1"/>
-		<ItemRef ItemOID="diagnosis_l_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_l_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_l_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_l_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_l_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_l_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_l_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_l_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_l_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_l_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_l_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_l_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_l_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_l_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_l_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_l_degree_comments" Mandatory="No" redcap:Variable="diagnosis_l_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_l_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_l_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_l_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_l_degree_comments_other_2"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_laryngitis.diagnosis_l_treatment" Name="5. Treatment obtained" Repeating="No">
@@ -1450,22 +1450,22 @@
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_muscle_tension_dysphonia_mtd.diagnosis_mtd_degree_legend" Name="D Voice Muscle Tension Dysphonia Mtd" Repeating="No">
 		<ItemRef ItemOID="diagnosis_mtd_degree_legend" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_r_1"/>
 		<ItemRef ItemOID="diagnosis_mtd_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_mtd_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_mtd_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_mtd_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_mtd_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_comments" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_mtd_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_mtd_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_mtd_degree_comments_other_2"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_muscle_tension_dysphonia_mtd.diagnosis_mtd_treatment" Name="5. Treatment obtained" Repeating="No">
@@ -1521,22 +1521,22 @@
 	<ItemGroupDef OID="d_voice_precancerous_lesions.diagnosis_pl_degree_text" Name="D Voice Precancerous Lesions" Repeating="No">
 		<ItemRef ItemOID="diagnosis_pl_degree_text" Mandatory="No" redcap:Variable="diagnosis_pl_degree_text"/>
 		<ItemRef ItemOID="diagnosis_pl_degree_legend" Mandatory="No" redcap:Variable="diagnosis_pl_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_os_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_os_1"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_r_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_r_1"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_b_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_b_1"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_s_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_s_1"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_p_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_p_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_os_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_os_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_r_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_r_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_b_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_b_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_s_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_s_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_p_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_p_1"/>
 		<ItemRef ItemOID="diagnosis_pl_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_pl_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_l_1" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_l_1"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_l_1" Mandatory="No" redcap:Variable="diagnosis_pl_degree_l_1"/>
 		<ItemRef ItemOID="diagnosis_pl_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_pl_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_pl_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_pl_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_comments" Mandatory="No" redcap:Variable="diagnosis_pl_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_pl_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_pl_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_pl_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_pl_degree_comments_other_2"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_precancerous_lesions.diagnosis_pl_treatment" Name="5. Treatment obtained" Repeating="No">
@@ -1576,22 +1576,22 @@
 	<ItemGroupDef OID="d_voice_unilateral_vocal_fold_paralysis.diagnosis_vfp_degree_text" Name="D Voice Unilateral Vocal Fold Paralysis" Repeating="No">
 		<ItemRef ItemOID="diagnosis_vfp_degree_text" Mandatory="No" redcap:Variable="diagnosis_vfp_degree_text"/>
 		<ItemRef ItemOID="diagnosis_vfp_degree_legend" Mandatory="No" redcap:Variable="diagnosis_vfp_degree_legend"/>
-		<ItemRef ItemOID="diagnosis_degree_os" Mandatory="Yes" redcap:Variable="diagnosis_degree_os"/>
-		<ItemRef ItemOID="diagnosis_degree_os_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_os_2"/>
-		<ItemRef ItemOID="diagnosis_degree_r" Mandatory="Yes" redcap:Variable="diagnosis_degree_r"/>
-		<ItemRef ItemOID="diagnosis_degree_r_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_r_2"/>
-		<ItemRef ItemOID="diagnosis_degree_b" Mandatory="Yes" redcap:Variable="diagnosis_degree_b"/>
-		<ItemRef ItemOID="diagnosis_degree_b_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_b_2"/>
-		<ItemRef ItemOID="diagnosis_degree_s" Mandatory="Yes" redcap:Variable="diagnosis_degree_s"/>
-		<ItemRef ItemOID="diagnosis_degree_s_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_s_2"/>
-		<ItemRef ItemOID="diagnosis_degree_p" Mandatory="Yes" redcap:Variable="diagnosis_degree_p"/>
+		<ItemRef ItemOID="diagnosis_degree_os" Mandatory="No" redcap:Variable="diagnosis_degree_os"/>
+		<ItemRef ItemOID="diagnosis_degree_os_2" Mandatory="No" redcap:Variable="diagnosis_degree_os_2"/>
+		<ItemRef ItemOID="diagnosis_degree_r" Mandatory="No" redcap:Variable="diagnosis_degree_r"/>
+		<ItemRef ItemOID="diagnosis_degree_r_2" Mandatory="No" redcap:Variable="diagnosis_degree_r_2"/>
+		<ItemRef ItemOID="diagnosis_degree_b" Mandatory="No" redcap:Variable="diagnosis_degree_b"/>
+		<ItemRef ItemOID="diagnosis_degree_b_2" Mandatory="No" redcap:Variable="diagnosis_degree_b_2"/>
+		<ItemRef ItemOID="diagnosis_degree_s" Mandatory="No" redcap:Variable="diagnosis_degree_s"/>
+		<ItemRef ItemOID="diagnosis_degree_s_2" Mandatory="No" redcap:Variable="diagnosis_degree_s_2"/>
+		<ItemRef ItemOID="diagnosis_degree_p" Mandatory="No" redcap:Variable="diagnosis_degree_p"/>
 		<ItemRef ItemOID="diagnosis_degree_p_nature" Mandatory="No" redcap:Variable="diagnosis_degree_p_nature"/>
-		<ItemRef ItemOID="diagnosis_degree_p_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_p_2"/>
-		<ItemRef ItemOID="diagnosis_degree_l" Mandatory="Yes" redcap:Variable="diagnosis_degree_l"/>
+		<ItemRef ItemOID="diagnosis_degree_p_2" Mandatory="No" redcap:Variable="diagnosis_degree_p_2"/>
+		<ItemRef ItemOID="diagnosis_degree_l" Mandatory="No" redcap:Variable="diagnosis_degree_l"/>
 		<ItemRef ItemOID="diagnosis_degree_l_nature" Mandatory="No" redcap:Variable="diagnosis_degree_l_nature"/>
-		<ItemRef ItemOID="diagnosis_degree_l_2" Mandatory="Yes" redcap:Variable="diagnosis_degree_l_2"/>
-		<ItemRef ItemOID="diagnosis_degree_comments" Mandatory="Yes" redcap:Variable="diagnosis_degree_comments"/>
-		<ItemRef ItemOID="diagnosis_degree_comments_other" Mandatory="Yes" redcap:Variable="diagnosis_degree_comments_other"/>
+		<ItemRef ItemOID="diagnosis_degree_l_2" Mandatory="No" redcap:Variable="diagnosis_degree_l_2"/>
+		<ItemRef ItemOID="diagnosis_degree_comments" Mandatory="No" redcap:Variable="diagnosis_degree_comments"/>
+		<ItemRef ItemOID="diagnosis_degree_comments_other" Mandatory="No" redcap:Variable="diagnosis_degree_comments_other"/>
 		<ItemRef ItemOID="diagnosis_degree_comments_other_2" Mandatory="No" redcap:Variable="diagnosis_degree_comments_other_2"/>
 	</ItemGroupDef>
 	<ItemGroupDef OID="d_voice_unilateral_vocal_fold_paralysis.diagnosis_uvfp_treatment" Name="5. Treatment obtained" Repeating="No">
@@ -4470,57 +4470,57 @@ CAPE-V scale</TranslatedText></Question>
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend&lt;span style=&quot;font-weight: normal;&quot;&gt;: C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_os_1" Name="diagnosis_bl_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_os_1" Name="diagnosis_bl_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_os_2" Name="diagnosis_bl_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_os_2" Name="diagnosis_bl_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_r_1" Name="diagnosis_bl_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_r_1" Name="diagnosis_bl_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_r_2" Name="diagnosis_bl_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_r_2" Name="diagnosis_bl_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_b_1" Name="diagnosis_bl_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_b_1" Name="diagnosis_bl_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_b_2" Name="diagnosis_bl_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_b_2" Name="diagnosis_bl_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_s_1" Name="diagnosis_bl_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_s_1" Name="diagnosis_bl_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_s_2" Name="diagnosis_bl_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_s_2" Name="diagnosis_bl_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_p_1" Name="diagnosis_bl_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_p_1" Name="diagnosis_bl_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bl_degree_p_nature" Name="diagnosis_bl_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_bl_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_bl_degree_p_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_p_2" Name="diagnosis_bl_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_p_2" Name="diagnosis_bl_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_l_1" Name="diagnosis_bl_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_l_1" Name="diagnosis_bl_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_bl_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_bl_degree_l_nature" Name="diagnosis_bl_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_bl_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_bl_degree_l_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_l_2" Name="diagnosis_bl_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_l_2" Name="diagnosis_bl_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_bl_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_bl_degree_comments" Name="diagnosis_bl_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_bl_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_bl_degree_comments" Name="diagnosis_bl_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_bl_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_bl_degree_comments.choices"/>
 	</ItemDef>
@@ -4683,61 +4683,61 @@ features responses are free text. Comments about resonance: Indicate normal or O
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend&lt;span style=&quot;font-weight: normal;&quot;&gt;: C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_os_1" Name="diagnosis_lc_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_os_1" Name="diagnosis_lc_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_os_2" Name="diagnosis_lc_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_os_2" Name="diagnosis_lc_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_r_1" Name="diagnosis_lc_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_r_1" Name="diagnosis_lc_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_r_2" Name="diagnosis_lc_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_r_2" Name="diagnosis_lc_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_b_1" Name="diagnosis_lc_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_b_1" Name="diagnosis_lc_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_b_2" Name="diagnosis_lc_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_b_2" Name="diagnosis_lc_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_s_1" Name="diagnosis_lc_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_s_1" Name="diagnosis_lc_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_s_2" Name="diagnosis_lc_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_s_2" Name="diagnosis_lc_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_p_1" Name="diagnosis_lc_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_p_1" Name="diagnosis_lc_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_lc_degree_p_nature" Name="diagnosis_lc_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_lc_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_lc_degree_p_1] &gt; 0">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_p_2" Name="diagnosis_lc_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_p_2" Name="diagnosis_lc_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_l_1" Name="diagnosis_lc_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_l_1" Name="diagnosis_lc_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_lc_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_lc_degree_l_nature" Name="diagnosis_lc_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_lc_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_lc_degree_l_1] &gt; 0">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_l_2" Name="diagnosis_lc_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_l_2" Name="diagnosis_lc_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_lc_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_comments" Name="diagnosis_lc_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_lc_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_comments" Name="diagnosis_lc_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_lc_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_lc_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_lc_degree_comments_other" Name="diagnosis_lc_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_lc_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_lc_degree_comments]=&#039;other&#039;" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_lc_degree_comments_other" Name="diagnosis_lc_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_lc_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_lc_degree_comments]=&#039;other&#039;" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_lc_degree_comments_other_2" Name="diagnosis_lc_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_lc_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
@@ -4897,61 +4897,61 @@ CAPE-V scale</TranslatedText></Question>
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend: &lt;span style=&quot;font-weight: normal;&quot;&gt;C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_os_1" Name="diagnosis_ld_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_os_1" Name="diagnosis_ld_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_os_2" Name="diagnosis_ld_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_os_2" Name="diagnosis_ld_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_r_1" Name="diagnosis_ld_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_r_1" Name="diagnosis_ld_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_r_2" Name="diagnosis_ld_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_r_2" Name="diagnosis_ld_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_b_1" Name="diagnosis_ld_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_b_1" Name="diagnosis_ld_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_b_2" Name="diagnosis_ld_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_b_2" Name="diagnosis_ld_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_s_1" Name="diagnosis_ld_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_s_1" Name="diagnosis_ld_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_s_2" Name="diagnosis_ld_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_s_2" Name="diagnosis_ld_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_p_1" Name="diagnosis_ld_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_p_1" Name="diagnosis_ld_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_ld_degree_p_nature" Name="diagnosis_ld_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_ld_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_ld_degree_p_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_p_2" Name="diagnosis_ld_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_p_2" Name="diagnosis_ld_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_l_1" Name="diagnosis_ld_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_l_1" Name="diagnosis_ld_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_ld_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_ld_degree_l_nature" Name="diagnosis_ld_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_ld_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_ld_degree_l_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_l_2" Name="diagnosis_ld_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_l_2" Name="diagnosis_ld_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_ld_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_comments" Name="diagnosis_ld_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_ld_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_comments" Name="diagnosis_ld_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_ld_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_ld_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_ld_degree_comments_other" Name="diagnosis_ld_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_ld_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_ld_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_ld_degree_comments_other" Name="diagnosis_ld_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_ld_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_ld_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_ld_degree_comments_other_2" Name="diagnosis_ld_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_ld_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
@@ -5089,61 +5089,61 @@ CAPE-V scale</TranslatedText></Question>
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend: &lt;span style=&quot;font-weight: normal;&quot;&gt;C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_os_1" Name="diagnosis_l_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_os_1" Name="diagnosis_l_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_os_2" Name="diagnosis_l_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_os_2" Name="diagnosis_l_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_r_1" Name="diagnosis_l_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_r_1" Name="diagnosis_l_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_r_2" Name="diagnosis_l_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_r_2" Name="diagnosis_l_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_b_1" Name="diagnosis_l_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_b_1" Name="diagnosis_l_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_b_2" Name="diagnosis_l_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_b_2" Name="diagnosis_l_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_s_1" Name="diagnosis_l_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_s_1" Name="diagnosis_l_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_s_2" Name="diagnosis_l_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_s_2" Name="diagnosis_l_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_p_1" Name="diagnosis_l_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_p_1" Name="diagnosis_l_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_l_degree_p_nature" Name="diagnosis_l_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_l_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_l_degree_p_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_p_2" Name="diagnosis_l_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_p_2" Name="diagnosis_l_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_l_1" Name="diagnosis_l_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_l_1" Name="diagnosis_l_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_l_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_l_degree_l_nature" Name="diagnosis_l_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_l_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_l_degree_l_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_l_2" Name="diagnosis_l_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_l_2" Name="diagnosis_l_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_l_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_comments" Name="diagnosis_l_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_l_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_comments" Name="diagnosis_l_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_l_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_l_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_l_degree_comments_other" Name="diagnosis_l_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_l_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_l_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_l_degree_comments_other" Name="diagnosis_l_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_l_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_l_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_l_degree_comments_other_2" Name="diagnosis_l_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_l_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
@@ -5260,61 +5260,61 @@ CAPE-V scale</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend&lt;span style=&quot;font-weight: normal;&quot;&gt;: C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_os_1" Name="diagnosis_mtd_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_os_1" Name="diagnosis_mtd_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_os_2" Name="diagnosis_mtd_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_os_2" Name="diagnosis_mtd_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_r_1" Name="diagnosis_mtd_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_r_1" Name="diagnosis_mtd_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_mtd_degree_r_2" Name="diagnosis_mtd_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_b_1" Name="diagnosis_mtd_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_b_1" Name="diagnosis_mtd_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_b_2" Name="diagnosis_mtd_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_b_2" Name="diagnosis_mtd_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_s_1" Name="diagnosis_mtd_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_s_1" Name="diagnosis_mtd_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_s_2" Name="diagnosis_mtd_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_s_2" Name="diagnosis_mtd_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_p_1" Name="diagnosis_mtd_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_p_1" Name="diagnosis_mtd_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_mtd_degree_p_nature" Name="diagnosis_mtd_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_mtd_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_mtd_degree_p_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_p_2" Name="diagnosis_mtd_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_p_2" Name="diagnosis_mtd_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_l_1" Name="diagnosis_mtd_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_l_1" Name="diagnosis_mtd_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_mtd_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_mtd_degree_l_nature" Name="diagnosis_mtd_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_mtd_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_mtd_degree_l_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_l_2" Name="diagnosis_mtd_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_l_2" Name="diagnosis_mtd_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_mtd_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_comments" Name="diagnosis_mtd_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_mtd_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_comments" Name="diagnosis_mtd_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_mtd_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_mtd_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_mtd_degree_comments_other" Name="diagnosis_mtd_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_mtd_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_mtd_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_mtd_degree_comments_other" Name="diagnosis_mtd_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_mtd_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_mtd_degree_comments] = &#039;other&#039;" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_mtd_degree_comments_other_2" Name="diagnosis_mtd_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_mtd_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
@@ -5461,61 +5461,61 @@ Clinician places slider between 0 and 100; indicates C or I. &quot;Indicate the 
                 MO = Moderately Deviant
                 SE = Severely Deviant</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Legend: &lt;span style=&quot;font-weight: normal;&quot;&gt;C- Sonsistent I = Intermittent&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_os_1" Name="diagnosis_pl_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_os_1" Name="diagnosis_pl_degree_os_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_os_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_os_2" Name="diagnosis_pl_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_os_2" Name="diagnosis_pl_degree_os_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_r_1" Name="diagnosis_pl_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_r_1" Name="diagnosis_pl_degree_r_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_r_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_r_2" Name="diagnosis_pl_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_r_2" Name="diagnosis_pl_degree_r_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_b_1" Name="diagnosis_pl_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_b_1" Name="diagnosis_pl_degree_b_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_b_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_b_2" Name="diagnosis_pl_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_b_2" Name="diagnosis_pl_degree_b_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_s_1" Name="diagnosis_pl_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_s_1" Name="diagnosis_pl_degree_s_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_s_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_s_2" Name="diagnosis_pl_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_s_2" Name="diagnosis_pl_degree_s_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_p_1" Name="diagnosis_pl_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_p_1" Name="diagnosis_pl_degree_p_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_p_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_pl_degree_p_nature" Name="diagnosis_pl_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_pl_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_pl_degree_p_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_p_2" Name="diagnosis_pl_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_p_2" Name="diagnosis_pl_degree_p_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_l_1" Name="diagnosis_pl_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_l_1" Name="diagnosis_pl_degree_l_1" DataType="integer" Length="999" redcap:Variable="diagnosis_pl_degree_l_1" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_pl_degree_l_nature" Name="diagnosis_pl_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_pl_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_pl_degree_l_1] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_l_2" Name="diagnosis_pl_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_l_2" Name="diagnosis_pl_degree_l_2" DataType="text" Length="12" redcap:Variable="diagnosis_pl_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_comments" Name="diagnosis_pl_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_pl_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_comments" Name="diagnosis_pl_degree_comments" DataType="text" Length="6" redcap:Variable="diagnosis_pl_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_pl_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_pl_degree_comments_other" Name="diagnosis_pl_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_pl_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_pl_degree_comments]=&quot;other&quot;" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_pl_degree_comments_other" Name="diagnosis_pl_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_pl_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_pl_degree_comments]=&quot;other&quot;" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_pl_degree_comments_other_2" Name="diagnosis_pl_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_pl_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
@@ -5602,61 +5602,61 @@ CAPE-V scale</TranslatedText></Question>
                 MO = Moderately Deviant
                 SE = Severely Deviant    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 98.3993%;&quot;&gt; &lt;p&gt;Legend: &lt;span style=&quot;font-weight: normal;&quot;&gt;C- Sonsistent I = Intermittent&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MI = Mildly Deviant&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                MO = Moderately Deviant&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;                SE = Severely Deviant&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_os" Name="diagnosis_degree_os" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_os" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_os" Name="diagnosis_degree_os" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_os" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_os_2" Name="diagnosis_degree_os_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_os_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_os_2" Name="diagnosis_degree_os_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_os_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Overall Severity</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_os_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_r" Name="diagnosis_degree_r" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_r" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_r" Name="diagnosis_degree_r" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_r" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_r_2" Name="diagnosis_degree_r_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_r_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_r_2" Name="diagnosis_degree_r_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_r_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Roughness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_r_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_b" Name="diagnosis_degree_b" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_b" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_b" Name="diagnosis_degree_b" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_b" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_b_2" Name="diagnosis_degree_b_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_b_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_b_2" Name="diagnosis_degree_b_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_b_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Breathiness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_b_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_s" Name="diagnosis_degree_s" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_s" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_s" Name="diagnosis_degree_s" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_s" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_s_2" Name="diagnosis_degree_s_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_s_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_s_2" Name="diagnosis_degree_s_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_s_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Strain</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_s_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_p" Name="diagnosis_degree_p" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_p" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_p" Name="diagnosis_degree_p" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_p" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_degree_p_nature" Name="diagnosis_degree_p_nature" DataType="text" Length="999" redcap:Variable="diagnosis_degree_p_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_degree_p] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_p_2" Name="diagnosis_degree_p_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_p_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_p_2" Name="diagnosis_degree_p_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_p_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Pitch</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_p_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_l" Name="diagnosis_degree_l" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_l" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_l" Name="diagnosis_degree_l" DataType="integer" Length="999" redcap:Variable="diagnosis_degree_l" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="MI | MO | SE" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_degree_l_nature" Name="diagnosis_degree_l_nature" DataType="text" Length="999" redcap:Variable="diagnosis_degree_l_nature" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_degree_l] &gt; 0" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness
 (Indicate the nature of the abnormality):</TranslatedText></Question>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_l_2" Name="diagnosis_degree_l_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_l_2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_l_2" Name="diagnosis_degree_l_2" DataType="text" Length="1" redcap:Variable="diagnosis_degree_l_2" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Loudness</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_l_2.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_comments" Name="diagnosis_degree_comments" DataType="text" Length="1" redcap:Variable="diagnosis_degree_comments" redcap:FieldType="radio" redcap:RequiredField="y" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_comments" Name="diagnosis_degree_comments" DataType="text" Length="1" redcap:Variable="diagnosis_degree_comments" redcap:FieldType="radio" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Comments about resonance</TranslatedText></Question>
 		<CodeListRef CodeListOID="diagnosis_degree_comments.choices"/>
 	</ItemDef>
-	<ItemDef OID="diagnosis_degree_comments_other" Name="diagnosis_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_degree_comments_other" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[diagnosis_degree_comments] = 2" redcap:CustomAlignment="RH">
+	<ItemDef OID="diagnosis_degree_comments_other" Name="diagnosis_degree_comments_other" DataType="text" Length="999" redcap:Variable="diagnosis_degree_comments_other" redcap:FieldType="text" redcap:BranchingLogic="[diagnosis_degree_comments] = 2" redcap:CustomAlignment="RH">
 		<Question><TranslatedText>Please specify</TranslatedText></Question>
 	</ItemDef>
 	<ItemDef OID="diagnosis_degree_comments_other_2" Name="diagnosis_degree_comments_other_2" DataType="text" Length="999" redcap:Variable="diagnosis_degree_comments_other_2" redcap:FieldType="text" redcap:CustomAlignment="RH">
