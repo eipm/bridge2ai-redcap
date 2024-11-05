@@ -1,4 +1,4 @@
-name: Trigger Target Workflow
+name: Trigger ReproSchema to RedCap workflow
 
 on:
   push:
@@ -9,21 +9,10 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Message
+      - name: Trigger workflow to build ReproSchema from RedCap
         run: |
-          echo "Notifying reproschema repo"
-      - name: Trigger Workflow in Another Repository
-        uses: convictional/trigger-workflow-and-wait@v1.6.1
-        with:
-            owner: sensein
-            repo: b2ai-redcap2rs
-            github_token: ${{ secrets.AUTH }}
-            workflow_file_name: deploy.yml
-            ref: main
-            wait_interval: 10
-            propagate_failure: false
-            trigger_workflow: true
-            wait_workflow: true 
-
-  
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.B2AI_REDCAP2RS_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/sensein/b2ai-redcap2rs/actions/workflows/deploy.yml/dispatches \
+            -d '{"ref":"main"}'
