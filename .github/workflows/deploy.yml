@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger workflow to build ReproSchema from RedCap
+      - name: Trigger workflow to build ReproSchema from REDCap
         run: |
           curl --request POST \
           --header "Authorization: token ${{ secrets.B2AI_REDCAP2RS_PAT }}" \
