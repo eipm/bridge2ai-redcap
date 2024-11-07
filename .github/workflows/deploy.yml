@@ -1,0 +1,19 @@
+name: Trigger ReproSchema to RedCap workflow
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger workflow to build ReproSchema from REDCap
+        run: |
+          curl --request POST \
+          --header "Authorization: token ${{ secrets.B2AI_REDCAP2RS_PAT }}" \
+          --header "Accept: application/vnd.github.v3+json" \
+          --url https://api.github.com/repos/sensein/b2ai-redcap2rs/actions/workflows/deploy.yml/dispatches \
+          --data '{"ref":"main"}'
