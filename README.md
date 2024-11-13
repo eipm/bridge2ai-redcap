@@ -2,11 +2,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![Github](https://img.shields.io/badge/github-3.19.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![Github](https://img.shields.io/badge/github-3.20.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.19.0 | 2024-10-25 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.20.0 | 2024-11-13 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
@@ -114,21 +114,22 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 | # | Protocol | Clinically Validated Diagnosis | Form PDF Link |
 | :---: | :---: | :---: | :---: |
 | 1 | Voice Disorders Protocol | Benign Lessions | [PDF](data/instrument_pdfs/D%20Voice%20Benign%20Lesions.pdf) |
-| 2 | Voice Disorders Protocol | Laryngeal Cancer | [PDF](data/instrument_pdfs/D%20Voice%20Laryngeal%20Cancer.pdf) |
-| 3 | Voice Disorders Protocol | Laryngitis | [PDF](data/instrument_pdfs/D%20Voice%20Laryngitis.pdf) |
-| 4 | Voice Disorders Protocol | Muscle Tension Dysphonia | [PDF](data/instrument_pdfs/D%20Voice%20Muscle%20Tension%20Dysphonia%20Mtd.pdf) |
-| 5 | Voice Disorders Protocol | Precancerous Lessions | [PDF](data/instrument_pdfs/D%20Voice%20Precancerous%20Lesions.pdf) |
-| 6 | Voice Disorders Protocol | Laryngeal Dystonia | [PDF](data/instrument_pdfs/D%20Voice%20Laryngeal%20Dystonia.pdf) |
-| 7 | Voice Disorders Protocol | Unilateral vocal fold paralysis | [PDF](data/instrument_pdfs/D%20Voice%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) |
-| 8 | Mood and Psychiatric Disorders Protocol | Anxiety Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Anxiety%20Disorder.pdf) |
-| 9 | Mood and Psychiatric Disorders Protocol | Bipolar Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Bipolar%20Disorder.pdf) |
-| 10 | Mood and Psychiatric Disorders Protocol | Depression or Major Depressive Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) |
-| 11 | Respiratoty Disorders | Airway Stenosis | [PDF](data/instrument_pdfs/D%20Resp%20Airway%20Stenosis.pdf) |
-| 12 |  Respiratoty Disorders | Unexplained Chronic Cough | [PDF](data/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
-| 13 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
-| 14 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
-| 15 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
-| 16 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
+| 2 | Voice Disorders Protocol | Voice Glottic Insufficiency / Presbyphonia | [PDF](data/instrument_pdfs/D%20Voice%20Glottic%20Insufficiency.pdf) |
+| 3 | Voice Disorders Protocol | Laryngeal Cancer | [PDF](data/instrument_pdfs/D%20Voice%20Laryngeal%20Cancer.pdf) |
+| 4 | Voice Disorders Protocol | Laryngitis | [PDF](data/instrument_pdfs/D%20Voice%20Laryngitis.pdf) |
+| 5 | Voice Disorders Protocol | Muscle Tension Dysphonia | [PDF](data/instrument_pdfs/D%20Voice%20Muscle%20Tension%20Dysphonia%20Mtd.pdf) |
+| 6 | Voice Disorders Protocol | Precancerous Lessions | [PDF](data/instrument_pdfs/D%20Voice%20Precancerous%20Lesions.pdf) |
+| 7 | Voice Disorders Protocol | Laryngeal Dystonia | [PDF](data/instrument_pdfs/D%20Voice%20Laryngeal%20Dystonia.pdf) |
+| 8 | Voice Disorders Protocol | Unilateral vocal fold paralysis | [PDF](data/instrument_pdfs/D%20Voice%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) |
+| 9 | Mood and Psychiatric Disorders Protocol | Anxiety Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Anxiety%20Disorder.pdf) |
+| 10 | Mood and Psychiatric Disorders Protocol | Bipolar Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Bipolar%20Disorder.pdf) |
+| 11 | Mood and Psychiatric Disorders Protocol | Depression or Major Depressive Disorder | [PDF](data/instrument_pdfs/D%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) |
+| 12 | Respiratoty Disorders | Airway Stenosis | [PDF](data/instrument_pdfs/D%20Resp%20Airway%20Stenosis.pdf) |
+| 13 |  Respiratoty Disorders | Unexplained Chronic Cough | [PDF](data/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
+| 14 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
+| 15 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
+| 16 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
+| 17 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
 
 ---
 
