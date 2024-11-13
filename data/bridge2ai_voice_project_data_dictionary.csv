@@ -1,4 +1,4 @@
-"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
 age,subjectparticipant_basic_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
