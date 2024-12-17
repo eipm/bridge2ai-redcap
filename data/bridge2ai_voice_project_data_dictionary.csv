@@ -1022,6 +1022,67 @@ vhi_session_id,q_generic_voice_handicap_index_vhi10,"Questionnaire - Metadata",t
 vhi_started_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 vhi_completed_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 vhi_duration,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+vhi_10_calc_score,q_generic_voice_handicap_index_vhi10,,calc,"VHI-10 Score:","sum(
+    if([voice_difficult_hear]=""never"", 0,
+    if([voice_difficult_hear]=""almostNever"", 1,
+    if([voice_difficult_hear]=""sometimes"", 2,
+    if([voice_difficult_hear]=""almostAlways"", 3,
+    if([voice_difficult_hear]=""always"", 4, 0)))))
+    ,
+    if([tough_to_understand]=""never"", 0,
+    if([tough_to_understand]=""almostNever"", 1,
+    if([tough_to_understand]=""sometimes"", 2,
+    if([tough_to_understand]=""almostAlways"", 3,
+    if([tough_to_understand]=""always"", 4, 0)))))
+    ,
+    if([voice_restrict_social]=""never"", 0,
+    if([voice_restrict_social]=""almostNever"", 1,
+    if([voice_restrict_social]=""sometimes"", 2,
+    if([voice_restrict_social]=""almostAlways"", 3,
+    if([voice_restrict_social]=""always"", 4, 0)))))
+    ,
+    if([left_out_convo]=""never"", 0,
+    if([left_out_convo]=""almostNever"", 1,
+    if([left_out_convo]=""sometimes"", 2,
+    if([left_out_convo]=""almostAlways"", 3,
+    if([left_out_convo]=""always"", 4, 0)))))
+    ,
+    if([voice_lose_income]=""never"", 0,
+    if([voice_lose_income]=""almostNever"", 1,
+    if([voice_lose_income]=""sometimes"", 2,
+    if([voice_lose_income]=""almostAlways"", 3,
+    if([voice_lose_income]=""always"", 4, 0)))))
+    ,
+    if([strain_voice]=""never"", 0,
+    if([strain_voice]=""almostNever"", 1,
+    if([strain_voice]=""sometimes"", 2,
+    if([strain_voice]=""almostAlways"", 3,
+    if([strain_voice]=""always"", 4, 0)))))
+    ,
+    if([voice_clarity]=""never"", 0,
+    if([voice_clarity]=""almostNever"", 1,
+    if([voice_clarity]=""sometimes"", 2,
+    if([voice_clarity]=""almostAlways"", 3,
+    if([voice_clarity]=""always"", 4, 0)))))
+    ,
+    if([voice_upsetting]=""never"", 0,
+    if([voice_upsetting]=""almostNever"", 1,
+    if([voice_upsetting]=""sometimes"", 2,
+    if([voice_upsetting]=""almostAlways"", 3,
+    if([voice_upsetting]=""always"", 4, 0)))))
+    ,
+    if([voice_handicapped]=""never"", 0,
+    if([voice_handicapped]=""almostNever"", 1,
+    if([voice_handicapped]=""sometimes"", 2,
+    if([voice_handicapped]=""almostAlways"", 3,
+    if([voice_handicapped]=""always"", 4, 0)))))
+    ,
+    if([ask_whats_wrong_voice]=""never"", 0,
+    if([ask_whats_wrong_voice]=""almostNever"", 1,
+    if([ask_whats_wrong_voice]=""sometimes"", 2,
+    if([ask_whats_wrong_voice]=""almostAlways"", 3,
+    if([ask_whats_wrong_voice]=""always"", 4, 0)))))
+)",,,,,,,,,,,," @READONLY"
 voice_difficult_hear,q_generic_voice_handicap_index_vhi10,"Voice Handicap Index (VHI-10)",radio,"My voice makes it difficult for people to hear me.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
 tough_to_understand,q_generic_voice_handicap_index_vhi10,,radio,"People have difficulty understanding me in a noisy room.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
 voice_restrict_social,q_generic_voice_handicap_index_vhi10,,radio,"My voice difficulties restrict personal and social life.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,y,,,vhi_10,,
