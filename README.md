@@ -129,7 +129,7 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 | 14 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
 | 15 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
 | 16 | Neurological and Neurodegenerative Disorders | Huntington's Disease (HD) | [PDF](data/instrument_pdfs/D%20Neuro%20Huntingtons%20Disease.pdf) |
-| 17 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
+| 17 | Neurological and Neurodegenerative Disorders | Parkinson's Disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
 | 18 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
 
 ---
