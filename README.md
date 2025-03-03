@@ -2,11 +2,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![Github](https://img.shields.io/badge/github-3.21.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![Github](https://img.shields.io/badge/github-3.22.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.21.0 | 2024-12-17 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.22.0 | 2024-12-17 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
@@ -128,8 +128,9 @@ All Questionnaires are available in .pdf under [data/instrument_pdfs](data/instr
 | 13 |  Respiratoty Disorders | Unexplained Chronic Cough | [PDF](data/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
 | 14 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
 | 15 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
-| 16 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
-| 17 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
+| 16 | Neurological and Neurodegenerative Disorders | Huntington's Disease (HD) | [PDF](data/instrument_pdfs/D%20Neuro%20Huntingtons%20Disease.pdf) |
+| 17 | Neurological and Neurodegenerative Disorders | Parkinson's disease | [PDF](data/instrument_pdfs/D%20Neuro%20Parkinsons%20Disease.pdf) |
+| 18 | Control | Control | [PDF](data/instrument_pdfs/D%20Control.pdf) |
 
 ---
 
