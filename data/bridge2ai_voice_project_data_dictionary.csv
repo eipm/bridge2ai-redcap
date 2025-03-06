@@ -142,6 +142,28 @@ paper_consent_pdf_all_sites,bridge2ai_paper_consent_all_sites_english,,file,"Pap
 paper_consent_enrollment_institution,bridge2ai_paper_consent_all_sites_english,,dropdown,"Enrollment Institution","bch, BCH | mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 paper_consent_uploaded_by,bridge2ai_paper_consent_all_sites_english,,text,"Paper Consent Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
+page_1,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page2,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page3,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page_4,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page_5,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page6,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page7,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+page8,bridge2ai_econsent_main_icf_usf_english,,descriptive,,,,,,,,,,,,,,
+consent_usf_question,bridge2ai_econsent_main_icf_usf_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research</p> <p><span style=""font-weight: normal;"">I freely give my consent to take part in this study. I understand that by signing this form I am agreeing </span><span style=""font-weight: normal;"">to take part in research. I have received a copy of this form to take with me. I understand that by signing </span><span style=""font-weight: normal;"">below, I am consenting for my contact information to be kept in a repository for this study, and that this </span><span style=""font-weight: normal;"">information may be used to contact me in the future for further data collection if long-term follow-up is </span><span style=""font-weight: normal;"">required as part of an eventual extension of this grant after the expected 4-year duration, or to be invited </span><span style=""font-weight: normal;"">to participate in future research studies. My information will not be shared with third parties. </span><span style=""font-weight: normal;"">I consent to having all data I submit shared with the researchers of this study and to having my audio </span><span style=""font-weight: normal;"">recordings, written responses, and other coded research data shared with other qualified researchers as </span><span style=""font-weight: normal;"">described in this consent form. I further consent to the public sharing of my de-identified and aggregated </span><span style=""font-weight: normal;"">study data.</span></p> <p><span style=""font-weight: normal;"">I would like to be informed of incidental findings, should the study report this type of information.</span></p></div>","yes, Yes | no, No",,,,,y,,y,LV,,,,
+consent_usf_signature,bridge2ai_econsent_main_icf_usf_english,,file,"Signature of Person Taking Part in Study
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_usf_name,bridge2ai_econsent_main_icf_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_usf_date,bridge2ai_econsent_main_icf_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+researcher_statement2,bridge2ai_econsent_main_icf_usf_researcher_stateme,,descriptive,,,,,,,,,,,,,,
+consent_usf_researcher_statement,bridge2ai_econsent_main_icf_usf_researcher_stateme,,descriptive,"<div class=""rich-text-field-label""><p>Statement of Person Obtaining Informed Consent</p> <p class=""p1""><span style=""font-weight: normal;"">I have carefully explained to the person taking part in the study what they can expect from their </span><span style=""font-weight: normal;"">participation. I confirm that this research participant speaks the language that was used to explain this </span><span style=""font-weight: normal;"">research and is receiving an informed consent form in their primary language. This research participant </span><span style=""font-weight: normal;"">has provided legally effective informed consent.</span></p></div>",,,,,,y,,,,,,,
+researcher_signature,bridge2ai_econsent_main_icf_usf_researcher_stateme,,file,"Signature of Person Obtaining Informed Consent",,,signature,,,y,,y,,,,,
+researcher_name,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,"Printed Name of Person Obtaining Informed Consent",,,,,,y,,y,,,,,
+researcher_date,bridge2ai_econsent_main_icf_usf_researcher_stateme,,text,Date,,,date_ymd,,,y,,y,,,,,
+combined_pdf_main_icf_usf,bridge2ai_econsent_combined_pdf_main_icf_usf,,file,"Combined PDF - Main ICF (USF)",,,,,,y,,,,,,,
 diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the patient, and by hearing their voice, do you think this patient has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_c_ac_specified,d_control,,text,"Please specify:",,,,,,,"[diagnosis_c_ac] = 'yes'",,,,,,
 diagnois_gi_gsd,d_voice_glottic_insufficiency_presbyphonia,"1. Gold Standard Diagnosis",radio,"Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
