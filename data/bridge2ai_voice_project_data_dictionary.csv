@@ -8,6 +8,7 @@ consent_method,subjectparticipant_basic_information,,radio,"Consent Method","pap
 withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn Consent Reason",,,,,,y,"[consent_status] = 3",,,,,,
 withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,y,"[consent_status] = 3",,,,,,
 is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
+is_remote_data_collection_enabled,subjectparticipant_basic_information,,radio,"Is Remote Data Collection Enabled?","yes, Yes | no, No",,,,,,,y,,,,,
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
 enrollment_reason,subjectparticipant_basic_information,,text,"Enrollment Reason
 
