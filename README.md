@@ -2,11 +2,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![GitHub](https://img.shields.io/badge/github-3.24.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-3.25.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's |
 | :---: | :---: | :---: | :---: | :---: |
-| v3.24.0 | 2024-04-28 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
+| v3.25.0 | 2024-04-29 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
