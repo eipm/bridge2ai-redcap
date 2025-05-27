@@ -132,8 +132,8 @@ All Questionnaires are available in .pdf under [data/en-us/instrument_pdfs](data
 | 9 | Mood and Psychiatric Disorders Protocol | Anxiety Disorder | [PDF](data/en-us/instrument_pdfs/D%20Mood%20Anxiety%20Disorder.pdf) |
 | 10 | Mood and Psychiatric Disorders Protocol | Bipolar Disorder | [PDF](data/en-us/instrument_pdfs/D%20Mood%20Bipolar%20Disorder.pdf) |
 | 11 | Mood and Psychiatric Disorders Protocol | Depression or Major Depressive Disorder | [PDF](data/en-us/instrument_pdfs/D%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) |
-| 12 | Respiratoty Disorders | Airway Stenosis | [PDF](data/en-us/instrument_pdfs/D%20Resp%20Airway%20Stenosis.pdf) |
-| 13 |  Respiratoty Disorders | Unexplained Chronic Cough | [PDF](data/en-us/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
+| 12 | Respiratory Disorders | Airway Stenosis | [PDF](data/en-us/instrument_pdfs/D%20Resp%20Airway%20Stenosis.pdf) |
+| 13 |  Respiratory Disorders | Unexplained Chronic Cough | [PDF](data/en-us/instrument_pdfs/D%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) |
 | 14 | Neurological and Neurodegenerative Disorders | Alzheimer's, dementia, or mild cognitive impairment | [PDF](data/en-us/instrument_pdfs/D%20Neuro%20Alzheimers%20Disease%20Mild%20Cognitive%20Impairment.pdf) |
 | 15 | Neurological and Neurodegenerative Disorders | Amyotrophic Lateral Sclerosis (ALS) | [PDF](data/en-us/instrument_pdfs/D%20Neuro%20Amyotrophic%20Lateral%20Sclerosis%20Als.pdf) |
 | 16 | Neurological and Neurodegenerative Disorders | Huntington's Disease (HD) | [PDF](data/en-us/instrument_pdfs/D%20Neuro%20Huntingtons%20Disease.pdf) |
