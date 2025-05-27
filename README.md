@@ -121,12 +121,12 @@ All Questionnaires are available in .pdf under [data/en-us/instrument_pdfs](data
 
 | # | Protocol | Clinically Validated Diagnosis | Form PDF Link |
 | :---: | :---: | :---: | :---: |
-| 1 | Voice Disorders Protocol | Benign Lessions | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Benign%20Lesions.pdf) |
+| 1 | Voice Disorders Protocol | Benign Lesions | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Benign%20Lesions.pdf) |
 | 2 | Voice Disorders Protocol | Voice Glottic Insufficiency / Presbyphonia | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Glottic%20Insufficiency.pdf) |
 | 3 | Voice Disorders Protocol | Laryngeal Cancer | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Laryngeal%20Cancer.pdf) |
 | 4 | Voice Disorders Protocol | Laryngitis | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Laryngitis.pdf) |
 | 5 | Voice Disorders Protocol | Muscle Tension Dysphonia | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Muscle%20Tension%20Dysphonia%20Mtd.pdf) |
-| 6 | Voice Disorders Protocol | Precancerous Lessions | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Precancerous%20Lesions.pdf) |
+| 6 | Voice Disorders Protocol | Precancerous Lesions | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Precancerous%20Lesions.pdf) |
 | 7 | Voice Disorders Protocol | Laryngeal Dystonia | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Laryngeal%20Dystonia.pdf) |
 | 8 | Voice Disorders Protocol | Unilateral vocal fold paralysis | [PDF](data/en-us/instrument_pdfs/D%20Voice%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) |
 | 9 | Mood and Psychiatric Disorders Protocol | Anxiety Disorder | [PDF](data/en-us/instrument_pdfs/D%20Mood%20Anxiety%20Disorder.pdf) |
