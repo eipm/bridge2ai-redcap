@@ -4,11 +4,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![GitHub](https://img.shields.io/badge/github-3.26.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-3.27.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-| Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's | eConsent PDF's |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| v3.26.0 | 2024-05-27 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/en-us/instrument_pdfs/) | [Files](data/en-us/econsent_pdfs/) |
+| Version | Date YYYY-mm-dd | Data Dictionary | Metadata | Instrument PDF's | eConsent PDF's | Instrument PDF's (Spanish) | eConsent PDF's (Spanish) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| v3.27.0 | 2024-06-01 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/en-us/instrument_pdfs/) | [Files](data/en-us/econsent_pdfs/) | Coming Soon... | [Files](data/es-419/instrument_pdfs/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
@@ -37,6 +37,9 @@ See [LICENSE](./LICENSE)
 ### English - en-us
 - [Bridge2AI eConsent - USF - English](data/en-us/econsent_pdfs/Bridge2AI%20eConsent%20-%20USF%20-%20English.pdf)
 - [Bridge2AI eConsent - MIT - English](data/en-us/econsent_pdfs/Bridge2AI%20eConsent%20-%20MIT%20-%20English.pdf)
+
+### Spanish - es-419
+- [Bridge2AI eConsent - USF - Spanish](data/es-419/econsent_pdfs/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.pdf)
 
 ---
 
