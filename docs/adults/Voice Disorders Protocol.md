@@ -40,12 +40,12 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 03:00 |[Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
-| 2 | Confounders | 12:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
-| 3 | Voice Perception | 00:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | NA |
-| 4 | VHI-10 | 01:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
-| 5 | Patient Health Questionnaire-9 | 01:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
-| 6 | GAD-7 Anxiety | 01:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
+| 1 | Demographics | 03:00 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
+| 2 | Confounders | 12:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
+| 3 | Voice Perception | 00:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | NA |
+| 4 | VHI-10 | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
+| 5 | Patient Health Questionnaire-9 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
+| 6 | GAD-7 Anxiety | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
 
 ### Retired Questionnaires
 
@@ -57,16 +57,16 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Prolonged Vowel | 01:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
-| 2 | Maximum Phonation Time | 02:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
-| 3 | Glides | 01:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
-| 4 | Harvard Sentences | 01:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 20 | - |
-| 5 | Loudness | 01:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
-| 6 | Diadochokinesis | 01:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
-| 7 | Free Speech | 02:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
-| 8 | Respiration and cough | 03:00 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
-| 9 | Picture Description | 01:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
-| 10 | Story Recall | 03:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
+| 1 | Prolonged Vowel | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
+| 2 | Maximum Phonation Time | 02:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
+| 3 | Glides | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
+| 4 | Harvard Sentences | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 20 | - |
+| 5 | Loudness | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
+| 6 | Diadochokinesis | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
+| 7 | Free Speech | 02:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
+| 8 | Respiration and cough | 03:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
+| 9 | Picture Description | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
+| 10 | Story Recall | 03:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
 | 11 | Caterpillar Passage | 01:30 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=jN7bGT-PFXY) |
 | 12 | Cape V Sentences | 01:00 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=1qbiCdWxuSY) |
 
@@ -74,7 +74,7 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Rainbow Passage | 01:30 | [Generic Protocol](Adult%20Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
+| 1 | Rainbow Passage | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
 | 2 | Free Speech | 01:00 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
