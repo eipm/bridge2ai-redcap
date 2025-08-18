@@ -16,6 +16,20 @@ See [LICENSE](./LICENSE)
 ## 📚 How to Cite
 > Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
+## Acknowledgements
+
+This study was supported in part by the Weill Cornell Medicine Clinical and Translational Science Center (CTSC) grant (UL1 TR 002384)
+
+Study data were collected and managed using REDCap electronic data capture tools hosted at Weill Cornell Medicine.<sup>1,2,3</sup> REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
+
+## Citations
+
+<sup>1</sup>PA Harris, R Taylor, R Thielke, J Payne, N Gonzalez, JG. Conde, Research electronic data capture (REDCap) – A metadata-driven methodology and workflow process for providing translational research informatics support, J Biomed Inform. 2009 Apr;42(2):377-81.
+
+<sup>2</sup>PA Harris, R Taylor, BL Minor, V Elliott, M Fernandez, L O’Neal, L McLeod, G Delacqua, F Delacqua, J Kirby, SN Duda, REDCap Consortium, The REDCap consortium: Building an international community of software partners, J Biomed Inform. 2019 May 9 [doi: 10.1016/j.jbi.2019.103208]
+
+<sup>3</sup>Lawrence CE, Dunkel L, McEver M, Israel T, Taylor R, Chiriboga G, Goins KV, Rahn EJ, Mudano AS, Roberson ED, Chambless C, Wadley VG, Danila MI, Fischer MA, Joosten Y, Saag KG, Allison JJ, Lemon SC, Harris PA, "A REDCap-based model for electronic consent (eConsent): Moving toward a more personalized consent", J Clin Transl Sci. 2020 Apr 3;4(4):345-353. https://doi.org/10.1017/cts.2020.30
+
 ## Table of Contents
 
 - [eConsent Forms](#econsent-forms)
