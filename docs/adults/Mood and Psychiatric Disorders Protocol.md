@@ -42,17 +42,17 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 | 4 | VHI-10 | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
 | 5 | Patient Health Questionnaire-9 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
 | 6 | GAD-7 Anxiety | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
-| 7 | PANAS | 01:00 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS.pdf) | NA |
-| 8 | Custom Affect Scale | 01:30 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.pdf) | NA |
-| 9 | DSM-5 Adult | 06:00 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult.pdf) | NA |
-| 10 | ADHD Adult | 03:00 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult.pdf) | NA |
+| 7 | PANAS | 01:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS.pdf) | NA |
+| 8 | Custom Affect Scale | 01:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.pdf) | NA |
+| 9 | DSM-5 Adult | 06:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult.pdf) | NA |
+| 10 | ADHD Adult | 03:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult.pdf) | NA |
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | PTSD Adult | 03:00 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult.pdf) | NA |
-| 2 | Participant History | 02:00 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History.pdf) | NA |
+| 1 | PTSD Adult | 03:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult.pdf) | NA |
+| 2 | Participant History | 02:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History.pdf) | NA |
 
 ## Acoustic Tasks
 
@@ -74,8 +74,8 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
-| 2 | Animal Fluency | 01:30 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=4lkEAxDiEE8) |
-| 3 | Open Response Questions | 02:30 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) |
+| 2 | Animal Fluency | 01:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=4lkEAxDiEE8) |
+| 3 | Open Response Questions | 02:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
@@ -85,6 +85,6 @@ All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](ht
 
 | # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Anxiety Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf) | NA |
-| 2 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Bipolar Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf) | NA |
-| 3 | [Mood Protocol](Adult%20Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Depression or Major Depressive Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) | NA |
+| 1 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Anxiety Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf) | NA |
+| 2 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Bipolar Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf) | NA |
+| 3 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | Depression or Major Depressive Disorder | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) | NA |

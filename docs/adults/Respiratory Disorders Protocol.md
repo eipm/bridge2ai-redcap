@@ -41,8 +41,8 @@ This document provides an overview of the Adult Respiratory Disorders Protocol u
 | 4 | VHI-10 | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
 | 5 | Patient Health Questionnaire-9 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
 | 6 | GAD-7 Anxiety | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
-| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI).pdf) | - |
-| 8 | Leicester Cough Questionnaire (LCQ) | 03:00 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ).pdf) | - |
+| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI).pdf) | - |
+| 8 | Leicester Cough Questionnaire (LCQ) | 03:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ).pdf) | - |
 
 ### Retired Questionnaires
 
@@ -68,8 +68,8 @@ NA
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
-| 2 | Breath Sounds | 01:30 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) |
-| 3 | Voluntary Cough | 01:00 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) |
+| 2 | Breath Sounds | 01:30 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) |
+| 3 | Voluntary Cough | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
@@ -79,6 +79,6 @@ All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](ht
 
 | # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | Airway Stenosis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf) | NA |
-| 2 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | COPD and Asthma | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf) | NA |
-| 3 | [Resp Protocol](Adult%20Respiratory%20Disorders%20Protocol.md) | Unexplained Chronic Cough | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) | NA |
+| 1 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Airway Stenosis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf) | NA |
+| 2 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | COPD and Asthma | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf) | NA |
+| 3 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Unexplained Chronic Cough | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) | NA |

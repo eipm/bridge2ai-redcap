@@ -51,7 +51,7 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Voice Problem Severity | 00:30 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity.pdf) | NA |
+| 1 | Voice Problem Severity | 00:30 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity.pdf) | NA |
 
 ## Acoustic Tasks
 
@@ -67,15 +67,15 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 | 8 | Respiration and cough | 03:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
 | 9 | Picture Description | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
 | 10 | Story Recall | 03:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
-| 11 | Caterpillar Passage | 01:30 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=jN7bGT-PFXY) |
-| 12 | Cape V Sentences | 01:00 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=1qbiCdWxuSY) |
+| 11 | Caterpillar Passage | 01:30 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=jN7bGT-PFXY) |
+| 12 | Cape V Sentences | 01:00 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=1qbiCdWxuSY) |
 
 ### Retired Acoustic Tasks
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
-| 2 | Free Speech | 01:00 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) |
+| 2 | Free Speech | 01:00 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
@@ -85,11 +85,11 @@ All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](ht
 
 | # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Benign Lesions | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf) | NA |
-| 2 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Voice Glottic Insufficiency / Presbyphonia | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf) | NA |
-| 3 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Laryngeal Cancer | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf) | NA |
-| 4 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Laryngitis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf) | NA |
-| 5 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Muscle Tension Dysphonia (MTD) | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf) | NA |
-| 6 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Precancerous Lesions | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) | NA |
-| 7 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md) | Laryngeal Dystonia | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf) | NA |
-| 8 | [Voice Protocol](Adult%20Voice%20Disorders%20Protocol.md)  | Unilateral vocal fold paralysis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) | NA |
+| 1 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Benign Lesions | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf) | NA |
+| 2 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Voice Glottic Insufficiency / Presbyphonia | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf) | NA |
+| 3 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Cancer | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf) | NA |
+| 4 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngitis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf) | NA |
+| 5 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Muscle Tension Dysphonia (MTD) | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf) | NA |
+| 6 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Precancerous Lesions | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) | NA |
+| 7 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Dystonia | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf) | NA |
+| 8 | [Voice Protocol](Voice%20Disorders%20Protocol.md)  | Unilateral vocal fold paralysis | [Link](../../data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) | NA |
