@@ -21,7 +21,7 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 | | |
 | :--- | :---: |
-| ⏳ Estimated time to complete (mm:ss) | **48:30** |
+| ⏳ Estimated time to complete (mm:ss) | **46:00** |
 | 📕 # of Questionnaires | **10** |
 | 🎤 # of Acoustic Tasks | **10** |
 | 🔊 # of Recordings | **41** |
@@ -36,44 +36,44 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 03:00 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
-| 2 | Confounders | 12:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
-| 3 | Voice Perception | 00:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | NA |
-| 4 | VHI-10 | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
-| 5 | Patient Health Questionnaire-9 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
-| 6 | GAD-7 Anxiety | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | NA |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
 | 7 | PANAS | 01:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS.pdf) | NA |
 | 8 | Custom Affect Scale | 01:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.pdf) | NA |
-| 9 | DSM-5 Adult | 06:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult.pdf) | NA |
-| 10 | ADHD Adult | 03:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult.pdf) | NA |
+| 9 | DSM-5 Adult | 02:25 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult.pdf) | NA |
+| 10 | ADHD Adult | 02:20 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult.pdf) | NA |
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | PTSD Adult | 03:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult.pdf) | NA |
-| 2 | Participant History | 02:00 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History.pdf) | NA |
+| 1 | PTSD Adult | 02:25 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult.pdf) | NA |
+| 2 | Participant History | 03:15 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History.pdf) | NA |
 
 ## Acoustic Tasks
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Prolonged Vowel | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
-| 2 | Maximum Phonation Time | 02:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
-| 3 | Glides | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
+| 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
+| 2 | Maximum Phonation Time | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
+| 3 | Glides | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
 | 4 | Harvard Sentences | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 20 | - |
-| 5 | Loudness | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
-| 6 | Diadochokinesis | 01:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
-| 7 | Free Speech | 02:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
-| 8 | Respiration and cough | 03:00 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
-| 9 | Picture Description | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
-| 10 | Story Recall | 03:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
+| 5 | Loudness | 00:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
+| 6 | Diadochokinesis | 01:40 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
+| 7 | Free Speech | 03:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
+| 8 | Respiration and cough | 05:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
+| 9 | Picture Description | 01:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
+| 10 | Story Recall | 03:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
 
 ### Retired Acoustic Tasks
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Rainbow Passage | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
+| 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
 | 2 | Animal Fluency | 01:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=4lkEAxDiEE8) |
 | 3 | Open Response Questions | 02:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) |
 
