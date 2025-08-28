@@ -37,12 +37,12 @@ This document provides an overview of the Adult Respiratory Disorders Protocol u
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | NA |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | NA |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | NA |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | NA |
-| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI).pdf) | - |
-| 8 | Leicester Cough Questionnaire (LCQ) | 02:20 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ).pdf) | - |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) |
+| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI).pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI).pdf) |
+| 8 | Leicester Cough Questionnaire (LCQ) | 02:20 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ).pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ).pdf) |
 
 ### Retired Questionnaires
 
