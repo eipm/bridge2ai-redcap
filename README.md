@@ -8,7 +8,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
 | Version | Date YYYY-mm-dd | Data Dictionary | Metadata | PDF's (English) | PDF's (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| v4.0.0 | 2024-08-19 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/en-us/) | [Files](data/es-419/) |
+| v4.0.1 | 2024-08-28 | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/en-us/) | [Files](data/es-419/) |
 
 ## 🤝 License
 See [LICENSE](./LICENSE)
