@@ -129,6 +129,7 @@ ef_phone_number,enrollment_form,,text,"Phone Number",,###-###-####,phone,,,y,,,,
 ef_email,enrollment_form,,text,Email,,,email,,,y,,,,,,,
 ef_contact_info_stored,enrollment_form,,yesno,"[DEPRECATED] I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,,,,,,
 ef_enrollment,enrollment_form,"Review and Enroll",radio,"Please review your answers reading all the way through the bottom and select an option. If you have any questions, you can still proceed with enrollment and ask or make changes at a later time.","Enroll, Enroll | Decline, Decline",,,,,,,y,,,,,
+ef_remote_collection_agreement_terms,enrollment_form,,checkbox,"I acknowledge that:","ef_confirmed_clinical_diagnosis, I have a confirmed clinical diagnosis and proof of a disorder that qualifies me to participate in this study. | ef_agree_video_camera, I will need to have a video camera turned on during any interactions with the research team.",,,,,,,,,,,," @READONLY"
 ef_is_control_participant,enrollment_form,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for declining","1, I am not interested in having my voice recorded | 2, I do not have enough time today and want to be contacted later | 3, I do not have enough time and do not want to be contacted later | 4, I prefer not to share any health information for research | 5, Other (Please specify)",,,,,,"[ef_enrollment]=""Decline""",y,,,,,
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
@@ -196,9 +197,9 @@ mit_icf_signature_en,bridge2ai_econsent_mit_english,,file,"Signature of Person T
 mit_icf_date_en,bridge2ai_econsent_mit_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 mit_icf_name_en,bridge2ai_econsent_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
 consent_mit_p1,bridge2ai_econsent_mit_english," ",descriptive,,,,,,,,,,,,,,
-diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the patient, and by hearing their voice, do you think this patient has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the participant, and by hearing their voice, do you think this participant has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_c_ac_specified,d_control,,text,"Please specify:",,,,,,,"[diagnosis_c_ac] = 'yes'",,,,,,
-diagnois_gi_gsd,d_voice_glottic_insufficiency_presbyphonia,"1. Gold Standard Diagnosis",radio,"Does the patient have glottic insufficiency confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnois_gi_gsd,d_voice_glottic_insufficiency_presbyphonia,"1. Gold Standard Diagnosis",radio,"Does the participant have glottic insufficiency confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_gi_d,d_voice_glottic_insufficiency_presbyphonia,"2. Disease Subtype/etiology",radio,"What is the glottic insufficiency diagnosis?","vocalFoldAtrophyRelatedToAging, Vocal fold atrophy related to aging (Presbyphonia) | vocalFoldAtrophyRelatedToOtherCause, Vocal fold atrophy related to other cause | bilateralSulcus, Bilateral sulcus | other, Other",,,,,,,y,,,,,
 diagnosis_gi_d_other,d_voice_glottic_insufficiency_presbyphonia,,text,"Please specify",,,,,,,"[diagnosis_gi_d]=""other""",,,,,,
 diagnosis_gi_d_aoc,d_voice_glottic_insufficiency_presbyphonia,,radio,"What is the glottic insufficiency diagnosis?","severeIllness, Severe illness | rapidWeightLoss, Rapid weight loss | hormonalChanges, Hormonal changes | other, Other",,,,,,"[diagnosis_gi_d]=""vocalFoldAtrophyRelatedToOtherCause""",y,,,,,
@@ -229,11 +230,11 @@ diagnosis_gi_degree_comments,d_voice_glottic_insufficiency_presbyphonia,,radio,"
 diagnosis_gi_degree_comments_other,d_voice_glottic_insufficiency_presbyphonia,,text,"Please specify",,,,,,,[diagnosis_gi_degree_comments]='other',,,,,,
 diagnosis_gi_degree_comments_other_2,d_voice_glottic_insufficiency_presbyphonia,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,,,,,
-diagnosis_gi_treatment,d_voice_glottic_insufficiency_presbyphonia,"4. Treatment obtained",radio,"Has the patient undergone any treatment for his condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_gi_treatment,d_voice_glottic_insufficiency_presbyphonia,"4. Treatment obtained",radio,"Has the participant undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_gi_treatment_select,d_voice_glottic_insufficiency_presbyphonia,,checkbox,"Select all that apply:","voice_or_speech_therapy, Voice/speech therapy | injection_laryngoplasty, Injection laryngoplasty | bilateral_medialization_thyroplasty, Bilateral medialization thyroplasty | other, Other",,,,,,"[diagnosis_gi_treatment]=""yes""",y,,,,,
 diagnosis_gi_treatment_other,d_voice_glottic_insufficiency_presbyphonia,,text,"Other, please specify",,,,,,,"[diagnosis_gi_treatment_select(other)]=""1""",y,,,,,
-diagnois_bl_gsd,d_voice_benign_lesions,"1. Gold Standard Diagnosis",radio,"Does the patient have a benign lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_bl_ds,d_voice_benign_lesions,"2. Disease Subtype",radio,"What is the benign lesion diagnosis?","vocalFoldNodules, Vocal fold nodules | vocalFoldPolyp, Vocal fold polyp | vocalFoldCyst, Vocal fold cyst | reinkesEdema, Reinke's edema | vocalFoldUlcers, Vocal fold ulcers | recurrentRespiratoryPapilloma, Recurrent respiratory papilloma | fibrousMasses, Fibrous masse (s) | rheumatoidNodules, Rheumatoid nodules | other, Other",,,,,,,y,,,,,
+diagnois_bl_gsd,d_voice_benign_lesions,"1. Gold Standard Diagnosis",radio,"Does the participant have a benign lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_bl_ds,d_voice_benign_lesions,"2. Disease Subtype",radio,"What is the benign lesion diagnosis?","anteriorGlotticWeb, Anterior glottic web | fibrousMasses, Fibrous masse (s) | recurrentRespiratoryPapilloma, Recurrent respiratory papilloma | reinkesEdema, Reinke's edema | rheumatoidNodules, Rheumatoid nodules | vocalFoldCyst, Vocal fold cyst | vocalFoldNodules, Vocal fold nodules | vocalFoldPolyp, Vocal fold polyp | vocalFoldScarring, Vocal fold scarring | vocalFoldUlcers, Vocal fold ulcers | other, Other",,,,,,,y,,,,,
 diagnosis_bl_ds_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,"[diagnosis_bl_ds]=""other""",,,,,,
 diagnosis_bl_etiology,d_voice_benign_lesions,"3. Etiology",radio,"What is the etiology?","phonotrauma, Phonotrauma | rrp, HPV virus (RRP) | other, Other",,,,,,,y,,,,,
 diagnosis_bl_etiology_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,"[diagnosis_bl_etiology]=""other""",,,,,,
@@ -262,17 +263,21 @@ diagnosis_bl_degree_comments,d_voice_benign_lesions,,radio,"Comments about reson
 diagnosis_bl_degree_comments_other,d_voice_benign_lesions,,text,"Please specify",,,,,,,[diagnosis_bl_degree_comments]='other',,,,,,
 diagnosis_bl_degree_comments_other_2,d_voice_benign_lesions,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,,,,,
-diagnosis_bl_treatment,d_voice_benign_lesions,"5. Treatment obtained",radio,"Has the patient undergone any treatment for his condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_bl_treatment,d_voice_benign_lesions,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_bl_treatment_select,d_voice_benign_lesions,,checkbox,"Select all that apply:","voice_or_speech_therapy, Voice/speech therapy | laryngeal_microsurgery, Laryngeal microsurgery | voice_rest, Voice rest | other, Other",,,,,,"[diagnosis_bl_treatment]=""yes""",y,,,,,
 diagnosis_bl_treatment_other,d_voice_benign_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_bl_treatment_select(other)]=""1""",y,,,,,
 diagnosis_bl_treatment_lm,d_voice_benign_lesions,,radio,"Laryngeal microsurgery","withLaser, With laser | withoutLaser, Without laser",,,,,,"[diagnosis_bl_treatment_select(laryngeal_microsurgery)]=""1""",y,,,,,
-diagnois_lc_gsd_sll,d_voice_laryngeal_cancer,"1. Gold Standard Diagnosis",radio,"Did the patient get a laryngoscopy/stroboscopy confirming the presence of a suspicious laryngeal lesion?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_lc_gsd_bpr,d_voice_laryngeal_cancer,,radio,"Does the patient have laryngeal cancer confirmed by biopsy/pathology report?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_lc_gsd_uots,d_voice_laryngeal_cancer,,checkbox,"Did the patient undergo other types of scans?
+diagnosis_lc_gsd,d_voice_laryngeal_cancer,"1. Gold Standard Diagnosis",radio,"Does the participant have Laryngeal Cancer? ","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_lc_gsd_confirmation_method,d_voice_laryngeal_cancer,,checkbox,"How was this confirmed? Check all that apply","laryngoscopy_stroboscopy, Laryngoscopy/Stroboscopy | biopsy_pathology, Biopsy/Pathology Report",,,,,,[diagnosis_lc_gsd]='yes',y,,,,,
+diagnosis_lc_gsd_bpr,d_voice_laryngeal_cancer,,radio,"[DEPRECATED]
+Does the participant have laryngeal cancer confirmed by biopsy/pathology report?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,," @HIDDEN"
+diagnois_lc_gsd_sll,d_voice_laryngeal_cancer,,radio,"[DEPRECATED]
+Did the participant get a laryngoscopy/stroboscopy confirming the presence of a suspicious laryngeal lesion?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,," @HIDDEN"
+diagnosis_lc_gsd_uots,d_voice_laryngeal_cancer,,checkbox,"Did the participant undergo other types of scans?
 (Select all that apply).","ct_neck, CT of the neck | ct_chest, CT of the chest | mri_neck, MRI of the neck | pet_ct, PET-CT | ultrasound_neck, Ultrasound of the neck",,,,,,,,,,,,
 diagnosis_lc_ds,d_voice_laryngeal_cancer,"2. Disease Subtype",checkbox,"Which laryngeal structures are/were involved?
 (Select all that apply).","right_vocal_fold, Right vocal fold | left_vocal_fold, Left vocal fold | both_vocal_folds, Both vocal folds | anterior_commissure, Anterior commissure | ventricular_folds, Ventricular folds (right or left) | subglottal_areas, Subglottal areas",,,,,,,,,,,,
-diagnosis_lc_etiology,d_voice_laryngeal_cancer,"3. Etiology",checkbox,"Check any risk factors of this patient in relation to their laryngeal cancer.
+diagnosis_lc_etiology,d_voice_laryngeal_cancer,"3. Etiology",checkbox,"Check any risk factors of this participant in relation to their laryngeal cancer.
 (Select all that apply).","smoking, Smoking | alcohol, Alcohol | family_history, Family history | hpv, Human Papilloma Virus (HPV) | exposure_other_harmful_substances, Exposure to other harmful substances",,,,,,,,,,,,
 diagnosis_lc_etiology_other,d_voice_laryngeal_cancer,,text,"Please specify:",,,,,,,"[diagnosis_lc_etiology(exposure_other_harmful_substances)]=""1""",,,,,,
 diagnosis_lc_ds_t_stage,d_voice_laryngeal_cancer,"4. Disease Severity",radio,"What is the T stage of the cancer based on the AJCC Classification?","tis, Tis (carcinoma in situ) | t1a, T1a | t1b, T1b | t2, T2 | t3, T3 | t4a, T4a | t4b, T4b | unknownYet, Unknown yet",,,,,,,y,,,,,
@@ -306,19 +311,21 @@ diagnosis_lc_degree_comments_other,d_voice_laryngeal_cancer,,text,"Please specif
 diagnosis_lc_degree_comments_other_2,d_voice_laryngeal_cancer,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
 diagnosis_as_ds_ccsr,d_voice_laryngeal_cancer,,radio,"Is the cancer causing stridor at rest?","noStridor, No, the patient does not have stridor | mildStridor, Yes, mild stridor | moderateStridor, Yes, moderate stridor | severeStridor, Yes, severe stridor",,,,,,,y,,,,,
-diagnosis_lc_treatment,d_voice_laryngeal_cancer,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_lc_treatment,d_voice_laryngeal_cancer,"5. Treatment obtained",radio,"Has the participant undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_lc_treatment_select,d_voice_laryngeal_cancer,,checkbox,"Select all that apply:","radiation, Radiation | chemotherapy, Chemotherapy | immunotherapy, Immunotherapy | surgery, Surgery | voice_or_speech_therapy, Voice/Speech therapy | other, Other",,,,,,"[diagnosis_lc_treatment]=""yes""",y,,,,,
 diagnosis_lc_treatment_s,d_voice_laryngeal_cancer,,checkbox,Surgery,"endoscopic_laser, Endoscopic laser | partial_laryngectomy, Partial laryngectomy",,,,,,"[diagnosis_lc_treatment_select(surgery)]=""1""",y,,,,,
 diagnosis_lc_treatment_other,d_voice_laryngeal_cancer,,text,"Other, please specify",,,,,,,"[diagnosis_lc_treatment_select(other)]=""1""",,,,,,
-diagnosis_ld_qete,d_voice_laryngeal_dystonia,"1. Gold Standard Diagnosis",checkbox,"Does the patient have laryngeal dystonia as determined by qualitative expert team evaluation?
-(Select all that apply).","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology | neurologist_specializing_disorders, Neurologist specializing in movement disorders",,,,,,,y,,,,,
-diagnosis_ld_assessment,d_voice_laryngeal_dystonia,,checkbox,"Did the patient have the following assessment?
+diagnosis_ld_gsd,d_voice_laryngeal_dystonia,"1. Gold Standard Diagnosis",radio,"Does the participant have laryngeal dystonia as determined by qualitative expert team evaluation?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ld_qete,d_voice_laryngeal_dystonia,,checkbox,"[DEPRECATED]
+Does the participant have laryngeal dystonia as determined by qualitative expert team evaluation?
+(Select all that apply).","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology | neurologist_specializing_disorders, Neurologist specializing in movement disorders",,,,,,,,,,,," @HIDDEN"
+diagnosis_ld_assessment,d_voice_laryngeal_dystonia,,checkbox,"Did the participant have the following assessment?
 (Select all that apply).","aural_perceptual_evaluation, Aural-perceptual evaluation | laryngoscopy_or_stroboscopy, Laryngoscopy or stroboscopy | neurological_evaluation, Neurological evaluation",,,,,,,y,,,,,
 diagnosis_ld_ds,d_voice_laryngeal_dystonia,"2. Disease Subtype",checkbox,"Disease Subtypes:
 (Select all that apply)","adld, Adductor laryngeal dystonia (ADLD) | abld, Abductor laryngeal dystonia (ABLD) | vocal_tremor, Vocal Tremor | mixed_laryngeal_dystonia, Mixed laryngeal dystonia | sld, Singer's laryngeal dystonia (SLD) | arld, Adductor laryngeal spasms during inspiration (ARLD)",,,,,,,y,,,,,
 diagnosis_ld_etiology,d_voice_laryngeal_dystonia,"3. Etiology",radio,"What is the etiology?","idiopathic, Idiopathic | familial, Familial | trauma, Trauma | unknown, Unknown | other, Other",,,,,,,y,,,,,
 diagnosis_ld_etiology_other,d_voice_laryngeal_dystonia,,text,"Please specify",,,,,,,"[diagnosis_ld_etiology] = 'other'",y,,,,,
-diagnosis_ld_etiology_cc,d_voice_laryngeal_dystonia,,checkbox,"Does the patient have any of the following concomitant conditions?
+diagnosis_ld_etiology_cc,d_voice_laryngeal_dystonia,,checkbox,"Does the participant have any of the following concomitant conditions?
 (Select all that apply).","essential_tremor_of_the_hands, Essential Tremor of the hands | essential_tremor_of_the_head, Essential tremor of the head | jaw_tremor, Jaw tremor | dystonia_of_the_head_and_neck, Dystonia of the head and neck | other_type_of_dystonia, Other type of dystonia",,,,,,,,,,,,
 diagnosis_ld_etiology_cc_other,d_voice_laryngeal_dystonia,,text,"Other type of dystonia",,,,,,,"[diagnosis_ld_etiology_cc(other_type_of_dystonia)]=""1""",y,,,,,
 diagnosis_ld_degree_text,d_voice_laryngeal_dystonia,"4. Disease Severity",descriptive,"Degree of dysphonia
@@ -345,11 +352,11 @@ diagnosis_ld_degree_comments,d_voice_laryngeal_dystonia,,radio,"Comments about r
 diagnosis_ld_degree_comments_other,d_voice_laryngeal_dystonia,,text,"Please specify",,,,,,,"[diagnosis_ld_degree_comments] = 'other'",,RH,,,,
 diagnosis_ld_degree_comments_other_2,d_voice_laryngeal_dystonia,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
-diagnosis_ld_treatment,d_voice_laryngeal_dystonia,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
-diagnosis_ld_treatment_select,d_voice_laryngeal_dystonia,,checkbox,"Select all that apply:","botox_injections, Botox injections | voice_or_speech_therapy, Voice/speech therapy | vibrotactile_stimulation, Vibrotactile stimulation | deep_brain_stimulation, Deep brain stimulation | mrgfus, Magnetic resonance imaging-guided focused ultrasound (MRgFUS) | other, Other",,,,,,"[diagnosis_ld_treatment]=""yes""",y,,,,,
+diagnosis_ld_treatment,d_voice_laryngeal_dystonia,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_ld_treatment_select,d_voice_laryngeal_dystonia,,checkbox,"What treatments did the participant undergo? (Select all that apply):","botox_injections, Botox injections | voice_or_speech_therapy, Voice/speech therapy | vibrotactile_stimulation, Vibrotactile stimulation | deep_brain_stimulation, Deep brain stimulation | mrgfus, Magnetic resonance imaging-guided focused ultrasound (MRgFUS) | other, Other",,,,,,"[diagnosis_ld_treatment]=""yes""",y,,,,,
 diagnosis_ld_treatment_bi_li,d_voice_laryngeal_dystonia,,text,"When was the last injection?",,"weeks ago",number,,,,"[diagnosis_ld_treatment_select(botox_injections)]=""1""",y,,,,,
 diagnosis_ld_treatment_other,d_voice_laryngeal_dystonia,,text,"Other, please specify",,,,,,,"[diagnosis_ld_treatment_select(other)]=""1""",y,,,,,
-diagnosis_l_gsd,d_voice_laryngitis,"1. Gold Standard Diagnosis",radio,"Does the patient have laryngitis as determined by qualitative evaluations?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_l_gsd,d_voice_laryngitis,"1. Gold Standard Diagnosis",radio,"Does the participant have Laryngitis confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_l_determined_by,d_voice_laryngitis,,checkbox,"Determined by (Select all that apply):","laryngologist, Laryngologist | otolaryngologist, Otolaryngologist | other, Other",,,,,,"[diagnosis_l_gsd] = ""yes""",y,,,,,
 diagnosis_l_determined_by_other,d_voice_laryngitis,,text,"Please specify",,,,,,,"[diagnosis_l_determined_by(other)] = ""1""",y,,,,,
 diagnosis_l_sd_known,d_voice_laryngitis,"2. Disease Subtype",radio,"Do you know how long (in weeks) have symptoms been present?","yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
@@ -386,13 +393,16 @@ diagnosis_l_degree_comments,d_voice_laryngitis,,radio,"Comments about resonance"
 diagnosis_l_degree_comments_other,d_voice_laryngitis,,text,"Please specify",,,,,,,"[diagnosis_l_degree_comments] = 'other'",,RH,,,,
 diagnosis_l_degree_comments_other_2,d_voice_laryngitis,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
-diagnosis_l_treatment,d_voice_laryngitis,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_l_treatment,d_voice_laryngitis,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_l_treatment_select,d_voice_laryngitis,,checkbox,"Select all that apply:","medical_treatment, Medical treatment | vocal_hygiene_and_patient_education, Vocal hygiene and patient education | voice_or_speech_therapy, Voice/Speech therapy",,,,,,"[diagnosis_l_treatment]=""yes""",y,,,,,
 diagnosis_l_treatment_mt,d_voice_laryngitis,,checkbox,"Medical treatment
 (Select all that apply)","antibiotics, Antibiotics | antifungals, Antifungals | steroids_po, Steroids PO | inhaled_steroids, Inhaled steroids | other, Other","weeks ago",,,,,"[diagnosis_l_treatment_select(medical_treatment)]=""1""",y,,,,,
 diagnosis_l_treatment_mt_other,d_voice_laryngitis,,text,"Other, please specify",,,,,,,"[diagnosis_l_treatment_mt(other)]=""1""",y,,,,,
-diagnosis_mtd_gsd_evaluations,d_voice_muscle_tension_dysphonia_mtd,"1. Gold Standard Diagnosis",checkbox,"Does the patient have MTD as determined by qualitative expert team evaluations? (Select all that apply)","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology",,,,,,,y,,,,,
-diagnosis_mtd_gsd_assessments,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"Did the patient have any of the following assessments? (Select all that apply)","detailed_case_history, Detailed case history | aural_perceptual_evaluation, Aural-perceptual evaluation | flexible_rigid_laryngoscopy, Flexible/Rigid laryngoscopy | voice_speech_evaluation, Voice/speech evaluation",,,,,,,y,,,,,
+diagnosis_mtd_gsd,d_voice_muscle_tension_dysphonia_mtd,"1. Gold Standard Diagnosis",radio,"Does the participant have Muscle Tension Dysphonia (MTD)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_mtd_gsd_evaluations_2,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"How was this confirmed? Select all that apply:","laryngoscopy_stroboscopy, Laryngoscopy/Stroboscopy | voice_evaluation, Voice Evaluation",,,,,,[diagnosis_mtd_gsd]='yes',y,,,,,
+diagnosis_mtd_gsd_evaluations,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"[DEPRECATED]
+Determined by (Select all that apply):","laryngologist, Laryngologist | speech_language_pathology, Speech-Language Pathology",,,,,,,,,,,," @HIDDEN"
+diagnosis_mtd_gsd_assessments,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"Did the participant have any of the following assessments? (Select all that apply)","detailed_case_history, Detailed case history | aural_perceptual_evaluation, Aural-perceptual evaluation | flexible_rigid_laryngoscopy, Flexible/Rigid laryngoscopy | voice_speech_evaluation, Voice/speech evaluation",,,,,,,y,,,,,
 diagnosis_mtd_ds,d_voice_muscle_tension_dysphonia_mtd,"2. Disease Subtype",radio,,"primaryMTD, Primary MTD - neck muscles are tense with no abnormality in the larynx | secondaryMTD, Secondary MTD - abnormality in larynx causes the patient to overuse other muscles involved in voice production",,,,,,,y,,,,,
 diagnosis_mtd_etiology,d_voice_muscle_tension_dysphonia_mtd,"3. Etiology",checkbox,"What is the etiology? (Select all that apply)","psychological_personality_factors, Psychological and/or personality factors | environmental_irritants, Environmental irritants | vocal_misuse_abuse, Vocal misuse and abuse | compensation_underlying_disease, Compensation for underlying disease | other, Other",,,,,,,,,,,,
 diagnosis_mtd_etiology_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_etiology(other)]=""1""",,,,,,
@@ -418,11 +428,15 @@ diagnosis_mtd_degree_comments,d_voice_muscle_tension_dysphonia_mtd,,radio,"Comme
 diagnosis_mtd_degree_comments_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_degree_comments] = 'other'",,RH,,,,
 diagnosis_mtd_degree_comments_other_2,d_voice_muscle_tension_dysphonia_mtd,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
-diagnosis_mtd_treatment,d_voice_muscle_tension_dysphonia_mtd,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_mtd_treatment,d_voice_muscle_tension_dysphonia_mtd,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_mtd_treatment_select,d_voice_muscle_tension_dysphonia_mtd,,checkbox,"Select all that apply:","vocal_hygiene_and_patient_education, Vocal hygiene and patient education | voice_or_speech_therapy, Voice/speech therapy | circumlaryngeal_manual_therapy, Circumlaryngeal manual therapy | surgery_for_secondary_organic_lesions, Surgery for secondary organic lesions | other, Other medical treatment",,,,,,"[diagnosis_mtd_treatment]=""yes""",,,,,,
 diagnosis_mtd_treatment_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_treatment_select(other)]=""1""",,,,,,
-diagnois_pl_gsd_ls,d_voice_precancerous_lesions,"1. Gold Standard Diagnosis",radio,"Does the patient have a precancerous vocal fold lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-diagnois_pl_gsd_bp,d_voice_precancerous_lesions,,radio,"Does the patient have a precancerous vocal fold lesion confirmed by biopsy/pathology?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_pl_gsd,d_voice_precancerous_lesions,"1. Gold Standard Diagnosis",radio,"Does the participant have a precancerous vocal fold lesion?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_pl_gsd_confirmation_method,d_voice_precancerous_lesions,,checkbox,"How was this confirmed? Select all that apply:","laryngoscopy_stroboscopy, Laryngoscopy/Stroboscopy | biopsy_pathology, Biopsy/Pathology Report",,,,,,[diagnosis_pl_gsd]='yes',,,,,,
+diagnois_pl_gsd_ls,d_voice_precancerous_lesions,,radio,"[DEPRECATED]
+Does the participant have a precancerous vocal fold lesion confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,," @HIDDEN"
+diagnois_pl_gsd_bp,d_voice_precancerous_lesions,,radio,"[DEPRECATED]
+Does the participant have a precancerous vocal fold lesion confirmed by biopsy/pathology?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,," @HIDDEN"
 diagnosis_pl_ds,d_voice_precancerous_lesions,"2. Disease Subtype",checkbox,"What is the diagnosis?
 (Select all that apply).","keratosis, Keratosis | leukoplakia, Leukoplakia | erythroplakia, Erythroplakia | other, Other",,,,,,,y,,,,,
 diagnosis_pl_ds_k,d_voice_precancerous_lesions,,radio,Keratosis,"withDysplasia, With dysplasia | withoutDysplasia, Without dysplasia",,,,,,"[diagnosis_pl_ds(keratosis)]=""1""",y,,,,,
@@ -432,7 +446,7 @@ diagnosis_pl_ds_l_wd_g,d_voice_precancerous_lesions,,radio,"Leukoplakia with dys
 diagnosis_pl_ds_e,d_voice_precancerous_lesions,,radio,Erythroplakia,"withDysplasia, With dysplasia | withoutDysplasia, Without dysplasia",,,,,,"[diagnosis_pl_ds(erythroplakia)]=""1""",y,,,,,
 diagnosis_pl_ds_e_wd_g,d_voice_precancerous_lesions,,radio,"Erythroplakia with dysplasia","lowGrade, Low grade | moderateGrade, Moderate grade | highGrade, High grade",,,,,,"[diagnosis_pl_ds_e]=""withDysplasia""",y,,,,,
 diagnosis_pl_ds_other,d_voice_precancerous_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_pl_ds(other)]=""1""",y,,,,,
-diagnosis_pl_etiology,d_voice_precancerous_lesions,"3. Etiology",checkbox,"Does the patient have the following risk factors?
+diagnosis_pl_etiology,d_voice_precancerous_lesions,"3. Etiology",checkbox,"Does the participant have the following risk factors?
 (Select all that apply).","past_or_present_smoking, Past or present smoking | laryngopharyngeal_reflux, Laryngopharyngeal reflux | other_irritants, Other irritants",,,,,,,y,,,,,
 diagnosis_pl_etiology_other,d_voice_precancerous_lesions,,text,"Other irritants",,,,,,,"[diagnosis_pl_etiology(other_irritants)]=""1""",y,,,,,
 diagnosis_pl_ds_ll,d_voice_precancerous_lesions,"4. Disease Severity",checkbox,"Location of lesion(s)
@@ -461,8 +475,8 @@ diagnosis_pl_degree_comments,d_voice_precancerous_lesions,,radio,"Comments about
 diagnosis_pl_degree_comments_other,d_voice_precancerous_lesions,,text,"Please specify",,,,,,,"[diagnosis_pl_degree_comments]=""other""",,RH,,,,
 diagnosis_pl_degree_comments_other_2,d_voice_precancerous_lesions,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
-diagnosis_pl_treatment,d_voice_precancerous_lesions,"5. Treatment obtained",radio,"Has the patient undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
-diagnosis_pl_treatment_select,d_voice_precancerous_lesions,,checkbox,"Select all that apply:","surveillance_only, Surveillance only (previous diagnosis) | laser_resection, Laser resection | laser_ablation, Laser ablation | microlaryngeal_surgery_without_laser, Microlaryngeal surgery without laser | radiotherapy_persistent_or_recurrent_lesions, Radiotherapy for persistent or recurrent lesions | voice_or_speech_therapy, Voice/speech therapy | other, Other",,,,,,"[diagnosis_pl_treatment]=""yes""",y,,,,,
+diagnosis_pl_treatment,d_voice_precancerous_lesions,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_pl_treatment_select,d_voice_precancerous_lesions,,checkbox,"What treatments did the participant undergo? (Select all that apply):","surveillance_only, Surveillance only (previous diagnosis) | laser_resection, Laser resection | laser_ablation, Laser ablation | microlaryngeal_surgery_without_laser, Microlaryngeal surgery without laser | radiotherapy_persistent_or_recurrent_lesions, Radiotherapy for persistent or recurrent lesions | voice_or_speech_therapy, Voice/speech therapy | other, Other",,,,,,"[diagnosis_pl_treatment]=""yes""",y,,,,,
 diagnosis_pl_treatment_other,d_voice_precancerous_lesions,,text,"Other, please specify",,,,,,,"[diagnosis_pl_treatment_select(other)]=""1""",y,,,,,
 diagnosis_vfp_gsd,d_voice_unilateral_vocal_fold_paralysis,"1. Gold Standard Diagnosis",radio,"Does the patient have VFP confirmed by laryngoscopy/stroboscopy?","0, No | 1, Yes | 2, Not certain",,,,,,,y,,,,,
 diagnosis_uvfp_ds,d_voice_unilateral_vocal_fold_paralysis,"2. Disease Subtype",radio,"On which side is the paralysis?","left, Left | right, Right",,,,,,,y,,,,,
@@ -496,8 +510,8 @@ diagnosis_degree_comments,d_voice_unilateral_vocal_fold_paralysis,,radio,"Commen
 diagnosis_degree_comments_other,d_voice_unilateral_vocal_fold_paralysis,,text,"Please specify",,,,,,,"[diagnosis_degree_comments] = 2",,RH,,,,
 diagnosis_degree_comments_other_2,d_voice_unilateral_vocal_fold_paralysis,,text,"Additional Features
 (for example, diplophonia, fry, falsetto, asthenia, aphonia, pitch instability, tremor, wet/gurgly, or other relevant terms):",,,,,,,,,RH,,,,
-diagnosis_uvfp_treatment,d_voice_unilateral_vocal_fold_paralysis,"5. Treatment obtained",radio,"Has the patient undergone any treatment for their condition?","yes, Yes | no, No",,,,,,,y,,,,,
-diagnosis_uvfp_treatment_select,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Select all that apply:","surgery, Surgery / Procedure | speech_therapy, Speech therapy | other, Other",,,,,,"[diagnosis_uvfp_treatment]=""yes""",,,,,,
+diagnosis_uvfp_treatment,d_voice_unilateral_vocal_fold_paralysis,"5. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_uvfp_treatment_select,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"What treatments did the participant undergo? (Select all that apply):","surgery, Surgery / Procedure | speech_therapy, Speech therapy | other, Other",,,,,,"[diagnosis_uvfp_treatment]=""yes""",,,,,,
 diagnosis_uvfp_treatment_other,d_voice_unilateral_vocal_fold_paralysis,,text,"Other treatment, please specify",,,,,,,"[diagnosis_uvfp_treatment_select(other)]=""1""",,,,,,
 diagnosis_uvfp_treatment_surgery,d_voice_unilateral_vocal_fold_paralysis,,checkbox,"Surgery / Procedure","thyroplasty, Thyroplasty | vocal_fold_injection_augmentation, Vocal fold injection augmentation | arytenoid_adduction, Arytenoid adduction | other, Other",,,,,,"[diagnosis_uvfp_treatment_select(surgery)]=""1""",y,,,,,
 diagnosis_uvfp_treatment_surgery_other,d_voice_unilateral_vocal_fold_paralysis,,text,"Other Surgery / Procedure, please specify",,,,,,,"[diagnosis_uvfp_treatment_surgery(other)]=""1""",,,,,,
@@ -511,37 +525,37 @@ mbd_ever_seen_heard,d_mood_bipolar_disorder,,radio,"Have you ever seen things ot
 mbd_had_manic_episode,d_mood_bipolar_disorder,,radio,"Have you ever had a manic episode (i.e., While not under the influence of substances, a distinct period of abnormally and persistently elevated, expansive, or irritable mood and abnormally and persistently goal-directed behavior or energy, lasting at least 1 week and present most of the day, nearly every day)?","yes, Yes | no, No",,,,,,,,,,,,
 diagnosis_bipolar_gsd,d_mood_bipolar_disorder,,radio,"Diagnosis
 
-(Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,,,,,,
+(Legacy)","bipolar_1, Bipolar I disorder | bipolar_2, Bipolar II disorder | cyclothymia, Cyclothymic disorder (cyclothymia) | other, Other specified and unspecified bipolar and related disorders",,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_gsd_interview,d_mood_bipolar_disorder,,yesno,"Was a structured clinical interview done?
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_gsd_oqu,d_mood_bipolar_disorder,,yesno,"Was an objective questionnaire used?
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_gsd_oquw,d_mood_bipolar_disorder,,radio,"Which objective questionnaire was used?
 
-(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",,,,,,
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_bipolar_gsd_oqu]=""1""",,,,,," @HIDDEN"
 diagnosis_bipolar_gsd_oqu_other,d_mood_bipolar_disorder,,text,"Please specify
 
-(Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",,,,,,
+(Legacy)",,,,,,,"[diagnosis_bipolar_gsd_oquw]=""other""",,,,,," @HIDDEN"
 mbd_active_psy_med_problems,d_mood_bipolar_disorder,"2. Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 mbd_active_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_active_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 mbd_hist_psy_med_problems,d_mood_bipolar_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 mbd_hist_psy_med_prob_other,d_mood_bipolar_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_hist_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 diagnosis_bipolar_active_problems,d_mood_bipolar_disorder,,text,"Enter list of active problems
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_history_problems,d_mood_bipolar_disorder,,text,"Enter any history of problems
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 mbd_last_depressive_episode,d_mood_bipolar_disorder,"3. Bipolar History",text,"When was your last depressive episode (feeling down and depressed more days than not over two weeks)?",,,date_ymd,,,y,,,,,,,
 mbd_many_depressive_episodes,d_mood_bipolar_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
 mbd_last_manic_episode,d_mood_bipolar_disorder,,text,"When was your last manic episode?",,,date_ymd,,,y,,,,,,,
@@ -550,81 +564,81 @@ diagnosis_bipolar_subtype_active,d_mood_bipolar_disorder,"3. Disease Subtype
 
 (Legacy)",radio,"Disease Subtype
 
-(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,,
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_psychotic,d_mood_bipolar_disorder,,radio,"Psychotic Symptoms
 
-(Legacy)","with, With | without, Without",,,,,,,,,,,,
+(Legacy)","with, With | without, Without",,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_etiology,d_mood_bipolar_disorder,"4. Etiology
 
 (Legacy)",text,"Describe life events that may relate to the diagnosis
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_severity,d_mood_bipolar_disorder,"5. Disease Severity
 
 (Legacy)",radio,"Disease Severity
 
-(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
+(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,," @HIDDEN"
 mbd_prescribed_medication,d_mood_bipolar_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 mbd_current_medication,d_mood_bipolar_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 mbd_previous_medication,d_mood_bipolar_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
 approximate dates you were taking them, and why they were discontinued.
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 mbd_see_mental_health_professional,d_mood_bipolar_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 mbd_describe_psychotherapy,d_mood_bipolar_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
 dates, reasons for seeking therapy, etc.).
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_see_mental_health_professional]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[mbd_see_mental_health_professional]=""yes""",,,,,," @HIDDEN"
 diagnosis_bipolar_current_med_therapies,d_mood_bipolar_disorder,,text,"List any current medications/therapies
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"List any former medications/therapies
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 dmdd_diagnosed_dd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with a depressive disorder?","yes, Yes | no, No",,,,,,,y,,,,,
 dmdd_diagnosed_dd_selection,d_mood_depression_or_major_depressive_disorder,,radio,"Major Depressive Disorder","6B43, 6B43 Adjustment disorder | 6B20, 6B20 OCD | 6A70, 6A70 Single episode depressive disorder | 6A71, 6A71 Recurrent depressive disorder | 6A72, 6A72 Dysthymic disorder | 6A73, 6A73 Mixed depressive and anxiety disorder | GA34.41, GA34.41 Premenstrual dysphoric disorder | 6A7Y, 6A7Y Other specified depressive disorders | 6A7Z, 6A7Z Depressive disorders, unspecified",,,,,,[dmdd_diagnosed_dd]='yes',y,,,,,
 diagnosis_depression_gsd,d_mood_depression_or_major_depressive_disorder,,radio,"Diagnosis 
 
-(Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,,,,,,
+(Legacy)","clinical_depression, Clinical depression (major depressive disorder) | pdd, Persistent depressive disorder (PDD) | dmdd, Disruptive mood dysregulation disorder (DMDD) | pmdd, Premenstrual dysphoric disorder (PMDD) | other, Depressive disorder due to another medical condition",,,,,,,,,,,," @HIDDEN"
 diagnosis_depression_clinical_subcategory,d_mood_depression_or_major_depressive_disorder,,radio,"Clinical depression (major depressive disorder) Subcategory
 
-(Legacy)","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",,,,,,
+(Legacy)","seasonal_depression, Seasonal affective disorder (seasonal depression) | prenatal_postpartum_depression, Prenatal depression and postpartum depression | atypical_depression, Atypical depression",,,,,,"[diagnosis_depression_gsd] = ""clinical_depression""",,,,,," @HIDDEN"
 diagnosis_depression_gsd_interview,d_mood_depression_or_major_depressive_disorder,,yesno,"Was a structured clinical interview done?
 
-(Legacy)",,,,,,,,y,,,,,
+(Legacy)",,,,,,,,y,,,,," @HIDDEN"
 diagnosis_depression_gsd_oqu,d_mood_depression_or_major_depressive_disorder,,yesno,"Was an objective questionnaire used?
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_depression_gsd_oquw,d_mood_depression_or_major_depressive_disorder,,radio,"Which objective questionnaire was used?
 
-(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",,,,,,
+(Legacy)","phq9, Patient Health Questionnaire (PHQ-9) | hamD, HAM-D | bdi, Beck Depression Inventory (BDI) | other, Other",,,,,,"[diagnosis_depression_gsd_oqu]=""1""",,,,,," @HIDDEN"
 diagnosis_depression_gsd_oqu_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
 
-(Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",,,,,,
+(Legacy)",,,,,,,"[diagnosis_depression_gsd_oquw]=""other""",,,,,," @HIDDEN"
 dmdd_active_psy_med_problems,d_mood_depression_or_major_depressive_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 dmdd_active_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_active_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 dmdd_hist_psy_med_problems,d_mood_depression_or_major_depressive_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 dmdd_hist_psy_med_prob_other,d_mood_depression_or_major_depressive_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_hist_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 diagnosis_bipolar_active_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter list of active problems
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_history_problems_depression,d_mood_depression_or_major_depressive_disorder,,text,"Enter any history of problems
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 dmdd_last_depressive_episode,d_mood_depression_or_major_depressive_disorder,"3. Depression History",text,"When was your last depressive episode (feeling depressed more days than not over
 two weeks)?",,,date_ymd,,,,,,,,,,
 dmdd_how_many_depressive_episodes,d_mood_depression_or_major_depressive_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
@@ -632,83 +646,83 @@ diagnosis_bipolar_subtype_active_depression,d_mood_depression_or_major_depressiv
 
 (Legacy)",radio,"Disease Subtype
 
-(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,,
+(Legacy)","active, Active | recurrent, Recurrent",,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_psychotic_depression,d_mood_depression_or_major_depressive_disorder,,radio,"Psychotic Symptoms
 
-(Legacy)","with, With | without, Without",,,,,,,,,,,,
+(Legacy)","with, With | without, Without",,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_etiology_depression,d_mood_depression_or_major_depressive_disorder,"4.	Etiology
 
 (Legacy)",text,"Describe life events that may relate to the diagnosis
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_severity_depression,d_mood_depression_or_major_depressive_disorder,"5.	Disease Severity
 
 (Legacy)",radio,"Disease Severity
 
-(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,,,,,,
+(Legacy)","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,,,,,," @HIDDEN"
 dmdd_prescribed_medication,d_mood_depression_or_major_depressive_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 dmdd_current_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
 and how many times per day.
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 dmdd_previous_medication,d_mood_depression_or_major_depressive_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
 approximate dates you were taking them, and why they were discontinued.
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 dmdd_see_mental_health_professional,d_mood_depression_or_major_depressive_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 dmdd_describe_psychotherapy,d_mood_depression_or_major_depressive_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
 dates, reasons for seeking therapy, etc.).
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_see_mental_health_professional]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[dmdd_see_mental_health_professional]=""yes""",,,,,," @HIDDEN"
 diagnosis_bipolar_current_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any current medications/therapies
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"List any former medications/therapies
 
-(Legacy)",,,,,,,,,,,,,
+(Legacy)",,,,,,,,,,,,," @HIDDEN"
 diagnosis_diagnosed_ad,d_mood_anxiety_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with an anxiety disorder?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_diagnosed_ad_selection,d_mood_anxiety_disorder,,radio,"Anxiety Disorder","6B80, 6B80 Anorexia nervosa | 6B81, 6B81 Bulimia nervosa | 6B82, 6B82 Binge eating disorder | 6B83, 6B83 Avoidant-restrictive food intake disorder | 6B84, 6B84 Pica | 6B85, 6B85 Rumination-regurgitation disorder | 6B8Y, 6B8Y Other specified feeding or eating disorders | 6B8Z, 6B8Z Feeding or eating disorders, unspecified | 6B00, 6B00 Generalized Anxiety Disorder | 6B01, 6B01 Panic Disorder | 6B02, 6B02 Agoraphobia | 6B04, 6B04 Social Anxiety Disorder | 6B05, 6B05 Separation Anxiety Disorder | 6B06, 6B06 Selective Mutism | 6B0Y, 6B0Y Other Specified Anxiety or Fear-Related Disorders | 6B0Z, 6B0Z Anxiety or fear-related disorders, unspecified",,,,,,[diagnosis_diagnosed_ad]='yes',y,,,,,
 diagnosis_ad_active_psy_med_problems,d_mood_anxiety_disorder,"2.	Medical and Psychiatric comorbidities",checkbox,"Please select any active psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 diagnosis_ad_active_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_active_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_active_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 diagnosis_ad_hist_psy_med_problems,d_mood_anxiety_disorder,,checkbox,"Please select any historical psychiatric problems and medical problems (select all that apply).
 
-MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","adhd, ADHD | anxiety, Anxiety | ocd, OCD | stroke, Stroke | epilepsy, Epilepsy | laryngeal_cancer, Laryngeal cancer | seasonal_allergies, Seasonal allergies | other, Other",,,,,,,,,,,," @HIDDEN"
 diagnosis_ad_hist_psy_med_prob_other,d_mood_anxiety_disorder,,text,"Please specify
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_hist_psy_med_problems(other)]=""1""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_hist_psy_med_problems(other)]=""1""",,,,,," @HIDDEN"
 diagnosis_ad_last_anxious_episode,d_mood_anxiety_disorder,"3. Anxiety History",text,"When was your last anxious episode (feeling anxious more days than not over
-two weeks)?",,,date_ymd,,,,,,,,,,
+two weeks)?",,,date_ymd,,,,,,,,,," @HIDDEN"
 diagnosis_ad_prescribed_medication,d_mood_anxiety_disorder,"4. Treatment obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 diagnosis_ad_current_medication,d_mood_anxiety_disorder,,notes,"Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage,
 and how many times per day.
 
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 diagnosis_ad_previous_medication,d_mood_anxiety_disorder,,notes,"Please list any previous psychiatric medications (to the best of your recollection), including medication names,
 approximate dates you were taking them, and why they were discontinued.
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_prescribed_medication]=""yes""",,,,,," @HIDDEN"
 diagnosis_ad_see_mental_health_professional,d_mood_anxiety_disorder,,radio,"Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?
 
-MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,,
+MOVED IT TO ""Q - Mood - Participant History""","yes, Yes | no, No",,,,,,,,,,,," @HIDDEN"
 diagnosis_ad_describe_psychotherapy,d_mood_anxiety_disorder,,notes,"Please briefly describe your psychotherapy history (e.g.,
 dates, reasons for seeking therapy, etc.).
 
-MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_see_mental_health_professional]=""yes""",,,,,,
-diagnosis_as_pft,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Has the patient had pulmonary function testing within the past 3 months?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
-diagnosis_as_gsd,d_resp_airway_stenosis,,radio,"Does the patient have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+MOVED IT TO ""Q - Mood - Participant History""",,,,,,,"[diagnosis_ad_see_mental_health_professional]=""yes""",,,,,," @HIDDEN"
+diagnosis_as_gsd,d_resp_airway_stenosis,"1. Gold Standard Diagnosis",radio,"Does the participant have airway stenosis confirmed by a laryngoscopy, bronchoscopy or CT imaging?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_gsd_yes,d_resp_airway_stenosis,,checkbox,"Confirmed by","bronchoscopy, Confirmed by bronchoscopy or laryngoscopy | ct, Confirmed by CT imaging",,,,,,"[diagnosis_as_gsd] = ""yes""",y,,,,,
+diagnosis_as_pft,d_resp_airway_stenosis,,radio,"Has the participant had pulmonary function testing within the past 3 months?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_as_pft_document,d_resp_airway_stenosis,,file,"Please upload the PFT document",,,,,,,"[diagnosis_as_pft] = ""yes""",,,,,,
 diagnosis_as_ds,d_resp_airway_stenosis,"2. Disease Subtype",radio,"Disease Subtype","subglotticStenosis, Subglottic Stenosis | bilateralVocalFoldImmobilityGlotticStenosis, Bilateral Vocal fold immobility or Glottic Stenosis | supraglotticStenosis, Supraglottic Stenosis | trachealStenosis, Tracheal Stenosis | multilevelUpperAirwayStenosis, Multi-Level Upper Airway Stenosis",,,,,,,y,,,,,
 diagnosis_as_ds_bvfi_gs,d_resp_airway_stenosis,,radio,"Bilateral Vocal fold immobility or Glottic Stenosis Subtype","posteriorGlotticStenosis, Posterior Glottic Stenosis | bilateralVocalFoldParalysis, Bilateral Vocal Fold Paralysis | anteriorGlotticWeb, Anterior glottic Web | tbd, Not certain or TBD | other, Other",,,,,,"[diagnosis_as_ds] = 'bilateralVocalFoldImmobilityGlotticStenosis'",y,,,,,
 diagnosis_as_ds_bvfi_gs_other,d_resp_airway_stenosis,,text,"Other, Please specify",,,,,,,"[diagnosis_as_ds_bvfi_gs] = 'other'",,,,,,
@@ -728,13 +742,13 @@ diagnosis_as_ds_ac,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classi
 diagnosis_as_ds_ac_grade_4,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade4t, Grade 4T | grade4g, Grade 4G | grade4tg, Grade 4TG",,,,,,"[diagnosis_as_ds_ac] = 'grade4'",y,,,,,
 diagnosis_as_ds_ac_ref,d_resp_airway_stenosis,,descriptive,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)
 Picture for reference",,,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",,,,,,
-diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?",,,number,,,,,,RH,,,,
+diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?","0 |  | 100",,number,,,,,,RH,,,,
 diagnosis_as_ds_ods,d_resp_airway_stenosis,,radio,"How would you subjectively classify the overall degree of stenosis?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
-diagnosis_as_as,d_resp_airway_stenosis,,radio,"Does this patient have audible stridor at rest or when talking? ","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_as_as,d_resp_airway_stenosis,,radio,"Does this participant have audible stridor at rest or when talking?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_as_s,d_resp_airway_stenosis,,radio,"Can you subjectively classify the severity of the stridor?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,"[diagnosis_as_as] = 'yes'",y,,,,,
 diagnosis_as_as_c,d_resp_airway_stenosis,,radio,"Is the stridor:","inspiratory, Inspiratory | expiratory, Expiratory | biphasic, Biphasic",,,,,,"[diagnosis_as_as] = 'yes'",y,,,,,
 diagnosis_as_ds_mluas,d_resp_airway_stenosis,,notes,"Please describe levels and severity of stenosis involved",,,,,,,[diagnosis_as_ds]='multilevelUpperAirwayStenosis',,RH,,,,
-diagnosis_as_treatment,d_resp_airway_stenosis,"5. Treatment obtained",checkbox,"What treatment has the patient undergone for their stenosis?","no_treatment, No treatment | surgery, Surgery | in_office_treatment, In-office treatment",,,,,,,y,,,,,
+diagnosis_as_treatment,d_resp_airway_stenosis,"5. Treatment obtained",checkbox,"What treatment has the participant undergone for their stenosis?","no_treatment, No treatment | surgery, Surgery | in_office_treatment, In-office treatment",,,,,,,y,,,,,
 diagnosis_as_treatment_surgery,d_resp_airway_stenosis,,checkbox,"Surgery options","endoscopic_intervention, Endoscopic intervention with Laser and Balloon dilation and steroid injection | endoscopic_excision, Endoscopic laser wedge excision with balloon dilation and steroid injection | laryngotracheal_reconstruction, Open Laryngotracheal reconstruction | laryngotracheoplasty, Laryngotracheoplasty (Maddern procedure) | tracheostomy, Tracheostomy | other, Other",,,,,,"[diagnosis_as_treatment(surgery)] = ""1""",y,,,,,
 diagnosis_as_treatment_surgery_other,d_resp_airway_stenosis,,text,"Other Surgery option, Please Specify",,,,,,,"[diagnosis_as_treatment_surgery(other)]=""1""",,,,,,
 diagnosis_as_treatment_in_office,d_resp_airway_stenosis,,checkbox,"In-office/awake treatment options","steroid_injections_sole, Awake Steroid injection(s) as sole treatment | steroid_injections_adjunct, Awake Steroid injection(s) as adjunct treatment | dilation, In-office or awake dilation | laser, In-office or awake laser",,,,,,"[diagnosis_as_treatment(in_office_treatment)] = ""1""",y,,,,,
@@ -783,38 +797,40 @@ diagnosis_ca_significant_inhalation_exposure_history_explanation,d_resp_copd_and
 diagnosis_ca_enviromental_allergy_history,d_resp_copd_and_asthma,,radio,"Does the patient have a strong environmental allergy history?","yes, Yes | no, No | not_certain, Not Certain",,,,,,,,,,,,
 diagnosis_ca_pharmacologic_treatment,d_resp_copd_and_asthma,"4. Treatment obtained",checkbox,"What pharmacologic treatment is the patient currently receiving? (Select all that apply)","laba, LABA | lama, LAMA | saba, SABA | sama, SAMA | ics, ICS | pde_4, PDE 4 inhibitor | methylxanthines, Methylxanthines | biologics, Biologics | systemic_steroids, Systemic steroids | antibiotics, Antibiotics | mucolytics, Mucolytics | pde_3, PDE 3 and Inhibitor | leukotriene_inhibitors, Leukotriene Inhibitors | others, Others",,,,,,,,,,,,
 diagnosis_ca_ics_dosage,d_resp_copd_and_asthma,,checkbox,"Is the patient on low, medium or high dose ICS?","low, Low dose | medium, Medium dose | high, High dose | notCertain, Not Certain",,,,,,[diagnosis_ca_pharmacologic_treatment(ics)]='1',,,,,,
-diagnosis_ucc_persisted,d_resp_unexplained_chronic_cough,"1. Initial screening criteria",radio,"Has the cough persisted longer than eight weeks?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_hsoe,d_resp_unexplained_chronic_cough,,radio,"Does the patient have a history of smoking or occupational exposures?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_hspd,d_resp_unexplained_chronic_cough,,checkbox,"Does the patient have a history of pulmonary disease? (Select all that apply)","lung_cancer, Lung cancer | copd, COPD | asthma, Asthma | tb_infection, TB infection | bronchiectasis, Bronchiectasis | pulmonary_granuloma, Pulmonary granuloma | idiopathic_pulmonary_fibrosis, Idiopathic pulmonary fibrosis | other, Other",,,,,,,,,,,,
-diagnosis_ucc_cuae,d_resp_unexplained_chronic_cough,,radio,"Has the chronic cough remained unexplained after evaluation and therapeutic intervention?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_hcxob,d_resp_unexplained_chronic_cough,,radio,"Has the patient had a chest x-ray, CT chest or bronchoscopy?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_persisted,d_resp_unexplained_chronic_cough,"1. Initial screening criteria",radio,"Does the participant have Unxeplained Chronic Cough for  longer than eight weeks?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_hsoe,d_resp_unexplained_chronic_cough,,radio,"Does the participant have a history of smoking or occupational exposures?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_hspd,d_resp_unexplained_chronic_cough,,checkbox,"Does the participant have a history of pulmonary disease? (Select all that apply)","lung_cancer, Lung cancer | copd, COPD | asthma, Asthma | tb_infection, TB infection | bronchiectasis, Bronchiectasis | pulmonary_granuloma, Pulmonary granuloma | idiopathic_pulmonary_fibrosis, Idiopathic pulmonary fibrosis | other, Other",,,,,,,,,,,,
+diagnosis_ucc_cuae,d_resp_unexplained_chronic_cough,,radio,"Has the chronic cough remained unexplained after evaluation and therapeutic intervention?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_hcxob,d_resp_unexplained_chronic_cough,,radio,"Has the participant had a chest x-ray, CT chest or bronchoscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_cxcob,d_resp_unexplained_chronic_cough,,checkbox,"Select all that apply","chest_xray, Chest X-ray | ct_chest, CT Chest | bronchoscopy, Bronchoscopy",,,,,,"[diagnosis_ucc_hcxob] = ""yes""",y,,,,,
-diagnosis_ucc_huse,d_resp_unexplained_chronic_cough,,radio,"Has the patient undergone spirometry evaluation (pulmonary function tests)?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_oai,d_resp_unexplained_chronic_cough,,radio,"Is the patient on ACE-inhibitors (example: lisinopril; captopril)?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_pdapc,d_resp_unexplained_chronic_cough,,radio,"Has postnasal drainage been addressed as a potential cause of the cough (through nasal sprays and antihistamines)?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_gediapc,d_resp_unexplained_chronic_cough,,radio,"Has gastro-esophageal disease been investigated as a possible cause of the cough?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_huse,d_resp_unexplained_chronic_cough,,radio,"Has the participant undergone spirometry evaluation (pulmonary function tests)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_oai,d_resp_unexplained_chronic_cough,,radio,"Is the participant on ACE-inhibitors (example: lisinopril; captopril)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_pdapc,d_resp_unexplained_chronic_cough,,radio,"Has postnasal drainage been addressed as a potential cause of the cough (through nasal sprays and antihistamines)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_gediapc,d_resp_unexplained_chronic_cough,,radio,"Has gastro-esophageal disease been investigated as a possible cause of the cough?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_atot,d_resp_unexplained_chronic_cough,,checkbox,"How was it investigated? (Select all that apply)","trial_of_proton_pump_inhibitor, Trial of proton pump inhibitor | phimpedance_probe_or_bravo_probe, pH-impedance probe or Bravo probe | egd_or_tne, EGD/TNE | other, Other (H2-blocker, lifestyle change, alginates)",,,,,,"[diagnosis_ucc_gediapc] = ""yes""",y,,,,,
-diagnosis_ucc_huatot,d_resp_unexplained_chronic_cough,,radio,"Has the patient undergone allergy testing or allergy therapy?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_ucc_hurada,d_resp_unexplained_chronic_cough,,radio,"Has the patient undergone assessment that includes bronchial hyperresponsiveness and eosinophilic bronchitis (sputum eosinophilia or exhaled nitric oxide), or a therapeutic corticosteroid trial?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_huatot,d_resp_unexplained_chronic_cough,,radio,"Has the participant undergone allergy testing or allergy therapy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_ucc_hurada,d_resp_unexplained_chronic_cough,,radio,"Has the participant undergone assessment that includes bronchial hyperresponsiveness and eosinophilic bronchitis (sputum eosinophilia or exhaled nitric oxide), or a therapeutic corticosteroid trial?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_ucc_rada,d_resp_unexplained_chronic_cough,,radio,Result,"positive, Positive for reactive airway disease | negative, Negative for reactive airway disease",,,,,,"[diagnosis_ucc_hurada] = ""yes""",y,,,,,
-diagnosis_ucc_at,d_resp_unexplained_chronic_cough,"2. Treatment obtained",radio,"Has the patient undergone any treatment for this condition?","yes, Yes | no, No | notCertain, Not Certain",,,,,,,y,,,,,
+diagnosis_ucc_at,d_resp_unexplained_chronic_cough,"2. Treatment obtained",radio,"Has the participant undergone any treatment for this condition?","yes, Yes | no, No | notCertain, Not Certain",,,,,,,y,,,,,
 diagnosis_ucc_at_s,d_resp_unexplained_chronic_cough,,checkbox,"Select all that apply","multimodality_speech_pathology_therapy, Therapeutic trial of multimodality speech pathology therapy | neuromodulator, Therapeutic trial of gabapentin/amitriptyline or other neuromodulator | superior_laryngeal_nerve_block, Unilateral or bilateral superior laryngeal nerve block | other, Other",,,,,,"[diagnosis_ucc_at] = ""yes""",y,,,,,
 diagnosis_ucc_at_s_other,d_resp_unexplained_chronic_cough,,text,"Please Specify",,,,,,,"[diagnosis_ucc_at_s(other)]=""1""",,,,,,
-diagnosis_alz_dementia_mci_gsd_clinical_history,d_neuro_alzheimers_disease_mild_cognitive_impairme,"1. Gold Standard Diagnosis
-Does the patient have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia confirmed by going through
+diagnosis_alz_dementia_mci_gsd,d_neuro_alzheimers_disease_mild_cognitive_impairme,"1. Gold Standard Diagnosis",radio,"Does the participant have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_gsd_confirmation_method,d_neuro_alzheimers_disease_mild_cognitive_impairme,,checkbox,"How was this diagnosis confirmed? (Check all that apply)","clinical_history, Clinical History | functional_inventory, Functional Inventory | cognitive_testing, Cognitive Testing | blood_biomarkers, Blood Biomarkers | other, Other",,,,,,[diagnosis_alz_dementia_mci_gsd]='yes',y,,,,,
+diagnosis_alz_dementia_mci_gsd_confirmation_method_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Please specify:",,,,,,,[diagnosis_alz_dementia_mci_gsd_confirmation_method(other)]='1',y,,,,,
+diagnosis_alz_dementia_mci_gsd_clinical_history,d_neuro_alzheimers_disease_mild_cognitive_impairme,"Does the participant have Major Neurocognitive Disorder - Alzheimer's Type, Mild Cognitive Impairment or other types of dementia confirmed by going through
 (must fill at least one):",text,"Clinical history:",,,,,,,,,,,,,
 diagnosis_alz_dementia_mci_gsd_functional_inventory,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Functional Inventory:",,,,,,,,,,,,,
 diagnosis_alz_dementia_mci_gsd_cognitive_testing,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Cognitive Testing:",,,,,,,,,,,,,
 diagnosis_alz_dementia_mci_gsd_other_investigations,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Other investigations:",,,,,,,,,,,,,
-diagnosis_alz_dementia_mci_causes,d_neuro_alzheimers_disease_mild_cognitive_impairme,,radio,"Have you excluded other causes of cognitive/functional changes (and/or other subtypes)?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_alz_dementia_mci_dt,d_neuro_alzheimers_disease_mild_cognitive_impairme,"2. Disease Type",radio,"Specify the disease type in the patient:","mci, Mild Cognitive Impairment (MCI) | ad, Typical Alzheimer's Disease (AD) | ftd, Frontotemporal Dementia (FTD) | lbd, Lewy Body Dementia (LBD) | vad, Vascular Dementia (VaD) | mixed, Mixed Dementia (e.g., AD and VaD) | other, Other",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_causes,d_neuro_alzheimers_disease_mild_cognitive_impairme,,radio,"Have you excluded other causes of cognitive/functional changes (and/or other subtypes)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_dt,d_neuro_alzheimers_disease_mild_cognitive_impairme,"2. Disease Type",radio,"Specify the disease type in the participant:","mci, Mild Cognitive Impairment (MCI) | ad, Typical Alzheimer's Disease (AD) | ftd, Frontotemporal Dementia (FTD) | lbd, Lewy Body Dementia (LBD) | vad, Vascular Dementia (VaD) | mixed, Mixed Dementia (e.g., AD and VaD) | other, Other",,,,,,,y,,,,,
 diagnosis_alz_dementia_mci_dt_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""other"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_dt] = 'other'",y,,,,,
-diagnosis_alz_dementia_mci_etiology,d_neuro_alzheimers_disease_mild_cognitive_impairme,"3. Etiology",checkbox,"What is the suspected or known etiology in the patient?","genetic_factors, Genetic factors | age_related_changes, Age-related changes | other_medical_conditions, Other medical conditions (e.g., vascular factors, traumatic brain injury) | substance_related, Substance-related (e.g., alcohol-induced cognitive impairment) | other, Other",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_etiology,d_neuro_alzheimers_disease_mild_cognitive_impairme,"3. Etiology",checkbox,"What is the suspected or known etiology in the participant?","genetic_factors, Genetic factors | age_related_changes, Age-related changes | other_medical_conditions, Other medical conditions (e.g., vascular factors, traumatic brain injury) | substance_related, Substance-related (e.g., alcohol-induced cognitive impairment) | other, Other",,,,,,,y,,,,,
 diagnosis_alz_dementia_mci_etiology_gf,d_neuro_alzheimers_disease_mild_cognitive_impairme,,checkbox,"Genetic Factors Subcategory","familial_alzheimers_disease, Familial Alzheimer's disease (e.g., mutations in APP, PSEN1, PSEN2 genes) | apolipoprotein_e, Apolipoprotein E (APOE) ε4 allele | other_genetic_factors, Other genetic factors",,,,,,"[diagnosis_alz_dementia_mci_etiology(genetic_factors)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_etiology_gf_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""Other genetic factors"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_etiology_gf(other_genetic_factors)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_etiology_other_medical_conditions,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""other medical conditions"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_etiology(other_medical_conditions)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_etiology_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""other"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_etiology(other)] = 1",y,,,,,
-diagnosis_alz_dementia_mci_ds,d_neuro_alzheimers_disease_mild_cognitive_impairme,"4. Disease Severity",checkbox,"What is the current stage/severity of cognitive impairment or dementia in the patient?","mci, Mild cognitive impairment (MCI) | cdr, Clinical dementia rating (CDR) staging",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_ds,d_neuro_alzheimers_disease_mild_cognitive_impairme,"4. Disease Severity",checkbox,"What is the current stage/severity of cognitive impairment or dementia in the participant?","mci, Mild cognitive impairment (MCI) | cdr, Clinical dementia rating (CDR) staging",,,,,,,y,,,,,
 diagnosis_alz_dementia_mci_ds_cdr,d_neuro_alzheimers_disease_mild_cognitive_impairme,,radio,"Clinical dementia rating (CDR) staging subcategory:","cdr0_5, CDR 0.5 (Very mild impairment) | cdr1, CDR 1 (Mild impairment) | cdr2, CDR 2 (Moderate impairment) | cdr3, CDR 3 (Severe impairment)",,,,,,"[diagnosis_alz_dementia_mci_ds(cdr)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_ca_rudas_score,d_neuro_alzheimers_disease_mild_cognitive_impairme,"5. Cognitive Assessment
 (must fill at least one)",text,"Rowland Universal Dementia Assessment Scale (RUDAS) score:",,,,,,,,,,,,,
@@ -823,24 +839,25 @@ diagnosis_alz_dementia_mci_ca_moca_score,d_neuro_alzheimers_disease_mild_cogniti
 diagnosis_alz_dementia_mci_ca_adas_cog_score,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) score:",,,,,,,,,,,,,
 diagnosis_alz_dementia_mci_ca_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Other cognitive assessment tool (Please Specify):",,,,,,,,,,,,,
 diagnosis_alz_dementia_mci_ca_other_score,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"Other cognitive assessment tool score:",,,,,,,,,,,,,
-diagnosis_alz_dementia_mci_treatment_obtained,d_neuro_alzheimers_disease_mild_cognitive_impairme,"6. Treatment Obtained",radio,"Has the patient undergone any treatment for Alzheimer's disease or cognitive impairment or other types of dementia?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_alz_dementia_mci_treatment_obtained,d_neuro_alzheimers_disease_mild_cognitive_impairme,"6. Treatment Obtained",radio,"Has the participant undergone any treatment for Alzheimer's disease or cognitive impairment or other types of dementia?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_alz_dementia_mci_treatment_obtained_yes,d_neuro_alzheimers_disease_mild_cognitive_impairme,,checkbox,Yes,"medications, Medications | npi, Non-pharmacological interventions",,,,,,"[diagnosis_alz_dementia_mci_treatment_obtained] = 'yes'",y,,,,,
 diagnosis_alz_dementia_mci_treatment_obtained_yes_medications,d_neuro_alzheimers_disease_mild_cognitive_impairme,,checkbox,Medications:,"cholinesterase_inhibitors, Cholinesterase inhibitors (e.g., Donepezil, Rivastigmine, Galantamine) | nmda_receptor_antagonist, NMDA receptor antagonist (e.g., Memantine) | other, Other",,,,,,"[diagnosis_alz_dementia_mci_treatment_obtained] = 'yes' and [diagnosis_alz_dementia_mci_treatment_obtained_yes(medications)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_treatment_obtained_yes_medications_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_treatment_obtained] = 'yes' and [diagnosis_alz_dementia_mci_treatment_obtained_yes(medications)] = 1 and [diagnosis_alz_dementia_mci_treatment_obtained_yes_medications(other)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_treatment_obtained_yes_npi,d_neuro_alzheimers_disease_mild_cognitive_impairme,,checkbox,"Non-pharmacological interventions:","day_program, Day program | cognitive_simulation_therapy, Cognitive stimulation therapy | reality_orientation_therapy, Reality orientation therapy | reminiscence_therapy, Reminiscence therapy | physical_exercise_program, Physical exercise program | dietary_modifications, Dietary modifications | other, Other",,,,,,"[diagnosis_alz_dementia_mci_treatment_obtained] = 'yes' and [diagnosis_alz_dementia_mci_treatment_obtained_yes(npi)] = 1",y,,,,,
 diagnosis_alz_dementia_mci_treatment_obtained_yes_npi_other,d_neuro_alzheimers_disease_mild_cognitive_impairme,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_alz_dementia_mci_treatment_obtained] = 'yes' and [diagnosis_alz_dementia_mci_treatment_obtained_yes(npi)] = 1 and [diagnosis_alz_dementia_mci_treatment_obtained_yes_npi(other)] = 1",y,,,,,
-diagnosis_als_gsd_category_1,d_neuro_amyotrophic_lateral_sclerosis_als,"1. Gold Standard Diagnosis
-Does the patient meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on:",radio,"(1) Progressive motor impairment documented by history or repeated clinical assessment, preceded by normal motor function;","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_als_gsd,d_neuro_amyotrophic_lateral_sclerosis_als,"1. Gold Standard Diagnosis",radio,"Does the participant have Amyotrophic Lateral Sclerosis (ALS)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_als_gsd_confirmation_method,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,"How was this diagnosis confirmed? (Check all that apply) ","progressive_motor_impairment, Progressive motor impairment documented by history or repeated clinical assessment, preceded by normal motor function | presence_of_umn_lmn_signs, Presence of UMN and LMN signs in at least 1 body region (with UMN and LMN dysfunction noted in the same body region if only one body region is involved) or LMN dysfunction in at least 2 body regions | investigations_excluding_disease_processes, Investigations excluding other disease processes",,,,,,[diagnosis_als_gsd]='yes',y,,,,,
+diagnosis_als_gsd_category_1,d_neuro_amyotrophic_lateral_sclerosis_als,"Does the participant meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on:",radio,"(1) Progressive motor impairment documented by history or repeated clinical assessment, preceded by normal motor function;","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_als_gsd_category_2,d_neuro_amyotrophic_lateral_sclerosis_als,,radio,"(2) presence of UMN and LMN signs in at least 1 body region (with UMN and LMN dysfunction noted in the same body region if only one body region is involved) or LMN dysfunction in at least 2 body regions;  ","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_als_gsd_category_3,d_neuro_amyotrophic_lateral_sclerosis_als,,radio,"(3) investigations excluding other disease processes.","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-diagnosis_als_gsd_calculation,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"Does the patient meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on the criteria above?",,,,,,,,,,,,," @CALCTEXT(if([diagnosis_als_gsd_category_1] = 'yes' && [diagnosis_als_gsd_category_2] = 'yes' && [diagnosis_als_gsd_category_3] = 'yes' , 'Yes', 'No'))"
-diagnosis_als_disease_subtype,d_neuro_amyotrophic_lateral_sclerosis_als,"2. Type of ALS",radio,"Specify the type of ALS in the patient:","sporadicAls, Sporadic ALS | familialAls, Familial ALS | spinalAls, Spinal/limb-onset ALS | bulbarAls, Bulbar-onset ALS",,,,,,,y,,,,,
+diagnosis_als_gsd_calculation,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"Does the participant meet the diagnostic criteria for Amyotrophic Lateral Sclerosis (ALS) based on the criteria above?",,,,,,,,,,,,," @CALCTEXT(if([diagnosis_als_gsd_category_1] = 'yes' && [diagnosis_als_gsd_category_2] = 'yes' && [diagnosis_als_gsd_category_3] = 'yes' , 'Yes', 'No'))"
+diagnosis_als_disease_subtype,d_neuro_amyotrophic_lateral_sclerosis_als,"2. Type of ALS",radio,"Specify the type of ALS in the participant:","sporadicAls, Sporadic ALS | familialAls, Familial ALS | spinalAls, Spinal/limb-onset ALS | bulbarAls, Bulbar-onset ALS",,,,,,,y,,,,,
 diagnosis_als_disease_subtype_familial,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Familial ALS"", please specify the genetic mutation if known:",,,,,,,"[diagnosis_als_disease_subtype] = 'familialAls'",,,,,,
-diagnosis_als_etiology,d_neuro_amyotrophic_lateral_sclerosis_als,"3. Etiology",checkbox,"What is the suspected or known etiology of ALS in the patient?","genetic_factors, Genetic factors | environmental_factors, Environmental factors",,,,,,,y,,,,,
+diagnosis_als_etiology,d_neuro_amyotrophic_lateral_sclerosis_als,"3. Etiology",checkbox,"What is the suspected or known etiology of ALS in the participant?","genetic_factors, Genetic factors | environmental_factors, Environmental factors",,,,,,,y,,,,,
 diagnosis_als_etiology_genetic_factors,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,"Genetic Factors","c9orf72, C9orf72 mutation | sod1, SOD1 mutation | other, Other genetic factors",,,,,,"[diagnosis_als_etiology(genetic_factors)] = 1",y,,,,,
 diagnosis_als_etiology_genetic_factors_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Other genetic factors"", please specify:",,,,,,,"[diagnosis_als_etiology_genetic_factors(other)] = 1",y,,,,,
 diagnosis_als_etiology_environmental_factors,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Environmental factors"", please specify:",,,,,,,"[diagnosis_als_etiology(environmental_factors)] = 1",y,,,,,
-diagnosis_als_cp,d_neuro_amyotrophic_lateral_sclerosis_als,"4. Clinical Presentation",checkbox,"Describe the clinical features and symptoms of ALS in the patient:","upper_motor_neuron, Upper Motor Neuron Signs (e.g., spasticity, hyperreflexia) | lower_motor_neuron, Lower Motor Neuron Signs (e.g., muscle weakness, atrophy, fasciculations) | bulbar_symptoms, Bulbar Symptoms (e.g., dysarthria, dysphagia) | respiratory_involvement, Respiratory Involvement",,,,,,,y,,,,,
+diagnosis_als_cp,d_neuro_amyotrophic_lateral_sclerosis_als,"4. Clinical Presentation",checkbox,"Describe the clinical features and symptoms of ALS in the participant:","upper_motor_neuron, Upper Motor Neuron Signs (e.g., spasticity, hyperreflexia) | lower_motor_neuron, Lower Motor Neuron Signs (e.g., muscle weakness, atrophy, fasciculations) | bulbar_symptoms, Bulbar Symptoms (e.g., dysarthria, dysphagia) | respiratory_involvement, Respiratory Involvement",,,,,,,y,,,,,
 diagnosis_als_dp,d_neuro_amyotrophic_lateral_sclerosis_als,"5. Disease Progression",radio,"Please provide information on the current stage and progression of ALS:","earlyStage, Early Stage | intermediateStage, Intermediate Stage | advancedStage, Advanced Stage",,,,,,,y,,,,,
 diagnosis_als_na_alsfrs_r_score,d_neuro_amyotrophic_lateral_sclerosis_als,"6. Neurological Assessment
 Please provide results from relevant neurological assessments:",text,"Revised ALS Functional Rating Scale (ALSFRS-R) score:",,,,,,,,,,,,,
@@ -851,26 +868,26 @@ diagnosis_als_idt_mri,d_neuro_amyotrophic_lateral_sclerosis_als,,file,"Magnetic 
 diagnosis_als_idt_lumbar_puncture,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"Lumbar Puncture (if performed, specify findings):",,,,,,,,,,,,,
 diagnosis_als_idt_genetic_testing,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"Genetic testing (if applicable, specify results):",,,,,,,,,,,,,
 diagnosis_als_idt_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"Other diagnostic tests (please specify):",,,,,,,,,,,,,
-diagnosis_als_treatment_and_management,d_neuro_amyotrophic_lateral_sclerosis_als,"8. Treatment and Management",radio,"Has the patient undergone any treatment or interventions for ALS?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_als_treatment_and_management,d_neuro_amyotrophic_lateral_sclerosis_als,"8. Treatment and Management",radio,"Has the participant undergone any treatment or interventions for ALS?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_als_treatment_and_management_yes,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,Yes,"medications, Medications | supportive_care, Supportive Care",,,,,,"[diagnosis_als_treatment_and_management] = 'yes'",y,,,,,
 diagnosis_als_treatment_and_management_yes_medications,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,"Medications (if applicable):","riluzole, Riluzole | edaravone, Edaravone | sodium, Sodium phenylbutyrate/taurursodiol | tofersen, Tofersen | symptomatic_treatment, Symptomatic treatment (e.g., for spasticity, pain) | other, Other",,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(medications)] = 1",y,,,,,
 diagnosis_als_treatment_and_management_yes_medications_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(medications)] = 1 and [diagnosis_als_treatment_and_management_yes_medications(other)] = 1",y,,,,,
 diagnosis_als_treatment_and_management_yes_supportive_care,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,"Supportive Care:","physical_therapy, Physical therapy | occupational_therapy, Occupational therapy | speech_therapy, Speech therapy | respiratory_support, Respiratory support (e.g., non-invasive ventilation) | nutrition_support, Nutrition and swallowing support | psychotherapy, Psychotherapy | other, Other",,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(supportive_care)] = 1",y,,,,,
 diagnosis_als_treatment_and_management_yes_supportive_care_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(supportive_care)] = 1 and [diagnosis_als_treatment_and_management_yes_supportive_care(other)] = 1",y,,,,,
-diagnosis_parkinsons_gsd_category_1,d_neuro_parkinsons_disease,"1. Gold Standard Diagnosis
-Does the patient meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:",checkbox,"Category 1 - Parkinsonism","bradykinesia, Bradykinesia | tremor, Tremor | rigidity, Rigidity",,,,,,,y,,,,,
+diagnosis_parkinsons_gsd,d_neuro_parkinsons_disease,"1. Gold Standard Diagnosis",radio,"Does the participant have Parkinson's Disease (Parkinsonism)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,,
+diagnosis_parkinsons_gsd_category_1,d_neuro_parkinsons_disease,"Does the participant meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:",checkbox,"Category 1 - Parkinsonism","bradykinesia, Bradykinesia | tremor, Tremor | rigidity, Rigidity",,,,,,,y,,,,,
 diagnosis_parkinsons_gsd_category_1_calculation,d_neuro_parkinsons_disease,,text,"Category 1 Criteria Met",,,,,,,,,,,,," @CALCTEXT(if(([diagnosis_parkinsons_gsd_category_1(bradykinesia)] && ([diagnosis_parkinsons_gsd_category_1(tremor)] || [diagnosis_parkinsons_gsd_category_1(rigidity)])), 'Yes', 'No'))"
 diagnosis_parkinsons_gsd_category_2,d_neuro_parkinsons_disease,,checkbox,"Category 2 - Exclusion criteria","cerebellar_abnormalities, Cerebellar abnormalities | supranuclear_gaze_palsy, Supranuclear gaze palsy | bvf_ftd_ppa, Diagnosis of behavioral variant of frontotemporal dementia or primary progressive aphasia within 5 years of disease onset | lower_limbs, Parkinsonian features restricted to the lower limbs for more than 3 years | dopamine_treatment, Treatment with a dopamine receptor blocker or dopamine depleting agent consistent with drug-induced parkinsonism | absence_of_response, Absence of a response to high-dose levodopa despite at least moderate disease severity | cortical_sensory_loss, Cortical sensory loss, clear limb ideomotor apraxia, or progressive aphasia | dat_scan, Normal functional imaging of the dopaminergic system (""DAT scan"") | alternative_condition, Diagnosis of alternative condition causing parkinsonism which could be causing the symptoms",,,,,,,,,,,,
 diagnosis_parkinsons_gsd_category_2_calculation,d_neuro_parkinsons_disease,,text,"Category 2 Criteria Met",,,,,,,,,,,,," @CALCTEXT(if(([diagnosis_parkinsons_gsd_category_2(cerebellar_abnormalities)] || [diagnosis_parkinsons_gsd_category_2(supranuclear_gaze_palsy)] || [diagnosis_parkinsons_gsd_category_2(bvf_ftd_ppa)] || [diagnosis_parkinsons_gsd_category_2(lower_limbs)] || [diagnosis_parkinsons_gsd_category_2(dopamine_treatment)] || [diagnosis_parkinsons_gsd_category_2(absence_of_response)] || [diagnosis_parkinsons_gsd_category_2(cortical_sensory_loss)] || [diagnosis_parkinsons_gsd_category_2(dat_scan)] || [diagnosis_parkinsons_gsd_category_2(alternative_condition)]), 'No', 'Yes'))"
 diagnosis_parkinsons_gsd_category_3,d_neuro_parkinsons_disease,,checkbox,"Category 3 - Supportive criteria","response_dopaminergic_therapy, Clear beneficial response to dopaminergic therapy | levodopa_induced_dyskinesia, Presence of levodopa-induced dyskinesia | rest_tremor, Rest tremor of a limb | mibg, The presence of either olfactory loss or cardiac sympathetic denervation on MIBG scintigraphy (although the latter is rarely done in current practice)",,,,,,,y,,,,,
 diagnosis_parkinsons_gsd_category_3_calculation,d_neuro_parkinsons_disease,,text,"Category 3 Criteria Met",,,,,,,,,,,,," @CALCTEXT(if([diagnosis_parkinsons_gsd_category_3(response_dopaminergic_therapy)] + [diagnosis_parkinsons_gsd_category_3(levodopa_induced_dyskinesia)] + [diagnosis_parkinsons_gsd_category_3(rest_tremor)] + [diagnosis_parkinsons_gsd_category_3(mibg)] > 1, 'Yes', 'No'))"
-diagnosis_parkinsons_gsd_calculation,d_neuro_parkinsons_disease,,text,"Does the patient meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on the criteria above?",,,,,,,,,,,,," @CALCTEXT(if([diagnosis_parkinsons_gsd_category_1_calculation] = 'Yes' && [diagnosis_parkinsons_gsd_category_2_calculation] = 'Yes' && [diagnosis_parkinsons_gsd_category_3_calculation] = 'Yes' , 'Yes', 'No'))"
-diagnosis_parkinsons_disease_subtype,d_neuro_parkinsons_disease,"2. Disease Type",radio,"Specify the subtype of Parkinson's Disease in the patient:","ipd, Idiopathic Parkinson's Disease (IPD) | msa, Multiple System Atrophy (MSA) | psp, Progressive Supranuclear Palsy (PSP) | cbd, Corticobasal Degeneration (CBD) | dlb, Dementia with Lewy Bodies (DLB) | other, Other Parkinsonism or Atypical Parkinsonism | notSure, Not Sure / Undetermined",,,,,,,y,,,,,
+diagnosis_parkinsons_gsd_calculation,d_neuro_parkinsons_disease,,text,"Does the participant meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on the criteria above?",,,,,,,,,,,,," @CALCTEXT(if([diagnosis_parkinsons_gsd_category_1_calculation] = 'Yes' && [diagnosis_parkinsons_gsd_category_2_calculation] = 'Yes' && [diagnosis_parkinsons_gsd_category_3_calculation] = 'Yes' , 'Yes', 'No'))"
+diagnosis_parkinsons_disease_subtype,d_neuro_parkinsons_disease,"2. Disease Type",radio,"Specify the subtype of Parkinson's Disease in the participant:","ipd, Idiopathic Parkinson's Disease (IPD) | msa, Multiple System Atrophy (MSA) | psp, Progressive Supranuclear Palsy (PSP) | cbd, Corticobasal Degeneration (CBD) | dlb, Dementia with Lewy Bodies (DLB) | other, Other Parkinsonism or Atypical Parkinsonism | notSure, Not Sure / Undetermined",,,,,,,y,,,,,
 diagnosis_parkinsons_disease_subtype_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other Parkinsonism or Atypical Parkinsonism"", please specify:",,,,,,,"[diagnosis_parkinsons_disease_subtype] = 'other'",y,,,,,
-diagnosis_parkinsons_etiology,d_neuro_parkinsons_disease,"3. Etiology",radio,"What is the suspected or known etiology of Parkinson's disease in the patient?","idiopathic, Idiopathic (unknown cause) | familialParkinsonsDisease, Familial Parkinson's Disease | environmentalFactors, Environmental factors",,,,,,,y,,,,,
+diagnosis_parkinsons_etiology,d_neuro_parkinsons_disease,"3. Etiology",radio,"What is the suspected or known etiology of Parkinson's disease in the participant?","idiopathic, Idiopathic (unknown cause) | familialParkinsonsDisease, Familial Parkinson's Disease | environmentalFactors, Environmental factors",,,,,,,y,,,,,
 diagnosis_parkinsons_etiology_fpd,d_neuro_parkinsons_disease,,text,"If you selected ""Familial Parkinson's Disease"", please specify the genetic mutation if known:",,,,,,,"[diagnosis_parkinsons_etiology] = 'familialParkinsonsDisease'",,,,,,
 diagnosis_parkinsons_etiology_ef,d_neuro_parkinsons_disease,,text,"If you selected ""Environmental Factors"", please specify if known:",,,,,,,"[diagnosis_parkinsons_etiology] = 'environmentalFactors'",,,,,,
-diagnosis_parkinsons_ds,d_neuro_parkinsons_disease,"4. Disease Severity",radio,"What is the current stage/severity of Parkinson's disease in the patient?
+diagnosis_parkinsons_ds,d_neuro_parkinsons_disease,"4. Disease Severity",radio,"What is the current stage/severity of Parkinson's disease in the participant?
 •	Hoehn and Yahr Scale:","stage1, Stage 1 (Unilateral involvement only) | stage2, Stage 2 (Bilateral involvement without impairment of balance) | stage3, Stage 3 (Bilateral involvement with mild to moderate impairment of balance) | stage4, Stage 4 (Severe disability but still able to walk or stand unassisted) | stage5, Stage 5 (Wheelchair-bound or bedridden unless aided)",,,,,,,y,,,,,
 diagnosis_parkinsons_ma,d_neuro_parkinsons_disease,"5. Motor Assessment",checkbox,"Please provide scores or results from validated cognitive assessment tools:","updrs, Unified Parkinson's Disease Rating Scale (UPDRS) | other, Other motor assessment tool",,,,,,,y,,,,,
 diagnosis_parkinsons_ma_uprds,d_neuro_parkinsons_disease,,radio,"Unified Parkinson's Disease Rating Scale (UPDRS)","partI, Part I (Intellectual function, mood, behavior) score | partII, Part II (Activities of daily living) score | partIII, Part III (Motor Examination) score | partIV, Part IV (Motor complications) score",,,,,,"[diagnosis_parkinsons_ma(updrs)] = 1",y,,,,,
@@ -879,19 +896,23 @@ diagnosis_parkinsons_ma_updrs_part_ii_score,d_neuro_parkinsons_disease,,text,"Pa
 diagnosis_parkinsons_ma_updrs_part_iii_score,d_neuro_parkinsons_disease,,text,"Part III (Motor Examination) score:",,,,,,,"[diagnosis_parkinsons_ma_uprds] = 'partIII'",y,,,,,
 diagnosis_parkinsons_ma_updrs_part_iv_score,d_neuro_parkinsons_disease,,text,"Part IV (Motor complications) score:",,,,,,,"[diagnosis_parkinsons_ma_uprds] = 'partIV'",y,,,,,
 diagnosis_parkinsons_ma_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other motor assessment tool"", please specify:",,,,,,,"[diagnosis_parkinsons_ma(other)] = 1",y,,,,,
-diagnosis_parkinsons_non_motor_symptoms,d_neuro_parkinsons_disease,"6. Non-Motor Symptoms",radio,"Are there significant non-motor symptoms associated with Parkinson's disease in the patient?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_parkinsons_non_motor_symptoms,d_neuro_parkinsons_disease,"6. Non-Motor Symptoms",radio,"Are there significant non-motor symptoms associated with Parkinson's disease in the participant?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_parkinsons_non_motor_symptoms_yes,d_neuro_parkinsons_disease,,text,"If you selected ""Yes"", please specify:",,,,,,,"[diagnosis_parkinsons_non_motor_symptoms] = 'yes'",y,,,,,
-diagnosis_parkinsons_treatment_obtained,d_neuro_parkinsons_disease,"7. Treatment Obtained",radio,"Has the patient undergone any treatment for Parkinson's disease?","yes, Yes | no, No",,,,,,,y,,,,,
+diagnosis_parkinsons_treatment_obtained,d_neuro_parkinsons_disease,"7. Treatment Obtained",radio,"Has the participant undergone any treatment for Parkinson's disease?","yes, Yes | no, No",,,,,,,y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes,d_neuro_parkinsons_disease,,checkbox,Yes,"medications, Medications | npi, Non-pharmacological interventions",,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes'",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_medications,d_neuro_parkinsons_disease,,checkbox,Medications:,"levodopa, Levodopa | dopamine_agonists, Dopamine agonists | mao_b, MAO-B inhibitors | amantadine, Amantadine | other, Other",,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(medications)] = 1",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_medications_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(medications)] = 1 and [diagnosis_parkinsons_treatment_obtained_yes_medications(other)] = 1",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_npi,d_neuro_parkinsons_disease,,checkbox,"Non-pharmacological interventions:","physical_therapy, Physical therapy | occupational_therapy, Occupational therapy | speech_therapy, Speech therapy | dbs, Deep Brain Stimulation (DBS) therapy | other, Other",,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(npi)] = 1",y,,,,,
 diagnosis_parkinsons_treatment_obtained_yes_npi_other,d_neuro_parkinsons_disease,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_parkinsons_treatment_obtained] = 'yes' and [diagnosis_parkinsons_treatment_obtained_yes(npi)] = 1 and [diagnosis_parkinsons_treatment_obtained_yes_npi(other)] = 1",y,,,,,
-hd_confirmed_by_genetic_testing,d_neuro_huntingtons_disease,"1. Gold Standard Diagnosis:",radio,"Does the patient have Huntington's disease (HD) confirmed by genetic testing? ","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
-hd_cag_repeat_length_known,d_neuro_huntingtons_disease,,radio,"Is the CAG repeat length known?","yes, Yes | no, No",,,,,,[hd_confirmed_by_genetic_testing]='yes',y,,,,,
+diagnosis_hd_gsd,d_neuro_huntingtons_disease,"1. Gold Standard Diagnosis:",radio,"Does the participant have Huntington's Disease (HD)? ","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_hd_gsd_confirmation_method,d_neuro_huntingtons_disease,,checkbox,"How was this confirmed? Check all that apply","genetic_testing, Genetic Testing | consistent_clinical_presentation, Consistent clinical presentation with genetically confirmed family history",,,,,,[diagnosis_hd_gsd]='yes',y,,,,,
+hd_confirmed_by_genetic_testing,d_neuro_huntingtons_disease,,radio,"[DEPRECATED]
+Does the participant have Huntington's disease (HD) confirmed by genetic testing? ","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,," @HIDDEN"
+hd_cag_repeat_length_known,d_neuro_huntingtons_disease,,radio,"Is the CAG repeat length known?","yes, Yes | no, No",,,,,,[diagnosis_hd_gsd_confirmation_method(genetic_testing)]='1',y,,,,,
 hd_cag_repeat_length,d_neuro_huntingtons_disease,,text,"What is the CAG repeat length?",,,number,,,,[hd_cag_repeat_length_known]='yes',,,,,,
-hd_confirmed_by_consistent_clinical_presentation,d_neuro_huntingtons_disease,,radio,"Does the patient have Huntington's disease confirmed by consistent clinical presentation with genetically
-confirmed family history?","yes, Yes | no, No | notCertain, Not certain",,,,,,"[hd_confirmed_by_genetic_testing]='no' || [hd_confirmed_by_genetic_testing]='notCertain'",y,,,,,
+hd_confirmed_by_consistent_clinical_presentation,d_neuro_huntingtons_disease,,radio,"[DEPRECATED]
+Does the participant have Huntington's disease confirmed by consistent clinical presentation with genetically
+confirmed family history?","yes, Yes | no, No | notCertain, Not certain",,,,,,"[hd_confirmed_by_genetic_testing]='no' || [hd_confirmed_by_genetic_testing]='notCertain'",,,,,," @HIDDEN"
 hd_disease_subtype,d_neuro_huntingtons_disease,"2. Disease Subtype",radio,"Disease Subtype","pediatricOnset, Pediatric Onset | juvenileOnset, Juvenile Onset | adultOnset, Adult Onset | lateOnset, Late Onset | unknown, Unknown",,,,,,,y,,,,,
 hd_motor_exam,d_neuro_huntingtons_disease,"3. Disease Severity",descriptive,"Motor Exam",,,,,,,,,,,,,
 hd_uhdrs_total_motor_score,d_neuro_huntingtons_disease,,text,"UHDRS total motor score",,,number,,,,,y,,,,,
@@ -922,7 +943,7 @@ hd_total,d_neuro_huntingtons_disease,,calc,Total:,"sum( if( [hd_occupation]=""un
      if( [hd_care_level]=""fullTimeSkilledNursing"", 0,
      if( [hd_care_level]=""homeOrChronicCare"", 1,
      if( [hd_care_level]=""home"", 2, 0))))",,,,,,,,,,,,
-hd_any_treatment,d_neuro_huntingtons_disease,"4. Treatment obtained",radio,"Has the patient undergone any treatment for Huntington's disease?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+hd_any_treatment,d_neuro_huntingtons_disease,"4. Treatment obtained",radio,"Has the participant undergone any treatment for Huntington's disease?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 hd_type_of_treatment,d_neuro_huntingtons_disease,,checkbox,"Please select the type of treatment:","medications, Medications | slp_therapy, Prior or current SLP therapy",,,,,,"[hd_any_treatment]=""yes""",,,,,,
 hd_medications_selection,d_neuro_huntingtons_disease,,checkbox,"Please select all that apply and provide further details if available","neuroleptic, Neuroleptic | vmat2_inhibitor, VMAT2 inhibitor | antidepressant, Antidepressant | benzodiazepine, Benzodiazepine",,,,,,"[hd_type_of_treatment(medications)]=""1""",,,,,,
 hd_neuroleptic_specify,d_neuro_huntingtons_disease,,text,"Neuroleptic selected. Please specify",,,,,,,"[hd_medications_selection(neuroleptic)]=""1""",y,,,,,
