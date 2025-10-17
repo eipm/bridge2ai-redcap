@@ -1,6 +1,7 @@
 <p align="center">
     <img src="images/main_logo_black.svg#gh-light-mode-only" width="200" alt="B2Ai Voice Logo">
-    <img src="images/main_logo_white.svg#gh-dark-mode-only" width="200" alt="B2Ai Voice Logo">
+    <img src="images/main_logo_white.svg#gh-dark-mode-only" width="200" alt="B2Ai Voice Logo"><br>
+    Voice as a Biomarker of Health
 </p>
 
 # bridge2ai-redcap
