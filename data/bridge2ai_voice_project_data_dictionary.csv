@@ -5,9 +5,10 @@ selected_language,subjectparticipant_basic_information,,radio,Language,"1, Engli
 selected_language_2,subjectparticipant_basic_information,,radio,Language,"en-US, English | fr-CA, French | es-419, Spanish",,,,,,,,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent | 4, Removed From Eligibility",,,,,,,y,,,,,
 contact_participant,subjectparticipant_basic_information,,radio,"Contact participant re: incidental findings?","yes, Yes | no, No",,,,,,,,,,,,
-consent_method,subjectparticipant_basic_information,,radio,"Consent Method","paper, Paper Consent | econsent, eConsent | e_video_consent, Video Consent",,,,,,"[consent_status] = '2'",y,,,,,
+consent_date,subjectparticipant_basic_information,,text,"Consent Date",,,date_mdy,,,y,"[consent_status] = 2",y,,,,,
+consent_method,subjectparticipant_basic_information,,radio,"Consent Method","paper, Paper Consent | econsent, eConsent",,,,,,"[consent_status] = '2'",y,,,,,
 withdrawn_consent_reason,subjectparticipant_basic_information,,text,"Withdrawn Consent Reason",,,,,,y,"[consent_status] = 3",,,,,,
-withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,y,"[consent_status] = 3",,,,,,
+withdrawn_consent_date,subjectparticipant_basic_information,,text,"Withdrawn Consent Date",,,date_mdy,,,y,"[consent_status] = 3",y,,,,,
 is_feasibility_participant,subjectparticipant_basic_information,,radio,"Is Feasibility Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 is_remote_data_collection_enabled,subjectparticipant_basic_information,,radio,"Is Remote Data Collection Enabled?","yes, Yes | no, No",,,,,,,y,,,,," @READONLY"
 enrolled,subjectparticipant_basic_information,"Enrollment Details",yesno,Enrolled,,,,,,,,y,,,,,
@@ -24,7 +25,7 @@ dob,subjectparticipant_contact_information,,text,"What is your date of birth?",,
 phone_number,subjectparticipant_contact_information,,text,"Phone Number",,###-###-####,,,,y,,,,,,,
 email,subjectparticipant_contact_information,,text,Email,,,email,,,y,,,,,,,
 contact_info_stored,subjectparticipant_contact_information,,yesno,"[DEPRECATED] I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties.",,,,,,,,,,,,,
-eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders - Ages [2-4) | age_4_6, Pediatric Disorders - Ages [4-6) | age_6_10, Pediatric Disorders - Ages [6-10) | age_10_plus, Pediatric Disorders - Ages 10+ | 5, Pediatric Placeholder",,,,,,,y,,,,,
+eligible_studies,subjectparticipant_eligible_studies,"Eligible Studies",checkbox,"Eligible Studies","1, Voice Disorders | 2, Neurological and Neurodegenerative Disorders | 3, Mood and Psychiatric Disorders | 4, Respiratory Disorders | age_2_4, Pediatric Disorders - Ages [2-4) | age_4_6, Pediatric Disorders - Ages [4-6) | age_6_10, Pediatric Disorders - Ages [6-10) | age_10_plus, Pediatric Disorders - Ages 10+",,,,,,,y,,,,,
 is_control_participant,subjectparticipant_eligible_studies,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 cond_sel_prompt,subjectparticipant_eligible_studies,"Do you have any of these conditions, diagnosed by a clinician?",descriptive,"(Check all that apply if you currently have the condition)",,,,,,,,,,,,,
 glottic_insufficiency,subjectparticipant_eligible_studies,"Voice Disorders",radio,"Glottic Insufficiency / Presbyphonia","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
@@ -63,7 +64,7 @@ autism,subjectparticipant_eligible_studies,"Pediatric disorders
 ",radio,"Autism Spectrum Disorder (ASD)","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
 speech_delay,subjectparticipant_eligible_studies,,radio,"Speech Delay","0, Unchecked | 1, Checked",,,,,,,y,,,peds_dis,,
 exclude_participant,data_dissemination,,radio,"Exclude Participant and their data from Bridge2AI Data Dissemination?","yes, Yes | no, No",,,,,,,y,,,,,
-exclude_reason,data_dissemination,,checkbox,"Check all that apply","missing_consent, Missing Consent/Reconsent Form | missing_diagnosis, Missing Diagnosis | participant_withdrew, Participant withdrew from Study | feasibility_participant, Feasibility Participant | other, Other",,,,,,"[exclude_participant] = 'yes'",y,,,,,
+exclude_reason,data_dissemination,,checkbox,"Check all that apply","missing_consent, Re-consent required | incomplete_data_collection_acoustic_tasks, Incomplete Data Collection - Acoustic Tasks | incomplete_data_collection_questionnaire_tasks, Incomplete Data Collection - Questionnaire Tasks | missing_diagnosis, Missing Diagnosis | participant_lost_to_follow_up, Participant lost to follow up | participant_withdrew, Participant withdrew from Study | participant_removed_from_eligibility, Participant removed from Eligibility | feasibility_participant, Feasibility Participant | other, Other",,,,,,"[exclude_participant] = 'yes'",y,,,,,
 exclude_reason_other,data_dissemination,,text,"Please specify:",,,,,,,"[exclude_reason(other)] = '1'",y,,,,,
 exclusion_date,data_dissemination,,text,"Date Data Exclusion was requested",,,date_mdy,,,,"[exclude_participant] = 'yes'",y,,,,,
 inclusion_date,data_dissemination,,text,"Date Data Inclusion was requested",,,date_mdy,,,,"[exclude_participant] = 'no'",y,,,,,
@@ -956,6 +957,7 @@ hd_confirmed_by_consistent_clinical_presentation,d_neuro_huntingtons_disease,,ra
 Does the participant have Huntington's disease confirmed by consistent clinical presentation with genetically
 confirmed family history?","yes, Yes | no, No | notCertain, Not certain",,,,,,"[hd_confirmed_by_genetic_testing]='no' || [hd_confirmed_by_genetic_testing]='notCertain'",,,,,," @HIDDEN"
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
+session_record_id,session,,text,"Record ID",,,,,,,,y,,,,," @READONLY"
 session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
 session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
 session_is_control_participant,session,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
