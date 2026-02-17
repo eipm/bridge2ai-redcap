@@ -1,6 +1,6 @@
 ﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
-age,subjectparticipant_basic_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
+age,subjectparticipant_basic_information,,text,Age,,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
 selected_language_2,subjectparticipant_basic_information,,radio,Language,"en-US, English | fr-CA, French | es-419, Spanish",,,,,,,,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent | 4, Removed From Eligibility",,,,,,,y,,,,,
@@ -975,14 +975,14 @@ Does the participant have Huntington's disease confirmed by consistent clinical 
 confirmed family history?","yes, Yes | no, No | notCertain, Not certain",,,,,,"[hd_confirmed_by_genetic_testing]='no' || [hd_confirmed_by_genetic_testing]='notCertain'",,,,,," @HIDDEN"
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 session_record_id,session,,text,"Record ID",,,,,,,,y,,,,," @READONLY"
-session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
+session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,,
 session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
 session_is_control_participant,session,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 session_site,session,,radio,"Session Site?","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 session_completed_by,session,,checkbox,"Who helped you answer the questions today? For example, did someone help you remember your medication list or how tired you are? This isn't the person who helps you understand the question, but the one who helps you provide the answers","just_me, Just me | someone_else, Someone else helped me answer the questions",,,,,,,,,,,,
-session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,," @READONLY"
+session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,,
 acoustic_task_id,acoustic_task,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_session_id,acoustic_task,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_name,acoustic_task,,text,"Acoustic Task Name",,,,,,,,y,,,,," @READONLY"
@@ -1072,7 +1072,7 @@ Who is completing this survey?","1, Self | 2, Assistant | 3, Parent/Caregiver",,
 city,q_generic_demographics,,text,"[DEPRECATED]
 City ",,,,,,y,,,,,,,
 state_province,q_generic_demographics,,text,"[DEPRECATED]
-State/Province",,,,,,,,,,,,," @HIDDEN"
+State/Province",,,,,,,,,,,,,
 assistance_programs_usa,q_generic_demographics,,checkbox,"[DEPRECATED]
 Do you take advantage of any of the following programs? Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country] =""1""",,,,,,
 assistance_programs_ca,q_generic_demographics,,checkbox,"[DEPRECATED]
@@ -3515,6 +3515,8 @@ peds_vision,pediatric_q_generic_demographics,,radio,"Are you blind or do you hav
 peds_cognition,pediatric_q_generic_demographics,,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 peds_mobility,pediatric_q_generic_demographics,,radio,"Do you have serious difficulty walking or climbing stairs?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 peds_self_care,pediatric_q_generic_demographics,,radio,"Do you have difficulty dressing or bathing?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+peds_state_province,pediatric_q_generic_demographics,"Deprecated Fields",text,"[DEPRECATED]
+State/Province",,,,,,,,,,,,,
 peds_vhi_session_id,pediatric_q_generic_vhi_10,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 peds_vhi_started_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_completed_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
