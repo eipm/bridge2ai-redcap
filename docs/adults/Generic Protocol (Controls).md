@@ -50,9 +50,9 @@ NA
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
+| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) |  <div align="center">Acoustic Task Description (English)</div> | <div align="center">Acoustic Task Description (Spanish)<div> |
+| :---: | :---: | :---: | :---: | :---: | :---: |:---: | :---: | :---: | 
+| 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) | NA | [Link](Acoustic%20Tasks/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
 | 2 | Maximum Phonation Time | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
 | 3 | Glides | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
 | 4 | Harvard Sentences | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 20 | - |
