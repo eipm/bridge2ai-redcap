@@ -21,7 +21,7 @@ Por favor, vea este video para ayudarle a entender la siguiente tarea e imite lo
 
 [![video][video]](GlidesLowToHigh.mp4)
 
-Cuando esté listo, presione el botón de grabar y use el sonido “i” para moverse gradualmente desde su nota más grave hasta su nota más aguda. Luego, descanse, respire y continúe cuando esté listo.
+Cuando esté listo, presione el botón de grabar y use el sonido “i” para moverse gradualmente desde su nota **más grave** hasta su nota **más aguda**. Luego, descanse, respire y continúe cuando esté listo.
 
 ![mic][mic]
 
@@ -35,6 +35,6 @@ A continuación, por favor vea este video para la siguiente tarea e imite lo que
 
 [![video][video]](GlidesHighToLow.mp4)
 
-Cuando esté listo, presione el botón de grabar nuevamente y use el sonido “i” para moverse gradualmente desde su nota más aguda hasta su nota más grave.
+Cuando esté listo, presione el botón de grabar nuevamente y use el sonido “i” para moverse gradualmente desde su nota **más aguda** hasta su nota **más grave**.
 
 ![mic][mic]
