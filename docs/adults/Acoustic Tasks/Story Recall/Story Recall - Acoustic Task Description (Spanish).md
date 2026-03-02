@@ -25,13 +25,13 @@
 
 A continuación, se le presentará una historia sobre un niño y una rana. Puede hacer clic para avanzar y ver la siguiente imagen de la serie. Si lo desea, puede ir hacia adelante y hacia atrás tantas veces como necesite, hasta sentirse cómodo con la historia.
 
-Tendrá hasta 5 minutos para ver la historia, aunque no es necesario usar todo ese tiempo.
+Tendrá hasta **5 minutos** para ver la historia, aunque no es necesario usar todo ese tiempo.
 
-Cuando el tiempo termine, por favor cuente la historia con el mayor detalle posible.
+Cuando el tiempo termine, por favor **cuente la historia con el mayor detalle posible.**
 
-Cuando esté listo, haga clic en el botón de grabar que aparece abajo.
+Cuando esté listo, haga clic en el **botón de grabar** que aparece abajo.
 
-Importante: Una vez que haga clic en el botón de grabar, la historia desaparecerá.
+**Importante:** Una vez que haga clic en el botón de grabar, la historia desaparecerá.
 
 --- 
 
