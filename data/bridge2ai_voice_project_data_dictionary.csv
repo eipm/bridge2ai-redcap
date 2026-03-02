@@ -1,6 +1,6 @@
 ﻿"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
 record_id,subjectparticipant_basic_information,,text,"Record ID",,,,,,,,,,,,,
-age,subjectparticipant_basic_information,,calc,Age,"rounddown((datediff([dob],""today"",""y"",""ymd"")),0)",,,,,,,,,,,,
+age,subjectparticipant_basic_information,,text,Age,,,,,,,,,,,,,
 selected_language,subjectparticipant_basic_information,,radio,Language,"1, English | 2, French | 3, Spanish",,,,,,,y,,,,,
 selected_language_2,subjectparticipant_basic_information,,radio,Language,"en-US, English | fr-CA, French | es-419, Spanish",,,,,,,,,,,,
 consent_status,subjectparticipant_basic_information,,radio,"Consent Status","1, Pending | 2, Consented | 3, Withdrawn Consent | 4, Removed From Eligibility",,,,,,,y,,,,,
@@ -136,7 +136,7 @@ ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for decl
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,y,,,,,,,
-ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Enrollment Website",,,,,,,,,,,," @READONLY"
+ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,,,,,,
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,y,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
@@ -167,6 +167,16 @@ usf_icf_signature_en,bridge2ai_econsent_usf_english,,file,"Signature of Person T
 ",,,signature,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_date_en,bridge2ai_econsent_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_name_en,bridge2ai_econsent_usf_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_en_p1,bridge2ai_econsent_usf_english," ",descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_en_p2,bridge2ai_econsent_usf_english,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_en_p3,bridge2ai_econsent_usf_english,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_signature_en,bridge2ai_econsent_usf_english,,file,"Signature of Person Taking Part in Study  (or Their Parent)
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_date_en,bridge2ai_econsent_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_name_en,bridge2ai_econsent_usf_english,,text,"Printed Name of Person Taking Part in Study (or Their Parent)",,,,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_p1_es,bridge2ai_econsent_usf_spanish," ",descriptive,,,,,,,,,,,,,,
 usf_icf_p2_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
 usf_icf_p3_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
@@ -181,6 +191,13 @@ usf_icf_signature_es,bridge2ai_econsent_usf_spanish,,file,"Firma de la Persona q
 [Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_date_es,bridge2ai_econsent_usf_spanish,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_name_es,bridge2ai_econsent_usf_spanish,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_p1_es,bridge2ai_econsent_usf_spanish," ",descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_p2_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_p3_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
+usf_icf_signature_hipaa_es,bridge2ai_econsent_usf_spanish,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_date_hipaa_es,bridge2ai_econsent_usf_spanish,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_name_hipaa_es,bridge2ai_econsent_usf_spanish,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
 mit_icf_p1_en,bridge2ai_econsent_mit_english," ",descriptive,,,,,,,,,,,,,,
 mit_icf_p2_en,bridge2ai_econsent_mit_english,,descriptive,,,,,,,,,,,,,,
 mit_icf_p3_en,bridge2ai_econsent_mit_english,,descriptive,,,,,,,,,,,,,,
@@ -958,14 +975,14 @@ Does the participant have Huntington's disease confirmed by consistent clinical 
 confirmed family history?","yes, Yes | no, No | notCertain, Not certain",,,,,,"[hd_confirmed_by_genetic_testing]='no' || [hd_confirmed_by_genetic_testing]='notCertain'",,,,,," @HIDDEN"
 session_id,session,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 session_record_id,session,,text,"Record ID",,,,,,,,y,,,,," @READONLY"
-session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,," @READONLY"
+session_status,session,,radio,"Session Status","1, In Progress | 2, Completed",,,,,,,y,,,,,
 session_started_at,session,,text,"Session Started At",,,,,,y,,,,,,," @READONLY"
 session_is_control_participant,session,,radio,"Is Control Participant?","yes, Yes | no, No",,,,,,,y,,,,,
 session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 session_site,session,,radio,"Session Site?","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 session_completed_by,session,,checkbox,"Who helped you answer the questions today? For example, did someone help you remember your medication list or how tired you are? This isn't the person who helps you understand the question, but the one who helps you provide the answers","just_me, Just me | someone_else, Someone else helped me answer the questions",,,,,,,,,,,,
-session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,," @READONLY"
+session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,,
 acoustic_task_id,acoustic_task,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_session_id,acoustic_task,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_name,acoustic_task,,text,"Acoustic Task Name",,,,,,,,y,,,,," @READONLY"
@@ -992,7 +1009,7 @@ demographics_session_id,q_generic_demographics,"Questionnaire - Metadata",text,"
 demographics_started_at,q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 demographics_completed_at,q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 demographics_duration,q_generic_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-zipcode,q_generic_demographics,"Address Information",text,Zipcode,,,,,,y,,,,,,,
+zipcode,q_generic_demographics,"Address Information",text,Zipcode,,"5 Digit for USA and 3 Digit for Canada",,,,y,,,,,,,
 country,q_generic_demographics,,dropdown,Country,"1, USA | 2, Canada",,,,,,,y,,,,,
 gender_identity,q_generic_demographics,"Patient Demographics",radio,"What is your gender identity?","female, Female gender identity | male, Male gender identity | nonBinary, Non-binary or genderqueer gender identity | other, Other | noAnswer, Prefer not to answer",,,,,,,y,,,,,
 other_gender_identity,q_generic_demographics,,text,"If you selected ""other"" for gender identity, please specify:",,,,,,,[gender_identity]='other',,,,,,
@@ -1055,7 +1072,7 @@ Who is completing this survey?","1, Self | 2, Assistant | 3, Parent/Caregiver",,
 city,q_generic_demographics,,text,"[DEPRECATED]
 City ",,,,,,y,,,,,,,
 state_province,q_generic_demographics,,text,"[DEPRECATED]
-State/Province",,,,,,,,,,,,," @HIDDEN"
+State/Province",,,,,,,,,,,,,
 assistance_programs_usa,q_generic_demographics,,checkbox,"[DEPRECATED]
 Do you take advantage of any of the following programs? Choose all that apply","1, Supplemental Security Income (SSI) | 2, Supplemental Nutrition Assistance Program (SNAP) | 3, Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) | 4, Temporary Assistance for Needy Families (TANF), including Pass through Child Support | 5, General Assistance (GA)",,,,,,"[country] =""1""",,,,,,
 assistance_programs_ca,q_generic_demographics,,checkbox,"[DEPRECATED]
@@ -3498,6 +3515,8 @@ peds_vision,pediatric_q_generic_demographics,,radio,"Are you blind or do you hav
 peds_cognition,pediatric_q_generic_demographics,,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 peds_mobility,pediatric_q_generic_demographics,,radio,"Do you have serious difficulty walking or climbing stairs?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
 peds_self_care,pediatric_q_generic_demographics,,radio,"Do you have difficulty dressing or bathing?","no, No | yes, Yes | noAnswer, Prefer not to answer",,,,,,,,,,,,
+peds_state_province,pediatric_q_generic_demographics,"Deprecated Fields",text,"[DEPRECATED]
+State/Province",,,,,,,,,,,,,
 peds_vhi_session_id,pediatric_q_generic_vhi_10,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 peds_vhi_started_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_completed_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
