@@ -30,7 +30,7 @@ Después de presionar el botón de grabar, **respire cómodamente por la boca** 
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, tome **3 respiraciones profundas por la boca.** Presione el botón nuevamente cuando termine.
+Después de presionar el botón de grabar, exhale normalmente, luego inhale rápidamente por la boca, como si estuviera tratando de recuperar el aliento. Grabe **3 de estas respiraciones en una sola grabación.** Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
 
@@ -50,7 +50,7 @@ Después de presionar el botón de grabar, tome **3 respiraciones profundas por 
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, exhale normalmente, luego inhale rápidamente por la boca, como si estuviera tratando de recuperar el aliento. Grabe **3 de estas respiraciones en una sola grabación.** Presione el botón nuevamente cuando termine.
+Después de presionar el botón de grabar, tome **3 respiraciones profundas por la boca.** Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
 
