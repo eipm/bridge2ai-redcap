@@ -7,17 +7,25 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[audio]: https://custom-icon-badges.demolab.com/badge/Task_Demonstration-blue.svg?logo=volume-2&logoSource=feather
+[word]: https://custom-icon-badges.demolab.com/badge/Word-orange.svg?logo=refresh-cw&logoSource=feather
 [recording_1]: https://img.shields.io/badge/Recording%201-white
 
-# Prolonged Vowel
+
+# Productive Vocabulary
 
 ![recording_1][recording_1]
 
-This task helps us analyze features in your voice.
+[![word][word]](Productive%20Vocabulary%20Words.md)
 
-Please press the play button to listen to the demonstration on how to complete the task. Then, tap the record button and imitate the speaker by repeating the sentence “1, 2, 3 aah” in your normal voice. Please hold the sound “aah” until the timer runs out.
+I don’t know this word, next
 
-[![audio][audio]](ProlongedVowelAudio%20-%20English.mp3)
+Below you will be provided with a series of words. You may or may not know the word.
+
+If you know the word, please provide a definition of the word. After you have defined the word, press **"Next Word"**.
+
+If you do NOT know the word, press **"I don't know this word, next"**, and you will be provided a new word.<br><br>Once 6 words are defined, the “Done” button appears.
 
 ![mic][mic]
+
+
+

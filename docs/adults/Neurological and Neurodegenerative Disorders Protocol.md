@@ -46,8 +46,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 | 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) |
 | 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) |
 | 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) |
-| 7 | Word-color Stroop | 02:35 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop.pdf) | NA |
-| 8 | MOCA | NA | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MOCA.pdf) | NA |
+| 7 | MOCA | NA | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MOCA.pdf) | NA |
 
 ### Retired Questionnaires
 
@@ -57,20 +56,24 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) |
-| 2 | Maximum Phonation Time | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) |
-| 3 | Glides | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)|
-| 4 | Harvard Sentences | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 20 | - |
-| 5 | Loudness | 00:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) |
-| 6 | Diadochokinesis | 01:40 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) |
-| 7 | Free Speech | 03:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) |
-| 8 | Respiration and cough | 05:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) |
-| 9 | Picture Description | 01:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) |
-| 10 | Story Recall | 03:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) |
-| 11 | Productive Vocabulary | 02:10 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=TEshcUAlfPA) |
-| 12 | Random Item Generation | 02:00 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |
+| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
+| :---: | :---: | :---: | :---: | :---: | :---: |:---: | :---: | :---: | 
+| 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ZanjPvWkB3M) | NA | [Link](Acoustic%20Tasks/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 2 | Maximum Phonation Time | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) | NA | [Link](Acoustic%20Tasks/Maximum%20Phonation%20Time/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Maximum%20Phonation%20Time/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 3 | Glides | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 2 | [YouTube Link](https://www.youtube.com/watch?v=xKBYdkwEOvU)| NA | [Link](Acoustic%20Tasks/Glides/Glides%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Glides/Glides%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 4 | Harvard Sentences | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 20 | - | NA | [Link](Acoustic%20Tasks/Harvard%20Sentences/Harvard%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md) |[Link](Acoustic%20Tasks/Harvard%20Sentences/Harvard%20Sentences%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 5 | Loudness | 00:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5ssCSqZPb7Y) | NA | [Link](Acoustic%20Tasks/Loudness/Loudness%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Loudness/Loudness%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 6 | Diadochokinesis | 01:40 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=RlY5KMXtZ4o) | NA | [Link](Acoustic%20Tasks/Diadochokinesis/Diadochokinesis%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Diadochokinesis/Diadochokinesis%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 7 | Free Speech | 03:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 3 | [YouTube Link](https://www.youtube.com/watch?v=FqK0WeGCAzg) | NA | [Link](Acoustic%20Tasks/Free%20Speech/Free%20Speech%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Free%20Speech/Free%20Speech%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 8 | Respiration and cough | 05:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) | NA | [Link](Acoustic%20Tasks/Respiration%20and%20cough/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(English).md)  | [Link](Acoustic%20Tasks/Respiration%20and%20cough/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 9 | Picture Description | 01:10 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=abjWJEN6jf8) | NA | [Link](Acoustic%20Tasks/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 10 | Story Recall | 03:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) | NA | [Link](Acoustic%20Tasks/Story%20Recall/Story%20Recall%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Story%20Recall/Story%20Recall%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 11 | Productive Vocabulary | 02:10 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=TEshcUAlfPA) | NA | [Link](Acoustic%20Tasks/Productive%20Vocabulary/Productive%20Vocabulary%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Productive%20Vocabulary/Productive%20Vocabulary%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 12 | Random Item Generation | 02:00 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=ry__w1Mm2aE) |NA | [Link](Acoustic%20Tasks/Random%20Item%20Generation/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Random%20Item%20Generation/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+| 13 | Word-color Stroop | 02:30 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 1 | - | NA | [Link](Acoustic%20Tasks/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](Acoustic%20Tasks/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
+
+
+
 
 ### Retired Acoustic Tasks
 

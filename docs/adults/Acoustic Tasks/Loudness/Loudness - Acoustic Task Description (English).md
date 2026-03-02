@@ -7,17 +7,15 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[audio]: https://custom-icon-badges.demolab.com/badge/Task_Demonstration-blue.svg?logo=volume-2&logoSource=feather
 [recording_1]: https://img.shields.io/badge/Recording%201-white
 
-# Prolonged Vowel
+
+# Loudness
 
 ![recording_1][recording_1]
 
-This task helps us analyze features in your voice.
+This helps us to determine the loudness of the voice.
 
-Please press the play button to listen to the demonstration on how to complete the task. Then, tap the record button and imitate the speaker by repeating the sentence “1, 2, 3 aah” in your normal voice. Please hold the sound “aah” until the timer runs out.
-
-[![audio][audio]](ProlongedVowelAudio%20-%20English.mp3)
+When you're ready, press the record button and say “hey” in your normal voice. Then, shout “hey” as loud as you can. Try to reach the target line on the screen. Follow the prompts on the screen to continue.
 
 ![mic][mic]
