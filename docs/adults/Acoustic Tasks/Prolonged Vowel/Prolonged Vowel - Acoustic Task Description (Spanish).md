@@ -18,6 +18,6 @@ Esta tarea nos ayuda a analizar características en su voz.
 
 Por favor, presione el botón de reproducir para escuchar la demostración de cómo completar la tarea. Luego, toque el botón de grabar e imite al hablante repitiendo la frase “1, 2, 3 aah” con su voz normal. Mantenga el sonido “aah” hasta que el temporizador se agote.
 
-[![audio][audio]](ProlongedVowelAudio%20-%20English.mp3)
+[![audio][audio]](ProlongedVowelAudio-es-419.mp3)
 
 ![mic][mic]
