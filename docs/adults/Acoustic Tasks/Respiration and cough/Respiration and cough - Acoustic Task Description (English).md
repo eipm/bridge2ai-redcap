@@ -51,7 +51,7 @@ After pressing on record, take **3 deep breaths** in and out **through your nose
 
 Breathing sounds can also provide information on your health. Let's record them.
 
-After pressing on record, take **3 deep breaths** in and out through your mouth. Tap stop when finished.
+After pressing on record, take **3 deep breaths** in and out **through your mouth.** Tap stop when finished.
 
 ![mic][mic]
 
