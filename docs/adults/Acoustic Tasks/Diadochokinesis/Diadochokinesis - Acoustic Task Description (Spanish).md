@@ -20,7 +20,7 @@
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
-Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, pulsa el botón de grabación e imita al hablante repitiendo la sílaba “pa” tan rápido y consistente como pueda hasta que se acabe el tiempo - "papapapapapa"
+Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, pulsa el botón de grabación e imita al hablante repitiendo la sílaba **“pa”** tan rápido y consistente como pueda hasta que se acabe el tiempo - "papapapapapa"
 
 [![audio][audio]](DiadochokinesisPuhAudio-es-419.mp3)
 
@@ -32,7 +32,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
-Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la sílaba “ta” tan rápido y consistente como pueda hasta que se acabe el tiempo - "tatatatatata"
+Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la sílaba **“ta”** tan rápido y consistente como pueda hasta que se acabe el tiempo - "tatatatatata"
 
 [![audio][audio]](DiadochokinesisTuhAudio-es-419.mp3)
 
@@ -44,7 +44,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
-Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la sílaba “ka” tan rápido y consistente como pueda hasta que se acabe el tiempo - "kakakakakaka"
+Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la sílaba **“ka”** tan rápido y consistente como pueda hasta que se acabe el tiempo - "kakakakakaka"
 
 [![audio][audio]](DiadochokinesisKuhAudio-es-419.mp3)
 
@@ -56,7 +56,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
-Por favor, presione el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabar e imite al hablante repitiendo la sílaba “puhtuhkuh” lo más rápido y consistentemente posible hasta que se acabe el tiempo: "puhtuhkuhpuhtuhkuh"
+Por favor, presione el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabar e imite al hablante repitiendo la sílaba **“puhtuhkuh”** lo más rápido y consistentemente posible hasta que se acabe el tiempo: "puhtuhkuhpuhtuhkuh"
 
 [![audio][audio]](DiadochokinesisPuhtuhkuhAudio-es-419.mp3)
 
@@ -68,7 +68,7 @@ Por favor, presione el botón de reproducción para escuchar la demostración so
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
-Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la palabra “botánica” tan rápido y consistente como pueda hasta que se acabe el tiempo.
+Por favor, presiona el botón de reproducción para escuchar la demostración sobre cómo completar la tarea. Luego, toque el botón de grabación e imita al hablante repitiendo la palabra **“botánica”** tan rápido y consistente como pueda hasta que se acabe el tiempo.
 
 [![audio][audio]](DiadochokinesisButtercupAudio-es-419.mp3)
 
