@@ -20,7 +20,7 @@
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, respire cómodamente por la boca durante 20 segundos, hasta que el temporizador se acabe.
+Después de presionar el botón de grabar, **respire cómodamente por la boca** durante 20 segundos, hasta que el temporizador se acabe.
 
 ![mic][mic]
 
@@ -30,7 +30,7 @@ Después de presionar el botón de grabar, respire cómodamente por la boca dura
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, exhale normalmente, luego inhale rápidamente por la boca, como si estuviera tratando de recuperar el aliento. Grabe 3 de estas respiraciones en una sola grabación. Presione el botón nuevamente cuando termine.
+Después de presionar el botón de grabar, tome **3 respiraciones profundas por la boca.** Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
 
@@ -40,7 +40,7 @@ Después de presionar el botón de grabar, exhale normalmente, luego inhale ráp
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, tome 3 respiraciones profundas por la nariz con la boca cerrada. Presione el botón nuevamente cuando termine.
+Después de presionar el botón de grabar, tome **3 respiraciones profundas por la nariz** con la boca cerrada. Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
 
@@ -50,7 +50,7 @@ Después de presionar el botón de grabar, tome 3 respiraciones profundas por la
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
-Después de presionar el botón de grabar, tome 3 respiraciones profundas por la boca. Presione el botón nuevamente cuando termine.
+Después de presionar el botón de grabar, exhale normalmente, luego inhale rápidamente por la boca, como si estuviera tratando de recuperar el aliento. Grabe **3 de estas respiraciones en una sola grabación.** Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
 
@@ -62,6 +62,6 @@ Los sonidos de la respiración también pueden proporcionar información sobre s
 
 Por favor, no cubra su boca ni ponga su mano entre su boca y el micrófono durante la grabación.
 
-Respire normalmente, luego cuando esté listo, presione el botón de grabar y tosa FUERTE como si tuviera algo atorado en la garganta. Presione el botón nuevamente cuando termine.
+Respire normalmente, luego cuando esté listo, presione el botón de grabar y **tosa FUERTE** como si tuviera algo atorado en la garganta. Presione el botón nuevamente cuando termine.
 
 ![mic][mic]
