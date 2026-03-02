@@ -19,7 +19,7 @@ Complete las siguientes tareas:
 
 Por favor, vea este video para ayudarle a entender la siguiente tarea e imite lo que hace el hablante:
 
-[![video][video]](Glides/GlidesLowToHigh.mp4)
+[![video][video]](GlidesLowToHigh.mp4)
 
 Cuando esté listo, presione el botón de grabar y use el sonido “i” para moverse gradualmente desde su nota más grave hasta su nota más aguda. Luego, descanse, respire y continúe cuando esté listo.
 

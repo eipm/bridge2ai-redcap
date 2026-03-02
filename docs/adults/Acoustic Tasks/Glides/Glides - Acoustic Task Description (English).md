@@ -20,7 +20,7 @@ Complete the following tasks:
 
 Please watch the video to help you understand the next task and imitate what the speaker does:
 
-[![video][video]](Glides/GlidesLowToHigh.mp4)
+[![video][video]](GlidesLowToHigh.mp4)
 
 When you're ready, press the record button and use the sound “ee” to gradually move from your **lowest** note **to** your **highest**
 
