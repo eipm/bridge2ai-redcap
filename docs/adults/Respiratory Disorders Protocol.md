@@ -72,8 +72,8 @@ NA
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | NA | [Link](Retired%20Acoustic%20Tasks/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) | NA ||
-| 2 | Breath Sounds | 01:35 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) | NA | ... | NA | 
-| 3 | Voluntary Cough | 00:40 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) | NA | ... | NA |
+| 2 | Breath Sounds | 01:35 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=2rLMfMjS_R0) | NA | [Link](Retired%20Acoustic%20Tasks/Breath%20Sounds/Breath%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) | NA | 
+| 3 | Voluntary Cough | 00:40 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=i7BhlwNMk28) | NA | [Link](Retired%20Acoustic%20Tasks/Voluntary%20Cough/Voluntary%20Cough%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
