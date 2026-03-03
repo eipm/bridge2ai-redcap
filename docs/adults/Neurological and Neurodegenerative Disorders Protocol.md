@@ -81,7 +81,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | NA | [Link](Retired%20Acoustic%20Tasks/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
-| 2 | Cinderella Story | 04:05 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) | NA | ... | NA |
+| 2 | Cinderella Story | 04:05 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=eHx-vetG8Fk) | NA | [Link](Retired%20Acoustic%20Tasks/Cinderella%20Story/Cinderella%20Story%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
