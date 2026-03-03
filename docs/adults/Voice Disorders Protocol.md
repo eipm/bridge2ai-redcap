@@ -76,10 +76,10 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 ### Retired Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) |
-| 2 | Free Speech | 03:10 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) |
+| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | NA | [Link](Retired%20Acoustic%20Tasks/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
+| 2 | Free Speech | 03:10 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) | NA | ... | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
