@@ -79,7 +79,7 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | NA | [Link](Retired%20Acoustic%20Tasks/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 | 2 | Animal Fluency | 01:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=4lkEAxDiEE8) | NA | [Link](Retired%20Acoustic%20Tasks/Animal%20Fluency/Animal%20Fluency%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
-| 3 | Open Response Questions | 02:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) | NA | ... | NA |
+| 3 | Open Response Questions | 02:30 | [Mood Protocol](Mood%20and%20Phychiatric%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=THfOnGCaALA) | NA | [Link](Retired%20Acoustic%20Tasks/Open%20Response%20Questions/Open%20Response%20Questions%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
