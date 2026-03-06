@@ -52,10 +52,10 @@ NA
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Conversation (Simple) | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md) | 2 | NA |
-| 2 | Abcs and 123s | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 2 | NA |
-| 3 | Noisy Sounds | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 10 | NA |
-| 4 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | NA |
+| 1 | Conversation (2 to 4) | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 1 |[Link](Acoustic%20Tasks/Conversation%20(4%20to%206)/Conversation%20(4%20to%206)%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 2 | Abcs and 123s | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 2 | [Link](Acoustic%20Tasks/Abcs%20and%20123s/Abcs%20and%20123s%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 3 | Noisy Sounds | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 10 | [Link](Acoustic%20Tasks/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 4 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | [Link](Acoustic%20Tasks/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md) |
 
 ### Retired Acoustic Tasks
 
