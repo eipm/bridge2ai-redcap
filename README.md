@@ -63,7 +63,6 @@ See [LICENSE](./LICENSE)
 |  3  | [Pediatric Disorders - Ages \[6-10\) Protocol](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[6-10).md>) | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         101         |                  NA                   |
 |  4  | [Pediatric Disorders - Ages 10+ Protocol](docs/pediatrics/Pediatric%20Disorders%20-%20Ages%2010%2B.md)         | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         92        |                  NA                   |
 
-
 ## Acknowledgements
 
 This study was supported in part by the Weill Cornell Medicine Clinical and Translational Science Center (CTSC) grant (UL1 TR 002384).
@@ -78,10 +77,10 @@ Study data were collected and managed using REDCap electronic data capture tools
 
 <sup>3</sup>Lawrence CE, Dunkel L, McEver M, Israel T, Taylor R, Chiriboga G, Goins KV, Rahn EJ, Mudano AS, Roberson ED, Chambless C, Wadley VG, Danila MI, Fischer MA, Joosten Y, Saag KG, Allison JJ, Lemon SC, Harris PA, "A REDCap-based model for electronic consent (eConsent): Moving toward a more personalized consent", J Clin Transl Sci. 2020 Apr 3;4(4):345-353. https://doi.org/10.1017/cts.2020.30
 
-## Copyright and References for Validated Questionnaires and Acoustic Tasks in the Bridge2AI-Voice Protocol. 
- 
-The following validated questionnaires and acoustic tasks are used in Bridge2AI Data collection tools to collect data. Please see below the associated copyrights, references and acknowledgements.  
+## Credits for Validated Questionnaires and Acoustic Tasks in the Bridge2AI-Voice Protocol.
 
+### Copyrights
+ 
 **Adult ADHD Self-Report Scale (ASRS v1.1)**
 
 Copyright © 2003 World Health Organization. Reprinted with permission of WHO. All rights reserved. 
@@ -94,7 +93,7 @@ Copyright © 2003 World Health Organization. Reprinted with permission of WHO. A
 
 Copyright © 2012 World Health Organization. 
 
-**References**
+### References
 
 <u><b>Mental Health Assessments</b></u>
 - Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606-613. doi:10.1046/j.1525-1497.2001.016009606.x 
@@ -132,7 +131,7 @@ Note: CAPE-V published under CC-BY 4.0 license. Supplemental materials: https://
 <b>Reading Passages</b>
 - IEEE Subcommittee on Subjective Measurements. IEEE recommended practice for speech quality measurements. IEEE Trans Audio Electroacoust. 1969;17(3):225-246. doi:10.1109/TAU.1969.1162058 
 
-<b>Acknowledgments</b>
+### Acknowledgments
 
 <b>Permissions obtained from:</b>
 - American Psychiatric Association (DSM-5 diagnostic criteria) 
