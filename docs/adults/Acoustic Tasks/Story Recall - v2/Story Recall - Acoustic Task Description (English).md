@@ -86,4 +86,3 @@ When you are ready, please click the **record** button below.
 ---
 
 ![mic][mic]
-
