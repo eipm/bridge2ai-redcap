@@ -20,7 +20,9 @@
 
 ![categories][categories]
 
-Time limit 1 minutes
+You will have to speak a series of (i) random letters or numbers (repetition allowed), or (ii) items from a given category e.g., cities, animals, etc. (repetition not allowed), with the goal of maximizing the number of items.
+
+Time limit 2 minutes
 
 The selection will appear when you start recording. The recording will automatically stop at the end.
 
@@ -39,6 +41,3 @@ Say as many letters or numbers (0-9) as you can. You are allowed to repeat items
 [![category_2][category_2]](Random%20Item%20Generation%20Category_2.md)
 
 Say as many items from the following category as you can. Do not repeat any item. Your goal is to list as many as possible.
-
-
-
