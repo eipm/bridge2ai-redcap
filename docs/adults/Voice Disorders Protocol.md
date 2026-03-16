@@ -86,6 +86,7 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 | 6 | Respiration and cough v1 | 05:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [YouTube Link](https://www.youtube.com/watch?v=Yb4bMj18Iqg) | NA | [Link](Retired%20Acoustic%20Tasks/Respiration%20and%20cough%20-%20v1/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(English).md)  | NA |
 | 7 | Story Recall v1 | 03:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=cfkU-N5tWe4) | NA | [Link](Retired%20Acoustic%20Tasks/Story%20Recall%20-%20v1/Story%20Recall%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 | 8 | Free Speech (Voice) | 03:10 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=5QMBSHNLRVI) | NA | [Link](Retired%20Acoustic%20Tasks/Free%20Speech%20(Voice)/Free%20Speech%20(Voice)%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
+| 12 | Cape V Sentences v1 | 01:00 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 6 | [YouTube Link](https://www.youtube.com/watch?v=1qbiCdWxuSY) | NA | [Link](Retired%20Acoustic%20Tasks/Cape%20V%20Sentences%20-%20v1/Cape%20V%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
