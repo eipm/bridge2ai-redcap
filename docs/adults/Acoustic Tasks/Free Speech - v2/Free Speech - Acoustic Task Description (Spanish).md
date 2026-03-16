@@ -10,7 +10,7 @@
 [recording_1]: https://img.shields.io/badge/Recording%201-white
 [recording_2]: https://img.shields.io/badge/Recording%202-white
 [recording_3]: https://img.shields.io/badge/Recording%203-white
----
+
 # Habla espontánea
 
 ![recording_1][recording_1]
