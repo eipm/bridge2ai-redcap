@@ -16,3 +16,32 @@
 
 
 # Respiration and cough
+
+Breathing sounds can also provide information on your health, let’s record them.
+
+First, let's hear you breathe comfortably for 30 seconds
+
+![mic][mic]
+
+---
+
+After pressing on record, take 5 big breaths in and out through your nose with your mouth closed.
+
+![mic][mic]
+
+----
+
+After pressing on record, take 5 big breaths in and out through your mouth.
+
+![mic][mic]
+
+---
+
+After pressing on record, exhale, then inhale quickly through your mouth, as if you are trying to catch your breath. Record 3 of these breaths in a single recording.
+
+![mic][mic]
+
+---
+After pressing record, cough 5 times
+
+![mic][mic]

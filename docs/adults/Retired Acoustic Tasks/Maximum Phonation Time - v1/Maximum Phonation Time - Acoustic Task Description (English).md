@@ -12,3 +12,9 @@
 [recording_2]: https://img.shields.io/badge/Recording%202-white
 
 # Maximum Phonation Time
+
+This task helps us analyze the way your breathing is connected to your voice.
+
+Take a very deep breath and hold out “ah” for as long as possible until you completely run out of air. We will repeat this task 3 times.
+
+![mic][mic]
