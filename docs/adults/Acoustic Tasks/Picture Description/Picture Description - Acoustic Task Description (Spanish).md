@@ -31,7 +31,7 @@ Esta tarea nos ayuda a analizar características en su voz.
 
 Dígame todo lo que ve que está ocurriendo en esta imagen.
 
-![Alt text](PictureDescriptionTaskPicture1.png)
+![Alt text](PictureDescriptionTaskPicture1-es-419.png)
 
 ---
 
@@ -39,4 +39,4 @@ Dígame todo lo que ve que está ocurriendo en esta imagen.
 
 Describa todo lo que está ocurriendo en la imagen (como si lo describiera para una persona ciega), tratando de usar oraciones completas.
 
-![Alt text](PictureDescriptionTaskPicture2.jpg)
+![Alt text](PictureDescriptionTaskPicture2-es-419.png)

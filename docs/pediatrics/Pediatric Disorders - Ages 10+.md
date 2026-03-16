@@ -52,14 +52,16 @@ NA
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | NA |
-| 2 | Silly Sounds |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | NA |
-| 3 | Repeating Sentences |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 6 | NA |
-| 4 | Picture Description |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 1 | NA |
-| 5 | Conversation (Advanced) |  NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | NA |
-| 6 | Reading Passage |  NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 11 | NA |
-| 7 | Generative Naming Task |  NA | [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 2 | NA |
-| 8 | Long Sounds |  NA | [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 2 | NA |
+| 1 | Conversation (4 to 6) |  NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | [Link](Acoustic%20Tasks/Conversation%20(6%20plus)/Conversation%20(6%20plus)%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 2 | Generative Naming Task |  NA | [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 2 | [Link](Acoustic%20Tasks/Generative%20Naming%20Task/Generative%20Naming%20Task%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 3 | Long Sounds |  NA | [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 2 | [Link](Acoustic%20Tasks/Long%20Sounds/Long%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 4 | Silly Sounds |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | [Link](Acoustic%20Tasks/Silly%20Sounds/Silly%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 5 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | [Link](Acoustic%20Tasks/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 6 | Repeating Words |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 25 | [Link](Acoustic%20Tasks/Repeating%20Words/Repeating%20Words%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 7 | Repeating Sentences |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 6 | [Link](Acoustic%20Tasks/Repeating%20Sentences/Repeating%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 8 | Picture Description |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 1 | [Link](Acoustic%20Tasks/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 9 | Reading Passage |  NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 11 | [Link](Acoustic%20Tasks/Reading%20Passage/Reading%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) |
+
 
 ### Retired Acoustic Tasks
 
