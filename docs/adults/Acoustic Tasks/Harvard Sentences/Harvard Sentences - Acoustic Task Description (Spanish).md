@@ -30,7 +30,7 @@
 [harvard_sentences_list]: https://custom-icon-badges.demolab.com/badge/Harvard_Sentences-lightgrey.svg?logo=list&logoSource=feather
 
 
-# Harvard Sentences
+# Las oraciones de Harvard
 
 ![recording_1][recording_1]
 
