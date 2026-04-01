@@ -44,18 +44,18 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics.pdf) | NA |
-| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders.pdf) | NA |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception.pdf) |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10.pdf) |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9.pdf) |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety.pdf) |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [Link](../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Voice Problem Severity | 00:50 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [Link](../../data/en-us/Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity.pdf) | NA |
+| 1 | Voice Problem Severity | 00:50 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [Link](../../data/en-us/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20English.pdf) | [Link](../../data/es-419/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20Spanish.pdf) |
 
 ## Acoustic Tasks
 

@@ -9,7 +9,7 @@
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
 [recording_1]: https://img.shields.io/badge/Recording%201-white
 
-# Caterpillar Passage
+# El pasaje de la oruga
 
 ![recording_1][recording_1]
 

@@ -3401,7 +3401,7 @@ stroop_item_time_10,q_neuro_wordcolor_stroop,,text,"Item 10
 Time Start",,,,,,,,,,,,,
 stroop_item_correct_10,q_neuro_wordcolor_stroop,,radio,"Item 10
 Correct?","yes, Yes | no, No",,,,,,,,,,,,
-stroop_item_stimulus_11,q_neuro_wordcolor_stroop,"Item 1",radio,"Item 11
+stroop_item_stimulus_11,q_neuro_wordcolor_stroop,"Item 11",radio,"Item 11
 Stimulus","oooo, oooo | red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
 stroop_item_color_11,q_neuro_wordcolor_stroop,,radio,"Item 11
 Color","red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
@@ -3425,7 +3425,7 @@ stroop_item_time_13,q_neuro_wordcolor_stroop,,text,"Item 13
 Time Start",,,,,,,,,,,,,
 stroop_item_correct_13,q_neuro_wordcolor_stroop,,radio,"Item 13
 Correct?","yes, Yes | no, No",,,,,,,,,,,,
-stroop_item_stimulus_14,q_neuro_wordcolor_stroop,"Item 4",radio,"Item 14
+stroop_item_stimulus_14,q_neuro_wordcolor_stroop,"Item 14",radio,"Item 14
 Stimulus","oooo, oooo | red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
 stroop_item_color_14,q_neuro_wordcolor_stroop,,radio,"Item 14
 Color","red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
@@ -3433,7 +3433,7 @@ stroop_item_time_14,q_neuro_wordcolor_stroop,,text,"Item 14
 Time Start",,,,,,,,,,,,,
 stroop_item_correct_14,q_neuro_wordcolor_stroop,,radio,"Item 14
 Correct?","yes, Yes | no, No",,,,,,,,,,,,
-stroop_item_stimulus_15,q_neuro_wordcolor_stroop,"Item 5",radio,"Item 15
+stroop_item_stimulus_15,q_neuro_wordcolor_stroop,"Item 15",radio,"Item 15
 Stimulus","oooo, oooo | red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
 stroop_item_color_15,q_neuro_wordcolor_stroop,,radio,"Item 15
 Color","red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
