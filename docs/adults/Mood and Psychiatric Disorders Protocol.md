@@ -89,7 +89,7 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 #### 🎤 Acoustic Tasks | YouTube Playlist
 
-All our acoustic tasks are available via our [Acoustic Task YouTube Playlist](https://youtube.com/playlist?list=PL72MPaFiuoRY66W7QsZ1_IeBwNosOzeap&si=9nr51lsmEYUncRMN).
+All our acoustic tasks are available via our Acoustic Task YouTube Playlist in [English](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq) and [Spanish](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n).
 
 ## Diagnoses
 
