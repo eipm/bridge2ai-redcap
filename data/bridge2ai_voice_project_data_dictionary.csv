@@ -16,7 +16,9 @@ enrollment_reason,subjectparticipant_basic_information,,text,"Enrollment Reason
 
 To be completed when enrolling a person that declined initially.",,,,,,y,"[enrolled] = 1",,,,,,
 enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
-researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,y,,,,,
+researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,,,,,,
+participant_data_collection_origins,subjectparticipant_basic_information,"Data Collection Details",checkbox,"Data Collection Origin(s)","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,,,,,," @READONLY"
+participant_data_collection_via,subjectparticipant_basic_information,,checkbox,"Data Collection via","data_collector, Data Collector | participant, Participant",,,,,,,,,,,," @READONLY"
 api_updates_on_behalf_of,subjectparticipant_basic_information,,text,"API Updates on behalf of",,,email,,,y,,,,,,," @READONLY"
 participant_study_id,subjectparticipant_contact_information,"Contact Information",text,"Participant Study ID",,,,,,y,,,,,,,
 first_name,subjectparticipant_contact_information,,text,"First Name",,,,,,y,,,,,,,
@@ -136,7 +138,8 @@ ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for decl
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,y,,,,,,,
-ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,,,,,,
+ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,,
+ef_enrollment_via,enrollment_form,,radio,"Enrollment via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,,
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,y,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
@@ -610,7 +613,7 @@ List any current medications/therapies",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_former_med_therapies,d_mood_bipolar_disorder,,text,"[DEPRECATED]
 List any former medications/therapies",,,,,,,,,,,,," @HIDDEN"
 dmdd_diagnosed_dd,d_mood_depression_or_major_depressive_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with a depressive disorder?","yes, Yes | no, No",,,,,,,y,,,,,
-dmdd_diagnosed_dd_selection,d_mood_depression_or_major_depressive_disorder,,radio,"Major Depressive Disorder","6B43, 6B43 Adjustment disorder | 6B20, 6B20 OCD | 6A70, 6A70 Single episode depressive disorder | 6A71, 6A71 Recurrent depressive disorder | 6A72, 6A72 Dysthymic disorder | 6A73, 6A73 Mixed depressive and anxiety disorder | GA34.41, GA34.41 Premenstrual dysphoric disorder | 6A7Y, 6A7Y Other specified depressive disorders | 6A7Z, 6A7Z Depressive disorders, unspecified",,,,,,[dmdd_diagnosed_dd]='yes',y,,,,,
+dmdd_diagnosed_dd_selection,d_mood_depression_or_major_depressive_disorder,,radio,"Major Depressive Disorder","6A70, 6A70 Single episode depressive disorder | 6A71, 6A71 Recurrent depressive disorder | 6A72, 6A72 Dysthymic disorder | 6A73, 6A73 Mixed depressive and anxiety disorder | GA34.41, GA34.41 Premenstrual dysphoric disorder | 6A7Y, 6A7Y Other specified depressive disorders | 6A7Z, 6A7Z Depressive disorders, unspecified",,,,,,[dmdd_diagnosed_dd]='yes',y,,,,,
 dmdd_last_depressive_episode,d_mood_depression_or_major_depressive_disorder,"2. Depression History",text,"When was your last depressive episode (feeling depressed more days than not over
 two weeks)?",,,date_ymd,,,,,,,,,,
 dmdd_how_many_depressive_episodes,d_mood_depression_or_major_depressive_disorder,,radio,"Approximately how many depressive episodes have you had in your life (feeling down and depressed more days than not over two weeks)?","none, None | moreThanTwo, More than two | moreThanFive, More than five | notSure, Not sure",,,,,,,,,,,,
@@ -682,7 +685,7 @@ List any current medications/therapies",,,,,,,,,,,,," @HIDDEN"
 diagnosis_bipolar_former_med_therapies_depression,d_mood_depression_or_major_depressive_disorder,,text,"[DEPRECATED]
 List any former medications/therapies",,,,,,,,,,,,," @HIDDEN"
 diagnosis_diagnosed_ad,d_mood_anxiety_disorder,"1. Gold Standard Diagnosis",radio,"Have you been diagnosed with an anxiety disorder?","yes, Yes | no, No",,,,,,,y,,,,,
-diagnosis_diagnosed_ad_selection,d_mood_anxiety_disorder,,radio,"Anxiety Disorder","6B80, 6B80 Anorexia nervosa | 6B81, 6B81 Bulimia nervosa | 6B82, 6B82 Binge eating disorder | 6B83, 6B83 Avoidant-restrictive food intake disorder | 6B84, 6B84 Pica | 6B85, 6B85 Rumination-regurgitation disorder | 6B8Y, 6B8Y Other specified feeding or eating disorders | 6B8Z, 6B8Z Feeding or eating disorders, unspecified | 6B00, 6B00 Generalized Anxiety Disorder | 6B01, 6B01 Panic Disorder | 6B02, 6B02 Agoraphobia | 6B04, 6B04 Social Anxiety Disorder | 6B05, 6B05 Separation Anxiety Disorder | 6B06, 6B06 Selective Mutism | 6B0Y, 6B0Y Other Specified Anxiety or Fear-Related Disorders | 6B0Z, 6B0Z Anxiety or fear-related disorders, unspecified",,,,,,[diagnosis_diagnosed_ad]='yes',y,,,,,
+diagnosis_diagnosed_ad_selection,d_mood_anxiety_disorder,,radio,"Anxiety Disorder","6B00, 6B00 Generalized Anxiety Disorder | 6B01, 6B01 Panic Disorder | 6B02, 6B02 Agoraphobia | 6B04, 6B04 Social Anxiety Disorder | 6B05, 6B05 Separation Anxiety Disorder | 6B06, 6B06 Selective Mutism | 6B0Y, 6B0Y Other Specified Anxiety or Fear-Related Disorders | 6B0Z, 6B0Z Anxiety or fear-related disorders, unspecified",,,,,,[diagnosis_diagnosed_ad]='yes',y,,,,,
 diagnosis_ad_last_anxious_episode,d_mood_anxiety_disorder,"2. Anxiety History",text,"When was your last anxious episode (feeling anxious more days than not over
 two weeks)?",,,date_ymd,,,,,,,,,,
 diagnosis_ad_active_psy_med_problems,d_mood_anxiety_disorder,"Deprecated Fields",checkbox,"[DEPRECATED]
@@ -981,8 +984,9 @@ session_is_control_participant,session,,radio,"Is Control Participant?","yes, Ye
 session_completed_at,session,,text,"Session Completed At",,,,,,y,,,,,,," @READONLY"
 session_duration,session,,text,"Session Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
 session_site,session,,radio,"Session Site?","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
-session_completed_by,session,,checkbox,"Who helped you answer the questions today? For example, did someone help you remember your medication list or how tired you are? This isn't the person who helps you understand the question, but the one who helps you provide the answers","just_me, Just me | someone_else, Someone else helped me answer the questions",,,,,,,,,,,,
-session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,,
+session_completed_by,session,,checkbox,"Who helped you answer the questions today? For example, did someone help you remember your medication list or how tired you are? This isn't the person who helps you understand the question, but the one who helps you provide the answers","just_me, Just me | someone_else, Someone else helped me answer the questions",,,,,,,,,,,," @READONLY"
+session_assigned_tasks,session,,text,"Session Assigned Tasks",,,,,,,,,,,,," @READONLY"
+session_language,session,,radio,"Session Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 acoustic_task_id,acoustic_task,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_session_id,acoustic_task,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
 acoustic_task_name,acoustic_task,,text,"Acoustic Task Name",,,,,,,,y,,,,," @READONLY"
@@ -991,6 +995,9 @@ acoustic_task_status,acoustic_task,,radio,"Acoustic Task Status","1, Skipped | 2
 acoustic_task_started_at,acoustic_task,,text,"Acoustic Task Started At",,,,,,y,,,,,,," @READONLY"
 acoustic_task_completed_at,acoustic_task,,text,"Acoustic Task Completed At",,,,,,y,,,,,,," @READONLY"
 acoustic_task_duration,acoustic_task,,text,"Acoustic Task Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+acoustic_task_origin,acoustic_task,,radio,"Acoustic Task Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+acoustic_task_via,acoustic_task,,radio,"Acoustic Task via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+acoustic_task_language,acoustic_task,,radio,"Acoustic Task Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 recording_id,recording,,text,"Recording ID",,,,,,,,y,,,,," @READONLY"
 recording_acoustic_task_id,recording,,text,"Acoustic Task ID",,,,,,,,y,,,,," @READONLY"
 recording_session_id,recording,,text,"Session ID",,,,,,,,y,,,,," @READONLY"
@@ -1005,10 +1012,16 @@ recording_profile_name,recording,,radio,"Recording Profile Name","speech, Speech
 recording_profile_version,recording,,radio,"Recording Profile Version","1, v1.0.0",,,,,,,y,,,,," @READONLY"
 recording_input_gain,recording,,text,"Recording Input Gain",,,,,,,,y,,,,," @READONLY"
 recording_microphone,recording,,text,"Recording Microphone",,,,,,,,y,,,,," @READONLY"
+recording_origin,recording,,radio,"Recording Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+recording_via,recording,,radio,"Recording via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+recording_language,recording,,radio,"Recording Language","1, English | 3, Spanish",,,,,,,y,,,,,
 demographics_session_id,q_generic_demographics,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 demographics_started_at,q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 demographics_completed_at,q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 demographics_duration,q_generic_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+demographics_origin,q_generic_demographics,,radio,"Demographics origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+demographics_via,q_generic_demographics,,radio,"Demographics via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+demographics_language,q_generic_demographics,,radio,"Demographics Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 zipcode,q_generic_demographics,"Address Information",text,Zipcode,,"5 Digit for USA and 3 Digit for Canada",,,,y,,,,,,,
 country,q_generic_demographics,,dropdown,Country,"1, USA | 2, Canada",,,,,,,y,,,,,
 gender_identity,q_generic_demographics,"Patient Demographics",radio,"What is your gender identity?","female, Female gender identity | male, Male gender identity | nonBinary, Non-binary or genderqueer gender identity | other, Other | noAnswer, Prefer not to answer",,,,,,,y,,,,,
@@ -1085,6 +1098,9 @@ confounders_session_id,q_generic_confounders,"Questionnaire - Metadata",text,"Se
 confounders_started_at,q_generic_confounders,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 confounders_completed_at,q_generic_confounders,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 confounders_duration,q_generic_confounders,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+confounders_origin,q_generic_confounders,,radio,"Confounders Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+confounders_via,q_generic_confounders,,radio,"Confounders via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+confounders_language,q_generic_confounders,,radio,"Confounders Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 tell_us_about_you_health_header,q_generic_confounders,,descriptive,"<div class=""rich-text-field-label""><div class=""rich-text-field-label""> <div class=""rich-text-field-label""> <p>TELL US ABOUT YOUR HEALTH<span style=""font-weight: normal;""> </span><br><br><span style=""text-decoration: underline;"">MEDICAL HISTORY</span><span style=""font-weight: normal;""> </span><br><span style=""font-weight: normal;"">There are some medical conditions that could have long term effects on your voice. In the following questions you will be asked about your CURRENT conditions as well as those you may have had in the PAST. Please read each set of questions carefully.</span></p> <p style=""line-height: 107%;""><strong>NOTE: </strong><span style=""font-weight: normal;"">[All fields will be pre-populated to NO/NEVER unless the person noted the condition at enrollment. E.g. if the person enrolled with chronic cough, then ""Chronic cough"" will be pre-populated to YES/CURRENT.]</span></p> <p style=""line-height: 107%;""> </p> <p style=""line-height: 107%;""> </p> </div> </div></div>",,,,,,,,,,,,,
 chronic_ear_infections,q_generic_confounders,"Have you ever been diagnosed by a doctor with any of the following conditions that affect your EARS, NOSE, or MOUTH? 
 
@@ -2724,17 +2740,26 @@ harvard_sentences_recording_acoustic_task_id,q_generic_harvard_sentences,,text,"
 harvard_sentences_started_at,q_generic_harvard_sentences,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 harvard_sentences_completed_at,q_generic_harvard_sentences,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 harvard_sentences_duration,q_generic_harvard_sentences,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+harvard_sentences_origin,q_generic_harvard_sentences,,radio,"Harvard Sentences Origin","app, Bridge2AI App | website, Bridge2AI Web Appa",,,,,,,y,,,,," @READONLY"
+harvard_sentences_via,q_generic_harvard_sentences,,radio,"Harvard Sentences via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+harvard_sentences_language,q_generic_harvard_sentences,,radio,"Harvard Sentences Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 harvard_sentences_list_order,q_generic_harvard_sentences,"Harvard Sentences",text,"Harvard Sentence List Order Array (comma separated)",,"e.g ""List 3,List 25""",,,,,,y,LH,,,,
 voice_perception_session_id,q_generic_voice_perception,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 voice_perception_started_at,q_generic_voice_perception,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 voice_perception_completed_at,q_generic_voice_perception,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 voice_perception_duration,q_generic_voice_perception,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+voice_perception_origin,q_generic_voice_perception,,radio,"Voice Perception Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+voice_perception_via,q_generic_voice_perception,,radio,"Voice Perception via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+voice_perception_language,q_generic_voice_perception,,radio,"Voice Perception Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 voice_quality_perception,q_generic_voice_perception,"Voice Perception",radio,"How would rate your voice quality today from 1-10?
 1 is the lowest quality and 10 is the best voice quality","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,LH,,,,
 vhi_session_id,q_generic_voice_handicap_index_vhi10,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 vhi_started_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 vhi_completed_at,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 vhi_duration,q_generic_voice_handicap_index_vhi10,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+vhi_origin,q_generic_voice_handicap_index_vhi10,,radio,"VHI-10 Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+vhi_via,q_generic_voice_handicap_index_vhi10,,radio,"VHI-10 via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+vhi_language,q_generic_voice_handicap_index_vhi10,,radio,"VHI-10 Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 vhi_10_calc_score,q_generic_voice_handicap_index_vhi10,,calc,"VHI-10 Score:","sum(
     if([voice_difficult_hear]=""never"", 0,
     if([voice_difficult_hear]=""almostNever"", 1,
@@ -2810,6 +2835,9 @@ phq_9_session_id,q_generic_patient_health_questionnaire9,"Questionnaire - Metada
 phq_9_started_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 phq_9_completed_at,q_generic_patient_health_questionnaire9,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 phq_9_duration,q_generic_patient_health_questionnaire9,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+phq_9_origin,q_generic_patient_health_questionnaire9,,radio,"Patient Health Questionnaire 9 Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+phq_9_via,q_generic_patient_health_questionnaire9,,radio,"Patient Health Questionnaire 9 via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+phq_9_language,q_generic_patient_health_questionnaire9,,radio,"Patient Health Questionnaire 9 Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 no_interest,q_generic_patient_health_questionnaire9,"Over the last 2 weeks, how often have you been bothered by any of the following problems?",radio,"Little interest or pleasure in doing things.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,phq_9,,
 feeling_depressed,q_generic_patient_health_questionnaire9,,radio,"Feeling down, depressed, or hopeless.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,phq_9,,
 trouble_sleeping,q_generic_patient_health_questionnaire9,,radio,"Trouble falling or staying asleep, or sleeping too much.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,phq_9,,
@@ -2832,6 +2860,9 @@ gad_7_session_id,q_generic_gad7_anxiety,"Questionnaire - Metadata",text,"Session
 gad_7_started_at,q_generic_gad7_anxiety,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 gad_7_completed_at,q_generic_gad7_anxiety,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 gad_7_duration,q_generic_gad7_anxiety,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+gad_7_origin,q_generic_gad7_anxiety,,radio,"GAD-7 Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+gad_7_via,q_generic_gad7_anxiety,,radio,"GAD-7 via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+gad_7_language,q_generic_gad7_anxiety,,radio,"GAD-7 Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 nervous_anxious,q_generic_gad7_anxiety,"Over the last two weeks, how often have you been bothered by the following problems?",radio,"Feeling nervous, anxious, or on edge.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,gad_7_anxiety,,
 cant_control_worry,q_generic_gad7_anxiety,,radio,"Not being able to stop or control worrying.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,gad_7_anxiety,,
 worry_too_much,q_generic_gad7_anxiety,,radio,"Worrying too much about different things.","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,,gad_7_anxiety,,
@@ -2850,12 +2881,18 @@ voice_severity_session_id,q_voice_voice_problem_severity,"Questionnaire - Metada
 voice_severity_started_at,q_voice_voice_problem_severity,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 voice_severity_completed_at,q_voice_voice_problem_severity,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 voice_severity_duration,q_voice_voice_problem_severity,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+voice_severity_origin,q_voice_voice_problem_severity,,radio,"Voice Severity Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+voice_severity_via,q_voice_voice_problem_severity,,radio,"Voice Severity via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+voice_severity_language,q_voice_voice_problem_severity,,radio,"Voice Severity Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 describe_the_severity_of_a,q_voice_voice_problem_severity,"Voice problem severity",slider,"Describe the severity of auditory-perceptual attributes of a voice problem
 *Overall severity scale (0-100)","0 |  | 100",,number,,,,,y,RH,,,,
 panas_session_id,q_mood_panas,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 panas_started_at,q_mood_panas,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 panas_completed_at,q_mood_panas,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 panas_duration,q_mood_panas,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+panas_origin,q_mood_panas,,radio,"PANAS Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+panas_via,q_mood_panas,,radio,"PANAS via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+panas_language,q_mood_panas,,radio,"PANAS Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 upset,q_mood_panas,"Thinking about yourself and how you normally feel, to what extent do you generally feel?
 
 Interval measure: never 1 2 3 4 5 always",radio,Upset,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,panas,,
@@ -2872,6 +2909,9 @@ custom_affect_scale_session_id,q_mood_custom_affect_scale,"Questionnaire - Metad
 custom_affect_scale_started_at,q_mood_custom_affect_scale,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 custom_affect_scale_completed_at,q_mood_custom_affect_scale,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 custom_affect_scale_duration,q_mood_custom_affect_scale,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+custom_affect_scale_origin,q_mood_custom_affect_scale,,radio,"Custom Affect Scale Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+custom_affect_scale_via,q_mood_custom_affect_scale,,radio,"Custom Affect Scale via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+custom_affect_scale_language,q_mood_custom_affect_scale,,radio,"Custom Affect Scale Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 sad_or_down,q_mood_custom_affect_scale,"Thinking about yourself and how you normally feel, to what extent do you generally feel?
 
 0=Not at all, 10=Extremely",radio,"Sad or down","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,,,,,y,,,custom_affect_scale,,
@@ -2891,6 +2931,9 @@ dsm_5_session_id,q_mood_dsm5_adult,"Questionnaire - Metadata",text,"Session ID",
 dsm_5_started_at,q_mood_dsm5_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 dsm_5_completed_at,q_mood_dsm5_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 dsm_5_duration,q_mood_dsm5_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+dsm_5_origin,q_mood_dsm5_adult,,radio,"DSM-5 Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+dsm_5_via,q_mood_dsm5_adult,,radio,"DSM-5 via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+dsm_5_language,q_mood_dsm5_adult,,radio,"DSM-5 Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 little_interest,q_mood_dsm5_adult,"During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?
 
 0=None (Not at all), 1=Slight (Rare, less than a day or two), 2=Mild (Several days), 3=Moderate (More than half the days), 4=Severe (Nearly every day)",radio,"Little interest or pleasure in doing things?","0, 0=None (Not at all) | 1, 1=Slight (Rare, less than a day or two) | 2, 2=Mild (Several days) | 3, 3=Moderate (More than half the days) | 4, 4=Severe (Nearly every day)",,,,,,,y,,,dsm_5_adult,,
@@ -2944,6 +2987,9 @@ ptsd_session_id,q_mood_ptsd_adult,"Questionnaire - Metadata",text,"Session ID",,
 ptsd_started_at,q_mood_ptsd_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 ptsd_completed_at,q_mood_ptsd_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 ptsd_duration,q_mood_ptsd_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+ptsd_origin,q_mood_ptsd_adult,,radio,"PTSD Adult Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+ptsd_via,q_mood_ptsd_adult,,radio,"PTSD Adult via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+ptsd_language,q_mood_ptsd_adult,,radio,"PTSD Adult Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 traumatic_event,q_mood_ptsd_adult,"Severity of Posttraumatic Stress Symptoms - Adult",notes,"Please list the traumatic event that you experienced",,,,,,,,,,,,,
 traumatic_event_date,q_mood_ptsd_adult,,text,"Date of the traumatic event:",,,date_ymd,,,,,,,,,,
 flashbacks,q_mood_ptsd_adult,"People sometimes have problems after extremely stressful events or experiences. How much have you been bothered during the PAST SEVEN (7) DAYS by each of the following problems that occurred or became worse after an extremely stressful event/experience?
@@ -2961,6 +3007,9 @@ adhd_session_id,q_mood_adhd_adult,"Questionnaire - Metadata",text,"Session ID",,
 adhd_started_at,q_mood_adhd_adult,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 adhd_completed_at,q_mood_adhd_adult,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 adhd_duration,q_mood_adhd_adult,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+adhd_origin,q_mood_adhd_adult,,radio,"ADHD Adult Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+adhd_via,q_mood_adhd_adult,,radio,"ADHD Adult via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+adhd_language,q_mood_adhd_adult,,radio,"ADHD Adult Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 wrapping_up,q_mood_adhd_adult,"Please answer the questions below, rating yourself on each of the criteria shown using the scale on the right side of the page. As you answer each question, select the box that best describes how you have felt and conducted yourself over the past 6 months.",radio,"How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 things_in_order,q_mood_adhd_adult,,radio,"How often do you have difficulty getting things in order when you have to do a task that requires organization?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
 remembering_appt,q_mood_adhd_adult,,radio,"How often do you have problems remembering appointments or obligations?","never, Never | rarely, Rarely | sometimes, Sometimes | often, Often | veryOften, Very Often",,,,,,,y,,,adhd_adult,,
@@ -2983,6 +3032,9 @@ mph_session_id,q_mood_participant_history,"Questionnaire - Metadata",text,"Sessi
 mph_started_at,q_mood_participant_history,,text,"Questionnaire Started At",,,,,,y,,y,,,,,
 mph_completed_at,q_mood_participant_history,,text,"Questionnaire Completed At",,,,,,y,,y,,,,,
 mph_duration,q_mood_participant_history,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,,
+mph_origin,q_mood_participant_history,,radio,"Mood Participant History Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+mph_via,q_mood_participant_history,,radio,"Mood Participant History via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+mph_language,q_mood_participant_history,,radio,"Mood Participant History Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 mph_active_psy_medical_problems,q_mood_participant_history,"Medical and Psychiatric comorbidities",text,"Please list any active psychiatric problems and medical problems.",,,,,,,,,,,,,
 mph_hist_psy_medical_problems,q_mood_participant_history,,text,"Please list any historical psychiatric problems and medical problems.",,,,,,,,,,,,,
 mph_prescribed_medication,q_mood_participant_history,"Treatment Obtained",radio,"Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?","yes, Yes | no, No",,,,,,,,,,,,
@@ -2995,6 +3047,9 @@ dyspnea_index_session_id,q_resp_dyspnea_index_di,"Questionnaire - Metadata",text
 dyspnea_index_started_at,q_resp_dyspnea_index_di,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 dyspnea_index_completed_at,q_resp_dyspnea_index_di,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 dyspnea_index_duration,q_resp_dyspnea_index_di,,text,"Questionnaire Duration (seconds)",,,,,,,,y,,,,," @READONLY"
+dyspnea_index_origin,q_resp_dyspnea_index_di,,radio,"Dyspnea Index (DI) Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+dyspnea_index_via,q_resp_dyspnea_index_di,,radio,"Dyspnea Index (DI) via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+dyspnea_index_language,q_resp_dyspnea_index_di,,radio,"Dyspnea Index (DI) Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 di_air_in,q_resp_dyspnea_index_di,"Please answer the following questions using a 0-4 rating scale.
 
 0 = Never; 1 = Almost never; 2 = Sometimes; 3 = Almost always; 4 = Always",radio,"I have trouble getting air in.","never, Never | almostNever, Almost never | sometimes, Sometimes | almostAlways, Almost always | always, Always",,,,,,,y,,,di,,
@@ -3011,6 +3066,9 @@ leicester_cough_session_id,q_resp_leicester_cough_questionnaire_lcq,"Questionnai
 leicester_cough_started_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 leicester_cough_completed_at,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 leicester_cough_duration,q_resp_leicester_cough_questionnaire_lcq,,text,"Questionnaire Duration (seconds)",,,,,,,,y,,,,," @READONLY"
+leicester_cough_origin,q_resp_leicester_cough_questionnaire_lcq,,radio,"Leicester Cough Questionnaire (LCQ) Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+leicester_cough_via,q_resp_leicester_cough_questionnaire_lcq,,radio,"Leicester Cough Questionnaire (LCQ) via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+leicester_cough_language,q_resp_leicester_cough_questionnaire_lcq,,radio,"Leicester Cough Questionnaire (LCQ) Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 lcq_chest_stomach_pains,q_resp_leicester_cough_questionnaire_lcq,"Please answer the following questions using a 1-7 rating scale.
 
 1 = None of the time; 2 = Hardly any of the time; 3 = A little of the time; 4 = Some of the time; 5 = A good bit of the time; 6 = Most of the time; 7 = All of the time",radio,"In the last 2 weeks, have you had chest or stomach pains as a result of your cough?","noneOfTheTime, None of the time | hardlyAnyOfTheTime, Hardly any of the time | aLittleOfTheTime, A little of the time | someOfTheTime, Some of the time | aGoodBitOfTheTime, A good bit of the time | mostOfTheTime, Most of the time | allOfTheTime, All of the time",,,,,,,y,,,leicester_cough,,
@@ -3036,6 +3094,9 @@ winograd_session_id,q_neuro_winograd_schemas,"Questionnaire - Metadata",text,"Se
 winograd_started_at,q_neuro_winograd_schemas,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 winograd_completed_at,q_neuro_winograd_schemas,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 winograd_duration,q_neuro_winograd_schemas,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+winograd_origin,q_neuro_winograd_schemas,,radio,"Winograd Schemas Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+winograd_via,q_neuro_winograd_schemas,,radio,"Winograd Schemas via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+winograd_language,q_neuro_winograd_schemas,,radio,"Winograd Schemas Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 winograd_score,q_neuro_winograd_schemas,"Winograd Schema Scoring",text,"Winograd Schema Score",,,,,,,,,,,,," @READONLY"
 winograd_number_questions,q_neuro_winograd_schemas,,text,"Number of questions asked",,,,,,,,,,,,," @READONLY"
 winograd_questions_asked,q_neuro_winograd_schemas,,text,"Questions asked
@@ -3321,6 +3382,9 @@ stroop_recording_acoustic_task_id,q_neuro_wordcolor_stroop,,text,"Acoustic Task 
 stroop_started_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 stroop_completed_at,q_neuro_wordcolor_stroop,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 stroop_duration,q_neuro_wordcolor_stroop,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+stroop_origin,q_neuro_wordcolor_stroop,,radio,"Word-Color Stroop Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+stroop_via,q_neuro_wordcolor_stroop,,radio,"Word-Color Stroop via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+stroop_language,q_neuro_wordcolor_stroop,,radio,"Word-Color Stroop Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 stroop_item_stimulus_1,q_neuro_wordcolor_stroop,"Item 1",radio,"Item 1
 Stimulus","oooo, oooo | red, red | green, green | blue, blue | purple, purple | brown, brown",,,,,,,,,,,,
 stroop_item_color_1,q_neuro_wordcolor_stroop,,radio,"Item 1
@@ -3447,6 +3511,9 @@ vocabulary_started_at,q_neuro_productive_vocabulary,,text,"Questionnaire Started
 vocabulary_completed_at,q_neuro_productive_vocabulary,,text,"Questionnaire Completed At
 ",,,,,,y,,,,,,," @READONLY"
 vocabulary_duration,q_neuro_productive_vocabulary,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+vocabulary_origin,q_neuro_productive_vocabulary,,radio,"Productive Vocabulary Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+vocabulary_via,q_neuro_productive_vocabulary,,radio,"Productive Vocabulary via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+vocabulary_language,q_neuro_productive_vocabulary,,radio,"Productive Vocabulary Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 vocabulary_item_word_1,q_neuro_productive_vocabulary,"Item 1",text,"Item 1
 Word",,,,,,,,,,,,,
 vocabulary_item_difficulty_1,q_neuro_productive_vocabulary,,radio,"Item 1
@@ -3488,6 +3555,9 @@ random_recording_acoustic_task_id,q_neuro_random_item_generation,,text,"Acoustic
 random_started_at,q_neuro_random_item_generation,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 random_completed_at,q_neuro_random_item_generation,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 random_duration,q_neuro_random_item_generation,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+random_origin,q_neuro_random_item_generation,,radio,"Random Item Generation Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+random_via,q_neuro_random_item_generation,,radio,"Random Item Generation via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+random_language,q_neuro_random_item_generation,,radio,"Random Item Generation Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 random_item_generation_category,q_neuro_random_item_generation," Random item generation / semantic fluency",radio,"Random item generation category","numbers, Numbers | letters, Letters | firstNames, First names | cityNames, City names | countryNames, Country names | jobs, Jobs | fruits, Fruits | drinks, Drinks | animals, Animals | wordStartingWithT, English words starting with ""t""",,,,,,,,,,,,
 moca_notes,q_neuro_moca,"MoCA Test Questionnaire",descriptive,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">Steps to download MoCA test results from the DUO app and upload them here:</span></p> <ol> <li><span style=""font-weight: normal;"">Export MoCA test results in .pdf format to your Sinai email ID from the MoCA DUO app</span></li> <li><span style=""font-weight: normal;"">Open the pdf, enter the password (Rater's MoCA login password)</span></li> <li><span style=""font-weight: normal;"">Remove the password from the .pdf document and save it as a new document.<br /></span><span style=""font-weight: normal;""><br />How to remove a password from a .pdf using Adobe Acrobat<br /></span> <table style=""border-collapse: collapse; width: 100%; height: 99.7812px;"" border=""1""> <tbody> <tr style=""height: 99.7812px;""> <td style=""width: 99.8519%; height: 99.7812px;""> <p><span style=""font-weight: normal;"">Open the PDF in Adobe Acrobat.</span><br /><span style=""font-weight: normal;"">Go to ""File"" > ""Properties"" > ""Security"".</span><br /><span style=""font-weight: normal;"">Choose ""No Security"" from the security method drop-down menu (you might need to enter the password).</span><br /><span style=""font-weight: normal;"">Save the document to apply changes.</span></p> </td> </tr> </tbody> </table> </li> <li><span style=""font-weight: normal;"">Upload the scanned pdf to Bridge2AI REDCap field below</span></li> </ol></div>",,,,,,,,,,,,,
 moca_duo_pdf,q_neuro_moca,,file,"MoCA DUO PDF",,,,,,y,,y,,,,,
@@ -3498,6 +3568,9 @@ peds_demographics_session_id,pediatric_q_generic_demographics,"Questionnaire - M
 peds_demographics_started_at,pediatric_q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 peds_demographics_completed_at,pediatric_q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 peds_demographics_duration,pediatric_q_generic_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+peds_demographics_origin,pediatric_q_generic_demographics,,radio,"Peds Demographics Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_demographics_via,pediatric_q_generic_demographics,,radio,"Peds Demographics via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_demographics_language,pediatric_q_generic_demographics,,radio,"Peds Demographics Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_zipcode,pediatric_q_generic_demographics,"Address Information",text,Zipcode,,"5 Digit for USA and 3 Digit for Canada",,,,y,,,,,,,
 peds_country,pediatric_q_generic_demographics,,dropdown,Country,"1, USA | 2, Canada",,,,,,,y,,,,,
 peds_gender_identity,pediatric_q_generic_demographics,"Patient Demographics",radio,"What is your gender identity?","female, Female gender identity | male, Male gender identity | other, Other",,,,,,,,,,,,
@@ -3521,6 +3594,9 @@ peds_vhi_session_id,pediatric_q_generic_vhi_10,"Questionnaire - Metadata",text,"
 peds_vhi_started_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_completed_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_duration,pediatric_q_generic_vhi_10,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+peds_vhi_origin,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_vhi_via,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_vhi_language,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_vhi_talkativeness,pediatric_q_generic_vhi_10,"Pediatric VHI 10 Questionnaire",slider,"I would rate my child's talkativeness as the following:","Quiet Talker | Average Talker | Extremely Talkative",,number,1,7,,,,RH,,,,
 peds_voice_difficult_hear,pediatric_q_generic_vhi_10,,radio,"My child's voice makes it difficult for people to hear him/her.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,,,,peds_vhi_10,,
 peds_difficulty_understanding,pediatric_q_generic_vhi_10,,radio,"People have difficulty understanding my child in a noisy room.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,,,,peds_vhi_10,,
@@ -3550,6 +3626,9 @@ peds_os_session_id,pediatric_q_generic_voice_outcome_survey,"Questionnaire - Met
 peds_os_started_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_os_completed_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_os_duration,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+peds_os_origin,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_os_via,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_os_language,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_os_limit_understood,pediatric_q_generic_voice_outcome_survey,"Pediatric Voice Outcome Survey",radio,"To what extent does you child's voice limit his or her ability to be understood in a noisy area?","limitedALot, Limited a lot | limitedALittle, Limited a little | notLimitedAtAll, Not limited at all",,,,,,,,,,,,
 peds_os_interfered_activities,pediatric_q_generic_voice_outcome_survey,,radio,"During the past 2 weeks, to what extent has your child's voice interfered with his or her normal social activities or with his or her school?","notAtAll, Not at all | slightly, Slightly | moderately, Moderately | quiteABit, Quite a bit | extremely, Extremely",,,,,,,,,,,,
 peds_os_trouble_food_iquids,pediatric_q_generic_voice_outcome_survey,,radio,"How often does your child have trouble with food or liquids ""going down the wrong pipe"" when he or she eats food or drinks liquid and begins to cough after eating or drinking?","allTheTime, All the time | mostOfTheTime, Most of the time | sometimes, Sometimes | rarely, Rarely | never, Never",,,,,,,,,,,,
@@ -3558,6 +3637,9 @@ peds_qol_session_id,pediatric_q_generic_voice_related_qol_survey,"Questionnaire 
 peds_qol_started_at,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_qol_completed_at,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_qol_duration,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+peds_qol_origin,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_qol_via,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_qol_language,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_qol_trouble_speaking_heard,pediatric_q_generic_voice_related_qol_survey,"Please answer these questions based on what your child's voice (your own voice if you are a teenage respondent) has been like over the last 2 weeks. Consider how severe the problem is, when you get it and how frequently it happens. Please rate each item below on how bad it is (the amount of each problem). Because of my child's voice, how much of a problem is this?",radio,"My child/ I has trouble speaking loudly or being heard in noisy situations.","none, None, not a problem | aSmallAmount, A small amount | aModerateAmount, A moderate amount | aLot, A lot | asBadAsItCanBe, Problem is ""as bad as it can be"" | notApplicable, Not applicable",,,,,,,,,,peds_qol,,
 peds_qol_out_of_air,pediatric_q_generic_voice_related_qol_survey,,radio,"My child/ I runs out of air and needs to take frequent breaths when talking.","none, None, not a problem | aSmallAmount, A small amount | aModerateAmount, A moderate amount | aLot, A lot | asBadAsItCanBe, Problem is ""as bad as it can be"" | notApplicable, Not applicable",,,,,,,,,,peds_qol,,
 peds_qol_come_out_speaking,pediatric_q_generic_voice_related_qol_survey,,radio,"My child/ I sometimes does not know what will come out when they begin speaking.","none, None, not a problem | aSmallAmount, A small amount | aModerateAmount, A moderate amount | aLot, A lot | asBadAsItCanBe, Problem is ""as bad as it can be"" | notApplicable, Not applicable",,,,,,,,,,peds_qol,,
@@ -3571,6 +3653,9 @@ peds_phqa_session_id,pediatric_q_generic_phqa,"Questionnaire - Metadata",text,"S
 peds_phqa_started_at,pediatric_q_generic_phqa,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_phqa_completed_at,pediatric_q_generic_phqa,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_phqa_duration,pediatric_q_generic_phqa,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
+peds_phqa_origin,pediatric_q_generic_phqa,,radio,"Peds PHQ-A Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_phqa_via,pediatric_q_generic_phqa,,radio,"Peds PHQ-A via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_phqa_language,pediatric_q_generic_phqa,,radio,"Peds PHQ-A Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_phqa_feeling_depressed,pediatric_q_generic_phqa,"How often have you been bothered by each of the following symptoms during the past two weeks? For each symptom select the answer that best describes how you have been feeling.",radio,"Feeling down, depressed, irritable, or hopeless?","notAtAll, Not at all | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,,y,,,phqa,,
 peds_phqa_no_interest,pediatric_q_generic_phqa,,radio,"Little interest or pleasure in doing things?","notAtAll, Not at all | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,,y,,,phqa,,
 peds_phqa_trouble_sleeping,pediatric_q_generic_phqa,,radio,"Trouble falling asleep, staying asleep, or sleeping too much?","notAtAll, Not at all | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,,y,,,phqa,,
@@ -3584,6 +3669,9 @@ peds_mc_session_id,pediatric_q_generic_medical_conditions,"Questionnaire - Metad
 peds_mc_started_at,pediatric_q_generic_medical_conditions,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_mc_completed_at,pediatric_q_generic_medical_conditions,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_mc_duration,pediatric_q_generic_medical_conditions,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
+peds_mc_origin,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_mc_via,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
+peds_mc_language,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_mc_voice_disorders,pediatric_q_generic_medical_conditions,"Pediatric Medical Conditions Questionnaire",checkbox,"Does your child have a history of a voice disorder? (Select all that apply)","vocal_nodules_or_polyps, Vocal nodules or polyps | unilateral_vocal_cord_paralysis, Unilateral vocal cord paralysis | bilateral_vocal_cord_paralysis, Bilateral vocal cord paralysis | acid_reflux_disease, Acid reflux disease (GERD) | scarring, Scarring of the larynx or vocal cords from disease or previous surgery | airway_stenosis, Airway stenosis (bilateral vocal fold paralysis laryngeal stenosis) | vocal_cord_webs, Vocal cord webs",,,,,,,,,,,,
 peds_mc_psych_disorders,pediatric_q_generic_medical_conditions,,checkbox,"Does your child have a history of a psychological disorders or mood problems? (Select all that apply)","anxiety_disorder, Anxiety disorder | adhd, ADHD | asd, Autism Spectrum Disorder (ASD) | depression, Depression or Major Depressive Disorder | eating_disorder, Eating Disorder (ED) | insomnia_or_sleep_disorder, Insomnia/sleep Disorder | ocd, Obsessive-Compulsive Disorder (OCD) | panic, Panic Disorder | social_anxiety_disorder, Social Anxiety Disorder | other, Other psychiatric disorders",,,,,,,,,,,,
 peds_mc_psych_disorders_other,pediatric_q_generic_medical_conditions,,text,"Please Specify",,,,,,,"[peds_mc_psych_disorders(other)] = ""1""",y,,,,,
