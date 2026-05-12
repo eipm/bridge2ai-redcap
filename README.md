@@ -25,35 +25,35 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
         <br>🧍<br>
         <strong>Controls</strong>
       </a>
-      <br><sub>⏳ 38:45 · 📕 6 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+      <br><sub>⏳ 38:45</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Voice%20Disorders%20Protocol.md">
         <br>🗣️<br>
         <strong>Voice</strong>
       </a>
-      <br><sub>⏳ 42:25 · 📕 6 questionnaires · 🎤 12 tasks · 🔊 47 recordings</sub>
+      <br><sub>⏳ 42:25</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 12 acoustic tasks</sub><br><sub>🔊 47 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Mood%20and%20Psychiatric%20Disorders%20Protocol.md">
         <br>🧠<br>
         <strong>Mood &amp; Psychiatric</strong>
       </a>
-      <br><sub>⏳ 46:00 · 📕 10 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+      <br><sub>⏳ 46:00</sub><br><sub>📕 10 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Respiratory%20Disorders%20Protocol.md">
         <br>🫁<br>
         <strong>Respiratory</strong>
       </a>
-      <br><sub>⏳ 42:05 · 📕 8 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+      <br><sub>⏳ 42:05</sub><br><sub>📕 8 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md">
         <br>⚡<br>
         <strong>Neurological & Neurodegenerative</strong>
       </a>
-      <br><sub>⏳ 45:30 · 📕 6 questionnaires · 🎤 13 tasks · 🔊 44 recordings</sub>
+      <br><sub>⏳ 45:30</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 13 acoustic tasks</sub><br><sub>🔊 44 recordings</sub>
     </td>
   </tr>
 </table>
@@ -63,23 +63,23 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
     <td align="center" width="25%">
       <a href="docs/Adults/Acoustic%20Tasks/Adult%20Acoustic%20Tasks.md">
         <br>🎤<br>
-        <strong>Acoustic Tasks</strong>
+        <strong>All Adult Acoustic Tasks</strong>
       </a>
-      <br><sub>🟢 15 active · 🗄️ 14 retired</sub>
+      <br><sub>🟢 15 active</sub><br><sub>🗄️ 14 retired</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Adults/Questionnaires/Adult%20Questionnaires.md">
         <br>📝<br>
-        <strong>Questionnaires</strong>
+        <strong>All Adult Questionnaires</strong>
       </a>
-      <br><sub>🟢 16 active · 🗄️ 4 retired</sub>
+      <br><sub>🟢 16 active</sub><br><sub>🗄️ 4 retired</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Adults/Diagnoses/Adult%20Diagnoses.md">
         <br>🏥<br>
-        <strong>Diagnoses</strong>
+        <strong>All Adult Diagnoses</strong>
       </a>
-      <br><sub>🩺 19 conditions</sub>
+      <br><sub>🩺 19 disorders</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Adults/eConsents/Adult%20eConsents.md">
@@ -100,28 +100,28 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
         <br>🧒<br>
         <strong>Ages 2–4</strong>
       </a>
-      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 4 tasks · 🔊 50 recordings</sub>
+      <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 4 acoustic tasks</sub><br><sub>🔊 50 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B4-6%29.md">
         <br>🧒<br>
         <strong>Ages 4–6</strong>
       </a>
-      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 8 tasks · 🔊 87 recordings</sub>
+      <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 8 acoustic tasks</sub><br><sub>🔊 87 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B6-10%29.md">
         <br>🧒<br>
         <strong>Ages 6–10</strong>
       </a>
-      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 9 tasks · 🔊 101 recordings</sub>
+      <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 9 acoustic tasks</sub><br><sub>🔊 101 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%2010%2B.md">
         <br>🧒<br>
         <strong>Ages 10+</strong>
       </a>
-      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 9 tasks · 🔊 92 recordings</sub>
+      <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 9 acoustic tasks</sub><br><sub>🔊 92 recordings</sub>
     </td>
   </tr>
 </table>
@@ -131,14 +131,14 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Acoustic%20Tasks/Pediatric%20Acoustic%20Tasks.md">
         <br>🎤<br>
-        <strong>Acoustic Tasks</strong>
+        <strong>All Pediatric Acoustic Tasks</strong>
       </a>
       <br><sub>🟢 15 active</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Questionnaires/Pediatric%20Questionnaires.md">
         <br>📝<br>
-        <strong>Questionnaires</strong>
+        <strong>All Pediatric Questionnaires</strong>
       </a>
       <br><sub>🟢 6 active</sub>
     </td>
