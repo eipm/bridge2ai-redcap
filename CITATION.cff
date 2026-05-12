@@ -8,8 +8,8 @@ abstract: >-
 message: >-
   If you use this dataset, please cite it using the metadata from this file.
 type: dataset
-version: 4.7.0
-date-released: 2026-05-04
+version: 4.8.0
+date-released: 2026-05-12
 doi: 10.5281/zenodo.12760724
 url: 'https://b2ai-voice.org/'
 preferred-citation:

@@ -8,11 +8,11 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![GitHub](https://img.shields.io/badge/github-4.7.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-4.8.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |   PDF's (English)    |    PDF's (Spanish)    |
 | :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
-| v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) | [Files](docs/PDFs/en-us/) | [Files](docs/PDFs/es-419/) |
+| v4.8.0  |   2026-05-12    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) | [Files](docs/PDFs/en-us/) | [Files](docs/PDFs/es-419/) |
 
 ## 📋 Adult Protocols
 
@@ -20,35 +20,35 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   <tr>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Generic%20Protocol%20(Controls).md">
-        <br>🧍<br>
+        <br><img src="images/protocols/control.png" width="36" height="36" alt="Respiratory"><br>
         <strong>Controls</strong>
       </a>
       <br><sub>⏳ 38:45</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Voice%20Disorders%20Protocol.md">
-        <br>🗣️<br>
+        <br><img src="images/protocols/voice.png" width="36" height="36" alt="Voice"><br>
         <strong>Voice</strong>
       </a>
       <br><sub>⏳ 42:25</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 12 acoustic tasks</sub><br><sub>🔊 47 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Mood%20and%20Psychiatric%20Disorders%20Protocol.md">
-        <br>🧠<br>
+        <br><img src="images/protocols/mood.png" width="36" height="36" alt="Mood & Psychiatric"><br>
         <strong>Mood &amp; Psychiatric</strong>
       </a>
       <br><sub>⏳ 46:00</sub><br><sub>📕 10 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Respiratory%20Disorders%20Protocol.md">
-        <br>🫁<br>
+        <br><img src="images/protocols/respiratory.png" width="36" height="36" alt="Respiratory"><br>
         <strong>Respiratory</strong>
       </a>
       <br><sub>⏳ 42:05</sub><br><sub>📕 8 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md">
-        <br>⚡<br>
+        <br><img src="images/protocols/neuro.png" width="36" height="36" alt="Neurological & Neurodegenerative"><br>
         <strong>Neurological & Neurodegenerative</strong>
       </a>
       <br><sub>⏳ 45:30</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 13 acoustic tasks</sub><br><sub>🔊 44 recordings</sub>
@@ -97,28 +97,28 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   <tr>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B2-4%29.md">
-        <br>🧒<br>
+        <br><img src="images/protocols/peds.png" width="36" height="36" alt="Ages 2–4"><br>
         <strong>Ages 2–4</strong>
       </a>
       <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 4 acoustic tasks</sub><br><sub>🔊 50 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B4-6%29.md">
-        <br>🧒<br>
+        <br><img src="images/protocols/peds.png" width="36" height="36" alt="Ages 4–6"><br>
         <strong>Ages 4–6</strong>
       </a>
       <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 8 acoustic tasks</sub><br><sub>🔊 87 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B6-10%29.md">
-        <br>🧒<br>
+        <br><img src="images/protocols/peds.png" width="36" height="36" alt="Ages 6–10"><br>
         <strong>Ages 6–10</strong>
       </a>
       <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 9 acoustic tasks</sub><br><sub>🔊 101 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%2010%2B.md">
-        <br>🧒<br>
+        <br><img src="images/protocols/peds.png" width="36" height="36" alt="Ages 10+"><br>
         <strong>Ages 10+</strong>
       </a>
       <br><sub>⏳ 14:10</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 9 acoustic tasks</sub><br><sub>🔊 92 recordings</sub>
@@ -155,7 +155,7 @@ If you use the Bridge2AI-Voice protocols or this data dictionary in your work, p
 
 If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
 
-> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.7.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.8.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 ## 🧩 How to Import into REDCap
 

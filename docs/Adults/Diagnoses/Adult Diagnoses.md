@@ -31,7 +31,7 @@ Clinical conditions covered by the Bridge2AI-Voice protocols, grouped by domain.
 - [Bipolar Disorder](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf)
 - [Depression / Major Depressive Disorder](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf)
 
-## 🫁 Respiratory
+## <img src="../../../images/protocols/respiratory.png" width="28" height="28" align="absmiddle" alt=""> Respiratory
 
 - [Airway Stenosis](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)
 - [COPD and Asthma](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)
