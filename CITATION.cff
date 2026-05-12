@@ -58,16 +58,19 @@ preferred-citation:
       orcid: 'https://orcid.org/0000-0002-7164-4685'
     - family-names: Rudzicz
       given-names: Frank
+      orcid: 'https://orcid.org/0000-0002-1139-3423'
     - family-names: Lerner-Ellis
       given-names: Jordan
       orcid: 'https://orcid.org/0000-0003-3685-5679'
     - family-names: Awan
       given-names: Shaheen
+      orcid: 'https://orcid.org/0000-0003-3331-4156'
     - family-names: Bolser
       given-names: Don
       orcid: 'https://orcid.org/0000-0002-4577-8954'
     - family-names: Bensoussan
       given-names: Yaël
+      orcid: 'https://orcid.org/0000-0002-1635-8627'
   year: 2024
   month: 9
   collection-title: 'Proc. Interspeech 2024'
