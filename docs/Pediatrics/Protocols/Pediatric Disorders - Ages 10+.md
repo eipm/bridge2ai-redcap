@@ -8,15 +8,6 @@
 
 # Pediatric Disorders - Ages 10+ Protocol
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Questionnaires](#questionnaires)
-    - [Retired Questionnaires](#retired-questionnaires)
-- [Acoustic Tasks](#acoustic-tasks)
-    - [Retired Acoustic Tasks](#retired-acoustic-tasks)
-- [Diagnoses](#diagnoses)
-
 ## Overview
 
 This document provides an overview of the Pediatric Disorders Protocol for Ages 10+ used in the Bridge2AI project. It includes details on questionnaires, acoustic tasks, and diagnoses relevant to the protocol.
