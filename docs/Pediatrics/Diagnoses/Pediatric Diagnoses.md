@@ -14,4 +14,4 @@ Clinical conditions covered by the Bridge2AI-Voice protocols, grouped by domain.
 
 Used across all four pediatric age strata (2–4, 4–6, 6–10, 10+).
 
-- [Healthy Developmentally Typical Children](../../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)
+- [Healthy Developmentally Typical Children](../../PDFs/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)

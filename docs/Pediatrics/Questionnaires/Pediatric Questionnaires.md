@@ -16,9 +16,9 @@ Pediatric questionnaires are currently English-only and used across all four ped
 
 | # | Name | Used in Age Group(s) | 📄 PDF (EN) |
 | :-: | :-- | :-- | :-: |
-| 1 | Demographics | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) |
-| 2 | VHI-10 | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) |
-| 3 | Voice Outcome Survey | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) |
-| 4 | Voice-Related Quality of Life Survey | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QOL%20Survey%20-%20English.pdf) |
-| 5 | PHQ-A | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) |
-| 6 | Medical Conditions | 2–4, 4–6, 6–10, 10+ | [📄](../../../data/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) |
+| 1 | Demographics | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) |
+| 2 | VHI-10 | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) |
+| 3 | Voice Outcome Survey | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) |
+| 4 | Voice-Related Quality of Life Survey | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QOL%20Survey%20-%20English.pdf) |
+| 5 | PHQ-A | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) |
+| 6 | Medical Conditions | 2–4, 4–6, 6–10, 10+ | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) |

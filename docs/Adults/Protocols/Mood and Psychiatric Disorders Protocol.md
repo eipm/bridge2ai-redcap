@@ -23,31 +23,31 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 **Disorders/Diseases Covered**
 
-- [![Anxiety Disorder](https://img.shields.io/badge/Anxiety%20Disorder-8A2BE2)](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf)
-- [![Bipolar Disorder](https://img.shields.io/badge/Bipolar%20Disorder-8A2BE2)](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf)
-- [![Depression or Major Depressive Disorder](https://img.shields.io/badge/Depression%20or%20Major%20Depressive%20Disorder-8A2BE2)](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf)
+- [![Anxiety Disorder](https://img.shields.io/badge/Anxiety%20Disorder-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf)
+- [![Bipolar Disorder](https://img.shields.io/badge/Bipolar%20Disorder-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf)
+- [![Depression or Major Depressive Disorder](https://img.shields.io/badge/Depression%20or%20Major%20Depressive%20Disorder-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf)
 
 ## Questionnaires
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
-| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
-| 7 | PANAS | 01:00 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS%20-%20Spanish.pdf) |
-| 8 | Custom Affect Scale | 01:30 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale%20-%20Spanish.pdf) |
-| 9 | DSM-5 Adult | 02:25 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult%20-%20Spanish.pdf) |
-| 10 | ADHD Adult | 02:20 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult%20-%20English.pdf) | [Link](../../../data/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult%20-%20Spanish.pdf) |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
+| 7 | PANAS | 01:00 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PANAS%20-%20Spanish.pdf) |
+| 8 | Custom Affect Scale | 01:30 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Custom%20Affect%20Scale%20-%20Spanish.pdf) |
+| 9 | DSM-5 Adult | 02:25 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20DSM-5%20Adult%20-%20Spanish.pdf) |
+| 10 | ADHD Adult | 02:20 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20ADHD%20Adult%20-%20Spanish.pdf) |
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | PTSD Adult | 02:25 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20English.pdf) | [Link](../../../data/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20Spanish.pdf) |
-| 2 | Participant History | 03:15 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../../data/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20English.pdf) | [Link](../../../data/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20Spanish.pdf) |
+| 1 | PTSD Adult | 02:25 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20English.pdf) | [Link](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20Spanish.pdf) |
+| 2 | Participant History | 03:15 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20English.pdf) | [Link](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20Spanish.pdf) |
 
 ## Acoustic Tasks
 
@@ -86,6 +86,6 @@ All our acoustic tasks are available via our Acoustic Task YouTube Playlist in [
 
 | # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Anxiety Disorder | [Link](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf) | NA |
-| 2 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Bipolar Disorder | [Link](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf) | NA |
-| 3 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Depression or Major Depressive Disorder | [Link](../../../data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) | NA |
+| 1 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Anxiety Disorder | [Link](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf) | NA |
+| 2 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Bipolar Disorder | [Link](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf) | NA |
+| 3 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Depression or Major Depressive Disorder | [Link](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf) | NA |
