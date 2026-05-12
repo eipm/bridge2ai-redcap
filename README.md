@@ -12,7 +12,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
 | Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |   PDF's (English)    |    PDF's (Spanish)    |
 | :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
-| v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml) | [Files](docs/PDFs/en-us/) | [Files](docs/PDFs/es-419/) |
+| v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) | [Files](docs/PDFs/en-us/) | [Files](docs/PDFs/es-419/) |
 
 ## 📋 Protocols
 
@@ -159,7 +159,7 @@ If you are citing this repository directly (for example, a specific version of t
 
 To use the Bridge2AI-Voice instruments in your own REDCap project, download one of the two files from the version row in the table above and follow the matching option below.
 
-**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
+**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
 
 **Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
 
