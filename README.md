@@ -14,9 +14,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 | :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
 | v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) | [Files](docs/PDFs/en-us/) | [Files](docs/PDFs/es-419/) |
 
-## 📋 Protocols
-
-### Adults
+## 📋 Adult Protocols
 
 <table align="center">
   <tr>
@@ -58,6 +56,8 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   </tr>
 </table>
 
+### Additional Resources
+
 <table align="center">
   <tr>
     <td align="center" width="25%">
@@ -91,7 +91,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   </tr>
 </table>
 
-### Pediatrics
+## 📋 Pediatric Protocols
 
 <table align="center">
   <tr>
@@ -125,6 +125,8 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
     </td>
   </tr>
 </table>
+
+### Additional Resources
 
 <table align="center">
   <tr>
