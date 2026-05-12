@@ -36,29 +36,14 @@ If you are citing this repository directly (for example, a specific version of t
 
 > Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.7.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-## Table of Contents
-
-- [eConsent Forms](#econsent-forms)
-- [Adult Protocols](#adult-protocols)
-  - [Adult Generic Protocol (Controls)](<docs/adults/Generic%20Protocol%20(Controls).md>)
-  - [Adult Voice Disorders Protocol](docs/adults/Voice%20Disorders%20Protocol.md)
-  - [Adult Mood and Psychiatric Disorders Protocol](docs/adults/Mood%20and%20Psychiatric%20Disorders%20Protocol.md)
-  - [Adult Respiratory Disorders Protocol](docs/adults/Respiratory%20Disorders%20Protocol.md)
-  - [Adult Neurological and Neurodegenerative Disorders Protocol](docs/adults/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md)
-- [Pediatric Protocols](#pediatric-protocols)
-  - [Pediatric Disorders - Ages \[2-4)](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[2-4).md>)
-  - [Pediatric Disorders - Ages \[4-6)](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[4-6).md>)
-  - [Pediatric Disorders - Ages \[6-10)](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[6-10).md>)
-  - [Pediatric Disorders - Ages 10+](docs/pediatrics/Pediatric%20Disorders%20-%20Ages%2010%2B.md)
-
-## eConsent Forms
+## 📝 eConsent Forms
 
 |  #  | Site | Language |                                                     English PDF                                                      |                                                      Spanish PDF                                                      |
 | :-: | :--- | :------- | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 |  1  | USF  | English  | [Bridge2AI eConsent - USF - English](data/en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20English.pdf) | [Bridge2AI eConsent - USF - Spanish](data/es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.pdf) |
 |  2  | MIT  | English  | [Bridge2AI eConsent - MIT - English](data/en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20English.pdf) |                                                          NA                                                           |
 
-## Adult Protocols
+## 🩺 Adult Protocols
 
 |  #  | 📓 Protocol Name                                                                                                                      | Clinical Diagnoses                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 📕 # of Questionnaires | 🎤 # of Acoustic Tasks | 🔊 # of Recordings | ⏳ Estimated time to complete (mm:ss) |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: | :----------------: | :-----------------------------------: |
@@ -68,7 +53,7 @@ If you are citing this repository directly (for example, a specific version of t
 |  4  | [Respiratory Disorders Protocol](docs/adults/Respiratory%20Disorders%20Protocol.md)                                                   | <ul><li>[Airway Stenosis](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)</li><li>[COPD and Asthma](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)</li><li>[Unexplained Chronic Cough](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |           8            |           10           |         41         |                 42:05                 |
 |  5  | [Neurological and Neurodegenerative Disorders Protocol](docs/adults/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | <ul><li>[Alzheimer's, dementia, or mild cognitive impairment](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)</li><li>[Amyotrophic Lateral Sclerosis (ALS)](<data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf>)</li><li>[Huntington's Disease](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)</li><li>[Parkinson's Disease](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                          |           6            |           13           |         44         |                 45:30                 |
 
-## Pediatric Protocols
+## 🧒 Pediatric Protocols
 
 |  #  | 📓 Protocol Name                                                                                               | Clinical Diagnoses                                                                                                                                                                                     | 📕 # of Questionnaires | 🎤 # of Acoustic Tasks | 🔊 # of Recordings | ⏳ Estimated time to complete (mm:ss) |
 | :-: | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: | :----------------: | :-----------------------------------: |
@@ -77,13 +62,13 @@ If you are citing this repository directly (for example, a specific version of t
 |  3  | [Pediatric Disorders - Ages \[6-10\) Protocol](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[6-10).md>) | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         101         |                  NA                   |
 |  4  | [Pediatric Disorders - Ages 10+ Protocol](docs/pediatrics/Pediatric%20Disorders%20-%20Ages%2010%2B.md)         | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         92        |                  NA                   |
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 This study was supported in part by the Weill Cornell Medicine Clinical and Translational Science Center (CTSC) grant (UL1 TR 002384).
 
 Study data were collected and managed using REDCap electronic data capture tools hosted at Weill Cornell Medicine.<sup>1,2,3</sup> REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
 
-## Citations
+## 🔖 Citations
 
 <sup>1</sup>PA Harris, R Taylor, R Thielke, J Payne, N Gonzalez, JG. Conde, Research electronic data capture (REDCap) – A metadata-driven methodology and workflow process for providing translational research informatics support, J Biomed Inform. 2009 Apr;42(2):377-81.
 
@@ -91,6 +76,6 @@ Study data were collected and managed using REDCap electronic data capture tools
 
 <sup>3</sup>Lawrence CE, Dunkel L, McEver M, Israel T, Taylor R, Chiriboga G, Goins KV, Rahn EJ, Mudano AS, Roberson ED, Chambless C, Wadley VG, Danila MI, Fischer MA, Joosten Y, Saag KG, Allison JJ, Lemon SC, Harris PA, "A REDCap-based model for electronic consent (eConsent): Moving toward a more personalized consent", J Clin Transl Sci. 2020 Apr 3;4(4):345-353. https://doi.org/10.1017/cts.2020.30
 
-## Credits
+## 📜 Credits
 
 For copyrights, references, and permissions for the validated questionnaires and acoustic tasks used in the Bridge2AI-Voice protocols, see [CREDITS.md](CREDITS.md).
