@@ -1,11 +1,17 @@
 cff-version: 1.2.0
 title: Bridge2AI Voice REDCap
+abstract: >-
+  REDCap data dictionary, metadata, and protocol documentation for the
+  Bridge2AI-Voice project — "Voice as a Biomarker of Health." Covers
+  adult and pediatric protocols across voice, mood, respiratory,
+  neurological, and control populations.
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+  If you use this dataset, please cite it using the metadata from this file.
 type: dataset
 version: 4.7.0
 date-released: 2026-05-04
+doi: 10.5281/zenodo.12760724
+url: 'https://b2ai-voice.org/'
 preferred-citation:
   type: conference-paper
   title: >-
@@ -63,7 +69,16 @@ preferred-citation:
     - family-names: Bensoussan
       given-names: Yaël
   year: 2024
+  month: 9
   collection-title: 'Proc. Interspeech 2024'
+  conference:
+    name: 'Interspeech 2024'
+    city: 'Kos Island'
+    country: GR
+    date-start: 2024-09-01
+    date-end: 2024-09-05
+  publisher:
+    name: ISCA
   start: 1445
   end: 1449
   doi: 10.21437/Interspeech.2024-1926
@@ -164,6 +179,16 @@ keywords:
   - AI
   - Bridge2AI
   - Voice
+  - Voice as a Biomarker
+  - REDCap
+  - Data Dictionary
+  - Clinical Research
+  - Voice Disorders
+  - Neurological Disorders
+  - Respiratory Disorders
+  - Mood Disorders
+  - Pediatric
+  - eConsent
 contact:
   - email: als2076@med.cornell.edu
     name: Alexandros Sigaras
