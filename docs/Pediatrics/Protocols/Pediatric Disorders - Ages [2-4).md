@@ -26,7 +26,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Pediatric Demographics | 02:35 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) |
 | 2 | Pediatric VHI-10 | 02:25 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) |

@@ -27,7 +27,7 @@ This document provides an overview of the Adult Generic Protocol (Controls) used
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFsneric%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -76,6 +76,6 @@ All adult acoustic-task demonstrations are also available as curated YouTube pla
 
 ## Diagnoses
 
-| # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
+| # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | Control | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Generic/D%20-%20Control.pdf) | NA |

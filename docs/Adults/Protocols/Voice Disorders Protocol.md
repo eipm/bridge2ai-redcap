@@ -36,7 +36,7 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -47,7 +47,7 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 
 ### Retired Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Voice Problem Severity | 00:50 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20Spanish.pdf) |
 
@@ -91,7 +91,7 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 
 ## Diagnoses
 
-| # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
+| # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Benign Lesions | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf) | NA |
 | 2 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Voice Glottic Insufficiency / Presbyphonia | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf) | NA |

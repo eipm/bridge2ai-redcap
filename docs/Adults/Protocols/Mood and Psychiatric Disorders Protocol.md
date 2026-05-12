@@ -30,7 +30,7 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -45,7 +45,7 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 
 ### Retired Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | PTSD Adult | 02:25 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20Spanish.pdf) |
 | 2 | Participant History | 03:15 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20Participant%20History%20-%20Spanish.pdf) |
@@ -88,7 +88,7 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 
 ## Diagnoses
 
-| # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
+| # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Anxiety Disorder | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf) | NA |
 | 2 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | Bipolar Disorder | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf) | NA |

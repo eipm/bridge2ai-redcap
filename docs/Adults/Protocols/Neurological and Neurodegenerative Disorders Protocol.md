@@ -30,7 +30,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -46,7 +46,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ### Retired Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Winograd Questionnaire | 01:35 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Winograd%20Schemas%20-%20English.pdf) | NA |
 
@@ -89,7 +89,7 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 - [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — Spanish playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n)
 ## Diagnoses
 
-| # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
+| # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Alzheimer's, dementia, or mild cognitive impairment | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf) | NA |
 | 2 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Amyotrophic Lateral Sclerosis (ALS) | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf) | NA |
