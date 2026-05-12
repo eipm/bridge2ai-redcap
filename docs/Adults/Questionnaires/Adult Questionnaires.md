@@ -14,7 +14,7 @@ Validated questionnaires used across the adult Bridge2AI-Voice protocols. Each r
 
 ## 🧍 Active Questionnaires
 
-| # | Name | ⏳ Time | Used in | 📄 PDF (EN) | 📄 PDF (ES) |
+| # | Name | ⏳ Time | Used in | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :-: | :-- | :-: | :-- | :-: | :-: |
 | 1 | Demographics | 04:45 | All | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | All | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -37,7 +37,7 @@ Validated questionnaires used across the adult Bridge2AI-Voice protocols. Each r
 
 Retired questionnaires are kept here for historical reference.
 
-| # | Name | ⏳ Time | Retired from | 📄 PDF (EN) | 📄 PDF (ES) |
+| # | Name | ⏳ Time | Retired from | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :-: | :-- | :-: | :-- | :-: | :-: |
 | 1 | Voice Problem Severity | 00:50 | Voice | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20Spanish.pdf) |
 | 2 | PTSD Adult | 02:25 | Mood | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Mood/Q%20-%20Mood%20-%20PTSD%20Adult%20-%20Spanish.pdf) |

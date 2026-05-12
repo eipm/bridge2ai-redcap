@@ -17,6 +17,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 | | |
 | :--- | :---: |
 | ⏳ Time | **14:10** |
+| 🌐 Languages Supported | **English** |
 | 📕 # of Questionnaires | **6** |
 | 🎤 # of Acoustic Tasks | **9** |
 | 🔊 # of Recordings | **67** |
@@ -25,14 +26,14 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 ## Questionnaires
 
-| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Pediatric Demographics | 02:35 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) | - |
-| 2 | Pediatric VHI-10 | 02:25 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | - |
-| 3 | Pediatric Voice Outcome Survey | 00:50 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) | - |
-| 4 | Pediatric Generic Voice Related QoL Survey | 01:10 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QoL%20Survey%20-%20English.pdf) | - |
-| 5 | Pediatric Generic PHQ-A | 01:10 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) | - |
-| 6 | Pediatric Generic Medical Conditions | 06:00 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) | - |
+| # | Name | ⏳ Time | 📓 Protocol | English PDF |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | Pediatric Demographics | 02:35 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) |
+| 2 | Pediatric VHI-10 | 02:25 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) |
+| 3 | Pediatric Voice Outcome Survey | 00:50 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) |
+| 4 | Pediatric Generic Voice Related QoL Survey | 01:10 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QoL%20Survey%20-%20English.pdf) |
+| 5 | Pediatric Generic PHQ-A | 01:10 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) |
+| 6 | Pediatric Generic Medical Conditions | 06:00 | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) |
 
 ### Retired Questionnaires
 

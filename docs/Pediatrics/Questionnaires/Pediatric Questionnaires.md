@@ -14,7 +14,7 @@ Pediatric questionnaires are currently English-only and used across all four ped
 
 ## 🧒 Active Questionnaires
 
-| # | Name | ⏳ Time | Used in Age Group(s) | 📄 PDF (EN) |
+| # | Name | ⏳ Time | Used in Age Group(s) | 📄 PDF (English) |
 | :-: | :-- | :-- | :-- | :-: |
 | 1 | Demographics | 02:35 | 2–4, 4–6, 6–10, 10+ | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) |
 | 2 | VHI-10 | 02:25 | 2–4, 4–6, 6–10, 10+ | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) |

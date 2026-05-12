@@ -14,7 +14,7 @@ Voice and speech tasks performed during each session in the adult Bridge2AI-Voic
 
 ## 🧍 Active Acoustic Tasks
 
-| # | Task | ⏳ Time | 🔊 Recordings | Used in | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (EN) | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (ES) | 📄 Description (EN) | 📄 Description (ES) |
+| # | Task | ⏳ Time | 🔊 Recordings | Used in | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (English) | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (Spanish) | 📄 Description (English) | 📄 Description (Spanish) |
 | :-: | :-- | :-: | :-: | :-- | :-: | :-: | :-: | :-: |
 | 1 | Prolonged Vowel | 00:50 | 1 | All | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/1cbA3xgFDAQ) | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/3WbE0_XJPrw) | [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
 | 2 | Maximum Phonation Time (v2) | 01:30 | 1–2 | All | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/ni_DqcHbSME) | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/yW1vodhZWWE) | [📄](<Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
@@ -36,7 +36,7 @@ Voice and speech tasks performed during each session in the adult Bridge2AI-Voic
 
 Retired tasks are kept here for historical reference. Spanish demonstrations and descriptions were not produced for retired tasks.
 
-| # | Task | ⏳ Time | 🔊 Recordings | Retired from | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (EN) | 📄 Description (EN) |
+| # | Task | ⏳ Time | 🔊 Recordings | Retired from | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (English) | 📄 Description (English) |
 | :-: | :-- | :-: | :-: | :-- | :-: | :-: |
 | 1 | Rainbow Passage | 00:55 | 1 | All | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | [📄](<Retired/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md>) |
 | 2 | Maximum Phonation Time (v1) | 01:30 | 1–2 | All | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=1limRFPAtPE) | [📄](<Retired/Maximum%20Phonation%20Time%20-%20v1/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md>) |

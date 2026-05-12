@@ -14,7 +14,7 @@ Pediatric tasks vary by age stratum and currently have English-only descriptions
 
 ## 🧒 Active Tasks
 
-| # | Task | ⏳ Time | 🔊 Recordings | Used in Age Group(s) | 📄 Description (EN) |
+| # | Task | ⏳ Time | 🔊 Recordings | Used in Age Group(s) | 📄 Description (English) |
 | :-: | :--  | :-: | :-: | :-- | :-: |
 | 1 | Identifying Pictures | 02:10 | 37 | 2–4, 4–6, 6–10, 10+ | [📄](<Current/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md>) |
 | 2 | Noisy Sounds | 01:15  | 10 | 2–4, 4–6, 6–10 | [📄](<Current/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
