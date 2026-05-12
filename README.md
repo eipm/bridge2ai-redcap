@@ -100,28 +100,28 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
         <br>🧒<br>
         <strong>Ages 2–4</strong>
       </a>
-      <br><sub>📕 6 questionnaires · 🎤 4 tasks · 🔊 50 recordings</sub>
+      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 4 tasks · 🔊 50 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B4-6%29.md">
         <br>🧒<br>
         <strong>Ages 4–6</strong>
       </a>
-      <br><sub>📕 6 questionnaires · 🎤 8 tasks · 🔊 87 recordings</sub>
+      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 8 tasks · 🔊 87 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B6-10%29.md">
         <br>🧒<br>
         <strong>Ages 6–10</strong>
       </a>
-      <br><sub>📕 6 questionnaires · 🎤 9 tasks · 🔊 101 recordings</sub>
+      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 9 tasks · 🔊 101 recordings</sub>
     </td>
     <td align="center" width="25%">
       <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%2010%2B.md">
         <br>🧒<br>
         <strong>Ages 10+</strong>
       </a>
-      <br><sub>📕 6 questionnaires · 🎤 9 tasks · 🔊 92 recordings</sub>
+      <br><sub>⏳ 14:10 · 📕 6 questionnaires · 🎤 9 tasks · 🔊 92 recordings</sub>
     </td>
   </tr>
 </table>
