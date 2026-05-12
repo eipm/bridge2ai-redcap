@@ -28,12 +28,12 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 | # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Pediatric Demographics | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) | - |
-| 2 | Pediatric VHI-10 | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | - |
-| 3 | Pediatric Voice Outcome Survey | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) | - |
-| 4 | Pediatric Generic Voice Related QoL Survey | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QOL%20Survey%20-%20English.pdf) | - |
-| 5 | Pediatric Generic PHQ-A | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) | - |
-| 6 | Pediatric Generic Medical Conditions | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) | - |
+| 1 | Pediatric Demographics | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) | - |
+| 2 | Pediatric VHI-10 | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | - |
+| 3 | Pediatric Voice Outcome Survey | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Outcome%20Survey%20-%20English.pdf) | - |
+| 4 | Pediatric Generic Voice Related QoL Survey | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Voice%20Related%20QOL%20Survey%20-%20English.pdf) | - |
+| 5 | Pediatric Generic PHQ-A | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20PHQ-A%20-%20English.pdf) | - |
+| 6 | Pediatric Generic Medical Conditions | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20Medical%20Conditions%20-%20English.pdf) | - |
 
 ### Retired Questionnaires
 
@@ -43,10 +43,10 @@ NA
 
 | # | Name | ⏳ Time | 📓 Protocol | 🔊 Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Conversation (2 to 4) | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 1 |[Link](../Acoustic%20Tasks/Current/Conversation%20(4%20to%206)/Conversation%20(4%20to%206)%20-%20Acoustic%20Task%20Description%20(English).md) |
-| 2 | Abcs and 123s | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 2 | [Link](../Acoustic%20Tasks/Current/Abcs%20and%20123s/Abcs%20and%20123s%20-%20Acoustic%20Task%20Description%20(English).md) |
-| 3 | Noisy Sounds | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 10 | [Link](../Acoustic%20Tasks/Current/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) |
-| 4 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | [Link](../Acoustic%20Tasks/Current/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 1 | Conversation (2 to 4) | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 1 |[📄](../Acoustic%20Tasks/Current/Conversation%20(4%20to%206)/Conversation%20(4%20to%206)%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 2 | Abcs and 123s | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 2 | [📄](../Acoustic%20Tasks/Current/Abcs%20and%20123s/Abcs%20and%20123s%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 3 | Noisy Sounds | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 10 | [📄](../Acoustic%20Tasks/Current/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) |
+| 4 | Identifying Pictures | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 37 | [📄](../Acoustic%20Tasks/Current/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md) |
 
 ### Retired Acoustic Tasks
 
@@ -56,4 +56,4 @@ NA
 
 | # | Protocol | Clinically Validated Diagnosis | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [All Pediatric Protocols](../../../README.md#pediatric) | Healthy Developmentally Typical Children | [Link](../../PDFs/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf) | NA |
+| 1 | [All Pediatric Protocols](../../../README.md#pediatric) | Healthy Developmentally Typical Children | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf) | NA |
