@@ -192,4 +192,114 @@ keywords:
 contact:
   - email: als2076@med.cornell.edu
     name: Alexandros Sigaras
+references:
+  - type: article
+    title: >-
+      Research electronic data capture (REDCap) — A metadata-driven
+      methodology and workflow process for providing translational
+      research informatics support
+    authors:
+      - family-names: Harris
+        given-names: 'Paul A.'
+      - family-names: Taylor
+        given-names: Robert
+      - family-names: Thielke
+        given-names: Robert
+      - family-names: Payne
+        given-names: Jonathon
+      - family-names: Gonzalez
+        given-names: Nathaniel
+      - family-names: Conde
+        given-names: 'Jose G.'
+    journal: 'Journal of Biomedical Informatics'
+    year: 2009
+    month: 4
+    volume: 42
+    issue: 2
+    start: 377
+    end: 381
+    doi: 10.1016/j.jbi.2008.08.010
+  - type: article
+    title: >-
+      The REDCap consortium: Building an international community of
+      software partners
+    authors:
+      - family-names: Harris
+        given-names: 'Paul A.'
+      - family-names: Taylor
+        given-names: Robert
+      - family-names: Minor
+        given-names: 'Brenda L.'
+      - family-names: Elliott
+        given-names: Veida
+      - family-names: Fernandez
+        given-names: Michelle
+      - family-names: O'Neal
+        given-names: Lindsay
+      - family-names: McLeod
+        given-names: Laura
+      - family-names: Delacqua
+        given-names: Giovanni
+      - family-names: Delacqua
+        given-names: Francesco
+      - family-names: Kirby
+        given-names: Jacqueline
+      - family-names: Duda
+        given-names: 'Stephany N.'
+      - name: 'REDCap Consortium'
+    journal: 'Journal of Biomedical Informatics'
+    year: 2019
+    month: 5
+    doi: 10.1016/j.jbi.2019.103208
+  - type: article
+    title: >-
+      A REDCap-based model for electronic consent (eConsent):
+      Moving toward a more personalized consent
+    authors:
+      - family-names: Lawrence
+        given-names: 'Christopher E.'
+      - family-names: Dunkel
+        given-names: Lauren
+      - family-names: McEver
+        given-names: Marianne
+      - family-names: Israel
+        given-names: Terri
+      - family-names: Taylor
+        given-names: Robert
+      - family-names: Chiriboga
+        given-names: Ginny
+      - family-names: Goins
+        given-names: 'Karen V.'
+      - family-names: Rahn
+        given-names: 'Elizabeth J.'
+      - family-names: Mudano
+        given-names: 'Amy S.'
+      - family-names: Roberson
+        given-names: 'Erik D.'
+      - family-names: Chambless
+        given-names: Cathy
+      - family-names: Wadley
+        given-names: 'Virginia G.'
+      - family-names: Danila
+        given-names: 'Maria I.'
+      - family-names: Fischer
+        given-names: 'Michael A.'
+      - family-names: Joosten
+        given-names: Yvonne
+      - family-names: Saag
+        given-names: 'Kenneth G.'
+      - family-names: Allison
+        given-names: 'Jeroan J.'
+      - family-names: Lemon
+        given-names: 'Stephenie C.'
+      - family-names: Harris
+        given-names: 'Paul A.'
+    journal: 'Journal of Clinical and Translational Science'
+    year: 2020
+    month: 4
+    volume: 4
+    issue: 4
+    start: 345
+    end: 353
+    doi: 10.1017/cts.2020.30
 license: MIT
