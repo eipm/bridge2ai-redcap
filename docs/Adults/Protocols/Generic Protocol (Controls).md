@@ -66,7 +66,7 @@ NA
 | 6 | Respiration and cough v1 | 05:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 5 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=Yb4bMj18Iqg) | NA | [📄](../Acoustic%20Tasks/Retired/Respiration%20and%20cough%20-%20v1/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(English).md)  | NA |
 | 7 | Story Recall v1 | 03:25 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=cfkU-N5tWe4) | NA | [📄](../Acoustic%20Tasks/Retired/Story%20Recall%20-%20v1/Story%20Recall%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
-## 🎵 YouTube Playlists
+## <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Acoustic Task Video Tutorial Playlist
 
 All adult acoustic-task demonstrations are also available as curated YouTube playlists.
 
