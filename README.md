@@ -8,11 +8,19 @@
 
 REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
-[![GitHub](https://img.shields.io/badge/github-4.7.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-4.7.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-| Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       Metadata                        |   PDF's (English)    |    PDF's (Spanish)    |
+| Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |   PDF's (English)    |    PDF's (Spanish)    |
 | :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
-| v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_project_data_dictionary.csv) | [Metadata](data/bridge2ai_voice_project_metadata.xml) | [Files](data/en-us/) | [Files](data/es-419/) |
+| v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml) | [Files](data/en-us/) | [Files](data/es-419/) |
+
+## 🧩 How to Import into REDCap
+
+To use the Bridge2AI-Voice instruments in your own REDCap project, download one of the two files from the version row in the table above and follow the matching option below.
+
+**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
+
+**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
 
 ## 🤝 License
 
@@ -20,7 +28,13 @@ See [LICENSE](./LICENSE)
 
 ## 📚 How to Cite
 
-> Bensoussan, Y., Ghosh, S. S., Rameau, A., Boyer, M., Bahr, R., Watts, S., Rudzicz, F., Bolser, D., Lerner-Ellis, J., Awan, S., Powell, M. E., Belisle-Pipon, J.-C., Ravitsky, V., Johnson, A., Zisimopoulos, P., Tang, J., Sigaras, A., Elemento, O., Dorr, D., … Bridge2AI-Voice. (2024). eipm/bridge2ai-redcap. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+If you use the Bridge2AI-Voice protocols or this data dictionary in your work, please cite the Interspeech 2024 paper:
+
+> Rameau, A., Ghosh, S., Sigaras, A., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M., Johnson, A., Dorr, D., Payne, P., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bensoussan, Y. (2024). Developing Multi-Disorder Voice Protocols: A team science approach involving clinical expertise, bioethics, standards, and DEI. *Proc. Interspeech 2024*, 1445–1449. [https://doi.org/10.21437/Interspeech.2024-1926](https://doi.org/10.21437/Interspeech.2024-1926)
+
+If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
+
+> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.7.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 ## Table of Contents
 
