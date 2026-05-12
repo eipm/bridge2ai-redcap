@@ -41,7 +41,7 @@ NA
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Repeating Words |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 25 | [Link](../Acoustic%20Tasks/Current/Repeating%20Words/Repeating%20Words%20-%20Acoustic%20Task%20Description%20(English).md) |
 | 2 | Conversation (4 to 6) |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md) | 1 | [Link](../Acoustic%20Tasks/Current/Conversation%20(4%20to%206)/Conversation%20(4%20to%206)%20-%20Acoustic%20Task%20Description%20(English).md) |

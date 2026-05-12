@@ -41,7 +41,7 @@ NA
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Conversation (4 to 6) |  NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | [Link](../Acoustic%20Tasks/Current/Conversation%20(6%20plus)/Conversation%20(6%20plus)%20-%20Acoustic%20Task%20Description%20(English).md) |
 | 2 | Generative Naming Task |  NA | [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 2 | [Link](../Acoustic%20Tasks/Current/Generative%20Naming%20Task/Generative%20Naming%20Task%20-%20Acoustic%20Task%20Description%20(English).md) |
