@@ -1,0 +1,61 @@
+<p align="center">
+    <img src="../../../images/main_logo_black.svg#gh-light-mode-only" width="200" alt="B2Ai Voice Logo">
+    <img src="../../../images/main_logo_white.svg#gh-dark-mode-only" width="200" alt="B2Ai Voice Logo"><br>
+    Voice as a Biomarker of Health
+</p>
+
+[![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../README.md)
+
+# 🎤 Adult Acoustic Tasks
+
+Voice and speech tasks performed during each session in the adult Bridge2AI-Voice protocols. Each row links to the per-task description page and the YouTube demonstration video when available.
+
+**Legend for the "Used in" column:** `All` = used in every adult protocol (Controls, Voice, Mood, Respiratory, Neurological & Neurodegenerative). Otherwise, the specific protocol(s) are named.
+
+## 🧍 Active Tasks
+
+| # | Task | ⏳ Time | 🔊 Recordings | Used in | 📺 Demo (EN) | 📺 Demo (ES) | 📄 Description (EN) | 📄 Description (ES) |
+| :-: | :-- | :-: | :-: | :-- | :-: | :-: | :-: | :-: |
+| 1 | Prolonged Vowel | 00:50 | 1 | All | [▶︎](https://youtu.be/1cbA3xgFDAQ) | [▶︎](https://youtu.be/3WbE0_XJPrw) | [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 2 | Maximum Phonation Time (v2) | 01:30 | 1–2 | All | [▶︎](https://youtu.be/ni_DqcHbSME) | [▶︎](https://youtu.be/yW1vodhZWWE) | [📄](<Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 3 | Glides | 00:55 | 2 | All | [▶︎](https://youtu.be/Jhr5v1PTFPk) | [▶︎](https://youtu.be/J45EcAHdECQ) | [📄](<Current/Glides/Glides%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Glides/Glides%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 4 | Harvard Sentences | 01:30 | 20 | All | [▶︎](https://youtu.be/bw6zhkyUFa0) | [▶︎](https://youtu.be/goYPoWMit1A) | [📄](<Current/Harvard%20Sentences/Harvard%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Harvard%20Sentences/Harvard%20Sentences%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 5 | Loudness (v2) | 00:25 | 1 | All | [▶︎](https://youtu.be/J0DAjhJs0xI) | [▶︎](https://youtu.be/8ZxO4i6SvZc) | [📄](<Current/Loudness%20-%20v2/Loudness%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Loudness%20-%20v2/Loudness%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 6 | Diadochokinesis (v2) | 01:40 | 5 | All | [▶︎](https://youtu.be/bqubKxCYVbE) | [▶︎](https://youtu.be/eTQx6erO-q0) | [📄](<Current/Diadochokinesis%20-%20v2/Diadochokinesis%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Diadochokinesis%20-%20v2/Diadochokinesis%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 7 | Free Speech (v2) | 03:10 | 3 | All | [▶︎](https://youtu.be/7zMB4x79rgg) | [▶︎](https://youtu.be/setOO7zTINc) | [📄](<Current/Free%20Speech%20-%20v2/Free%20Speech%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Free%20Speech%20-%20v2/Free%20Speech%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 8 | Respiration and Cough (v2) | 05:20 | 5 | All | [▶︎](https://youtu.be/HCyyyH0q4Bo) | [▶︎](https://youtu.be/6T1YvcZ5Xe4) | [📄](<Current/Respiration%20and%20cough%20-%20v2/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Respiration%20and%20cough%20-%20v2/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 9 | Picture Description | 01:10 | 1 | All | [▶︎](https://youtu.be/R4J7UkzQqek) | [▶︎](https://youtu.be/aro23N-jzjw) | [📄](<Current/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 10 | Story Recall (v2) | 03:25 | 1 | All | [▶︎](https://youtu.be/56iV9pbm_zI) | [▶︎](https://youtu.be/UVmCAYOVhA0) | [📄](<Current/Story%20Recall%20-%20v2/Story%20Recall%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Story%20Recall%20-%20v2/Story%20Recall%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 11 | Caterpillar Passage | 01:50 | 1 | Voice | [▶︎](https://youtu.be/vWB-r24CeKw) | [▶︎](https://youtu.be/WS_kVH32Rz4) | [📄](<Current/Caterpillar%20Passage/Caterpillar%20Passage%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Caterpillar%20Passage/Caterpillar%20Passage%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 12 | Cape V Sentences (v2) | 01:00 | 6 | Voice | [▶︎](https://youtu.be/0FkAysfbV2c) | [▶︎](https://youtu.be/j5TpdD8krIM) | [📄](<Current/Cape%20V%20Sentences%20-%20v2/Cape%20V%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Cape%20V%20Sentences%20-%20v2/Cape%20V%20Sentences%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 13 | Productive Vocabulary | 02:10 | 6 | Neurological & Neurodegenerative | [▶︎](https://youtu.be/dpfqkCcXOlQ) | [▶︎](https://youtu.be/pkPtZyTafRk) | [📄](<Current/Productive%20Vocabulary/Productive%20Vocabulary%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Productive%20Vocabulary/Productive%20Vocabulary%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 14 | Random Item Generation (v2) | 02:00 | 1 | Neurological & Neurodegenerative | [▶︎](https://youtu.be/xntqC7XjEqQ) | [▶︎](https://youtu.be/HE2Z40uMP-8) | [📄](<Current/Random%20Item%20Generation%20-%20v2/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Random%20Item%20Generation%20-%20v2/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 15 | Word-Color Stroop | 02:30 | 1 | Neurological & Neurodegenerative | [▶︎](https://youtu.be/gFl7VSZ48_I) | [▶︎](https://youtu.be/TWUFy6NWpgY) | [📄](<Current/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+
+## 🗄️ Retired Tasks
+
+Retired tasks are kept here for historical reference. Spanish demonstrations and descriptions were not produced for retired tasks.
+
+| # | Task | ⏳ Time | 🔊 Recordings | Retired from | 📺 Demo (EN) | 📄 Description (EN) |
+| :-: | :-- | :-: | :-: | :-- | :-: | :-: |
+| 1 | Rainbow Passage | 00:55 | 1 | All | [▶︎](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | [📄](<Retired/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 2 | Maximum Phonation Time (v1) | 01:30 | 1–2 | All | [▶︎](https://www.youtube.com/watch?v=1limRFPAtPE) | [📄](<Retired/Maximum%20Phonation%20Time%20-%20v1/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 3 | Loudness (v1) | 00:25 | 1 | All | [▶︎](https://www.youtube.com/watch?v=5ssCSqZPb7Y) | [📄](<Retired/Loudness%20-%20v1/Loudness%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 4 | Diadochokinesis (v1) | 01:40 | 5 | All | [▶︎](https://www.youtube.com/watch?v=RlY5KMXtZ4o) | [📄](<Retired/Diadochokinesis%20-%20v1/Diadochokinesis%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 5 | Free Speech (v1) | 03:10 | 3 | All | [▶︎](https://www.youtube.com/watch?v=FqK0WeGCAzg) | [📄](<Retired/Free%20Speech%20-%20v1/Free%20Speech%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 6 | Respiration and Cough (v1) | 05:20 | 5 | All | [▶︎](https://www.youtube.com/watch?v=Yb4bMj18Iqg) | [📄](<Retired/Respiration%20and%20cough%20-%20v1/Respiration%20and%20cough%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 7 | Story Recall (v1) | 03:25 | 1 | All | [▶︎](https://www.youtube.com/watch?v=cfkU-N5tWe4) | [📄](<Retired/Story%20Recall%20-%20v1/Story%20Recall%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 8 | Free Speech (Voice) | 03:10 | 1 | Voice | [▶︎](https://www.youtube.com/watch?v=5QMBSHNLRVI) | [📄](<Retired/Free%20Speech%20(Voice)/Free%20Speech%20(Voice)%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 9 | Cape V Sentences (v1) | 01:00 | 6 | Voice | [▶︎](https://www.youtube.com/watch?v=1qbiCdWxuSY) | [📄](<Retired/Cape%20V%20Sentences%20-%20v1/Cape%20V%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 10 | Animal Fluency | 01:30 | 1 | Mood | [▶︎](https://www.youtube.com/watch?v=4lkEAxDiEE8) | [📄](<Retired/Animal%20Fluency/Animal%20Fluency%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 11 | Open Response Questions | 02:30 | 1 | Mood | [▶︎](https://www.youtube.com/watch?v=THfOnGCaALA) | [📄](<Retired/Open%20Response%20Questions/Open%20Response%20Questions%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 12 | Breath Sounds | 01:35 | 1 | Respiratory | [▶︎](https://www.youtube.com/watch?v=2rLMfMjS_R0) | [📄](<Retired/Breath%20Sounds/Breath%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 13 | Voluntary Cough | 00:40 | 1 | Respiratory | [▶︎](https://www.youtube.com/watch?v=i7BhlwNMk28) | [📄](<Retired/Voluntary%20Cough/Voluntary%20Cough%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 14 | Cinderella Story | 04:05 | 1 | Neurological & Neurodegenerative | [▶︎](https://www.youtube.com/watch?v=eHx-vetG8Fk) | [📄](<Retired/Cinderella%20Story/Cinderella%20Story%20-%20Acoustic%20Task%20Description%20(English).md>) |
+
+## 🎵 YouTube Playlists
+
+All adult acoustic-task demonstrations are also available as curated YouTube playlists.
+
+- ▶︎ [Adult — English playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq)
+- ▶︎ [Adult — Spanish playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n)

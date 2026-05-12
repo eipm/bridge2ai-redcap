@@ -14,17 +14,136 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 | :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
 | v4.7.0  |   2026-05-04    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml) | [Files](data/en-us/) | [Files](data/es-419/) |
 
-## 🧩 How to Import into REDCap
+## 📋 Protocols
 
-To use the Bridge2AI-Voice instruments in your own REDCap project, download one of the two files from the version row in the table above and follow the matching option below.
+### Adults
 
-**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
+<table align="center">
+  <tr>
+    <td align="center" width="20%">
+      <a href="docs/Adults/Protocols/Generic%20Protocol%20(Controls).md">
+        <br>🧍<br>
+        <strong>Controls</strong>
+      </a>
+      <br><sub>⏳ 38:45 · 📕 6 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="docs/Adults/Protocols/Voice%20Disorders%20Protocol.md">
+        <br>🗣️<br>
+        <strong>Voice</strong>
+      </a>
+      <br><sub>⏳ 42:25 · 📕 6 questionnaires · 🎤 12 tasks · 🔊 47 recordings</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="docs/Adults/Protocols/Mood%20and%20Psychiatric%20Disorders%20Protocol.md">
+        <br>🧠<br>
+        <strong>Mood &amp; Psychiatric</strong>
+      </a>
+      <br><sub>⏳ 46:00 · 📕 10 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="docs/Adults/Protocols/Respiratory%20Disorders%20Protocol.md">
+        <br>🫁<br>
+        <strong>Respiratory</strong>
+      </a>
+      <br><sub>⏳ 42:05 · 📕 8 questionnaires · 🎤 10 tasks · 🔊 41 recordings</sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="docs/Adults/Protocols/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md">
+        <br>⚡<br>
+        <strong>Neurological & Neurodegenerative</strong>
+      </a>
+      <br><sub>⏳ 45:30 · 📕 6 questionnaires · 🎤 13 tasks · 🔊 44 recordings</sub>
+    </td>
+  </tr>
+</table>
 
-**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <a href="docs/Adults/Acoustic%20Tasks/Adult%20Acoustic%20Tasks.md">
+        <br>🎤<br>
+        <strong>Acoustic Tasks</strong>
+      </a>
+      <br><sub>🟢 15 active · 🗄️ 14 retired</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Adults/Questionnaires/Adult%20Questionnaires.md">
+        <br>📝<br>
+        <strong>Questionnaires</strong>
+      </a>
+      <br><sub>🟢 16 active · 🗄️ 4 retired</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Adults/Diagnoses/Adult%20Diagnoses.md">
+        <br>🏥<br>
+        <strong>Diagnoses</strong>
+      </a>
+      <br><sub>🩺 19 conditions</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Adults/eConsents/Adult%20eConsents.md">
+        <br>✍️<br>
+        <strong>eConsents</strong>
+      </a>
+      <br><sub>🏛️ 2 sites</sub>
+    </td>
+  </tr>
+</table>
 
-## 🤝 License
+### Pediatrics
 
-See [LICENSE](./LICENSE)
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B2-4%29.md">
+        <br>🧒<br>
+        <strong>Ages 2–4</strong>
+      </a>
+      <br><sub>📕 6 questionnaires · 🎤 4 tasks · 🔊 50 recordings</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B4-6%29.md">
+        <br>🧒<br>
+        <strong>Ages 4–6</strong>
+      </a>
+      <br><sub>📕 6 questionnaires · 🎤 8 tasks · 🔊 87 recordings</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%20%5B6-10%29.md">
+        <br>🧒<br>
+        <strong>Ages 6–10</strong>
+      </a>
+      <br><sub>📕 6 questionnaires · 🎤 9 tasks · 🔊 101 recordings</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Protocols/Pediatric%20Disorders%20-%20Ages%2010%2B.md">
+        <br>🧒<br>
+        <strong>Ages 10+</strong>
+      </a>
+      <br><sub>📕 6 questionnaires · 🎤 9 tasks · 🔊 92 recordings</sub>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Acoustic%20Tasks/Pediatric%20Acoustic%20Tasks.md">
+        <br>🎤<br>
+        <strong>Acoustic Tasks</strong>
+      </a>
+      <br><sub>🟢 15 active</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Questionnaires/Pediatric%20Questionnaires.md">
+        <br>📝<br>
+        <strong>Questionnaires</strong>
+      </a>
+      <br><sub>🟢 6 active</sub>
+    </td>
+  </tr>
+</table>
 
 ## 📚 How to Cite
 
@@ -36,31 +155,17 @@ If you are citing this repository directly (for example, a specific version of t
 
 > Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.7.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-## 📝 eConsent Forms
+## 🧩 How to Import into REDCap
 
-|  #  | Site | Language |                                                     English PDF                                                      |                                                      Spanish PDF                                                      |
-| :-: | :--- | :------- | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-|  1  | USF  | English  | [Bridge2AI eConsent - USF - English](data/en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20English.pdf) | [Bridge2AI eConsent - USF - Spanish](data/es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.pdf) |
-|  2  | MIT  | English  | [Bridge2AI eConsent - MIT - English](data/en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20English.pdf) |                                                          NA                                                           |
+To use the Bridge2AI-Voice instruments in your own REDCap project, download one of the two files from the version row in the table above and follow the matching option below.
 
-## 🩺 Adult Protocols
+**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
 
-|  #  | 📓 Protocol Name                                                                                                                      | Clinical Diagnoses                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 📕 # of Questionnaires | 🎤 # of Acoustic Tasks | 🔊 # of Recordings | ⏳ Estimated time to complete (mm:ss) |
-| :-: | :------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: | :----------------: | :-----------------------------------: |
-|  1  | [Generic Protocol (Controls)](<docs/adults/Generic%20Protocol%20(Controls).md>)                                                       | <ul><li>[controls](data/en-us/Diagnosis%20-%20PDFs/Generic/D%20-%20Control.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |           6            |           10           |         41         |                 38:45                 |
-|  2  | [Voice Disorders Protocol](docs/adults/Voice%20Disorders%20Protocol.md)                                                               | <ul><li>[Benign Lesions](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf)</li><li>[Voice Glottic Insufficiency / Presbyphonia](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf)</li><li>[Laryngeal Cancer](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf)</li><li>[Laryngitis](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf)</li><li>[Muscle Tension Dysphonia (MTD)](<data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20(MTD).pdf>)</li><li>[Precancerous Lesions](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf)</li><li>[Laryngeal Dystonia](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf)</li><li>[Unilateral vocal fold paralysis](data/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf)</li></ul> |           6            |           12           |         47         |                 42:25                 |
-|  3  | [Mood and Psychiatric Disorders Protocol](docs/adults/Mood%20and%20Psychiatric%20Disorders%20Protocol.md)                             | <ul><li>[Anxiety Disorder](data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Anxiety%20Disorder.pdf)</li><li>[Bipolar Disorder](data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf)</li><li>[Depression or Major Depressive Disorder](data/en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |           10           |           10           |         41         |                 46:00                 |
-|  4  | [Respiratory Disorders Protocol](docs/adults/Respiratory%20Disorders%20Protocol.md)                                                   | <ul><li>[Airway Stenosis](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)</li><li>[COPD and Asthma](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)</li><li>[Unexplained Chronic Cough](data/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |           8            |           10           |         41         |                 42:05                 |
-|  5  | [Neurological and Neurodegenerative Disorders Protocol](docs/adults/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | <ul><li>[Alzheimer's, dementia, or mild cognitive impairment](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)</li><li>[Amyotrophic Lateral Sclerosis (ALS)](<data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf>)</li><li>[Huntington's Disease](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)</li><li>[Parkinson's Disease](data/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)</li></ul>                                                                                                                                                                                                                                                                                                                                                                                          |           6            |           13           |         44         |                 45:30                 |
+**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
 
-## 🧒 Pediatric Protocols
+## 🤝 License
 
-|  #  | 📓 Protocol Name                                                                                               | Clinical Diagnoses                                                                                                                                                                                     | 📕 # of Questionnaires | 🎤 # of Acoustic Tasks | 🔊 # of Recordings | ⏳ Estimated time to complete (mm:ss) |
-| :-: | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: | :----------------: | :-----------------------------------: |
-|  1  | [Pediatric Disorders - Ages \[2-4\) Protocol](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[2-4).md>)   | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           4            |         50         |                  NA                   |
-|  2  | [Pediatric Disorders - Ages \[4-6\) Protocol](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[4-6).md>)   | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           8            |         87         |                  NA                   |
-|  3  | [Pediatric Disorders - Ages \[6-10\) Protocol](<docs/pediatrics/Pediatric%20Disorders%20-%20Ages%20[6-10).md>) | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         101         |                  NA                   |
-|  4  | [Pediatric Disorders - Ages 10+ Protocol](docs/pediatrics/Pediatric%20Disorders%20-%20Ages%2010%2B.md)         | <ul><li>[Healthy Developmentally Typical Children](../../data/en-us/Diagnosis%20-%20PDFs/Pediatric%20-%20Generic/D%20-%20Pediatric%20-%20Healthy%20Developmentally%20Typical%20Children.pdf)</li></ul> |           6            |           9            |         92        |                  NA                   |
+See [LICENSE](./LICENSE)
 
 ## 🙏 Acknowledgments
 
