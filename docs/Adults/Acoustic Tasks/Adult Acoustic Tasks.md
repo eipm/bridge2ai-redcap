@@ -12,7 +12,7 @@ Voice and speech tasks performed during each session in the adult Bridge2AI-Voic
 
 **Legend for the "Used in" column:** `All` = used in every adult protocol (Controls, Voice, Mood, Respiratory, Neurological & Neurodegenerative). Otherwise, the specific protocol(s) are named.
 
-## 🧍 Active Tasks
+## 🧍 Active Acoustic Tasks
 
 | # | Task | ⏳ Time | 🔊 Recordings | Used in | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (EN) | <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Tutorials (ES) | 📄 Description (EN) | 📄 Description (ES) |
 | :-: | :-- | :-: | :-: | :-- | :-: | :-: | :-: | :-: |
@@ -32,7 +32,7 @@ Voice and speech tasks performed during each session in the adult Bridge2AI-Voic
 | 14 | Random Item Generation (v2) | 02:00 | 1 | Neurological & Neurodegenerative | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/xntqC7XjEqQ) | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/HE2Z40uMP-8) | [📄](<Current/Random%20Item%20Generation%20-%20v2/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Random%20Item%20Generation%20-%20v2/Random%20Item%20Generation%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
 | 15 | Word-Color Stroop | 02:30 | 1 | Neurological & Neurodegenerative | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/gFl7VSZ48_I) | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://youtu.be/TWUFy6NWpgY) | [📄](<Current/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Word-color%20Stroop/Word-color%20Stroop%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
 
-## 🗄️ Retired Tasks
+## 🗄️ Retired Acoustic Tasks
 
 Retired tasks are kept here for historical reference. Spanish demonstrations and descriptions were not produced for retired tasks.
 

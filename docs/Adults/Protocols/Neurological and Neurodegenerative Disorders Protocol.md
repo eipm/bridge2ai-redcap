@@ -16,7 +16,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 | | |
 | :--- | :---: |
-| ⏳ Estimated time to complete (mm:ss) | **45:30** |
+| ⏳ Time | **45:30** |
 | 📕 # of Questionnaires | **6** |
 | 🎤 # of Acoustic Tasks | **13** |
 | 🔊 # of Recordings | **44** |
@@ -29,7 +29,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ## Questionnaires
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
 | 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [Link](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
@@ -45,13 +45,13 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ### Retired Questionnaires
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Winograd Questionnaire | 01:35 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [Link](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Winograd%20Schemas%20-%20English.pdf) | NA |
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Tutorials (EN) | Tutorials (ES) | Description (EN) | Description (ES) |
 | :---: | :---: | :---: | :---: | :---: | :---: |:---: | :---: | :---: | 
 | 1 | Prolonged Vowel | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://youtu.be/1cbA3xgFDAQ) | [YouTube Link](https://youtu.be/3WbE0_XJPrw) | [Link](../Acoustic%20Tasks/Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](../Acoustic%20Tasks/Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
 | 2 | Maximum Phonation Time v2 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://youtu.be/ni_DqcHbSME) | [YouTube Link](https://youtu.be/yW1vodhZWWE) | [Link](../Acoustic%20Tasks/Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md) | [Link](../Acoustic%20Tasks/Current/Maximum%20Phonation%20Time%20-%20v2/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
@@ -69,7 +69,7 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 
 ### Retired Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Video Demonstration (English) | Video Demonstration (Spanish) | Acoustic Task Description (English) | Acoustic Task Description (Spanish) |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Tutorials (EN) | Tutorials (ES) | Description (EN) | Description (ES) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Rainbow Passage | 00:55 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1 | [YouTube Link](https://www.youtube.com/watch?v=Syq_ryCNQKQ) | NA | [Link](../Acoustic%20Tasks/Retired/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 | 2 | Maximum Phonation Time v1 | 01:30 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | 1-2 | [YouTube Link](https://www.youtube.com/watch?v=1limRFPAtPE) | NA | [Link](../Acoustic%20Tasks/Retired/Maximum%20Phonation%20Time%20-%20v1/Maximum%20Phonation%20Time%20-%20Acoustic%20Task%20Description%20(English).md) | NA |

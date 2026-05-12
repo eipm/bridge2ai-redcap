@@ -16,7 +16,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 | | |
 | :--- | :---: |
-| ⏳ Estimated time to complete (mm:ss) | **NA** |
+| ⏳ Time | **NA** |
 | 📕 # of Questionnaires | **5** |
 | 🎤 # of Acoustic Tasks | **4** |
 | 🔊 # of Recordings | **51** |
@@ -26,7 +26,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 ## Questionnaires
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Pediatric Demographics | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) | - |
 | 2 | Pediatric VHI-10 | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | - |
@@ -41,7 +41,7 @@ NA
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Conversation (2 to 4) | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 1 |[Link](../Acoustic%20Tasks/Current/Conversation%20(4%20to%206)/Conversation%20(4%20to%206)%20-%20Acoustic%20Task%20Description%20(English).md) |
 | 2 | Abcs and 123s | NA | [\[2 - 4\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md) | 2 | [Link](../Acoustic%20Tasks/Current/Abcs%20and%20123s/Abcs%20and%20123s%20-%20Acoustic%20Task%20Description%20(English).md) |

@@ -16,7 +16,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 | | |
 | :--- | :---: |
-| ⏳ Estimated time to complete (mm:ss) | **NA** |
+| ⏳ Time | **NA** |
 | 📕 # of Questionnaires | **5** |
 | 🎤 # of Acoustic Tasks | **8** |
 | 🔊 # of Recordings | **76** |
@@ -26,7 +26,7 @@ This document provides an overview of the Pediatric Disorders Protocol for Ages 
 
 ## Questionnaires
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | English PDF | Spanish PDF |
+| # | Name | ⏳ Time | 📓 Protocol | English PDF | Spanish PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Pediatric Demographics | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20Demographics%20-%20English.pdf) | - |
 | 2 | Pediatric VHI-10 | NA | [All Pediatric Protocols](../../../README.md#pediatric) | [Link](../../PDFs/en-us/Questionnaire%20-%20PDFs/Pediatric%20-%20Generic/Q%20-%20Pediatric%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | - |
@@ -41,7 +41,7 @@ NA
 
 ## Acoustic Tasks
 
-| # | Name | ⏳ Estimated Time to Complete (mm:ss) | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
+| # | Name | ⏳ Time | 📓 Protocol | 🔊 Total # of Recordings | Acoustic Task Description |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Repeating Words |  NA | [\[4 - 6\)](Pediatric%20Disorders%20-%20Ages%20[2-4\).md), <br> [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[4-6\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%20[6-10\).md) | 25 | [Link](../Acoustic%20Tasks/Current/Repeating%20Words/Repeating%20Words%20-%20Acoustic%20Task%20Description%20(English).md) |
 | 2 | Conversation (6 plus) | NA | [\[6 - 10\)](Pediatric%20Disorders%20-%20Ages%20[6-10\).md), <br> [10+](Pediatric%20Disorders%20-%20Ages%2010%2B.md) | 4 | [Link](../Acoustic%20Tasks/Current/Conversation%20(6%20plus)/Conversation%20(6%20plus)%20-%20Acoustic%20Task%20Description%20(English).md) |
