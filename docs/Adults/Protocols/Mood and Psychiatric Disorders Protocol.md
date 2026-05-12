@@ -78,9 +78,12 @@ This document provides an overview of the Adult Mood and Psychiatric Disorders P
 | 8 | Animal Fluency | 01:30 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=4lkEAxDiEE8) | NA | [📄](../Acoustic%20Tasks/Retired/Animal%20Fluency/Animal%20Fluency%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 | 9 | Open Response Questions | 02:30 | [Mood Protocol](Mood%20and%20Psychiatric%20Disorders%20Protocol.md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=THfOnGCaALA) | NA | [📄](../Acoustic%20Tasks/Retired/Open%20Response%20Questions/Open%20Response%20Questions%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
-#### 🎤 Acoustic Tasks | YouTube Playlist
+## 🎵 YouTube Playlists
 
-All our acoustic tasks are available via our Acoustic Task YouTube Playlist in [English](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq) and [Spanish](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n).
+All adult acoustic-task demonstrations are also available as curated YouTube playlists.
+
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — English playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq)
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — Spanish playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n)
 
 ## Diagnoses
 

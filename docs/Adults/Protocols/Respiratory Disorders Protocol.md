@@ -72,9 +72,12 @@ NA
 | 8 | Breath Sounds | 01:35 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=2rLMfMjS_R0) | NA | [📄](../Acoustic%20Tasks/Retired/Breath%20Sounds/Breath%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md) | NA | 
 | 9 | Voluntary Cough | 00:40 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=i7BhlwNMk28) | NA | [📄](../Acoustic%20Tasks/Retired/Voluntary%20Cough/Voluntary%20Cough%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
-#### 🎤 Acoustic Tasks | YouTube Playlist
+## 🎵 YouTube Playlists
 
-All our acoustic tasks are available via our Acoustic Task YouTube Playlist in [English](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq) and [Spanish](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n).
+All adult acoustic-task demonstrations are also available as curated YouTube playlists.
+
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — English playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq)
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — Spanish playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n)
 
 ## Diagnoses
 

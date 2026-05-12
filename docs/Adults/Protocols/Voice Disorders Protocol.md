@@ -81,9 +81,12 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 | 8 | Free Speech (Voice) | 03:10 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 1 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=5QMBSHNLRVI) | NA | [📄](../Acoustic%20Tasks/Retired/Free%20Speech%20(Voice)/Free%20Speech%20(Voice)%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 | 12 | Cape V Sentences v1 | 01:00 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | 6 | [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube">](https://www.youtube.com/watch?v=1qbiCdWxuSY) | NA | [📄](../Acoustic%20Tasks/Retired/Cape%20V%20Sentences%20-%20v1/Cape%20V%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md) | NA |
 
-#### 🎤 Acoustic Tasks | YouTube Playlist
+## 🎵 YouTube Playlists
 
-All our acoustic tasks are available via our Acoustic Task YouTube Playlist in [English](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq) and [Spanish](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n).
+All adult acoustic-task demonstrations are also available as curated YouTube playlists.
+
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — English playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRYIPZ8MAXsyktEvRuaMHIHq)
+- [<img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" height="20" alt="YouTube"> Adult — Spanish playlist](https://www.youtube.com/playlist?list=PL72MPaFiuoRbv3JqnlyqIPyZXvYJj5X5n)
 
 ## Diagnoses
 
