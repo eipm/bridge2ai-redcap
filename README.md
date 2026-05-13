@@ -88,7 +88,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br>✍️<br>
         <strong>eConsents</strong>
       </a>
-      <br><sub>🏛️ 2 sites</sub>
+      <br><sub>🏛️ 3 sites</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/PDFs/Adult%20PDFs.md">
@@ -192,7 +192,7 @@ The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a 
 | 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule. **English only** — the CSV schema has no slot for MLM translations. | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
 | 🗜️ Project XML | Complete project import file — instruments, surveys, repeating settings, and the **English + Spanish (`es-419`) MLM translation overlay**. | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
 | 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets. | [📓 Browse PDF](data/bridge2ai_voice_redcap_codebook.pdf) |
-| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument `.mlm` file (linked in the index) to add Spanish translations. | [📦 Browse all 63 instruments](docs/REDCap/Instruments.md) |
+| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument `.mlm` file (linked in the index) to add Spanish translations. | [📦 Browse all 61 instruments](docs/REDCap/Instruments.md) |
 | 🌐 MLM Translations | Full-project Multi-Language Management bundle that layers **Spanish (`es-419`)** on top of the Data Dictionary CSV. Per-instrument MLM files are surfaced alongside their ZIPs in the [Instruments index](docs/REDCap/Instruments.md). | [🌐 Browse JSON](data/bridge2ai_voice_redcap_mlm_translations_es-419.json) |
 
 ### 🚀 Import into REDCap
