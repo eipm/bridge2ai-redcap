@@ -1,0 +1,5619 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 15:53:07",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "confounders_session_id",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "0f9cf54bba",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "confounders_started_at",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "confounders_completed_at",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "80f347b939",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "confounders_duration",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7015f95aa9",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "confounders_origin",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "29e641584b",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "translation": ""
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "confounders_via",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "917dccb56b",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "translation": ""
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "confounders_language",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8bb248165c",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "translation": ""
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "tell_us_about_you_health_header",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "288e45ca93",
+                "translation": "Cuéntenos sobre su salud\n\nHistoria Médica\nHay algunas condiciones médicas que podrían tener efectos a largo plazo en su voz. En las siguientes preguntas se le preguntará sobre sus condiciones ACTUALES así como aquellas que pudo haber tenido en el PASADO. Por favor, lea con atención cada conjunto de preguntas.\n\nNOTA: [Todos los campos estarán prellenados con \"NO/NUNCA\", a menos que la persona haya indicado la condición al momento de la inscripción. Por ejemplo, si la persona se inscribió con tos crónica, \"Tos crónica\" estará prellenado con \"SÍ/ACTUAL\".]\n"
+            }
+        },
+        {
+            "id": "chronic_ear_infections",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b3d47a332b",
+                "translation": "Infecciones crónicas del oído"
+            }
+        },
+        {
+            "id": "cleft_lip",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "652713291c",
+                "translation": "Labio leporino"
+            }
+        },
+        {
+            "id": "cleft_palate",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5bade708c2",
+                "translation": "Paladar hendido"
+            }
+        },
+        {
+            "id": "craniofacial_trauma",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8c343e6bf9",
+                "translation": "Trauma craneofacial"
+            }
+        },
+        {
+            "id": "hearing_loss",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "cc4d75bf3a",
+                "translation": "Pérdida de la audición"
+            }
+        },
+        {
+            "id": "seasonal_allergies_med_hist_enm",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "42fb07f1b8",
+                "translation": "Alergias estacionales"
+            }
+        },
+        {
+            "id": "sinusitis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c280d24a1b",
+                "translation": "Sinusitis (rinitis)"
+            }
+        },
+        {
+            "id": "sjogrens_syndrome",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36f7b015a4",
+                "translation": "Síndrome de Sjögren"
+            }
+        },
+        {
+            "id": "velopharyngeal_insufficiency",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c1e010effe",
+                "translation": "Insuficiencia velofaríngea (por ejemplo, hiponasalidad, emisión nasal, etc.)"
+            }
+        },
+        {
+            "id": "any_dental_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a6f815b475",
+                "translation": "¿Actualmente tiene alguna condición dental (por ejemplo, pérdida de dientes, dentaduras, retenedor, aparatos, etc.)?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "ef3ff8f5ad",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "any_dental_condition_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "08de22c717",
+                "translation": "Por favor, especifique qué condición(es) dentales tiene."
+            }
+        },
+        {
+            "id": "other_ear_nose_mouth_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0963c949ed",
+                "translation": "¿Actualmente tiene alguna otra condición de su oído, nariz, o boca?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "ef3ff8f5ad",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_ear_nose_mouth_condition_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a5e9cc5ff1",
+                "translation": "Por favor, especifique qué otra(s) condición(es) tiene en el oído, la nariz o la boca."
+            }
+        },
+        {
+            "id": "acid_reflux",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "89cdfd5a1c",
+                "translation": "Reflujo ácido (por ejemplo, acidez, ERGE, etc.)"
+            }
+        },
+        {
+            "id": "airway_stenosis_med_hist_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1d28603cc4",
+                "translation": "Estenosis de las vías respiratorias (por ejemplo, glotal, subglotal, traqueal, etc.)"
+            }
+        },
+        {
+            "id": "chronic_cough_med_hist_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "39169072d0",
+                "translation": "Tos crónica"
+            }
+        },
+        {
+            "id": "glottic_insufficiency_med_hist_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0cf4788ce0",
+                "translation": "Insuficiencia glótica, presbifonía"
+            }
+        },
+        {
+            "id": "laryngitis_med_hist_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b742debfaa",
+                "translation": "Laringitis"
+            }
+        },
+        {
+            "id": "laryngospasm_irritable_larynx",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "938a7a2417",
+                "translation": "Laringoespasmo, laringe irritable"
+            }
+        },
+        {
+            "id": "muscle_tension_dysphonia",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a31fa789dc",
+                "translation": "Disfonía por tensión muscular"
+            }
+        },
+        {
+            "id": "swallowing_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d71dc5ea35",
+                "translation": "Trastorno de deglución/disfagia"
+            }
+        },
+        {
+            "id": "thyroid_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "20015ecc64",
+                "translation": "Enfermedad de la tiroides (por ejemplo, pólipo tiroideo, enfermedad de Hashimoto, enfermedad de Graves, hipo/hipertiroidismo, etc.)"
+            }
+        },
+        {
+            "id": "vocal_cord_dysfunction",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f0eee6f76f",
+                "translation": "Disfunción de las cuerdas vocales/movimiento paradójico de las cuerdas vocales"
+            }
+        },
+        {
+            "id": "vocal_fold_hemorrhage",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1f3156895d",
+                "translation": "Hemorragia o sangrado de las cuerdas vocales"
+            }
+        },
+        {
+            "id": "lesions_vocal_cord",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "89e0159255",
+                "translation": "Lesiones de las cuerdas vocales"
+            }
+        },
+        {
+            "id": "vfp_bilateral",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6720a55c3e",
+                "translation": "Parálisis de las cuerdas vocales (bilateral)"
+            }
+        },
+        {
+            "id": "vfp_unilateral",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "084dc60b31",
+                "translation": "Parálisis de las cuerdas vocales (unilateral)"
+            }
+        },
+        {
+            "id": "other_throat_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5732f78744",
+                "translation": "Otra condición de la garganta"
+            }
+        },
+        {
+            "id": "other_throat_condition_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "570bb0cc1a",
+                "translation": "Por favor, especifique qué otra(s) condición(es) de la garganta tiene."
+            }
+        },
+        {
+            "id": "daily_env_pollution_affects_your_breathing_voice",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6c8cbb50ba",
+                "translation": "¿Siente que la contaminación ambiental cotidiana (por ejemplo, smog, humo, polvo, etc.) afecta significativamente su respiración o su voz?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "ef3ff8f5ad",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "apraxia_of_speech",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e5b4ab1c6d",
+                "translation": "Apraxia del habla"
+            }
+        },
+        {
+            "id": "ataxia",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c4c219a3a5",
+                "translation": "Ataxia"
+            }
+        },
+        {
+            "id": "dysarthria",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c5baba96d1",
+                "translation": "Disartria"
+            }
+        },
+        {
+            "id": "stutter_dysfluency",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5b8258002f",
+                "translation": "Impedimento del habla/ disfluencia"
+            }
+        },
+        {
+            "id": "other_speech_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c160b01f10",
+                "translation": "Otra condición del habla"
+            }
+        },
+        {
+            "id": "other_speech_conditions_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f48034b24e",
+                "translation": "Por favor, especifique qué otra(s) condición(es) del habla tiene."
+            }
+        },
+        {
+            "id": "airway_surgery_reconstruction",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1667ae7d56",
+                "translation": "Cirugía/reconstrucción de las vías respiratorias DEBAJO de las cuerdas vocales (por ejemplo, reconstrucción traqueal, dilatación con balón, etc.)"
+            }
+        },
+        {
+            "id": "chronic_ear_surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "15057a3484",
+                "translation": "Cirugía crónica del oído (por ejemplo, cirugía de mastoides, etc.)\""
+            }
+        },
+        {
+            "id": "cochlear_implant",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "52fabbd480",
+                "translation": "Implante coclear"
+            }
+        },
+        {
+            "id": "cordotomy_arytenoidectomy_arytenoid_tie_back",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6070ad97e5",
+                "translation": "Cordotomía, aritenoidectomía, aritenoidectomía, etc."
+            }
+        },
+        {
+            "id": "ear_tubes",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8b37ef8ef1",
+                "translation": "Tubos de oído"
+            }
+        },
+        {
+            "id": "esophageal_dilation",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a8c57b7c86",
+                "translation": "Dilatación esofágica"
+            }
+        },
+        {
+            "id": "nose_surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3d7e0811b7",
+                "translation": "Cirugía de nariz (por ejemplo, septoplastia, rinoplastia, etc.)"
+            }
+        },
+        {
+            "id": "sinus_surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "02ab1d6c23",
+                "translation": "Cirugía de los senos paranasales"
+            }
+        },
+        {
+            "id": "sleep_surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bd374723c4",
+                "translation": "Cirugía del sueño (por ejemplo, dispositivo implantable para apnea del sueño, etc.)"
+            }
+        },
+        {
+            "id": "tonsillectomy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8b45f96cd5",
+                "translation": "Amigdalectomía (con o sin adenoidectomía)"
+            }
+        },
+        {
+            "id": "tracheostomy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7b2cfc62b1",
+                "translation": "Traqueostomía"
+            }
+        },
+        {
+            "id": "other_surgical_treatment_enmt_speech_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e40b8075d6",
+                "translation": "Otro tratamiento quirúrgico por alguna condición en el oído, nariz, boca, garganta o habla"
+            }
+        },
+        {
+            "id": "other_surgical_treatment_enmt_speech_cond_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "34599a3dfc",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) quirúrgico(s) ha recibido para su condición del oído, nariz, boca, garganta o habla."
+            }
+        },
+        {
+            "id": "botox_injections",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b500b06b58",
+                "translation": "Inyecciones de Botox para distonía laríngea"
+            }
+        },
+        {
+            "id": "c_pap",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "694fa420fb",
+                "translation": "C-Pap"
+            }
+        },
+        {
+            "id": "injection_implant_to_vocal_folds",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4c555cb43f",
+                "translation": "Inyección/implante en las cuerdas vocales"
+            }
+        },
+        {
+            "id": "medication_enmt",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36da837e8b",
+                "translation": "Medicamento"
+            }
+        },
+        {
+            "id": "radiation_to_head_neck",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e0829f1fe4",
+                "translation": "Radiación en la cabeza o el cuello"
+            }
+        },
+        {
+            "id": "speech_voice_swallowing_therapy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "43aa952945",
+                "translation": "Terapia del habla, voz o deglución"
+            }
+        },
+        {
+            "id": "non_surgical_treatment_enmt_speech_cond",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "14b795905e",
+                "translation": "Otro tratamiento no quirúrgico por alguna condición en el oído, nariz, boca, garganta o habla"
+            }
+        },
+        {
+            "id": "non_surgical_treatment_enmt_speech_cond_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ed6db17167",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) no quirúrgico(s) ha recibido para su condición del oído, nariz, boca, garganta o habla."
+            }
+        },
+        {
+            "id": "asthma_med_hist_lung",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2dd5e43ac1",
+                "translation": "Asma"
+            }
+        },
+        {
+            "id": "bronchiectasis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "da220501ac",
+                "translation": "Bronquiectasia"
+            }
+        },
+        {
+            "id": "chest_wall_trauma",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b98df88aaa",
+                "translation": "Trauma de la pared torácica"
+            }
+        },
+        {
+            "id": "copd_med_hist_lung",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7acaf31eba",
+                "translation": "Enfermedad pulmonar obstructiva crónica (EPOC)"
+            }
+        },
+        {
+            "id": "covid_med_hist_lung",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "09102f35b2",
+                "translation": "COVID"
+            }
+        },
+        {
+            "id": "emphysema",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "619461eeab",
+                "translation": "Enfisema"
+            }
+        },
+        {
+            "id": "interstitial_lung_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "09964f3650",
+                "translation": "Enfermedad pulmonar intersticial (por ejemplo, sarcoidosis, fibrosis pulmonar)"
+            }
+        },
+        {
+            "id": "osa_med_hist_lung",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f91ae01d3a",
+                "translation": "Apnea obstructiva del sueño (AOS)"
+            }
+        },
+        {
+            "id": "pneumothorax_atelectasis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f5630ba4f7",
+                "translation": "Neumotórax o atelectasia (por ejemplo, colapso pulmonar)"
+            }
+        },
+        {
+            "id": "pulmonary_hypertension",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dcc2a5d509",
+                "translation": "Hipertensión pulmonar"
+            }
+        },
+        {
+            "id": "recurrent_bronchitis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ecc9415169",
+                "translation": "Bronquitis recurrente"
+            }
+        },
+        {
+            "id": "tuberculosis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b8de84f86f",
+                "translation": "Tuberculosis"
+            }
+        },
+        {
+            "id": "covid_tested_positive_last_10_days",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6ad4cb9a4e",
+                "translation": "¿Ha dado positivo en la prueba de COVID en los últimos 10 días?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_lung_conditions",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5420941b28",
+                "translation": "¿Actualmente tiene alguna otra condición pulmonar?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_lung_conditions_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6452e06ef3",
+                "translation": "Por favor, especifique qué otra(s) condición(es) pulmonares tiene."
+            }
+        },
+        {
+            "id": "chest_surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2fbae50882",
+                "translation": "Cirugía torácica (por ejemplo, broncoscopia, cirugía torácica, etc.)"
+            }
+        },
+        {
+            "id": "lobectomy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a52441099a",
+                "translation": "Lobectomía"
+            }
+        },
+        {
+            "id": "medication_med_hist_lung",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36da837e8b",
+                "translation": "Medicamento"
+            }
+        },
+        {
+            "id": "prolonged_intubation",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "02b2941cb9",
+                "translation": "Intubación prolongada (más de 7 días)"
+            }
+        },
+        {
+            "id": "radiation_to_the_chest",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ef607d74fe",
+                "translation": "Radiación al tórax"
+            }
+        },
+        {
+            "id": "supplemental_oxygen",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "548f044904",
+                "translation": "En oxígeno suplementario"
+            }
+        },
+        {
+            "id": "other_lung_treatment",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c30ef926f8",
+                "translation": "¿Actualmente está recibiendo algún otro tratamiento pulmonar?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_lung_treatment_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "19d81fa901",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) está recibiendo para su(s) condición(es) pulmonar(es)."
+            }
+        },
+        {
+            "id": "brain_tumor",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "45fc1f0c66",
+                "translation": "Tumor cerebral"
+            }
+        },
+        {
+            "id": "epilepsy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "78d3f6997e",
+                "translation": "Epilepsia"
+            }
+        },
+        {
+            "id": "multiple_sclerosis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6d66057ef6",
+                "translation": "Esclerosis múltiple"
+            }
+        },
+        {
+            "id": "parkinsons_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "769083554f",
+                "translation": "Enfermedad de Parkinson"
+            }
+        },
+        {
+            "id": "stroke",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "09ae69d9a3",
+                "translation": "Accidente cerebrovascular / afasia"
+            }
+        },
+        {
+            "id": "traumatic_brain_injury",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e861c2fbe2",
+                "translation": "Lesión cerebral traumática"
+            }
+        },
+        {
+            "id": "other_neurological_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "19f650965e",
+                "translation": "¿Actualmente tiene alguna otra condición neurológica?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_neurological_condition_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0d5528891a",
+                "translation": "Por favor, especifique qué otra(s) condición(es) neurológica(s) tiene."
+            }
+        },
+        {
+            "id": "deep_brain_stimulator",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ddb469ed5a",
+                "translation": "Estimulación cerebral profunda"
+            }
+        },
+        {
+            "id": "medication_med_history_neuro",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36da837e8b",
+                "translation": "Medicamento"
+            }
+        },
+        {
+            "id": "vagal_nerve_stimulator",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "51451fc32a",
+                "translation": "Estimulación del nervio vago"
+            }
+        },
+        {
+            "id": "other_neurological_treatment",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "56e6286151",
+                "translation": "Otro tratamiento neurológico"
+            }
+        },
+        {
+            "id": "other_neurological_treatment_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d9c7cecfec",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) está recibiendo para su(s) condición(es) neurológica(s)."
+            }
+        },
+        {
+            "id": "alcohol_substance_use_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "11e59ec642",
+                "translation": "Trastorno por consumo de alcohol o sustancias"
+            }
+        },
+        {
+            "id": "anxiety_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "014af59556",
+                "translation": "Trastorno de ansiedad (por ejemplo, ansiedad generalizada o social)"
+            }
+        },
+        {
+            "id": "adhd_med_hist_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c7b875c162",
+                "translation": "Trastorno por déficit de atención/hiperactividad (TDAH)"
+            }
+        },
+        {
+            "id": "asd_med_hist_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "473894cebe",
+                "translation": "Trastorno del espectro autista (TEA)"
+            }
+        },
+        {
+            "id": "bipolar_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b008abe32b",
+                "translation": "Trastorno bipolar"
+            }
+        },
+        {
+            "id": "bpd_med_hist_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b8be969fca",
+                "translation": "Trastorno límite de la personalidad (TLP)"
+            }
+        },
+        {
+            "id": "depression_major_depressive_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "86317a1292",
+                "translation": "Depresión o trastorno depresivo mayor"
+            }
+        },
+        {
+            "id": "eating_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8821f79a71",
+                "translation": "Trastorno alimentario (TA)"
+            }
+        },
+        {
+            "id": "obsessive_compulsive_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e51774a586",
+                "translation": "Trastorno obsesivo-compulsivo (TOC)"
+            }
+        },
+        {
+            "id": "panic_disorder",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "13760f62e5",
+                "translation": "Trastorno de pánico"
+            }
+        },
+        {
+            "id": "ptsd_med_hist_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6d3059281e",
+                "translation": "Trastorno de estrés postraumático (TEPT)"
+            }
+        },
+        {
+            "id": "schizophrenia_med_hist_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b4f618444a",
+                "translation": "Esquizofrenia"
+            }
+        },
+        {
+            "id": "psychological_condition_other",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b58f5385f8",
+                "translation": "Otra condición psicológica"
+            }
+        },
+        {
+            "id": "psychological_condition_other_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "970fa775ce",
+                "translation": "Por favor, especifique qué otra(s) condición(es) psicológica(s) tiene."
+            }
+        },
+        {
+            "id": "talk_therapy_mental_health_prof",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8e3230e7a1",
+                "translation": "Terapia conversacional con un profesional de la salud mental (por ejemplo, trabajador social, psiquiatra, etc.)"
+            }
+        },
+        {
+            "id": "medication_med_history_psychological",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36da837e8b",
+                "translation": "Medicamento"
+            }
+        },
+        {
+            "id": "mindfulness_meditation",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ca77cd7e85",
+                "translation": "Atención plena o conciencia plena, meditación"
+            }
+        },
+        {
+            "id": "other_treatment_psychological_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8653c6984c",
+                "translation": "Otro tratamiento psicológico"
+            }
+        },
+        {
+            "id": "other_treatment_psychological_condition_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "df9458b9e6",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) está recibiendo para su(s) condición(es) psicológica(s)."
+            }
+        },
+        {
+            "id": "brain_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3c46b423a9",
+                "translation": "Cáncer cerebral"
+            }
+        },
+        {
+            "id": "ear_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "182cb3d33f",
+                "translation": "Cáncer de oído"
+            }
+        },
+        {
+            "id": "laryngeal_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "69fecd2c5e",
+                "translation": "Cáncer de laringe (por ejemplo, cuerdas vocales, epiglotis, etc.)"
+            }
+        },
+        {
+            "id": "lung_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "916c618d8c",
+                "translation": "Cáncer de pulmón"
+            }
+        },
+        {
+            "id": "oral_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dedd9229ce",
+                "translation": "Cáncer oral (por ejemplo, lengua, boca, encías, amígdalas, etc.)"
+            }
+        },
+        {
+            "id": "sinus_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "07a2b50263",
+                "translation": "Cáncer de senos paranasales"
+            }
+        },
+        {
+            "id": "esophageal_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c67fe60939",
+                "translation": "Cáncer de esófago"
+            }
+        },
+        {
+            "id": "thyroid_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "22030f86da",
+                "translation": "Cáncer de tiroides"
+            }
+        },
+        {
+            "id": "other_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "37dbf6ed8b",
+                "translation": "Otro cáncer"
+            }
+        },
+        {
+            "id": "other_cancer_past_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e3caea1d46",
+                "translation": "Por favor, especifique qué otro(s) tipo(s) de cáncer ha tenido en el pasado."
+            }
+        },
+        {
+            "id": "other_cancer_current_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1da190cec0",
+                "translation": "Por favor, especifique qué otro(s) tipo(s) de cáncer tiene actualmente."
+            }
+        },
+        {
+            "id": "chemotherapy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "08ba4b09bb",
+                "translation": "Quimioterapia"
+            }
+        },
+        {
+            "id": "surgery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f386e273e0",
+                "translation": "Cirugía"
+            }
+        },
+        {
+            "id": "immunotherapy",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f99d76e2a8",
+                "translation": "Inmunoterapia"
+            }
+        },
+        {
+            "id": "radiation",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5ac9aa321b",
+                "translation": "Radiación"
+            }
+        },
+        {
+            "id": "radioactive_iodine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "fd93a828c5",
+                "translation": "Yodo radiactivo"
+            }
+        },
+        {
+            "id": "medication_med_hist_cancer",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "36da837e8b",
+                "translation": "Medicamento"
+            }
+        },
+        {
+            "id": "experimental_treatment",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "9cdbbc04cb",
+                "translation": "Tratamiento experimental / ensáyo clínico"
+            }
+        },
+        {
+            "id": "other_cancer_treatment",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e742d9efe1",
+                "translation": "Otro tratamiento para el cáncer"
+            }
+        },
+        {
+            "id": "experimental_treatment_past_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3c5e4634cd",
+                "translation": "Por favor, especifique qué tratamiento experimental (por ejemplo, ensayo clínico) recibió en el pasado."
+            }
+        },
+        {
+            "id": "experimental_treatment_current_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "fc4c24bd36",
+                "translation": "Por favor, especifique qué tratamiento experimental (por ejemplo, ensayo clínico) está recibiendo actualmente."
+            }
+        },
+        {
+            "id": "other_cancer_treatment_past_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dda2a36df0",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) contra el cáncer ha recibido en el pasado."
+            }
+        },
+        {
+            "id": "other_treatment_cancer_current_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "28001c0be2",
+                "translation": "Por favor, especifique qué otro(s) tratamiento(s) contra el cáncer está recibiendo actualmente."
+            }
+        },
+        {
+            "id": "atrial_fibrillation",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "118d6542a8",
+                "translation": "Fibrilación auricular"
+            }
+        },
+        {
+            "id": "chronic_pericarditis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3bfb6b3a24",
+                "translation": "Pericarditis crónica"
+            }
+        },
+        {
+            "id": "congestive_heart_failure",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bb6e0f0533",
+                "translation": "Insuficiencia cardíaca congestiva"
+            }
+        },
+        {
+            "id": "coronary_heart_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "abe5246fae",
+                "translation": "Enfermedad coronaria"
+            }
+        },
+        {
+            "id": "chronic_kidney_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "9462d97142",
+                "translation": "Enfermedad renal crónica"
+            }
+        },
+        {
+            "id": "obesity",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "94f840947f",
+                "translation": "Obesidad"
+            }
+        },
+        {
+            "id": "scoliosis",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1f1de5c443",
+                "translation": "Escoliosis"
+            }
+        },
+        {
+            "id": "currently_considered_obese",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ba711d7d78",
+                "translation": "¿Actualmente se le considera con obesidad?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "currently_have_diabetes",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a0e21cb9c4",
+                "translation": "¿Actualmente tiene diabetes?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "diabetes_type",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "da4c151f57",
+                "translation": "¿Qué tipo de diabetes tiene?"
+            },
+            "enum": [
+                {
+                    "id": "type1",
+                    "hash": "ba1cd0dd35",
+                    "translation": "Tipo 1"
+                },
+                {
+                    "id": "type2",
+                    "hash": "153b0cf733",
+                    "translation": "Tipo 2"
+                },
+                {
+                    "id": "gestationalDiabetes",
+                    "hash": "e4d130dcc1",
+                    "translation": "Diabetes gestacional"
+                },
+                {
+                    "id": "ladaType3a",
+                    "hash": "914bfde796",
+                    "translation": "LADA / Tipo 3a"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                }
+            ]
+        },
+        {
+            "id": "other_heart_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ec02519a81",
+                "translation": "¿Actualmente tiene alguna otra enfermedad del corazón?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_heart_disease_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6b20978bac",
+                "translation": "Por favor, especifique qué otra(s) condición(es) cardíaca(s) tiene."
+            }
+        },
+        {
+            "id": "any_infectious_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3c8bab1524",
+                "translation": "¿Actualmente tiene alguna enfermedad infecciosa?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "any_infectious_disease_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c247deb814",
+                "translation": "Por favor, especifique qué otra(s) enfermedad(es) infecciosa(s) tiene."
+            }
+        },
+        {
+            "id": "anti_anxiety_medication",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bbe77372e1",
+                "translation": "Medicamento contra la ansiedad"
+            }
+        },
+        {
+            "id": "antibiotics",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6d45c8a2d0",
+                "translation": "Antibióticos"
+            }
+        },
+        {
+            "id": "anticholergenics",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "556cfe0803",
+                "translation": "Anticolinérgicos"
+            }
+        },
+        {
+            "id": "antidepressants",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dcf54ada3e",
+                "translation": "Antidepresivos"
+            }
+        },
+        {
+            "id": "antiepileptics",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "9762f854d8",
+                "translation": "Antiepilépticos"
+            }
+        },
+        {
+            "id": "allergy_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a2aa5a120e",
+                "translation": "Medicamentos para la alergia (antihistamínicos)"
+            }
+        },
+        {
+            "id": "blood_pressure_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a47a02cbce",
+                "translation": "Medicamentos para la presión arterial (antihipertensivos)"
+            }
+        },
+        {
+            "id": "pain_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8341584715",
+                "translation": "Medicamentos para el dolor"
+            }
+        },
+        {
+            "id": "decongestants",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "31aad697f3",
+                "translation": "Descongestionantes"
+            }
+        },
+        {
+            "id": "diuretics",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f542dfc5bd",
+                "translation": "Diuréticos"
+            }
+        },
+        {
+            "id": "hormones",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bd0fadcc68",
+                "translation": "Hormonas"
+            }
+        },
+        {
+            "id": "immune_suppressors",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "635862fcd4",
+                "translation": "Inmunosupresores"
+            }
+        },
+        {
+            "id": "inhaled_corticosteroids",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b84dc11975",
+                "translation": "Corticosteroides inhalados"
+            }
+        },
+        {
+            "id": "muscle_relaxants",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f9b1f8c336",
+                "translation": "Relajantes musculares"
+            }
+        },
+        {
+            "id": "oral_steroids",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "71aa3e5edd",
+                "translation": "Esteroides orales"
+            }
+        },
+        {
+            "id": "psychotropic_antipsychotic_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "972107b894",
+                "translation": "Medicamentos psicotrópicos/antipsicóticos"
+            }
+        },
+        {
+            "id": "reflux_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8f0857ad1d",
+                "translation": "Medicamentos para el reflujo"
+            }
+        },
+        {
+            "id": "stimulants_medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "05e955b562",
+                "translation": "Estimulantes"
+            }
+        },
+        {
+            "id": "analgesics",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3e50e4562a",
+                "translation": "Analgésicos"
+            }
+        },
+        {
+            "id": "nsaids",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4ac15857ca",
+                "translation": "AINEs"
+            }
+        },
+        {
+            "id": "opiates",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a3acf942b1",
+                "translation": "Opiáceos"
+            }
+        },
+        {
+            "id": "neuro_modulators",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b90fd13536",
+                "translation": "Neuromoduladores"
+            }
+        },
+        {
+            "id": "androgenic_steroids",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "fde3d19a6f",
+                "translation": "Esteroides androgénicos"
+            }
+        },
+        {
+            "id": "hrt",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d2a50afc73",
+                "translation": "Terapia de reemplazo hormonal (TRH)"
+            }
+        },
+        {
+            "id": "insulin",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "89efd31cab",
+                "translation": "Insulina"
+            }
+        },
+        {
+            "id": "contraceptive_birth_control",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d2628f0223",
+                "translation": "Anticonceptivos, control de natalidad"
+            }
+        },
+        {
+            "id": "thyroid_replacement",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "365d1efa72",
+                "translation": "Reemplazo de hormona tiroidea"
+            }
+        },
+        {
+            "id": "other_hormone_replacement",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c776d4698a",
+                "translation": "Otro reemplazo hormonal"
+            }
+        },
+        {
+            "id": "other_hormone_replacement_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "70970dea4b",
+                "translation": "¿Qué otro(s) reemplazo(s) hormonal(es) toma actualmente?"
+            }
+        },
+        {
+            "id": "anxiety_nervousness",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "90b92334d0",
+                "translation": "Ansiedad o nerviosismo"
+            }
+        },
+        {
+            "id": "confusion",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "68b8d436c0",
+                "translation": "Confusión"
+            }
+        },
+        {
+            "id": "coughing_clearing_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3ade89fcf0",
+                "translation": "Tos o carraspeo"
+            }
+        },
+        {
+            "id": "dizziness",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a895771247",
+                "translation": "Mareo"
+            }
+        },
+        {
+            "id": "headache_migraine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8c5f4f6065",
+                "translation": "Dolor de cabeza o migraña"
+            }
+        },
+        {
+            "id": "nasal_congestion_obstruction",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5a43d74f05",
+                "translation": "Congestión o obstrucción nasal"
+            }
+        },
+        {
+            "id": "scratchy_sore_throat",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2cd077945d",
+                "translation": "Dolor o irritación de garganta"
+            }
+        },
+        {
+            "id": "shortness_breath",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0e5aec48e8",
+                "translation": "Falta de aire"
+            }
+        },
+        {
+            "id": "sleep_disturbance",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "342912d5b2",
+                "translation": "Alteración del sueño"
+            }
+        },
+        {
+            "id": "speech_difficulty",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "509a168c74",
+                "translation": "Dificultad para hablar"
+            }
+        },
+        {
+            "id": "menstruate",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "926dc7bc6f",
+                "translation": "Ginecológico"
+            },
+            "label": {
+                "hash": "5a6e7aafc8",
+                "translation": "¿Actualmente tiene períodos (con ciclos regulares o irregulares)?"
+            },
+            "enum": [
+                {
+                    "id": "doesNotApply",
+                    "hash": "0ae49fcb0e",
+                    "translation": "No aplica (es decir, soy un hombre que nunca ha tenido un período)"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "4a653987e4",
+                    "translation": "No, pero solía tener"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "menstrual_cycle_status",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2b2504e506",
+                "translation": "¿En qué fase de su ciclo está? Preguntamos esto porque puede afectar su voz."
+            },
+            "enum": [
+                {
+                    "id": "menstruating",
+                    "hash": "1b91e8f417",
+                    "translation": "Menstruando"
+                },
+                {
+                    "id": "premenstrual",
+                    "hash": "c65dbc8daa",
+                    "translation": "Antes de la menstruación"
+                },
+                {
+                    "id": "postmenstrual",
+                    "hash": "deceb7df66",
+                    "translation": "Después de la menstruación"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "menstruate_no",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "db563244a1",
+                "translation": "Por favor explique"
+            },
+            "enum": [
+                {
+                    "id": "pregnant",
+                    "hash": "b9aa8cd10e",
+                    "translation": "Estoy actualmente embarazada"
+                },
+                {
+                    "id": "birthControl",
+                    "hash": "fc58e9f7de",
+                    "translation": "Estoy usando anticonceptivos"
+                },
+                {
+                    "id": "iud",
+                    "hash": "0082f4d927",
+                    "translation": "Tengo un DIU [EN DESUSO]"
+                },
+                {
+                    "id": "menopause",
+                    "hash": "54556c4e7c",
+                    "translation": "He pasado por la menopausia o me han hecho una histerectomía"
+                },
+                {
+                    "id": "hormoneTherapy",
+                    "hash": "e5ff55b6cf",
+                    "translation": "Ya no tengo mi período debido a la terapia hormonal."
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "other_menstruate_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "85ab056bd2",
+                "translation": "Si seleccionó \"otro\" tipo de consumo de tabaco, por favor especifique:"
+            }
+        },
+        {
+            "id": "currently_pregnant",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1f9607050f",
+                "translation": "¿En qué trimestre de embarazo está?"
+            },
+            "enum": [
+                {
+                    "id": "firstTrimester",
+                    "hash": "83e6d1177c",
+                    "translation": "Primer trimestre (menos de 14 semanas)"
+                },
+                {
+                    "id": "secondTrimester",
+                    "hash": "895387f1a5",
+                    "translation": "Segundo trimestre (14-28 semanas)"
+                },
+                {
+                    "id": "thirdTrimester",
+                    "hash": "f36f953463",
+                    "translation": "Tercer trimestre (más de 28 semanas)"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "unit",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "75ff29da41",
+                "translation": "Salud física\n\nAlgunos aspectos de su salud física pueden afectar el sonido de su voz. Esta sección hace preguntas sobre algunos de estos factores.\n\nAltura y peso"
+            },
+            "label": {
+                "hash": "f6b935ab33",
+                "translation": "Unidad"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "b2bb7604c8",
+                    "translation": "Métrico"
+                },
+                {
+                    "id": 2,
+                    "hash": "59530c4fac",
+                    "translation": "Unidades de medida estadounidenses"
+                }
+            ]
+        },
+        {
+            "id": "height",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3f608b4935",
+                "translation": "Altura"
+            },
+            "note": {
+                "hash": "45766b4856",
+                "translation": "Pulgadas"
+            }
+        },
+        {
+            "id": "weight",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "69c0b81540",
+                "translation": "Peso"
+            },
+            "note": {
+                "hash": "9a689dda27",
+                "translation": "libras"
+            }
+        },
+        {
+            "id": "ph_standing",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7bb38d44f9",
+                "translation": "¿Permanecer de pie durante largos períodos, como 30 minutos?"
+            }
+        },
+        {
+            "id": "ph_take_care",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "fae9273800",
+                "translation": "¿Encargarte de tus responsabilidades domésticas?"
+            }
+        },
+        {
+            "id": "ph_learn_task",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "9635dd9859",
+                "translation": "¿Aprender una nueva tarea, por ejemplo, aprender cómo llegar a un lugar nuevo?"
+            }
+        },
+        {
+            "id": "ph_problem_join",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "667d05ce90",
+                "translation": "¿Cuánto te ha afectado el unirte a actividades comunitarias (por ejemplo, festividades, actividades religiosas u otras) de la misma manera que cualquier otra persona puede hacerlo?"
+            }
+        },
+        {
+            "id": "ph_health_problem",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b9fe58e055",
+                "translation": "¿Cuánto te ha afectado emocionalmente tus problemas de salud?"
+            }
+        },
+        {
+            "id": "ph_concentrating",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "08bff9d99b",
+                "translation": "¿Concentrarte en hacer algo durante diez minutos?"
+            }
+        },
+        {
+            "id": "ph_walking",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "db398d326d",
+                "translation": "¿Caminar una larga distancia, como un kilómetro [o equivalente]?"
+            }
+        },
+        {
+            "id": "ph_washing",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "194f001633",
+                "translation": "¿Lavarte todo el cuerpo?"
+            }
+        },
+        {
+            "id": "ph_get_dressed",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ce9ae7441f",
+                "translation": "¿Vestirte?"
+            }
+        },
+        {
+            "id": "ph_dealing_people",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "467242454a",
+                "translation": "¿Lidiar con personas que no conoces?"
+            }
+        },
+        {
+            "id": "ph_friendship",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b3055a1282",
+                "translation": "¿Mantener una amistad?"
+            }
+        },
+        {
+            "id": "ph_day_to_day_work",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b2b5413f8d",
+                "translation": "¿Tu trabajo diario?"
+            }
+        },
+        {
+            "id": "physical_health_freq",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "eed1cddc08",
+                "translation": "En general, durante los últimos 30 días, ¿cuántos días estuvieron presentes estas dificultades?"
+            },
+            "note": {
+                "hash": "5548ae4f34",
+                "translation": "días"
+            }
+        },
+        {
+            "id": "phys_health_impact",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7330ac1bcc",
+                "translation": "En los últimos 30 días, ¿durante cuántos días no pudiste llevar a cabo tus actividades o trabajo habituales debido a alguna condición de salud?"
+            },
+            "note": {
+                "hash": "5548ae4f34",
+                "translation": "días"
+            }
+        },
+        {
+            "id": "phys_health_limited",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "961b695da8",
+                "translation": "En los últimos 30 días, sin contar los días en que no pudiste hacer nada, ¿durante cuántos días redujiste o disminuiste tus actividades o trabajo habituales debido a alguna condición de salud?"
+            },
+            "note": {
+                "hash": "5548ae4f34",
+                "translation": "días"
+            }
+        },
+        {
+            "id": "voice_activity_v2",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "8be01e6871",
+                "translation": "Actividades Diarias\n\nLas cosas que hace a diario (incluyendo su trabajo, entorno laboral, hidratación, etc.) pueden afectar el sonido de su voz O afectar la forma en que completa las tareas en este estudio. Esta sección hace preguntas sobre algunos de estos factores.\n\nUso de la Voz"
+            },
+            "label": {
+                "hash": "a88414721b",
+                "translation": "¿Realizas alguno de estos trabajos o pasatiempos que requieren el uso de tu voz durante muchas horas al día? (Marca todas las que apliquen):"
+            },
+            "enum": [
+                {
+                    "id": "administrative_assistant",
+                    "hash": "3fb133b87b",
+                    "translation": "Asistente administrative(a)"
+                },
+                {
+                    "id": "attorney",
+                    "hash": "3a56c3bc25",
+                    "translation": "Abogado(a)"
+                },
+                {
+                    "id": "bartender",
+                    "hash": "8822190542",
+                    "translation": "Camarero(a)"
+                },
+                {
+                    "id": "barista",
+                    "hash": "8d7398782a",
+                    "translation": "Barista"
+                },
+                {
+                    "id": "call_center_worker",
+                    "hash": "7c6aae3b3d",
+                    "translation": "Trabajador(a) de centro de llamadas"
+                },
+                {
+                    "id": "cheerleader",
+                    "hash": "b9a78db7be",
+                    "translation": "Animador(a)"
+                },
+                {
+                    "id": "child_care_provider",
+                    "hash": "2515ce17ec",
+                    "translation": "Cuidador(a) de niños"
+                },
+                {
+                    "id": "exercise_instructor",
+                    "hash": "630bf4c83f",
+                    "translation": "Instructor(a) de ejercicio"
+                },
+                {
+                    "id": "minister_preacher",
+                    "hash": "f3f73f4d64",
+                    "translation": "Ministro(a) / Predicador(a)"
+                },
+                {
+                    "id": "parent_guardian_caregiver",
+                    "hash": "fd62e2ae35",
+                    "translation": "Padre, madre, tutor(a) o cuidador(a)"
+                },
+                {
+                    "id": "public_speaker",
+                    "hash": "9095bbbb6e",
+                    "translation": "Orador(a) público(a)"
+                },
+                {
+                    "id": "receptionist",
+                    "hash": "1db62ec5e7",
+                    "translation": "Recepcionista"
+                },
+                {
+                    "id": "salesperson",
+                    "hash": "f63b235fc9",
+                    "translation": "Vendedor(a)"
+                },
+                {
+                    "id": "singer",
+                    "hash": "99c9c6da08",
+                    "translation": "Cantante"
+                },
+                {
+                    "id": "teacher",
+                    "hash": "da33ddcb58",
+                    "translation": "Maestro(a)"
+                },
+                {
+                    "id": "waiter",
+                    "hash": "6b35d41029",
+                    "translation": "Mesero(a)"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": "none",
+                    "hash": "e93447437c",
+                    "translation": "Ninguna de las anteriores"
+                }
+            ]
+        },
+        {
+            "id": "other_voice_activity",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f11abb9448",
+                "translation": "Por favor, especifique qué otro trabajo o pasatiempo tiene que requiere usar su voz en voz alta durante muchas horas al día."
+            }
+        },
+        {
+            "id": "hours_voice_activity",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "61230a340f",
+                "translation": "¿Cuántas horas al día realiza esta actividad con una voz fuerte o en un ambiente ruidoso que requiere elevar su voz (por ejemplo, en un bar ruidoso o en un aula ruidosa)?"
+            },
+            "note": {
+                "hash": "5aedee0964",
+                "translation": "horas"
+            }
+        },
+        {
+            "id": "reading_aloud",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "d371e012f3",
+                "translation": "Habilidad de Lectura"
+            },
+            "label": {
+                "hash": "34306df8db",
+                "translation": "¿Qué tan bien cree que puede leer en voz alta en español-es decir, leer a un ritmo normal, sin cometer errores y entendiendo lo que lee?"
+            },
+            "enum": [
+                {
+                    "id": "excellent",
+                    "hash": "1aafbf548b",
+                    "translation": "Excelente"
+                },
+                {
+                    "id": "veryGood",
+                    "hash": "f5babd3920",
+                    "translation": "Muy bien"
+                },
+                {
+                    "id": "good",
+                    "hash": "61dedcf053",
+                    "translation": "Bien"
+                },
+                {
+                    "id": "fair",
+                    "hash": "64b985898d",
+                    "translation": "Justo"
+                },
+                {
+                    "id": "poor",
+                    "hash": "4e0fa4378f",
+                    "translation": "Malo"
+                }
+            ]
+        },
+        {
+            "id": "tired_measure",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "6669445020",
+                "translation": "Cansancio"
+            },
+            "label": {
+                "hash": "4a5a4fd83e",
+                "translation": "¿Qué tan cansado estás?\r\n0=nada cansado, 10=extremadamente cansado"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "b6589fc6ab",
+                    "translation": "0"
+                },
+                {
+                    "id": 1,
+                    "hash": "356a192b79",
+                    "translation": "1"
+                },
+                {
+                    "id": 2,
+                    "hash": "da4b9237ba",
+                    "translation": "2"
+                },
+                {
+                    "id": 3,
+                    "hash": "77de68daec",
+                    "translation": "3"
+                },
+                {
+                    "id": 4,
+                    "hash": "1b64538924",
+                    "translation": "4"
+                },
+                {
+                    "id": 5,
+                    "hash": "ac3478d69a",
+                    "translation": "5"
+                },
+                {
+                    "id": 6,
+                    "hash": "c1dfd96eea",
+                    "translation": "6"
+                },
+                {
+                    "id": 7,
+                    "hash": "902ba3cda1",
+                    "translation": "7"
+                },
+                {
+                    "id": 8,
+                    "hash": "fe5dbbcea5",
+                    "translation": "8"
+                },
+                {
+                    "id": 9,
+                    "hash": "0ade7c2cf9",
+                    "translation": "9"
+                },
+                {
+                    "id": 10,
+                    "hash": "b1d5781111",
+                    "translation": "10"
+                }
+            ]
+        },
+        {
+            "id": "hydration",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "bdfb040fda",
+                "translation": "Hidratación"
+            },
+            "label": {
+                "hash": "2e83ec4cb8",
+                "translation": "¿Cuántas tazas pequeñas (8 oz o 230 mL) de agua tomas en un día típico?"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "hydration_today",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7b59759f5f",
+                "translation": "Hoy, ¿cuántos vasos pequeños (8oz o 230mL) de agua ha bebido?"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "typical_day_drink_caffeinated_products",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "c54d9de61a",
+                "translation": "Consumo de Cafeína"
+            },
+            "label": {
+                "hash": "469fe9ede7",
+                "translation": "En un día típico, ¿bebe café o usa otros productos con cafeína?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "typical_day_consume_caffeinated_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "72f71861bf",
+                "translation": "¿Qué tipo(s) de productos con cafeína consume típicamente?"
+            },
+            "enum": [
+                {
+                    "id": "caffeinated_teas",
+                    "hash": "174523b0fd",
+                    "translation": "Tés con cafeína"
+                },
+                {
+                    "id": "carbonated_beverages",
+                    "hash": "af330c2d38",
+                    "translation": "Bebidas carbonatadas (por ejemplo, refrescos, gaseosas, Coca-Cola, etc.)"
+                },
+                {
+                    "id": "coffee",
+                    "hash": "bb4dd43b4e",
+                    "translation": "Café"
+                },
+                {
+                    "id": "energy_drinks",
+                    "hash": "43f4f68fa9",
+                    "translation": "Bebidas energéticas"
+                },
+                {
+                    "id": "espresso",
+                    "hash": "418b8205bf",
+                    "translation": "Espresso"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "typical_day_consume_other_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "04a968deae",
+                "translation": "Por favor especifique"
+            }
+        },
+        {
+            "id": "caffeine_intake",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5012ee4511",
+                "translation": "En un día típico, ¿cuántas porciones de estos productos con cafeína consume típicamente?\nUna porción es 8 oz o 240 mL de café, té o bebidas energéticas, 1 oz o 30 mL de espresso, 12 oz o 360 mL de refresco"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "today_drink_caffeinated_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "852b0c5392",
+                "translation": "Hoy, ¿ha consumido café u otros productos con cafeína?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "today_consume_caffeinated_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "886d84a9f7",
+                "translation": "¿Qué tipo(s) de productos con cafeína ha consumido hoy?"
+            },
+            "enum": [
+                {
+                    "id": "caffeinated_teas",
+                    "hash": "174523b0fd",
+                    "translation": "Tés con cafeína"
+                },
+                {
+                    "id": "carbonated_beverages",
+                    "hash": "af330c2d38",
+                    "translation": "Bebidas carbonatadas (por ejemplo, refrescos, gaseosas, Coca-Cola, etc.)"
+                },
+                {
+                    "id": "coffee",
+                    "hash": "bb4dd43b4e",
+                    "translation": "Café"
+                },
+                {
+                    "id": "energy_drinks",
+                    "hash": "43f4f68fa9",
+                    "translation": "Bebidas energéticas"
+                },
+                {
+                    "id": "espresso",
+                    "hash": "418b8205bf",
+                    "translation": "Espresso"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "today_consume_other_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "04a968deae",
+                "translation": "Por favor especifique"
+            }
+        },
+        {
+            "id": "caffeine_intake_today",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d3c4544a38",
+                "translation": "¿Cuántas porciones de estos productos con cafeína ha consumido hoy?"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "ever_used_nicotine_products",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "00334da25a",
+                "translation": "Uso de nicotina"
+            },
+            "label": {
+                "hash": "8b510e14dd",
+                "translation": "¿Alguna vez ha usado alguno de los siguientes productos de nicotina (tabaco)? Por favor marque todas las que correspondan."
+            },
+            "enum": [
+                {
+                    "id": "never_used_nicotine_product",
+                    "hash": "5161e3c025",
+                    "translation": "Nunca he usado un producto de nicotina"
+                },
+                {
+                    "id": "cigarette_cigar",
+                    "hash": "74334ddbda",
+                    "translation": "Cigarrillo o cigarro"
+                },
+                {
+                    "id": "electronic_nicotine_product",
+                    "hash": "743ac27701",
+                    "translation": "Producto de nicotina electrónico (por ejemplo, cigarrillos electrónicos, vapeadores, pipas de agua electrónicas, vaporizadores personales, e-cigarros, e-pipas, e-hookahs, etc.)"
+                },
+                {
+                    "id": "nicotine_patch",
+                    "hash": "39b31d74a2",
+                    "translation": "Parche de nicotina"
+                },
+                {
+                    "id": "nicotine_gum_chew",
+                    "hash": "ee620d7984",
+                    "translation": "Chicle o masticable de nicotina"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "ever_used_nicotine_products_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "04a968deae",
+                "translation": "Por favor especifique"
+            }
+        },
+        {
+            "id": "used_nicotine_products_in_entire_life",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b095d3159b",
+                "translation": "¿Ha usado productos de nicotina al menos 100 veces en toda su vida?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "current_use_nicotine_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a53c370387",
+                "translation": "¿Actualmente usa productos de nicotina todos los días, algunos días o no los usa en absoluto?"
+            },
+            "enum": [
+                {
+                    "id": "everyDay",
+                    "hash": "3b2eb51310",
+                    "translation": "Todos los dias"
+                },
+                {
+                    "id": "someDays",
+                    "hash": "5d072e623b",
+                    "translation": "Algunos dias"
+                },
+                {
+                    "id": "notAtAll",
+                    "hash": "35b42ab803",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "started_using_nicotine_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4713a42dd2",
+                "translation": "¿Cuántos años tenía cuando comenzó a usar productos de nicotina regularmente?"
+            },
+            "enum": [
+                {
+                    "id": "age",
+                    "hash": "3ff5132a87",
+                    "translation": "Edad: Ingrese la edad"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "age_started_using_nicotine_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3ff5132a87",
+                "translation": "Edad: Ingrese la edad"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "stopped_using_nicotine_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "72c077b4f4",
+                "translation": "Si ha dejado de usar nicotina por completo, ¿cuántos años tenía cuando dejó de usarla?"
+            },
+            "enum": [
+                {
+                    "id": "age",
+                    "hash": "15a6512c6c",
+                    "translation": "Edad cuando dejó de usar: Ingrese la edad"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "age_stopped_using_nicotine_products",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "15a6512c6c",
+                "translation": "Edad cuando dejó de usar: Ingrese la edad"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "years_used_nicotine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dc029c3cd9",
+                "translation": "¿Durante cuántos años ha usado nicotina?"
+            },
+            "enum": [
+                {
+                    "id": "lessThanOneYear",
+                    "hash": "ed61f306f6",
+                    "translation": "Menos de 1 año"
+                },
+                {
+                    "id": "numberOfYears",
+                    "hash": "b33d1ea18e",
+                    "translation": "Número de años: Ingrese número"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "number_years_used_nicotine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bfcdcedd6b",
+                "translation": "Número de años: Ingrese número"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "times_use_nicotine_per_day",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b621f4c852",
+                "translation": "En promedio, ¿cuántas veces usa nicotina por día ahora?"
+            },
+            "enum": [
+                {
+                    "id": "lessThanOncePerDay",
+                    "hash": "93ca2acf23",
+                    "translation": "Menos de una vez al día"
+                },
+                {
+                    "id": "numberUses",
+                    "hash": "3afcdd8a5e",
+                    "translation": "Número de usos por día: Ingrese número"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "number_of_uses_per_day_now",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c108400992",
+                "translation": "Número de usos por día"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "average_used_nicotine_over_entire_time",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "22a770a548",
+                "translation": "En promedio, durante todo el tiempo que ha usado nicotina, ¿cuántas veces al día usaba nicotina?"
+            },
+            "enum": [
+                {
+                    "id": "lessThanOncePerDay",
+                    "hash": "93ca2acf23",
+                    "translation": "Menos de una vez al día"
+                },
+                {
+                    "id": "numberUses",
+                    "hash": "3afcdd8a5e",
+                    "translation": "Número de usos por día: Ingrese número"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "average_number_of_uses_each_day",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3afcdd8a5e",
+                "translation": "Número de usos por día: Ingrese número"
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "alcohol_yn",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "8d71aceeb5",
+                "translation": "Consumo de alcohol"
+            },
+            "label": {
+                "hash": "edf944f2df",
+                "translation": "¿Bebes alcohol?\n(Las bebidas pueden ser cerveza, vino, tragos de licor, cócteles que contienen un trago de licor)"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "notCurrently",
+                    "hash": "75fcb21d5e",
+                    "translation": "No actualmente, pero lo he hecho en el pasado"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_freq_v2",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "056528b95b",
+                "translation": "¿Con qué frecuencia tomo al menos una bebida con alcohol?"
+            },
+            "enum": [
+                {
+                    "id": "monthlyOrLess",
+                    "hash": "04c5a0705e",
+                    "translation": "Mensual o menos"
+                },
+                {
+                    "id": "twoToFourMothly",
+                    "hash": "a1fc9c9eb1",
+                    "translation": "2 - 4 veces al mes"
+                },
+                {
+                    "id": "twoToThreeWeekly",
+                    "hash": "35a429bb0e",
+                    "translation": "2 - 3 veces por semana"
+                },
+                {
+                    "id": "fourOrMoreWeekly",
+                    "hash": "cf16eea40a",
+                    "translation": "4 o más veces por semana"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_amt_v2",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3528f43cf7",
+                "translation": "¿Cuántas bebidas que contienen alcohol toma en un día típico cuando está bebiendo?\nUna bebida es 12 oz. o 330 mL de cerveza, 5 oz. o 150 mL de vino, 1.5 oz. o 45 mL (un trago) de licor"
+            },
+            "enum": [
+                {
+                    "id": "twoOrFewer",
+                    "hash": "3a549471fa",
+                    "translation": "2 o menos"
+                },
+                {
+                    "id": "threeToFour",
+                    "hash": "c4cece152e",
+                    "translation": "3 - 4"
+                },
+                {
+                    "id": "fiveToSix",
+                    "hash": "1938988356",
+                    "translation": "5 - 6"
+                },
+                {
+                    "id": "sevenToNine",
+                    "hash": "e8ce784bf6",
+                    "translation": "7 - 9"
+                },
+                {
+                    "id": "tenOrMore",
+                    "hash": "1ce4896016",
+                    "translation": "10 o más"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_drinks",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5cb8207471",
+                "translation": "¿Con qué frecuencia tomaste seis o más bebidas en una sola ocasión en el último año?"
+            },
+            "enum": [
+                {
+                    "id": "neverInThePastYear",
+                    "hash": "645eaa238f",
+                    "translation": "Nunca en el último año"
+                },
+                {
+                    "id": "lessThanMonthly",
+                    "hash": "257d2d565f",
+                    "translation": "Menos de una vez al mes"
+                },
+                {
+                    "id": "monthly",
+                    "hash": "d31edb7b8a",
+                    "translation": "Mensualmente"
+                },
+                {
+                    "id": "weekly",
+                    "hash": "158f3da592",
+                    "translation": "Semanalmente"
+                },
+                {
+                    "id": "daily",
+                    "hash": "adbb2b56ad",
+                    "translation": "Diario o casi diario"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_today_v2",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "9b0acba093",
+                "translation": "¿Ha bebido alcohol hoy?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "drinks_today_number",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "93ef9b15ef",
+                "translation": "¿Cuántas bebidas has tenido? "
+            },
+            "note": {
+                "hash": "b7baa1d40c",
+                "translation": "Número"
+            }
+        },
+        {
+            "id": "current_recovery_alcohol_v2",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "16d8eaf905",
+                "translation": "¿Está actualmente en proceso de recuperación por consumo de alcohol?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "ever_alcohol_rehab",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7b0ba232c3",
+                "translation": "¿Alguna vez ha estado en rehabilitación o ha recibido asesoramiento por consumo excesivo de alcohol?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "used_substance_on_your_own",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "29bd216a14",
+                "translation": "Uso de otras sustancias"
+            },
+            "label": {
+                "hash": "7f66977499",
+                "translation": "¿Alguna vez ha usado medicamentos POR SU CUENTA sin la receta de un médico, o en cantidades mayores o por más tiempo del prescrito?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "inThePast",
+                    "hash": "de1f4dd2bf",
+                    "translation": "No este año, pero lo he hecho en el pasado"
+                },
+                {
+                    "id": "oneOrMore",
+                    "hash": "c1b87ede6d",
+                    "translation": "Una o más veces este año"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "02a582c54a",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "used_drugs",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "137e1bd6c5",
+                "translation": "¿Alguna vez ha usado marihuana, cocaína o coca, y/o otras drogas?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "inThePast",
+                    "hash": "de1f4dd2bf",
+                    "translation": "No este año, pero lo he hecho en el pasado"
+                },
+                {
+                    "id": "oneOrMore",
+                    "hash": "c1b87ede6d",
+                    "translation": "Una o más veces este año"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "02a582c54a",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoked_substance_in_past_three_months",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e3c1219477",
+                "translation": "En los ÚLTIMOS TRES MESES, ¿con qué frecuencia ha FUMADO marihuana (por ejemplo, cannabis, hierba, hachís, etc.) ya sea recreativamente o según lo prescrito por un médico?"
+            },
+            "enum": [
+                {
+                    "id": "none",
+                    "hash": "6eef664840",
+                    "translation": "Ninguno"
+                },
+                {
+                    "id": "onceOrTwice",
+                    "hash": "c6434f05d9",
+                    "translation": "Una o dos veces"
+                },
+                {
+                    "id": "monthly",
+                    "hash": "d31edb7b8a",
+                    "translation": "Mensualmente"
+                },
+                {
+                    "id": "weekly",
+                    "hash": "158f3da592",
+                    "translation": "Semanalmente"
+                },
+                {
+                    "id": "daily",
+                    "hash": "adbb2b56ad",
+                    "translation": "Diario o casi diario"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "edible_substance_in_past_three_months",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "8fc5728e9c",
+                "translation": "En los ÚLTIMOS TRES MESES, ¿con qué frecuencia ha consumido marihuana en forma de COMESTIBLE ya sea recreativamente o según lo prescrito por un médico?"
+            },
+            "enum": [
+                {
+                    "id": "none",
+                    "hash": "6eef664840",
+                    "translation": "Ninguno"
+                },
+                {
+                    "id": "onceOrTwice",
+                    "hash": "c6434f05d9",
+                    "translation": "Una o dos veces"
+                },
+                {
+                    "id": "monthly",
+                    "hash": "d31edb7b8a",
+                    "translation": "Mensualmente"
+                },
+                {
+                    "id": "weekly",
+                    "hash": "158f3da592",
+                    "translation": "Semanalmente"
+                },
+                {
+                    "id": "daily",
+                    "hash": "adbb2b56ad",
+                    "translation": "Diario o casi diario"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "painkillers",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1db6a763ff",
+                "translation": "Analgésicos (como Vicodin)"
+            }
+        },
+        {
+            "id": "stimulants",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "d0dc940804",
+                "translation": "Estimulantes (como Ritalin, Adderall)"
+            }
+        },
+        {
+            "id": "sedatives",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "efffc22791",
+                "translation": "Sedantes o tranquilizantes (como pastillas para dormir o Valium)"
+            }
+        },
+        {
+            "id": "marijuana",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "047892e7c7",
+                "translation": "Marihuana"
+            }
+        },
+        {
+            "id": "cocaine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7c042d8046",
+                "translation": "Cocaína o coca"
+            }
+        },
+        {
+            "id": "club_drugs",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0c7d00406c",
+                "translation": "Drogas de club (como éxtasis)"
+            }
+        },
+        {
+            "id": "hallucinogens",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e46dd3d8e3",
+                "translation": "Alucinógenos (como LSD)"
+            }
+        },
+        {
+            "id": "heroin",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b5cf3d7dc1",
+                "translation": "Heroína u otros opioides, incluidos los opioides sintéticos como el fentanilo"
+            }
+        },
+        {
+            "id": "inhalants",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2e2a3ed576",
+                "translation": "Inhalantes o disolventes (como pegamento)"
+            }
+        },
+        {
+            "id": "methamphetamine",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "cfde2786a5",
+                "translation": "Metanfetamina (como cristal)"
+            }
+        },
+        {
+            "id": "current_substance_use_recovery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "77a5b9ab85",
+                "translation": "¿Se encuentra actualmente en recuperación por consumo de sustancias?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "rehab_counseling_substance_use",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "41f406fd31",
+                "translation": "¿Alguna vez ha estado en rehabilitación o ha recibido asesoramiento por consumo excesivo de sustancias?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "hormone_use",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "b4f0d266fe",
+                "translation": "Campos en desuso"
+            },
+            "label": {
+                "hash": "b4f5ea65d1",
+                "translation": "[EN DESUSO]\nUso de hormonas"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "020119968e",
+                    "translation": "Anticonceptivos orales"
+                },
+                {
+                    "id": 2,
+                    "hash": "d2a50afc73",
+                    "translation": "Terapia de reemplazo hormonal (TRH)"
+                },
+                {
+                    "id": 3,
+                    "hash": "fde3d19a6f",
+                    "translation": "Esteroides androgénicos"
+                },
+                {
+                    "id": 4,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "medications",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4ae71786a1",
+                "translation": "[EN DESUSO]\n¿Estás tomando o usando actualmente alguno de estos medicamentos o sustancias? Marca todas las que correspondan."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "6d45c8a2d0",
+                    "translation": "Antibióticos"
+                },
+                {
+                    "id": 2,
+                    "hash": "452a99d533",
+                    "translation": "Antihistamínicos (medicamentos para alergias)"
+                },
+                {
+                    "id": 3,
+                    "hash": "c528a40ad7",
+                    "translation": "Medicamentos antihipertensivos (medicamentos para la presión arterial)"
+                },
+                {
+                    "id": 4,
+                    "hash": "9f5261351a",
+                    "translation": "Diuréticos (por ejemplo, Lasix)"
+                },
+                {
+                    "id": 5,
+                    "hash": "31aad697f3",
+                    "translation": "Descongestionantes"
+                },
+                {
+                    "id": 6,
+                    "hash": "8737345ddb",
+                    "translation": "Relajantes musculares (por ejemplo, Baclofen)"
+                },
+                {
+                    "id": 7,
+                    "hash": "539ac89349",
+                    "translation": "Uso de hormonas"
+                },
+                {
+                    "id": 8,
+                    "hash": "b84dc11975",
+                    "translation": "Corticosteroides inhalados"
+                },
+                {
+                    "id": 9,
+                    "hash": "71aa3e5edd",
+                    "translation": "Esteroides orales"
+                },
+                {
+                    "id": 10,
+                    "hash": "940b910cee",
+                    "translation": "Medicamentos contra la ansiedad: (por ejemplo, benzodiazepinas)"
+                },
+                {
+                    "id": 11,
+                    "hash": "398932361c",
+                    "translation": "Medicamentos para el dolor crónico"
+                },
+                {
+                    "id": 12,
+                    "hash": "92995092b3",
+                    "translation": "Medicamentos psicotrópicos/antipsicóticos (por ejemplo, Clozapina)"
+                },
+                {
+                    "id": 13,
+                    "hash": "c1b9862f6f",
+                    "translation": "Antidepresivos (por ejemplo, amitriptilina)"
+                },
+                {
+                    "id": 14,
+                    "hash": "6ae4780dd3",
+                    "translation": "Inmunosupresores (por ejemplo, metotrexato)"
+                },
+                {
+                    "id": 15,
+                    "hash": "7522a31e62",
+                    "translation": "Medicamentos para el reflujo (por ejemplo, pantoprazol, Nexium)"
+                },
+                {
+                    "id": 16,
+                    "hash": "73cdf0c921",
+                    "translation": "Anticolinérgicos (por ejemplo, Ventolin)"
+                },
+                {
+                    "id": 17,
+                    "hash": "0c9f01b476",
+                    "translation": "Anticoagulantes (medicamentos para diluir la sangre)"
+                },
+                {
+                    "id": 18,
+                    "hash": "922bb92603",
+                    "translation": "Antiepiléptico (por ejemplo, fenitoína)"
+                }
+            ]
+        },
+        {
+            "id": "pain_medication",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "df28b0af12",
+                "translation": "[EN DESUSO]\nMedicamentos para el dolor crónico"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "3b383fd213",
+                    "translation": "AINE (por ejemplo, ibuprofeno/Advil/Cerebrex)"
+                },
+                {
+                    "id": 2,
+                    "hash": "51232df44d",
+                    "translation": "Morfina/Oxicodona"
+                },
+                {
+                    "id": 3,
+                    "hash": "95d5fca249",
+                    "translation": "Neuromoduladores (por ejemplo, Gabapentina, Lyrica)"
+                }
+            ]
+        },
+        {
+            "id": "symptoms",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3e79fa447f",
+                "translation": "[EN DESUSO]\nHay algunos síntomas que pueden afectar su voz. ¿Estás experimentando actualmente alguno de estos síntomas? Marca todos los que correspondan."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "90b92334d0",
+                    "translation": "Ansiedad o nerviosismo"
+                },
+                {
+                    "id": 2,
+                    "hash": "68b8d436c0",
+                    "translation": "Confusión"
+                },
+                {
+                    "id": 3,
+                    "hash": "a895771247",
+                    "translation": "Mareo"
+                },
+                {
+                    "id": 4,
+                    "hash": "2e743c0f49",
+                    "translation": "Dolor de cabeza o migraña frecuente o intenso"
+                },
+                {
+                    "id": 5,
+                    "hash": "342912d5b2",
+                    "translation": "Alteración del sueño"
+                },
+                {
+                    "id": 6,
+                    "hash": "509a168c74",
+                    "translation": "Dificultad para hablar"
+                },
+                {
+                    "id": 7,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "voice_activity",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "992ba6c38a",
+                "translation": "[EN DESUSO]\n¿Realiza alguno de estos trabajos o pasatiempos que requieren usar su voz durante muchas horas al día? Seleccione todas las opciones que correspondan."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "8822190542",
+                    "translation": "Camarero(a)"
+                },
+                {
+                    "id": 2,
+                    "hash": "340a3df693",
+                    "translation": "Camarero/a, recepcionista"
+                },
+                {
+                    "id": 3,
+                    "hash": "2bbcf11724",
+                    "translation": "Secretaria/o, centro de llamadas, abogado/a, vendedor/a"
+                },
+                {
+                    "id": 4,
+                    "hash": "da33ddcb58",
+                    "translation": "Maestro(a)"
+                },
+                {
+                    "id": 5,
+                    "hash": "99c9c6da08",
+                    "translation": "Cantante"
+                },
+                {
+                    "id": 6,
+                    "hash": "46dfa60583",
+                    "translation": "Animadora"
+                },
+                {
+                    "id": 7,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "smoking_entire_life",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bd35cfd3d0",
+                "translation": "[EN DESUSO]\n¿Ha fumado al menos 100 cigarrillos en toda su vida? (Hay 20 cigarrillos en un paquete.)"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_occurrence",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a3b23f7bae",
+                "translation": "[EN DESUSO]\n¿Actualmente fuma cigarrillos todos los días, algunos días o no fuma en absoluto?"
+            },
+            "enum": [
+                {
+                    "id": "everyDay",
+                    "hash": "3b2eb51310",
+                    "translation": "Todos los dias"
+                },
+                {
+                    "id": "someDays",
+                    "hash": "5d072e623b",
+                    "translation": "Algunos dias"
+                },
+                {
+                    "id": "notAtAll",
+                    "hash": "35b42ab803",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_age_regular_cigarette_smoking",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ab5f43bf94",
+                "translation": "[EN DESUSO]\n¿Qué edad tenía cuando comenzó a fumar cigarrillos con regularidad?"
+            },
+            "enum": [
+                {
+                    "id": "specify",
+                    "hash": "a477d8dab7",
+                    "translation": "Especifique"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_age_regular_cigarette_smoking_age",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bd5e104378",
+                "translation": "[EN DESUSO]\nEdad:"
+            }
+        },
+        {
+            "id": "smoking_age_stopped",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "85fbe84eb3",
+                "translation": "[EN DESUSO]\nSi ha dejado completamente de fumar cigarrillos, ¿aproximadamente qué edad tenía cuando dejó de fumar?"
+            },
+            "enum": [
+                {
+                    "id": "specify",
+                    "hash": "a477d8dab7",
+                    "translation": "Especifique"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_age_stopped_age",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "035cb251e3",
+                "translation": "[EN DESUSO]\nEdad al dejar de fumar:"
+            }
+        },
+        {
+            "id": "smoking_years_cigarettes",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ebc86cd230",
+                "translation": "[EN DESUSO]\n¿Cuántos años ha fumado o fumó cigarrillos?"
+            },
+            "enum": [
+                {
+                    "id": "specify",
+                    "hash": "a477d8dab7",
+                    "translation": "Especifique"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_years_cigarettes_years",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b1491923b4",
+                "translation": "[EN DESUSO]\nNúmero de años:"
+            }
+        },
+        {
+            "id": "smoking_cigarettes_day_current_avg",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "444637b297",
+                "translation": "[EN DESUSO]\nEn promedio, ¿cuántos cigarrillos fuma al día actualmente? (Hay 20 cigarrillos en un paquete.)"
+            },
+            "enum": [
+                {
+                    "id": "specify",
+                    "hash": "a477d8dab7",
+                    "translation": "Especifique"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_cigarettes_day_current_avg_number",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "457f7d2363",
+                "translation": "[EN DESUSO]\nNúmero de cigarrillos por día:"
+            }
+        },
+        {
+            "id": "smoking_cigarettes_day_past_avg",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7d66f3eea1",
+                "translation": "[EN DESUSO]\nEn promedio, durante todo el tiempo que fumó, ¿cuántos cigarrillos fumaba al día? (Hay 20 cigarrillos en un paquete.)"
+            },
+            "enum": [
+                {
+                    "id": "specify",
+                    "hash": "a477d8dab7",
+                    "translation": "Especifique"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_cigarettes_day_past_avg_number",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1f2428d999",
+                "translation": "[EN DESUSO]\nNúmero de cigarrillos por día:"
+            }
+        },
+        {
+            "id": "smoking_marijuana",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c47e59bbf0",
+                "translation": "[EN DESUSO]\nEn los ÚLTIMOS TRES MESES, ¿con qué frecuencia ha consumido marihuana (cannabis, mota, hierba, hachís, etc.)?"
+            },
+            "enum": [
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "onceOrTwice",
+                    "hash": "c6434f05d9",
+                    "translation": "Una o dos veces"
+                },
+                {
+                    "id": "monthly",
+                    "hash": "d31edb7b8a",
+                    "translation": "Mensualmente"
+                },
+                {
+                    "id": "weekly",
+                    "hash": "158f3da592",
+                    "translation": "Semanalmente"
+                },
+                {
+                    "id": "dailyOrAlmostDaily",
+                    "hash": "adbb2b56ad",
+                    "translation": "Diario o casi diario"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_electronic",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "af8d5b3739",
+                "translation": "[EN DESUSO]\n¿Alguna vez ha usado un producto electrónico con nicotina, aunque haya sido una o dos veces?\n(Los productos electrónicos con nicotina incluyen cigarrillos electrónicos, bolígrafos de vapeo, bolígrafos de hookah, vaporizadores personales y mods, cigarros electrónicos, pipas electrónicas y hookahs electrónicos.)"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_electronic_current_occurence",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "180c02ab5d",
+                "translation": "[EN DESUSO]\n¿Actualmente usa productos electrónicos de nicotina?"
+            },
+            "enum": [
+                {
+                    "id": "everyDay",
+                    "hash": "3b2eb51310",
+                    "translation": "Todos los dias"
+                },
+                {
+                    "id": "someDays",
+                    "hash": "5d072e623b",
+                    "translation": "Algunos dias"
+                },
+                {
+                    "id": "notAtAll",
+                    "hash": "35b42ab803",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "doNotKnow",
+                    "hash": "3bb9b8e85c",
+                    "translation": "No sé"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "is_regular_smoker",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4443b6f357",
+                "translation": "[EN DESUSO]\n¿Has sido un fumador regular o no en los últimos 3 años?"
+            }
+        },
+        {
+            "id": "smoking_hx",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b1cf6af954",
+                "translation": "[EN DESUSO]\n¿Alguna vez has fumado regularmente (más de unas pocas veces al mes durante al menos dos meses)? \nEsto incluye tabaco, cannabis, vaporizadores, cigarrillos electrónicos, hookah, o pipas."
+            },
+            "enum": [
+                {
+                    "id": "never",
+                    "hash": "8ff8272c80",
+                    "translation": "Nunca he fumado regularmente"
+                },
+                {
+                    "id": "past",
+                    "hash": "760f95b222",
+                    "translation": "solía fumar"
+                },
+                {
+                    "id": "currently",
+                    "hash": "4d04e76081",
+                    "translation": "Actualmente fumo"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "age_start_smoking",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4351d1f83f",
+                "translation": "[EN DESUSO]\n¿A qué edad empezaste a fumar?"
+            }
+        },
+        {
+            "id": "age_stop_smoking",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "ebab26d69a",
+                "translation": "[EN DESUSO]\n¿A qué edad dejaste de fumar?"
+            }
+        },
+        {
+            "id": "smoking_types",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b50d87cd68",
+                "translation": "[EN DESUSO]\nLista de verificación de diferentes tipos (elige todos los que correspondan):"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "5c49985f90",
+                    "translation": "Cigarrillos de tabaco"
+                },
+                {
+                    "id": 2,
+                    "hash": "425fdf4e6d",
+                    "translation": "Porros de cannabis, bong, pipa"
+                },
+                {
+                    "id": 3,
+                    "hash": "738ba81ece",
+                    "translation": "Vaporizadores"
+                },
+                {
+                    "id": 4,
+                    "hash": "171e873def",
+                    "translation": "Cigarrillos electrónicos"
+                },
+                {
+                    "id": 5,
+                    "hash": "798f258ac6",
+                    "translation": "Hookah (pipa de agua o narguile)"
+                },
+                {
+                    "id": 6,
+                    "hash": "785af2a4ad",
+                    "translation": "Pipas"
+                },
+                {
+                    "id": 7,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": 8,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "smoking_freq",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "664dc2d88f",
+                "translation": "[EN DESUSO]\n¿Con qué frecuencia fumas / fumabas?"
+            },
+            "enum": [
+                {
+                    "id": "multipleTimes",
+                    "hash": "72bd0ca9ee",
+                    "translation": "Varias veces al día"
+                },
+                {
+                    "id": "onceDay",
+                    "hash": "13b9e2908b",
+                    "translation": "Aproximadamente una vez al día"
+                },
+                {
+                    "id": "fewWeek",
+                    "hash": "ad37cdf128",
+                    "translation": "Algunas veces a la semana"
+                },
+                {
+                    "id": "fewMonth",
+                    "hash": "f78f22a62f",
+                    "translation": "Algunas veces al mes"
+                },
+                {
+                    "id": "fewYear",
+                    "hash": "e4814a3761",
+                    "translation": "Algunas veces al año"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_smoking_specify",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "3ae2c036fa",
+                "translation": "[EN DESUSO]\nSi seleccionó \"otro\" tipo de consumo de tabaco, por favor especifique:"
+            }
+        },
+        {
+            "id": "alcohol_freq",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f56e3c30de",
+                "translation": "[EN DESUSO]\n¿Con qué frecuencia consume al menos una bebida alcohólica?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "04c5a0705e",
+                    "translation": "Mensual o menos"
+                },
+                {
+                    "id": 2,
+                    "hash": "a1fc9c9eb1",
+                    "translation": "2 - 4 veces al mes"
+                },
+                {
+                    "id": 3,
+                    "hash": "35a429bb0e",
+                    "translation": "2 - 3 veces por semana"
+                },
+                {
+                    "id": 4,
+                    "hash": "cf16eea40a",
+                    "translation": "4 o más veces por semana"
+                },
+                {
+                    "id": 5,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_amt",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "51dfcd54b1",
+                "translation": "[EN DESUSO]\n¿Cuántas bebidas que contienen alcohol toma en un día típico cuando está bebiendo?\nUna bebida es 12 oz. o 330 mL de cerveza, 5 oz. o 150 mL de vino, 1.5 oz. o 45 mL (un trago) de licor"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "3a549471fa",
+                    "translation": "2 o menos"
+                },
+                {
+                    "id": 2,
+                    "hash": "c4cece152e",
+                    "translation": "3 - 4"
+                },
+                {
+                    "id": 3,
+                    "hash": "1938988356",
+                    "translation": "5 - 6"
+                },
+                {
+                    "id": 4,
+                    "hash": "e8ce784bf6",
+                    "translation": "7 - 9"
+                },
+                {
+                    "id": 5,
+                    "hash": "1ce4896016",
+                    "translation": "10 o más"
+                },
+                {
+                    "id": 6,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "alcohol_today",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4cef602df8",
+                "translation": "[EN DESUSO]\n¿Has bebido alcohol hoy?"
+            }
+        },
+        {
+            "id": "current_recovery_alcohol",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c73207ceed",
+                "translation": "[EN DESUSO]\nEstá actualmente en proceso de recuperación por consumo de alcohol?"
+            }
+        },
+        {
+            "id": "alcohol_rehab",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "30b5cf4b56",
+                "translation": "[EN DESUSO]\n¿Alguna vez has estado en rehabilitación o terapia por uso excesivo de alcohol?"
+            },
+            "enum": [
+                {
+                    "id": "neverInThePastYear",
+                    "hash": "645eaa238f",
+                    "translation": "Nunca en el último año"
+                },
+                {
+                    "id": "lessThanMonthly",
+                    "hash": "257d2d565f",
+                    "translation": "Menos de una vez al mes"
+                },
+                {
+                    "id": "monthly",
+                    "hash": "d31edb7b8a",
+                    "translation": "Mensualmente"
+                },
+                {
+                    "id": "weekly",
+                    "hash": "158f3da592",
+                    "translation": "Semanalmente"
+                },
+                {
+                    "id": "daily",
+                    "hash": "adbb2b56ad",
+                    "translation": "Diario o casi diario"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "recreational_drug_use",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "fa75de2e9d",
+                "translation": "[EN DESUSO]\n¿Cuántas veces en el último AÑO has usado sustancias recreativas o medicamentos por razones o en dosis diferentes a las recetadas?\nLas sustancias recreativas incluyen metanfetaminas (tiza, cristal), cannabis (marihuana, mota), inhalantes (pegamento), tranquilizantes (Valium), barbitúricos, cocaína, éxtasis, alucinógenos (LSD, acido), o narcóticos (heroína).\nMás de uno"
+            }
+        },
+        {
+            "id": "substance_use_recovery",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "bae3b5962e",
+                "translation": "[EN DESUSO]\n¿Está actualmente en proceso de recuperación por uso de sustancias?"
+            }
+        },
+        {
+            "id": "dental_problems",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "c3777a9386",
+                "translation": "[EN DESUSO]\n¿Tiene algún problema dental que pueda afectar el habla?"
+            }
+        },
+        {
+            "id": "dental_tx",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "2444baf8a7",
+                "translation": "[EN DESUSO]\n¿Actualmente tienes pérdida de dientes, dentaduras, retenedores o frenillos?"
+            }
+        },
+        {
+            "id": "seasonal_allergies",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "63fdb534d2",
+                "translation": "[EN DESUSO]\n¿Actualmente tienes alergias estacionales, síntomas similares a un resfriado u otras condiciones que puedan afectar tu voz hoy?"
+            }
+        },
+        {
+            "id": "seasonal_allergies_options",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "aff45e27c0",
+                "translation": "[EN DESUSO]\nMarque todo lo que corresponda:"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "5a43d74f05",
+                    "translation": "Congestión o obstrucción nasal"
+                },
+                {
+                    "id": 2,
+                    "hash": "36ae528e68",
+                    "translation": "Tos"
+                },
+                {
+                    "id": 3,
+                    "hash": "2cd077945d",
+                    "translation": "Dolor o irritación de garganta"
+                },
+                {
+                    "id": 4,
+                    "hash": "0e5aec48e8",
+                    "translation": "Falta de aire"
+                }
+            ]
+        },
+        {
+            "id": "ear_med_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0bc3780eb2",
+                "translation": "[EN DESUSO]\nOreja/Oído"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "bc6e32f354",
+                    "translation": "Infección crónica del oído"
+                },
+                {
+                    "id": 2,
+                    "hash": "52fabbd480",
+                    "translation": "Implante coclear"
+                },
+                {
+                    "id": 3,
+                    "hash": "cc4d75bf3a",
+                    "translation": "Pérdida de la audición"
+                }
+            ]
+        },
+        {
+            "id": "nose_med_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a170b70bae",
+                "translation": "[EN DESUSO]\nNariz"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "12b0d0ce2b",
+                    "translation": "Sinusitis frecuente"
+                }
+            ]
+        },
+        {
+            "id": "throat_med_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dc087aaac9",
+                "translation": "[EN DESUSO]\nGarganta"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "8754a11b77",
+                    "translation": "Lesión pre-cancerosa de la garganta (por ejemplo, leucoplasia o queratosis laríngea)"
+                },
+                {
+                    "id": 2,
+                    "hash": "490aebc977",
+                    "translation": "Reflujo (acidez estomacal)"
+                },
+                {
+                    "id": 3,
+                    "hash": "c811ba1d4a",
+                    "translation": "Edema de Reinke, corditis polipoidea o laringe del fumador"
+                },
+                {
+                    "id": 4,
+                    "hash": "36f7b015a4",
+                    "translation": "Síndrome de Sjogren"
+                },
+                {
+                    "id": 5,
+                    "hash": "5910788210",
+                    "translation": "Trastornos de la deglución (disfagia)"
+                },
+                {
+                    "id": 6,
+                    "hash": "1fbcc83d81",
+                    "translation": "Cáncer de garganta"
+                },
+                {
+                    "id": 7,
+                    "hash": "0bc31c6124",
+                    "translation": "Enfermedad de tiroides"
+                },
+                {
+                    "id": 8,
+                    "hash": "1f43e49c82",
+                    "translation": "Insuficiencia velofaríngea"
+                },
+                {
+                    "id": 9,
+                    "hash": "bdf2e0442b",
+                    "translation": "Disfunción de las cuerdas vocales, movimiento paradójico de las cuerdas vocales u obstrucción laríngea inducible"
+                },
+                {
+                    "id": 10,
+                    "hash": "0780057563",
+                    "translation": "Pólipo, nódulo o quiste de cuerdas vocales"
+                },
+                {
+                    "id": 11,
+                    "hash": "c3a625ae44",
+                    "translation": "Hemorragia o sangrado de las cuerdas vocales"
+                },
+                {
+                    "id": 12,
+                    "hash": "a31c4b0a34",
+                    "translation": "Trastorno de voz/garganta"
+                }
+            ]
+        },
+        {
+            "id": "head_med_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7ad9d73e4c",
+                "translation": "[EN DESUSO]\nCabeza"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "11af1ba30e",
+                    "translation": "Radiación alrededor de la cabeza y el cuello"
+                },
+                {
+                    "id": 2,
+                    "hash": "42fb07f1b8",
+                    "translation": "Alergias estacionales"
+                }
+            ]
+        },
+        {
+            "id": "ear_surgical",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "0bc3780eb2",
+                "translation": "[EN DESUSO]\nOreja/Oído"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "ca022067d1",
+                    "translation": "Cirugía crónica del oído (por ejemplo, mastoides)"
+                },
+                {
+                    "id": 2,
+                    "hash": "8b37ef8ef1",
+                    "translation": "Tubos de oído"
+                }
+            ]
+        },
+        {
+            "id": "nose_surgical",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "a170b70bae",
+                "translation": "[EN DESUSO]\nNariz"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "c4e9c98f79",
+                    "translation": "Septoplastia/Rinoplastia"
+                },
+                {
+                    "id": 2,
+                    "hash": "02ab1d6c23",
+                    "translation": "Cirugía de los senos paranasales"
+                }
+            ]
+        },
+        {
+            "id": "throat_surgical",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dc087aaac9",
+                "translation": "[EN DESUSO]\nGarganta"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "78d194d80a",
+                    "translation": "Cirugía de las vías respiratorias"
+                },
+                {
+                    "id": 2,
+                    "hash": "9c72654acf",
+                    "translation": "Cirugia de garganta"
+                },
+                {
+                    "id": 3,
+                    "hash": "7b0a66f488",
+                    "translation": "Cirugía de tiroides"
+                },
+                {
+                    "id": 4,
+                    "hash": "ed886027b8",
+                    "translation": "Amigdalectomía/Adenoidectomía"
+                }
+            ]
+        },
+        {
+            "id": "head_surgical",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7ad9d73e4c",
+                "translation": "[EN DESUSO]\nCabeza"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "4ae9835412",
+                    "translation": "Cáncer de cabeza/cuello (por ejemplo, cáncer orofaríngeo)"
+                },
+                {
+                    "id": 2,
+                    "hash": "7c30cc6802",
+                    "translation": "Cirugía relacionada con el sueño"
+                }
+            ]
+        },
+        {
+            "id": "neurological_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7585008071",
+                "translation": "[EN DESUSO]\nHistorial médico neurológico"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "45fc1f0c66",
+                    "translation": "Tumor cerebral"
+                },
+                {
+                    "id": 2,
+                    "hash": "c5baba96d1",
+                    "translation": "Disartria"
+                },
+                {
+                    "id": 3,
+                    "hash": "78d3f6997e",
+                    "translation": "Epilepsia"
+                },
+                {
+                    "id": 4,
+                    "hash": "6d66057ef6",
+                    "translation": "Esclerosis múltiple"
+                },
+                {
+                    "id": 5,
+                    "hash": "e861c2fbe2",
+                    "translation": "Lesión cerebral traumática"
+                },
+                {
+                    "id": 6,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                }
+            ]
+        },
+        {
+            "id": "current_neuro_dx",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "60acd1871c",
+                "translation": "[EN DESUSO]\n¿Actualmente tiene estas afecciones o presenta síntomas como resultado de haber tenido estas afecciones?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "6eef664840",
+                    "translation": "Ninguno"
+                },
+                {
+                    "id": 2,
+                    "hash": "092d1326ad",
+                    "translation": "Solo algunas"
+                },
+                {
+                    "id": 3,
+                    "hash": "6a72085653",
+                    "translation": "Todo"
+                }
+            ]
+        },
+        {
+            "id": "specify_current_neuro",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b92c263244",
+                "translation": "[EN DESUSO]\n¿Cuáles tienes actualmente?"
+            }
+        },
+        {
+            "id": "respiratory_conditions",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "1fc35b7770",
+                "translation": "[EN DESUSO]\nCondiciones respiratorias"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "da220501ac",
+                    "translation": "Bronquiectasia"
+                },
+                {
+                    "id": 2,
+                    "hash": "9b7ba50ba5",
+                    "translation": "Cáncer (de pulmón o metastásico)"
+                },
+                {
+                    "id": 3,
+                    "hash": "619461eeab",
+                    "translation": "Enfisema"
+                },
+                {
+                    "id": 4,
+                    "hash": "f893d27f16",
+                    "translation": "Enfermedad pulmonar intersticial (sarcoidosis, fibrosis pulmonar)"
+                },
+                {
+                    "id": 5,
+                    "hash": "5f54c7898d",
+                    "translation": "Neumotórax o atelectasia (pulmón colapsado)"
+                },
+                {
+                    "id": 6,
+                    "hash": "dcc2a5d509",
+                    "translation": "Hipertensión pulmonar"
+                },
+                {
+                    "id": 7,
+                    "hash": "ef607d74fe",
+                    "translation": "Radiación al tórax"
+                },
+                {
+                    "id": 8,
+                    "hash": "b8de84f86f",
+                    "translation": "Tuberculosis"
+                }
+            ]
+        },
+        {
+            "id": "lung_or_metastatic",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "6ce88f11f1",
+                "translation": "[EN DESUSO]\nCáncer (de pulmón o metastásico)"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "a5de086f64",
+                    "translation": "Pulmón"
+                },
+                {
+                    "id": 2,
+                    "hash": "d132e6a247",
+                    "translation": "Metastásico/a"
+                }
+            ]
+        },
+        {
+            "id": "covid",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5f955a0141",
+                "translation": "[EN DESUSO]\n¿Has tenido COVID recientemente o actualmente experimentas los efectos de COVID prolongado? (Marca todas las que correspondan)"
+            },
+            "enum": [
+                {
+                    "id": "past_year",
+                    "hash": "8002bf22d4",
+                    "translation": "COVID en el último año"
+                },
+                {
+                    "id": "long",
+                    "hash": "8aa1129ce1",
+                    "translation": "COVID prolongado (los síntomas persistieron al menos cuatro semanas después de la infección inicial)"
+                }
+            ]
+        },
+        {
+            "id": "covid_past",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "7bc69233f9",
+                "translation": "[EN DESUSO]\n¿Has tenido COVID en el último mes?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "cpap_conditions",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "12c3493dd1",
+                "translation": "[EN DESUSO]\n¿Actualmente utiliza CPAP o oxígeno suplementario? (Seleccione todas las opciones que correspondan)"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "3e13f1a951",
+                    "translation": "Uso activo de CPAP"
+                },
+                {
+                    "id": 2,
+                    "hash": "6e07f6da7d",
+                    "translation": "En oxígeno suplementario"
+                }
+            ]
+        },
+        {
+            "id": "resp_medical_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "4999eff0fb",
+                "translation": "[EN DESUSO]\nHistorial médico respiratorio"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "c8c34959aa",
+                    "translation": "Trauma craneofacial o de la pared torácica"
+                },
+                {
+                    "id": 2,
+                    "hash": "7070684188",
+                    "translation": "Lobectomía previa"
+                },
+                {
+                    "id": 3,
+                    "hash": "245b2c6446",
+                    "translation": "Cirugía previa de tórax/vías respiratorias"
+                },
+                {
+                    "id": 4,
+                    "hash": "c09a462176",
+                    "translation": "Intubación prolongada (más de una semana)"
+                }
+            ]
+        },
+        {
+            "id": "exposed_environmental_pollution",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b1430d31f9",
+                "translation": "[EN DESUSO]\n¿Has estado expuesto a la contaminación ambiental que pueda afectar tu respiración o voz?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "breathe_today",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "5615c70f9f",
+                "translation": "[EN DESUSO]\n¿Tiene dificultad para respirar hoy?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "breathe_today_difficulty",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "aa7bd9bfbc",
+                "translation": "[EN DESUSO]\nPor favor especifica el nivel de dificultad."
+            },
+            "enum": [
+                {
+                    "id": "slightDifficulty",
+                    "hash": "ba572fbcbb",
+                    "translation": "Dificultad Leve"
+                },
+                {
+                    "id": "moderateDifficulty",
+                    "hash": "677d358a06",
+                    "translation": "Dificultad Moderada"
+                },
+                {
+                    "id": "significantDifficulty",
+                    "hash": "e7fafed91e",
+                    "translation": "Dificultad Significativa"
+                }
+            ]
+        },
+        {
+            "id": "cough_today",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f1705edcea",
+                "translation": "[EN DESUSO]\n¿Estás tosiendo hoy?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "cough_today_severity",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "f41cb018a7",
+                "translation": "[EN DESUSO]\n¿Cuál es la gravedad de su tos?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "356a192b79",
+                    "translation": "1"
+                },
+                {
+                    "id": 2,
+                    "hash": "da4b9237ba",
+                    "translation": "2"
+                },
+                {
+                    "id": 3,
+                    "hash": "77de68daec",
+                    "translation": "3"
+                },
+                {
+                    "id": 4,
+                    "hash": "1b64538924",
+                    "translation": "4"
+                },
+                {
+                    "id": 5,
+                    "hash": "ac3478d69a",
+                    "translation": "5"
+                },
+                {
+                    "id": 6,
+                    "hash": "c1dfd96eea",
+                    "translation": "6"
+                },
+                {
+                    "id": 7,
+                    "hash": "902ba3cda1",
+                    "translation": "7"
+                },
+                {
+                    "id": 8,
+                    "hash": "fe5dbbcea5",
+                    "translation": "8"
+                },
+                {
+                    "id": 9,
+                    "hash": "0ade7c2cf9",
+                    "translation": "9"
+                },
+                {
+                    "id": 10,
+                    "hash": "b1d5781111",
+                    "translation": "10"
+                }
+            ]
+        },
+        {
+            "id": "circulatory_conditions",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "dc11ec3af1",
+                "translation": "[EN DESUSO]\n¿Te han diagnosticado alguno de estos problemas cardíacos o circulatorios por un médico? (Marca todas las que correspondan)"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "118d6542a8",
+                    "translation": "Fibrilación auricular"
+                },
+                {
+                    "id": 2,
+                    "hash": "8fa31ee6f1",
+                    "translation": "Condición cardíaca"
+                },
+                {
+                    "id": 3,
+                    "hash": "3bfb6b3a24",
+                    "translation": "Pericarditis crónica"
+                },
+                {
+                    "id": 4,
+                    "hash": "bb6e0f0533",
+                    "translation": "Insuficiencia cardíaca congestiva"
+                },
+                {
+                    "id": 5,
+                    "hash": "abe5246fae",
+                    "translation": "Enfermedad coronaria"
+                },
+                {
+                    "id": 6,
+                    "hash": "2247e02f77",
+                    "translation": "Hipertensión"
+                }
+            ]
+        },
+        {
+            "id": "cardiac_condition",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "eed2c2db6a",
+                "translation": "[EN DESUSO]\nCondición cardíaca"
+            }
+        },
+        {
+            "id": "circulatory_med_history",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "e3f0e70fa8",
+                "translation": "[EN DESUSO]\nAlgunas otras condiciones pueden afectar el sonido de tu voz. ¿Te han diagnosticado alguna de estas condiciones por un médico? (Marca todas las que correspondan)"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "9462d97142",
+                    "translation": "Enfermedad renal crónica"
+                },
+                {
+                    "id": 2,
+                    "hash": "7b37baebf2",
+                    "translation": "Diabetes"
+                },
+                {
+                    "id": 3,
+                    "hash": "f7f9bad7ba",
+                    "translation": "Enfermedad infecciosa"
+                },
+                {
+                    "id": 4,
+                    "hash": "94f840947f",
+                    "translation": "Obesidad"
+                },
+                {
+                    "id": 5,
+                    "hash": "1f1de5c443",
+                    "translation": "Escoliosis"
+                }
+            ]
+        },
+        {
+            "id": "infection_disease",
+            "form": "q_generic_confounders",
+            "label": {
+                "hash": "b5531fad21",
+                "translation": "[EN DESUSO]\nEnfermedad infecciosa"
+            }
+        },
+        {
+            "id": "q_generic_confounders_complete",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "ear_nose_mouth_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "4b137e77ba",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguno de los siguientes TIPOS DE CÁNCER? Por favor, marque todos los que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "ef3ff8f5ad",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "throat_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "684c0f0575",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de las siguientes condiciones que afectan su GARGANTA? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "speech_conditions",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "b5ebd21c5b",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de estas otras condiciones del HABLA?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está."
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "ear_nose_mouth_throat_speed_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "09e1d521ee",
+                "translation": "¿Alguna vez se ha sometido a alguna de las siguientes intervenciones quirúrgicas relacionadas con una condición en el OÍDO, NARIZ, BOCA, GARGANTA o HABLA?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca se ha sometido a la intervención quirúrgica, puede dejar la respuesta tal como está.\n\nIntervención quirúrgica"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "ear_nose_mouth_throat_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "b301c9eca0",
+                "translation": "¿Alguna vez ha recibido alguna de las siguientes intervenciones no quirúrgicas para una condición en el OÍDO, NARIZ, BOCA, GARGANTA o HABLA? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca se ha sometido a la intervención, puede dejar la respuesta tal como está.\n\nIntervención no quirúrgica"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "lung_conditions",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "d80149c5a9",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de las siguientes condiciones PULMONARES?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "lung_treatment",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "9f70b0bf5a",
+                "translation": "¿Alguna vez ha recibido alguna de las siguientes intervenciones para su(s) condición(es) PULMONAR(es)?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca se ha sometido a la intervención, puede dejar la respuesta tal como está.\n\nTratamiento"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "neurological_conditions",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "d70c6c9287",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de las siguientes condiciones NEUROLÓGICAS?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "neurological_treatment",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "056c3ee799",
+                "translation": "¿Alguna vez ha recibido alguna de las siguientes intervenciones para su(s) condición(es) NEUROLÓGICA(S)? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca se ha sometido a la intervención, puede dejar la respuesta tal como está.\n\nTratamiento\n"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "psychological_conditions",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "f40f59eba0",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de las siguientes condiciones PSICOLÓGICAS? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la afección, puede dejar la respuesta tal como está.\n\nAfección\n"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "psychological_treatment",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "6721ca56b6",
+                "translation": "¿Alguna vez ha recibido alguna de las siguientes intervenciones para su(s) condición(es) PSICOLÓGICA(S)? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la afección, puede dejar la respuesta tal como está.\n\nTratamiento"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "cancers_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "9f37a14d83",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguno de los siguientes TIPOS DE CÁNCER? Por favor, marque todos los que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la afección, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "cancers_treatment",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "49a1958778",
+                "translation": "¿Alguna vez ha recibido alguna de las siguientes intervenciones para su(s) CÁNCER(ES)? Por favor, marque todas las que correspondan.\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NUNCA\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca se ha sometido a la intervención, puede dejar la respuesta tal como está.\n\nTratamiento"
+            },
+            "enum": [
+                {
+                    "id": "past",
+                    "hash": "405c12fb19",
+                    "translation": "Pasado"
+                },
+                {
+                    "id": "current",
+                    "hash": "4fc0e2bc80",
+                    "translation": "Actual"
+                },
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "no_answer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_condition",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "ed366cc398",
+                "translation": "¿Alguna vez un médico le ha diagnosticado alguna de estas OTRAS condiciones de salud?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si nunca ha tenido la condición, puede dejar la respuesta tal como está.\n\nAfección"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "602c87be0d",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "medication",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "318a870749",
+                "translation": "¿Actualmente toma o usa alguno de estos medicamentos o sustancias para tratar ALGUNA condición (por ejemplo, usar antidepresivos para tratar el TDAH)?\"\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si actualmente no está tomando el medicamento, puede dejar la respuesta tal como está.\n\nMedicamento"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "pain_medications",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "7d4b5c69c4",
+                "translation": "¿Qué medicamento(s) para el dolor toma actualmente?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si actualmente no está tomando el medicamento, puede dejar la respuesta tal como está.\n\nMedicamento"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "hormones",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "fe2d4f5751",
+                "translation": "¿Qué hormona(s) toma actualmente?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si actualmente no está tomando el medicamento, puede dejar la respuesta tal como está.\n\nMedicamento"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "symptoms",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "b9c346a755",
+                "translation": "¿Está experimentando alguno de los siguientes síntomas hoy?\n\nPara ahorrar tiempo, las respuestas están preestablecidas en \"NO\". Por favor, cambie únicamente las respuestas que correspondan a su caso. Si no está experimentando el síntoma, puede dejar la respuesta tal como está.\n\nSíntoma\n"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "physcial_health_group",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "688fd5ba12",
+                "translation": "Salud General\n\nEste cuestionario pregunta sobre las dificultades debidas a condiciones de salud. Las condiciones de salud incluyen enfermedades o dolencias, otros problemas de salud que pueden ser de corta o larga duración, lesiones, problemas mentales o emocionales, y problemas con el alcohol o las drogas.\n\nPiense en los últimos 30 días y responda estas preguntas, pensando en cuánta dificultad tuvo para realizar las siguientes actividades. Para cada pregunta, por favor elija solo una respuesta.\n\nEn los últimos 30 días, ¿cuánta dificultad ha tenido en:"
+            },
+            "enum": [
+                {
+                    "id": "none",
+                    "hash": "6eef664840",
+                    "translation": "Ninguno"
+                },
+                {
+                    "id": "mild",
+                    "hash": "17538a96b8",
+                    "translation": "Leve"
+                },
+                {
+                    "id": "moderate",
+                    "hash": "ea8b09c235",
+                    "translation": "Moderada"
+                },
+                {
+                    "id": "severe",
+                    "hash": "b7c15350a7",
+                    "translation": "Severo"
+                },
+                {
+                    "id": "extreme",
+                    "hash": "48050d40dd",
+                    "translation": "Extremo o no puedo hacerlo"
+                }
+            ]
+        },
+        {
+            "id": "substance_use_options",
+            "form": "q_generic_confounders",
+            "header": {
+                "hash": "d14ce8433a",
+                "translation": "Durante las últimas DOS (2) SEMANAS, ¿con qué frecuencia usaste cualquiera de las siguientes sustancias o medicamentos por razones o en dosis diferentes a las recetadas?"
+            },
+            "enum": [
+                {
+                    "id": "none",
+                    "hash": "35b42ab803",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "oneOrTwoDays",
+                    "hash": "2bafa6c8fd",
+                    "translation": "Uno o dos días"
+                },
+                {
+                    "id": "severalDays",
+                    "hash": "0ba6cf542f",
+                    "translation": "Varios días"
+                },
+                {
+                    "id": "moreThanHalfTheDays",
+                    "hash": "3e1feecf30",
+                    "translation": "Más de la mitad de los días"
+                },
+                {
+                    "id": "nearlyEveryDay",
+                    "hash": "6b4ee3395c",
+                    "translation": "Casi todos los días"
+                }
+            ]
+        }
+    ]
+}

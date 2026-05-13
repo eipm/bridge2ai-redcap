@@ -1,7 +1,7 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 12:09:50",
+    "timestamp": "2026-05-13 15:50:10",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
@@ -36521,59 +36521,6 @@
                     "id": 2,
                     "hash": "1f5a1abf2f",
                     "translation": "Completo"
-                }
-            ]
-        },
-        {
-            "id": "diagnosis_healthy_developmentally_typical_children_ci",
-            "form": "pediatric_d_healthy_developmentallytypical_childre",
-            "header": {
-                "hash": "3ded702720",
-                "translation": ""
-            },
-            "label": {
-                "hash": "1d65546e88",
-                "translation": ""
-            },
-            "enum": [
-                {
-                    "id": "yes",
-                    "hash": "5397e0583f",
-                    "translation": "Sí"
-                },
-                {
-                    "id": "no",
-                    "hash": "816c52fd2b",
-                    "translation": "No"
-                }
-            ]
-        },
-        {
-            "id": "pediatric_d_healthy_developmentallytypical_childre_complete",
-            "form": "pediatric_d_healthy_developmentallytypical_childre",
-            "header": {
-                "hash": "c91e0b9151",
-                "translation": ""
-            },
-            "label": {
-                "hash": "fc84b4a6d8",
-                "translation": ""
-            },
-            "enum": [
-                {
-                    "id": 0,
-                    "hash": "387fd1bbc1",
-                    "translation": ""
-                },
-                {
-                    "id": 1,
-                    "hash": "eb27a190c0",
-                    "translation": ""
-                },
-                {
-                    "id": 2,
-                    "hash": "1f5a1abf2f",
-                    "translation": ""
                 }
             ]
         },

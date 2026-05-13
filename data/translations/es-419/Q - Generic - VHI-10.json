@@ -1,0 +1,262 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 15:56:57",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "vhi_session_id",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "header": {
+                "hash": "0f9cf54bba",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "vhi_started_at",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "vhi_completed_at",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "80f347b939",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "vhi_duration",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "7015f95aa9",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "vhi_origin",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "b21dd3143e",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "translation": ""
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "vhi_via",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "e052ce1266",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "translation": ""
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "vhi_language",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "1c2d109d25",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "translation": ""
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "vhi_10_calc_score",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "c0846ec19d",
+                "translation": "Puntuación del VHI-10:"
+            }
+        },
+        {
+            "id": "voice_difficult_hear",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "31e026938d",
+                "translation": "La gente me oye con dificultad debido a mi voz."
+            }
+        },
+        {
+            "id": "tough_to_understand",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "e8866ffd2d",
+                "translation": "La gente no me entiende en sitios ruidosos."
+            }
+        },
+        {
+            "id": "voice_restrict_social",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "c9c0238ade",
+                "translation": "Mis problemas con la voz alteran mi vida personal y social."
+            }
+        },
+        {
+            "id": "left_out_convo",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "b66bf5819d",
+                "translation": "Me siento desplazado de las conversaciones por mi voz."
+            }
+        },
+        {
+            "id": "voice_lose_income",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "c75fab9adb",
+                "translation": "Mi problema con la voz afecta al rendimiento laboral."
+            }
+        },
+        {
+            "id": "strain_voice",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "11d9d2d8bd",
+                "translation": "Siento que necesito tensar la garganta para producir la voz."
+            }
+        },
+        {
+            "id": "voice_clarity",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "1de28a0e9f",
+                "translation": "La calidad de mi voz es impredecible."
+            }
+        },
+        {
+            "id": "voice_upsetting",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "ee706cc65e",
+                "translation": "Mi voz me molesta."
+            }
+        },
+        {
+            "id": "voice_handicapped",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "d0d8b28382",
+                "translation": "Mi voz me hace sentir cierta minusvalía."
+            }
+        },
+        {
+            "id": "ask_whats_wrong_voice",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "label": {
+                "hash": "b454547183",
+                "translation": "La gente me pregunta: \"¿Qué te pasa con la voz?\""
+            }
+        },
+        {
+            "id": "q_generic_voice_handicap_index_vhi10_complete",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "vhi_10",
+            "form": "q_generic_voice_handicap_index_vhi10",
+            "header": {
+                "hash": "8cd80eb7ba",
+                "translation": "Voice Handicap Index abreviado (VHI-10)"
+            },
+            "enum": [
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "almostNever",
+                    "hash": "58d03fea44",
+                    "translation": "Casi nunca"
+                },
+                {
+                    "id": "sometimes",
+                    "hash": "1bc4d666c7",
+                    "translation": "A veces"
+                },
+                {
+                    "id": "almostAlways",
+                    "hash": "dd769e3148",
+                    "translation": "Casi siempre"
+                },
+                {
+                    "id": "always",
+                    "hash": "a91bcce893",
+                    "translation": "Siempre"
+                }
+            ]
+        }
+    ]
+}

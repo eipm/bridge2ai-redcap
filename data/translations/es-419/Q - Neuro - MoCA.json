@@ -1,0 +1,69 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 15:59:47",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "moca_notes",
+            "form": "q_neuro_moca",
+            "header": {
+                "hash": "e607f7b71d",
+                "translation": "Cuestionario de la prueba MoCA"
+            },
+            "label": {
+                "hash": "9a9b5506e7",
+                "translation": "<div class=\"rich-text-field-label\"> <p><span style=\"font-weight: normal;\">Pasos para descargar los resultados de la prueba MoCA desde la aplicación DUO y cargarlos aquí:</span></p> <ul> <li><span style=\"font-weight: normal;\">Exporte los resultados de la prueba MoCA en formato .pdf a su correo electrónico de Sinai desde la aplicación MoCA DUO. </span></li> <li><span style=\"font-weight: normal;\">Abra el PDF e introduzca la contraseña (la contraseña de inicio de sesión de MoCA del evaluador). </span></li> <li><span style=\"font-weight: normal;\">Elimine la contraseña del documento .pdf y guárdelo como un nuevo documento. </span></li> </ul> <p><span style=\"font-weight: normal;\">Cómo eliminar una contraseña de un archivo .pdf usando Adobe Acrobat </span></p> <p><span style=\"font-weight: normal;\">  Abra el PDF en Adobe Acrobat. </span></p> <p><span style=\"font-weight: normal;\">Vaya a \"Archivo\" &gt; \"Propiedades\" &gt; \"Seguridad\". </span></p> <p><span style=\"font-weight: normal;\">Seleccione \"Sin seguridad\" en el menú desplegable del método de seguridad (es posible que deba introducir la contraseña). </span></p> <p><span style=\"font-weight: normal;\">Guarde el documento para aplicar los cambios. </span></p> <ul> <li><span style=\"font-weight: normal;\">Cargue el PDF escaneado en el campo de Bridge2AI REDCap a continuación</span></li> </ul> </div>"
+            }
+        },
+        {
+            "id": "moca_duo_pdf",
+            "form": "q_neuro_moca",
+            "label": {
+                "hash": "6cfc681e2c",
+                "translation": "PDF de MoCA DUO"
+            }
+        },
+        {
+            "id": "moca_pdf_uploaded_by",
+            "form": "q_neuro_moca",
+            "label": {
+                "hash": "ab66665c01",
+                "translation": "PDF de MoCA DUO cargado por"
+            }
+        },
+        {
+            "id": "q_neuro_moca_complete",
+            "form": "q_neuro_moca",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ]
+}

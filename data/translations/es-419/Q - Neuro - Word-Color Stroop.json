@@ -1,0 +1,1750 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 15:57:34",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "stroop_session_id",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "0f9cf54bba",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "stroop_recording_acoustic_task_id",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "807586fa63",
+                "translation": "ID de tarea acústica"
+            }
+        },
+        {
+            "id": "stroop_started_at",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "stroop_completed_at",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "80f347b939",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "stroop_duration",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "7015f95aa9",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "stroop_origin",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "56b47effac",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "translation": ""
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "stroop_via",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "cb70cfb946",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "translation": ""
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "stroop_language",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "d73efb400e",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "translation": ""
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_1",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "14d5c9fde2",
+                "translation": "Ítem 1"
+            },
+            "label": {
+                "hash": "3a7a67ffb7",
+                "translation": "Ítem 1\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_1",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "a406a57092",
+                "translation": "Ítem 1\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_1",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "adb437f905",
+                "translation": "Ítem 1\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_1",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "b7fb34830d",
+                "translation": "Ítem 1\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_2",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "18ced5c76d",
+                "translation": "Ítem 2"
+            },
+            "label": {
+                "hash": "3f26bc750d",
+                "translation": "Ítem 2\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_2",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "6305259eda",
+                "translation": "Ítem 2\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_2",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "a16fb53581",
+                "translation": "Ítem 2\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_2",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "dd62ebbf19",
+                "translation": "Ítem 2\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_3",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "e44739c3e3",
+                "translation": "Ítem 3"
+            },
+            "label": {
+                "hash": "8ea5dcf60e",
+                "translation": "Ítem 1\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_3",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "cd129a10c7",
+                "translation": "Ítem 3\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_3",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "7847e861d3",
+                "translation": "Ítem 3\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_3",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "d818539566",
+                "translation": "Ítem 3\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_4",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "ed8246a860",
+                "translation": "Ítem 4"
+            },
+            "label": {
+                "hash": "d05d8dfe1e",
+                "translation": "Ítem 4\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_4",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "56939898ae",
+                "translation": "Ítem 4\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_4",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "a33a8bd4a5",
+                "translation": "Ítem 4\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_4",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "6ae6638292",
+                "translation": "Ítem 4\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_5",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "8ecb246101",
+                "translation": "Ítem 5"
+            },
+            "label": {
+                "hash": "af2eb3e317",
+                "translation": "Ítem 5\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_5",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "baf596fea3",
+                "translation": "Ítem 5\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_5",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "4bb7be9c5c",
+                "translation": "Ítem 5\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_5",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "62e1fee57d",
+                "translation": "Ítem 5\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_6",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "907b665b2a",
+                "translation": "Ítem 6"
+            },
+            "label": {
+                "hash": "998e2834aa",
+                "translation": "Ítem 6\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_6",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "7c24e01e84",
+                "translation": "Ítem 6\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_6",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "fcd799002b",
+                "translation": "Ítem 6\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_6",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "6f0b26a942",
+                "translation": "Ítem 6\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_7",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "0ff53265e3",
+                "translation": "Ítem 7"
+            },
+            "label": {
+                "hash": "82d8cd4e10",
+                "translation": "Ítem 7\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_7",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "f3e5d7093e",
+                "translation": "Ítem 7\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_7",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "dcad59f786",
+                "translation": "Ítem 7\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_7",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "8430522f5c",
+                "translation": "Ítem 7\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_8",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "6af6efe52e",
+                "translation": "Ítem 8"
+            },
+            "label": {
+                "hash": "9b7add77e2",
+                "translation": "Ítem 8\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_8",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "500f20f83a",
+                "translation": "Ítem 8\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_8",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "4c4a7f8848",
+                "translation": "Ítem 8\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_8",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "bc39123059",
+                "translation": "Ítem 8\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_9",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "5ae4e143a4",
+                "translation": "Ítem 9"
+            },
+            "label": {
+                "hash": "511dc3cac8",
+                "translation": "Ítem 9\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_9",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "c241d5a4e0",
+                "translation": "Ítem 9\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_9",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "48c1b35946",
+                "translation": "Ítem 9\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_9",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "1a60717650",
+                "translation": "Ítem 9\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_10",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "932c4cead0",
+                "translation": "Ítem 10"
+            },
+            "label": {
+                "hash": "c8355c83cf",
+                "translation": "Ítem 10\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_10",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "c7351ce9c8",
+                "translation": "Ítem 10\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_10",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "63af4cc92c",
+                "translation": "Ítem 10\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_10",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "826930fdba",
+                "translation": "Ítem 10\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_11",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "25ccaa6e99",
+                "translation": "Ítem 11"
+            },
+            "label": {
+                "hash": "fe7fe5cfdb",
+                "translation": "Ítem 11\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_11",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "65abb9d151",
+                "translation": "Ítem 11\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_11",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "732392413a",
+                "translation": "Ítem 11\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_11",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "ebb02efd7f",
+                "translation": "Ítem 11\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_12",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "bd4ac161c7",
+                "translation": "Ítem 12"
+            },
+            "label": {
+                "hash": "3a122c7d7d",
+                "translation": "Ítem 12\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_12",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "3e08b0ae4f",
+                "translation": "Ítem 12\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_12",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "ac9d4caa39",
+                "translation": "Ítem 12\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_12",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "01352277ad",
+                "translation": "Ítem 12\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_13",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "80ef8ba2ce",
+                "translation": "Ítem 13"
+            },
+            "label": {
+                "hash": "457028ea67",
+                "translation": "Ítem 13\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_13",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "55b2983270",
+                "translation": "Ítem 13\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_13",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "7703b632d0",
+                "translation": "Ítem 13\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_13",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "f59553ce94",
+                "translation": "Ítem 13\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_14",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "ff3b457f61",
+                "translation": "Ítem 14"
+            },
+            "label": {
+                "hash": "d1b27d8d60",
+                "translation": "Ítem 14\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_14",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "5a888bea4b",
+                "translation": "Ítem 14\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_14",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "aee5022cb6",
+                "translation": "Ítem 14\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_14",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "bed440a998",
+                "translation": "Ítem 14\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_stimulus_15",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "8f6e3925e9",
+                "translation": "Ítem 15"
+            },
+            "label": {
+                "hash": "43189a1857",
+                "translation": "Ítem 15\nEstímulo"
+            },
+            "enum": [
+                {
+                    "id": "oooo",
+                    "hash": "d13150fd10",
+                    "translation": "oooo"
+                },
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_color_15",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "4845102af9",
+                "translation": "Ítem 15\nColor"
+            },
+            "enum": [
+                {
+                    "id": "red",
+                    "hash": "78988010b8",
+                    "translation": "rojo"
+                },
+                {
+                    "id": "green",
+                    "hash": "bc74f4f071",
+                    "translation": "verde"
+                },
+                {
+                    "id": "blue",
+                    "hash": "4c9a82ce72",
+                    "translation": "azul"
+                },
+                {
+                    "id": "purple",
+                    "hash": "afaed75406",
+                    "translation": "púrpura"
+                },
+                {
+                    "id": "brown",
+                    "hash": "9166eeff1e",
+                    "translation": "marrón"
+                }
+            ]
+        },
+        {
+            "id": "stroop_item_time_15",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "079bfac384",
+                "translation": "Ítem 15\nHora de inicio"
+            }
+        },
+        {
+            "id": "stroop_item_correct_15",
+            "form": "q_neuro_wordcolor_stroop",
+            "label": {
+                "hash": "6671002213",
+                "translation": "Ítem 15\n¿Correcto?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        },
+        {
+            "id": "q_neuro_wordcolor_stroop_complete",
+            "form": "q_neuro_wordcolor_stroop",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ]
+}

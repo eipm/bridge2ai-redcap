@@ -3719,7 +3719,6 @@ moca_notes,q_neuro_moca,"MoCA Test Questionnaire",descriptive,"<div class=""rich
 moca_duo_pdf,q_neuro_moca,,file,"MoCA DUO PDF",,,,,,y,,y,,,,,
 moca_pdf_uploaded_by,q_neuro_moca,,text,"MoCA DUO PDF Uploaded By",,,,,,y,,y,,,,," @USERNAME
 @READONLY"
-diagnosis_healthy_developmentally_typical_children_ci,pediatric_d_healthy_developmentallytypical_childre,"1. Clinical Information",radio,"Can you confirm that based on the current clinical status this child is healthy and developmentally-typical at this time? (e.g., could this code (ICD 10 Z00. 129) be applied for a visit at this time)","yes, Yes | no, No",,,,,,,y,,,,,
 peds_demographics_session_id,pediatric_q_generic_demographics,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 peds_demographics_started_at,pediatric_q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 peds_demographics_completed_at,pediatric_q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"

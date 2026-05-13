@@ -1,0 +1,318 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 15:57:21",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "adhd_session_id",
+            "form": "q_mood_adhd_adult",
+            "header": {
+                "hash": "0f9cf54bba",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "adhd_started_at",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "adhd_completed_at",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "80f347b939",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "adhd_duration",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "7015f95aa9",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "adhd_origin",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "7275c595c9",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "translation": ""
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "adhd_via",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "b3e7fc083c",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "translation": ""
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "adhd_language",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "6a3b9c3dba",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "translation": ""
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "wrapping_up",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "98793c494e",
+                "translation": "¿Con qué frecuencia le cuesta concluir los detalles finales de un proyecto una vez que ya ha terminado las partes que constituyen un reto?"
+            }
+        },
+        {
+            "id": "things_in_order",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "d99e828475",
+                "translation": "¿Con qué frecuencia le cuesta poner las cosas en orden cuando tiene que realizar una tarea que exige organización?"
+            }
+        },
+        {
+            "id": "remembering_appt",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "cc232356a8",
+                "translation": "¿Con qué frecuencia tiene problemas para recordar citas u obligaciones?"
+            }
+        },
+        {
+            "id": "avoidance",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "0c7e8ebe74",
+                "translation": "Cuando tiene que realizar una tarea que exige pensar mucho, ¿con qué frecuencia evita o aplaza su comienzo?"
+            }
+        },
+        {
+            "id": "fidget",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "700132cebd",
+                "translation": "¿Con qué frecuencia juguetea con o retuerce las manos o los pies cuando tiene que estar sentado por mucho tiempo?"
+            }
+        },
+        {
+            "id": "overly_active",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "94d2db9f5c",
+                "translation": "¿Con qué frecuencia se siente excesivamente activo y empujado a hacer cosas, como si lo impulsara un motor?"
+            }
+        },
+        {
+            "id": "careless",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "a60322ca63",
+                "translation": "¿Con qué frecuencia comete errores por descuido cuando tiene que trabajar en un proyecto aburrido o difícil?"
+            }
+        },
+        {
+            "id": "difficulty_attention",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "8aaacfe90f",
+                "translation": "¿Con qué frecuencia le cuesta mantener la atención cuando está realizando un trabajo aburrido o repetitivo?"
+            }
+        },
+        {
+            "id": "difficulty_concentrating",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "0927ff50aa",
+                "translation": "¿Con qué frecuencia le cuesta concentrarse en lo que otras personas le están diciendo, incluso cuando le hablan directamente?"
+            }
+        },
+        {
+            "id": "misplace",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "c50c12ac1c",
+                "translation": "¿Con qué frecuencia extravía o le cuesta encontrar cosas en la casa o el trabajo?"
+            }
+        },
+        {
+            "id": "distracted",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "d2fcb3fcf9",
+                "translation": "¿Con qué frecuencia se distrae con actividades o ruidos que se producen alrededor suyo?"
+            }
+        },
+        {
+            "id": "remain_seated",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "8e61357a95",
+                "translation": "¿Con qué frecuencia se levanta de su asiento en reuniones u otras situaciones en las que se espera que se mantenga sentado?"
+            }
+        },
+        {
+            "id": "restless",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "7591ccfebb",
+                "translation": "¿Con qué frecuencia se siente inquieto o agitado?"
+            }
+        },
+        {
+            "id": "difficulty_unwinding",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "e1a6628dab",
+                "translation": "¿Con qué frecuencia le cuesta relajarse cuando tiene tiempo para usted?"
+            }
+        },
+        {
+            "id": "talking_too_much",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "222e83f8f3",
+                "translation": "¿Con qué frecuencia se da cuenta de que está hablando demasiado en situaciones sociales?"
+            }
+        },
+        {
+            "id": "finish_other_sent",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "ec2ecfe215",
+                "translation": "Cuando está teniendo una conversación, ¿con qué frecuencia se da cuenta de que termina las oraciones de las personas con quienes está hablando antes de que las puedan terminar ellas mismas?"
+            }
+        },
+        {
+            "id": "difficulty_waiting",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "15536bf1d3",
+                "translation": "¿Con qué frecuencia le cuesta esperar su turno en situaciones en las que hay que esperar el turno?"
+            }
+        },
+        {
+            "id": "interrupt_others",
+            "form": "q_mood_adhd_adult",
+            "label": {
+                "hash": "259d98c94a",
+                "translation": "¿Con qué frecuencia interrumpe a otras personas cuando están ocupadas?"
+            }
+        },
+        {
+            "id": "q_mood_adhd_adult_complete",
+            "form": "q_mood_adhd_adult",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "adhd_adult",
+            "form": "q_mood_adhd_adult",
+            "header": {
+                "hash": "6949f729b6",
+                "translation": "Por favor, responda a las preguntas a continuación, evaluándose a sí mismo en cada uno de los criterios mostrados utilizando la escala en el lado derecho de la página. A medida que responda cada pregunta, seleccione el botón que mejor describa cómo se ha sentido y comportado en los últimos 6 meses."
+            },
+            "enum": [
+                {
+                    "id": "never",
+                    "hash": "80c3052d33",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": "rarely",
+                    "hash": "01d2aefd7f",
+                    "translation": "Casi nunca"
+                },
+                {
+                    "id": "sometimes",
+                    "hash": "1bc4d666c7",
+                    "translation": "A veces"
+                },
+                {
+                    "id": "often",
+                    "hash": "bb5857ac04",
+                    "translation": "A menudo"
+                },
+                {
+                    "id": "veryOften",
+                    "hash": "6c0389ed1a",
+                    "translation": "Con mucha frecuencia"
+                }
+            ]
+        }
+    ]
+}

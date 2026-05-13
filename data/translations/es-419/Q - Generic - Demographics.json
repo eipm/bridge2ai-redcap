@@ -1,0 +1,1772 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-05-13 12:59:07",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "demographics_session_id",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "0f9cf54bba",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "demographics_started_at",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "demographics_completed_at",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "80f347b939",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "demographics_duration",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "7015f95aa9",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "demographics_origin",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "9fae81dbbd",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "translation": ""
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "demographics_via",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "1dd2649bae",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "translation": ""
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "demographics_language",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "8a11cb926b",
+                "translation": ""
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "translation": ""
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "id": "zipcode",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "477f95dfb8",
+                "translation": "Información de dirección"
+            },
+            "label": {
+                "hash": "eeb1bf47a6",
+                "translation": "Código postal"
+            },
+            "note": {
+                "hash": "8c5d29701f",
+                "translation": "5 dígitos para EE. UU. y 3 dígitos para Canadá"
+            }
+        },
+        {
+            "id": "country",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "d523ebbd10",
+                "translation": "País"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "18bc5956db",
+                    "translation": "EE.UU"
+                },
+                {
+                    "id": 2,
+                    "hash": "cd6a7b8768",
+                    "translation": "Canadá"
+                }
+            ]
+        },
+        {
+            "id": "gender_identity",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "75158bce3e",
+                "translation": "Datos demográficos del paciente"
+            },
+            "label": {
+                "hash": "db54a66314",
+                "translation": "¿Cuál es su identidad de género?"
+            },
+            "enum": [
+                {
+                    "id": "female",
+                    "hash": "a054ba230a",
+                    "translation": "Identidad de género femenina"
+                },
+                {
+                    "id": "male",
+                    "hash": "a77932bafc",
+                    "translation": "Identidad de género masculina"
+                },
+                {
+                    "id": "nonBinary",
+                    "hash": "4c40408db0",
+                    "translation": "Identidad de género no binaria o de género fluido"
+                },
+                {
+                    "id": "other",
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_gender_identity",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "3a9253da2f",
+                "translation": "Si seleccionó \"otro\" para identidad de género, por favor especifique:"
+            }
+        },
+        {
+            "id": "specify_gender_identity",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "50d2017ba2",
+                "translation": "Por favor especifique la identidad de género"
+            },
+            "enum": [
+                {
+                    "id": "cis",
+                    "hash": "4762e584d2",
+                    "translation": "Cisgénero: mismo género que el sexo asignado al nacer"
+                },
+                {
+                    "id": "trans",
+                    "hash": "da60f131b2",
+                    "translation": "Transgénero"
+                }
+            ]
+        },
+        {
+            "id": "sex_assigned_at_birth",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "d61b0e3440",
+                "translation": "¿Cuál fue su sexo asignado al nacer?"
+            },
+            "enum": [
+                {
+                    "id": "female",
+                    "hash": "b7c17e97d3",
+                    "translation": "Femenino"
+                },
+                {
+                    "id": "male",
+                    "hash": "3f3a489c72",
+                    "translation": "Masculino"
+                },
+                {
+                    "id": "intersex",
+                    "hash": "096d6a9144",
+                    "translation": "Intersexual"
+                },
+                {
+                    "id": "unknown",
+                    "hash": "bc7819b34f",
+                    "translation": "Desconocido"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "sexual_orientation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "adaf6db518",
+                "translation": "¿Cuál es su orientación sexual?"
+            },
+            "enum": [
+                {
+                    "id": "bisexual",
+                    "hash": "1c64d672de",
+                    "translation": "Bisexual"
+                },
+                {
+                    "id": "heterosexual",
+                    "hash": "9b36b7077e",
+                    "translation": "Heterosexual"
+                },
+                {
+                    "id": "homosexual",
+                    "hash": "a0dc54c8a9",
+                    "translation": "Heterosexual"
+                },
+                {
+                    "id": "other",
+                    "hash": "cf0f46fcc7",
+                    "translation": "Otro (por favor especifique)"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_sex_orientation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "61b70abd23",
+                "translation": "Si seleccionó \"otro\" para orientación sexual, por favor especifique:"
+            }
+        },
+        {
+            "id": "race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "6822dd13cd",
+                "translation": "¿Qué categoría racial lo describe mejor? Elija todas las que correspondan"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "7efb949c21",
+                    "translation": "Indio americano o nativo de Alaska"
+                },
+                {
+                    "id": 2,
+                    "hash": "652670c84e",
+                    "translation": "Asiático"
+                },
+                {
+                    "id": 3,
+                    "hash": "3627dd5a7a",
+                    "translation": "Negro o afroamericano"
+                },
+                {
+                    "id": 4,
+                    "hash": "279ed6c68c",
+                    "translation": "Nativo hawaiano u otro isleño del Pacífico"
+                },
+                {
+                    "id": 5,
+                    "hash": "37619fc130",
+                    "translation": "Blanco"
+                },
+                {
+                    "id": 6,
+                    "hash": "60011a0db3",
+                    "translation": "Indígena o aborigen canadiense"
+                },
+                {
+                    "id": 7,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": 8,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "native_american_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "7efb949c21",
+                "translation": "Indio americano o nativo de Alaska"
+            },
+            "enum": [
+                {
+                    "id": "1004_1",
+                    "hash": "03edd6cf88",
+                    "translation": "Indio americano"
+                },
+                {
+                    "id": "1735_0",
+                    "hash": "9c262c964d",
+                    "translation": "Nativo de Alaska"
+                }
+            ]
+        },
+        {
+            "id": "asian_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "652670c84e",
+                "translation": "Asiático"
+            },
+            "enum": [
+                {
+                    "id": "2029_7",
+                    "hash": "7b03712df4",
+                    "translation": "Indio asiático"
+                },
+                {
+                    "id": "2030_5",
+                    "hash": "bed7f65ae7",
+                    "translation": "Bangladesí"
+                },
+                {
+                    "id": "2031_3",
+                    "hash": "2b41e136f4",
+                    "translation": "Butanés"
+                },
+                {
+                    "id": "2032_1",
+                    "hash": "460ce8e9a0",
+                    "translation": "Birmano"
+                },
+                {
+                    "id": "2033_9",
+                    "hash": "25630404c2",
+                    "translation": "Camboyano"
+                },
+                {
+                    "id": "2034_7",
+                    "hash": "15dc188655",
+                    "translation": "Chino"
+                },
+                {
+                    "id": "2035_4",
+                    "hash": "97f3aedf9d",
+                    "translation": "Taiwanés"
+                },
+                {
+                    "id": "2036_2",
+                    "hash": "cd9a555435",
+                    "translation": "Filipino"
+                },
+                {
+                    "id": "2037_0",
+                    "hash": "932d7759c8",
+                    "translation": "Hmong"
+                },
+                {
+                    "id": "2038_8",
+                    "hash": "2339b8ad36",
+                    "translation": "Indonesio"
+                },
+                {
+                    "id": "2039_6",
+                    "hash": "9239c22d1d",
+                    "translation": "Japonés"
+                },
+                {
+                    "id": "2040_4",
+                    "hash": "dec66c5bf0",
+                    "translation": "Coreano"
+                },
+                {
+                    "id": "2041_2",
+                    "hash": "3f38e5fa12",
+                    "translation": "Laosiano"
+                },
+                {
+                    "id": "2042_0",
+                    "hash": "20e9bb2ed5",
+                    "translation": "Malayo"
+                },
+                {
+                    "id": "2043_8",
+                    "hash": "77ff4895ad",
+                    "translation": "Okinawense"
+                },
+                {
+                    "id": "2044_6",
+                    "hash": "778cb98d8a",
+                    "translation": "Pakistaní"
+                },
+                {
+                    "id": "2045_3",
+                    "hash": "34e10920a1",
+                    "translation": "Sri lankés"
+                },
+                {
+                    "id": "2046_1",
+                    "hash": "c32767e054",
+                    "translation": "Tailandés"
+                },
+                {
+                    "id": "2047_9",
+                    "hash": "1d6b8a691f",
+                    "translation": "Vietnamita"
+                },
+                {
+                    "id": "2048_7",
+                    "hash": "84bb936f23",
+                    "translation": "Iwo Jiman"
+                },
+                {
+                    "id": "2049_5",
+                    "hash": "864e7bdefc",
+                    "translation": "Maldivo"
+                },
+                {
+                    "id": "2050_3",
+                    "hash": "48f1a3dec8",
+                    "translation": "Nepalí"
+                },
+                {
+                    "id": "2051_1",
+                    "hash": "be4c3704d9",
+                    "translation": "Singapuriano"
+                },
+                {
+                    "id": "2052_9",
+                    "hash": "f92bcb6a06",
+                    "translation": "Malgache"
+                }
+            ]
+        },
+        {
+            "id": "black_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "3627dd5a7a",
+                "translation": "Negro o afroamericano"
+            },
+            "enum": [
+                {
+                    "id": "2056_0",
+                    "hash": "b406fb57b2",
+                    "translation": "Negro"
+                },
+                {
+                    "id": "2058_6",
+                    "hash": "a3d7a69b76",
+                    "translation": "Afroamericano"
+                },
+                {
+                    "id": "2060_2",
+                    "hash": "06722036c6",
+                    "translation": "Africano"
+                },
+                {
+                    "id": "2067_7",
+                    "hash": "c0f04e845f",
+                    "translation": "Bahameño"
+                },
+                {
+                    "id": "2068_5",
+                    "hash": "4ac349a359",
+                    "translation": "Barbadense"
+                },
+                {
+                    "id": "2069_3",
+                    "hash": "6879492c51",
+                    "translation": "Dominicano"
+                },
+                {
+                    "id": "2070_1",
+                    "hash": "7932f9e876",
+                    "translation": "Isleño de Dominica"
+                },
+                {
+                    "id": "2071_9",
+                    "hash": "ad0d4c9632",
+                    "translation": "Haitiano"
+                },
+                {
+                    "id": "2072_7",
+                    "hash": "2d2471a733",
+                    "translation": "Jamaicano"
+                },
+                {
+                    "id": "2073_5",
+                    "hash": "16ef1da664",
+                    "translation": "Tobagoano"
+                },
+                {
+                    "id": "2074_3",
+                    "hash": "b5829ef928",
+                    "translation": "Trinitense"
+                },
+                {
+                    "id": "2075_0",
+                    "hash": "e4d994eb1b",
+                    "translation": "Indio Occidental"
+                }
+            ]
+        },
+        {
+            "id": "pacific_islander_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "279ed6c68c",
+                "translation": "Nativo hawaiano u otro isleño del Pacífico"
+            },
+            "enum": [
+                {
+                    "id": "2078_4",
+                    "hash": "0842fa7221",
+                    "translation": "Polinesio"
+                },
+                {
+                    "id": "2085_9",
+                    "hash": "daa6d6afb4",
+                    "translation": "Micronesio"
+                },
+                {
+                    "id": "2100_6",
+                    "hash": "d22f6696c5",
+                    "translation": "Melanesio"
+                },
+                {
+                    "id": "2500_7",
+                    "hash": "97027c0900",
+                    "translation": "Otro Isleño del Pacífico"
+                }
+            ]
+        },
+        {
+            "id": "white_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "37619fc130",
+                "translation": "Blanco"
+            },
+            "enum": [
+                {
+                    "id": "2108_9",
+                    "hash": "ea722c81af",
+                    "translation": "Europeo"
+                },
+                {
+                    "id": "2118_8",
+                    "hash": "54fb349633",
+                    "translation": "Medio Oriente o Norte de África"
+                },
+                {
+                    "id": "2129_5",
+                    "hash": "b6d1baf238",
+                    "translation": "Árabe"
+                }
+            ]
+        },
+        {
+            "id": "canadian_race",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "60011a0db3",
+                "translation": "Indígena o aborigen canadiense"
+            },
+            "enum": [
+                {
+                    "id": "ca_first_nation",
+                    "hash": "6f1116e1bc",
+                    "translation": "Primera Nación"
+                },
+                {
+                    "id": "ca_inuit",
+                    "hash": "d093098303",
+                    "translation": "Inuk/inuit"
+                },
+                {
+                    "id": "ca_metis",
+                    "hash": "23812d15ed",
+                    "translation": "Métis"
+                }
+            ]
+        },
+        {
+            "id": "other_race_specify",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "9bd11fc71d",
+                "translation": "Si su raza no aparece en la lista anterior, por favor especifique:"
+            }
+        },
+        {
+            "id": "ethnicity",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "5b9da34502",
+                "translation": "¿Cuál es su origen étnico o cultural?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "8cccb60700",
+                    "translation": "Hispano o latino"
+                },
+                {
+                    "id": "no",
+                    "hash": "1558f7d8c9",
+                    "translation": "No Hispano o Latino"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "hispanic_latino_selection",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "8a3229afe0",
+                "translation": "Seleccione todas las opciones que correspondan\n\nNOTA: Una vez que las opciones completadas se asignen a las nuevas opciones, las siguientes opciones quedarán obsoletas [En desuso en el Protocolo v4]:\n2, Mexicano\n5, Latinoamericano\n6, Puertorriqueño\n7, Cubano\n8, Dominicano"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "0fff57b134",
+                    "translation": "Español"
+                },
+                {
+                    "id": 2,
+                    "hash": "a6fa784420",
+                    "translation": "Mexicano"
+                },
+                {
+                    "id": 3,
+                    "hash": "40aea63a73",
+                    "translation": "Centroamericano"
+                },
+                {
+                    "id": 4,
+                    "hash": "fd2c09eb9d",
+                    "translation": "Sudamericano"
+                },
+                {
+                    "id": 5,
+                    "hash": "b5f298a79d",
+                    "translation": "Latinoamericano"
+                },
+                {
+                    "id": 6,
+                    "hash": "3a34930888",
+                    "translation": "Puertorriqueño"
+                },
+                {
+                    "id": 7,
+                    "hash": "a3982f479c",
+                    "translation": "Cubano"
+                },
+                {
+                    "id": 8,
+                    "hash": "6879492c51",
+                    "translation": "Dominicano"
+                },
+                {
+                    "id": 9,
+                    "hash": "4a2e3865ac",
+                    "translation": "Caribeño"
+                }
+            ]
+        },
+        {
+            "id": "edu_level",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "aaf87fe57a",
+                "translation": "Educación"
+            },
+            "label": {
+                "hash": "d29e4ffc59",
+                "translation": "¿Cuál es su nivel más alto de educación?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "765c413839",
+                    "translation": "Sin educación formal"
+                },
+                {
+                    "id": 2,
+                    "hash": "c24d41d0b8",
+                    "translation": "Alguna escuela primaria"
+                },
+                {
+                    "id": 3,
+                    "hash": "4ff09c6abe",
+                    "translation": "Alguna educación secundaria o de preparatoria"
+                },
+                {
+                    "id": 4,
+                    "hash": "6a7e671df4",
+                    "translation": "Título de escuela secundaria o secundaria completa"
+                },
+                {
+                    "id": 5,
+                    "hash": "b192ef2c44",
+                    "translation": "Alguna educación universitaria"
+                },
+                {
+                    "id": 6,
+                    "hash": "cc9944122b",
+                    "translation": "Título de asociado o técnico completo"
+                },
+                {
+                    "id": 7,
+                    "hash": "dcaff67fd6",
+                    "translation": "Título universitario o bachillerato completo"
+                },
+                {
+                    "id": 8,
+                    "hash": "b0a9780550",
+                    "translation": "Alguna educación post-bachillerato"
+                },
+                {
+                    "id": 9,
+                    "hash": "49f527fe41",
+                    "translation": "Título de posgrado o profesional completo"
+                },
+                {
+                    "id": 10,
+                    "hash": "3ef6ddf46b",
+                    "translation": "Educación doctoral o de posgrado"
+                },
+                {
+                    "id": 11,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": 12,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "other_edu_level",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "64bbaeb00a",
+                "translation": "Si seleccionó \"otro\" nivel de educación, por favor especifique:"
+            }
+        },
+        {
+            "id": "employ_status",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "9845e4c7cb",
+                "translation": "Situación laboral"
+            },
+            "label": {
+                "hash": "a74da5d542",
+                "translation": "¿Cuál es su estado laboral? Elija todas las opciones que correspondan."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "787ba23709",
+                    "translation": "Empleado, trabajador independiente "
+                },
+                {
+                    "id": 2,
+                    "hash": "33a0661cf7",
+                    "translation": "Empleado, tiempo completo"
+                },
+                {
+                    "id": 3,
+                    "hash": "70f01bd4a2",
+                    "translation": "Empleado, tiempo parcial"
+                },
+                {
+                    "id": 4,
+                    "hash": "d82f84389b",
+                    "translation": "Empleado, múltiples trabajos a tiempo parcial."
+                },
+                {
+                    "id": 5,
+                    "hash": "42b3279479",
+                    "translation": "Estudiante"
+                },
+                {
+                    "id": 6,
+                    "hash": "d2ebbdfbec",
+                    "translation": "Trabajador por cuenta propia"
+                },
+                {
+                    "id": 7,
+                    "hash": "37d1213e53",
+                    "translation": "Jubilado"
+                },
+                {
+                    "id": 8,
+                    "hash": "c8c80d7363",
+                    "translation": "Desempleado"
+                },
+                {
+                    "id": 9,
+                    "hash": "6e6a6f2086",
+                    "translation": "Otro"
+                },
+                {
+                    "id": 10,
+                    "hash": "7a088521c6",
+                    "translation": "Padre/madre o tutor(a) que se queda en casa"
+                },
+                {
+                    "id": 11,
+                    "hash": "aefdc316e7",
+                    "translation": "Cuidador"
+                },
+                {
+                    "id": 12,
+                    "hash": "f4f4473df8",
+                    "translation": "Persona con discapacidad"
+                },
+                {
+                    "id": 13,
+                    "hash": "de57e25b61",
+                    "translation": "En búsqueda de empleo"
+                }
+            ]
+        },
+        {
+            "id": "other_employ_specify",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "432f0d4b1e",
+                "translation": "Si seleccionó \"otro\" como estado de empleo, por favor especifique."
+            }
+        },
+        {
+            "id": "hearing",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "ba0cd0f764",
+                "translation": "¿Es usted sordo o tiene dificultades graves para oír?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "vision",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "af3ad211b1",
+                "translation": "¿Es usted ciego o tiene dificultades graves para ver, incluso cuando usa gafas?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "cognition",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "46151a7cf9",
+                "translation": "Debido a una condición física, mental o emocional, ¿tiene dificultades graves para concentrarse, recordar o tomar decisiones?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "mobility",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "e3800e6bf7",
+                "translation": "¿Tiene dificultades graves para caminar o subir escaleras?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "self_care",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "37c12802b1",
+                "translation": "¿Tiene dificultades para vestirse o bañarse?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "independent_living",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "7ae5d97331",
+                "translation": "Debido a una condición física, mental o emocional, ¿tiene dificultades para hacer mandados solo, como visitar el consultorio de un médico o ir de compras?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "colorblind",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "27ee8fad1e",
+                "translation": "¿Eres daltónico?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                }
+            ]
+        },
+        {
+            "id": "tone_deaf",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "71c43b4f70",
+                "translation": "¿Eres sordo/a al tono?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "notCertain",
+                    "hash": "999a1631f3",
+                    "translation": "No estoy seguro"
+                }
+            ]
+        },
+        {
+            "id": "occupation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "6aabb7ab3b",
+                "translation": "¿Cuál considera que ha sido o es su ocupación principal?"
+            }
+        },
+        {
+            "id": "veteran",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "b67ff74023",
+                "translation": "¿Es usted un veterano?"
+            }
+        },
+        {
+            "id": "household_income_usa",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "fe7b5750c8",
+                "translation": "Datos demográficos - Opcionales"
+            },
+            "label": {
+                "hash": "0776cc6887",
+                "translation": "¿Cuál fue el ingreso total de su hogar el año pasado (USD)? Incluya todas las fuentes de ingresos, incluyendo pensiones, dividendos, pensión alimenticia, manutención de hijos, etc."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "19712bed62",
+                    "translation": "< $15,000"
+                },
+                {
+                    "id": 2,
+                    "hash": "9130e012e7",
+                    "translation": "$15,000 a $29,999"
+                },
+                {
+                    "id": 3,
+                    "hash": "28f136036c",
+                    "translation": "$30,000 a $49,999"
+                },
+                {
+                    "id": 4,
+                    "hash": "ac53735e70",
+                    "translation": "$50,000 a $99,999"
+                },
+                {
+                    "id": 5,
+                    "hash": "06ac29bc96",
+                    "translation": "$100,000 a $149,999"
+                },
+                {
+                    "id": 6,
+                    "hash": "45735ea243",
+                    "translation": "$150,000 a $199,999"
+                },
+                {
+                    "id": 7,
+                    "hash": "5afe86aaec",
+                    "translation": "$200,000 a $249,999"
+                },
+                {
+                    "id": 8,
+                    "hash": "53e869eeaf",
+                    "translation": ">$250,000"
+                },
+                {
+                    "id": 9,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "financial_assistance_usa",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "0f8aa81c25",
+                "translation": "¿Recibe usted una porción significativa (>20%) de sus ingresos a través de alguno de los siguientes programas de asistencia por ingresos financiados por el gobierno federal: SNAP, WIC o Seguro Social?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "household_income_ca",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "04cdf38760",
+                "translation": "¿Cuál fue el ingreso total de su hogar el año pasado (CAD)? Incluya todas las fuentes de ingresos, incluyendo pensiones, dividendos, pensión alimenticia, manutención de hijos, etc."
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "19712bed62",
+                    "translation": "< $15,000"
+                },
+                {
+                    "id": 2,
+                    "hash": "9130e012e7",
+                    "translation": "$15,000 a $29,999"
+                },
+                {
+                    "id": 3,
+                    "hash": "28f136036c",
+                    "translation": "$30,000 a $49,999"
+                },
+                {
+                    "id": 4,
+                    "hash": "ac53735e70",
+                    "translation": "$50,000 a $99,999"
+                },
+                {
+                    "id": 5,
+                    "hash": "06ac29bc96",
+                    "translation": "$100,000 a $149,999"
+                },
+                {
+                    "id": 6,
+                    "hash": "45735ea243",
+                    "translation": "$150,000 a $199,999"
+                },
+                {
+                    "id": 7,
+                    "hash": "5afe86aaec",
+                    "translation": "$200,000 a $249,999"
+                },
+                {
+                    "id": 8,
+                    "hash": "53e869eeaf",
+                    "translation": ">$250,000"
+                },
+                {
+                    "id": 9,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "financial_assistance_ca",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "099d78a2b7",
+                "translation": "¿Recibe usted una porción significativa (>20%) de sus ingresos a través de alguno de los siguientes programas de asistencia por ingresos financiados por el gobierno federal: Pensión por Discapacidad de Veterano, Beneficios por Enfermedad del Seguro de Empleo o Beneficios por Discapacidad del Plan de Pensiones de Canadá?"
+            },
+            "enum": [
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "marital_status",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "110e011e70",
+                "translation": "¿Cuál es su estado civil? Seleccione todos los que correspondan"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "dd1186892a",
+                    "translation": "Soltero/a"
+                },
+                {
+                    "id": 2,
+                    "hash": "c75a2b42a0",
+                    "translation": "Casado/a"
+                },
+                {
+                    "id": 3,
+                    "hash": "0c56780d1a",
+                    "translation": "En una relación"
+                },
+                {
+                    "id": 4,
+                    "hash": "9fb8cdb13f",
+                    "translation": "No casado/a"
+                },
+                {
+                    "id": 5,
+                    "hash": "823037d3e5",
+                    "translation": "Separado/a"
+                },
+                {
+                    "id": 6,
+                    "hash": "8e4a4cae19",
+                    "translation": "Divorciado/a"
+                },
+                {
+                    "id": 7,
+                    "hash": "b26fb14058",
+                    "translation": "Viudo/a"
+                }
+            ]
+        },
+        {
+            "id": "housing_status",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "37233464b4",
+                "translation": "¿Cuál es su situación de vivienda actual?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "ed430c059f",
+                    "translation": "Vivienda asistida"
+                },
+                {
+                    "id": 3,
+                    "hash": "e6013537cf",
+                    "translation": "Propia casa"
+                },
+                {
+                    "id": 4,
+                    "hash": "b7dc64ba27",
+                    "translation": "Casa alquilada"
+                },
+                {
+                    "id": 5,
+                    "hash": "1269d79840",
+                    "translation": "Centro de enfermería especializada/hogar de ancianos"
+                },
+                {
+                    "id": 6,
+                    "hash": "f041ddc6e8",
+                    "translation": "Sin hogar temporalmente"
+                },
+                {
+                    "id": 7,
+                    "hash": "3221dbc1b4",
+                    "translation": "Sin hogar permanentemente"
+                },
+                {
+                    "id": 8,
+                    "hash": "da1135aacb",
+                    "translation": "Centro de atención a largo plazo"
+                },
+                {
+                    "id": 9,
+                    "hash": "e7eaec5788",
+                    "translation": "Comunidad de jubilados"
+                },
+                {
+                    "id": 10,
+                    "hash": "e82f0a7b74",
+                    "translation": "Vivo con familia"
+                }
+            ]
+        },
+        {
+            "id": "live_by_yourself",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "0370d62c78",
+                "translation": "¿Vive usted solo?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "household_count",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "62a9fa5068",
+                "translation": "¿Cuántas personas viven con usted?"
+            }
+        },
+        {
+            "id": "spouse_partner_sig_other",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "737b33a2f0",
+                "translation": "Cónyuge/pareja"
+            }
+        },
+        {
+            "id": "children",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "c56e0553c5",
+                "translation": "Uno o más hijos"
+            }
+        },
+        {
+            "id": "parent",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "cdffa9e5be",
+                "translation": "Uno o más padres"
+            }
+        },
+        {
+            "id": "grandparent",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "70327155b9",
+                "translation": "Uno o más abuelos"
+            }
+        },
+        {
+            "id": "roommate",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "858705b7da",
+                "translation": "Compañero(s) de cuarto"
+            }
+        },
+        {
+            "id": "other_live_with",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "6e6a6f2086",
+                "translation": "Otro"
+            }
+        },
+        {
+            "id": "others_household_specify",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "a53e646a1e",
+                "translation": "Si otras personas viven en su hogar, por favor especifique:"
+            }
+        },
+        {
+            "id": "transportation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "0dfb47bbe4",
+                "translation": "¿Tiene un medio de transporte confiable?"
+            },
+            "enum": [
+                {
+                    "id": "yes",
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": "no",
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                },
+                {
+                    "id": "noAnswer",
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "primary_transportation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "33eb1415d2",
+                "translation": "¿Cuál es su medio de transporte principal?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "7b10a17da1",
+                    "translation": "Vehículo personal"
+                },
+                {
+                    "id": 2,
+                    "hash": "7d5516702e",
+                    "translation": "Vehículo compartido"
+                },
+                {
+                    "id": 3,
+                    "hash": "a0af543539",
+                    "translation": "Transporte público"
+                },
+                {
+                    "id": 4,
+                    "hash": "1e6d522b49",
+                    "translation": "Viajar con otra persona"
+                },
+                {
+                    "id": 5,
+                    "hash": "f8975e30f2",
+                    "translation": "Servicio de transporte"
+                },
+                {
+                    "id": 6,
+                    "hash": "8f3aa60f24",
+                    "translation": "Bicicleta/Motocicleta"
+                },
+                {
+                    "id": 7,
+                    "hash": "67f2945196",
+                    "translation": "Caminando"
+                },
+                {
+                    "id": 8,
+                    "hash": "cf0f46fcc7",
+                    "translation": "Otro (por favor especifique)"
+                }
+            ]
+        },
+        {
+            "id": "other_transportation",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "4dacf55c7e",
+                "translation": "Si seleccionó otro medio de transporte, por favor especifique."
+            }
+        },
+        {
+            "id": "demographics_completed_by",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "b4f0d266fe",
+                "translation": "Campos en desuso"
+            },
+            "label": {
+                "hash": "a41d766916",
+                "translation": "[EN DESUSO]\n¿Quién está completando esta encuesta?"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "e102517374",
+                    "translation": "Usted mismo"
+                },
+                {
+                    "id": 2,
+                    "hash": "8010d1f4d0",
+                    "translation": "Asistente"
+                },
+                {
+                    "id": 3,
+                    "hash": "4adbb9d6ed",
+                    "translation": "Padre/Madre/Cuidador"
+                }
+            ]
+        },
+        {
+            "id": "city",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "3a8518ead6",
+                "translation": "[EN DESUSO]\nCiudad"
+            }
+        },
+        {
+            "id": "state_province",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "a582479eab",
+                "translation": "[EN DESUSO]\nEstado/provincia"
+            }
+        },
+        {
+            "id": "assistance_programs_usa",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "652df5e5b8",
+                "translation": "[EN DESUSO]\n¿Se beneficia de alguno de los siguientes programas? Seleccione todas las opciones que correspondan"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "08241b6d32",
+                    "translation": "Ingreso Suplementario de Seguridad (SSI)"
+                },
+                {
+                    "id": 2,
+                    "hash": "0f4fa30708",
+                    "translation": "Programa de Asistencia Nutricional Suplementaria (SNAP)"
+                },
+                {
+                    "id": 3,
+                    "hash": "b5d1b7c684",
+                    "translation": "Programa Especial de Nutrición Suplementaria para Mujeres, Infantes y Niños (WIC)"
+                },
+                {
+                    "id": 4,
+                    "hash": "ee8efe4481",
+                    "translation": "Asistencia Temporal para Familias Necesitadas (TANF), incluyendo el Pago de Manutención Infantil"
+                },
+                {
+                    "id": 5,
+                    "hash": "349cefea63",
+                    "translation": "Asistencia General (GA)"
+                }
+            ]
+        },
+        {
+            "id": "assistance_programs_ca",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "652df5e5b8",
+                "translation": "[EN DESUSO]\n¿Se beneficia de alguno de los siguientes programas? Seleccione todas las opciones que correspondan"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "08241b6d32",
+                    "translation": "Ingreso Suplementario de Seguridad (SSI)"
+                },
+                {
+                    "id": 2,
+                    "hash": "0f4fa30708",
+                    "translation": "Programa de Asistencia Nutricional Suplementaria (SNAP)"
+                },
+                {
+                    "id": 3,
+                    "hash": "b5d1b7c684",
+                    "translation": "Programa Especial de Nutrición Suplementaria para Mujeres, Infantes y Niños (WIC)"
+                },
+                {
+                    "id": 4,
+                    "hash": "ee8efe4481",
+                    "translation": "Asistencia Temporal para Familias Necesitadas (TANF), incluyendo el Pago de Manutención Infantil"
+                },
+                {
+                    "id": 5,
+                    "hash": "349cefea63",
+                    "translation": "Asistencia General (GA)"
+                }
+            ]
+        },
+        {
+            "id": "citizen",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "9a2293b0dc",
+                "translation": "[EN DESUSO]\nCiudadano"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "fdfcac2321",
+                    "translation": "Ciudadano"
+                },
+                {
+                    "id": 2,
+                    "hash": "ea1448320c",
+                    "translation": "Residente permanente (titular de \"Green Card\")"
+                },
+                {
+                    "id": 3,
+                    "hash": "89bae06415",
+                    "translation": "No ciudadano estadounidense/ canadiense"
+                },
+                {
+                    "id": 4,
+                    "hash": "4e79d26787",
+                    "translation": "Refugiado"
+                },
+                {
+                    "id": 5,
+                    "hash": "b1c8ccbb96",
+                    "translation": "Solicitante de asilo"
+                },
+                {
+                    "id": 6,
+                    "hash": "50f6c5648e",
+                    "translation": "Estudiante no inmigrante"
+                },
+                {
+                    "id": 7,
+                    "hash": "a0cef417c9",
+                    "translation": "Trabajador no inmigrante"
+                },
+                {
+                    "id": 8,
+                    "hash": "bdac46880b",
+                    "translation": "Prefiero no responder"
+                }
+            ]
+        },
+        {
+            "id": "transportation_yn",
+            "form": "q_generic_demographics",
+            "label": {
+                "hash": "801336be0a",
+                "translation": "[EN DESUSO]\n¿Tiene un medio de transporte confiable?"
+            }
+        },
+        {
+            "id": "q_generic_demographics_complete",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "c91e0b9151",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "live_with_household",
+            "form": "q_generic_demographics",
+            "header": {
+                "hash": "ea875b28f8",
+                "translation": "¿Quien vive con usted? Elija todo lo que corresponda"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "5397e0583f",
+                    "translation": "Sí"
+                },
+                {
+                    "id": 0,
+                    "hash": "816c52fd2b",
+                    "translation": "No"
+                }
+            ]
+        }
+    ]
+}

@@ -10,9 +10,9 @@
 
 Per-instrument ZIP bundles for every published form in the Bridge2AI-Voice REDCap project. Each ZIP, exported via REDCap's **Download instrument ZIP** tool, contains the instrument definition and metadata for one-step import into another REDCap project.
 
-**Count:** 61 instruments published · 1 with Spanish (`es-419`) Multi-Language Management translation available.
+**Count:** 61 instruments published · 19 with Spanish (`es-419`) Multi-Language Management translation available.
 
-**Translations.** Most instruments pair an **English ZIP** with a **Spanish translation JSON** — a Multi-Language Management (MLM) overlay produced by REDCap's *Export language* tool. To apply Spanish to an instrument you've imported from its ZIP, import the matching translation file via **Project Setup → Multi-Language Management → Import language**. Translation files live in [`data/translations/`](../../data/translations) and follow the naming convention `<Instrument Name> - Translation - es-419.json` so each row's translation file mirrors the name of its ZIP. For the full-project MLM bundle covering every form at once, grab `bridge2ai_voice_redcap_mlm_translations_es-419.json` from the [REDCap Assets table in the README](../../README.md#-redcap).
+**Translations.** Most instruments pair an **English ZIP** with a **Spanish translation JSON** — a Multi-Language Management (MLM) overlay produced by REDCap's *Export language* tool. To apply Spanish to an instrument you've imported from its ZIP, import the matching translation file via **Project Setup → Multi-Language Management → Import language**. Translation files live in language-bucketed folders under [`data/translations/`](../../data/translations) — Spanish files at [`data/translations/es-419/`](../../data/translations/es-419) — and each translation filename mirrors its ZIP basename (e.g. `Q - Generic - Demographics.zip` ↔ `Q - Generic - Demographics.json`). For the full-project MLM bundle covering every form at once, grab `bridge2ai_voice_redcap_mlm_translations_es-419.json` from the [REDCap Assets table in the README](../../README.md#-redcap).
 
 The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that is its own REDCap instrument (not an MLM overlay), so each Spanish consent appears as its own row with its own English ZIP — the **Spanish (`es-419`)** column stays — for those rows by design.
 
@@ -74,13 +74,13 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 
 | # | Instrument | Form Name | English ZIP | Spanish (`es-419`) |
 | :-: | :-- | :-- | :-: | :-: |
-| 1 | Demographics | `q_generic_demographics` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Demographics.zip) | [🌐](../../data/translations/Q%20-%20Generic%20-%20Demographics%20-%20Translation%20-%20es-419.json) |
-| 2 | Confounders | `q_generic_confounders` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Confounders.zip) | — |
-| 3 | Harvard Sentences | `q_generic_harvard_sentences` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Harvard%20Sentences.zip) | — |
-| 4 | Voice Perception | `q_generic_voice_perception` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Voice%20Perception.zip) | — |
-| 5 | Voice Handicap Index (VHI-10) | `q_generic_voice_handicap_index_vhi10` | [📦](../../data/instruments/Q%20-%20Generic%20-%20VHI-10.zip) | — |
-| 6 | Patient Health Questionnaire (PHQ-9) | `q_generic_patient_health_questionnaire9` | [📦](../../data/instruments/Q%20-%20Generic%20-%20PHQ-9.zip) | — |
-| 7 | GAD-7 Anxiety | `q_generic_gad7_anxiety` | [📦](../../data/instruments/Q%20-%20Generic%20-%20GAD-7%20Anxiety.zip) | — |
+| 1 | Demographics | `q_generic_demographics` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Demographics.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20Demographics.json) |
+| 2 | Confounders | `q_generic_confounders` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Confounders.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20Confounders.json) |
+| 3 | Harvard Sentences | `q_generic_harvard_sentences` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Harvard%20Sentences.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20Harvard%20Sentences.json) |
+| 4 | Voice Perception | `q_generic_voice_perception` | [📦](../../data/instruments/Q%20-%20Generic%20-%20Voice%20Perception.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20Voice%20Perception.json) |
+| 5 | Voice Handicap Index (VHI-10) | `q_generic_voice_handicap_index_vhi10` | [📦](../../data/instruments/Q%20-%20Generic%20-%20VHI-10.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20VHI-10.json) |
+| 6 | Patient Health Questionnaire (PHQ-9) | `q_generic_patient_health_questionnaire9` | [📦](../../data/instruments/Q%20-%20Generic%20-%20PHQ-9.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20PHQ-9.json) |
+| 7 | GAD-7 Anxiety | `q_generic_gad7_anxiety` | [📦](../../data/instruments/Q%20-%20Generic%20-%20GAD-7%20Anxiety.zip) | [🌐](../../data/translations/es-419/Q%20-%20Generic%20-%20GAD-7%20Anxiety.json) |
 
 ## Adult Questionnaires (Voice)
 
@@ -92,29 +92,29 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 
 | # | Instrument | Form Name | English ZIP | Spanish (`es-419`) |
 | :-: | :-- | :-- | :-: | :-: |
-| 1 | PANAS | `q_mood_panas` | [📦](../../data/instruments/Q%20-%20Mood%20-%20PANAS.zip) | — |
-| 2 | Custom Affect Scale | `q_mood_custom_affect_scale` | [📦](../../data/instruments/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.zip) | — |
-| 3 | DSM-5 Adult | `q_mood_dsm5_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20DSM-5%20Adult.zip) | — |
-| 4 | PTSD Adult | `q_mood_ptsd_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20PTSD%20Adult.zip) | — |
-| 5 | ADHD Adult | `q_mood_adhd_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20ADHD%20Adult.zip) | — |
-| 6 | Participant History | `q_mood_participant_history` | [📦](../../data/instruments/Q%20-%20Mood%20-%20Participant%20History.zip) | — |
+| 1 | PANAS | `q_mood_panas` | [📦](../../data/instruments/Q%20-%20Mood%20-%20PANAS.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20PANAS.json) |
+| 2 | Custom Affect Scale | `q_mood_custom_affect_scale` | [📦](../../data/instruments/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20Custom%20Affect%20Scale.json) |
+| 3 | DSM-5 Adult | `q_mood_dsm5_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20DSM-5%20Adult.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20DSM-5%20Adult.json) |
+| 4 | PTSD Adult | `q_mood_ptsd_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20PTSD%20Adult.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20PTSD%20Adult.json) |
+| 5 | ADHD Adult | `q_mood_adhd_adult` | [📦](../../data/instruments/Q%20-%20Mood%20-%20ADHD%20Adult.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20ADHD%20Adult.json) |
+| 6 | Participant History | `q_mood_participant_history` | [📦](../../data/instruments/Q%20-%20Mood%20-%20Participant%20History.zip) | [🌐](../../data/translations/es-419/Q%20-%20Mood%20-%20Participant%20History.json) |
 
 ## Adult Questionnaires (Respiratory)
 
 | # | Instrument | Form Name | English ZIP | Spanish (`es-419`) |
 | :-: | :-- | :-- | :-: | :-: |
-| 1 | Dyspnea Index (DI) | `q_resp_dyspnea_index_di` | [📦](<../../data/instruments/Q%20-%20Resp%20-%20Dyspnea%20Index%20%28DI%29.zip>) | — |
-| 2 | Leicester Cough Questionnaire (LCQ) | `q_resp_leicester_cough_questionnaire_lcq` | [📦](<../../data/instruments/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20%28LCQ%29.zip>) | — |
+| 1 | Dyspnea Index (DI) | `q_resp_dyspnea_index_di` | [📦](<../../data/instruments/Q%20-%20Resp%20-%20Dyspnea%20Index%20%28DI%29.zip>) | [🌐](<../../data/translations/es-419/Q%20-%20Resp%20-%20Dyspnea%20Index%20%28DI%29.json>) |
+| 2 | Leicester Cough Questionnaire (LCQ) | `q_resp_leicester_cough_questionnaire_lcq` | [📦](<../../data/instruments/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20%28LCQ%29.zip>) | [🌐](<../../data/translations/es-419/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20%28LCQ%29.json>) |
 
 ## Adult Questionnaires (Neurological & Neurodegenerative)
 
 | # | Instrument | Form Name | English ZIP | Spanish (`es-419`) |
 | :-: | :-- | :-- | :-: | :-: |
 | 1 | Winograd Schemas | `q_neuro_winograd_schemas` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Winograd%20Schemas.zip) | — |
-| 2 | Word-Color Stroop | `q_neuro_wordcolor_stroop` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Word-Color%20Stroop.zip) | — |
-| 3 | Productive Vocabulary | `q_neuro_productive_vocabulary` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Productive%20Vocabulary.zip) | — |
-| 4 | Random Item Generation | `q_neuro_random_item_generation` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Random%20Item%20Generation.zip) | — |
-| 5 | MoCA | `q_neuro_moca` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20MoCA.zip) | — |
+| 2 | Word-Color Stroop | `q_neuro_wordcolor_stroop` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Word-Color%20Stroop.zip) | [🌐](../../data/translations/es-419/Q%20-%20Neuro%20-%20Word-Color%20Stroop.json) |
+| 3 | Productive Vocabulary | `q_neuro_productive_vocabulary` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Productive%20Vocabulary.zip) | [🌐](../../data/translations/es-419/Q%20-%20Neuro%20-%20Productive%20Vocabulary.json) |
+| 4 | Random Item Generation | `q_neuro_random_item_generation` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20Random%20Item%20Generation.zip) | [🌐](../../data/translations/es-419/Q%20-%20Neuro%20-%20Random%20Item%20Generation.json) |
+| 5 | MoCA | `q_neuro_moca` | [📦](../../data/instruments/Q%20-%20Neuro%20-%20MoCA.zip) | [🌐](../../data/translations/es-419/Q%20-%20Neuro%20-%20MoCA.json) |
 
 ## Pediatric
 
@@ -124,8 +124,8 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 | 2 | Pediatric — VHI-10 | `pediatric_q_generic_vhi_10` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20VHI-10.zip) | — |
 | 3 | Pediatric — Voice Outcome Survey | `pediatric_q_generic_voice_outcome_survey` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20Voice%20Outcome%20Survey.zip) | — |
 | 4 | Pediatric — Voice-Related QoL Survey | `pediatric_q_generic_voice_related_qol_survey` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20Voice%20Related%20QoL%20Survey.zip) | — |
-| 5 | Pediatric — Medical Conditions | `pediatric_q_generic_medical_conditions` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20Medical%20Conditions.zip) | — |
-| 6 | Pediatric — PHQ-A | `pediatric_q_generic_phqa` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20PHQ-A.zip) | — |
+| 5 | Pediatric — PHQ-A | `pediatric_q_generic_phqa` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20PHQ-A.zip) | — |
+| 6 | Pediatric — Medical Conditions | `pediatric_q_generic_medical_conditions` | [📦](../../data/instruments/Pediatric%20-%20Q%20-%20Generic%20-%20Medical%20Conditions.zip) | — |
 
 ---
 
