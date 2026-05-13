@@ -23,22 +23,22 @@ This document provides an overview of the Adult Respiratory Disorders Protocol u
 | 🔊 # of Recordings | **41** |
 
 **Disorders/Diseases Covered**
-- [![Airway Stenosis](https://img.shields.io/badge/Airway%20Stenosis-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)
-- [![COPD and Asthma](https://img.shields.io/badge/COPD%20and%20Asthma-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)
-- [![Unexplained Chronic Cough](https://img.shields.io/badge/Unexplained%20Chronic%20Cough-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf)
+- [![Airway Stenosis](https://img.shields.io/badge/Airway%20Stenosis-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)
+- [![COPD and Asthma](https://img.shields.io/badge/COPD%20and%20Asthma-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)
+- [![Unexplained Chronic Cough](https://img.shields.io/badge/Unexplained%20Chronic%20Cough-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf)
 
 ## Questionnaires
 
 | # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
-| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
-| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI)%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI)%20-%20Spanish.pdf) |
-| 8 | Leicester Cough Questionnaire (LCQ) | 02:20 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ)%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ)%20-%20Spanish.pdf) |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
+| 7 | Dyspnea Index (DI) | 01:00 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI)%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Dyspnea%20Index%20(DI)%20-%20Spanish.pdf) |
+| 8 | Leicester Cough Questionnaire (LCQ) | 02:20 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ)%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Resp/Q%20-%20Resp%20-%20Leicester%20Cough%20Questionnaire%20(LCQ)%20-%20Spanish.pdf) |
 
 ### Retired Questionnaires
 
@@ -84,6 +84,6 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 
 | # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Airway Stenosis | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf) | NA |
-| 2 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | COPD and Asthma | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf) | NA |
-| 3 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Unexplained Chronic Cough | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) | NA |
+| 1 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Airway Stenosis | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf) | NA |
+| 2 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | COPD and Asthma | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf) | NA |
+| 3 | [Resp Protocol](Respiratory%20Disorders%20Protocol.md) | Unexplained Chronic Cough | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.pdf) | NA |

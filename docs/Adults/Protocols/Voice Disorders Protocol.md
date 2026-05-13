@@ -25,31 +25,31 @@ This document provides an overview of the Adult Voice Disorders Protocol used in
 | 🔊 # of Recordings | **47** |
 
 **Disorders/Diseases Covered:**
-- [![Benign Lesions](https://img.shields.io/badge/Benign%20Lesions-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf)
-- [![Voice Glottic Insufficiency / Presbyphonia](https://img.shields.io/badge/Voice%20Glottic%20Insufficiency%20/%20Presbyphonia-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf)
-- [![Laryngeal Cancer](https://img.shields.io/badge/Laryngeal%20Cancer-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf)
-- [![Laryngitis](https://img.shields.io/badge/Laryngitis-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf)
-- [![Muscle Tension Dysphonia (MTD)](https://img.shields.io/badge/Muscle%20Tension%20Dysphonia%20(MTD)-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf)
-- [![Precancerous Lesions](https://img.shields.io/badge/Precancerous%20Lesions-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) 
-- [![Laryngeal Dystonia](https://img.shields.io/badge/Laryngeal%20Dystonia-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf)
-- [![Unilateral vocal fold paralysis](https://img.shields.io/badge/Unilateral%20vocal%20fold%20paralysis-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf)
+- [![Benign Lesions](https://img.shields.io/badge/Benign%20Lesions-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf)
+- [![Voice Glottic Insufficiency / Presbyphonia](https://img.shields.io/badge/Voice%20Glottic%20Insufficiency%20/%20Presbyphonia-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf)
+- [![Laryngeal Cancer](https://img.shields.io/badge/Laryngeal%20Cancer-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf)
+- [![Laryngitis](https://img.shields.io/badge/Laryngitis-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf)
+- [![Muscle Tension Dysphonia (MTD)](https://img.shields.io/badge/Muscle%20Tension%20Dysphonia%20(MTD)-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf)
+- [![Precancerous Lesions](https://img.shields.io/badge/Precancerous%20Lesions-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) 
+- [![Laryngeal Dystonia](https://img.shields.io/badge/Laryngeal%20Dystonia-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf)
+- [![Unilateral vocal fold paralysis](https://img.shields.io/badge/Unilateral%20vocal%20fold%20paralysis-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf)
 
 ## Questionnaires
 
 | # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
-| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Voice Problem Severity | 00:50 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20English.pdf) | [📄](../../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20Spanish.pdf) |
+| 1 | Voice Problem Severity | 00:50 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20English.pdf) | [📄](../PDFs/es-419/Retired%20Questionnaire%20-%20PDFs/Voice/Q%20-%20Voice%20-%20Voice%20Problem%20Severity%20-%20Spanish.pdf) |
 
 ## Acoustic Tasks
 
@@ -93,11 +93,11 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 
 | # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Benign Lesions | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf) | NA |
-| 2 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Voice Glottic Insufficiency / Presbyphonia | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf) | NA |
-| 3 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Cancer | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf) | NA |
-| 4 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngitis | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf) | NA |
-| 5 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Muscle Tension Dysphonia (MTD) | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf) | NA |
-| 6 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Precancerous Lesions | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) | NA |
-| 7 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Dystonia | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf) | NA |
-| 8 | [Voice Protocol](Voice%20Disorders%20Protocol.md)  | Unilateral vocal fold paralysis | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) | NA |
+| 1 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Benign Lesions | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Benign%20Lesions.pdf) | NA |
+| 2 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Voice Glottic Insufficiency / Presbyphonia | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Glottic%20Insufficiency%20Presbyphonia.pdf) | NA |
+| 3 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Cancer | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Cancer.pdf) | NA |
+| 4 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngitis | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngitis.pdf) | NA |
+| 5 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Muscle Tension Dysphonia (MTD) | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Muscle%20Tension%20Dysphonia%20\(MTD\).pdf) | NA |
+| 6 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Precancerous Lesions | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Precancerous%20Lesions.pdf) | NA |
+| 7 | [Voice Protocol](Voice%20Disorders%20Protocol.md) | Laryngeal Dystonia | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Laryngeal%20Dystonia.pdf) | NA |
+| 8 | [Voice Protocol](Voice%20Disorders%20Protocol.md)  | Unilateral vocal fold paralysis | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Voice/D%20-%20Voice%20-%20Unilateral%20Vocal%20Fold%20Paralysis.pdf) | NA |

@@ -23,32 +23,32 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 | 🔊 # of Recordings | **44** |
 
 **Disorders/Diseases Covered**
-- [![Alzheimer's, dementia, or mild cognitive impairment](https://img.shields.io/badge/Alzheimer's,%20dementia,%20or%20mild%20cognitive%20impairment-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)
-- [![Amyotrophic Lateral Sclerosis (ALS)](https://img.shields.io/badge/Amyotrophic%20Lateral%20Sclerosis%20(ALS)-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf)
-- [![Huntington's Disease](https://img.shields.io/badge/Huntington's%20Disease-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)
-- [![Parkinson's Disease](https://img.shields.io/badge/Parkinson's%20Disease-8A2BE2)](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)
+- [![Alzheimer's, dementia, or mild cognitive impairment](https://img.shields.io/badge/Alzheimer's,%20dementia,%20or%20mild%20cognitive%20impairment-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)
+- [![Amyotrophic Lateral Sclerosis (ALS)](https://img.shields.io/badge/Amyotrophic%20Lateral%20Sclerosis%20(ALS)-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf)
+- [![Huntington's Disease](https://img.shields.io/badge/Huntington's%20Disease-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)
+- [![Parkinson's Disease](https://img.shields.io/badge/Parkinson's%20Disease-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)
 
 ## Questionnaires
 
 | # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
-| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
-| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
-| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
-| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
-| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
-| 7 | Productive Vocabulary | 02:10 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Productive%20Vocabulary%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Productive%20Vocabulary%20-%20Spanish.pdf) |
-| 8 | Random Item Generation v2 | 02:30 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20Spanish.pdf) |
-| 9 | Word-color Stroop | 02:30 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20Spanish.pdf) |
-| 10 | MOCA | NA | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MoCA%20-%20English.pdf) | [📄](../../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MoCA%20-%20Spanish.pdf) |
+| 1 | Demographics | 04:45 |[Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Demographics%20-%20Spanish.pdf) |
+| 2 | Confounders | 10:35 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Confounders%20-%20Spanish.pdf) |
+| 3 | Voice Perception | 00:15 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20Voice%20Perception%20-%20Spanish.pdf) |
+| 4 | VHI-10 | 01:05 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20VHI-10%20-%20Spanish.pdf) |
+| 5 | PHQ-9 | 01:20 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20PHQ-9%20-%20Spanish.pdf) |
+| 6 | GAD-7 Anxiety | 00:50 | [Generic Protocol](Generic%20Protocol%20(Controls).md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Generic/Q%20-%20Generic%20-%20GAD-7%20Anxiety%20-%20Spanish.pdf) |
+| 7 | Productive Vocabulary | 02:10 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Productive%20Vocabulary%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Productive%20Vocabulary%20-%20Spanish.pdf) |
+| 8 | Random Item Generation v2 | 02:30 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20Spanish.pdf) |
+| 9 | Word-color Stroop | 02:30 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20Spanish.pdf) |
+| 10 | MOCA | NA | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MoCA%20-%20English.pdf) | [📄](../PDFs/es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20MoCA%20-%20Spanish.pdf) |
 
 
 ### Retired Questionnaires
 
 | # | Name | ⏳ Time | 📓 Protocol | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | Winograd Questionnaire | 01:35 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Winograd%20Schemas%20-%20English.pdf) | NA |
+| 1 | Winograd Questionnaire | 01:35 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | [📄](../PDFs/en-us/Retired%20Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Winograd%20Schemas%20-%20English.pdf) | NA |
 
 ## Acoustic Tasks
 
@@ -91,7 +91,7 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 
 | # | Protocol | Clinically Validated Diagnosis | 📄 PDF (English) | 📄 PDF (Spanish) |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Alzheimer's, dementia, or mild cognitive impairment | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf) | NA |
-| 2 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Amyotrophic Lateral Sclerosis (ALS) | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf) | NA |
-| 3 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Huntington's Disease | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf) | NA |
-| 4 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Parkinson's Disease | [📄](../../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf) | NA |
+| 1 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Alzheimer's, dementia, or mild cognitive impairment | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf) | NA |
+| 2 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Amyotrophic Lateral Sclerosis (ALS) | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf) | NA |
+| 3 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Huntington's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf) | NA |
+| 4 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Parkinson's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf) | NA |
