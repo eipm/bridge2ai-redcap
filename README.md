@@ -10,9 +10,9 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
 
 [![GitHub](https://img.shields.io/badge/github-4.8.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-| Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |   PDF's (English)    |    PDF's (Spanish)    |
-| :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: | :------------------: | :-------------------: |
-| v4.8.0  |   2026-05-13    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) | [Files](docs/Adults/PDFs/en-us/) | [Files](docs/Adults/PDFs/es-419/) |
+| Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |
+| :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: |
+| v4.8.0  |   2026-05-13    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) |
 
 ## 📋 Adult Protocols
 
@@ -20,8 +20,8 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   <tr>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Generic%20Protocol%20(Controls).md">
-        <br><img src="images/protocols/control.png" width="36" height="36" alt="Respiratory"><br>
-        <strong>Controls</strong>
+        <br><img src="images/protocols/control.png" width="36" height="36" alt="Generic (Controls)"><br>
+        <strong>Generic (Controls)</strong>
       </a>
       <br><sub>⏳ 38:45</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 10 acoustic tasks</sub><br><sub>🔊 41 recordings</sub>
     </td>
@@ -49,7 +49,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md">
         <br><img src="images/protocols/neuro.png" width="36" height="36" alt="Neurological & Neurodegenerative"><br>
-        <strong>Neurological & Neurodegenerative</strong>
+        <strong>Neurological &amp; Neurodegenerative</strong>
       </a>
       <br><sub>⏳ 45:30</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 13 acoustic tasks</sub><br><sub>🔊 44 recordings</sub>
     </td>
@@ -87,6 +87,13 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
         <strong>eConsents</strong>
       </a>
       <br><sub>🏛️ 2 sites</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Adults/PDFs/Adult%20PDFs.md">
+        <br>📄<br>
+        <strong>All Adult PDFs</strong>
+      </a>
+      <br><sub>🌐 2 Languages </sub>
     </td>
   </tr>
 </table>
@@ -144,6 +151,13 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
       </a>
       <br><sub>🟢 6 active</sub>
     </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/PDFs/Pediatric%20PDFs.md">
+        <br>📄<br>
+        <strong>All Pediatric PDFs</strong>
+      </a>
+      <br><sub>🌐 1 Language </sub>
+    </td>
   </tr>
 </table>
 
@@ -164,6 +178,8 @@ To use the Bridge2AI-Voice instruments in your own REDCap project, download one 
 **Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
 
 **Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
+
+## 🧩 REDCap Resources
 
 ## 🤝 License
 
