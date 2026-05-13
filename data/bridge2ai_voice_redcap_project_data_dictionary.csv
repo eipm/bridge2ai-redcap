@@ -180,6 +180,33 @@ usf_icf_hipaa_signature_en,bridge2ai_econsent_usf_english,,file,"Signature of Pe
 ",,,signature,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_hipaa_date_en,bridge2ai_econsent_usf_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_hipaa_name_en,bridge2ai_econsent_usf_english,,text,"Printed Name of Person Taking Part in Study (or Their Parent)",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_p1_en_v3,bridge2ai_econsent_usf_english_version_3," ",descriptive,,,,,,,,,,,,,,
+usf_icf_p2_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p3_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p4_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p5_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p6_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p7_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p8_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p9_en_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_question_en_v3,bridge2ai_econsent_usf_english_version_3,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research</p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I freely give my consent to take part in this study. I understand that by signing this</span><br><span style=""font-weight: normal;"">form I am agreeing to take part in research. I have received a copy of this form to take with me. I</span><br><span style=""font-weight: normal;"">understand that by signing below, I am consenting for my contact information to be kept in a repository</span><br><span style=""font-weight: normal;"">for this study, and that this information may be used to contact me in the future for further data collection</span><br><span style=""font-weight: normal;"">if long-term follow-up is required as part of an eventual extension of this grant after the expected 4-year</span><br><span style=""font-weight: normal;"">duration, or to be invited to participate in future research studies. My information will not be shared with</span><br><span style=""font-weight: normal;"">third parties.</span></p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I consent to having all data I submit shared with the researchers of this study and to</span><br><span style=""font-weight: normal;"">having my audio recordings, written responses, and other coded research data shared with other qualified</span><br><span style=""font-weight: normal;"">researchers as described in this consent form. I further consent to the public sharing of my de-identified</span><br><span style=""font-weight: normal;"">and aggregated study data.</span></p> <p class=""p1""><span style=""font-weight: normal;"">I would like to be informed of incidental findings, should the study report this type of information.</span></p></div>","yes, Yes | no, No",,,,,y,,y,LV,,,,
+usf_icf_signature_en_v3,bridge2ai_econsent_usf_english_version_3,,file,"Signature of Person Taking Part in Study
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_date_en_v3,bridge2ai_econsent_usf_english_version_3,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_name_en_v3,bridge2ai_econsent_usf_english_version_3,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_en_p1_v3,bridge2ai_econsent_usf_english_version_3," ",descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_en_p2_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_en_p3_v3,bridge2ai_econsent_usf_english_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_signature_en_v3,bridge2ai_econsent_usf_english_version_3,,file,"Signature of Person Taking Part in Study  (or Their Parent)
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_date_en_v3,bridge2ai_econsent_usf_english_version_3,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_name_en_v3,bridge2ai_econsent_usf_english_version_3,,text,"Printed Name of Person Taking Part in Study (or Their Parent)",,,,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_p1_es,bridge2ai_econsent_usf_spanish," ",descriptive,,,,,,,,,,,,,,
 usf_icf_p2_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
 usf_icf_p3_es,bridge2ai_econsent_usf_spanish,,descriptive,,,,,,,,,,,,,,
@@ -201,6 +228,27 @@ usf_icf_signature_hipaa_es,bridge2ai_econsent_usf_spanish,,file,"Firma de la Per
 [Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_date_hipaa_es,bridge2ai_econsent_usf_spanish,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 usf_icf_name_hipaa_es,bridge2ai_econsent_usf_spanish,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_p1_es_v3,bridge2ai_econsent_usf_spanish_version_3," ",descriptive,,,,,,,,,,,,,,
+usf_icf_p2_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p3_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p4_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p5_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p6_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p7_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p8_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_p9_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_question_es_v3,bridge2ai_econsent_usf_spanish_version_3,,radio,"<div class=""rich-text-field-label""><p class=""p1"">Consentimiento para Participar en la Investigación</p> <p class=""p1""><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento libremente para participar en este estudio. Entiendo que al firmar</span><br><span style=""font-weight: normal;"">este formulario estoy aceptando participar en la investigación. He recibido una copia de este formulario</span><br><span style=""font-weight: normal;"">para llevar conmigo. Entiendo que al firmar a continuación, estoy dando mi consentimiento para que mi</span><br><span style=""font-weight: normal;"">información de contacto se mantenga en un repositorio para este estudio, y que esta información pueda</span><br><span style=""font-weight: normal;"">ser utilizada para contactarme en el futuro para una mayor recopilación de datos si se requiere un</span><br><span style=""font-weight: normal;"">seguimiento a largo plazo como parte de una eventual extensión de esta subvención después de la</span><br><span style=""font-weight: normal;"">duración esperada de 4 años, o para ser invitado a participar en futuros estudios de investigación. Mi</span><br><span style=""font-weight: normal;"">información no será compartida con terceros.</span></p> <p class=""p1""><br><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento para que todos los datos que envíe sean compartidos con los</span><br><span style=""font-weight: normal;"">investigadores de este estudio y para que mis grabaciones de audio, respuestas escritas y otros datos de</span><br><span style=""font-weight: normal;"">investigación codificados sean compartidos con otros investigadores calificados según se describe en</span><br><span style=""font-weight: normal;"">este formulario de consentimiento. Además, doy mi consentimiento para el intercambio público de mis</span><br><span style=""font-weight: normal;"">datos del estudio desidentificados y agregados.</span></p> <p class=""p1""><span style=""font-weight: normal;"">Me gustaría ser informado de hallazgos incidentales, en caso de que el estudio informe este tipo de información.</span></p></div>","yes, Sí | no, No",,,,,y,,y,LV,,,,
+usf_icf_signature_es_v3,bridge2ai_econsent_usf_spanish_version_3,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_date_es_v3,bridge2ai_econsent_usf_spanish_version_3,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_name_es_v3,bridge2ai_econsent_usf_spanish_version_3,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_hipaa_p1_es_v3,bridge2ai_econsent_usf_spanish_version_3," ",descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_p2_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_hipaa_p3_es_v3,bridge2ai_econsent_usf_spanish_version_3,,descriptive,,,,,,,,,,,,,,
+usf_icf_signature_hipaa_es_v3,bridge2ai_econsent_usf_spanish_version_3,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_date_hipaa_es_v3,bridge2ai_econsent_usf_spanish_version_3,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_name_hipaa_es_v3,bridge2ai_econsent_usf_spanish_version_3,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
 mit_icf_p1_en,bridge2ai_econsent_mit_english," ",descriptive,,,,,,,,,,,,,,
 mit_icf_p2_en,bridge2ai_econsent_mit_english,,descriptive,,,,,,,,,,,,,,
 mit_icf_p3_en,bridge2ai_econsent_mit_english,,descriptive,,,,,,,,,,,,,,
@@ -218,6 +266,114 @@ mit_icf_signature_en,bridge2ai_econsent_mit_english,,file,"Signature of Person T
 mit_icf_date_en,bridge2ai_econsent_mit_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
 mit_icf_name_en,bridge2ai_econsent_mit_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
 consent_mit_p1,bridge2ai_econsent_mit_english," ",descriptive,,,,,,,,,,,,,,
+mit_icf_p1_en_v2,bridge2ai_econsent_mit_english_version_2," ",descriptive,,,,,,,,,,,,,,
+mit_icf_p2_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p3_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p4_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p5_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p6_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p7_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p8_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p9_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_question_en_v2,bridge2ai_econsent_mit_english_version_2,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research</p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I freely give my consent to take part in this study. I understand that by signing this</span><br><span style=""font-weight: normal;"">form I am agreeing to take part in research. I have received a copy of this form to take with me. I</span><br><span style=""font-weight: normal;"">understand that by signing below, I am consenting for my contact information to be kept in a repository</span><br><span style=""font-weight: normal;"">for this study, and that this information may be used to contact me in the future for further data collection</span><br><span style=""font-weight: normal;"">if long-term follow-up is required as part of an eventual extension of this grant after the expected 4-year</span><br><span style=""font-weight: normal;"">duration, or to be invited to participate in future research studies. My information will not be shared with</span><br><span style=""font-weight: normal;"">third parties.</span></p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I consent to having all data I submit shared with the researchers of this study and to</span><br><span style=""font-weight: normal;"">having my audio recordings, written responses, and other coded research data shared with other qualified</span><br><span style=""font-weight: normal;"">researchers as described in this consent form. I further consent to the public sharing of my de-identified</span><br><span style=""font-weight: normal;"">and aggregated study data.</span></p> <p class=""p1""><span style=""font-weight: normal;"">I would like to be informed of incidental findings, should the study report this type of information.</span></p></div>","yes, Yes | no, No",,,,,y,,y,LV,,,,
+mit_icf_signature_en_v2,bridge2ai_econsent_mit_english_version_2,,file,"Signature of Person Taking Part in Study
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+mit_icf_date_en_v2,bridge2ai_econsent_mit_english_version_2,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+mit_icf_name_en_v2,bridge2ai_econsent_mit_english_version_2,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_mit_p1_en_v2,bridge2ai_econsent_mit_english_version_2," ",descriptive,,,,,,,,,,,,,,
+consent_mit_p2_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+consent_mit_p3_en_v2,bridge2ai_econsent_mit_english_version_2,,descriptive,,,,,,,,,,,,,,
+consent_mit_signature_en_v2,bridge2ai_econsent_mit_english_version_2,,file,"Signature of Person Taking Part in Study (or Their Parent)
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+consent_mit_date_en_v2,bridge2ai_econsent_mit_english_version_2,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+consent_mit_name_en_v2,bridge2ai_econsent_mit_english_version_2,,text,"Printed Name of Person Taking Part in Study (or Their Parent)",,,,,,y,,y,,,,," @READONLY-FORM"
+mit_icf_p1_es_v2,bridge2ai_econsent_mit_spanish_version_2," ",descriptive,,,,,,,,,,,,,,
+mit_icf_p2_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p3_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p4_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p5_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p6_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p7_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p8_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_p9_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_icf_question_es_v2,bridge2ai_econsent_mit_spanish_version_2,,radio,"<div class=""rich-text-field-label""><p class=""p1"">Consentimiento para Participar en la Investigación</p> <p class=""p1""><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento libremente para participar en este estudio. Entiendo que al firmar</span><br><span style=""font-weight: normal;"">este formulario estoy aceptando participar en la investigación. He recibido una copia de este formulario</span><br><span style=""font-weight: normal;"">para llevar conmigo. Entiendo que al firmar a continuación, estoy dando mi consentimiento para que mi</span><br><span style=""font-weight: normal;"">información de contacto se mantenga en un repositorio para este estudio, y que esta información pueda</span><br><span style=""font-weight: normal;"">ser utilizada para contactarme en el futuro para una mayor recopilación de datos si se requiere un</span><br><span style=""font-weight: normal;"">seguimiento a largo plazo como parte de una eventual extensión de esta subvención después de la</span><br><span style=""font-weight: normal;"">duración esperada de 4 años, o para ser invitado a participar en futuros estudios de investigación. Mi</span><br><span style=""font-weight: normal;"">información no será compartida con terceros.</span></p> <p class=""p1""><br><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento para que todos los datos que envíe sean compartidos con los</span><br><span style=""font-weight: normal;"">investigadores de este estudio y para que mis grabaciones de audio, respuestas escritas y otros datos de</span><br><span style=""font-weight: normal;"">investigación codificados sean compartidos con otros investigadores calificados según se describe en</span><br><span style=""font-weight: normal;"">este formulario de consentimiento. Además, doy mi consentimiento para el intercambio público de mis</span><br><span style=""font-weight: normal;"">datos del estudio desidentificados y agregados.</span></p> <p class=""p1""><span style=""font-weight: normal;"">Me gustaría ser informado de hallazgos incidentales, en caso de que el estudio informe este tipo de información.</span></p></div>","yes, Sí | no, No",,,,,y,,y,LV,,,,
+mit_icf_signature_es_v2,bridge2ai_econsent_mit_spanish_version_2,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+mit_icf_date_es_v2,bridge2ai_econsent_mit_spanish_version_2,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+mit_icf_name_es_v2,bridge2ai_econsent_mit_spanish_version_2,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_mit_p1_es_v2,bridge2ai_econsent_mit_spanish_version_2," ",descriptive,,,,,,,,,,,,,,
+consent_mit_p2_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+consent_mit_p3_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+consent_mit_p4_es_v2,bridge2ai_econsent_mit_spanish_version_2,,descriptive,,,,,,,,,,,,,,
+mit_consent_signature_es_v2,bridge2ai_econsent_mit_spanish_version_2,,file,"Firma de la Persona que Participa en el Estudio (o su Padre/Madre)
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+usf_icf_date_hipaa_es_v2,bridge2ai_econsent_mit_spanish_version_2,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+mit_consent_name_es_v2,bridge2ai_econsent_mit_spanish_version_2,,text,"Nombre Impreso de la Persona que Participa en el Estudio (o su Padre/Madre)",,,,,,y,,y,,,,," @READONLY-FORM"
+wcm_icf_p1_en,bridge2ai_econsent_wcm_english," ",descriptive,,,,,,,,,,,,,,
+wcm_icf_p2_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p3_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p4_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p5_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p6_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p7_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p8_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p9_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+wcm_icf_question_en_2,bridge2ai_econsent_wcm_english,,radio,"<div class=""rich-text-field-label""><p>Consent to Take Part in Research</p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I freely give my consent to take part in this study. I understand that by signing this<br>form I am agreeing to take part in research. I have received a copy of this form to take with me. I<br>understand that by signing below, I am consenting for my contact information to be kept in a repository<br>for this study, and that this information may be used to contact me in the future for further data collection<br>if long-term follow-up is required as part of an eventual extension of this grant after the expected 4-year<br>duration, or to be invited to participate in future research studies. My information will not be shared with<br>third parties.</span></p> <p class=""p1""><span style=""font-weight: normal;"">By signing below, I consent to having all data I submit shared with the researchers of this study and to<br>having my audio recordings, written responses, and other coded research data shared with other qualified<br>researchers as described in this consent form. I further consent to the public sharing of my de-identified<br>and aggregated study data.</span></p> <p class=""p1""><span style=""font-weight: normal;"">I would like to be informed of incidental findings, should the study report this type of information.</span></p></div>","yes, Yes | no, No",,,,,y,,y,LV,,,,
+wcm_icf_signature_en,bridge2ai_econsent_wcm_english,,file,"Signature of Person Taking Part in Study
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+wcm_icf_date_en,bridge2ai_econsent_wcm_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+wcm_icf_name_en,bridge2ai_econsent_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+site_consent_wcm_p1_en,bridge2ai_econsent_wcm_english," ",descriptive,,,,,,,,,,,,,,
+site_consent_wcm_p2_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+site_consent_wcm_p3_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+site_consent_wcm_p4_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+site_consent_wcm_p5_en,bridge2ai_econsent_wcm_english,,descriptive,,,,,,,,,,,,,,
+site_consent_wcm_yes_en_v1,bridge2ai_econsent_wcm_english,,radio,"<div class=""rich-text-field-label""><p class=""p1"">YES, <span style=""font-weight: normal;"">I give permission for my voice, speech, and respiratory sound data, demographic data,</span><br><span style=""font-weight: normal;"">previously completed imaging data, and survey and/or validated questionnaire answers to be</span><br><span style=""font-weight: normal;"">stored for future research. I understand that the data and/or samples will be stored indefinitely</span></p></div>","yes, Yes | no, No",,,,,,,y,LV,,,,
+site_consent_wcm_signature_en_v1,bridge2ai_econsent_wcm_english,,file,"Signature of Person Taking Part in Study
+[Authorization]
+
+
+",,,signature,,,y,,y,,,,," @READONLY-FORM"
+site_consent_wcm_date_en_v1,bridge2ai_econsent_wcm_english,,text,Date,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+site_consent_wcm_name_en_v1,bridge2ai_econsent_wcm_english,,text,"Printed Name of Person Taking Part in Study",,,,,,y,,y,,,,," @READONLY-FORM"
+site_consent_wcm_best_contact_method_en_v1,bridge2ai_econsent_wcm_english,,text,"Best form of contact for future voice data collection (leave blank if you do not want to be contacted)",,,,,,y,,,,,,," @READONLY-FORM"
+wcm_icf_p1_es_v1,bridge2ai_econsent_wcm_spanish_version_1," ",descriptive,,,,,,,,,,,,,,
+wcm_icf_p2_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p3_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p4_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p5_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p6_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p7_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p8_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_p9_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+wcm_icf_question_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,radio,"<div class=""rich-text-field-label""><p class=""p1"">Consentimiento para Participar en la Investigación</p> <p class=""p1""><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento libremente para participar en este estudio. Entiendo que al firmar</span><br><span style=""font-weight: normal;"">este formulario estoy aceptando participar en la investigación. He recibido una copia de este formulario</span><br><span style=""font-weight: normal;"">para llevar conmigo. Entiendo que al firmar a continuación, estoy dando mi consentimiento para que mi</span><br><span style=""font-weight: normal;"">información de contacto se mantenga en un repositorio para este estudio, y que esta información pueda</span><br><span style=""font-weight: normal;"">ser utilizada para contactarme en el futuro para una mayor recopilación de datos si se requiere un</span><br><span style=""font-weight: normal;"">seguimiento a largo plazo como parte de una eventual extensión de esta subvención después de la</span><br><span style=""font-weight: normal;"">duración esperada de 4 años, o para ser invitado a participar en futuros estudios de investigación. Mi</span><br><span style=""font-weight: normal;"">información no será compartida con terceros.</span></p> <p class=""p1""><br><span style=""font-weight: normal;"">Al firmar abajo, doy mi consentimiento para que todos los datos que envíe sean compartidos con los</span><br><span style=""font-weight: normal;"">investigadores de este estudio y para que mis grabaciones de audio, respuestas escritas y otros datos de</span><br><span style=""font-weight: normal;"">investigación codificados sean compartidos con otros investigadores calificados según se describe en</span><br><span style=""font-weight: normal;"">este formulario de consentimiento. Además, doy mi consentimiento para el intercambio público de mis</span><br><span style=""font-weight: normal;"">datos del estudio desidentificados y agregados.</span></p> <p class=""p1""><span style=""font-weight: normal;"">Me gustaría ser informado de hallazgos incidentales, en caso de que el estudio informe este tipo de </span><span style=""font-weight: normal;"">información.</span></p></div>","yes, Sí | no, No",,,,,y,,y,LV,,,,
+wcm_icf_signature_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+wcm_icf_date_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,text,Fecha,,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+wcm_icf_name_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,text,"Nombre Impreso de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+consent_wcm_p1_es_v1,bridge2ai_econsent_wcm_spanish_version_1," ",descriptive,,,,,,,,,,,,,,
+consent_wcm_p2_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p3_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p4_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+consent_wcm_p5_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,descriptive,,,,,,,,,,,,,,
+site_consent_wcm_yes_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,radio,"SÍ, doy mi consentimiento para que mis datos de voz, habla y sonidos respiratorios, datos
+demográficos, imágenes previamente realizadas, y respuestas a encuestas y/o cuestionarios
+validados sean almacenados para investigaciones futuras . Entiendo que los datos y/o muestras
+se almacenarán indefinidamente. ","yes, Sí | no, No",,,,,,,y,,,,,
+wcm_consent_signature_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,file,"Firma de la Persona que Participa en el Estudio
+[Autorización]",,,signature,,,y,,y,,,,," @READONLY-FORM"
+wcm_consent_date_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,text,"Fecha [Autorización]",,,date_ymd,,,y,,y,,,,," @READONLY-FORM"
+wcm_consent_name_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,text,"Nombre en Letra de Molde de la Persona que Participa en el Estudio",,,,,,y,,y,,,,," @READONLY-FORM"
+site_consent_wcm_best_contact_method_es_v1,bridge2ai_econsent_wcm_spanish_version_1,,text,"Mejor forma de contacto para futuras recolecciones de datos de voz (dejar en blanco si no desea ser contactado)",,,,,,y,,,,,,," @READONLY-FORM"
 diagnosis_c_ac,d_control,,radio,"Based on the assessment you made of the participant, and by hearing their voice, do you think this participant has any condition affecting their speech or voice?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_c_ac_specified,d_control,,text,"Please specify:",,,,,,,"[diagnosis_c_ac] = 'yes'",,,,,,
 diagnois_gi_gsd,d_voice_glottic_insufficiency_presbyphonia,"1. Gold Standard Diagnosis",radio,"Does the participant have glottic insufficiency confirmed by laryngoscopy/stroboscopy?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
