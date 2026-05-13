@@ -183,24 +183,27 @@ See [LICENSE](./LICENSE)
 
 ## 🧩 REDCap
 
-The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a full Project XML for one-step import, a Data Dictionary CSV, a Code Book, and per-instrument ZIPs for selective use. Translations will appear under the **Spanish** column as they become available.
+The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a full Project XML for one-step import, a Data Dictionary CSV, a Code Book, and per-instrument ZIPs for selective use. The Project XML has the **English + Spanish (`es-419`) Multi-Language Management (MLM) overlay embedded**; the Data Dictionary CSV and individual instrument ZIPs are single-language by design but are complemented by standalone **MLM exports** — a full-project bundle plus per-instrument `.mlm` files — so you can layer translations onto either import path.
 
 ### 📦 Assets
 
 | Asset | Description | Download |
 | :-: | :-- | :-: |
-| 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
-| 🗜️ Project XML | Full REDCap project XML for one-step import into another REDCap instance | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
-| 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets | _coming soon_ |
-| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import | [📦 Browse all 63 instruments](docs/REDCap/Instruments.md) |
+| 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule. **English only** — the CSV schema has no slot for MLM translations. | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
+| 🗜️ Project XML | Complete project import file — instruments, surveys, repeating settings, and the **English + Spanish (`es-419`) MLM translation overlay**. | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
+| 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets. | [📓 Browse PDF](data/bridge2ai_voice_redcap_codebook.pdf) |
+| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument `.mlm` file (linked in the index) to add Spanish translations. | [📦 Browse all 63 instruments](docs/REDCap/Instruments.md) |
+| 🌐 MLM Translations | Multi-Language Management exports for layering Spanish (`es-419`) onto the CSV or individual instrument ZIPs — a **full-project bundle** that complements the Data Dictionary, plus **per-instrument `.mlm` files** for selective use. | _coming soon_ |
 
 ### 🚀 Import into REDCap
 
 Pick the option that matches your situation; both files are linked in the Assets table above.
 
-**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
+**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, repeating-instrument settings, **and the English + Spanish (`es-419`) MLM translations** — with no participant data included.
 
-**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
+**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup. To add Spanish, also import the full MLM bundle (see the Assets table above) via **Project Setup → Multi-Language Management → Import language**, or pair individual instrument ZIPs with their matching per-instrument `.mlm` files.
+
+**Option 3 — Pick and choose individual instruments (à la carte).** Browse the [Instruments index](docs/REDCap/Instruments.md) and download only the per-instrument ZIPs you need. In your REDCap project, go to **Project Setup → Designer → "Upload instrument ZIP"** and import each one. For any of those instruments you want available in Spanish, also download the matching per-instrument `.mlm` file from the same index and import it via **Project Setup → Multi-Language Management → Import language**, scoped to that instrument. This is the most surgical path — useful when you only need a handful of forms, or when you're integrating Bridge2AI-Voice instruments alongside your own.
 
 ### 🙏 About REDCap
 
