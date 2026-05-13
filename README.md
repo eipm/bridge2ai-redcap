@@ -6,15 +6,17 @@
 
 # bridge2ai-redcap
 
-REDCap Data Dictionary and Metadata for the Bridge2AI project.
+Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 [![GitHub](https://img.shields.io/badge/github-4.8.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-| Version | Date YYYY-mm-dd |                           Data Dictionary                           |                       REDCap Project XML                        |
-| :-----: | :-------------: | :-----------------------------------------------------------------: | :---------------------------------------------------: |
-| v4.8.0  |   2026-05-13    | [Data Dictionary](data/bridge2ai_voice_redcap_project_data_dictionary.csv) | [REDCap Project XML](data/bridge2ai_voice_redcap_project_xml.xml) |
+| Version | Date YYYY-mm-dd |
+| :-----: | :-------------: |
+| v4.8.0  |   2026-05-13    |
 
-## 📋 Adult Protocols
+## <picture><source media="(prefers-color-scheme: dark)" srcset="images/main_logo_white.svg"><img src="images/main_logo_black.svg" height="32" align="absmiddle" alt=""></picture> Bridge2AI-Voice Protocols
+
+### 📋 Adult Protocols
 
 <table align="center">
   <tr>
@@ -56,39 +58,39 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   </tr>
 </table>
 
-### Additional Resources
+#### Additional Resources
 
 <table align="center">
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <a href="docs/Adults/Acoustic%20Tasks/Adult%20Acoustic%20Tasks.md">
         <br>🎤<br>
         <strong>All Adult Acoustic Tasks</strong>
       </a>
       <br><sub>🟢 15 active</sub><br><sub>🗄️ 14 retired</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <a href="docs/Adults/Questionnaires/Adult%20Questionnaires.md">
         <br>📝<br>
         <strong>All Adult Questionnaires</strong>
       </a>
       <br><sub>🟢 16 active</sub><br><sub>🗄️ 4 retired</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <a href="docs/Adults/Diagnoses/Adult%20Diagnoses.md">
         <br>🏥<br>
         <strong>All Adult Diagnoses</strong>
       </a>
       <br><sub>🩺 19 disorders</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <a href="docs/Adults/eConsents/Adult%20eConsents.md">
         <br>✍️<br>
         <strong>eConsents</strong>
       </a>
       <br><sub>🏛️ 2 sites</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <a href="docs/Adults/PDFs/Adult%20PDFs.md">
         <br>📄<br>
         <strong>All Adult PDFs</strong>
@@ -98,7 +100,7 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   </tr>
 </table>
 
-## 📋 Pediatric Protocols
+### 📋 Pediatric Protocols
 
 <table align="center">
   <tr>
@@ -133,25 +135,25 @@ REDCap Data Dictionary and Metadata for the Bridge2AI project.
   </tr>
 </table>
 
-### Additional Resources
+#### Additional Resources
 
 <table align="center">
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <a href="docs/Pediatrics/Acoustic%20Tasks/Pediatric%20Acoustic%20Tasks.md">
         <br>🎤<br>
         <strong>All Pediatric Acoustic Tasks</strong>
       </a>
       <br><sub>🟢 15 active</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <a href="docs/Pediatrics/Questionnaires/Pediatric%20Questionnaires.md">
         <br>📝<br>
         <strong>All Pediatric Questionnaires</strong>
       </a>
       <br><sub>🟢 6 active</sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="33%">
       <a href="docs/Pediatrics/PDFs/Pediatric%20PDFs.md">
         <br>📄<br>
         <strong>All Pediatric PDFs</strong>
@@ -171,34 +173,45 @@ If you are citing this repository directly (for example, a specific version of t
 
 > Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.8.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
-## 🧩 How to Import into REDCap
+## 📜 Credits
 
-To use the Bridge2AI-Voice instruments in your own REDCap project, download one of the two files from the version row in the table above and follow the matching option below.
-
-**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
-
-**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
-
-## 🧩 REDCap Resources
+For copyrights, references, and permissions for the validated questionnaires and acoustic tasks used in the Bridge2AI-Voice protocols, see [CREDITS.md](CREDITS.md).
 
 ## 🤝 License
 
 See [LICENSE](./LICENSE)
 
-## 🙏 Acknowledgments
+## 🧩 REDCap
+
+The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a full Project XML for one-step import, a Data Dictionary CSV, a Code Book, and per-instrument ZIPs for selective use. Translations will appear under the **Spanish** column as they become available.
+
+### 📦 Assets
+
+| Asset | Description | Download |
+| :-: | :-- | :-: |
+| 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
+| 🗜️ Project XML | Full REDCap project XML for one-step import into another REDCap instance | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
+| 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets | _coming soon_ |
+| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import | [📦 Browse all 63 instruments](docs/REDCap/Instruments.md) |
+
+### 🚀 Import into REDCap
+
+Pick the option that matches your situation; both files are linked in the Assets table above.
+
+**Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, and repeating-instrument settings — with no participant data included.
+
+**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup.
+
+### 🙏 About REDCap
 
 This study was supported in part by the Weill Cornell Medicine Clinical and Translational Science Center (CTSC) grant (UL1 TR 002384).
 
 Study data were collected and managed using REDCap electronic data capture tools hosted at Weill Cornell Medicine.<sup>1,2,3</sup> REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
 
-## 🔖 Citations
+### 🔖 REDCap Citations
 
 <sup>1</sup>PA Harris, R Taylor, R Thielke, J Payne, N Gonzalez, JG. Conde, Research electronic data capture (REDCap) – A metadata-driven methodology and workflow process for providing translational research informatics support, J Biomed Inform. 2009 Apr;42(2):377-81.
 
-<sup>2</sup>PA Harris, R Taylor, BL Minor, V Elliott, M Fernandez, L O’Neal, L McLeod, G Delacqua, F Delacqua, J Kirby, SN Duda, REDCap Consortium, The REDCap consortium: Building an international community of software partners, J Biomed Inform. 2019 May 9 [doi: 10.1016/j.jbi.2019.103208]
+<sup>2</sup>PA Harris, R Taylor, BL Minor, V Elliott, M Fernandez, L O'Neal, L McLeod, G Delacqua, F Delacqua, J Kirby, SN Duda, REDCap Consortium, The REDCap consortium: Building an international community of software partners, J Biomed Inform. 2019 May 9 [doi: 10.1016/j.jbi.2019.103208]
 
 <sup>3</sup>Lawrence CE, Dunkel L, McEver M, Israel T, Taylor R, Chiriboga G, Goins KV, Rahn EJ, Mudano AS, Roberson ED, Chambless C, Wadley VG, Danila MI, Fischer MA, Joosten Y, Saag KG, Allison JJ, Lemon SC, Harris PA, "A REDCap-based model for electronic consent (eConsent): Moving toward a more personalized consent", J Clin Transl Sci. 2020 Apr 3;4(4):345-353. https://doi.org/10.1017/cts.2020.30
-
-## 📜 Credits
-
-For copyrights, references, and permissions for the validated questionnaires and acoustic tasks used in the Bridge2AI-Voice protocols, see [CREDITS.md](CREDITS.md).
