@@ -9,7 +9,7 @@ message: >-
   If you use this dataset, please cite it using the metadata from this file.
 type: dataset
 version: 4.8.0
-date-released: 2026-05-12
+date-released: 2026-05-13
 doi: 10.5281/zenodo.12760724
 url: 'https://b2ai-voice.org/'
 preferred-citation:
