@@ -19,6 +19,9 @@
 
 Breathing sounds can also provide information on your health, let’s record them.
 
+> [!IMPORTANT]  
+> The recordings of this acoustic task are repeated twice, yielding a **total of 10 recordings**.
+
 First, let's hear you breathe comfortably for 30 seconds
 
 ![mic][mic]
