@@ -165,13 +165,17 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 ## 📚 How to Cite
 
-If you use the Bridge2AI-Voice protocols or this data dictionary in your work, please cite the Interspeech 2024 paper:
-
-> Rameau, A., Ghosh, S., Sigaras, A., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M., Johnson, A., Dorr, D., Payne, P., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bensoussan, Y. (2024). Developing Multi-Disorder Voice Protocols: A team science approach involving clinical expertise, bioethics, standards, and DEI. *Proc. Interspeech 2024*, 1445–1449. [https://doi.org/10.21437/Interspeech.2024-1926](https://doi.org/10.21437/Interspeech.2024-1926)
-
 If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
 
 > Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.8.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+
+If you use the Bridge2AI-Voice Adult protocols in your work, please cite the Interspeech 2024 paper:
+
+> Rameau, A., Ghosh, S., Sigaras, A., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M., Johnson, A., Dorr, D., Payne, P., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bensoussan, Y. (2024). Developing Multi-Disorder Voice Protocols: A team science approach involving clinical expertise, bioethics, standards, and DEI. *Proc. Interspeech 2024*, 1445–1449. [https://doi.org/10.21437/Interspeech.2024-1926](https://doi.org/10.21437/Interspeech.2024-1926)
+
+If you use the Bridge2AI-Voice Pediatric protocols in your work, please cite the Int J Pediatr Otorhinolaryngol. 2025 paper:
+
+> Russell L, Bensoussan Y, Ng E, Johnson A, Miao S, Wolter NE, Propst EJ, Siu JM. Developing age-specific protocols for pediatric voice databases in artificial intelligence research. Int J Pediatr Otorhinolaryngol. 2025 Sep;196:112455. doi: 10.1016/j.ijporl.2025.112455. Epub 2025 Jul 5. PMID: 40680403.
 
 ## 📜 Credits
 
