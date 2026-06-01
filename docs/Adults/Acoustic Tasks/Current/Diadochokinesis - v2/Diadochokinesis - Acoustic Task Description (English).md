@@ -8,16 +8,15 @@
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
 [audio]: https://custom-icon-badges.demolab.com/badge/Task_Demonstration-blue.svg?logo=volume-2&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-[recording_5]: https://img.shields.io/badge/Recording%205-white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Diadochokinesis%20(v2)--puh-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Diadochokinesis%20(v2)--tuh-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Diadochokinesis%20(v2)--kuh-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Diadochokinesis%20(v2)--puhtuhkuh-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Diadochokinesis%20(v2)--buttercup-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Diadochokinesis
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This task helps us analyze the ease and precision of speech sound productions.
 
@@ -30,7 +29,6 @@ Please press the play button to listen to the demonstration on how to complete t
 ---
 
 ![recording_2][recording_2]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This task helps us analyze the ease and precision of speech sound productions.
 
@@ -43,7 +41,6 @@ Please press the play button to listen to the demonstration on how to complete t
 ---
 
 ![recording_3][recording_3]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This task helps us analyze the ease and precision of speech sound productions.
 
@@ -56,7 +53,6 @@ Please press the play button to listen to the demonstration on how to complete t
 ---
 
 ![recording_4][recording_4]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This task helps us analyze the ease and precision of speech sound productions.
 
@@ -69,7 +65,6 @@ Please press the play button to listen to the demonstration on how to complete t
 ---
 
 ![recording_5][recording_5]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This task helps us analyze the ease and precision of speech sound productions.
 

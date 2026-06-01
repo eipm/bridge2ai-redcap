@@ -8,13 +8,12 @@
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
 [video]: https://custom-icon-badges.demolab.com/badge/Video-red.svg?logo=youtube&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Glides--Low%20to%20High-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Glides--High%20to%20Low-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Ejercicio de Rango Vocal
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Complete las siguientes tareas:
 
@@ -29,7 +28,6 @@ Cuando esté listo, presione el botón de grabar y use el sonido “i” para mo
 ---
 
 ![recording_2][recording_2]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Complete las siguientes tareas:
 
