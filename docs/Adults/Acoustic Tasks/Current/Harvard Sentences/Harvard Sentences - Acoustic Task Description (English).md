@@ -28,11 +28,14 @@
 [recording_18]: https://custom-icon-badges.demolab.com/badge/Recording%208-Harvard%20Sentences--List%2043--8-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 [recording_19]: https://custom-icon-badges.demolab.com/badge/Recording%209-Harvard%20Sentences--List%2043--9-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 [recording_20]: https://custom-icon-badges.demolab.com/badge/Recording%2010-Harvard%20Sentences--List%2043--10-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[harvard_sentences_list]: https://custom-icon-badges.demolab.com/badge/Harvard_Sentences_List-lightgrey.svg?logo=list&logoSource=feather
 
 # Harvard Sentences
 
 The following sentences include two example lists (37 and 43) from the set of 72 Harvard Sentences lists.
 For the full list of sentences, please refer to the [Harvard Sentences List](HarvardSentences.md) document.
+
+[![harvard_sentences_list][harvard_sentences_list]](HarvardSentences.md)
 
 ---
 

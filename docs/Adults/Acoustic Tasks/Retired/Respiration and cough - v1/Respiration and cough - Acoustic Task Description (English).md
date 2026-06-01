@@ -8,12 +8,16 @@
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
 [audio]: https://custom-icon-badges.demolab.com/badge/Task_Demonstration-blue.svg?logo=volume-2&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-[recording_5]: https://img.shields.io/badge/Recording%205-white
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Respiration%20and%20cough--Breath--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Respiration%20and%20cough--FiveBreaths--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Respiration%20and%20cough--FiveBreaths--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Respiration%20and%20cough--ThreeQuickBreaths--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Respiration%20and%20cough--Cough--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_6]: https://custom-icon-badges.demolab.com/badge/Recording%206-Respiration%20and%20cough--Breath--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_7]: https://custom-icon-badges.demolab.com/badge/Recording%207-Respiration%20and%20cough--FiveBreaths--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_8]: https://custom-icon-badges.demolab.com/badge/Recording%208-Respiration%20and%20cough--FiveBreaths--4-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_9]: https://custom-icon-badges.demolab.com/badge/Recording%209-Respiration%20and%20cough--ThreeQuickBreaths--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_10]: https://custom-icon-badges.demolab.com/badge/Recording%2010-Respiration%20and%20cough--Cough--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Respiration and cough
 
@@ -22,9 +26,8 @@ Breathing sounds can also provide information on your health, let’s record the
 > [!IMPORTANT]  
 > The recordings of this acoustic task are repeated twice, yielding a **total of 10 recordings**.
 
-![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+- ![recording_1][recording_1]
+- ![recording_6][recording_6]
 
 First, let's hear you breathe comfortably for 30 seconds
 
@@ -32,8 +35,8 @@ First, let's hear you breathe comfortably for 30 seconds
 
 ---
 
-![recording_2][recording_2]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+- ![recording_2][recording_2]
+- ![recording_7][recording_7]
 
 After pressing on record, take 5 big breaths in and out through your nose with your mouth closed.
 
@@ -41,8 +44,8 @@ After pressing on record, take 5 big breaths in and out through your nose with y
 
 ----
 
-![recording_3][recording_3]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+- ![recording_3][recording_3]
+- ![recording_8][recording_8]
 
 After pressing on record, take 5 big breaths in and out through your mouth.
 
@@ -50,8 +53,8 @@ After pressing on record, take 5 big breaths in and out through your mouth.
 
 ---
 
-![recording_4][recording_4]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+- ![recording_4][recording_4]
+- ![recording_9][recording_9]
 
 After pressing on record, exhale, then inhale quickly through your mouth, as if you are trying to catch your breath. Record 3 of these breaths in a single recording.
 
@@ -59,8 +62,8 @@ After pressing on record, exhale, then inhale quickly through your mouth, as if 
 
 ---
 
-![recording_5][recording_5]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+- ![recording_5][recording_5]
+- ![recording_10][recording_10]
 
 After pressing record, cough 5 times
 
