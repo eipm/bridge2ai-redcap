@@ -7,7 +7,7 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Respiration%20and%20cough--Breath--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Rainbow%20Passage-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Rainbow Passage
 
