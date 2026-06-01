@@ -18,6 +18,7 @@
 # Respiration and cough
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Breathing sounds can also provide information on your health. Let's record them.
 
@@ -28,6 +29,7 @@ After pressing on record, **breathe comfortably through your mouth** for 20 seco
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Breathing sounds can also provide information on your health. Let's record them.
 
@@ -38,6 +40,7 @@ After pressing on record, exhale normally, then inhale quickly through your mout
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Breathing sounds can also provide information on your health. Let's record them.
 
@@ -48,6 +51,7 @@ After pressing on record, take **3 deep breaths** in and out **through your nose
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Breathing sounds can also provide information on your health. Let's record them.
 
@@ -58,6 +62,7 @@ After pressing on record, take **3 deep breaths** in and out **through your mout
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Breathing sounds can also provide information on your health. Let's record them.
 

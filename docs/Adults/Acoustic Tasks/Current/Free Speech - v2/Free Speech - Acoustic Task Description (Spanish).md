@@ -14,6 +14,7 @@
 # Habla espontánea
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 
@@ -24,6 +25,7 @@ Esta sección está diseñada para escucharlo hablar libremente al responder una
 ![mic][mic]
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 
@@ -36,6 +38,7 @@ Pensando en las últimas dos semanas, describa su estado de ánimo general, ya s
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 

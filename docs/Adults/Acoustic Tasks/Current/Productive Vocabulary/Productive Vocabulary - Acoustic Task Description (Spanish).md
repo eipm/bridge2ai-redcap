@@ -13,6 +13,7 @@
 # Vocabulario Productivo
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 [![word][word]](Productive%20Vocabulary%20Words-es-419.md)
 

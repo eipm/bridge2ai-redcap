@@ -19,6 +19,7 @@
 # Oraciones CAPE-V
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 
@@ -29,6 +30,7 @@ Este bus de aquí para poco en el mes de agosto.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 
@@ -39,6 +41,7 @@ Hacen más fuerza si crece la asociación.
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 
@@ -49,6 +52,7 @@ Hoy no hay agua en el aula.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 
@@ -59,6 +63,7 @@ Ayer. Hoy. Ahora. A tiempo.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 
@@ -69,6 +74,7 @@ Me acompañan veinticinco niñas.
 ---
 
 ![recording_6][recording_6]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea las siguientes frases en voz alta con su voz habitual.
 

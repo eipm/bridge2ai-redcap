@@ -17,6 +17,7 @@
 # Respiración y tos
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
@@ -27,6 +28,7 @@ Después de presionar el botón de grabar, **respire cómodamente por la boca** 
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
@@ -37,6 +39,7 @@ Después de presionar el botón de grabar, exhale normalmente, luego inhale ráp
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
@@ -47,6 +50,7 @@ Después de presionar el botón de grabar, tome **3 respiraciones profundas por 
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 
@@ -57,6 +61,7 @@ Después de presionar el botón de grabar, tome **3 respiraciones profundas por 
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Los sonidos de la respiración también pueden proporcionar información sobre su salud. Vamos a grabarlos.
 

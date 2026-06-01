@@ -18,6 +18,7 @@
 # Cape V sentences
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -28,6 +29,7 @@ The blue spot is on the key again.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -38,6 +40,7 @@ He helped her hurry home.
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -48,6 +51,7 @@ We were away a year ago.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -58,6 +62,7 @@ I eat eggs every morning.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -68,6 +73,7 @@ My mama makes lemon muffins.
 ---
 
 ![recording_6][recording_6]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 

@@ -22,6 +22,7 @@ This task helps us analyze the ease and precision of speech sound productions.
 Say the syllables as they appear on your screen – Pa / Ta / Ka.
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Record yourself repeating the syllable /PA/ as fast as possible 10 times.
 
@@ -30,6 +31,7 @@ Record yourself repeating the syllable /PA/ as fast as possible 10 times.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Record yourself repeating the syllable /TA/ as fast as possible 10 times.
 
@@ -38,6 +40,7 @@ Record yourself repeating the syllable /TA/ as fast as possible 10 times.
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Record yourself repeating the syllable /KA/ as fast as possible 10 times.
 
@@ -46,6 +49,7 @@ Record yourself repeating the syllable /KA/ as fast as possible 10 times.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Now repeat the word /Pataka/ as fast as possible 10 times.
 
@@ -54,6 +58,7 @@ Now repeat the word /Pataka/ as fast as possible 10 times.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Now repeat the word /buttercup/ as fast as possible 10 times.
 

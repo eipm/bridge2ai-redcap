@@ -17,6 +17,7 @@
 # Diadococinesia
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
@@ -29,6 +30,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
@@ -41,6 +43,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
@@ -53,6 +56,7 @@ Por favor, presiona el botón de reproducción para escuchar la demostración so
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 
@@ -65,6 +69,7 @@ Por favor, presione el botón de reproducción para escuchar la demostración so
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar la facilidad y precisión de las producciones de sonidos del habla.
 

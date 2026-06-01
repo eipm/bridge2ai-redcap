@@ -22,11 +22,18 @@ Breathing sounds can also provide information on your health, let’s record the
 > [!IMPORTANT]  
 > The recordings of this acoustic task are repeated twice, yielding a **total of 10 recordings**.
 
+![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+
 First, let's hear you breathe comfortably for 30 seconds
 
 ![mic][mic]
 
 ---
+
+![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 After pressing on record, take 5 big breaths in and out through your nose with your mouth closed.
 
@@ -34,17 +41,27 @@ After pressing on record, take 5 big breaths in and out through your nose with y
 
 ----
 
+![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+
 After pressing on record, take 5 big breaths in and out through your mouth.
 
 ![mic][mic]
 
 ---
 
+![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+
 After pressing on record, exhale, then inhale quickly through your mouth, as if you are trying to catch your breath. Record 3 of these breaths in a single recording.
 
 ![mic][mic]
 
 ---
+
+![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
+
 After pressing record, cough 5 times
 
 ![mic][mic]

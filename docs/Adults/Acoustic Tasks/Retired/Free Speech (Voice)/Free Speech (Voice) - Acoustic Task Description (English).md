@@ -13,6 +13,7 @@
 # Free Speech
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please answer the following question. You can read the question, then click on the recording button when you are ready to answer. You can keep talking until the timer is up.
 

@@ -33,6 +33,7 @@
 # Harvard Sentences
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -43,6 +44,7 @@ Feed the white mouse some flower seeds.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -53,6 +55,7 @@ The thaw came early and freed the stream.
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -63,6 +66,7 @@ He took the lead and kept it the whole distance.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -73,6 +77,7 @@ The key you designed will fit the lock.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -83,6 +88,7 @@ Plead to the council to free the poor thief.
 ---
 
 ![recording_6][recording_6]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -93,6 +99,7 @@ Better hash is made of rare beef.
 ---
 
 ![recording_7][recording_7]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -103,6 +110,7 @@ This plank was made for walking on.
 ---
 
 ![recording_8][recording_8]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -113,6 +121,7 @@ The lake sparkled in the red hot sun.
 ---
 
 ![recording_9][recording_9]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -123,6 +132,7 @@ He crawled with care along the ledge.
 ---
 
 ![recording_10][recording_10]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -133,6 +143,7 @@ Tend the sheep while the dog wanders.
 ---
 
 ![recording_11][recording_11]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -143,6 +154,7 @@ Seed is needed to plant the spring corn.
 ---
 
 ![recording_12][recording_12]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -153,6 +165,7 @@ Draw the chart with heavy black lines.
 ---
 
 ![recording_13][recording_13]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -163,6 +176,7 @@ The boy owed his pal thirty cents.
 ---
 
 ![recording_14][recording_14]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -173,6 +187,7 @@ The chap slipped into the crowd and was lost.
 ---
 
 ![recording_15][recording_15]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -183,6 +198,7 @@ Hats are worn to tea and not to dinner.
 ---
 
 ![recording_16][recording_16]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -193,6 +209,7 @@ The ramp led up to the wide highway.
 ---
 
 ![recording_17][recording_17]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -203,6 +220,7 @@ Beat the dust from the rug onto the lawn.
 ---
 
 ![recording_18][recording_18]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -213,6 +231,7 @@ Say it slowly but make it ring clear.
 ---
 
 ![recording_19][recording_19]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 
@@ -223,6 +242,7 @@ The straw nest housed five robins.
 ---
 
 ![recording_20][recording_20]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Please read the following sentences out loud in your typical voice.
 

@@ -14,6 +14,7 @@
 # Ejercicio de Rango Vocal
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Complete las siguientes tareas:
 
@@ -28,6 +29,7 @@ Cuando esté listo, presione el botón de grabar y use el sonido “i” para mo
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Complete las siguientes tareas:
 

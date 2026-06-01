@@ -20,6 +20,7 @@
 Please read the following passage out loud in your typical voice.
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 The blue spot is on the key again.
 
@@ -28,6 +29,7 @@ The blue spot is on the key again.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 How hard did he hit him?
 
@@ -36,6 +38,7 @@ How hard did he hit him?
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 We were away a year ago.
 
@@ -44,6 +47,7 @@ We were away a year ago.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 We eat eggs every Easter.
 
@@ -52,6 +56,7 @@ We eat eggs every Easter.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 My mama makes lemon muffins.
 
@@ -60,6 +65,7 @@ My mama makes lemon muffins.
 ---
 
 ![recording_6][recording_6]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Peter will keep at the peak.
 

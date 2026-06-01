@@ -12,9 +12,11 @@
 
 [recording_1]: https://img.shields.io/badge/Recording%201-white
 
+
 # Word-color Stroop
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 
 This exercise asks you to name out loud the color in which a word is displayed. Sometimes the word will be a color word: do not read the word aloud, just state the color in which it's displayed. For example, if you see the word "brown", and its letters are displayed in blue, you will say the word "blue".

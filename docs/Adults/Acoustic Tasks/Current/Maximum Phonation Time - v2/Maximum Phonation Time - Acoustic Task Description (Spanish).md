@@ -15,6 +15,7 @@
 # Tiempo máximo de fonación
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar cómo su respiración está conectada con su voz.
 
@@ -25,6 +26,7 @@ Respire profundamente, presione el botón de grabar y mantenga el sonido de “a
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar cómo su respiración está conectada con su voz.
 

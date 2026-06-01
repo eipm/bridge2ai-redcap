@@ -12,6 +12,7 @@
 # El pasaje de la oruga
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Este es un pasaje que contiene sonidos del habla en inglés por frecuencia de sonido para evaluar su capacidad para producir sonidos del habla.
 

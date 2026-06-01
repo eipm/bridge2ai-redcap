@@ -13,6 +13,7 @@
 # Cinderella Story
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 You'll receive a hard copy of the Cinderella storybook from our study team to refresh your memory of the story
 

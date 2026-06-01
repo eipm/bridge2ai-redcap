@@ -22,6 +22,7 @@
 # Recuerdo de la historia
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 A continuación, se le presentará una historia sobre un niño y una rana. Puede hacer clic para avanzar y ver la siguiente imagen de la serie. Si lo desea, puede ir hacia adelante y hacia atrás tantas veces como necesite, hasta sentirse cómodo con la historia.
 

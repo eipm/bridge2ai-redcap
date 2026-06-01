@@ -15,6 +15,7 @@
 # Prueba Stroop de palabras y colores
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Este ejercicio te pide que digas en voz alta el color en el que se muestra una palabra. A veces, la palabra será un nombre de color: no leas la palabra en voz alta, solo indica el color en el que está mostrada. Por ejemplo, si ves la palabra "marrón" y sus letras están mostradas en azul, dirás la palabra "azul".
 

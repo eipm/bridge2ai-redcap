@@ -33,6 +33,7 @@
 # Las oraciones de Harvard
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -43,6 +44,7 @@ Fijó sus metas pronto y siguió hasta el final.
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -53,6 +55,7 @@ Dale al barro la forma de un vaso largo.
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -63,6 +66,7 @@ Ponen siete sellos en cada hoja.
 ---
 
 ![recording_4][recording_4]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -73,6 +77,7 @@ Un cordón duro ata mejor las botas.
 ---
 
 ![recording_5][recording_5]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -83,6 +88,7 @@ Es muy cruel tener que luchar en la guerra.
 ---
 
 ![recording_6][recording_6]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -93,6 +99,7 @@ La mosca subió a lo largo de la pared blanca.
 ---
 
 ![recording_7][recording_7]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -103,6 +110,7 @@ Un bono cuesta cinco euros los lunes.
 ---
 
 ![recording_8][recording_8]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -113,6 +121,7 @@ Lleva quince días en cama con fiebre.
 ---
 
 ![recording_9][recording_9]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -123,6 +132,7 @@ Su hijo batió la marca de salto en pista.
 ---
 
 ![recording_10][recording_10]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -133,6 +143,7 @@ Cierra la puerta con llave para que no entren.
 ---
 
 ![recording_11][recording_11]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -143,6 +154,7 @@ El premio final se gana con mucho valor.
 ---
 
 ![recording_12][recording_12]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -153,6 +165,7 @@ Los vientos del norte traen las gripes y fiebres.
 ---
 
 ![recording_13][recording_13]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -163,6 +176,7 @@ La hierba y las hojas se mojan con la débil lluvia.
 ---
 
 ![recording_14][recording_14]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -173,6 +187,7 @@ Se quedó dentro de casa sin salir para nada.
 ---
 
 ![recording_15][recording_15]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -183,6 +198,7 @@ Los niños suelen tener mucho miedo.
 ---
 
 ![recording_16][recording_16]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -193,6 +209,7 @@ Quita el foco que me hace daño en los ojos.
 ---
 
 ![recording_17][recording_17]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -203,6 +220,7 @@ Aunque su ropa es cara, es muy fea.
 ---
 
 ![recording_18][recording_18]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -213,6 +231,7 @@ El perro guió al hombre ciego en la calle.
 ---
 
 ![recording_19][recording_19]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 
@@ -223,6 +242,7 @@ Una grúa es como un ave con patas largas.
 ---
 
 ![recording_20][recording_20]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Por favor, lea el siguientes frases en voz alta con su voz habitual.
 

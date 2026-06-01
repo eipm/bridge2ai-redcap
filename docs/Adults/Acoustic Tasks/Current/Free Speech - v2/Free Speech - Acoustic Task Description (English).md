@@ -15,6 +15,7 @@
 # Free speech
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 
@@ -27,6 +28,7 @@ What is your favorite season (winter, fall, summer, or spring) and why? Talk abo
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 
@@ -39,6 +41,7 @@ Thinking back over the past 2 weeks, describe your general mood, either positive
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 

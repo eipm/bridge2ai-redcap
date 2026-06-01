@@ -20,6 +20,7 @@ This section is meant to hear you speak freely by answering an open-ended questi
 Please answer the following questions and record your answer. Keep talking until the time stops. Do not record yourself reading the prompt and avoid any information that could identify an individual.
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Can you talk to us about why you are interested by this study? Who told you about it? Why is it meaningful or valuable to you? How do you think it will help patients in the future?
 
@@ -28,6 +29,7 @@ Can you talk to us about why you are interested by this study? Who told you abou
 ---
 
 ![recording_2][recording_2]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 If you are enrolled due to a health condition, can you tell us about it? When did it start, what kind of symptoms have you had and for how long? Tell us how you are managing it and how you are doing? If you are healthy and don’t have any health conditions, please tell us about how you stay healthy.
 
@@ -36,6 +38,7 @@ If you are enrolled due to a health condition, can you tell us about it? When di
 ---
 
 ![recording_3][recording_3]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Can you tell us about your mood in the past couple of weeks? What makes you feel happiness and what makes you feel sadness or stress?
 

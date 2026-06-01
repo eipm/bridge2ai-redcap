@@ -13,6 +13,7 @@
 # Animal Fluency
 
 ![recording_1][recording_1]
+![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Say as many animals as you can in one minute, avoid repeating words (continue trying until time is up.)
 
