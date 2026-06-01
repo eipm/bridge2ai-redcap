@@ -8,12 +8,11 @@
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
 [audio]: https://custom-icon-badges.demolab.com/badge/Demostración_de_Tarea-blue.svg?logo=volume-2&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Prolonged%20Vowel-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Vocal prolongada
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta tarea nos ayuda a analizar características en su voz.
 
