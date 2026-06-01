@@ -6,13 +6,12 @@
 
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
-[recording_1]: https://img.shields.io/badge/Recording%201-white
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Story%20recall%20(v2)-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Story Recall
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Below you will be presented with a story about a boy and a frog. You may click forward to see the next image in the series. Feel free to move back and forth as much as you like until you are comfortable with the story.
 

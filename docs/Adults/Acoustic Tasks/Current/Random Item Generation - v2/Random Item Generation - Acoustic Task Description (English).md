@@ -11,7 +11,7 @@
 [category_1]: https://custom-icon-badges.demolab.com/badge/Category_1-brown.svg?logo=list&logoSource=feather
 [category_2]: https://custom-icon-badges.demolab.com/badge/Category_2-brown.svg?logo=list&logoSource=feather
 
-[recording_1]: https://img.shields.io/badge/Recording%201-white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Random%20Item%20Generation-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 
 # Random Item Generation

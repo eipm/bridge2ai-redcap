@@ -7,14 +7,13 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Free%20speech%20(v2)--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Free%20speech%20(v2)--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Free%20speech%20(v2)--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Habla espontánea
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 
@@ -25,7 +24,6 @@ Esta sección está diseñada para escucharlo hablar libremente al responder una
 ![mic][mic]
 
 ![recording_2][recording_2]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 
@@ -38,7 +36,6 @@ Pensando en las últimas dos semanas, describa su estado de ánimo general, ya s
 ---
 
 ![recording_3][recording_3]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
 

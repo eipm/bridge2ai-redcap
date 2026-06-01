@@ -6,23 +6,12 @@
 
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
-[recording_1]: https://img.shields.io/badge/Recording%201-white
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
-[image_1]: https://custom-icon-badges.demolab.com/badge/Image_1-grey.svg?logo=image&logoSource=feather
-[image_2]: https://custom-icon-badges.demolab.com/badge/Image_2-grey.svg?logo=image&logoSource=feather
-[image_3]: https://custom-icon-badges.demolab.com/badge/Image_3-grey.svg?logo=image&logoSource=feather
-[image_4]: https://custom-icon-badges.demolab.com/badge/Image_4-grey.svg?logo=image&logoSource=feather
-[image_5]: https://custom-icon-badges.demolab.com/badge/Image_5-grey.svg?logo=image&logoSource=feather
-[image_6]: https://custom-icon-badges.demolab.com/badge/Image_6-grey.svg?logo=image&logoSource=feather
-[image_7]: https://custom-icon-badges.demolab.com/badge/Image_7-grey.svg?logo=image&logoSource=feather
-[image_8]: https://custom-icon-badges.demolab.com/badge/Image_8-grey.svg?logo=image&logoSource=feather
-[image_9]: https://custom-icon-badges.demolab.com/badge/Image_9-grey.svg?logo=image&logoSource=feather
-[image_10]: https://custom-icon-badges.demolab.com/badge/Image_10-grey.svg?logo=image&logoSource=feather
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Story%20recall%20(v2)-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Recuerdo de la historia
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 A continuación, se le presentará una historia sobre un niño y una rana. Puede hacer clic para avanzar y ver la siguiente imagen de la serie. Si lo desea, puede ir hacia adelante y hacia atrás tantas veces como necesite, hasta sentirse cómodo con la historia.
 

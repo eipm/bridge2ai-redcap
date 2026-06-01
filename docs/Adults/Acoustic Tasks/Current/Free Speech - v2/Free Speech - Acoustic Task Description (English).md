@@ -7,15 +7,13 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Free%20speech%20(v2)--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Free%20speech%20(v2)--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Free%20speech%20(v2)--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Free speech
 
 ![recording_1][recording_1]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 
@@ -28,7 +26,6 @@ What is your favorite season (winter, fall, summer, or spring) and why? Talk abo
 ---
 
 ![recording_2][recording_2]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 
@@ -41,7 +38,6 @@ Thinking back over the past 2 weeks, describe your general mood, either positive
 ---
 
 ![recording_3][recording_3]
-![My Badge](https://custom-icon-badges.demolab.com/badge/Recording-Recording%20Name-8A2BE2.svg?logo=b2ai_voice&logoColor=white)
 
 This section is meant to hear you speak freely by answering an open-ended question.
 
