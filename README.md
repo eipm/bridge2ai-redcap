@@ -12,7 +12,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 | Version | Date YYYY-mm-dd |
 | :-----: | :-------------: |
-| v4.8.0  |   2026-06-01    |
+| v4.8.0  |   2026-06-02    |
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="images/main_logo_white.svg"><img src="images/main_logo_black.svg" height="32" align="absmiddle" alt=""></picture> Bridge2AI-Voice Protocols
 
