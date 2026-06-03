@@ -17,7 +17,6 @@
 
 Wow! You found so many interesting things in that book! You probably know some letters and numbers too.
 
-
 ---
 
 Let's sing our ABCs together! A,B... When you are ready, press "record".
