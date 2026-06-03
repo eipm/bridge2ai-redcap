@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:57:36",
+    "timestamp": "2026-06-03 18:20:09",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
                 "translation": "Cuestionario - Metadatos"
             },
             "label": {
                 "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
                 "translation": "ID de Sesión"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "807586fa63",
+                "prompt": "Field label translation:",
+                "default": "Acoustic Task ID",
                 "translation": "ID de tarea acústica"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
                 "translation": "Inicio del Cuestionario"
             }
         },
@@ -41,6 +50,8 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "93b1208229",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At\n",
                 "translation": "Finalización del Cuestionario"
             }
         },
@@ -49,6 +60,8 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
                 "translation": "Duración del Cuestionario (segundos)"
             }
         },
@@ -56,19 +69,25 @@
             "id": "vocabulary_origin",
             "form": "q_neuro_productive_vocabulary",
             "label": {
-                "hash": "62bb4c1cd7",
-                "translation": ""
+                "hash": "d51abb8c3d",
+                "prompt": "Field label translation:",
+                "default": "Productive Vocabulary - origin",
+                "translation": "Vocabulario Productivo - origen"
             },
             "enum": [
                 {
                     "id": "app",
                     "hash": "2e9a177f68",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
                 },
                 {
                     "id": "website",
                     "hash": "7e41ce39bd",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
                 }
             ]
         },
@@ -76,19 +95,25 @@
             "id": "vocabulary_via",
             "form": "q_neuro_productive_vocabulary",
             "label": {
-                "hash": "250ce071d3",
-                "translation": ""
+                "hash": "fb847c0f19",
+                "prompt": "Field label translation:",
+                "default": "Productive Vocabulary - via",
+                "translation": "Vocabulario Productivo - vía"
             },
             "enum": [
                 {
                     "id": "dataCollector",
                     "hash": "16ae58771c",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
                 },
                 {
                     "id": "participant",
                     "hash": "a77366e97a",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
                 }
             ]
         },
@@ -96,19 +121,25 @@
             "id": "vocabulary_language",
             "form": "q_neuro_productive_vocabulary",
             "label": {
-                "hash": "c524fbdf3c",
-                "translation": ""
+                "hash": "af416084b9",
+                "prompt": "Field label translation:",
+                "default": "Productive Vocabulary - Language",
+                "translation": "Vocabulario Productivo - Idioma"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "649df08a44",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
                 },
                 {
                     "id": 3,
                     "hash": "8df7f1b361",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
                 }
             ]
         },
@@ -117,10 +148,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "14d5c9fde2",
+                "prompt": "Section header translation:",
+                "default": "Item 1",
                 "translation": "Ítem 1"
             },
             "label": {
                 "hash": "c48d566bcb",
+                "prompt": "Field label translation:",
+                "default": "Item 1\nWord",
                 "translation": "Ítem 1\nPalabra"
             }
         },
@@ -129,22 +164,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "2466c74f35",
+                "prompt": "Field label translation:",
+                "default": "Item 1\nWord Difficulty",
                 "translation": "Ítem 1\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -154,17 +197,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "b7fb34830d",
+                "prompt": "Field label translation:",
+                "default": "Item 1\nCorrect?",
                 "translation": "Ítem 1\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -174,10 +223,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "18ced5c76d",
+                "prompt": "Section header translation:",
+                "default": "Item 2",
                 "translation": "Ítem 2"
             },
             "label": {
                 "hash": "83392ca261",
+                "prompt": "Field label translation:",
+                "default": "Item 2\nWord",
                 "translation": "Ítem 2\nPalabra"
             }
         },
@@ -186,22 +239,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "4868fbfcb0",
+                "prompt": "Field label translation:",
+                "default": "Item 2\nWord Difficulty",
                 "translation": "Ítem 2\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -211,17 +272,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "dd62ebbf19",
+                "prompt": "Field label translation:",
+                "default": "Item 2\nCorrect?",
                 "translation": "Ítem 2\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -231,10 +298,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "e44739c3e3",
+                "prompt": "Section header translation:",
+                "default": "Item 3",
                 "translation": "Ítem 3"
             },
             "label": {
                 "hash": "5db32b3b12",
+                "prompt": "Field label translation:",
+                "default": "Item 3\nWord",
                 "translation": "Ítem 3\nPalabra"
             }
         },
@@ -243,22 +314,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "ba422dee3d",
+                "prompt": "Field label translation:",
+                "default": "Item 3\nWord Difficulty",
                 "translation": "Ítem 3\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -268,17 +347,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "d818539566",
+                "prompt": "Field label translation:",
+                "default": "Item 3\nCorrect?",
                 "translation": "Ítem 3\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -288,10 +373,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "ed8246a860",
+                "prompt": "Section header translation:",
+                "default": "Item 4",
                 "translation": "Ítem 4"
             },
             "label": {
                 "hash": "98954db6aa",
+                "prompt": "Field label translation:",
+                "default": "Item 4\nWord",
                 "translation": "Ítem 4\nPalabra"
             }
         },
@@ -300,22 +389,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "ec2fa54ec6",
+                "prompt": "Field label translation:",
+                "default": "Item 4\nWord Difficulty",
                 "translation": "Ítem 4\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -325,17 +422,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "6ae6638292",
+                "prompt": "Field label translation:",
+                "default": "Item 4\nCorrect?",
                 "translation": "Ítem 4\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -345,10 +448,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "8ecb246101",
+                "prompt": "Section header translation:",
+                "default": "Item 5",
                 "translation": "Ítem 5"
             },
             "label": {
                 "hash": "0ae5e9456d",
+                "prompt": "Field label translation:",
+                "default": "Item 5\nWord",
                 "translation": "Ítem 5\nPalabra"
             }
         },
@@ -357,22 +464,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "a6d8fd1b51",
+                "prompt": "Field label translation:",
+                "default": "Item 5\nWord Difficulty",
                 "translation": "Ítem 5\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -382,17 +497,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "62e1fee57d",
+                "prompt": "Field label translation:",
+                "default": "Item 5\nCorrect?",
                 "translation": "Ítem 5\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -402,10 +523,14 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "907b665b2a",
+                "prompt": "Section header translation:",
+                "default": "Item 6",
                 "translation": "Ítem 6"
             },
             "label": {
                 "hash": "ce2b6df076",
+                "prompt": "Field label translation:",
+                "default": "Item 6\nWord",
                 "translation": "Ítem 6\nPalabra"
             }
         },
@@ -414,22 +539,30 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "60fd9ca380",
+                "prompt": "Field label translation:",
+                "default": "Item 6\nWord Difficulty",
                 "translation": "Ítem 6\nDificultad de la palabra"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 }
             ]
@@ -439,17 +572,23 @@
             "form": "q_neuro_productive_vocabulary",
             "label": {
                 "hash": "6f0b26a942",
+                "prompt": "Field label translation:",
+                "default": "Item 6\nCorrect?",
                 "translation": "Ítem 6\n¿Correcto?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -459,26 +598,36 @@
             "form": "q_neuro_productive_vocabulary",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]

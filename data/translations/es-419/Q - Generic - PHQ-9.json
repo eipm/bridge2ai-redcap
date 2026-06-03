@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:57:03",
+    "timestamp": "2026-06-03 18:15:40",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_generic_patient_health_questionnaire9",
             "header": {
                 "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
                 "translation": "Cuestionario - Metadatos"
             },
             "label": {
                 "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
                 "translation": "ID de Sesión"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
                 "translation": "Inicio del Cuestionario"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
                 "translation": "Finalización del Cuestionario"
             }
         },
@@ -41,6 +50,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
                 "translation": "Duración del Cuestionario (segundos)"
             }
         },
@@ -48,19 +59,25 @@
             "id": "phq_9_origin",
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
-                "hash": "94bc59e214",
-                "translation": ""
+                "hash": "444934c493",
+                "prompt": "Field label translation:",
+                "default": "Patient Health Questionnaire 9 - origin",
+                "translation": "Cuestionario sobre la salud del paciente-9 - origen"
             },
             "enum": [
                 {
                     "id": "app",
                     "hash": "2e9a177f68",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
                 },
                 {
                     "id": "website",
                     "hash": "7e41ce39bd",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": " Aplicación Web Bridge2AI"
                 }
             ]
         },
@@ -68,19 +85,25 @@
             "id": "phq_9_via",
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
-                "hash": "556e784b96",
-                "translation": ""
+                "hash": "efc25cdc95",
+                "prompt": "Field label translation:",
+                "default": "Patient Health Questionnaire 9 - via",
+                "translation": "Cuestionario sobre la salud del paciente-9 -  vía"
             },
             "enum": [
                 {
                     "id": "dataCollector",
                     "hash": "16ae58771c",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
                 },
                 {
                     "id": "participant",
                     "hash": "a77366e97a",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
                 }
             ]
         },
@@ -88,19 +111,25 @@
             "id": "phq_9_language",
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
-                "hash": "a6ba72db89",
-                "translation": ""
+                "hash": "a1e058b3fb",
+                "prompt": "Field label translation:",
+                "default": "Patient Health Questionnaire 9 - Language",
+                "translation": "Cuestionario sobre la salud del paciente-9 - Idioma"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "649df08a44",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
                 },
                 {
                     "id": 3,
                     "hash": "8df7f1b361",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
                 }
             ]
         },
@@ -109,6 +138,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "8a5130fd0c",
+                "prompt": "Field label translation:",
+                "default": "Little interest or pleasure in doing things.",
                 "translation": "Poco interés o placer en hacer las cosas."
             }
         },
@@ -117,6 +148,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "9ca8592a7b",
+                "prompt": "Field label translation:",
+                "default": "Feeling down, depressed, or hopeless.",
                 "translation": "Sentirse desanimado/a, deprimido/a o sin esperanzas."
             }
         },
@@ -125,6 +158,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "73bca2bf20",
+                "prompt": "Field label translation:",
+                "default": "Trouble falling or staying asleep, or sleeping too much.",
                 "translation": "Problemas para dormir o mantenerse el sueño o dormir demasiado."
             }
         },
@@ -133,6 +168,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "210c3a39b0",
+                "prompt": "Field label translation:",
+                "default": "Feeling tired or having little energy.",
                 "translation": "Sentirse cansado/a o con poca energía."
             }
         },
@@ -141,6 +178,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "86d326e474",
+                "prompt": "Field label translation:",
+                "default": "Poor appetite or overeating.",
                 "translation": "Sentir poco apetito o comer en exceso."
             }
         },
@@ -149,6 +188,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "c96e561080",
+                "prompt": "Field label translation:",
+                "default": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down.",
                 "translation": "Sentirse mal acerca de sí mismo o tener un sentimiento de fracaso o de abandono propio o de la familia."
             }
         },
@@ -157,6 +198,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "193fa41c85",
+                "prompt": "Field label translation:",
+                "default": "Trouble concentrating on things, such as reading the newspaper or watching television.",
                 "translation": "Dificultad para concentrarse en diferentes actividades tales como leer el periódico o ver televisión."
             }
         },
@@ -165,6 +208,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "2c10213853",
+                "prompt": "Field label translation:",
+                "default": "Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual.",
                 "translation": "Moverse o hablar tan despacio que otras personas lo han notado o bien, por el contario, estar tan inquieto/a o intranquilo/a que se mueve mucho más de lo normal."
             }
         },
@@ -173,6 +218,8 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "dabc0929aa",
+                "prompt": "Field label translation:",
+                "default": "Thoughts that you would be better off dead or of hurting yourself in some way.",
                 "translation": "Pensamientos acerca de que sería mejor estar muerto/a o deseos de lastimarse de alguna forma."
             }
         },
@@ -181,27 +228,37 @@
             "form": "q_generic_patient_health_questionnaire9",
             "label": {
                 "hash": "eb5680286e",
+                "prompt": "Field label translation:",
+                "default": "How difficult have they made it for you to do your work, take care of things at home, or get along with other people?",
                 "translation": "¿Qué tan difícil te han puesto hacer tu trabajo, ocuparte de las cosas en casa o llevarte bien con otras personas?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "967892cab2",
+                    "prompt": "Choices translation:",
+                    "default": "Not difficult at all",
                     "translation": "No ha sido difícil"
                 },
                 {
                     "id": 1,
                     "hash": "b0b36f932f",
+                    "prompt": "Choices translation:",
+                    "default": "Somewhat difficult",
                     "translation": "Algo dificil"
                 },
                 {
                     "id": 2,
                     "hash": "cc7a5173a0",
+                    "prompt": "Choices translation:",
+                    "default": "Very difficult",
                     "translation": "Muy dificil"
                 },
                 {
                     "id": 3,
                     "hash": "5980bbcabf",
+                    "prompt": "Choices translation:",
+                    "default": "Extremely difficult",
                     "translation": "Extremadamente difícil"
                 }
             ]
@@ -211,26 +268,36 @@
             "form": "q_generic_patient_health_questionnaire9",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]
@@ -242,27 +309,37 @@
             "form": "q_generic_patient_health_questionnaire9",
             "header": {
                 "hash": "275e74fe90",
+                "prompt": "Matrix header translation:",
+                "default": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
                 "translation": "Durante las últimas 2 semanas, ¿con qué frecuencia ha sentido molestias por los siguientes problemas?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "35b42ab803",
+                    "prompt": "Choices translation:",
+                    "default": "Not at all",
                     "translation": "Nunca"
                 },
                 {
                     "id": 1,
                     "hash": "0ba6cf542f",
+                    "prompt": "Choices translation:",
+                    "default": "Several days",
                     "translation": "Varios días"
                 },
                 {
                     "id": 2,
                     "hash": "3e1feecf30",
+                    "prompt": "Choices translation:",
+                    "default": "More than half the days",
                     "translation": "Más de la mitad de los días"
                 },
                 {
                     "id": 3,
                     "hash": "6b4ee3395c",
+                    "prompt": "Choices translation:",
+                    "default": "Nearly every day",
                     "translation": "Casi todos los días"
                 }
             ]

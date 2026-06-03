@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:54:35",
+    "timestamp": "2026-06-03 18:15:00",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_generic_harvard_sentences",
             "header": {
                 "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
                 "translation": "Cuestionario - Metadatos"
             },
             "label": {
                 "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
                 "translation": "ID de Sesión"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_generic_harvard_sentences",
             "label": {
                 "hash": "807586fa63",
+                "prompt": "Field label translation:",
+                "default": "Acoustic Task ID",
                 "translation": "ID de tarea acústica"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_generic_harvard_sentences",
             "label": {
                 "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
                 "translation": "Inicio del Cuestionario"
             }
         },
@@ -41,6 +50,8 @@
             "form": "q_generic_harvard_sentences",
             "label": {
                 "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
                 "translation": "Finalización del Cuestionario"
             }
         },
@@ -49,6 +60,8 @@
             "form": "q_generic_harvard_sentences",
             "label": {
                 "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
                 "translation": "Duración del Cuestionario (segundos)"
             }
         },
@@ -56,19 +69,25 @@
             "id": "harvard_sentences_origin",
             "form": "q_generic_harvard_sentences",
             "label": {
-                "hash": "ed53ba1cfc",
-                "translation": ""
+                "hash": "5565eec13c",
+                "prompt": "Field label translation:",
+                "default": "Harvard Sentences - origin",
+                "translation": "Las oraciones de Harvard - origen"
             },
             "enum": [
                 {
                     "id": "app",
                     "hash": "2e9a177f68",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
                 },
                 {
                     "id": "website",
-                    "hash": "5a7524d838",
-                    "translation": ""
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
                 }
             ]
         },
@@ -76,19 +95,25 @@
             "id": "harvard_sentences_via",
             "form": "q_generic_harvard_sentences",
             "label": {
-                "hash": "81c3f80b1d",
-                "translation": ""
+                "hash": "0fb199d22e",
+                "prompt": "Field label translation:",
+                "default": "Harvard Sentences - via",
+                "translation": "Las oraciones de Harvard - vía"
             },
             "enum": [
                 {
                     "id": "dataCollector",
                     "hash": "16ae58771c",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
                 },
                 {
                     "id": "participant",
                     "hash": "a77366e97a",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
                 }
             ]
         },
@@ -96,19 +121,25 @@
             "id": "harvard_sentences_language",
             "form": "q_generic_harvard_sentences",
             "label": {
-                "hash": "836b280b68",
-                "translation": ""
+                "hash": "ce30159b36",
+                "prompt": "Field label translation:",
+                "default": "Harvard Sentences - Language",
+                "translation": "Las oraciones de Harvard - Idioma"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "649df08a44",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
                 },
                 {
                     "id": 3,
                     "hash": "8df7f1b361",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
                 }
             ]
         },
@@ -117,14 +148,20 @@
             "form": "q_generic_harvard_sentences",
             "header": {
                 "hash": "fe117b3acd",
+                "prompt": "Section header translation:",
+                "default": "Harvard Sentences",
                 "translation": "Las oraciones de Harvard"
             },
             "label": {
                 "hash": "57601d93b9",
+                "prompt": "Field label translation:",
+                "default": "Harvard Sentence List Order Array (comma separated)",
                 "translation": "Orden de la lista de oraciones de Harvard (separado por comas)"
             },
             "note": {
                 "hash": "53670dc24c",
+                "prompt": "Field note translation:",
+                "default": "e.g \"List 3,List 25\"",
                 "translation": "ej. \"Lista 3, Lista 25\""
             }
         },
@@ -133,26 +170,36 @@
             "form": "q_generic_harvard_sentences",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]

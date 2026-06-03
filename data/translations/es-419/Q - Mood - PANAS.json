@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:57:08",
+    "timestamp": "2026-06-03 18:17:45",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_mood_panas",
             "header": {
                 "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
                 "translation": "Cuestionario - Metadatos"
             },
             "label": {
                 "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
                 "translation": "ID de Sesión"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
                 "translation": "Inicio del Cuestionario"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
                 "translation": "Finalización del Cuestionario"
             }
         },
@@ -41,6 +50,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
                 "translation": "Duración del Cuestionario (segundos)"
             }
         },
@@ -48,19 +59,25 @@
             "id": "panas_origin",
             "form": "q_mood_panas",
             "label": {
-                "hash": "a02502935a",
-                "translation": ""
+                "hash": "ccf88aa553",
+                "prompt": "Field label translation:",
+                "default": "PANAS - origin",
+                "translation": "PANAS - origen"
             },
             "enum": [
                 {
                     "id": "app",
                     "hash": "2e9a177f68",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
                 },
                 {
                     "id": "website",
                     "hash": "7e41ce39bd",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
                 }
             ]
         },
@@ -68,19 +85,25 @@
             "id": "panas_via",
             "form": "q_mood_panas",
             "label": {
-                "hash": "56446f9bb9",
-                "translation": ""
+                "hash": "722791e38f",
+                "prompt": "Field label translation:",
+                "default": "PANAS - via",
+                "translation": "PANAS - vía"
             },
             "enum": [
                 {
                     "id": "dataCollector",
                     "hash": "16ae58771c",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
                 },
                 {
                     "id": "participant",
                     "hash": "a77366e97a",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
                 }
             ]
         },
@@ -88,19 +111,25 @@
             "id": "panas_language",
             "form": "q_mood_panas",
             "label": {
-                "hash": "6d24a11cdc",
-                "translation": ""
+                "hash": "5390cf624c",
+                "prompt": "Field label translation:",
+                "default": "PANAS - Language",
+                "translation": "PANAS - Idioma"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "649df08a44",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
                 },
                 {
                     "id": 3,
                     "hash": "8df7f1b361",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
                 }
             ]
         },
@@ -109,6 +138,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "f17e38a1c7",
+                "prompt": "Field label translation:",
+                "default": "Upset",
                 "translation": "Molesto (a disgusto)"
             }
         },
@@ -117,6 +148,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "49ce5de18c",
+                "prompt": "Field label translation:",
+                "default": "Hostile",
                 "translation": "Agresivo"
             }
         },
@@ -125,6 +158,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "b969680a49",
+                "prompt": "Field label translation:",
+                "default": "Alert",
                 "translation": "Alerta"
             }
         },
@@ -133,6 +168,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "a29f83b739",
+                "prompt": "Field label translation:",
+                "default": "Ashamed",
                 "translation": "Avergonzado"
             }
         },
@@ -141,6 +178,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "b58ddd0504",
+                "prompt": "Field label translation:",
+                "default": "Inspired",
                 "translation": "Inspirado"
             }
         },
@@ -149,6 +188,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "183102be4c",
+                "prompt": "Field label translation:",
+                "default": "Nervous",
                 "translation": "Nervioso"
             }
         },
@@ -157,6 +198,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "9f23293d0f",
+                "prompt": "Field label translation:",
+                "default": "Determined",
                 "translation": "Decidido"
             }
         },
@@ -165,6 +208,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "91e68414f1",
+                "prompt": "Field label translation:",
+                "default": "Attentive",
                 "translation": "Atento"
             }
         },
@@ -173,6 +218,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "9409e30a88",
+                "prompt": "Field label translation:",
+                "default": "Afraid",
                 "translation": "Temeroso"
             }
         },
@@ -181,6 +228,8 @@
             "form": "q_mood_panas",
             "label": {
                 "hash": "a733b809d2",
+                "prompt": "Field label translation:",
+                "default": "Active",
                 "translation": "Activo"
             }
         },
@@ -189,26 +238,36 @@
             "form": "q_mood_panas",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]
@@ -220,32 +279,44 @@
             "form": "q_mood_panas",
             "header": {
                 "hash": "44b9017047",
+                "prompt": "Matrix header translation:",
+                "default": "Thinking about yourself and how you normally feel, to what extent do you generally feel?\n\nInterval measure: never 1 2 3 4 5 always",
                 "translation": "Esta escala consiste en una serie de palabras que describen diferentes sentimientos y emociones. Lea cada palabra y marque en el espacio correspondiente la respuesta apropiada para usted. Indique cómo se siente GENERALMENTE, esto es, cómo se siente regularmente. Utilice la siguiente escala para registrar sus respuestas.\n\nMedida de intervalo: muy poco o nada 1 2 3 4 5 extremadamente"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
                     "translation": "1"
                 },
                 {
                     "id": 2,
                     "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
                     "translation": "2"
                 },
                 {
                     "id": 3,
                     "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
                     "translation": "3"
                 },
                 {
                     "id": 4,
                     "hash": "1b64538924",
+                    "prompt": "Choices translation:",
+                    "default": "4",
                     "translation": "4"
                 },
                 {
                     "id": 5,
                     "hash": "ac3478d69a",
+                    "prompt": "Choices translation:",
+                    "default": "5",
                     "translation": "5"
                 }
             ]

@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:59:47",
+    "timestamp": "2026-06-03 18:20:36",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_neuro_moca",
             "header": {
                 "hash": "e607f7b71d",
+                "prompt": "Section header translation:",
+                "default": "MoCA Test Questionnaire",
                 "translation": "Cuestionario de la prueba MoCA"
             },
             "label": {
                 "hash": "9a9b5506e7",
+                "prompt": "Field label translation:",
+                "default": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Steps to download MoCA test results from the DUO app and upload them here:</span></p> <ol> <li><span style=\"font-weight: normal;\">Export MoCA test results in .pdf format to your Sinai email ID from the MoCA DUO app</span></li> <li><span style=\"font-weight: normal;\">Open the pdf, enter the password (Rater's MoCA login password)</span></li> <li><span style=\"font-weight: normal;\">Remove the password from the .pdf document and save it as a new document.<br /></span><span style=\"font-weight: normal;\"><br />How to remove a password from a .pdf using Adobe Acrobat<br /></span> <table style=\"border-collapse: collapse; width: 100%; height: 99.7812px;\" border=\"1\"> <tbody> <tr style=\"height: 99.7812px;\"> <td style=\"width: 99.8519%; height: 99.7812px;\"> <p><span style=\"font-weight: normal;\">Open the PDF in Adobe Acrobat.</span><br /><span style=\"font-weight: normal;\">Go to \"File\" > \"Properties\" > \"Security\".</span><br /><span style=\"font-weight: normal;\">Choose \"No Security\" from the security method drop-down menu (you might need to enter the password).</span><br /><span style=\"font-weight: normal;\">Save the document to apply changes.</span></p> </td> </tr> </tbody> </table> </li> <li><span style=\"font-weight: normal;\">Upload the scanned pdf to Bridge2AI REDCap field below</span></li> </ol></div>",
                 "translation": "<div class=\"rich-text-field-label\"> <p><span style=\"font-weight: normal;\">Pasos para descargar los resultados de la prueba MoCA desde la aplicación DUO y cargarlos aquí:</span></p> <ul> <li><span style=\"font-weight: normal;\">Exporte los resultados de la prueba MoCA en formato .pdf a su correo electrónico de Sinai desde la aplicación MoCA DUO. </span></li> <li><span style=\"font-weight: normal;\">Abra el PDF e introduzca la contraseña (la contraseña de inicio de sesión de MoCA del evaluador). </span></li> <li><span style=\"font-weight: normal;\">Elimine la contraseña del documento .pdf y guárdelo como un nuevo documento. </span></li> </ul> <p><span style=\"font-weight: normal;\">Cómo eliminar una contraseña de un archivo .pdf usando Adobe Acrobat </span></p> <p><span style=\"font-weight: normal;\">  Abra el PDF en Adobe Acrobat. </span></p> <p><span style=\"font-weight: normal;\">Vaya a \"Archivo\" &gt; \"Propiedades\" &gt; \"Seguridad\". </span></p> <p><span style=\"font-weight: normal;\">Seleccione \"Sin seguridad\" en el menú desplegable del método de seguridad (es posible que deba introducir la contraseña). </span></p> <p><span style=\"font-weight: normal;\">Guarde el documento para aplicar los cambios. </span></p> <ul> <li><span style=\"font-weight: normal;\">Cargue el PDF escaneado en el campo de Bridge2AI REDCap a continuación</span></li> </ul> </div>"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_neuro_moca",
             "label": {
                 "hash": "6cfc681e2c",
+                "prompt": "Field label translation:",
+                "default": "MoCA DUO PDF",
                 "translation": "PDF de MoCA DUO"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_neuro_moca",
             "label": {
                 "hash": "ab66665c01",
+                "prompt": "Field label translation:",
+                "default": "MoCA DUO PDF Uploaded By",
                 "translation": "PDF de MoCA DUO cargado por"
             }
         },
@@ -41,26 +50,36 @@
             "form": "q_neuro_moca",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]

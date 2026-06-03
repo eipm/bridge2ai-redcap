@@ -1,10 +1,11 @@
 {
     "creator": "REDCap MLM",
     "version": "v15.5.40",
-    "timestamp": "2026-05-13 15:57:23",
+    "timestamp": "2026-06-03 18:19:14",
     "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
     "key": "es-419",
     "display": "Spanish",
+    "notes": "",
     "rtl": false,
     "sort": "",
     "fieldTranslations": [
@@ -13,10 +14,14 @@
             "form": "q_mood_participant_history",
             "header": {
                 "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
                 "translation": "Cuestionario - Metadatos"
             },
             "label": {
                 "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
                 "translation": "ID de Sesión"
             }
         },
@@ -25,6 +30,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
                 "translation": "Inicio del Cuestionario"
             }
         },
@@ -33,6 +40,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
                 "translation": "Finalización del Cuestionario"
             }
         },
@@ -41,6 +50,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
                 "translation": "Duración del Cuestionario (segundos)"
             }
         },
@@ -48,19 +59,25 @@
             "id": "mph_origin",
             "form": "q_mood_participant_history",
             "label": {
-                "hash": "9b24c28ae5",
-                "translation": ""
+                "hash": "fbadbecf57",
+                "prompt": "Field label translation:",
+                "default": "Mood Participant History - origin",
+                "translation": "Historial de estado de ánimo del participante - origen"
             },
             "enum": [
                 {
                     "id": "app",
                     "hash": "2e9a177f68",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
                 },
                 {
                     "id": "website",
                     "hash": "7e41ce39bd",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
                 }
             ]
         },
@@ -68,19 +85,25 @@
             "id": "mph_via",
             "form": "q_mood_participant_history",
             "label": {
-                "hash": "32860413e1",
-                "translation": ""
+                "hash": "4dd180316a",
+                "prompt": "Field label translation:",
+                "default": "Mood Participant History - via",
+                "translation": "Historial de estado de ánimo del participante - vía"
             },
             "enum": [
                 {
                     "id": "dataCollector",
                     "hash": "16ae58771c",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
                 },
                 {
                     "id": "participant",
                     "hash": "a77366e97a",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
                 }
             ]
         },
@@ -88,19 +111,25 @@
             "id": "mph_language",
             "form": "q_mood_participant_history",
             "label": {
-                "hash": "83e4c7de5b",
-                "translation": ""
+                "hash": "dcb9f75ab5",
+                "prompt": "Field label translation:",
+                "default": "Mood Participant History - Language",
+                "translation": "Historial de estado de ánimo del participante - Idioma"
             },
             "enum": [
                 {
                     "id": 1,
                     "hash": "649df08a44",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
                 },
                 {
                     "id": 3,
                     "hash": "8df7f1b361",
-                    "translation": ""
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
                 }
             ]
         },
@@ -109,10 +138,14 @@
             "form": "q_mood_participant_history",
             "header": {
                 "hash": "2024e7a476",
+                "prompt": "Section header translation:",
+                "default": "Medical and Psychiatric comorbidities",
                 "translation": "Comorbilidades médicas y psiquiátricas"
             },
             "label": {
                 "hash": "c887cf7fbe",
+                "prompt": "Field label translation:",
+                "default": "Please list any active psychiatric problems and medical problems.",
                 "translation": "Por favor, enumere cualquier problema psiquiátrico activo y cualquier problema médico."
             }
         },
@@ -121,6 +154,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "a13019020e",
+                "prompt": "Field label translation:",
+                "default": "Please list any historical psychiatric problems and medical problems.",
                 "translation": "Por favor, enumere cualquier problema psiquiátrico y médico previo."
             }
         },
@@ -129,21 +164,29 @@
             "form": "q_mood_participant_history",
             "header": {
                 "hash": "83d38cf115",
+                "prompt": "Section header translation:",
+                "default": "Treatment Obtained",
                 "translation": "Tratamiento recibido"
             },
             "label": {
                 "hash": "dd9d3fd117",
+                "prompt": "Field label translation:",
+                "default": "Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?",
                 "translation": "¿Alguna vez le han recetado medicamentos para problemas mentales o emocionales (p. ej., antidepresivos, ansiolíticos, antipsicóticos, estabilizadores del estado de ánimo, etc.)?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -153,6 +196,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "bb9b6b6db8",
+                "prompt": "Field label translation:",
+                "default": "Please list any current psychiatric medications (to the best of your recollection), including medication names, dosage, and how many times per day.",
                 "translation": "Por favor, enumere cualquier medicamento psiquiátrico actual (según lo que recuerde), incluyendo los nombres de los medicamentos, la dosis y cuántas veces al día los toma."
             }
         },
@@ -161,6 +206,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "29efe365d3",
+                "prompt": "Field label translation:",
+                "default": "Please list any previous psychiatric medications (to the best of your recollection), including medication names,\napproximate dates you were taking them, and why they were discontinued.",
                 "translation": "Por favor, enumere cualquier medicamento psiquiátrico previo (según lo que recuerde), incluyendo los nombres de los medicamentos, las fechas aproximadas en que los tomó y por qué se suspendieron."
             }
         },
@@ -169,17 +216,23 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "1335e3f0c2",
+                "prompt": "Field label translation:",
+                "default": "Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?",
                 "translation": "¿Alguna vez ha consultado a un profesional de salud mental para terapia de conversación (podría incluir trabajadores sociales, psiquiatras, etc.)?"
             },
             "enum": [
                 {
                     "id": "yes",
                     "hash": "5397e0583f",
+                    "prompt": "Choices translation:",
+                    "default": "Yes",
                     "translation": "Sí"
                 },
                 {
                     "id": "no",
                     "hash": "816c52fd2b",
+                    "prompt": "Choices translation:",
+                    "default": "No",
                     "translation": "No"
                 }
             ]
@@ -189,6 +242,8 @@
             "form": "q_mood_participant_history",
             "label": {
                 "hash": "d0e029e1d9",
+                "prompt": "Field label translation:",
+                "default": "Please briefly describe your psychotherapy history (e.g., dates, reasons for seeking therapy, etc.).",
                 "translation": "Por favor, describa brevemente su historial de psicoterapia (p. ej., fechas, razones para buscar terapia, etc.)."
             }
         },
@@ -197,26 +252,36 @@
             "form": "q_mood_participant_history",
             "header": {
                 "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
                 "translation": "Estado del Formulario"
             },
             "label": {
                 "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
                 "translation": "¿Completo?"
             },
             "enum": [
                 {
                     "id": 0,
                     "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
                     "translation": "Incompleto"
                 },
                 {
                     "id": 1,
                     "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
                     "translation": "No verificado"
                 },
                 {
                     "id": 2,
                     "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
                     "translation": "Completo"
                 }
             ]
