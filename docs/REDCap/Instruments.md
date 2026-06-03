@@ -10,7 +10,7 @@
 
 Per-instrument ZIP bundles for every published form in the Bridge2AI-Voice REDCap project. Each ZIP, exported via REDCap's **Download instrument ZIP** tool, contains the instrument definition and metadata for one-step import into another REDCap project.
 
-**Count:** 61 instruments published · 19 with Spanish (`es-419`) Multi-Language Management translation available.
+**Count:** 62 instruments published · 19 with Spanish (`es-419`) Multi-Language Management translation available.
 
 **Translations.** Most instruments pair an **English ZIP** with a **Spanish translation JSON** — a Multi-Language Management (MLM) overlay produced by REDCap's *Export language* tool. To apply Spanish to an instrument you've imported from its ZIP, import the matching translation file via **Project Setup → Multi-Language Management → Import language**. Translation files live in language-bucketed folders under [`data/translations/`](../../data/translations) — Spanish files at [`data/translations/es-419/`](../../data/translations/es-419) — and each translation filename mirrors its ZIP basename (e.g. `Q - Generic - Demographics.zip` ↔ `Q - Generic - Demographics.json`). For the full-project MLM bundle covering every form at once, grab `bridge2ai_voice_redcap_mlm_translations_es-419.json` from the [REDCap Assets table in the README](../../README.md#-redcap).
 
@@ -25,6 +25,7 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 | 3 | Eligible Studies | `subjectparticipant_eligible_studies` | [📦](../../data/instruments/Eligible%20Studies.zip) | — |
 | 4 | Data Dissemination | `data_dissemination` | [📦](../../data/instruments/Data%20Dissemination.zip) | — |
 | 5 | Enrollment Form | `enrollment_form` | [📦](../../data/instruments/Enrollment%20Form.zip) | — |
+| 6 | Prolific Information | `prolific_information` | [📦](../../data/instruments/Prolific%20Information.zip) | — |
 
 ## Sessions and Recordings
 
