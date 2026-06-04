@@ -46,7 +46,7 @@ Diagnosis summary PDFs (English only).
 - [Bipolar Disorder](en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Bipolar%20Disorder.pdf)
 - [Depression / Major Depressive Disorder](en-us/Diagnosis%20-%20PDFs/Mood/D%20-%20Mood%20-%20Mood%20Depression%20Or%20Major%20Depressive%20Disorder.pdf)
 
-### 🫁 Respiratory
+### <img src="../../../images/protocols/respiratory.png" width="28" height="28" align="absmiddle" alt=""> Respiratory
 
 - [Airway Stenosis](en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20Airway%20Stenosis.pdf)
 - [COPD and Asthma](en-us/Diagnosis%20-%20PDFs/Resp/D%20-%20Resp%20-%20COPD%20And%20Asthma.pdf)
@@ -93,7 +93,7 @@ Validated questionnaires used across adult protocols. For citations and permissi
 | 3 | Random Item Generation | [📄](en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20English.pdf) | [📄](es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Random%20Item%20Generation%20-%20Spanish.pdf) |
 | 4 | Word-Color Stroop | [📄](en-us/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20English.pdf) | [📄](es-419/Questionnaire%20-%20PDFs/Neuro/Q%20-%20Neuro%20-%20Wordcolor%20Stroop%20-%20Spanish.pdf) |
 
-### 🫁 Respiratory
+### <img src="../../../images/protocols/respiratory.png" width="28" height="28" align="absmiddle" alt=""> Respiratory
 
 | # | Name | English | Spanish |
 | :-: | :-- | :-: | :-: |

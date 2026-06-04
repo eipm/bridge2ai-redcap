@@ -8,11 +8,11 @@
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
 [recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_6]: https://custom-icon-badges.demolab.com/badge/Recording%206-Repeating%20Sentences--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Repeating%20Sentences--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Repeating%20Sentences--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Repeating%20Sentences--4-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Repeating%20Sentences--5-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_6]: https://custom-icon-badges.demolab.com/badge/Recording%206-Repeating%20Sentences--6-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Repeating Sentences
 

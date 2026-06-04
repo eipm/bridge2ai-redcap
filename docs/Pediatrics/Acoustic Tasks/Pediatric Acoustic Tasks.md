@@ -17,9 +17,9 @@ Pediatric tasks vary by age stratum and currently have English-only descriptions
 | # | Task | ⏳ Time | 🔊 Recordings | Used in Age Group(s) | 📄 Description (English) |
 | :-: | :--  | :-: | :-: | :-- | :-: |
 | 1 | Identifying Pictures | 02:10 | 37 | 2–4, 4–6, 6–10, 10+ | [📄](<Current/Identifying%20Pictures/Identifying%20Pictures%20-%20Acoustic%20Task%20Description%20(English).md>) |
-| 2 | Noisy Sounds | 01:15  | 10 | 2–4, 4–6, 6–10 | [📄](<Current/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
-| 3 | Silly Sounds | 01:00  | 4 | 4–6, 6–10, 10+ | [📄](<Current/Silly%20Sounds/Silly%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
-| 4 | Repeating Words | 02:35  | 25 | 4–6, 6–10, 10+ | [📄](<Current/Repeating%20Words/Repeating%20Words%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 2 | Noisy Sounds | 01:15 | 10 | 2–4, 4–6, 6–10 | [📄](<Current/Noisy%20Sounds/Noisy%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 3 | Silly Sounds | 01:00 | 4 | 4–6, 6–10, 10+ | [📄](<Current/Silly%20Sounds/Silly%20Sounds%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 4 | Repeating Words | 02:35 | 25 | 4–6, 6–10, 10+ | [📄](<Current/Repeating%20Words/Repeating%20Words%20-%20Acoustic%20Task%20Description%20(English).md>) |
 | 5 | Repeating Sentences | 00:45 | 6 | 4–6, 6–10, 10+ | [📄](<Current/Repeating%20Sentences/Repeating%20Sentences%20-%20Acoustic%20Task%20Description%20(English).md>) |
 | 6 | Picture Description | 01:05 | 1 | 4–6, 6–10, 10+ | [📄](<Current/Picture%20Description/Picture%20Description%20-%20Acoustic%20Task%20Description%20(English).md>) |
 | 7 | Reading Passage | 02:35 | 11 | 6–10, 10+ | [📄](<Current/Reading%20Passage/Reading%20Passage%20-%20Acoustic%20Task%20Description%20(English).md>) |

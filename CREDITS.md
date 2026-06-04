@@ -33,7 +33,7 @@ Copyright © 2012 World Health Organization.
 - Rosen CA, Lee AS, Osborne J, Zullo T, Murry T. Development and validation of the Voice Handicap Index-10. Laryngoscope. 2004;114(9):1549-1556. doi:10.1097/00005537-200409000-00009
 - Kempster GB, Gerratt BR, Verdolini Abbott K, Barkmeier-Kraemer J, Hillman RE. Consensus Auditory-Perceptual Evaluation of Voice: development of a standardized clinical protocol. Am J Speech Lang Pathol. 2009;18(2):124-132. doi:10.1044/1058-0360(2008/08-0017)
 
-Note: CAPE-V published under CC-BY 4.0 license. Supplemental materials: https://authors.elsevier.com/sd/article/S0892-1997(25)00021-9
+Note: CAPE-V published under CC-BY 4.0 license. Supplemental materials: https://www.sciencedirect.com/science/article/pii/S0892199725000219
 
 <u><b>Respiratory Assessments</b></u>
 

@@ -62,40 +62,47 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 <table align="center">
   <tr>
-    <td align="center" width="20%">
+    <td align="center" width="16%">
       <a href="docs/Adults/Acoustic%20Tasks/Adult%20Acoustic%20Tasks.md">
         <br>🎤<br>
         <strong>All Adult Acoustic Tasks</strong>
       </a>
       <br><sub>🟢 15 active</sub><br><sub>🗄️ 14 retired</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="16%">
       <a href="docs/Adults/Questionnaires/Adult%20Questionnaires.md">
         <br>📝<br>
         <strong>All Adult Questionnaires</strong>
       </a>
       <br><sub>🟢 16 active</sub><br><sub>🗄️ 4 retired</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="16%">
       <a href="docs/Adults/Diagnoses/Adult%20Diagnoses.md">
         <br>🏥<br>
         <strong>All Adult Diagnoses</strong>
       </a>
       <br><sub>🩺 19 disorders</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="16%">
       <a href="docs/Adults/eConsents/Adult%20eConsents.md">
         <br>✍️<br>
         <strong>eConsents</strong>
       </a>
       <br><sub>🏛️ 3 sites</sub>
     </td>
-    <td align="center" width="20%">
+    <td align="center" width="16%">
       <a href="docs/Adults/PDFs/Adult%20PDFs.md">
         <br>📄<br>
         <strong>All Adult PDFs</strong>
       </a>
       <br><sub>🌐 2 Languages </sub>
+    </td>
+    <td align="center" width="16%">
+      <a href="docs/Adults/Recordings/Adult%20Recordings.md">
+        <br>🔊<br>
+        <strong>All Adult Recordings</strong>
+      </a>
+      <br><sub>🟢 56 active</sub><br><sub>🗄️ 37 retired</sub>
     </td>
   </tr>
 </table>
@@ -139,26 +146,33 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 <table align="center">
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="25%">
       <a href="docs/Pediatrics/Acoustic%20Tasks/Pediatric%20Acoustic%20Tasks.md">
         <br>🎤<br>
         <strong>All Pediatric Acoustic Tasks</strong>
       </a>
       <br><sub>🟢 15 active</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="25%">
       <a href="docs/Pediatrics/Questionnaires/Pediatric%20Questionnaires.md">
         <br>📝<br>
         <strong>All Pediatric Questionnaires</strong>
       </a>
       <br><sub>🟢 6 active</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="25%">
       <a href="docs/Pediatrics/PDFs/Pediatric%20PDFs.md">
         <br>📄<br>
         <strong>All Pediatric PDFs</strong>
       </a>
       <br><sub>🌐 1 Language </sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="docs/Pediatrics/Recordings/Pediatric%20Recordings.md">
+        <br>🔊<br>
+        <strong>All Pediatric Recordings</strong>
+      </a>
+      <br><sub>🟢 112 recordings</sub>
     </td>
   </tr>
 </table>
