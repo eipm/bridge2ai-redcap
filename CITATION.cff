@@ -9,82 +9,9 @@ message: >-
   If you use this dataset, please cite it using the metadata from this file.
 type: dataset
 version: 4.8.0
-date-released: 2026-06-02
+date-released: 2026-06-03
 doi: 10.5281/zenodo.12760724
 url: 'https://b2ai-voice.org/'
-preferred-citation:
-  type: conference-paper
-  title: >-
-    Developing Multi-Disorder Voice Protocols: A team science approach
-    involving clinical expertise, bioethics, standards, and DEI
-  authors:
-    - family-names: Rameau
-      given-names: Anaïs
-      orcid: 'https://orcid.org/0000-0003-1543-2634'
-    - family-names: Ghosh
-      given-names: Satrajit S
-      orcid: 'https://orcid.org/0000-0002-5312-6729'
-    - family-names: Sigaras
-      given-names: Alexandros
-      orcid: 'https://orcid.org/0000-0002-7607-559X'
-    - family-names: Elemento
-      given-names: Olivier
-      orcid: 'https://orcid.org/0000-0002-8061-9617'
-    - family-names: Belisle-Pipon
-      given-names: Jean-Christophe
-      orcid: 'https://orcid.org/0000-0002-8965-8153'
-    - family-names: Ravitsky
-      given-names: Vardit
-      orcid: 'https://orcid.org/0000-0002-7080-8801'
-    - family-names: Powell
-      given-names: Maria E
-      orcid: 'https://orcid.org/0000-0002-6643-8991'
-    - family-names: Johnson
-      given-names: Alistair
-      orcid: 'https://orcid.org/0000-0002-8735-3014'
-    - family-names: Dorr
-      given-names: David
-      orcid: 'https://orcid.org/0000-0003-2318-7261'
-    - family-names: Payne
-      given-names: Philip R
-      orcid: 'https://orcid.org/0000-0002-9532-2998'
-    - family-names: Boyer
-      given-names: Micah
-      orcid: 'https://orcid.org/0000-0002-2825-3726'
-    - family-names: Watts
-      given-names: Stephanie
-    - family-names: Bahr
-      given-names: Ruth
-      orcid: 'https://orcid.org/0000-0002-7164-4685'
-    - family-names: Rudzicz
-      given-names: Frank
-      orcid: 'https://orcid.org/0000-0002-1139-3423'
-    - family-names: Lerner-Ellis
-      given-names: Jordan
-      orcid: 'https://orcid.org/0000-0003-3685-5679'
-    - family-names: Awan
-      given-names: Shaheen
-      orcid: 'https://orcid.org/0000-0003-3331-4156'
-    - family-names: Bolser
-      given-names: Don
-      orcid: 'https://orcid.org/0000-0002-4577-8954'
-    - family-names: Bensoussan
-      given-names: Yaël
-      orcid: 'https://orcid.org/0000-0002-1635-8627'
-  year: 2024
-  month: 9
-  collection-title: 'Proc. Interspeech 2024'
-  conference:
-    name: 'Interspeech 2024'
-    city: 'Kos Island'
-    country: GR
-    date-start: 2024-09-01
-    date-end: 2024-09-05
-  publisher:
-    name: ISCA
-  start: 1445
-  end: 1449
-  doi: 10.21437/Interspeech.2024-1926
 authors:
   - given-names: Alexandros
     family-names: Sigaras
