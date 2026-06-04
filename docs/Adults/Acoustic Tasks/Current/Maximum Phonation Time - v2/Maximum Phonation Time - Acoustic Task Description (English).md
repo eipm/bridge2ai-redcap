@@ -9,7 +9,7 @@
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
 [audio]: https://custom-icon-badges.demolab.com/badge/Task_Demonstration-blue.svg?logo=volume-2&logoSource=feather
 [recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Maximum%20phonation%20time%20(v2)--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%201-Maximum%20phonation%20time%20(v2)--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Maximum%20phonation%20time%20(v2)--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Maximum Phonation Time
 

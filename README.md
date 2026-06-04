@@ -32,7 +32,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br><img src="images/protocols/voice.png" width="36" height="36" alt="Voice"><br>
         <strong>Voice</strong>
       </a>
-      <br><sub>⏳ 42:25</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 12 acoustic tasks</sub><br><sub>🔊 47 recordings</sub>
+      <br><sub>⏳ 42:25</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 12 acoustic tasks</sub><br><sub>🔊 48 recordings</sub>
     </td>
     <td align="center" width="20%">
       <a href="docs/Adults/Protocols/Mood%20and%20Psychiatric%20Disorders%20Protocol.md">
@@ -53,7 +53,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br><img src="images/protocols/neuro.png" width="36" height="36" alt="Neurological & Neurodegenerative"><br>
         <strong>Neurological &amp; Neurodegenerative</strong>
       </a>
-      <br><sub>⏳ 45:30</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 13 acoustic tasks</sub><br><sub>🔊 44 recordings</sub>
+      <br><sub>⏳ 45:30</sub><br><sub>📕 6 questionnaires</sub><br><sub>🎤 13 acoustic tasks</sub><br><sub>🔊 49 recordings</sub>
     </td>
   </tr>
 </table>
@@ -67,7 +67,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br>🎤<br>
         <strong>All Adult Acoustic Tasks</strong>
       </a>
-      <br><sub>🟢 15 active</sub><br><sub>🗄️ 14 retired</sub>
+      <br><sub>🟢 15 active</sub><br><sub>🗄️ 15 retired</sub>
     </td>
     <td align="center" width="16%">
       <a href="docs/Adults/Questionnaires/Adult%20Questionnaires.md">
