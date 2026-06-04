@@ -7,11 +7,11 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Days%20and%20Number%20naming--numbers-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Days%20and%20Number%20naming--days-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Days%20and%20Number%20naming--months-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-
+Days and Number naming-numbers, -days, -months
 
 # Days and Number naming
 
@@ -54,4 +54,3 @@ That was great! How about months of the year? Can you name some for me? Start wi
 ![Alt text](pediatric_months.jpg) 
 
 ![mic][mic]
-

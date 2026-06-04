@@ -7,13 +7,10 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[video]: https://custom-icon-badges.demolab.com/badge/Video-red.svg?logo=youtube&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Silly%20Sounds--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Silly%20Sounds--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Silly%20Sounds--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Silly%20Sounds--4-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Silly Sounds
 

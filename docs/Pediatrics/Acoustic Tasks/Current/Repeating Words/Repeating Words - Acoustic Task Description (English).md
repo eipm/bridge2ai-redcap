@@ -7,32 +7,31 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-[recording_5]: https://img.shields.io/badge/Recording%205-white
-[recording_6]: https://img.shields.io/badge/Recording%206-white
-[recording_7]: https://img.shields.io/badge/Recording%207-white
-[recording_8]: https://img.shields.io/badge/Recording%208-white
-[recording_9]: https://img.shields.io/badge/Recording%209-white
-[recording_10]: https://img.shields.io/badge/Recording%2010-white
-[recording_11]: https://img.shields.io/badge/Recording%2011-white
-[recording_12]: https://img.shields.io/badge/Recording%2012-white
-[recording_13]: https://img.shields.io/badge/Recording%2013-white
-[recording_14]: https://img.shields.io/badge/Recording%2014-white
-[recording_15]: https://img.shields.io/badge/Recording%2015-white
-[recording_16]: https://img.shields.io/badge/Recording%2016-white
-[recording_17]: https://img.shields.io/badge/Recording%2017-white
-[recording_18]: https://img.shields.io/badge/Recording%2018-white
-[recording_19]: https://img.shields.io/badge/Recording%2019-white
-[recording_20]: https://img.shields.io/badge/Recording%2020-white
-[recording_21]: https://img.shields.io/badge/Recording%2021-white
-[recording_22]: https://img.shields.io/badge/Recording%2022-white
-[recording_23]: https://img.shields.io/badge/Recording%2023-white
-[recording_24]: https://img.shields.io/badge/Recording%2024-white
-[recording_25]: https://img.shields.io/badge/Recording%2025-white
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Repeating%20Words--smile-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Repeating%20Words--great-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Repeating%20Words--sled-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Repeating%20Words--slip-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Repeating%20Words--pants-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_6]: https://custom-icon-badges.demolab.com/badge/Recording%206-Repeating%20Words--bad-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_7]: https://custom-icon-badges.demolab.com/badge/Recording%207-Repeating%20Words--pinch-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_8]: https://custom-icon-badges.demolab.com/badge/Recording%208-Repeating%20Words--such-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_9]: https://custom-icon-badges.demolab.com/badge/Recording%209-Repeating%20Words--take-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_10]: https://custom-icon-badges.demolab.com/badge/Recording%2010-Repeating%20Words--need-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_11]: https://custom-icon-badges.demolab.com/badge/Recording%2011-Repeating%20Words--scab-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_12]: https://custom-icon-badges.demolab.com/badge/Recording%2012-Repeating%20Words--five-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_13]: https://custom-icon-badges.demolab.com/badge/Recording%2013-Repeating%20Words--class-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_14]: https://custom-icon-badges.demolab.com/badge/Recording%2014-Repeating%20Words--mouth-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_15]: https://custom-icon-badges.demolab.com/badge/Recording%2015-Repeating%20Words--me-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_16]: https://custom-icon-badges.demolab.com/badge/Recording%2016-Repeating%20Words--fed-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_17]: https://custom-icon-badges.demolab.com/badge/Recording%2017-Repeating%20Words--beef-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_18]: https://custom-icon-badges.demolab.com/badge/Recording%2018-Repeating%20Words--fold-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_19]: https://custom-icon-badges.demolab.com/badge/Recording%2019-Repeating%20Words--hunt-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_20]: https://custom-icon-badges.demolab.com/badge/Recording%2020-Repeating%20Words--no-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_21]: https://custom-icon-badges.demolab.com/badge/Recording%2021-Repeating%20Words--are-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_22]: https://custom-icon-badges.demolab.com/badge/Recording%2022-Repeating%20Words--pond-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_23]: https://custom-icon-badges.demolab.com/badge/Recording%2023-Repeating%20Words--teach-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_24]: https://custom-icon-badges.demolab.com/badge/Recording%2024-Repeating%20Words--slice-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_25]: https://custom-icon-badges.demolab.com/badge/Recording%2025-Repeating%20Words--tree-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Repeating Words
 
@@ -235,6 +234,3 @@ Say the following word 3 times: **tree**
 ![mic][mic]
 
 ---
-
-
-

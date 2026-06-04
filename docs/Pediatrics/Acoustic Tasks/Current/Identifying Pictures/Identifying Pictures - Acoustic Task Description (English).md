@@ -7,44 +7,43 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-[recording_5]: https://img.shields.io/badge/Recording%205-white
-[recording_6]: https://img.shields.io/badge/Recording%206-white
-[recording_7]: https://img.shields.io/badge/Recording%207-white
-[recording_8]: https://img.shields.io/badge/Recording%208-white
-[recording_9]: https://img.shields.io/badge/Recording%209-white
-[recording_10]: https://img.shields.io/badge/Recording%2010-white
-[recording_11]: https://img.shields.io/badge/Recording%2011-white
-[recording_12]: https://img.shields.io/badge/Recording%2012-white
-[recording_13]: https://img.shields.io/badge/Recording%2013-white
-[recording_14]: https://img.shields.io/badge/Recording%2014-white
-[recording_15]: https://img.shields.io/badge/Recording%2015-white
-[recording_16]: https://img.shields.io/badge/Recording%2016-white
-[recording_17]: https://img.shields.io/badge/Recording%2017-white
-[recording_18]: https://img.shields.io/badge/Recording%2018-white
-[recording_19]: https://img.shields.io/badge/Recording%2019-white
-[recording_20]: https://img.shields.io/badge/Recording%2020-white
-[recording_21]: https://img.shields.io/badge/Recording%2021-white
-[recording_22]: https://img.shields.io/badge/Recording%2022-white
-[recording_23]: https://img.shields.io/badge/Recording%2023-white
-[recording_24]: https://img.shields.io/badge/Recording%2024-white
-[recording_25]: https://img.shields.io/badge/Recording%2025-white
-[recording_26]: https://img.shields.io/badge/Recording%2026-white
-[recording_27]: https://img.shields.io/badge/Recording%2027-white
-[recording_28]: https://img.shields.io/badge/Recording%2028-white
-[recording_29]: https://img.shields.io/badge/Recording%2029-white
-[recording_30]: https://img.shields.io/badge/Recording%2030-white
-[recording_31]: https://img.shields.io/badge/Recording%2031-white
-[recording_32]: https://img.shields.io/badge/Recording%2032-white
-[recording_33]: https://img.shields.io/badge/Recording%2033-white
-[recording_34]: https://img.shields.io/badge/Recording%2034-white
-[recording_35]: https://img.shields.io/badge/Recording%2035-white
-[recording_36]: https://img.shields.io/badge/Recording%2036-white
-[recording_37]: https://img.shields.io/badge/Recording%2037-white
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Identifying%20Pictures--1-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Identifying%20Pictures--2-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Identifying%20Pictures--3-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Identifying%20Pictures--4-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Identifying%20Pictures--5-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_6]: https://custom-icon-badges.demolab.com/badge/Recording%206-Identifying%20Pictures--6-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_7]: https://custom-icon-badges.demolab.com/badge/Recording%207-Identifying%20Pictures--7-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_8]: https://custom-icon-badges.demolab.com/badge/Recording%208-Identifying%20Pictures--8-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_9]: https://custom-icon-badges.demolab.com/badge/Recording%209-Identifying%20Pictures--9-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_10]: https://custom-icon-badges.demolab.com/badge/Recording%2010-Identifying%20Pictures--10-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_11]: https://custom-icon-badges.demolab.com/badge/Recording%2011-Identifying%20Pictures--11-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_12]: https://custom-icon-badges.demolab.com/badge/Recording%2012-Identifying%20Pictures--12-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_13]: https://custom-icon-badges.demolab.com/badge/Recording%2013-Identifying%20Pictures--13-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_14]: https://custom-icon-badges.demolab.com/badge/Recording%2014-Identifying%20Pictures--14-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_15]: https://custom-icon-badges.demolab.com/badge/Recording%2015-Identifying%20Pictures--15-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_16]: https://custom-icon-badges.demolab.com/badge/Recording%2016-Identifying%20Pictures--16-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_17]: https://custom-icon-badges.demolab.com/badge/Recording%2017-Identifying%20Pictures--17-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_18]: https://custom-icon-badges.demolab.com/badge/Recording%2018-Identifying%20Pictures--18-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_19]: https://custom-icon-badges.demolab.com/badge/Recording%2019-Identifying%20Pictures--19-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_20]: https://custom-icon-badges.demolab.com/badge/Recording%2020-Identifying%20Pictures--20-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_21]: https://custom-icon-badges.demolab.com/badge/Recording%2021-Identifying%20Pictures--21-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_22]: https://custom-icon-badges.demolab.com/badge/Recording%2022-Identifying%20Pictures--22-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_23]: https://custom-icon-badges.demolab.com/badge/Recording%2023-Identifying%20Pictures--23-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_24]: https://custom-icon-badges.demolab.com/badge/Recording%2024-Identifying%20Pictures--24-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_25]: https://custom-icon-badges.demolab.com/badge/Recording%2025-Identifying%20Pictures--25-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_26]: https://custom-icon-badges.demolab.com/badge/Recording%2026-Identifying%20Pictures--26-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_27]: https://custom-icon-badges.demolab.com/badge/Recording%2027-Identifying%20Pictures--27-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_28]: https://custom-icon-badges.demolab.com/badge/Recording%2028-Identifying%20Pictures--28-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_29]: https://custom-icon-badges.demolab.com/badge/Recording%2029-Identifying%20Pictures--29-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_30]: https://custom-icon-badges.demolab.com/badge/Recording%2030-Identifying%20Pictures--30-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_31]: https://custom-icon-badges.demolab.com/badge/Recording%2031-Identifying%20Pictures--31-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_32]: https://custom-icon-badges.demolab.com/badge/Recording%2032-Identifying%20Pictures--32-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_33]: https://custom-icon-badges.demolab.com/badge/Recording%2033-Identifying%20Pictures--33-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_34]: https://custom-icon-badges.demolab.com/badge/Recording%2034-Identifying%20Pictures--34-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_35]: https://custom-icon-badges.demolab.com/badge/Recording%2035-Identifying%20Pictures--35-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_36]: https://custom-icon-badges.demolab.com/badge/Recording%2036-Identifying%20Pictures--36-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_37]: https://custom-icon-badges.demolab.com/badge/Recording%2037-Identifying%20Pictures--37-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Repeating Words
 
@@ -491,4 +490,3 @@ That was great! Let's look at a few more pictures – if you know what it is, sa
 ![mic][mic]
 
 ---
-

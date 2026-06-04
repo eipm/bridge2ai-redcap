@@ -7,9 +7,8 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Generative%20Naming%20Task--animals-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Generative%20Naming%20Task--food-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Generative Naming Task
 
@@ -39,5 +38,3 @@ Next I want you to name as many food items you can think of. When you are ready,
 ![mic][mic]
 
 ---
-
-

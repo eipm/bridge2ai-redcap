@@ -7,13 +7,10 @@
 [![Back to Main Document](https://img.shields.io/badge/back%20to%20main%20document-8A2BE2)](../../../../../README.md)
 
 [mic]: https://custom-icon-badges.demolab.com/badge/Press_to_Record-purple.svg?logo=mic&logoSource=feather
-[recording_1]: https://img.shields.io/badge/Recording%201-white
-[recording_2]: https://img.shields.io/badge/Recording%202-white
-[recording_3]: https://img.shields.io/badge/Recording%203-white
-[recording_4]: https://img.shields.io/badge/Recording%204-white
-
-
-
+[recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Conversation%20(6%20plus)--ready___for__school-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Conversation%20(6%20plus)--favorite__show__movie__game-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Conversation%20(6%20plus)--favorite__food-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Conversation%20(6%20plus)--outside__of__school-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Conversation (6 plus)
 
@@ -54,7 +51,3 @@ What do you like to do when you're not at school? Tell me about any activities y
 ![Alt text](10plus_outside_of_school.jpg) 
 
 ![mic][mic]
-
-
-
-
