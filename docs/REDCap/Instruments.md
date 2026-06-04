@@ -37,15 +37,15 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 
 ## Consents
 
-| # | Instrument | Form Name | English ZIP | Spanish (`es-419`) |
-| :-: | :-- | :-- | :-: | :-: |
-| 1 | Bridge2AI Paper Consent — All Sites (English) | `bridge2ai_paper_consent_all_sites_english` | [📦](../../data/instruments/Bridge2AI%20Paper%20Consent%20-%20All%20Sites%20-%20English.zip) | — |
-| 2 | Bridge2AI eConsent — USF (English) | `bridge2ai_econsent_usf_english_version_3` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20English.zip) | — |
-| 3 | Bridge2AI eConsent — USF (Spanish) | `bridge2ai_econsent_usf_spanish_version_3` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.zip) | — |
-| 4 | Bridge2AI eConsent — MIT (English) | `bridge2ai_econsent_mit_english_version_2` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20English.zip) | — |
-| 5 | Bridge2AI eConsent — MIT (Spanish) | `bridge2ai_econsent_mit_spanish_version_2` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish.zip) | — |
-| 6 | Bridge2AI eConsent — WCM (English) | `bridge2ai_econsent_wcm_english` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20English.zip) | — |
-| 7 | Bridge2AI eConsent — WCM (Spanish) | `bridge2ai_econsent_wcm_spanish_version_1` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish.zip) | — |
+| # | Instrument | Form Name | English ZIP | Spanish ZIP | Spanish (`es-419`) |
+| :-: | :-- | :-- | :-: | :-: | :-: |
+| 1 | Bridge2AI Paper Consent — All Sites (English) | `bridge2ai_paper_consent_all_sites_english` | [📦](../../data/instruments/Bridge2AI%20Paper%20Consent%20-%20All%20Sites%20-%20English.zip) | — | — |
+| 2 | Bridge2AI eConsent — USF (English) | `bridge2ai_econsent_usf_english_version_3` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20English.zip) | — | — |
+| 3 | Bridge2AI eConsent — USF (Spanish) | `bridge2ai_econsent_usf_spanish_version_3` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.zip) | — |
+| 4 | Bridge2AI eConsent — MIT (English) | `bridge2ai_econsent_mit_english_version_2` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20English.zip) | — | — |
+| 5 | Bridge2AI eConsent — MIT (Spanish) | `bridge2ai_econsent_mit_spanish_version_2` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish.zip) | — |
+| 6 | Bridge2AI eConsent — WCM (English) | `bridge2ai_econsent_wcm_english` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20English.zip) | — | — |
+| 7 | Bridge2AI eConsent — WCM (Spanish) | `bridge2ai_econsent_wcm_spanish_version_1` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish.zip) | — |
 
 ## Adult Diagnoses
 

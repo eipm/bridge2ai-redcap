@@ -16,7 +16,7 @@ Voice and speech recordings performed during each session in the adult Bridge2AI
 
 | # | 🔊 Recording | 🎤 Acoustic Task | Used in | 📄 Description (English) | 📄 Description (Spanish) |
 | :-: | :-- | :- | :- | :-: | :-: |
-| 1 | Prolonged Vowel | Prolonged Vowel | All| [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md>) | [📄](<Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md>) |
+| 1 | Prolonged Vowel | Prolonged Vowel | All| [📄](../Acoustic%20Tasks/Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(English).md) | [📄](../Acoustic%20Tasks/Current/Prolonged%20Vowel/Prolonged%20Vowel%20-%20Acoustic%20Task%20Description%20(Spanish).md) |
 
 
 ## 🗄️ Retired Recordings
@@ -25,4 +25,4 @@ Retired recordings are kept here for historical reference. Spanish descriptions 
 
 | # | 🔊 Recording | 🎤 Acoustic Task | Used in | 📄 Description (English) |
 | :-: | :-- | :- | :- | :-: |
-| 1 | Rainbow Passage | Rainbow Passage | All| [📄](<Retired/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md>) |
+| 1 | Rainbow Passage | Rainbow Passage | All| [📄](../Acoustic%20Tasks/Retired/Rainbow%20Passage/Rainbow%20Passage%20-%20Acoustic%20Task%20Description%20(English).md) |
