@@ -8,8 +8,6 @@
 
 # Adult - Voice Disorders Protocol
 
-## Table of Contents
-
 ## Overview
 
 This document provides an overview of the Adult Voice Disorders Protocol used in the Bridge2AI project. It includes details on questionnaires, acoustic tasks, and diagnoses relevant to the protocol.
