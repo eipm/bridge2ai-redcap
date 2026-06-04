@@ -11,8 +11,6 @@
 [recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Days%20and%20Number%20naming--days-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 [recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Days%20and%20Number%20naming--months-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
-Days and Number naming-numbers, -days, -months
-
 # Days and Number naming
 
 ![recording_1][recording_1]

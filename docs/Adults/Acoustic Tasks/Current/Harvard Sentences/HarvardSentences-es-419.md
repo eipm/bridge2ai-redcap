@@ -379,7 +379,7 @@
 9. Limpió la funda del sofá con agua fría.
 10. Un kilo de miel cuesta más que los huevos.
 
-## List 321
+## List 32
 1. Allí, la marca del agua es de dos metros.
 2. Ponga la carta detrás de las dos hojas.
 3. La mujer mira al reloj de pared sin parar.
