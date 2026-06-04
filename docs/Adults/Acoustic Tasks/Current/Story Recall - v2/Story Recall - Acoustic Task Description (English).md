@@ -49,7 +49,7 @@ When you are ready, please click the **record** button below.
 
 ---
 
-5. he boy and the dog looked outside for the frog. The boy called out, “Frog, where are you?”
+5. The boy and the dog looked outside for the frog. The boy called out, “Frog, where are you?”
 
 ![Alt text](StoryRecall_5.jpg)
 
