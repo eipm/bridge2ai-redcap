@@ -1,0 +1,274 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-06-03 18:20:20",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "notes": "",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "random_session_id",
+            "form": "q_neuro_random_item_generation",
+            "header": {
+                "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "random_recording_acoustic_task_id",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "807586fa63",
+                "prompt": "Field label translation:",
+                "default": "Acoustic Task ID",
+                "translation": "ID de tarea acústica"
+            }
+        },
+        {
+            "id": "random_started_at",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "random_completed_at",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "random_duration",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "random_origin",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "3b0f6d8350",
+                "prompt": "Field label translation:",
+                "default": "Random Item Generation - origin",
+                "translation": "Generación Aleatoria de Elementos - origen"
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
+                }
+            ]
+        },
+        {
+            "id": "random_via",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "af6f93abff",
+                "prompt": "Field label translation:",
+                "default": "Random Item Generation - via",
+                "translation": "Generación Aleatoria de Elementos - vía"
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
+                }
+            ]
+        },
+        {
+            "id": "random_language",
+            "form": "q_neuro_random_item_generation",
+            "label": {
+                "hash": "21f2814d8e",
+                "prompt": "Field label translation:",
+                "default": "Random Item Generation - Language",
+                "translation": "Generación Aleatoria de Elementos - Idioma"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
+                }
+            ]
+        },
+        {
+            "id": "random_item_generation_category",
+            "form": "q_neuro_random_item_generation",
+            "header": {
+                "hash": "1ca417c02e",
+                "prompt": "Section header translation:",
+                "default": " Random item generation / semantic fluency",
+                "translation": "Generación aleatoria de ítems / fluidez semántica"
+            },
+            "label": {
+                "hash": "5846501b07",
+                "prompt": "Field label translation:",
+                "default": "Random item generation category",
+                "translation": "Categoría de generación aleatoria de ítems"
+            },
+            "enum": [
+                {
+                    "id": "numbers",
+                    "hash": "7e53821f70",
+                    "prompt": "Choices translation:",
+                    "default": "Numbers",
+                    "translation": "Números"
+                },
+                {
+                    "id": "letters",
+                    "hash": "6a37a6819c",
+                    "prompt": "Choices translation:",
+                    "default": "Letters",
+                    "translation": "Letras"
+                },
+                {
+                    "id": "firstNames",
+                    "hash": "e213232b62",
+                    "prompt": "Choices translation:",
+                    "default": "First names",
+                    "translation": "Nombres de pila"
+                },
+                {
+                    "id": "cityNames",
+                    "hash": "eea65d32c2",
+                    "prompt": "Choices translation:",
+                    "default": "City names",
+                    "translation": "Nombres de ciudades"
+                },
+                {
+                    "id": "countryNames",
+                    "hash": "03955e0106",
+                    "prompt": "Choices translation:",
+                    "default": "Country names",
+                    "translation": "Nombres de países"
+                },
+                {
+                    "id": "jobs",
+                    "hash": "437736fdb5",
+                    "prompt": "Choices translation:",
+                    "default": "Jobs",
+                    "translation": "Profesiones"
+                },
+                {
+                    "id": "fruits",
+                    "hash": "cb05f92ab1",
+                    "prompt": "Choices translation:",
+                    "default": "Fruits",
+                    "translation": "Frutas"
+                },
+                {
+                    "id": "drinks",
+                    "hash": "cd3fe5575c",
+                    "prompt": "Choices translation:",
+                    "default": "Drinks",
+                    "translation": "Bebidas"
+                },
+                {
+                    "id": "animals",
+                    "hash": "1780ecaa16",
+                    "prompt": "Choices translation:",
+                    "default": "Animals",
+                    "translation": "Animales"
+                },
+                {
+                    "id": "wordStartingWithT",
+                    "hash": "199b04124c",
+                    "prompt": "Choices translation:",
+                    "default": "English words starting with \"t\"",
+                    "translation": "Palabras en Español que comienzan con \"t\""
+                }
+            ]
+        },
+        {
+            "id": "q_neuro_random_item_generation_complete",
+            "form": "q_neuro_random_item_generation",
+            "header": {
+                "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ]
+}

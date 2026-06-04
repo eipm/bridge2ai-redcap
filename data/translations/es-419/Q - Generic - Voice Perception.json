@@ -1,0 +1,264 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-06-03 18:15:14",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "notes": "",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "voice_perception_session_id",
+            "form": "q_generic_voice_perception",
+            "header": {
+                "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "voice_perception_started_at",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "voice_perception_completed_at",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "voice_perception_duration",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "voice_perception_origin",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "4c329843f2",
+                "prompt": "Field label translation:",
+                "default": "Voice Perception - origin",
+                "translation": "Percepción Vocal - origen"
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
+                }
+            ]
+        },
+        {
+            "id": "voice_perception_via",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "ec701e6989",
+                "prompt": "Field label translation:",
+                "default": "Voice Perception - via",
+                "translation": "Percepción Vocal - vía"
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
+                }
+            ]
+        },
+        {
+            "id": "voice_perception_language",
+            "form": "q_generic_voice_perception",
+            "label": {
+                "hash": "a2d17325e3",
+                "prompt": "Field label translation:",
+                "default": "Voice Perception - Language",
+                "translation": "Percepción Vocal - Idioma"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
+                }
+            ]
+        },
+        {
+            "id": "voice_quality_perception",
+            "form": "q_generic_voice_perception",
+            "header": {
+                "hash": "46a8afa389",
+                "prompt": "Section header translation:",
+                "default": "Voice Perception",
+                "translation": "Percepción Vocal"
+            },
+            "label": {
+                "hash": "5a656d9dc9",
+                "prompt": "Field label translation:",
+                "default": "How would rate your voice quality today from 1-10?\n1 is the lowest quality and 10 is the best voice quality",
+                "translation": "¿Cómo calificarías la calidad de tu voz hoy del 1 al 10?\r\n1 es la calidad más baja y 10 es la mejor calidad de voz"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "356a192b79",
+                    "prompt": "Choices translation:",
+                    "default": "1",
+                    "translation": "1"
+                },
+                {
+                    "id": 2,
+                    "hash": "da4b9237ba",
+                    "prompt": "Choices translation:",
+                    "default": "2",
+                    "translation": "2"
+                },
+                {
+                    "id": 3,
+                    "hash": "77de68daec",
+                    "prompt": "Choices translation:",
+                    "default": "3",
+                    "translation": "3"
+                },
+                {
+                    "id": 4,
+                    "hash": "1b64538924",
+                    "prompt": "Choices translation:",
+                    "default": "4",
+                    "translation": "4"
+                },
+                {
+                    "id": 5,
+                    "hash": "ac3478d69a",
+                    "prompt": "Choices translation:",
+                    "default": "5",
+                    "translation": "5"
+                },
+                {
+                    "id": 6,
+                    "hash": "c1dfd96eea",
+                    "prompt": "Choices translation:",
+                    "default": "6",
+                    "translation": "6"
+                },
+                {
+                    "id": 7,
+                    "hash": "902ba3cda1",
+                    "prompt": "Choices translation:",
+                    "default": "7",
+                    "translation": "7"
+                },
+                {
+                    "id": 8,
+                    "hash": "fe5dbbcea5",
+                    "prompt": "Choices translation:",
+                    "default": "8",
+                    "translation": "8"
+                },
+                {
+                    "id": 9,
+                    "hash": "0ade7c2cf9",
+                    "prompt": "Choices translation:",
+                    "default": "9",
+                    "translation": "9"
+                },
+                {
+                    "id": 10,
+                    "hash": "b1d5781111",
+                    "prompt": "Choices translation:",
+                    "default": "10",
+                    "translation": "10"
+                }
+            ]
+        },
+        {
+            "id": "q_generic_voice_perception_complete",
+            "form": "q_generic_voice_perception",
+            "header": {
+                "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ]
+}

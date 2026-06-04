@@ -1,0 +1,328 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-06-03 18:15:53",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "notes": "",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "gad_7_session_id",
+            "form": "q_generic_gad7_anxiety",
+            "header": {
+                "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "gad_7_started_at",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "gad_7_completed_at",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "gad_7_duration",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "gad_7_origin",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "a65dcdf23d",
+                "prompt": "Field label translation:",
+                "default": "GAD-7 - origin",
+                "translation": "Ansiedad GAD-7 - origen"
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
+                }
+            ]
+        },
+        {
+            "id": "gad_7_via",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "724bd3421c",
+                "prompt": "Field label translation:",
+                "default": "GAD-7 - via",
+                "translation": "Ansiedad GAD-7 - vía"
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
+                }
+            ]
+        },
+        {
+            "id": "gad_7_language",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "82cd62454e",
+                "prompt": "Field label translation:",
+                "default": "GAD-7 - Language",
+                "translation": "Ansiedad GAD-7 - Idioma"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
+                }
+            ]
+        },
+        {
+            "id": "nervous_anxious",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "36ce2c3bc7",
+                "prompt": "Field label translation:",
+                "default": "Feeling nervous, anxious, or on edge.",
+                "translation": "Sentirse nervioso/a, intranquilo/a o con los nervios de punta."
+            }
+        },
+        {
+            "id": "cant_control_worry",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "abc5219d7b",
+                "prompt": "Field label translation:",
+                "default": "Not being able to stop or control worrying.",
+                "translation": "No poder dejar de preocuparse o no poder controlar la preocupación."
+            }
+        },
+        {
+            "id": "worry_too_much",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "bd9c10abf1",
+                "prompt": "Field label translation:",
+                "default": "Worrying too much about different things.",
+                "translation": "Preocuparse demasiado por diferentes cosas."
+            }
+        },
+        {
+            "id": "trouble_relaxing",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "2bbdbc51cc",
+                "prompt": "Field label translation:",
+                "default": "Trouble relaxing.",
+                "translation": "Dificultad para relajarse."
+            }
+        },
+        {
+            "id": "hard_to_sit_still",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "62c7f5ca5d",
+                "prompt": "Field label translation:",
+                "default": "Being so restless that it is hard to sit still.",
+                "translation": "Estar tan inquieto/a que es difícil permanecer sentado/a tranquilamente."
+            }
+        },
+        {
+            "id": "easily_agitated",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "8362f667e6",
+                "prompt": "Field label translation:",
+                "default": "Becoming easily annoyed or irritable.",
+                "translation": "Molestarse o ponerse irritable fácilmente."
+            }
+        },
+        {
+            "id": "afraid_of_things",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "60e3af32ab",
+                "prompt": "Field label translation:",
+                "default": "Feeling afraid, as if something awful might happen.",
+                "translation": "Sentir miedo como si algo terrible pudiera pasar."
+            }
+        },
+        {
+            "id": "tough_to_work",
+            "form": "q_generic_gad7_anxiety",
+            "label": {
+                "hash": "eb5680286e",
+                "prompt": "Field label translation:",
+                "default": "How difficult have they made it for you to do your work, take care of things at home, or get along with other people?",
+                "translation": "¿Qué tan difícil le ha hecho hacer su trabajo, ocuparse de las cosas en casa o llevarse bien con otras personas?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "967892cab2",
+                    "prompt": "Choices translation:",
+                    "default": "Not difficult at all",
+                    "translation": "No ha sido difícil"
+                },
+                {
+                    "id": 1,
+                    "hash": "b0b36f932f",
+                    "prompt": "Choices translation:",
+                    "default": "Somewhat difficult",
+                    "translation": "Algo dificil"
+                },
+                {
+                    "id": 2,
+                    "hash": "cc7a5173a0",
+                    "prompt": "Choices translation:",
+                    "default": "Very difficult",
+                    "translation": "Muy dificil"
+                },
+                {
+                    "id": 3,
+                    "hash": "5980bbcabf",
+                    "prompt": "Choices translation:",
+                    "default": "Extremely difficult",
+                    "translation": "Extremadamente difícil"
+                }
+            ]
+        },
+        {
+            "id": "q_generic_gad7_anxiety_complete",
+            "form": "q_generic_gad7_anxiety",
+            "header": {
+                "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "gad_7_anxiety",
+            "form": "q_generic_gad7_anxiety",
+            "header": {
+                "hash": "c0ed167f6d",
+                "prompt": "Matrix header translation:",
+                "default": "Over the last two weeks, how often have you been bothered by the following problems?",
+                "translation": "Durante las últimas 2 semanas, ¿con qué frecuencia ha sentido molestias por los siguientes problemas?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "35b42ab803",
+                    "prompt": "Choices translation:",
+                    "default": "Not at all",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": 1,
+                    "hash": "0ba6cf542f",
+                    "prompt": "Choices translation:",
+                    "default": "Several days",
+                    "translation": "Varios días"
+                },
+                {
+                    "id": 2,
+                    "hash": "3e1feecf30",
+                    "prompt": "Choices translation:",
+                    "default": "More than half the days",
+                    "translation": "Más de la mitad de los días"
+                },
+                {
+                    "id": 3,
+                    "hash": "6b4ee3395c",
+                    "prompt": "Choices translation:",
+                    "default": "Nearly every day",
+                    "translation": "Casi todos los días"
+                }
+            ]
+        }
+    ]
+}

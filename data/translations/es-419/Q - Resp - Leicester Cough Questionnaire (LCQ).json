@@ -1,0 +1,429 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-06-03 18:19:43",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "notes": "",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "leicester_cough_session_id",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "header": {
+                "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "leicester_cough_started_at",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "leicester_cough_completed_at",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "leicester_cough_duration",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "leicester_cough_origin",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "8e9730f8af",
+                "prompt": "Field label translation:",
+                "default": "Leicester Cough Questionnaire (LCQ) - origin",
+                "translation": "Cuestionario de tos de Leicester (LCQ) - origen"
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
+                }
+            ]
+        },
+        {
+            "id": "leicester_cough_via",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "1696b335bf",
+                "prompt": "Field label translation:",
+                "default": "Leicester Cough Questionnaire (LCQ) - via",
+                "translation": "Cuestionario de tos de Leicester (LCQ) - vía"
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
+                }
+            ]
+        },
+        {
+            "id": "leicester_cough_language",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "300dd4ff17",
+                "prompt": "Field label translation:",
+                "default": "Leicester Cough Questionnaire (LCQ) - Language",
+                "translation": "Cuestionario de tos de Leicester (LCQ) - Idioma"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
+                }
+            ]
+        },
+        {
+            "id": "lcq_chest_stomach_pains",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "2ccac35495",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you had chest or stomach pains as a result of your cough?",
+                "translation": "En las últimas 2 semanas, ¿ha tenido dolores en el pecho o el estómago como resultado de la tos?"
+            }
+        },
+        {
+            "id": "lcq_sputum_phlegm",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "6a3327ba70",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you been bothered by sputum (phlegm) production when you cough?",
+                "translation": "En las últimas 2 semanas, ¿le ha molestado la producción de esputo (flema) al toser?"
+            }
+        },
+        {
+            "id": "lcq_tired",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "1f14ef476c",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you been tired because of your cough?",
+                "translation": "En las últimas 2 semanas, ¿ha estado cansado a causa de la tos?"
+            }
+        },
+        {
+            "id": "lcq_embarrassed",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "669846ffad",
+                "prompt": "Field label translation:",
+                "default": "How often during the last 2 weeks have you felt embarrassed by your coughing?",
+                "translation": "¿Con qué frecuencia durante las últimas 2 semanas se ha sentido avergonzado por su tos?"
+            }
+        },
+        {
+            "id": "lcq_anxious",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "c56891a336",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, my cough has made me feel anxious.",
+                "translation": "En las últimas 2 semanas, mi tos me ha hecho sentir ansioso."
+            }
+        },
+        {
+            "id": "lcq_interfere_job",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "41a973d0b8",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, my cough has interfered with my job or other daily tasks.",
+                "translation": "En las últimas 2 semanas, mi tos ha interferido con mi trabajo u otras tareas diarias."
+            }
+        },
+        {
+            "id": "lcq_interfere_life",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "59479981de",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, I felt that my cough interfered with the overall enjoyment of my life.",
+                "translation": "En las últimas 2 semanas, sentí que mi tos interfería con el disfrute general de mi vida."
+            }
+        },
+        {
+            "id": "lcq_exposure_paint",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "0626ba4a95",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, exposure to paint or fumes has made me cough.",
+                "translation": "En las últimas 2 semanas, la exposición a pintura o vapores me hizo toser."
+            }
+        },
+        {
+            "id": "lcq_sleep",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "005a64e4e1",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, has your cough disturbed your sleep?",
+                "translation": "En las últimas 2 semanas, ¿la tos ha perturbado su sueño?"
+            }
+        },
+        {
+            "id": "lcq_bout",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "a3add2a7c3",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, how many times a day have you had a coughing bout?",
+                "translation": "En las últimas 2 semanas, ¿cuántas veces al día ha tenido ataques de tos?"
+            }
+        },
+        {
+            "id": "lcq_frustrated",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "1fc0e0b234",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, my cough has made me feel frustrated.",
+                "translation": "En las últimas 2 semanas, mi tos me ha hecho sentir frustrado."
+            }
+        },
+        {
+            "id": "lcq_fed_up",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "bfa0b96fea",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, my cough has made me feel fed up.",
+                "translation": "En las últimas 2 semanas, mi tos me ha hecho sentir harto."
+            }
+        },
+        {
+            "id": "lcq_hoarse_voice",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "3c43135ed9",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you suffered from a hoarse voice as a result of your cough?",
+                "translation": "En las últimas 2 semanas, ¿ha sufrido voz ronca como consecuencia de la tos?"
+            }
+        },
+        {
+            "id": "lcq_serious_illness",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "4058d2a300",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you worried that your cough may indicate serious illness?",
+                "translation": "En las últimas 2 semanas, ¿le ha preocupado que su tos pueda indicar una enfermedad grave?"
+            }
+        },
+        {
+            "id": "lcq_other_people",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "e3cb085582",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you been concerned that other people think something is wrong with you, because of your cough?",
+                "translation": "En las últimas 2 semanas, ¿le ha preocupado que otras personas piensen que algo anda mal con usted debido a su tos?"
+            }
+        },
+        {
+            "id": "lcq_interrupt_conversation",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "c051b4dcf9",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, my cough has interrupted conversation or telephone calls.",
+                "translation": "En las últimas 2 semanas, mi tos ha interrumpido conversaciones o llamadas telefónicas."
+            }
+        },
+        {
+            "id": "lcq_partner",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "0ddcd911c1",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, I feel that my cough has annoyed my partner, family, or friends.",
+                "translation": "En las últimas 2 semanas siento que mi tos ha molestado a mi pareja, familia o amigos."
+            }
+        },
+        {
+            "id": "lcq_felt_in_control",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "09bb798162",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you felt in control of your cough?",
+                "translation": "En las últimas 2 semanas, ¿ha sentido que controla su tos?"
+            }
+        },
+        {
+            "id": "lcq_energy",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "label": {
+                "hash": "bfc997cfa3",
+                "prompt": "Field label translation:",
+                "default": "In the last 2 weeks, have you had a lot of energy?",
+                "translation": "En las últimas 2 semanas, ¿ha tenido mucha energía?"
+            }
+        },
+        {
+            "id": "q_resp_leicester_cough_questionnaire_lcq_complete",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "header": {
+                "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "leicester_cough",
+            "form": "q_resp_leicester_cough_questionnaire_lcq",
+            "header": {
+                "hash": "e93b1eb9d7",
+                "prompt": "Matrix header translation:",
+                "default": "Please answer the following questions using a 1-7 rating scale.\n\n1 = None of the time; 2 = Hardly any of the time; 3 = A little of the time; 4 = Some of the time; 5 = A good bit of the time; 6 = Most of the time; 7 = All of the time",
+                "translation": "Por favor, responda las siguientes preguntas usando una escala de valoración del 1 al 7.\n\n1 = Nunca; 2 = Casi nunca; 3 = Pocas veces; 4 = Algunas veces; 5 = Bastantes veces; 6 = La mayoría de las veces; 7 = Siempre"
+            },
+            "enum": [
+                {
+                    "id": "noneOfTheTime",
+                    "hash": "eddcce46cf",
+                    "prompt": "Choices translation:",
+                    "default": "None of the time",
+                    "translation": "Ninguna de las veces"
+                },
+                {
+                    "id": "hardlyAnyOfTheTime",
+                    "hash": "3f5c514e85",
+                    "prompt": "Choices translation:",
+                    "default": "Hardly any of the time",
+                    "translation": "Casi nunca"
+                },
+                {
+                    "id": "aLittleOfTheTime",
+                    "hash": "34fb22cd94",
+                    "prompt": "Choices translation:",
+                    "default": "A little of the time",
+                    "translation": "un poco de tiempo"
+                },
+                {
+                    "id": "someOfTheTime",
+                    "hash": "01812fb005",
+                    "prompt": "Choices translation:",
+                    "default": "Some of the time",
+                    "translation": "Algo de tiempo"
+                },
+                {
+                    "id": "aGoodBitOfTheTime",
+                    "hash": "c4c2ba3f04",
+                    "prompt": "Choices translation:",
+                    "default": "A good bit of the time",
+                    "translation": "un buen rato"
+                },
+                {
+                    "id": "mostOfTheTime",
+                    "hash": "259eb1d4e0",
+                    "prompt": "Choices translation:",
+                    "default": "Most of the time",
+                    "translation": "La mayor parte del tiempo"
+                },
+                {
+                    "id": "allOfTheTime",
+                    "hash": "975588ef6d",
+                    "prompt": "Choices translation:",
+                    "default": "All of the time",
+                    "translation": "Todo el tiempo"
+                }
+            ]
+        }
+    ]
+}

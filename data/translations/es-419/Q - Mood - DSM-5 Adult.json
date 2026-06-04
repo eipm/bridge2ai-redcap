@@ -1,0 +1,843 @@
+{
+    "creator": "REDCap MLM",
+    "version": "v15.5.40",
+    "timestamp": "2026-06-03 18:18:26",
+    "instructions": "How to use this file: The essential elements are all 'id', 'type', 'form', 'order', and 'translation' items and the paths leading to them, as well as the root elements 'creator' (must be left as is), 'key', 'display', and 'rtl'. All other items, including this text, are non-essential and will not be regarded during an import operation. Furthermore, subsets of this file can be created and used at will, as long as it remains valid JSON. The 'hash' items are not essential, but assist in tracking if a default value has changed since the file was created, and thus a translation may be out of date. During an import operation, a best-effort approach is taken. Any paths and/or ids that do not match the target will be silently ignored. Thus, a cross-project import of field translations would only work for fields of the same name.",
+    "key": "es-419",
+    "display": "Spanish",
+    "notes": "",
+    "rtl": false,
+    "sort": "",
+    "fieldTranslations": [
+        {
+            "id": "dsm_5_session_id",
+            "form": "q_mood_dsm5_adult",
+            "header": {
+                "hash": "0f9cf54bba",
+                "prompt": "Section header translation:",
+                "default": "Questionnaire - Metadata",
+                "translation": "Cuestionario - Metadatos"
+            },
+            "label": {
+                "hash": "25e4fe8736",
+                "prompt": "Field label translation:",
+                "default": "Session ID",
+                "translation": "ID de Sesión"
+            }
+        },
+        {
+            "id": "dsm_5_started_at",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "e53ac3bcb6",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Started At",
+                "translation": "Inicio del Cuestionario"
+            }
+        },
+        {
+            "id": "dsm_5_completed_at",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "80f347b939",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Completed At",
+                "translation": "Finalización del Cuestionario"
+            }
+        },
+        {
+            "id": "dsm_5_duration",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "7015f95aa9",
+                "prompt": "Field label translation:",
+                "default": "Questionnaire Duration (seconds)",
+                "translation": "Duración del Cuestionario (segundos)"
+            }
+        },
+        {
+            "id": "dsm_5_origin",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "dec91b94a9",
+                "prompt": "Field label translation:",
+                "default": "DSM-5 - origin",
+                "translation": "DSM-5 Adulto - origen"
+            },
+            "enum": [
+                {
+                    "id": "app",
+                    "hash": "2e9a177f68",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI App",
+                    "translation": "Aplicación Bridge2AI"
+                },
+                {
+                    "id": "website",
+                    "hash": "7e41ce39bd",
+                    "prompt": "Choices translation:",
+                    "default": "Bridge2AI Web App",
+                    "translation": "Aplicación Web Bridge2AI"
+                }
+            ]
+        },
+        {
+            "id": "dsm_5_via",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "d650bd2b6b",
+                "prompt": "Field label translation:",
+                "default": "DSM-5 - via",
+                "translation": "DSM-5 Adulto - vía"
+            },
+            "enum": [
+                {
+                    "id": "dataCollector",
+                    "hash": "16ae58771c",
+                    "prompt": "Choices translation:",
+                    "default": "Data Collector",
+                    "translation": "Recolector de Datos"
+                },
+                {
+                    "id": "participant",
+                    "hash": "a77366e97a",
+                    "prompt": "Choices translation:",
+                    "default": "Participant",
+                    "translation": "Participante"
+                }
+            ]
+        },
+        {
+            "id": "dsm_5_language",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "50352d2e43",
+                "prompt": "Field label translation:",
+                "default": "DSM-5 - Language",
+                "translation": "DSM-5 Adulto - Idioma"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "649df08a44",
+                    "prompt": "Choices translation:",
+                    "default": "English",
+                    "translation": "Inglés"
+                },
+                {
+                    "id": 3,
+                    "hash": "8df7f1b361",
+                    "prompt": "Choices translation:",
+                    "default": "Spanish",
+                    "translation": "Español"
+                }
+            ]
+        },
+        {
+            "id": "little_interest",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "33a797c001",
+                "prompt": "Field label translation:",
+                "default": "Little interest or pleasure in doing things?",
+                "translation": "¿Tiene poco de interés o placer para hacer las cosas?"
+            }
+        },
+        {
+            "id": "feeling_down",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "6ecd6a542a",
+                "prompt": "Field label translation:",
+                "default": "Feeling down, depressed, or hopeless?",
+                "translation": "¿Se siente decaído, deprimido, o sin esperanza?"
+            }
+        },
+        {
+            "id": "feeling_more_irritated",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "df9f626ebb",
+                "prompt": "Field label translation:",
+                "default": "Feeling more irritated, grouchy, or angry than usual?",
+                "translation": "¿Se siente más irritable, enojado, o de mal humo que antes?"
+            }
+        },
+        {
+            "id": "sleeping_less",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "576d70b357",
+                "prompt": "Field label translation:",
+                "default": "Sleeping less than usual, but still have a lot of energy?",
+                "translation": "¿Ha estado durmiendo menos de lo normal, pero todavía siente que tiene mucha energía?"
+            }
+        },
+        {
+            "id": "starting_more_projects",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "255aab5d54",
+                "prompt": "Field label translation:",
+                "default": "Starting lots more projects than usual or doing more risky things than usual?",
+                "translation": "¿Ha estado comenzando muchos más proyectos o esta haciendo más cosas arriesgadas que antes?"
+            }
+        },
+        {
+            "id": "feeling_nervous",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "e3e0ec59d1",
+                "prompt": "Field label translation:",
+                "default": "Feeling nervous, anxious, frightened, worried, or on edge?",
+                "translation": "¿Se siente nervioso, ansioso, con miedo, preocupado, o tenso?"
+            }
+        },
+        {
+            "id": "feeling_panic",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "b7ef910b7f",
+                "prompt": "Field label translation:",
+                "default": "Feeling panic or being frightened?",
+                "translation": "¿Se siente con pánico o asustado?"
+            }
+        },
+        {
+            "id": "avoiding_situations",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "2f8e6250d8",
+                "prompt": "Field label translation:",
+                "default": "Avoiding situations that make you anxious?",
+                "translation": "¿Ha estado evitando situaciones que le dan ansiedad?"
+            }
+        },
+        {
+            "id": "unexplained_aches",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "7da1579eb0",
+                "prompt": "Field label translation:",
+                "default": "Unexplained aches and pains (e.g., head, back, joints, abdomen, legs)?",
+                "translation": "¿Tiene molestias o dolores fuertes en el cuerpo que no tienen explicaciones?"
+            }
+        },
+        {
+            "id": "illness_not_taken_serious",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "91ba72c46f",
+                "prompt": "Field label translation:",
+                "default": "Feeling that your illnesses are not being taken seriously enough?",
+                "translation": "¿Se siente que sus enfermedades no están siendo tomados en serio?"
+            }
+        },
+        {
+            "id": "self_harm",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "7a668205db",
+                "prompt": "Field label translation:",
+                "default": "Thoughts of actually hurting yourself?",
+                "translation": "¿Tiene pensamientos reales de hacerse daño a si mismo?"
+            }
+        },
+        {
+            "id": "hearing_things",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "c99b43b425",
+                "prompt": "Field label translation:",
+                "default": "Hearing things other people couldn't hear, such as voices even when no one was around?",
+                "translation": "¿Ha escuchado cosas que otros no pueden oír, como voces, aunque no haiga alguien cerca?"
+            }
+        },
+        {
+            "id": "someone_hear_thoughts",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "5769632ecd",
+                "prompt": "Field label translation:",
+                "default": "Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?",
+                "translation": "¿Se siente que otros le pueden oír sus pensamientos, o que usted puede oír lo que los demás están pensando?"
+            }
+        },
+        {
+            "id": "sleep_quality",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "4ca383013a",
+                "prompt": "Field label translation:",
+                "default": "Problems with sleep that affected your sleep quality over all?",
+                "translation": "¿Tiene problemas con su ciclo de sueño que le afectan su habiilidad de dormir bien?"
+            }
+        },
+        {
+            "id": "memory_issues",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "b09ad2f4d4",
+                "prompt": "Field label translation:",
+                "default": "Problems with memory (e.g., learning new information) or with location (e.g., finding your way home)?",
+                "translation": "¿Tiene problemas de memoria (e.g., aprendiendo información nueva) o con su ubicación (e.g., buscando como llegar a casa)?"
+            }
+        },
+        {
+            "id": "unpleasant_thoughts",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "f82b4c6818",
+                "prompt": "Field label translation:",
+                "default": "Unpleasant thoughts, urges, or images that repeatedly enter your mind?",
+                "translation": "¿Tiene pensamientos, deseos, o imágenes que entran a su mente que son desagradables?"
+            }
+        },
+        {
+            "id": "repeat_acts",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "e5991a7223",
+                "prompt": "Field label translation:",
+                "default": "Feeling driven to perform certain behaviors or mental acts over and over again?",
+                "translation": "¿Se siente impulsado a llevar a cabo ciertos comportamientos o actos mentales una y otra vez?"
+            }
+        },
+        {
+            "id": "feeling_detached",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "238e6b1f8e",
+                "prompt": "Field label translation:",
+                "default": "Feeling detached or distant from yourself, your body, your physical surroundings, or your memories?",
+                "translation": "¿Se siente desconectado o más distante de si mismo, de su cuerpo, su alrededores, o sus memorias?"
+            }
+        },
+        {
+            "id": "no_purpose",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "e451f47b01",
+                "prompt": "Field label translation:",
+                "default": "Not knowing who you really are or what you want out of life?",
+                "translation": "¿Se siente que no sabe quién es usted realmente o qué quiere de la vida?"
+            }
+        },
+        {
+            "id": "isolated",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "70fc157e67",
+                "prompt": "Field label translation:",
+                "default": "Not feeling close to other people or enjoying your relationships with them?",
+                "translation": "¿Se siente que no tiene relaciones intimas con nadie o que no disfruta sus relaciones con los demás?"
+            }
+        },
+        {
+            "id": "drinking_more",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "5fd3255e26",
+                "prompt": "Field label translation:",
+                "default": "Drinking at least 4 drinks of any kind of alcohol in a single day?",
+                "translation": "¿Esta tomando más de 4 bebidas alcohólicas al día?"
+            }
+        },
+        {
+            "id": "smoking_more",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "305d02d36f",
+                "prompt": "Field label translation:",
+                "default": "Smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?",
+                "translation": "¿Fuma cigarros, puros, pipas, o mastica tabaco?"
+            }
+        },
+        {
+            "id": "medication_use",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "fd4c8af9a1",
+                "prompt": "Field label translation:",
+                "default": "Using any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?",
+                "translation": "¿Esta usando las medicinas siguientes, por su propia cuenta sin una receta, o en mayor cantidades: pastillas para el dolor (Vicodin), estimulantes (Ritalin o Adderall), sedantes o tranquilizantes ( pastillas para dormir o Valium), o marihuana, cocaína, éxtasis, droga alucinógenos, heroína, inhalantes, o metanfetamina?"
+            }
+        },
+        {
+            "id": "q1_happy",
+            "form": "q_mood_dsm5_adult",
+            "header": {
+                "hash": "709223c5df",
+                "prompt": "Section header translation:",
+                "default": "DSM-5 Adult (ASRM)\n\nChoose the one statement in each group that best describes the way you (the individual receiving care) have been feeling for the past week.\n\nPlease note:\nThe word \"occasionally\" when used here means once or twice; \"often\" means several times or more and \"frequently\" means most of the time.",
+                "translation": "DSM-5 Adult (ASRM)\r\n\r\nElija la afirmación de cada grupo que mejor describa cómo se ha sentido usted (la persona que recibe atención) durante la semana pasada.\r\n\r\nTenga en cuenta:\r\nThe word \"occasionally\" when used here means once or twice; \"often\" means several times or more and \"frequently\" means most of the time."
+            },
+            "label": {
+                "hash": "7bc124f4af",
+                "prompt": "Field label translation:",
+                "default": "Question 1",
+                "translation": "Pregunta 1"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "34dcd149f8",
+                    "prompt": "Choices translation:",
+                    "default": "I do not feel happier or more cheerful than usual.",
+                    "translation": "No me siento más feliz ni más alegre que de costumbre."
+                },
+                {
+                    "id": 2,
+                    "hash": "f0ac55bd95",
+                    "prompt": "Choices translation:",
+                    "default": "I occasionally feel happier or more cheerful than usual.",
+                    "translation": "De vez en cuando me siento más feliz o más alegre que de costumbre."
+                },
+                {
+                    "id": 3,
+                    "hash": "b808a79244",
+                    "prompt": "Choices translation:",
+                    "default": "I often feel happier or more cheerful than usual.",
+                    "translation": "A menudo me siento más feliz o más alegre que de costumbre."
+                },
+                {
+                    "id": 4,
+                    "hash": "fd738e1d8e",
+                    "prompt": "Choices translation:",
+                    "default": "I feel happier or more cheerful than usual most of the time.",
+                    "translation": "Me siento más feliz o más alegre de lo habitual la mayor parte del tiempo."
+                },
+                {
+                    "id": 5,
+                    "hash": "b0506cec96",
+                    "prompt": "Choices translation:",
+                    "default": "I feel happier or more cheerful than usual all of the time.",
+                    "translation": "Me siento más feliz o más alegre que de costumbre todo el tiempo."
+                }
+            ]
+        },
+        {
+            "id": "q2_self_confident",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "b75f07b0b3",
+                "prompt": "Field label translation:",
+                "default": "Question 2",
+                "translation": "Pregunta 2"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "5f4ec994c6",
+                    "prompt": "Choices translation:",
+                    "default": "I do not feel more self-confident than usual.",
+                    "translation": "No me siento más seguro de mí mismo que de costumbre."
+                },
+                {
+                    "id": 2,
+                    "hash": "e394327008",
+                    "prompt": "Choices translation:",
+                    "default": "I occasionally feel more self-confident than usual.",
+                    "translation": "A veces me siento más seguro de mí mismo que de costumbre."
+                },
+                {
+                    "id": 3,
+                    "hash": "fd6061292f",
+                    "prompt": "Choices translation:",
+                    "default": "I often feel more self-confident than usual.",
+                    "translation": "A menudo me siento más seguro de mí mismo que de costumbre."
+                },
+                {
+                    "id": 4,
+                    "hash": "a92b8156ac",
+                    "prompt": "Choices translation:",
+                    "default": "I frequently feel more self-confident than usual.",
+                    "translation": "Con frecuencia me siento más seguro de mí mismo de lo habitual."
+                },
+                {
+                    "id": 5,
+                    "hash": "ec0f4eb69b",
+                    "prompt": "Choices translation:",
+                    "default": "I feel extremely self-confident all of the time.",
+                    "translation": "Me siento extremadamente seguro de mí mismo todo el tiempo."
+                }
+            ]
+        },
+        {
+            "id": "q3_sleep",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "5ff45a3650",
+                "prompt": "Field label translation:",
+                "default": "Question 3",
+                "translation": "Pregunta 3"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "758e6704dd",
+                    "prompt": "Choices translation:",
+                    "default": "I do not need less sleep than usual.",
+                    "translation": "No necesito dormir menos de lo habitual."
+                },
+                {
+                    "id": 2,
+                    "hash": "ad14809b36",
+                    "prompt": "Choices translation:",
+                    "default": "I occasionally need less sleep than usual.",
+                    "translation": "De vez en cuando necesito dormir menos de lo habitual."
+                },
+                {
+                    "id": 3,
+                    "hash": "069a2f0334",
+                    "prompt": "Choices translation:",
+                    "default": "I often need less sleep than usual.",
+                    "translation": "A menudo necesito dormir menos de lo habitual."
+                },
+                {
+                    "id": 4,
+                    "hash": "f79729addc",
+                    "prompt": "Choices translation:",
+                    "default": "I frequently need less sleep than usual.",
+                    "translation": "Con frecuencia necesito dormir menos de lo habitual."
+                },
+                {
+                    "id": 5,
+                    "hash": "da78a3dd45",
+                    "prompt": "Choices translation:",
+                    "default": "I can go all day and all night without any sleep and still not feel tired.",
+                    "translation": "Puedo pasar todo el día y toda la noche sin dormir y aun así no sentirme cansado."
+                }
+            ]
+        },
+        {
+            "id": "q4_talk",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "7c3ddc3e3f",
+                "prompt": "Field label translation:",
+                "default": "Question 4",
+                "translation": "Pregunta 4"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "c9e0df47e2",
+                    "prompt": "Choices translation:",
+                    "default": "I do not talk more than usual.",
+                    "translation": "No hablo más de lo habitual."
+                },
+                {
+                    "id": 2,
+                    "hash": "b141eefcf9",
+                    "prompt": "Choices translation:",
+                    "default": "I occasionally talk more than usual.",
+                    "translation": "De vez en cuando hablo más de lo habitual."
+                },
+                {
+                    "id": 3,
+                    "hash": "494344f9a6",
+                    "prompt": "Choices translation:",
+                    "default": "I often talk more than usual.",
+                    "translation": "A menudo hablo más de lo habitual."
+                },
+                {
+                    "id": 4,
+                    "hash": "2e5e220466",
+                    "prompt": "Choices translation:",
+                    "default": "I frequently talk more than usual.",
+                    "translation": "Con frecuencia hablo más de lo habitual."
+                },
+                {
+                    "id": 5,
+                    "hash": "3c04721077",
+                    "prompt": "Choices translation:",
+                    "default": "I talk constantly and cannot be interrupted.",
+                    "translation": "Hablo constantemente y no me pueden interrumpir."
+                }
+            ]
+        },
+        {
+            "id": "q5_active",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "31496a2c1f",
+                "prompt": "Field label translation:",
+                "default": "Question 5",
+                "translation": "Pregunta 5"
+            },
+            "enum": [
+                {
+                    "id": 1,
+                    "hash": "078635668e",
+                    "prompt": "Choices translation:",
+                    "default": "I have not been more active (either socially, sexually, at work, home, or school) than usual.",
+                    "translation": "No he sido más activo (ni social, sexual, en el trabajo, en casa o en la escuela) de lo habitual."
+                },
+                {
+                    "id": 2,
+                    "hash": "b2df7d554e",
+                    "prompt": "Choices translation:",
+                    "default": "I have occasionally been more active than usual.",
+                    "translation": "En ocasiones he estado más activo de lo habitual."
+                },
+                {
+                    "id": 3,
+                    "hash": "474485b3f5",
+                    "prompt": "Choices translation:",
+                    "default": "I have often been more active than usual.",
+                    "translation": "A menudo he estado más activo de lo habitual."
+                },
+                {
+                    "id": 4,
+                    "hash": "195a6f2e24",
+                    "prompt": "Choices translation:",
+                    "default": "I have frequently been more active than usual.",
+                    "translation": "Con frecuencia he estado más activo de lo habitual."
+                },
+                {
+                    "id": 5,
+                    "hash": "a8f206805c",
+                    "prompt": "Choices translation:",
+                    "default": "I am constantly more active or on the go all the time.",
+                    "translation": "Estoy constantemente más activo o en movimiento todo el tiempo."
+                }
+            ]
+        },
+        {
+            "id": "social_phobia_1",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "531b5581dc",
+                "prompt": "Field label translation:",
+                "default": "felt moments of sudden terror, fear, or fright in social situations",
+                "translation": "Sentí momentos de terror repentino, miedo o miedo en situaciones sociales."
+            }
+        },
+        {
+            "id": "social_phobia_2",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "90ac8cafe9",
+                "prompt": "Field label translation:",
+                "default": "felt anxious, worried, or nervous about social situations",
+                "translation": "Se sentía ansioso, preocupado o nervioso por situaciones sociales."
+            }
+        },
+        {
+            "id": "social_phobia_3",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "81a629376e",
+                "prompt": "Field label translation:",
+                "default": "had thoughts of being rejected, humiliated, embarrassed, ridiculed, or offending others",
+                "translation": "tuvo pensamientos de ser rechazado, humillado, avergonzado, ridiculizado u ofendido a otros"
+            }
+        },
+        {
+            "id": "social_phobia_4",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "5ed34cfcc6",
+                "prompt": "Field label translation:",
+                "default": "felt a racing heart, sweaty, trouble breathing, faint, or shaky in social situations",
+                "translation": "sintió un corazón acelerado, sudoroso, dificultad para respirar, desmayo o tembloroso en situaciones sociales"
+            }
+        },
+        {
+            "id": "social_phobia_5",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "fdebd72a2d",
+                "prompt": "Field label translation:",
+                "default": "felt tense muscles, felt on edge or restless, or had trouble relaxing in social situations",
+                "translation": "sentía músculos tensos, se sentía nervioso o inquieto, o tenía problemas para relajarse en situaciones sociales"
+            }
+        },
+        {
+            "id": "social_phobia_6",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "063c0c0f93",
+                "prompt": "Field label translation:",
+                "default": "avoided, or did not approach or enter, social situations",
+                "translation": "Evitaba o no se acercaba ni entraba en situaciones sociales."
+            }
+        },
+        {
+            "id": "social_phobia_7",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "94b907e68f",
+                "prompt": "Field label translation:",
+                "default": "left social situations early or participated only minimally (e.g., said little, avoided eye contact)",
+                "translation": "abandonó situaciones sociales temprano o participó sólo mínimamente (por ejemplo, dijo poco, evitó el contacto visual)"
+            }
+        },
+        {
+            "id": "social_phobia_8",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "0e2a88a72f",
+                "prompt": "Field label translation:",
+                "default": "spent a lot of time preparing what to say or how to act in social situations",
+                "translation": "Pasó mucho tiempo preparando qué decir o cómo actuar en situaciones sociales."
+            }
+        },
+        {
+            "id": "social_phobia_9",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "fe5e319319",
+                "prompt": "Field label translation:",
+                "default": "distracted myself to avoid thinking about social situations",
+                "translation": "Me distraje para evitar pensar en situaciones sociales."
+            }
+        },
+        {
+            "id": "social_phobia_10",
+            "form": "q_mood_dsm5_adult",
+            "label": {
+                "hash": "540cb3b746",
+                "prompt": "Field label translation:",
+                "default": "needed help to cope with social situations (e.g., alcohol or medications, superstitious objects)",
+                "translation": "Necesita ayuda para afrontar situaciones sociales (p. ej., alcohol o medicamentos, objetos supersticiosos)."
+            }
+        },
+        {
+            "id": "q_mood_dsm5_adult_complete",
+            "form": "q_mood_dsm5_adult",
+            "header": {
+                "hash": "c91e0b9151",
+                "prompt": "Section header translation:",
+                "default": "Form Status",
+                "translation": "Estado del Formulario"
+            },
+            "label": {
+                "hash": "fc84b4a6d8",
+                "prompt": "Form status label translation:",
+                "default": "Complete?",
+                "translation": "¿Completo?"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "387fd1bbc1",
+                    "prompt": "Choices translation:",
+                    "default": "Incomplete",
+                    "translation": "Incompleto"
+                },
+                {
+                    "id": 1,
+                    "hash": "eb27a190c0",
+                    "prompt": "Choices translation:",
+                    "default": "Unverified",
+                    "translation": "No verificado"
+                },
+                {
+                    "id": 2,
+                    "hash": "1f5a1abf2f",
+                    "prompt": "Choices translation:",
+                    "default": "Complete",
+                    "translation": "Completo"
+                }
+            ]
+        }
+    ],
+    "matrixTranslations": [
+        {
+            "id": "dsm_5_adult",
+            "form": "q_mood_dsm5_adult",
+            "header": {
+                "hash": "e0159f96d2",
+                "prompt": "Matrix header translation:",
+                "default": "During the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?\n\n0=None (Not at all), 1=Slight (Rare, less than a day or two), 2=Mild (Several days), 3=Moderate (More than half the days), 4=Severe (Nearly every day)",
+                "translation": "Durante las últimas DOS (2) SEMANAS, ¿cuánto y que seguido le han molestado los siguientes problemas?\n\n0=Nada (Nunca), 1=Un Poco (menos de uno o dos días), 2=Levemente (Varios días), 3=Moderadamente (Más de la mitad de los días), 4=Severo (Todos los días)"
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "531a625467",
+                    "prompt": "Choices translation:",
+                    "default": "0=None (Not at all)",
+                    "translation": "0=Nada (Nunca)"
+                },
+                {
+                    "id": 1,
+                    "hash": "ee545280f1",
+                    "prompt": "Choices translation:",
+                    "default": "1=Slight (Rare, less than a day or two)",
+                    "translation": "1=Un Poco (menos de uno o dos días)"
+                },
+                {
+                    "id": 2,
+                    "hash": "5602d047d6",
+                    "prompt": "Choices translation:",
+                    "default": "2=Mild (Several days)",
+                    "translation": "2=Levemente (Varios días)"
+                },
+                {
+                    "id": 3,
+                    "hash": "39ab365c1b",
+                    "prompt": "Choices translation:",
+                    "default": "3=Moderate (More than half the days)",
+                    "translation": "3=Moderadamente (Más de la mitad de los días)"
+                },
+                {
+                    "id": 4,
+                    "hash": "19cd64fe23",
+                    "prompt": "Choices translation:",
+                    "default": "4=Severe (Nearly every day)",
+                    "translation": "4=Severo (Todos los días)"
+                }
+            ]
+        },
+        {
+            "id": "dsm_5_adult_social_phobia1",
+            "form": "q_mood_dsm5_adult",
+            "header": {
+                "hash": "6781f48484",
+                "prompt": "Matrix header translation:",
+                "default": "DSM-5 Adult (Social Phobia)\n\nThe following questions ask about thoughts, feelings, and behaviors that you may have had about social situations. Usual social situations include: public speaking, speaking in meetings, attending social events or parties, introducing yourself to others, having conversations, giving and receiving compliments, making requests of others, and eating and writing in public.\n\nDuring the PAST 7 DAYS, I have... ",
+                "translation": "DSM-5 Adult (Social Phobia)\n\nLas siguientes preguntas se refieren a pensamientos, sentimientos y comportamientos que pueda haber tenido acerca de situaciones sociales. Las situaciones sociales habituales incluyen: hablar en público, hablar en reuniones, asistir a eventos o fiestas sociales, presentarse a los demás, tener conversaciones, dar y recibir cumplidos, hacer peticiones a otros y comer y escribir en público.\n\nDurante los ÚLTIMOS 7 DÍAS, he..."
+            },
+            "enum": [
+                {
+                    "id": 0,
+                    "hash": "80c3052d33",
+                    "prompt": "Choices translation:",
+                    "default": "Never",
+                    "translation": "Nunca"
+                },
+                {
+                    "id": 1,
+                    "hash": "cd792a6c59",
+                    "prompt": "Choices translation:",
+                    "default": "Occasionally",
+                    "translation": "Ocasionalmente"
+                },
+                {
+                    "id": 2,
+                    "hash": "f0aadf25fb",
+                    "prompt": "Choices translation:",
+                    "default": "Half of the time",
+                    "translation": "la mitad del tiempo"
+                },
+                {
+                    "id": 3,
+                    "hash": "259eb1d4e0",
+                    "prompt": "Choices translation:",
+                    "default": "Most of the time",
+                    "translation": "La mayor parte del tiempo"
+                },
+                {
+                    "id": 4,
+                    "hash": "975588ef6d",
+                    "prompt": "Choices translation:",
+                    "default": "All of the time",
+                    "translation": "Todo el tiempo"
+                }
+            ]
+        }
+    ]
+}
