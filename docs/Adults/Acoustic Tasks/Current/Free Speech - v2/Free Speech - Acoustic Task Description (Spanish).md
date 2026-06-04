@@ -23,6 +23,8 @@ Esta sección está diseñada para escucharlo hablar libremente al responder una
 
 ![mic][mic]
 
+---
+
 ![recording_2][recording_2]
 
 Esta sección está diseñada para escucharlo hablar libremente al responder una pregunta abierta.
