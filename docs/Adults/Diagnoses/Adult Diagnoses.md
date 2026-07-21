@@ -41,5 +41,7 @@ Clinical conditions covered by the Bridge2AI-Voice protocols, grouped by domain.
 
 - [Alzheimer's, Dementia, or Mild Cognitive Impairment](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)
 - [Amyotrophic Lateral Sclerosis (ALS)](<../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf>)
+- [Ataxia](<../PDFs/en-us/Diagnosis - PDFs/Neuro/D - Neuro - Ataxia.pdf>)
+- [Essential Tremor](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Essential%20Tremor.pdf)
 - [Huntington's Disease](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)
 - [Parkinson's Disease](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)

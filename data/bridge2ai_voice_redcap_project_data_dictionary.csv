@@ -40,6 +40,8 @@ spas_dys,subjectparticipant_eligible_studies,,radio,"Spasmodic Dysphonia / Laryn
 voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral Vocal Fold Paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,voice_disorders,,
 alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 als,subjectparticipant_eligible_studies,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
+neuro_ataxia,subjectparticipant_eligible_studies,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
+essential_tremor,subjectparticipant_eligible_studies,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,,,,neuro_neurodeg_dis,,
 huntingtons,subjectparticipant_eligible_studies,,radio,"Huntington's Disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 parkinsons,subjectparticipant_eligible_studies,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 alcohol_subst_abuse,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
@@ -97,6 +99,8 @@ ef_spas_dys,enrollment_form,,radio,"Spasmodic Dysphonia / Laryngeal Tremor","0, 
 ef_voc_fold_paralysis,enrollment_form,,radio,"Unilateral Vocal Fold Paralysis","0, Unchecked | 1, Checked",,,,,,,y,,,ef_voice_disorders,,
 ef_alz_dementia_mci,enrollment_form,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_als,enrollment_form,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
+ef_ataxia,enrollment_form,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
+ef_essential_tremor,enrollment_form,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_huntingtons,enrollment_form,,radio,"Huntington's Disease","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_parkinsons,enrollment_form,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,ef_neuro_neurodeg_dis,,
 ef_alcohol_subst_abuse,enrollment_form,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,ef_mood_psych_dis,,
@@ -143,7 +147,7 @@ ef_enrollment_via,enrollment_form,,radio,"Enrollment via","dataCollector, Data C
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,y,,,,,,," @READONLY"
 ef_duration,enrollment_form,,text,"Enrollment Form Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-is_prolific,prolific_information,"Prolific Details",radio,"Is Prolific:","yes, Yes | no, No",,,,,,,,,,,," @READONLY"
+is_prolific,prolific_information,"Prolific Details",radio,"Is Prolific:","yes, Yes | no, No",,,,,,,,,,,,
 prolific_id,prolific_information,,text,"Prolific Id:",,,,,,,,,,,,,
 show_prolific_study_id,prolific_information,,radio,"Show Prolific Study Id:","yes, Yes | no, No",,,,,,,,,,,,
 paper_consent_notes,bridge2ai_paper_consent_all_sites_english,"Paper Consent Form for all Sites",descriptive,"Fill out Instructions
@@ -390,19 +394,19 @@ diagnosis_gi_degree_text,d_voice_glottic_insufficiency_presbyphonia,,descriptive
 
 CAPE-V scale",,,,,,,,,,,,,
 diagnosis_gi_degree_legend,d_voice_glottic_insufficiency_presbyphonia,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_gi_degree_os_1,d_voice_glottic_insufficiency_presbyphonia,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_os_1,d_voice_glottic_insufficiency_presbyphonia,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_os_2,d_voice_glottic_insufficiency_presbyphonia,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_gi_degree_r_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_r_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_r_2,d_voice_glottic_insufficiency_presbyphonia,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_gi_degree_b_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_b_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_b_2,d_voice_glottic_insufficiency_presbyphonia,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_gi_degree_s_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_s_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_s_2,d_voice_glottic_insufficiency_presbyphonia,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_gi_degree_p_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_p_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_p_nature,d_voice_glottic_insufficiency_presbyphonia,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_gi_degree_p_1] > 0",,RH,,,,
 diagnosis_gi_degree_p_2,d_voice_glottic_insufficiency_presbyphonia,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_gi_degree_l_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_gi_degree_l_1,d_voice_glottic_insufficiency_presbyphonia,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_gi_degree_l_nature,d_voice_glottic_insufficiency_presbyphonia,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_gi_degree_l_1] > 0",,RH,,,,
 diagnosis_gi_degree_l_2,d_voice_glottic_insufficiency_presbyphonia,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -423,19 +427,19 @@ diagnosis_bl_degree_text,d_voice_benign_lesions,,descriptive,"Degree of dysphoni
 
 CAPE-V scale",,,,,,,,,,,,,
 diagnosis_bl_degree_legend,d_voice_benign_lesions,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_bl_degree_os_1,d_voice_benign_lesions,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_os_1,d_voice_benign_lesions,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_os_2,d_voice_benign_lesions,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_bl_degree_r_1,d_voice_benign_lesions,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_r_1,d_voice_benign_lesions,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_r_2,d_voice_benign_lesions,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_bl_degree_b_1,d_voice_benign_lesions,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_b_1,d_voice_benign_lesions,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_b_2,d_voice_benign_lesions,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_bl_degree_s_1,d_voice_benign_lesions,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_s_1,d_voice_benign_lesions,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_s_2,d_voice_benign_lesions,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_bl_degree_p_1,d_voice_benign_lesions,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_p_1,d_voice_benign_lesions,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_p_nature,d_voice_benign_lesions,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_bl_degree_p_1] > 0",,RH,,,,
 diagnosis_bl_degree_p_2,d_voice_benign_lesions,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_bl_degree_l_1,d_voice_benign_lesions,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_bl_degree_l_1,d_voice_benign_lesions,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_bl_degree_l_nature,d_voice_benign_lesions,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_bl_degree_l_1] > 0",,RH,,,,
 diagnosis_bl_degree_l_2,d_voice_benign_lesions,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -466,19 +470,19 @@ diagnosis_lc_degree_text,d_voice_laryngeal_cancer,,descriptive,"What is the degr
 Clinician places slider between 0 and 100; indicates C or I. ""Indicate the nature.."" and Additional
 features responses are free text. Comments about resonance: Indicate normal or Other, if other then free text",,,,,,,,,,,,,
 diagnosis_lc_degree_legend,d_voice_laryngeal_cancer,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_lc_degree_os_1,d_voice_laryngeal_cancer,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_os_1,d_voice_laryngeal_cancer,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_os_2,d_voice_laryngeal_cancer,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_lc_degree_r_1,d_voice_laryngeal_cancer,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_r_1,d_voice_laryngeal_cancer,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_r_2,d_voice_laryngeal_cancer,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_lc_degree_b_1,d_voice_laryngeal_cancer,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_b_1,d_voice_laryngeal_cancer,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_b_2,d_voice_laryngeal_cancer,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_lc_degree_s_1,d_voice_laryngeal_cancer,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_s_1,d_voice_laryngeal_cancer,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_s_2,d_voice_laryngeal_cancer,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_lc_degree_p_1,d_voice_laryngeal_cancer,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_p_1,d_voice_laryngeal_cancer,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_p_nature,d_voice_laryngeal_cancer,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_lc_degree_p_1] > 0",,,,,,
 diagnosis_lc_degree_p_2,d_voice_laryngeal_cancer,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_lc_degree_l_1,d_voice_laryngeal_cancer,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_lc_degree_l_1,d_voice_laryngeal_cancer,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_lc_degree_l_nature,d_voice_laryngeal_cancer,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_lc_degree_l_1] > 0",,,,,,
 diagnosis_lc_degree_l_2,d_voice_laryngeal_cancer,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -509,19 +513,19 @@ diagnosis_ld_degree_text,d_voice_laryngeal_dystonia,"4. Disease Severity",descri
 
 CAPE-V scale",,,,,,,,,,,,,
 diagnosis_ld_degree_legend,d_voice_laryngeal_dystonia,,descriptive,"<div class=""rich-text-field-label""><p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_ld_degree_os_1,d_voice_laryngeal_dystonia,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_os_1,d_voice_laryngeal_dystonia,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_os_2,d_voice_laryngeal_dystonia,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_ld_degree_r_1,d_voice_laryngeal_dystonia,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_r_1,d_voice_laryngeal_dystonia,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_r_2,d_voice_laryngeal_dystonia,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_ld_degree_b_1,d_voice_laryngeal_dystonia,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_b_1,d_voice_laryngeal_dystonia,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_b_2,d_voice_laryngeal_dystonia,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_ld_degree_s_1,d_voice_laryngeal_dystonia,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_s_1,d_voice_laryngeal_dystonia,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_s_2,d_voice_laryngeal_dystonia,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_ld_degree_p_1,d_voice_laryngeal_dystonia,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_p_1,d_voice_laryngeal_dystonia,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_p_nature,d_voice_laryngeal_dystonia,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_ld_degree_p_1] > 0",,RH,,,,
 diagnosis_ld_degree_p_2,d_voice_laryngeal_dystonia,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_ld_degree_l_1,d_voice_laryngeal_dystonia,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_ld_degree_l_1,d_voice_laryngeal_dystonia,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_ld_degree_l_nature,d_voice_laryngeal_dystonia,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_ld_degree_l_1] > 0",,RH,,,,
 diagnosis_ld_degree_l_2,d_voice_laryngeal_dystonia,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -553,19 +557,19 @@ diagnosis_l_degree_text,d_voice_laryngitis,"4. Disease Severity",descriptive,"De
 
 CAPE-V scale",,,,,,,,,,,,,
 diagnosis_l_degree_legend,d_voice_laryngitis,,descriptive,"<div class=""rich-text-field-label""><p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_l_degree_os_1,d_voice_laryngitis,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_os_1,d_voice_laryngitis,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_os_2,d_voice_laryngitis,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_l_degree_r_1,d_voice_laryngitis,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_r_1,d_voice_laryngitis,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_r_2,d_voice_laryngitis,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_l_degree_b_1,d_voice_laryngitis,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_b_1,d_voice_laryngitis,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_b_2,d_voice_laryngitis,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_l_degree_s_1,d_voice_laryngitis,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_s_1,d_voice_laryngitis,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_s_2,d_voice_laryngitis,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_l_degree_p_1,d_voice_laryngitis,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_p_1,d_voice_laryngitis,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_p_nature,d_voice_laryngitis,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_l_degree_p_1] > 0",,RH,,,,
 diagnosis_l_degree_p_2,d_voice_laryngitis,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_l_degree_l_1,d_voice_laryngitis,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_l_degree_l_1,d_voice_laryngitis,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_l_degree_l_nature,d_voice_laryngitis,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_l_degree_l_1] > 0",,RH,,,,
 diagnosis_l_degree_l_2,d_voice_laryngitis,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -586,19 +590,19 @@ diagnosis_mtd_etiology,d_voice_muscle_tension_dysphonia_mtd,"3. Etiology",checkb
 diagnosis_mtd_etiology_other,d_voice_muscle_tension_dysphonia_mtd,,text,"Please specify",,,,,,,"[diagnosis_mtd_etiology(other)]=""1""",,,,,,
 diagnosis_mtd_degree_text,d_voice_muscle_tension_dysphonia_mtd,"4. Disease Severity",descriptive,"<div class=""rich-text-field-label""><p>Degree of dysphonia<br><br>CAPE-V scale</p></div>",,,,,,,,,,,,,
 diagnosis_mtd_degree_legend,d_voice_muscle_tension_dysphonia_mtd,,descriptive,"<div class=""rich-text-field-label""><p>Legend<span style=""font-weight: normal;"">: C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_mtd_degree_os_1,d_voice_muscle_tension_dysphonia_mtd,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_os_1,d_voice_muscle_tension_dysphonia_mtd,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_os_2,d_voice_muscle_tension_dysphonia_mtd,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_mtd_degree_r_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_r_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_r_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_mtd_degree_b_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_b_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_b_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_mtd_degree_s_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_s_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_s_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_mtd_degree_p_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_p_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_p_nature,d_voice_muscle_tension_dysphonia_mtd,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_mtd_degree_p_1] > 0",,RH,,,,
 diagnosis_mtd_degree_p_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_mtd_degree_l_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_mtd_degree_l_1,d_voice_muscle_tension_dysphonia_mtd,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_mtd_degree_l_nature,d_voice_muscle_tension_dysphonia_mtd,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_mtd_degree_l_1] > 0",,RH,,,,
 diagnosis_mtd_degree_l_2,d_voice_muscle_tension_dysphonia_mtd,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -631,19 +635,19 @@ diagnosis_pl_degree_text,d_voice_precancerous_lesions,,descriptive,"Degree of dy
 
 Clinician places slider between 0 and 100; indicates C or I. ""Indicate the nature.."" and Additional features responses are free text. Comments about resonance: Indicate normal or Other, if other then free text",,,,,,,,,,,,,
 diagnosis_pl_degree_legend,d_voice_precancerous_lesions,,descriptive,"<div class=""rich-text-field-label""><p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent</span><br><span style=""font-weight: normal;"">                MI = Mildly Deviant</span><br><span style=""font-weight: normal;"">                MO = Moderately Deviant</span><br><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p></div>",,,,,,,,,,,,,
-diagnosis_pl_degree_os_1,d_voice_precancerous_lesions,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_os_1,d_voice_precancerous_lesions,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_os_2,d_voice_precancerous_lesions,,radio,"Overall Severity","consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_pl_degree_r_1,d_voice_precancerous_lesions,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_r_1,d_voice_precancerous_lesions,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_r_2,d_voice_precancerous_lesions,,radio,Roughness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_pl_degree_b_1,d_voice_precancerous_lesions,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_b_1,d_voice_precancerous_lesions,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_b_2,d_voice_precancerous_lesions,,radio,Breathiness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_pl_degree_s_1,d_voice_precancerous_lesions,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_s_1,d_voice_precancerous_lesions,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_s_2,d_voice_precancerous_lesions,,radio,Strain,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_pl_degree_p_1,d_voice_precancerous_lesions,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_p_1,d_voice_precancerous_lesions,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_p_nature,d_voice_precancerous_lesions,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_pl_degree_p_1] > 0",,RH,,,,
 diagnosis_pl_degree_p_2,d_voice_precancerous_lesions,,radio,Pitch,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
-diagnosis_pl_degree_l_1,d_voice_precancerous_lesions,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_pl_degree_l_1,d_voice_precancerous_lesions,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_pl_degree_l_nature,d_voice_precancerous_lesions,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_pl_degree_l_1] > 0",,RH,,,,
 diagnosis_pl_degree_l_2,d_voice_precancerous_lesions,,radio,Loudness,"consistent, Consistent | intermittent, Intermittent",,,,,,,,RH,,,,
@@ -670,19 +674,19 @@ diagnosis_vfp_degree_text,d_voice_unilateral_vocal_fold_paralysis,,descriptive,"
 
 CAPE-V scale",,,,,,,,,,,,,
 diagnosis_vfp_degree_legend,d_voice_unilateral_vocal_fold_paralysis,,descriptive,"<div class=""rich-text-field-label""><table style=""border-collapse: collapse; width: 100%;"" border=""1""> <tbody> <tr> <td style=""width: 98.3993%;""> <p>Legend: <span style=""font-weight: normal;"">C- Sonsistent I = Intermittent<br /></span><span style=""font-weight: normal;"">                MI = Mildly Deviant<br /></span><span style=""font-weight: normal;"">                MO = Moderately Deviant<br /></span><span style=""font-weight: normal;"">                SE = Severely Deviant</span></p> </td> </tr> </tbody> </table></div>",,,,,,,,,,,,,
-diagnosis_degree_os,d_voice_unilateral_vocal_fold_paralysis,,slider,"Overall Severity","MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_os,d_voice_unilateral_vocal_fold_paralysis,,slider,"Overall Severity","MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_os_2,d_voice_unilateral_vocal_fold_paralysis,,radio,"Overall Severity","1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
-diagnosis_degree_r,d_voice_unilateral_vocal_fold_paralysis,,slider,Roughness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_r,d_voice_unilateral_vocal_fold_paralysis,,slider,Roughness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_r_2,d_voice_unilateral_vocal_fold_paralysis,,radio,Roughness,"1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
-diagnosis_degree_b,d_voice_unilateral_vocal_fold_paralysis,,slider,Breathiness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_b,d_voice_unilateral_vocal_fold_paralysis,,slider,Breathiness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_b_2,d_voice_unilateral_vocal_fold_paralysis,,radio,Breathiness,"1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
-diagnosis_degree_s,d_voice_unilateral_vocal_fold_paralysis,,slider,Strain,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_s,d_voice_unilateral_vocal_fold_paralysis,,slider,Strain,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_s_2,d_voice_unilateral_vocal_fold_paralysis,,radio,Strain,"1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
-diagnosis_degree_p,d_voice_unilateral_vocal_fold_paralysis,,slider,Pitch,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_p,d_voice_unilateral_vocal_fold_paralysis,,slider,Pitch,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_p_nature,d_voice_unilateral_vocal_fold_paralysis,,text,"Pitch
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_degree_p] > 0",,RH,,,,
 diagnosis_degree_p_2,d_voice_unilateral_vocal_fold_paralysis,,radio,Pitch,"1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
-diagnosis_degree_l,d_voice_unilateral_vocal_fold_paralysis,,slider,Loudness,"MI | MO | SE",,number,,,,,,RH,,,,
+diagnosis_degree_l,d_voice_unilateral_vocal_fold_paralysis,,slider,Loudness,"MI | MO | SE",,number,0,100,,,,RH,,,,
 diagnosis_degree_l_nature,d_voice_unilateral_vocal_fold_paralysis,,text,"Loudness
 (Indicate the nature of the abnormality):",,,,,,,"[diagnosis_degree_l] > 0",,RH,,,,
 diagnosis_degree_l_2,d_voice_unilateral_vocal_fold_paralysis,,radio,Loudness,"1, Consistent | 2, Intermittent",,,,,,,,RH,,,,
@@ -910,7 +914,7 @@ diagnosis_as_ds_ac,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classi
 diagnosis_as_ds_ac_grade_4,d_resp_airway_stenosis,,radio,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)","grade4t, Grade 4T | grade4g, Grade 4G | grade4tg, Grade 4TG",,,,,,"[diagnosis_as_ds_ac] = 'grade4'",y,,,,,
 diagnosis_as_ds_ac_ref,d_resp_airway_stenosis,,descriptive,"Grade of Stenosis (Aziz Classification of Supraglottic Stenosis)
 Picture for reference",,,,,,,"[diagnosis_as_ds] = 'supraglotticStenosis'",,,,,,
-diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?","0 |  | 100",,number,,,,,,RH,,,,
+diagnosis_as_ds_eps,d_resp_airway_stenosis,,slider,"How would you subjectively estimate the percent of stenosis from 0 to 100?","0 |  | 100",,number,0,100,,,,RH,,,,
 diagnosis_as_ds_ods,d_resp_airway_stenosis,,radio,"How would you subjectively classify the overall degree of stenosis?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,,y,,,,,
 diagnosis_as_as,d_resp_airway_stenosis,,radio,"Does this participant have audible stridor at rest or when talking?","no, No | yes, Yes | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_as_as_s,d_resp_airway_stenosis,,radio,"Can you subjectively classify the severity of the stridor?","mild, Mild | moderate, Moderate | severe, Severe",,,,,,"[diagnosis_as_as] = 'yes'",y,,,,,
@@ -927,7 +931,7 @@ diagnosis_ca_spirometry_ce,d_resp_copd_and_asthma,"1. Spirometry and diagnosis",
 diagnosis_ca_spirometry_verification,d_resp_copd_and_asthma,,radio,"Please select one of the two options below for verification of the spirometry test. 
 
 If both are available, please select ATS/ERS","atsErs, ATS/ERS criteria reported: FEV1/FVC < 5th percentile OR z score ≤ -1.65 | goldCriteria, GOLD criteria reported: FEV1/FVC < 0.7 (postbronchodilator, or prebronchodilator if postbronchodilator not available)",,,,,,[diagnosis_ca_spirometry_ce]='yes',,,,,,
-diagnosis_ca_fev1,d_resp_copd_and_asthma,,slider,"What is the FEV1 (percent predicted) (if known)?","0 |  | 150",,number,,150,,"[diagnosis_ca_spirometry_verification]='atsErs' or [diagnosis_ca_spirometry_verification]='goldCriteria'",,LH,,,,
+diagnosis_ca_fev1,d_resp_copd_and_asthma,,slider,"What is the FEV1 (percent predicted) (if known)?","0 |  | 150",,number,0,150,,"[diagnosis_ca_spirometry_verification]='atsErs' or [diagnosis_ca_spirometry_verification]='goldCriteria'",,LH,,,,
 diagnosis_ca_ats_ers_criteria_fev1,d_resp_copd_and_asthma,,radio,"FEV1/FVC < 5th percentile OR z score ≤ -1.65 ?","yes, Yes | no, No",,,,,,[diagnosis_ca_spirometry_verification]='atsErs',,,,,,
 diagnosis_ca_ats_ers_criteria_fvc,d_resp_copd_and_asthma,,radio,"FVC < 0.7 OR z score ≤ -1.65 ?","yes, Yes | no, No",,,,,,[diagnosis_ca_spirometry_verification]='atsErs',,,,,,
 diagnosis_ca_pft_lung,d_resp_copd_and_asthma,,radio,"Is there a full PFT including lung volumes?","yes, Yes | no, No",,,,,,[diagnosis_ca_spirometry_test]='yes',,,,,,
@@ -1045,6 +1049,223 @@ diagnosis_als_treatment_and_management_yes_medications,d_neuro_amyotrophic_later
 diagnosis_als_treatment_and_management_yes_medications_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(medications)] = 1 and [diagnosis_als_treatment_and_management_yes_medications(other)] = 1",y,,,,,
 diagnosis_als_treatment_and_management_yes_supportive_care,d_neuro_amyotrophic_lateral_sclerosis_als,,checkbox,"Supportive Care:","physical_therapy, Physical therapy | occupational_therapy, Occupational therapy | speech_therapy, Speech therapy | respiratory_support, Respiratory support (e.g., non-invasive ventilation) | nutrition_support, Nutrition and swallowing support | psychotherapy, Psychotherapy | other, Other",,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(supportive_care)] = 1",y,,,,,
 diagnosis_als_treatment_and_management_yes_supportive_care_other,d_neuro_amyotrophic_lateral_sclerosis_als,,text,"If you selected ""Other"", please specify:",,,,,,,"[diagnosis_als_treatment_and_management] = 'yes' and [diagnosis_als_treatment_and_management_yes(supportive_care)] = 1 and [diagnosis_als_treatment_and_management_yes_supportive_care(other)] = 1",y,,,,,
+diagnosis_ataxia_gsd,d_neuro_ataxia,"1. Gold Standard Diagnosis",radio,"Does the participant have ataxia?
+","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+ataxia_type,d_neuro_ataxia,"2. Ataxia Type",radio,"What is the predominant ataxia type?
+
+","cerebellar, Cerebellar (central) | sensory, Sensory (proprioceptive loss predominant) | vestibular, Vestibular (balance or vertigo predominant) | mixedOrUnclear, Mixed or unclear | other, Other | unknown, Unknown",,,,,,"[diagnosis_ataxia_gsd]=""yes"" or [diagnosis_ataxia_gsd]=""notCertain""",y,,,,,
+ataxia_type_other,d_neuro_ataxia,,text,"Other
+
+Please specify:",,,,,,,"[ataxia_type]=""other""",y,,,,,
+diagnosis_ataxia_gsd_confirmation_method,d_neuro_ataxia,,checkbox,"How was this diagnosis confirmed? Select all that apply.","neurologist, Neurologist | movement_disorders_specialist, Movement disorders specialist | other_specialist, Other specialist | hospital_discharge_summary, Hospital discharge summary | problem_list_or_icd_code, Problem list or ICD code | participant_self_report, Participant self-report | unknown, Unknown",,,,,,"[diagnosis_ataxia_gsd]=""yes"" or [diagnosis_ataxia_gsd]=""notCertain""",y,,,,,
+ataxia_neurologist_recent_date_supporting,d_neuro_ataxia,,text,"Neurologist
+
+Date of most recent documentation supporting ataxia:",,,date_ymd,,,y,[diagnosis_ataxia_gsd_confirmation_method(neurologist)]=1,,,,,,
+ataxia_mds_recent_date_supporting,d_neuro_ataxia,,text,"Movement disorders specialist
+
+Date of most recent documentation supporting ataxia:",,,date_ymd,,,y,[diagnosis_ataxia_gsd_confirmation_method(movement_disorders_specialist)]=1,,,,,,
+ataxia_other_specialist_selected,d_neuro_ataxia,,text,"Other specialist
+
+Please specify:",,,,,,,[diagnosis_ataxia_gsd_confirmation_method(other_specialist)]=1,y,,,,,
+ataxia_supported_confirmed,d_neuro_ataxia,,checkbox,"How was ataxia supported or confirmed? Select all that apply.
+","history_or_repeated_exam_documents_gait_truncal_limb_incoordination, History or repeated exam documents gait, truncal, or limb incoordination | neurological_exam_shows_signs_consistent_with_ataxia, Objective neurological exam signs are consistent with ataxia (examples: dysmetria, dysdiadochokinesia, dysarthria, nystagmus) | reasonable_evaluation_exclude_major_alternative_explanations, Reasonable evaluation was done to exclude major alternative explanations (examples: sensory loss, weakness or spasticity, intoxication or medication effect) or to classify the type with supporting findings | severity_standardized_ataxia_scale, Severity quantified using a standardized ataxia scale (examples: SARA, ICARS, or FARS) | supporting_testing_performed, Supporting testing performed (examples: MRI findings consistent with cerebellar pathology, or relevant labs or genetic testing depending on suspected cause) | unknown, Unknown",,,,,,,y,,,,,
+ataxia_calculated_validated_result,d_neuro_ataxia,,text,"Validated Ataxia Result",,,,,,,,,,,,," @HIDDEN-SURVEY
+@CALCTEXT(if([ataxia_supported_confirmed(history_or_repeated_exam_documents_gait_truncal_limb_incoordination)]=1 and [ataxia_supported_confirmed(neurological_exam_shows_signs_consistent_with_ataxia)]=1 and [ataxia_supported_confirmed(reasonable_evaluation_exclude_major_alternative_explanations)]=1,'Validated Yes', 'Validated No'))"
+ataxia_etiology,d_neuro_ataxia,"3. Etiology",checkbox,"What is the etiology? Select all that apply.","genetic_or_hereditary, Genetic or hereditary | degenerative_non_hereditary, Degenerative, non-hereditary | sporadic_onset_ataxia, Sporadic onset ataxia | vascular, Vascular (example: stroke or hemorrhage) | autoimmune_or_paraneoplastic, Autoimmune or paraneoplastic | toxic_medication_induced_or_alcohol_related, Toxic, medication-induced, or alcohol-related | metabolic_or_nutritional, Metabolic or nutritional | infectious_or_post_infectious, Infectious or post-infectious | structural_lesion, Structural lesion (example: tumor or malformation) | other, Other | unknown, Unknown",,,,,,,y,,,,,
+ataxia_etiology_genetic_hereditary_list_gene_mutation,d_neuro_ataxia,,text,"Genetic or hereditary
+
+List gene or mutation if known:",,,,,,,[ataxia_etiology(genetic_or_hereditary)]=1,,,,,,
+ataxia_etiology_other_specify,d_neuro_ataxia,,text,"Other
+
+Please specify:",,,,,,,[ataxia_etiology(other)]=1,y,,,,,
+ataxia_course_pattern,d_neuro_ataxia,"4. Presentation and severity",radio,"Course pattern:
+","acute, Acute (hours to days) | subacute, Subacute (days to weeks) | chronicOrProgressive, Chronic or progressive (months to years) | unknown, Unknown",,,,,,,y,,,,,
+ataxia_present_episodic_chronic,d_neuro_ataxia,,checkbox,"Does ataxia present as episodic or chronic? (Choose all that apply)
+","episodic, Episodic | chronic, Chronic | no, No | unknown, Unknown",,,,,,"[ataxia_type]=""cerebellar"" or [ataxia_type]=""mixedOrUnclear"" or [ataxia_type]=""other"" or [ataxia_type]=""unknown""",y,,,,,
+ataxia_clinical_presentation,d_neuro_ataxia,,checkbox,"Clinical presentation (select all that apply):
+","gait_imbalance_or_wide_based_gait, Gait imbalance or wide-based gait | limb_incoordination, Limb incoordination (e.g. dysmetria on target testing, dysdiadochokinesia) | changes_in_speech, Changes in speech (e.g. dysarthria) | truncal_instability, Truncal instability | dysphagia, Dysphagia | oculomotor_abnormalities, Oculomotor abnormalities (nystagmus, abnormal pursuit, saccadic dysmetria) | prominent_sensory_loss_or_proprioceptive_impairment, Prominent sensory loss or proprioceptive impairment | prominent_vertigo_or_dizziness, Prominent vertigo or dizziness | other, Other | unknown, Unknown",,,,,,,y,,,,,
+ataxia_clinical_presentation_other,d_neuro_ataxia,,text,"Other
+
+Please specify:",,,,,,,[ataxia_clinical_presentation(other)]=1,y,,,,,
+ataxia_scores_standardized_scales,d_neuro_ataxia,,checkbox,"Please provide scores or results from standardized ataxia scales (select all that apply).
+","sara_score, SARA score available | icars_score, ICARS score available | fars_score, FARS score available | functional_mobility_stage, Functional mobility stage available | other_scale, Other scale | not_available, Not available",,,,,,[ataxia_supported_confirmed(severity_standardized_ataxia_scale)]=1,y,,,,,
+ataxia_sara_score_option,d_neuro_ataxia,,text,"SARA score available
+
+SARA total score (0 to 40): ",,,integer,0,40,,[ataxia_scores_standardized_scales(sara_score)]=1,y,,,,,
+ataxia_icars_score_option,d_neuro_ataxia,,text,"ICARS score available
+
+ICARS total score (0 to 100):",,,integer,0,100,,[ataxia_scores_standardized_scales(icars_score)]=1,y,,,,,
+ataxia_fars_score_option,d_neuro_ataxia,,text,"FARS score available
+
+FARS total score (0 to 125):",,,integer,0,125,,[ataxia_scores_standardized_scales(fars_score)]=1,y,,,,,
+ataxia_aother_scale_option_label,d_neuro_ataxia,,descriptive,"Other scale",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,,,,,,
+ataxia_other_scale_identify_scale,d_neuro_ataxia,,text,"Identify scale:",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
+ataxia_other_scale_total_score,d_neuro_ataxia,,text,"Total score:",,,integer,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
+ataxia_functional_mobility_stage,d_neuro_ataxia,,radio,"Functional mobility stage:
+","ambulatoryWithoutAid, Ambulatory without aid | ambulatoryWithAid, Ambulatory with aid (cane or walker) | wheelchairDependent, Wheelchair-dependent | bedboundOrTotalAssistance, Bedbound or total assistance",,,,,,[ataxia_scores_standardized_scales(functional_mobility_stage)]=1,,,,,,
+ataxia_emg_or_ncs_performed,d_neuro_ataxia,"5. Imaging and diagnostic tests",radio,"EMG or NCS performed?","yes, Yes | no, No | unknown, Unknown",,,,,,"[ataxia_supported_confirmed(supporting_testing_performed)]=1 and [ataxia_type]=""sensory""",y,,,,,
+ataxia_emg_or_ncs_specify_test,d_neuro_ataxia,,radio,"Please specify test
+","emg, EMG | ncs, NCS",,,,,,"[ataxia_emg_or_ncs_performed]=""yes""",y,,,,,
+ataxia_emg_or_ncs_test_results,d_neuro_ataxia,,radio,"Test results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,"[ataxia_emg_or_ncs_performed]=""yes""",y,,,,,
+ataxia_emg_or_ncs_key_findings,d_neuro_ataxia,,text,"Key findings (optional):",,,,,,,"[ataxia_emg_or_ncs_performed]=""yes""",,,,,,
+ataxia_vestibular_testing_performed,d_neuro_ataxia,,radio,"Vestibular testing performed?
+","yes, Yes | no, No | unknown, Unknown",,,,,,"[ataxia_supported_confirmed(supporting_testing_performed)]=1 and [ataxia_type]=""vestibular""",y,,,,,
+ataxia_vestibular_test_results,d_neuro_ataxia,,radio,"Test results:
+","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,"[ataxia_vestibular_testing_performed]=""yes""",y,,,,,
+ataxia_vestibular_key_findings,d_neuro_ataxia,,text,"Key findings (optional):",,,,,,,"[ataxia_vestibular_testing_performed]=""yes""",,,,,,
+ataxia_tests_performed,d_neuro_ataxia,,checkbox,"Tests performed (select all that apply)
+","brain_mri, Brain MRI | genetic_testing, Genetic testing | acquired_ataxia_workup, Acquired ataxia workup | relevant_labs_performed, Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum) | other_testing, Other testing",,,,,,[ataxia_supported_confirmed(supporting_testing_performed)]=1,y,,,,,
+ataxia_brain_mri_results,d_neuro_ataxia,,radio,"Brain MRI results:
+","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[ataxia_tests_performed(brain_mri)]=1,y,,,,,
+ataxia_brain_mri_results_abnormal,d_neuro_ataxia,,radio,"Abnormal
+","cerebellarAtrophy, Cerebellar atrophy | brainStemAtrophy, Brain stem atrophy | otherAbnormalities, Other abnormalities",,,,,,"[ataxia_tests_performed(brain_mri)]=1 and [ataxia_brain_mri_results]=""abnormal""",y,,,,,
+ataxia_brain_mri_results_other_abnormalities,d_neuro_ataxia,,text,"Other abnormalities
+
+Please specify:",,,,,,,"[ataxia_tests_performed(brain_mri)]=1 and [ataxia_brain_mri_results_abnormal]=""otherAbnormalities""",y,,,,,
+ataxia_brain_mri_results_key_findings,d_neuro_ataxia,,text,"Key findings (optional)",,,,,,,[ataxia_tests_performed(brain_mri)]=1,,,,,,
+ataxia_genetic_testing_label,d_neuro_ataxia,,descriptive,"Genetic testing",,,,,,,[ataxia_tests_performed(genetic_testing)]=1,,,,,,
+ataxia_genetic_testing_specify,d_neuro_ataxia,,text,"Please specify test",,,,,,,[ataxia_tests_performed(genetic_testing)]=1,y,,,,,
+ataxia_genetic_testing_results,d_neuro_ataxia,,radio,"Genetic testing results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[ataxia_tests_performed(genetic_testing)]=1,y,,,,,
+ataxia_genetic_testing_results_key_findings,d_neuro_ataxia,,text,"Key findings (optional)",,,,,,,[ataxia_tests_performed(genetic_testing)]=1,,,,,,
+ataxia_acquired_ataxia_workup_label,d_neuro_ataxia,,descriptive,"Acquired ataxia workup",,,,,,,[ataxia_tests_performed(acquired_ataxia_workup)]=1,,,,,,
+ataxia_acquired_ataxia_workup_specify,d_neuro_ataxia,,text,"Please specify test",,,,,,,[ataxia_tests_performed(acquired_ataxia_workup)]=1,y,,,,,
+ataxia_workup_results,d_neuro_ataxia,,radio,"Ataxia workup results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[ataxia_tests_performed(acquired_ataxia_workup)]=1,y,,,,,
+ataxia_workup_results_key_findings,d_neuro_ataxia,,text,"Key findings (optional)",,,,,,,[ataxia_tests_performed(acquired_ataxia_workup)]=1,,,,,,
+ataxia_arelevant_labs_label,d_neuro_ataxia,,descriptive,"Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum)",,,,,,,[ataxia_tests_performed(relevant_labs_performed)]=1,,,,,,
+ataxia_relevant_labs_selection,d_neuro_ataxia,,checkbox,"Relevant labs (select all that apply):","metabolic, Metabolic | nutritional, Nutritional | autoimmune, Autoimmune | blood, Blood | csf, CSF | serum, Serum | other, Other",,,,,,[ataxia_tests_performed(relevant_labs_performed)]=1,y,,,,,
+ataxia_relevant_labs_performed_metabolic_option,d_neuro_ataxia,,text,"Metabolic
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(metabolic)]=1",y,,,,,
+ataxia_relevant_labs_performed_nutritional_option,d_neuro_ataxia,,text,"Nutritional
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(nutritional)]=1",y,,,,,
+ataxia_relevant_labs_performed_autoimmune_option,d_neuro_ataxia,,text,"Autoimmune
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(autoimmune)]=1",y,,,,,
+ataxia_relevant_labs_performed_blood_option,d_neuro_ataxia,,text,"Blood
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(blood)]=1",y,,,,,
+ataxia_relevant_labs_performed_csf_option,d_neuro_ataxia,,text,"CSF
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(csf)]=1",y,,,,,
+ataxia_relevant_labs_performed_serum_option,d_neuro_ataxia,,text,"Serum
+
+Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(serum)]=1",y,,,,,
+ataxia_relevant_labs_performed_other_option_label,d_neuro_ataxia,,descriptive,Other,,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(other)]=1",,,,,,
+ataxia_relevant_labs_performed_other_option_specify,d_neuro_ataxia,,text,"Please specify test:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(other)]=1",y,,,,,
+ataxia_relevant_labs_performed_other_option_key_results,d_neuro_ataxia,,text,"Identify key results:",,,,,,,"[ataxia_tests_performed(relevant_labs_performed)]=1 and [ataxia_relevant_labs_selection(other)]=1",y,,,,,
+ataxia_other_testing_label,d_neuro_ataxia,,descriptive,"Other testing",,,,,,,[ataxia_tests_performed(other_testing)]=1,,,,,,
+ataxia_other_testing_specify,d_neuro_ataxia,,text,"Please specify test:",,,,,,,[ataxia_tests_performed(other_testing)]=1,y,,,,,
+ataxia_other_testing_results,d_neuro_ataxia,,radio,"Other testing results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[ataxia_tests_performed(other_testing)]=1,y,,,,,
+ataxia_other_testing_key_findings,d_neuro_ataxia,,text,"Key findings (optional):",,,,,,,[ataxia_tests_performed(other_testing)]=1,,,,,,
+ataxia_treatment_or_therapy,d_neuro_ataxia,"6. Treatment",radio,"Has the participant received any treatment or therapy for ataxia?","yes, Yes | no, No | unknown, Unknown",,,,,,,y,,,,,
+ataxia_treatment_types_selection,d_neuro_ataxia,,checkbox,"Select all treatment types that apply:
+","rehabilitation_therapies, Rehabilitation therapies (PT, OT, speech therapy) | assistive_devices, Assistive devices (cane, walker, wheelchair) | etiology_targeted_treatment, Etiology-targeted treatment (if applicable) | other, Other",,,,,,"[ataxia_treatment_or_therapy]=""yes""",y,,,,,
+ataxia_etiology_targeted_treatment,d_neuro_ataxia,,text,"Etiology-targeted treatment (if applicable)
+
+Please specify :",,,,,,,[ataxia_treatment_types_selection(etiology_targeted_treatment)]=1,y,,,,,
+ataxia_other_treatment,d_neuro_ataxia,,text,"Other
+
+Please specify :",,,,,,,[ataxia_treatment_types_selection(other)]=1,y,,,,,
+diagnosis_et_gsd,d_neuro_essential_tremor,"1. Gold Standard Diagnosis:",radio,"Does the partcipant have essential tremor?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_et_gsd_confirmation_method,d_neuro_essential_tremor,,checkbox,"How was this diagnosis confirmed? Select all that apply.","neurologist, Neurologist | movement_disorders_specialist, Movement disorders specialist | other_specialist, Other specialist | hospital_discharge_summary, Hospital discharge summary | problem_list_or_icd_code, Problem list or ICD code | diagnostic_testing, Diagnostic testing | participant_self_report, Participant self-report | unknown, Unknown",,,,,,"[diagnosis_et_gsd]=""yes"" or [diagnosis_et_gsd]=""notCertain""",y,,,,,
+et_neurologist_recent_date_supporting,d_neuro_essential_tremor,,text,"Neurologist
+
+Date of most recent documentation supporting essential tremor:",,,date_ymd,,,y,[diagnosis_et_gsd_confirmation_method(neurologist)]=1,,,,,,
+et_mds_recent_date_supporting,d_neuro_essential_tremor,,text,"Movement disorders specialist
+
+Date of most recent documentation supporting essential tremor:",,,date_ymd,,,y,[diagnosis_et_gsd_confirmation_method(movement_disorders_specialist)]=1,,,,,,
+et_other_specialist_selected,d_neuro_essential_tremor,,text,"Other specialist
+
+Please specify: ",,,,,,,[diagnosis_et_gsd_confirmation_method(other_specialist)]=1,y,,,,,
+et_action_tremor_history_exam,d_neuro_essential_tremor,"Validation Criteria Checks",radio,"Evidence of bilateral upper-limb action tremor documented by history or exam","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+et_tremor_duration_3yrs,d_neuro_essential_tremor,,radio,"Tremor duration is at least three years","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+et_no_alternative_dx_documented,d_neuro_essential_tremor,,radio,"No better alternative diagnosis is documented
+(Examples: Parkinsonian, dystonic, cerebellar, functional, or medication-induced tremor)","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+et_calculated_validated_result,d_neuro_essential_tremor,,text,"Validated Essential Tremor Result",,,,,,,,,,,,," @HIDDEN-SURVEY
+@CALCTEXT(if([et_action_tremor_history_exam] = 'yes' and [et_tremor_duration_3yrs] = 'yes' and [et_no_alternative_dx_documented] = 'yes', ""Validated Yes"", ""Validated No""))"
+et_tremor_distribution,d_neuro_essential_tremor,"2. Disease type",checkbox,"Tremor distribution (select all that apply)
+","head, Head | voice, Voice | jaw, Jaw | lower_limbs, Lower limbs | none_of_the_above, None of the above | unknown, Unknown",,,,,,,y,,,,,
+et_tremor_postural_or_kinetic,d_neuro_essential_tremor,,radio,"Is the tremor postural or kinetic?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+et_rest_tremor_documented,d_neuro_essential_tremor,,radio,"Is rest tremor also documented?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+et_supportive_clinical_features,d_neuro_essential_tremor,,checkbox,"Supportive clinical features (select all that apply)
+","family_history_of_tremor, Family history of tremor | tremor_improves_with_alcohol, Tremor improves with alcohol | tetras_performance_adl_ftmtrs_scores_available, TETRAS performance, ADL, or Fahn-Tolosa-Marin scores available | handwriting_or_spiral_abnormality_documented, Handwriting or spiral abnormality documented | difficulty_eating_drinking_writing_dressing_due_to_tremor, Difficulty eating, drinking, writing, or dressing due to tremor | social_or_quality_of_life_impact_documented, Social or quality-of-life impact documented | unknown_or_not_documented, Unknown or not documented",,,,,,,y,,,,,
+et_participant_have_any_other_condition,d_neuro_essential_tremor,,checkbox,"Does the participant have signs of any other condition? (select all that apply)
+","ataxia_or_dysmetria, Ataxia or dysmetria | parkinsonism, Parkinsonism | medication_or_substance_related_tremor, Medication or substance-related tremor | dystonia, Dystonia | cerebellar_signs, Cerebellar signs | functional_tremor, Functional tremor | thyroid_or_metabolic_condition, Thyroid or metabolic condition | not_evaluated_or_documented, Not evaluated or documented",,,,,,"[et_no_alternative_dx_documented]=""yes"" or [et_no_alternative_dx_documented]=""notCertain""",y,,,,,
+et_scores_or_results_tremor_assessment_scales,d_neuro_essential_tremor,"3. Assessment",checkbox,"Please provide scores or results from tremor rating assessment scales (select all that apply).","tetras_performance_score, TETRAS performance score available | adl_score, ADL score available | ftmtrs_total_score, Fahn-Tolosa-Marin (FTMTRS) total score available | other_scale, Other scale",,,,,,[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1,y,,,,,
+et_tetras_performance_score,d_neuro_essential_tremor,,text,"TETRAS performance score available
+
+TETRAS performance score (0 to 64):",,,integer,0,64,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(tetras_performance_score)]=1",y,RH,,,,
+et_adl_score_available_label,d_neuro_essential_tremor,,descriptive,"ADL score available",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",,,,,,
+et_adl_scale_used,d_neuro_essential_tremor,,text,"ADL scale used: ",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
+et_adl_total_score,d_neuro_essential_tremor,,text,"ADL total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
+et_ftmtrs_total_score,d_neuro_essential_tremor,,text,"Fahn-Tolosa-Marin (FTMTRS) total score available
+
+FTMTRS total score (0 to 144):",,,number,0,144,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1  and [et_scores_or_results_tremor_assessment_scales(ftmtrs_total_score)]=1",y,,,,,
+et_other_scale_label,d_neuro_essential_tremor,,descriptive,"Other scale",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",,,,,,
+et_other_scale_identify_scale,d_neuro_essential_tremor,,text,"Identify scale:",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
+et_other_scale_total_score,d_neuro_essential_tremor,,text,"Total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
+et_tests_analyses_performed,d_neuro_essential_tremor,"4. Imaging and diagnostic tests",checkbox,"Tests and analyses performed (select all that apply).
+","brain_mri, Brain MRI | datscan_or_dopaminergic_evaluation, DaTscan or dopaminergic evaluation performed | electrophysiologic_tremor_analysis, Electrophysiologic tremor analysis performed | relevant_labs, Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum) | other_testing, Other testing",,,,,,[diagnosis_et_gsd_confirmation_method(diagnostic_testing)]=1,y,,,,,
+et_brain_mri_label,d_neuro_essential_tremor,,descriptive,"Brain MRI",,,,,,,[et_tests_analyses_performed(brain_mri)]=1,,,,,,
+et_brain_mri_results,d_neuro_essential_tremor,,radio,"Brain MRI results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[et_tests_analyses_performed(brain_mri)]=1,y,,,,,
+et_brain_mri_results_abnormal,d_neuro_essential_tremor,,radio,Abnormal,"cerebellarAtrophy, Cerebellar atrophy | brainStemAtrophy, Brain stem atrophy | otherAbnormalities, Other abnormalities",,,,,,"[et_tests_analyses_performed(brain_mri)]=1 and [et_brain_mri_results]=""abnormal""",y,,,,,
+et_brain_mri_other_abnormalities,d_neuro_essential_tremor,,text,"Other abnormalities
+
+Please specify:",,,,,,,"[et_tests_analyses_performed(brain_mri)]=1 and [et_brain_mri_results_abnormal]=""otherAbnormalities""",y,,,,,
+et_brain_mri_key_findings,d_neuro_essential_tremor,,text,"Key findings (optional):",,,,,,,[et_tests_analyses_performed(brain_mri)]=1,,,,,,
+et_datscan_label,d_neuro_essential_tremor,,descriptive,"DaTscan or dopaminergic evaluation performed",,,,,,,[et_tests_analyses_performed(datscan_or_dopaminergic_evaluation)]=1,,,,,,
+et_datscan_specify_test,d_neuro_essential_tremor,,text,"Please specify test:",,,,,,,[et_tests_analyses_performed(datscan_or_dopaminergic_evaluation)]=1,y,,,,,
+et_datscan_dopaminergic_evaluation_results,d_neuro_essential_tremor,,radio,"DaTscan or dopaminergic evaluation results:
+","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[et_tests_analyses_performed(datscan_or_dopaminergic_evaluation)]=1,y,,,,,
+et_datscan_dopaminergic_evaluation_performed_key_findings,d_neuro_essential_tremor,,text,"Key findings (optional):",,,,,,,[et_tests_analyses_performed(datscan_or_dopaminergic_evaluation)]=1,,,,,,
+et_electrophysiologic_tremor_analysis_performed_label,d_neuro_essential_tremor,,descriptive,"Electrophysiologic tremor analysis performed",,,,,,,[et_tests_analyses_performed(electrophysiologic_tremor_analysis)]=1,,,,,,
+et_electrophysiologic_tremor_analysis_performed,d_neuro_essential_tremor,,radio,"Electrophysiologic tremor analysis results:","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[et_tests_analyses_performed(electrophysiologic_tremor_analysis)]=1,y,,,,,
+et_electrophysiologic_tremor_analysis_performed_key_findings,d_neuro_essential_tremor,,text,"Key findings (optional):",,,,,,,[et_tests_analyses_performed(electrophysiologic_tremor_analysis)]=1,,,,,,
+et_relevant_labs_performed_label,d_neuro_essential_tremor,,descriptive,"Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum)",,,,,,,[et_tests_analyses_performed(relevant_labs)]=1,,,,,,
+et_relevant_labs_selection,d_neuro_essential_tremor,,checkbox,"Relevant labs (select all that apply):","metabolic, Metabolic | nutritional, Nutritional | autoimmune, Autoimmune | blood, Blood | csf, CSF | serum, Serum | other, Other",,,,,,[et_tests_analyses_performed(relevant_labs)]=1,y,,,,,
+et_relevant_labs_performed_metabolic_option,d_neuro_essential_tremor,,text,"Metabolic
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(metabolic)]=1",y,,,,,
+et_relevant_labs_performed_nutritional_option,d_neuro_essential_tremor,,text,"Nutritional
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(nutritional)]=1",y,,,,,
+et_relevant_labs_performed_autoimmune_option,d_neuro_essential_tremor,,text,"Autoimmune
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(autoimmune)]=1",y,,,,,
+et_relevant_labs_performed_blood_option,d_neuro_essential_tremor,,text,"Blood
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(blood)]=1",y,,,,,
+et_relevant_labs_performed_csf_option,d_neuro_essential_tremor,,text,"CSF
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(csf)]=1",y,,,,,
+et_relevant_labs_performed_serum_option,d_neuro_essential_tremor,,text,"Serum
+
+Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(serum)]=1",y,,,,,
+et_relevant_labs_performed_other_option_label,d_neuro_essential_tremor,,descriptive,Other,,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(other)]=1",,,,,,
+et_relevant_labs_performed_other_option_specify_test,d_neuro_essential_tremor,,text,"Please specify test:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(other)]=1",y,,,,,
+et_relevant_labs_performed_other_option_identify_key_results,d_neuro_essential_tremor,,text,"Identify key results:",,,,,,,"[et_tests_analyses_performed(relevant_labs)]=1 and [et_relevant_labs_selection(other)]=1",y,,,,,
+et_other_testing_specify_test,d_neuro_essential_tremor,,text,"Please specify test:",,,,,,,[et_tests_analyses_performed(other_testing)]=1,y,,,,,
+et_other_testing_label,d_neuro_essential_tremor,,descriptive,"Other testing",,,,,,,[et_tests_analyses_performed(other_testing)]=1,,,,,,
+et_other_testing_results,d_neuro_essential_tremor,,radio,"Other testing results:
+","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[et_tests_analyses_performed(other_testing)]=1,y,,,,,
+et_other_testing_key_findings,d_neuro_essential_tremor,,text,"Key findings (optional):",,,,,,,[et_tests_analyses_performed(other_testing)]=1,,,,,,
+et_treatment_obtained,d_neuro_essential_tremor,"5. Treatment obtained",radio,"Has the participant ever had deep brain stimulation, forced ultrasound, or
+surgery as treatment for essential tremor?","yes, Yes | no, No | unknown, Unknown",,,,,,,y,,,,,
+et_past_intervention_selection,d_neuro_essential_tremor,,checkbox,"Past intervention (select all that apply)","deep_brain_stimulation, Deep Brain Stimulation | focused_ultrasound, Focused ultrasound | surgery, Surgery",,,,,,"[et_treatment_obtained]=""yes""",y,,,,,
+et_receiving_any_treatment_or_therapy,d_neuro_essential_tremor,,radio,"Is the participant currently receiving any treatment or therapy for essential tremor?","yes, Yes | no, No | unknown, Unknown",,,,,,,y,,,,,
+et_treatment_types_selection,d_neuro_essential_tremor,,checkbox,"Select all treatment types that apply:
+","medications, Medications | non_pharmacological_interventions, Non-pharmacological interventions",,,,,,"[et_receiving_any_treatment_or_therapy]=""yes""",y,,,,,
+et_medications_selection,d_neuro_essential_tremor,,checkbox,"Medications (select all that apply)
+","propranolol, Propranolol | primidone, Primidone | topiramate, Topiramate | gabapentin, Gabapentin | botulinum_toxin, Botulinum toxin | benzodiazepines, Benzodiazepines (i.e. clonazepam) | other, Other",,,,,,[et_treatment_types_selection(medications)]=1,y,,,,,
+et_medications_other_specify,d_neuro_essential_tremor,,text,"Other 
+
+Please specify:",,,,,,,"[et_treatment_types_selection(medications)]=1 and [et_medications_selection(other)]=1",y,,,,,
+et_non_pharmacological_interventions_selection,d_neuro_essential_tremor,,checkbox,"Non-pharmacological interventions (select all that apply)
+","physical_therapy, Physical therapy | occupational_therapy, Occupational therapy | speech_therapy, Speech therapy | deep_brain_stimulation, Deep Brain Stimulation (DBS) | focused_ultrasound, Focused ultrasound | other, Other",,,,,,[et_treatment_types_selection(non_pharmacological_interventions)]=1,y,,,,,
+et_non_pharmacological_interventions_other_specify,d_neuro_essential_tremor,,text,"Other 
+
+Please specify:",,,,,,,"[et_treatment_types_selection(non_pharmacological_interventions)]=1 and [et_non_pharmacological_interventions_selection(other)]=1",y,,,,,
 diagnosis_parkinsons_gsd,d_neuro_parkinsons_disease,"1. Gold Standard Diagnosis",radio,"Does the participant have Parkinson's Disease (Parkinsonism)?","yes, Yes | no, No | notCertain, Not certain",,,,,,,,,,,,
 diagnosis_parkinsons_gsd_category_1,d_neuro_parkinsons_disease,"Has the participant met the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on presence of:",checkbox,"Category 1 - Parkinsonism","bradykinesia, Bradykinesia | tremor, Tremor | rigidity, Rigidity",,,,,,,y,,,,,
 diagnosis_parkinsons_gsd_category_1_calculation,d_neuro_parkinsons_disease,,text,"Category 1 Criteria Met",,,,,,,,,,,,," @CALCTEXT(if(([diagnosis_parkinsons_gsd_category_1(bradykinesia)] && ([diagnosis_parkinsons_gsd_category_1(tremor)] || [diagnosis_parkinsons_gsd_category_1(rigidity)])), 'Yes', 'No'))"
@@ -2909,7 +3130,7 @@ harvard_sentences_recording_acoustic_task_id,q_generic_harvard_sentences,,text,"
 harvard_sentences_started_at,q_generic_harvard_sentences,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 harvard_sentences_completed_at,q_generic_harvard_sentences,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 harvard_sentences_duration,q_generic_harvard_sentences,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-harvard_sentences_origin,q_generic_harvard_sentences,,radio,"Harvard Sentences - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+harvard_sentences_origin,q_generic_harvard_sentences,,radio,"Harvard Sentences - origin","app, Bridge2AI App | website, Bridge2AI Web Appa",,,,,,,y,,,,," @READONLY"
 harvard_sentences_via,q_generic_harvard_sentences,,radio,"Harvard Sentences - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 harvard_sentences_language,q_generic_harvard_sentences,,radio,"Harvard Sentences - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 harvard_sentences_list_order,q_generic_harvard_sentences,"Harvard Sentences",text,"Harvard Sentence List Order Array (comma separated)",,"e.g ""List 3,List 25""",,,,,,y,LH,,,,
@@ -3054,7 +3275,7 @@ voice_severity_origin,q_voice_voice_problem_severity,,radio,"Voice Severity - or
 voice_severity_via,q_voice_voice_problem_severity,,radio,"Voice Severity - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 voice_severity_language,q_voice_voice_problem_severity,,radio,"Voice Severity - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 describe_the_severity_of_a,q_voice_voice_problem_severity,"Voice problem severity",slider,"Describe the severity of auditory-perceptual attributes of a voice problem
-*Overall severity scale (0-100)","0 |  | 100",,number,,,,,y,RH,,,,
+*Overall severity scale (0-100)","0 |  | 100",,number,0,100,,,y,RH,,,,
 panas_session_id,q_mood_panas,"Questionnaire - Metadata",text,"Session ID",,,,,,,,y,,,,," @READONLY"
 panas_started_at,q_mood_panas,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 panas_completed_at,q_mood_panas,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
@@ -3789,7 +4010,7 @@ peds_frustrated_voice,pediatric_q_generic_vhi_10,,radio,"My child is frustrated 
 peds_less_out_going,pediatric_q_generic_vhi_10,,radio,"My child is less out-going because of his/her voice problem.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,,,,peds_vhi_10,,
 peds_annoyed_repeat,pediatric_q_generic_vhi_10,,radio,"My child is annoyed when people ask him/her to repeat.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,,,,peds_vhi_10,,
 peds_embarrassed_repeat,pediatric_q_generic_vhi_10,,radio,"My child is embarrassed when people ask him/her to repeat.","never, Never | almostNever, Almost Never | sometimes, Sometimes | almostAlways, Almost Always | always, Always",,,,,,,,,,peds_vhi_10,,
-peds_severity_voice_problem,pediatric_q_generic_vhi_10,,slider,"Please indicate the severity of your child's voice problem","Normal |  | Severe",,number,,10,,,,RH,,,,
+peds_severity_voice_problem,pediatric_q_generic_vhi_10,,slider,"Please indicate the severity of your child's voice problem","Normal |  | Severe",,number,0,10,,,,RH,,,,
 peds_os_session_id,pediatric_q_generic_voice_outcome_survey,"Questionnaire - Metadata",text,"Session ID",,,,,,,,,,,,," @READONLY"
 peds_os_started_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_os_completed_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"

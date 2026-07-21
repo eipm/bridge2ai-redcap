@@ -25,6 +25,8 @@ This document provides an overview of the Adult Neurological and Neurodegenerati
 **Disorders/Diseases Covered**
 - [![Alzheimer's, dementia, or mild cognitive impairment](https://img.shields.io/badge/Alzheimer's,%20dementia,%20or%20mild%20cognitive%20impairment-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf)
 - [![Amyotrophic Lateral Sclerosis (ALS)](https://img.shields.io/badge/Amyotrophic%20Lateral%20Sclerosis%20(ALS)-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf)
+- [![Ataxia](https://img.shields.io/badge/Ataxia-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Ataxia.pdf)
+- [![Essential Tremor](https://img.shields.io/badge/Essential%20Tremor-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Essential%20Tremor.pdf)
 - [![Huntington's Disease](https://img.shields.io/badge/Huntington's%20Disease-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf)
 - [![Parkinson's Disease](https://img.shields.io/badge/Parkinson's%20Disease-8A2BE2)](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf)
 
@@ -94,5 +96,7 @@ All adult acoustic-task demonstrations are also available as curated Acoustic Ta
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Alzheimer's, dementia, or mild cognitive impairment | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Alzheimer's%20disease,%20Mild%20Cognitive%20Impairment%20and%20other%20types%20of%20Dementia.pdf) | NA |
 | 2 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Amyotrophic Lateral Sclerosis (ALS) | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20(ALS).pdf) | NA |
-| 3 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Huntington's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf) | NA |
-| 4 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Parkinson's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf) | NA |
+| 3 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Ataxia | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Ataxia.pdf.pdf) | NA |
+| 4 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Essential Tremor | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Essential%20Tremor.pdf) | NA |
+| 5 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Huntington's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Huntington's%20Disease.pdf) | NA |
+| 6 | [Neuro Protocol](Neurological%20and%20Neurodegenerative%20Disorders%20Protocol.md) | Parkinson's Disease | [📄](../PDFs/en-us/Diagnosis%20-%20PDFs/Neuro/D%20-%20Neuro%20-%20Parkinson's%20Disease.pdf) | NA |
