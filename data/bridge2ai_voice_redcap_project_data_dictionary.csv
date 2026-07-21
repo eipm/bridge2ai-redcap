@@ -1167,7 +1167,7 @@ Please specify :",,,,,,,[ataxia_treatment_types_selection(etiology_targeted_trea
 ataxia_other_treatment,d_neuro_ataxia,,text,"Other
 
 Please specify :",,,,,,,[ataxia_treatment_types_selection(other)]=1,y,,,,,
-diagnosis_et_gsd,d_neuro_essential_tremor,"1. Gold Standard Diagnosis:",radio,"Does the partcipant have essential tremor?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
+diagnosis_et_gsd,d_neuro_essential_tremor,"1. Gold Standard Diagnosis:",radio,"Does the participant have essential tremor?","yes, Yes | no, No | notCertain, Not certain",,,,,,,y,,,,,
 diagnosis_et_gsd_confirmation_method,d_neuro_essential_tremor,,checkbox,"How was this diagnosis confirmed? Select all that apply.","neurologist, Neurologist | movement_disorders_specialist, Movement disorders specialist | other_specialist, Other specialist | hospital_discharge_summary, Hospital discharge summary | problem_list_or_icd_code, Problem list or ICD code | diagnostic_testing, Diagnostic testing | participant_self_report, Participant self-report | unknown, Unknown",,,,,,"[diagnosis_et_gsd]=""yes"" or [diagnosis_et_gsd]=""notCertain""",y,,,,,
 et_neurologist_recent_date_supporting,d_neuro_essential_tremor,,text,"Neurologist
 
@@ -1250,7 +1250,7 @@ et_other_testing_label,d_neuro_essential_tremor,,descriptive,"Other testing",,,,
 et_other_testing_results,d_neuro_essential_tremor,,radio,"Other testing results:
 ","normal, Normal | abnormal, Abnormal | unknown, Unknown",,,,,,[et_tests_analyses_performed(other_testing)]=1,y,,,,,
 et_other_testing_key_findings,d_neuro_essential_tremor,,text,"Key findings (optional):",,,,,,,[et_tests_analyses_performed(other_testing)]=1,,,,,,
-et_treatment_obtained,d_neuro_essential_tremor,"5. Treatment obtained",radio,"Has the participant ever had deep brain stimulation, forced ultrasound, or
+et_treatment_obtained,d_neuro_essential_tremor,"5. Treatment obtained",radio,"Has the participant ever had deep brain stimulation, focused ultrasound, or
 surgery as treatment for essential tremor?","yes, Yes | no, No | unknown, Unknown",,,,,,,y,,,,,
 et_past_intervention_selection,d_neuro_essential_tremor,,checkbox,"Past intervention (select all that apply)","deep_brain_stimulation, Deep Brain Stimulation | focused_ultrasound, Focused ultrasound | surgery, Surgery",,,,,,"[et_treatment_obtained]=""yes""",y,,,,,
 et_receiving_any_treatment_or_therapy,d_neuro_essential_tremor,,radio,"Is the participant currently receiving any treatment or therapy for essential tremor?","yes, Yes | no, No | unknown, Unknown",,,,,,,y,,,,,
@@ -3130,7 +3130,7 @@ harvard_sentences_recording_acoustic_task_id,q_generic_harvard_sentences,,text,"
 harvard_sentences_started_at,q_generic_harvard_sentences,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 harvard_sentences_completed_at,q_generic_harvard_sentences,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 harvard_sentences_duration,q_generic_harvard_sentences,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-harvard_sentences_origin,q_generic_harvard_sentences,,radio,"Harvard Sentences - origin","app, Bridge2AI App | website, Bridge2AI Web Appa",,,,,,,y,,,,," @READONLY"
+harvard_sentences_origin,q_generic_harvard_sentences,,radio,"Harvard Sentences - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
 harvard_sentences_via,q_generic_harvard_sentences,,radio,"Harvard Sentences - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 harvard_sentences_language,q_generic_harvard_sentences,,radio,"Harvard Sentences - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 harvard_sentences_list_order,q_generic_harvard_sentences,"Harvard Sentences",text,"Harvard Sentence List Order Array (comma separated)",,"e.g ""List 3,List 25""",,,,,,y,LH,,,,
