@@ -68,8 +68,10 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 | 15 | Resp — Unexplained Chronic Cough | `d_resp_unexplained_chronic_cough` | [📦](../../data/instruments/D%20-%20Resp%20-%20Unexplained%20Chronic%20Cough.zip) | — |
 | 16 | Neuro — Alzheimer's, MCI, and Other Dementias | `d_neuro_alzheimers_disease_mild_cognitive_impairme` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Alzheimer%27s%20Disease%2C%20MCI%20and%20Other%20Dementias.zip) | — |
 | 17 | Neuro — Amyotrophic Lateral Sclerosis (ALS) | `d_neuro_amyotrophic_lateral_sclerosis_als` | [📦](<../../data/instruments/D%20-%20Neuro%20-%20Amyotrophic%20Lateral%20Sclerosis%20%28ALS%29.zip>) | — |
-| 18 | Neuro — Parkinson's Disease | `d_neuro_parkinsons_disease` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Parkinson%27s%20Disease.zip) | — |
-| 19 | Neuro — Huntington's Disease | `d_neuro_huntingtons_disease` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Huntington%27s%20Disease.zip) | — |
+| 18 | Neuro — Ataxia | `d_neuro_ataxia` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Ataxia.zip) | — |
+| 19 | Neuro — Essential Tremor | `d_neuro_essential_tremor` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Essential%20Tremor.zip) | — |
+| 20 | Neuro — Parkinson's Disease | `d_neuro_parkinsons_disease` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Parkinson%27s%20Disease.zip) | — |
+| 21 | Neuro — Huntington's Disease | `d_neuro_huntingtons_disease` | [📦](../../data/instruments/D%20-%20Neuro%20-%20Huntington%27s%20Disease.zip) | — |
 
 ## Adult Questionnaires (Generic)
 

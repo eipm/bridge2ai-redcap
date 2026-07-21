@@ -8,11 +8,11 @@
 
 Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
-[![GitHub](https://img.shields.io/badge/github-4.8.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-15.5.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-4.9.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.37-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd |
 | :-----: | :-------------: |
-| v4.8.0  |   2026-06-04    |
+| v4.9.0  |   2026-07-21    |
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="images/main_logo_white.svg"><img src="images/main_logo_black.svg" height="32" align="absmiddle" alt=""></picture> Bridge2AI-Voice Protocols
 
@@ -81,7 +81,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br>🏥<br>
         <strong>All Adult Diagnoses</strong>
       </a>
-      <br><sub>🩺 19 disorders</sub>
+      <br><sub>🩺 21 disorders</sub>
     </td>
     <td align="center" width="16%">
       <a href="docs/Adults/eConsents/Adult%20eConsents.md">
@@ -181,7 +181,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
 
-> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.8.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.9.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 If you use the Bridge2AI-Voice Adult protocols in your work, please cite the Interspeech 2024 paper:
 
