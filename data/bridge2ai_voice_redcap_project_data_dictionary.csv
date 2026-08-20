@@ -1091,16 +1091,16 @@ ataxia_scores_standardized_scales,d_neuro_ataxia,,checkbox,"Please provide score
 ","sara_score, SARA score available | icars_score, ICARS score available | fars_score, FARS score available | functional_mobility_stage, Functional mobility stage available | other_scale, Other scale | not_available, Not available",,,,,,[ataxia_supported_confirmed(severity_standardized_ataxia_scale)]=1,y,,,,,
 ataxia_sara_score_option,d_neuro_ataxia,,text,"SARA score available
 
-SARA total score (0 to 40): ",,,integer,0,40,,[ataxia_scores_standardized_scales(sara_score)]=1,y,,,,,
+SARA total score (0 to 40): ",,,number,0,40,,[ataxia_scores_standardized_scales(sara_score)]=1,y,,,,,
 ataxia_icars_score_option,d_neuro_ataxia,,text,"ICARS score available
 
-ICARS total score (0 to 100):",,,integer,0,100,,[ataxia_scores_standardized_scales(icars_score)]=1,y,,,,,
+ICARS total score (0 to 100):",,,number,0,100,,[ataxia_scores_standardized_scales(icars_score)]=1,y,,,,,
 ataxia_fars_score_option,d_neuro_ataxia,,text,"FARS score available
 
-FARS total score (0 to 125):",,,integer,0,125,,[ataxia_scores_standardized_scales(fars_score)]=1,y,,,,,
+FARS total score (0 to 125):",,,number,0,125,,[ataxia_scores_standardized_scales(fars_score)]=1,y,,,,,
 ataxia_aother_scale_option_label,d_neuro_ataxia,,descriptive,"Other scale",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,,,,,,
 ataxia_other_scale_identify_scale,d_neuro_ataxia,,text,"Identify scale:",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
-ataxia_other_scale_total_score,d_neuro_ataxia,,text,"Total score:",,,integer,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
+ataxia_other_scale_total_score,d_neuro_ataxia,,text,"Total score:",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
 ataxia_functional_mobility_stage,d_neuro_ataxia,,radio,"Functional mobility stage:
 ","ambulatoryWithoutAid, Ambulatory without aid | ambulatoryWithAid, Ambulatory with aid (cane or walker) | wheelchairDependent, Wheelchair-dependent | bedboundOrTotalAssistance, Bedbound or total assistance",,,,,,[ataxia_scores_standardized_scales(functional_mobility_stage)]=1,,,,,,
 ataxia_emg_or_ncs_performed,d_neuro_ataxia,"5. Imaging and diagnostic tests",radio,"EMG or NCS performed?","yes, Yes | no, No | unknown, Unknown",,,,,,"[ataxia_supported_confirmed(supporting_testing_performed)]=1 and [ataxia_type]=""sensory""",y,,,,,
@@ -1195,7 +1195,7 @@ et_participant_have_any_other_condition,d_neuro_essential_tremor,,checkbox,"Does
 et_scores_or_results_tremor_assessment_scales,d_neuro_essential_tremor,"3. Assessment",checkbox,"Please provide scores or results from tremor rating assessment scales (select all that apply).","tetras_performance_score, TETRAS performance score available | adl_score, ADL score available | ftmtrs_total_score, Fahn-Tolosa-Marin (FTMTRS) total score available | other_scale, Other scale",,,,,,[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1,y,,,,,
 et_tetras_performance_score,d_neuro_essential_tremor,,text,"TETRAS performance score available
 
-TETRAS performance score (0 to 64):",,,integer,0,64,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(tetras_performance_score)]=1",y,RH,,,,
+TETRAS performance score (0 to 64):",,,number,0,64,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(tetras_performance_score)]=1",y,RH,,,,
 et_adl_score_available_label,d_neuro_essential_tremor,,descriptive,"ADL score available",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",,,,,,
 et_adl_scale_used,d_neuro_essential_tremor,,text,"ADL scale used: ",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
 et_adl_total_score,d_neuro_essential_tremor,,text,"ADL total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
@@ -1204,7 +1204,7 @@ et_ftmtrs_total_score,d_neuro_essential_tremor,,text,"Fahn-Tolosa-Marin (FTMTRS)
 FTMTRS total score (0 to 144):",,,number,0,144,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1  and [et_scores_or_results_tremor_assessment_scales(ftmtrs_total_score)]=1",y,,,,,
 et_other_scale_label,d_neuro_essential_tremor,,descriptive,"Other scale",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",,,,,,
 et_other_scale_identify_scale,d_neuro_essential_tremor,,text,"Identify scale:",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
-et_other_scale_total_score,d_neuro_essential_tremor,,text,"Total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
+et_other_scale_total_score,d_neuro_essential_tremor,,text,"Total score:",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
 et_tests_analyses_performed,d_neuro_essential_tremor,"4. Imaging and diagnostic tests",checkbox,"Tests and analyses performed (select all that apply).
 ","brain_mri, Brain MRI | datscan_or_dopaminergic_evaluation, DaTscan or dopaminergic evaluation performed | electrophysiologic_tremor_analysis, Electrophysiologic tremor analysis performed | relevant_labs, Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum) | other_testing, Other testing",,,,,,[diagnosis_et_gsd_confirmation_method(diagnostic_testing)]=1,y,,,,,
 et_brain_mri_label,d_neuro_essential_tremor,,descriptive,"Brain MRI",,,,,,,[et_tests_analyses_performed(brain_mri)]=1,,,,,,
