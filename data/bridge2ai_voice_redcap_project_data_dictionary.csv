@@ -41,7 +41,7 @@ voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral Vocal 
 alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 als,subjectparticipant_eligible_studies,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 neuro_ataxia,subjectparticipant_eligible_studies,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-essential_tremor,subjectparticipant_eligible_studies,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,,,,neuro_neurodeg_dis,,
+essential_tremor,subjectparticipant_eligible_studies,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 huntingtons,subjectparticipant_eligible_studies,,radio,"Huntington's Disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 parkinsons,subjectparticipant_eligible_studies,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 alcohol_subst_abuse,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
