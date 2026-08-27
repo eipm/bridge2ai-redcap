@@ -9,12 +9,15 @@
 [mic]: https://custom-icon-badges.demolab.com/badge/Presione_para_grabar-purple.svg?logo=mic&logoSource=feather
 [audio]: https://custom-icon-badges.demolab.com/badge/Demostración_de_Tarea-blue.svg?logo=volume-2&logoSource=feather
 [recording_1]: https://custom-icon-badges.demolab.com/badge/Recording%201-Respiration%20and%20cough%20(v2)--Breath-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Respiration%20and%20cough%20(v2)--HardCough-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Respiration%20and%20cough%20(v2)--ThreeBreaths-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_2]: https://custom-icon-badges.demolab.com/badge/Recording%202-Respiration%20and%20cough%20(v2)--ThreeBreaths-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_3]: https://custom-icon-badges.demolab.com/badge/Recording%203-Respiration%20and%20cough%20(v2)--ThreeBreathsNose-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 [recording_4]: https://custom-icon-badges.demolab.com/badge/Recording%204-Respiration%20and%20cough%20(v2)--ThreeBreathsMouth-8A2BE2.svg?logo=b2ai_voice&logoColor=white
-[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Respiration%20and%20cough%20(v2)--ThreeBreathsNose-8A2BE2.svg?logo=b2ai_voice&logoColor=white
+[recording_5]: https://custom-icon-badges.demolab.com/badge/Recording%205-Respiration%20and%20cough%20(v2)--HardCough-8A2BE2.svg?logo=b2ai_voice&logoColor=white
 
 # Respiración y tos
+
+> [!NOTE]
+> Recordings 2, 3, 4 are randomized and will be presented in a random order to the participant. The order of recordings 1 and 5 is fixed.
 
 ![recording_1][recording_1]
 

@@ -17,7 +17,7 @@ enrollment_reason,subjectparticipant_basic_information,,text,"Enrollment Reason
 To be completed when enrolling a person that declined initially.",,,,,,y,"[enrolled] = 1",,,,,,
 enrollment_institution,subjectparticipant_basic_information,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,y,,,,,
 researcher_email,subjectparticipant_basic_information,,text,"Researcher Email",,,email,,,y,,,,,,,
-participant_data_collection_origins,subjectparticipant_basic_information,"Data Collection Details",checkbox,"Data Collection - origin(s)","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,,,,,," @READONLY"
+participant_data_collection_origins,subjectparticipant_basic_information,"Data Collection Details",checkbox,"Data Collection - origin(s)","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,,,,,," @READONLY"
 participant_data_collection_via,subjectparticipant_basic_information,,checkbox,"Data Collection - via","data_collector, Data Collector | participant, Participant",,,,,,,,,,,," @READONLY"
 api_updates_on_behalf_of,subjectparticipant_basic_information,,text,"API Updates on behalf of",,,email,,,y,,,,,,," @READONLY"
 participant_study_id,subjectparticipant_contact_information,"Contact Information",text,"Participant Study ID",,,,,,y,,,,,,,
@@ -41,7 +41,7 @@ voc_fold_paralysis,subjectparticipant_eligible_studies,,radio,"Unilateral Vocal 
 alz_dementia_mci,subjectparticipant_eligible_studies,"Neurological and Neurodegenerative Disorders",radio,"Alzheimer's, Dementia, or Mild Cognitive Impairment","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 als,subjectparticipant_eligible_studies,,radio,"Amyotrophic Lateral Sclerosis (ALS)","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 neuro_ataxia,subjectparticipant_eligible_studies,,radio,Ataxia,"0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
-essential_tremor,subjectparticipant_eligible_studies,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,,,,neuro_neurodeg_dis,,
+essential_tremor,subjectparticipant_eligible_studies,,radio,"Essential Tremor","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 huntingtons,subjectparticipant_eligible_studies,,radio,"Huntington's Disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 parkinsons,subjectparticipant_eligible_studies,,radio,"Parkinson's disease","0, Unchecked | 1, Checked",,,,,,,y,,,neuro_neurodeg_dis,,
 alcohol_subst_abuse,subjectparticipant_eligible_studies,"Mood and Psychiatric Disorders",radio,"Alcohol or Substance Use Disorder","0, Unchecked | 1, Checked",,,,,,,y,,,mood_psych_dis,,
@@ -142,7 +142,7 @@ ef_reason_decline_enroll,enrollment_form,,radio,"Please select a reason for decl
 ef_other_reason_decline,enrollment_form,,text,"If ""Other"" reason for declining enrollment, please specify:",,,,,,y,"[ef_reason_decline_enroll]=""5""",,,,,,
 ef_enrollment_institution,enrollment_form,,radio,"Enrollment Institution","mit, MIT | mt_sinai, Mt. Sinai | sickkids, SickKids | usf, USF | vumc, VUMC | wcm, WCM",,,,,,,,,,,,
 ef_researcher_email,enrollment_form,,text,"Researcher Email",,,email,,,y,,,,,,,
-ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,,
+ef_enrollment_origin,enrollment_form,,radio,"Enrollment Origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,,
 ef_enrollment_via,enrollment_form,,radio,"Enrollment via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,,
 ef_started_at,enrollment_form,"Enrollment Form - Metadata",text,"Enrollment Form Started At",,,,,,y,,,,,,," @READONLY"
 ef_completed_at,enrollment_form,,text,"Enrollment Form Completed At",,,,,,y,,,,,,," @READONLY"
@@ -1091,16 +1091,16 @@ ataxia_scores_standardized_scales,d_neuro_ataxia,,checkbox,"Please provide score
 ","sara_score, SARA score available | icars_score, ICARS score available | fars_score, FARS score available | functional_mobility_stage, Functional mobility stage available | other_scale, Other scale | not_available, Not available",,,,,,[ataxia_supported_confirmed(severity_standardized_ataxia_scale)]=1,y,,,,,
 ataxia_sara_score_option,d_neuro_ataxia,,text,"SARA score available
 
-SARA total score (0 to 40): ",,,integer,0,40,,[ataxia_scores_standardized_scales(sara_score)]=1,y,,,,,
+SARA total score (0 to 40): ",,,number,0,40,,[ataxia_scores_standardized_scales(sara_score)]=1,y,,,,,
 ataxia_icars_score_option,d_neuro_ataxia,,text,"ICARS score available
 
-ICARS total score (0 to 100):",,,integer,0,100,,[ataxia_scores_standardized_scales(icars_score)]=1,y,,,,,
+ICARS total score (0 to 100):",,,number,0,100,,[ataxia_scores_standardized_scales(icars_score)]=1,y,,,,,
 ataxia_fars_score_option,d_neuro_ataxia,,text,"FARS score available
 
-FARS total score (0 to 125):",,,integer,0,125,,[ataxia_scores_standardized_scales(fars_score)]=1,y,,,,,
+FARS total score (0 to 125):",,,number,0,125,,[ataxia_scores_standardized_scales(fars_score)]=1,y,,,,,
 ataxia_aother_scale_option_label,d_neuro_ataxia,,descriptive,"Other scale",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,,,,,,
 ataxia_other_scale_identify_scale,d_neuro_ataxia,,text,"Identify scale:",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
-ataxia_other_scale_total_score,d_neuro_ataxia,,text,"Total score:",,,integer,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
+ataxia_other_scale_total_score,d_neuro_ataxia,,text,"Total score:",,,,,,,[ataxia_scores_standardized_scales(other_scale)]=1,y,,,,,
 ataxia_functional_mobility_stage,d_neuro_ataxia,,radio,"Functional mobility stage:
 ","ambulatoryWithoutAid, Ambulatory without aid | ambulatoryWithAid, Ambulatory with aid (cane or walker) | wheelchairDependent, Wheelchair-dependent | bedboundOrTotalAssistance, Bedbound or total assistance",,,,,,[ataxia_scores_standardized_scales(functional_mobility_stage)]=1,,,,,,
 ataxia_emg_or_ncs_performed,d_neuro_ataxia,"5. Imaging and diagnostic tests",radio,"EMG or NCS performed?","yes, Yes | no, No | unknown, Unknown",,,,,,"[ataxia_supported_confirmed(supporting_testing_performed)]=1 and [ataxia_type]=""sensory""",y,,,,,
@@ -1195,7 +1195,7 @@ et_participant_have_any_other_condition,d_neuro_essential_tremor,,checkbox,"Does
 et_scores_or_results_tremor_assessment_scales,d_neuro_essential_tremor,"3. Assessment",checkbox,"Please provide scores or results from tremor rating assessment scales (select all that apply).","tetras_performance_score, TETRAS performance score available | adl_score, ADL score available | ftmtrs_total_score, Fahn-Tolosa-Marin (FTMTRS) total score available | other_scale, Other scale",,,,,,[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1,y,,,,,
 et_tetras_performance_score,d_neuro_essential_tremor,,text,"TETRAS performance score available
 
-TETRAS performance score (0 to 64):",,,integer,0,64,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(tetras_performance_score)]=1",y,RH,,,,
+TETRAS performance score (0 to 64):",,,number,0,64,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(tetras_performance_score)]=1",y,RH,,,,
 et_adl_score_available_label,d_neuro_essential_tremor,,descriptive,"ADL score available",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",,,,,,
 et_adl_scale_used,d_neuro_essential_tremor,,text,"ADL scale used: ",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
 et_adl_total_score,d_neuro_essential_tremor,,text,"ADL total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(adl_score)]=1",y,,,,,
@@ -1204,7 +1204,7 @@ et_ftmtrs_total_score,d_neuro_essential_tremor,,text,"Fahn-Tolosa-Marin (FTMTRS)
 FTMTRS total score (0 to 144):",,,number,0,144,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1  and [et_scores_or_results_tremor_assessment_scales(ftmtrs_total_score)]=1",y,,,,,
 et_other_scale_label,d_neuro_essential_tremor,,descriptive,"Other scale",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",,,,,,
 et_other_scale_identify_scale,d_neuro_essential_tremor,,text,"Identify scale:",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
-et_other_scale_total_score,d_neuro_essential_tremor,,text,"Total score:",,,number,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
+et_other_scale_total_score,d_neuro_essential_tremor,,text,"Total score:",,,,,,,"[et_supportive_clinical_features(tetras_performance_adl_ftmtrs_scores_available)]=1 and [et_scores_or_results_tremor_assessment_scales(other_scale)]=1",y,,,,,
 et_tests_analyses_performed,d_neuro_essential_tremor,"4. Imaging and diagnostic tests",checkbox,"Tests and analyses performed (select all that apply).
 ","brain_mri, Brain MRI | datscan_or_dopaminergic_evaluation, DaTscan or dopaminergic evaluation performed | electrophysiologic_tremor_analysis, Electrophysiologic tremor analysis performed | relevant_labs, Relevant labs performed (metabolic, nutritional, autoimmune, blood, CSF, or serum) | other_testing, Other testing",,,,,,[diagnosis_et_gsd_confirmation_method(diagnostic_testing)]=1,y,,,,,
 et_brain_mri_label,d_neuro_essential_tremor,,descriptive,"Brain MRI",,,,,,,[et_tests_analyses_performed(brain_mri)]=1,,,,,,
@@ -1375,7 +1375,7 @@ acoustic_task_status,acoustic_task,,radio,"Acoustic Task Status","1, Skipped | 2
 acoustic_task_started_at,acoustic_task,,text,"Acoustic Task Started At",,,,,,y,,,,,,," @READONLY"
 acoustic_task_completed_at,acoustic_task,,text,"Acoustic Task Completed At",,,,,,y,,,,,,," @READONLY"
 acoustic_task_duration,acoustic_task,,text,"Acoustic Task Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-acoustic_task_origin,acoustic_task,,radio,"Acoustic Task - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+acoustic_task_origin,acoustic_task,,radio,"Acoustic Task - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 acoustic_task_via,acoustic_task,,radio,"Acoustic Task - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 acoustic_task_language,acoustic_task,,radio,"Acoustic Task - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 recording_id,recording,,text,"Recording ID",,,,,,,,y,,,,," @READONLY"
@@ -1392,7 +1392,7 @@ recording_profile_name,recording,,radio,"Recording Profile Name","speech, Speech
 recording_profile_version,recording,,radio,"Recording Profile Version","1, v1.0.0",,,,,,,y,,,,," @READONLY"
 recording_input_gain,recording,,text,"Recording Input Gain",,,,,,,,y,,,,," @READONLY"
 recording_microphone,recording,,text,"Recording Microphone",,,,,,,,y,,,,," @READONLY"
-recording_origin,recording,,radio,"Recording - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+recording_origin,recording,,radio,"Recording - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 recording_via,recording,,radio,"Recording - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 recording_language,recording,,radio,"Recording - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 recording_platform,recording,"Device Metadata",text,"Recording - Platform",,,,,,,,y,,,,," @READONLY"
@@ -3957,7 +3957,7 @@ peds_demographics_session_id,pediatric_q_generic_demographics,"Questionnaire - M
 peds_demographics_started_at,pediatric_q_generic_demographics,,text,"Questionnaire Started At",,,,,,y,,,,,,," @READONLY"
 peds_demographics_completed_at,pediatric_q_generic_demographics,,text,"Questionnaire Completed At",,,,,,y,,,,,,," @READONLY"
 peds_demographics_duration,pediatric_q_generic_demographics,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-peds_demographics_origin,pediatric_q_generic_demographics,,radio,"Peds Demographics - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_demographics_origin,pediatric_q_generic_demographics,,radio,"Peds Demographics - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_demographics_via,pediatric_q_generic_demographics,,radio,"Peds Demographics - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_demographics_language,pediatric_q_generic_demographics,,radio,"Peds Demographics - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_zipcode,pediatric_q_generic_demographics,"Address Information",text,Zipcode,,"5 Digit for USA and 3 Digit for Canada",,,,y,,,,,,,
@@ -3983,7 +3983,7 @@ peds_vhi_session_id,pediatric_q_generic_vhi_10,"Questionnaire - Metadata",text,"
 peds_vhi_started_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_completed_at,pediatric_q_generic_vhi_10,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_vhi_duration,pediatric_q_generic_vhi_10,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
-peds_vhi_origin,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_vhi_origin,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_vhi_via,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_vhi_language,pediatric_q_generic_vhi_10,,radio,"Peds VHI-10 - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_vhi_talkativeness,pediatric_q_generic_vhi_10,"Pediatric VHI 10 Questionnaire",slider,"I would rate my child's talkativeness as the following:","Quiet Talker | Average Talker | Extremely Talkative",,number,1,7,,,,RH,,,,
@@ -4015,7 +4015,7 @@ peds_os_session_id,pediatric_q_generic_voice_outcome_survey,"Questionnaire - Met
 peds_os_started_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_os_completed_at,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_os_duration,pediatric_q_generic_voice_outcome_survey,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
-peds_os_origin,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_os_origin,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_os_via,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_os_language,pediatric_q_generic_voice_outcome_survey,,radio,"Peds Voice Outcome Survey - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_os_limit_understood,pediatric_q_generic_voice_outcome_survey,"Pediatric Voice Outcome Survey",radio,"To what extent does you child's voice limit his or her ability to be understood in a noisy area?","limitedALot, Limited a lot | limitedALittle, Limited a little | notLimitedAtAll, Not limited at all",,,,,,,,,,,,
@@ -4026,7 +4026,7 @@ peds_qol_session_id,pediatric_q_generic_voice_related_qol_survey,"Questionnaire 
 peds_qol_started_at,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_qol_completed_at,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_qol_duration,pediatric_q_generic_voice_related_qol_survey,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
-peds_qol_origin,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_qol_origin,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_qol_via,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_qol_language,pediatric_q_generic_voice_related_qol_survey,,radio,"Peds Voice Related QoL Survey - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_qol_trouble_speaking_heard,pediatric_q_generic_voice_related_qol_survey,"Please answer these questions based on what your child's voice (your own voice if you are a teenage respondent) has been like over the last 2 weeks. Consider how severe the problem is, when you get it and how frequently it happens. Please rate each item below on how bad it is (the amount of each problem). Because of my child's voice, how much of a problem is this?",radio,"My child/ I has trouble speaking loudly or being heard in noisy situations.","none, None, not a problem | aSmallAmount, A small amount | aModerateAmount, A moderate amount | aLot, A lot | asBadAsItCanBe, Problem is ""as bad as it can be"" | notApplicable, Not applicable",,,,,,,,,,peds_qol,,
@@ -4042,7 +4042,7 @@ peds_phqa_session_id,pediatric_q_generic_phqa,"Questionnaire - Metadata",text,"S
 peds_phqa_started_at,pediatric_q_generic_phqa,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_phqa_completed_at,pediatric_q_generic_phqa,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_phqa_duration,pediatric_q_generic_phqa,,text,"Questionnaire Duration (seconds)",,,number,0,,,,,,,,," @READONLY"
-peds_phqa_origin,pediatric_q_generic_phqa,,radio,"Peds PHQ-A - origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_phqa_origin,pediatric_q_generic_phqa,,radio,"Peds PHQ-A - origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_phqa_via,pediatric_q_generic_phqa,,radio,"Peds PHQ-A - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_phqa_language,pediatric_q_generic_phqa,,radio,"Peds PHQ-A - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_phqa_feeling_depressed,pediatric_q_generic_phqa,"How often have you been bothered by each of the following symptoms during the past two weeks? For each symptom select the answer that best describes how you have been feeling.",radio,"Feeling down, depressed, irritable, or hopeless?","notAtAll, Not at all | severalDays, Several days | moreThanHalfTheDays, More than half the days | nearlyEveryDay, Nearly every day",,,,,,,y,,,phqa,,
@@ -4058,7 +4058,7 @@ peds_mc_session_id,pediatric_q_generic_medical_conditions,"Questionnaire - Metad
 peds_mc_started_at,pediatric_q_generic_medical_conditions,,text,"Questionnaire Started At",,,,,,y,,y,,,,," @READONLY"
 peds_mc_completed_at,pediatric_q_generic_medical_conditions,,text,"Questionnaire Completed At",,,,,,y,,y,,,,," @READONLY"
 peds_mc_duration,pediatric_q_generic_medical_conditions,,text,"Questionnaire Duration (seconds)",,,,,,,,,,,,," @READONLY"
-peds_mc_origin,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions - Origin","app, Bridge2AI App | website, Bridge2AI Web App",,,,,,,y,,,,," @READONLY"
+peds_mc_origin,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions - Origin","app, Bridge2AI App | website, Bridge2AI Web App | reproschema, Bridge2AI Reproschema",,,,,,,y,,,,," @READONLY"
 peds_mc_via,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions - via","dataCollector, Data Collector | participant, Participant",,,,,,,y,,,,," @READONLY"
 peds_mc_language,pediatric_q_generic_medical_conditions,,radio,"Peds Medical Conditions - Language","1, English | 3, Spanish",,,,,,,y,,,,," @READONLY"
 peds_mc_voice_disorders,pediatric_q_generic_medical_conditions,"Pediatric Medical Conditions Questionnaire",checkbox,"Does your child have a history of a voice disorder? (Select all that apply)","vocal_nodules_or_polyps, Vocal nodules or polyps | unilateral_vocal_cord_paralysis, Unilateral vocal cord paralysis | bilateral_vocal_cord_paralysis, Bilateral vocal cord paralysis | acid_reflux_disease, Acid reflux disease (GERD) | scarring, Scarring of the larynx or vocal cords from disease or previous surgery | airway_stenosis, Airway stenosis (bilateral vocal fold paralysis laryngeal stenosis) | vocal_cord_webs, Vocal cord webs",,,,,,,,,,,,
