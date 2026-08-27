@@ -16,8 +16,8 @@
 
 # Respiración y tos
 
-[!NOTE]
-Recordings 2, 3, 4 are randomized and will be presented in a random order to the participant. The order of recordings 1 and 5 is fixed.
+> [!NOTE]
+> Recordings 2, 3, 4 are randomized and will be presented in a random order to the participant. The order of recordings 1 and 5 is fixed.
 
 ![recording_1][recording_1]
 
