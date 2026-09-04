@@ -6,7 +6,7 @@
 
 # bridge2ai-redcap
 
-Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
+Bridge2AI-Voice Protocols and REDCap (Research Electronic Data Capture) resources for the Bridge2AI-Voice project.
 
 [![GitHub](https://img.shields.io/badge/github-4.10.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
@@ -227,7 +227,7 @@ Pick the option that matches your situation; both files are linked in the Assets
 
 This study was supported in part by the Weill Cornell Medicine Clinical and Translational Science Center (CTSC) grant (UL1 TR 002384).
 
-Study data were collected and managed using REDCap electronic data capture tools hosted at Weill Cornell Medicine.<sup>1,2,3</sup> REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
+Study data were collected and managed using REDCap electronic data capture tools hosted at Weill Cornell Medicine.<sup>1,2,3</sup> REDCap is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
 
 ### 🔖 REDCap Citations
 
