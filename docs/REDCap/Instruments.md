@@ -10,11 +10,13 @@
 
 Per-instrument ZIP bundles for every published form in the Bridge2AI-Voice REDCap project. Each ZIP, exported via REDCap's **Download instrument ZIP** tool, contains the instrument definition and metadata for one-step import into another REDCap project.
 
-**Count:** 62 instruments published · 19 with Spanish (`es-419`) Multi-Language Management translation available.
+**Count:** 66 instruments published · 19 with Spanish (`es-419`) Multi-Language Management translation available.
 
 **Translations.** Most instruments pair an **English ZIP** with a **Spanish translation JSON** — a Multi-Language Management (MLM) overlay produced by REDCap's *Export language* tool. To apply Spanish to an instrument you've imported from its ZIP, import the matching translation file via **Project Setup → Multi-Language Management → Import language**. Translation files live in language-bucketed folders under [`data/translations/`](../../data/translations) — Spanish files at [`data/translations/es-419/`](../../data/translations/es-419) — and each translation filename mirrors its ZIP basename (e.g. `Q - Generic - Demographics.zip` ↔ `Q - Generic - Demographics.json`). For the full-project MLM bundle covering every form at once, grab `bridge2ai_voice_redcap_mlm_translations_es-419.json` from the [REDCap Assets table in the README](../../README.md#-redcap).
 
-The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that is its own REDCap instrument (not an MLM overlay), so each Spanish consent appears as its own row with its own English ZIP — the **Spanish (`es-419`)** column stays — for those rows by design.
+The eConsents are an exception: USF, MIT, WCM, and VUMC each have a Spanish form that is its own REDCap instrument (not an MLM overlay), so each Spanish consent appears as its own row with its own Spanish ZIP, and the **Spanish (`es-419`)** translation column stays empty (—) for those rows by design.
+
+Only the **current** eConsent version for each site is published as a ZIP. Previous versions are still defined in the [Project XML](../../data/bridge2ai_voice_redcap_project_xml.xml), including their consent page images, and their PDFs are listed on the [eConsents](../Adults/eConsents/Adult%20eConsents.md) page.
 
 ## General
 
@@ -40,12 +42,14 @@ The eConsents are an exception: USF, MIT, and WCM each have a Spanish form that 
 | # | Instrument | Form Name | English ZIP | Spanish ZIP | Spanish (`es-419`) |
 | :-: | :-- | :-- | :-: | :-: | :-: |
 | 1 | Bridge2AI Paper Consent — All Sites (English) | `bridge2ai_paper_consent_all_sites_english` | [📦](../../data/instruments/Bridge2AI%20Paper%20Consent%20-%20All%20Sites%20-%20English.zip) | — | — |
-| 2 | Bridge2AI eConsent — USF (English) | `bridge2ai_econsent_usf_english_version_3` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20English.zip) | — | — |
-| 3 | Bridge2AI eConsent — USF (Spanish) | `bridge2ai_econsent_usf_spanish_version_3` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.zip) | — |
-| 4 | Bridge2AI eConsent — MIT (English) | `bridge2ai_econsent_mit_english_version_2` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20English.zip) | — | — |
-| 5 | Bridge2AI eConsent — MIT (Spanish) | `bridge2ai_econsent_mit_spanish_version_2` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish.zip) | — |
-| 6 | Bridge2AI eConsent — WCM (English) | `bridge2ai_econsent_wcm_english` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20English.zip) | — | — |
-| 7 | Bridge2AI eConsent — WCM (Spanish) | `bridge2ai_econsent_wcm_spanish_version_1` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish.zip) | — |
+| 2 | Bridge2AI eConsent — USF (Version 4, English) | `bridge2ai_econsent_usf_english_version_4` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20English%20-%20Version%204.zip) | — | — |
+| 3 | Bridge2AI eConsent — USF (Version 4, Spanish) | `bridge2ai_econsent_usf_spanish_version_4` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish%20-%20Version%204.zip) | — |
+| 4 | Bridge2AI eConsent — MIT (Version 3, English) | `bridge2ai_econsent_mit_english_version_3` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20English%20-%20Version%203.zip) | — | — |
+| 5 | Bridge2AI eConsent — MIT (Version 3, Spanish) | `bridge2ai_econsent_mit_spanish_version_3` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish%20-%20Version%203.zip) | — |
+| 6 | Bridge2AI eConsent — WCM (Version 2, English) | `bridge2ai_econsent_wcm_english_version_2` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20English%20-%20Version%202.zip) | — | — |
+| 7 | Bridge2AI eConsent — WCM (Version 2, Spanish) | `bridge2ai_econsent_wcm_spanish_version_2` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish%20-%20Version%202.zip) | — |
+| 8 | Bridge2AI eConsent — VUMC (Version 1, English) | `bridge2ai_econsent_vumc_english_version_1` | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20VUMC%20-%20English%20-%20Version%201.zip) | — | — |
+| 9 | Bridge2AI eConsent — VUMC (Version 1, Spanish) | `bridge2ai_econsent_vumc_spanish_version_1` | — | [📦](../../data/instruments/Bridge2AI%20eConsent%20-%20VUMC%20-%20Spanish%20-%20Version%201.zip) | — |
 
 ## Adult Diagnoses
 

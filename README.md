@@ -8,11 +8,11 @@
 
 Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
-[![GitHub](https://img.shields.io/badge/github-4.10.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.40-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-4.11.0-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.53-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd |
 | :-----: | :-------------: |
-| v4.10.0  |   2026-08-27    |
+| v4.11.0 |   2026-10-07    |
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="images/main_logo_white.svg"><img src="images/main_logo_black.svg" height="32" align="absmiddle" alt=""></picture> Bridge2AI-Voice Protocols
 
@@ -88,7 +88,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
         <br>✍️<br>
         <strong>eConsents</strong>
       </a>
-      <br><sub>🏛️ 3 sites</sub>
+      <br><sub>🏛️ 4 sites</sub><br><sub>🟢 8 active</sub><br><sub>🗄️ 11 retired</sub>
     </td>
     <td align="center" width="16%">
       <a href="docs/Adults/PDFs/Adult%20PDFs.md">
@@ -181,7 +181,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
 
-> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.10.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.11.0) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 If you use the Bridge2AI-Voice Adult protocols in your work, please cite the Interspeech 2024 paper:
 
@@ -201,7 +201,7 @@ See [LICENSE](./LICENSE)
 
 ## 🧩 REDCap
 
-The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a full Project XML for one-step import, a Data Dictionary CSV, a Code Book, and per-instrument ZIPs for selective use. The Project XML has the **English + Spanish (`es-419`) Multi-Language Management (MLM) overlay embedded**; the Data Dictionary CSV and individual instrument ZIPs are single-language by design but are complemented by standalone **MLM exports** — a full-project bundle (in the Assets table below) plus per-instrument `.mlm` files (in the [Instruments index](docs/REDCap/Instruments.md)) — so you can layer translations onto either import path.
+The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a full Project XML for one-step import, a Data Dictionary CSV, a Code Book, and per-instrument ZIPs for selective use. The Project XML has the **English + Spanish (`es-419`) Multi-Language Management (MLM) overlay embedded**; the Data Dictionary CSV and individual instrument ZIPs are single-language by design but are complemented by standalone **MLM exports** — a full-project bundle (in the Assets table below) plus per-instrument translation `.json` files (in the [Instruments index](docs/REDCap/Instruments.md)) — so you can layer translations onto either import path.
 
 ### 📦 Assets
 
@@ -210,7 +210,7 @@ The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a 
 | 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule. **English only** — the CSV schema has no slot for MLM translations. | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
 | 🗜️ Project XML | Complete project import file — instruments, surveys, repeating settings, and the **English + Spanish (`es-419`) MLM translation overlay**. | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
 | 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets. | [📓 Browse PDF](data/bridge2ai_voice_redcap_codebook.pdf) |
-| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument `.mlm` file (linked in the index) to add Spanish translations. | [📦 Browse all 62 instruments](docs/REDCap/Instruments.md) |
+| 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument translation `.json` file (linked in the index) to add Spanish translations. | [📦 Browse all 66 instruments](docs/REDCap/Instruments.md) |
 | 🌐 MLM Translations | Full-project Multi-Language Management bundle that layers **Spanish (`es-419`)** on top of the Data Dictionary CSV. Per-instrument MLM files are surfaced alongside their ZIPs in the [Instruments index](docs/REDCap/Instruments.md). | [🌐 Browse JSON](data/bridge2ai_voice_redcap_mlm_translations_es-419.json) |
 
 ### 🚀 Import into REDCap
@@ -219,9 +219,9 @@ Pick the option that matches your situation; both files are linked in the Assets
 
 **Option 1 — Start a new project (recommended).** Use the [REDCap Project XML file](data/bridge2ai_voice_redcap_project_xml.xml). In REDCap, click **"+ New Project"**, name your project, pick a Purpose, choose **"Upload a REDCap project XML file"**, select the file, and click **Create Project**. This builds the full project for you — all questionnaires, surveys, repeating-instrument settings, **and the English + Spanish (`es-419`) MLM translations** — with no participant data included.
 
-**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup. To add Spanish, also import the full MLM bundle (see the Assets table above) via **Project Setup → Multi-Language Management → Import language**, or pair individual instrument ZIPs with their matching per-instrument `.mlm` files.
+**Option 2 — Add to an existing project.** Use the [Data Dictionary CSV file](data/bridge2ai_voice_redcap_project_data_dictionary.csv). In your project, go to **Project Setup → Designer → "Upload data dictionary file (CSV)"** and select the file. This adds the instruments only; survey and repeating-instrument settings will need to be enabled manually under Project Setup. To add Spanish, also import the full MLM bundle (see the Assets table above) via **Project Setup → Multi-Language Management → Import language**, or pair individual instrument ZIPs with their matching per-instrument translation `.json` files.
 
-**Option 3 — Pick and choose individual instruments (à la carte).** Browse the [Instruments index](docs/REDCap/Instruments.md) and download only the per-instrument ZIPs you need. In your REDCap project, go to **Project Setup → Designer → "Upload instrument ZIP"** and import each one. For any of those instruments you want available in Spanish, also download the matching per-instrument `.mlm` file from the same index and import it via **Project Setup → Multi-Language Management → Import language**, scoped to that instrument. This is the most surgical path — useful when you only need a handful of forms, or when you're integrating Bridge2AI-Voice instruments alongside your own.
+**Option 3 — Pick and choose individual instruments (à la carte).** Browse the [Instruments index](docs/REDCap/Instruments.md) and download only the per-instrument ZIPs you need. In your REDCap project, go to **Project Setup → Designer → "Upload instrument ZIP"** and import each one. For any of those instruments you want available in Spanish, also download the matching per-instrument translation `.json` file from the same index and import it via **Project Setup → Multi-Language Management → Import language**, scoped to that instrument. This is the most surgical path — useful when you only need a handful of forms, or when you're integrating Bridge2AI-Voice instruments alongside your own.
 
 ### 🙏 About REDCap
 
