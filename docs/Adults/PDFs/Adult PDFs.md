@@ -14,12 +14,15 @@ See also: [Diagnoses](../Diagnoses/Adult%20Diagnoses.md) · [eConsents](../eCons
 
 ## ✍️ Consents
 
+Current eConsent versions only. See [eConsents](../eConsents/Adult%20eConsents.md) for every previous version.
+
 | # | Document | English | Spanish |
 | :-: | :-- | :-: | :-: |
 | 1 | Paper Consent — All Sites | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20Paper%20Consent%20-%20All%20Sites%20-%20English.pdf) | — |
-| 2 | eConsent — MIT | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20English.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish.pdf) |
-| 3 | eConsent — USF | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20English.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish.pdf) |
-| 4 | eConsent — WCM | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20WCM%20-%20English.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish.pdf) |
+| 2 | eConsent — USF (Version 4) | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20English%20-%20Version%204.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20USF%20-%20Spanish%20-%20Version%204.pdf) |
+| 3 | eConsent — MIT (Version 3) | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20English%20-%20Version%203.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20MIT%20-%20Spanish%20-%20Version%203.pdf) |
+| 4 | eConsent — WCM (Version 2) | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20WCM%20-%20English%20-%20Version%202.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20WCM%20-%20Spanish%20-%20Version%202.pdf) |
+| 5 | eConsent — VUMC (Version 1) | [📄](en-us/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20VUMC%20-%20English%20-%20Version%201.pdf) | [📄](es-419/Consent%20-%20PDFs/Bridge2AI%20eConsent%20-%20VUMC%20-%20Spanish%20-%20Version%201.pdf) |
 
 ## 🏥 Diagnoses
 

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Bridge2AI-Voice eConsent version timeline</title>
+<desc id="d">Production dates for each site's eConsent versions. USF: v1 from May 23, 2025, v2 from Feb 6, 2026, v3 from May 11, 2026, v4 from Oct 7, 2026. MIT: v1 from May 23, 2025, v2 from May 11, 2026, v3 from Oct 7, 2026. WCM: v1 from May 11, 2026, v2 from Oct 7, 2026. VUMC: v1 from Oct 7, 2026.</desc>
+<rect x="84" y="10" width="14" height="14" rx="3" fill="#3987e5"/><text x="104" y="22" font-size="13" fill="#c3c2b7">Active</text><rect x="164" y="10" width="14" height="14" rx="3" fill="#4a4945"/><text x="184" y="22" font-size="13" fill="#c3c2b7">Retired</text>
+<line x1="84.0" y1="72" x2="84.0" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="84.0" y="302" font-size="12" fill="#9a988f" text-anchor="middle">May</text>
+<text x="84.0" y="318" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">2025</text>
+<line x1="129.0" y1="72" x2="129.0" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="172.5" y1="72" x2="172.5" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="172.5" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Jul</text>
+<line x1="217.5" y1="72" x2="217.5" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="262.5" y1="72" x2="262.5" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="306.1" y1="72" x2="306.1" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="306.1" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Oct</text>
+<line x1="351.1" y1="72" x2="351.1" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="394.6" y1="72" x2="394.6" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="439.6" y1="72" x2="439.6" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="439.6" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Jan</text>
+<text x="439.6" y="318" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">2026</text>
+<line x1="484.6" y1="72" x2="484.6" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="525.3" y1="72" x2="525.3" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="570.3" y1="72" x2="570.3" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="570.3" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Apr</text>
+<line x1="613.8" y1="72" x2="613.8" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="658.8" y1="72" x2="658.8" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="702.4" y1="72" x2="702.4" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="702.4" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Jul</text>
+<line x1="747.4" y1="72" x2="747.4" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="792.4" y1="72" x2="792.4" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="835.9" y1="72" x2="835.9" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<text x="835.9" y="302" font-size="12" fill="#9a988f" text-anchor="middle">Oct</text>
+<line x1="880.9" y1="72" x2="880.9" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="924.5" y1="72" x2="924.5" y2="284" stroke="#2c2c2a" stroke-width="1"/>
+<line x1="84" y1="284" x2="968" y2="284" stroke="#46453f" stroke-width="1"/>
+<line x1="115.9" y1="64" x2="115.9" y2="284" stroke="#7d7b74" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="115.9" y="58" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">May 23, 2025</text>
+<line x1="491.9" y1="64" x2="491.9" y2="284" stroke="#7d7b74" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="491.9" y="58" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">Feb 6, 2026</text>
+<line x1="628.3" y1="64" x2="628.3" y2="284" stroke="#7d7b74" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="628.3" y="58" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">May 11, 2026</text>
+<line x1="844.6" y1="64" x2="844.6" y2="284" stroke="#7d7b74" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="844.6" y="58" font-size="12" font-weight="600" fill="#c3c2b7" text-anchor="middle">Oct 7, 2026</text>
+<text x="70" y="108.0" font-size="14" font-weight="700" fill="#f0f6fc" text-anchor="end">USF</text>
+<g><title>USF v1: May 23, 2025 – Feb 6, 2026</title><rect x="116.9" y="88.0" width="374.0" height="30" rx="4" fill="#4a4945"/>
+<text x="126.9" y="108.0" font-size="13" font-weight="600" fill="#ffffff">v1¹</text></g>
+<g><title>USF v2: Feb 6, 2026 – May 11, 2026</title><rect x="492.9" y="88.0" width="134.4" height="30" rx="4" fill="#4a4945"/>
+<text x="502.9" y="108.0" font-size="13" font-weight="600" fill="#ffffff">v2</text></g>
+<g><title>USF v3: May 11, 2026 – Oct 7, 2026</title><rect x="629.3" y="88.0" width="214.3" height="30" rx="4" fill="#4a4945"/>
+<text x="639.3" y="108.0" font-size="13" font-weight="600" fill="#ffffff">v3</text></g>
+<g><title>USF v4: Oct 7, 2026 – present</title><rect x="845.6" y="88.0" width="122.4" height="30" rx="4" fill="#3987e5"/>
+<path d="M972 96.0 L979 103.0 L972 110.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="855.6" y="108.0" font-size="13" font-weight="600" fill="#0b0b0b">v4 · Active</text></g>
+<text x="70" y="158.0" font-size="14" font-weight="700" fill="#f0f6fc" text-anchor="end">MIT</text>
+<g><title>MIT v1: May 23, 2025 – May 11, 2026</title><rect x="116.9" y="138.0" width="510.4" height="30" rx="4" fill="#4a4945"/>
+<text x="126.9" y="158.0" font-size="13" font-weight="600" fill="#ffffff">v1²</text></g>
+<g><title>MIT v2: May 11, 2026 – Oct 7, 2026</title><rect x="629.3" y="138.0" width="214.3" height="30" rx="4" fill="#4a4945"/>
+<text x="639.3" y="158.0" font-size="13" font-weight="600" fill="#ffffff">v2</text></g>
+<g><title>MIT v3: Oct 7, 2026 – present</title><rect x="845.6" y="138.0" width="122.4" height="30" rx="4" fill="#3987e5"/>
+<path d="M972 146.0 L979 153.0 L972 160.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="855.6" y="158.0" font-size="13" font-weight="600" fill="#0b0b0b">v3 · Active</text></g>
+<text x="70" y="208.0" font-size="14" font-weight="700" fill="#f0f6fc" text-anchor="end">WCM</text>
+<g><title>WCM v1: May 11, 2026 – Oct 7, 2026</title><rect x="629.3" y="188.0" width="214.3" height="30" rx="4" fill="#4a4945"/>
+<text x="639.3" y="208.0" font-size="13" font-weight="600" fill="#ffffff">v1</text></g>
+<g><title>WCM v2: Oct 7, 2026 – present</title><rect x="845.6" y="188.0" width="122.4" height="30" rx="4" fill="#3987e5"/>
+<path d="M972 196.0 L979 203.0 L972 210.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="855.6" y="208.0" font-size="13" font-weight="600" fill="#0b0b0b">v2 · Active</text></g>
+<text x="70" y="258.0" font-size="14" font-weight="700" fill="#f0f6fc" text-anchor="end">VUMC</text>
+<g><title>VUMC v1: Oct 7, 2026 – present</title><rect x="845.6" y="238.0" width="122.4" height="30" rx="4" fill="#3987e5"/>
+<path d="M972 246.0 L979 253.0 L972 260.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="855.6" y="258.0" font-size="13" font-weight="600" fill="#0b0b0b">v1 · Active</text></g>
+<text x="84" y="344" font-size="12" fill="#9a988f">¹ USF v1 Spanish went live on Jun 2, 2025; English on May 23, 2025.</text>
+<text x="84" y="362" font-size="12" fill="#9a988f">² MIT v1 was English only; MIT Spanish starts at v2.</text>
+</svg>
