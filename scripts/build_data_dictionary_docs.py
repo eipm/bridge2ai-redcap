@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Build per-field history docs for the Bridge2AI-Voice REDCap data dictionary.
 
-Usage: python3 scripts/build_data_dictionary_docs.py [repo] [out_dir]
+Usage: python3 scripts/build_data_dictionary_docs.py [repo] [out_dir] [--json=<file>]
   repo     defaults to the repository that contains this script
   out_dir  defaults to repo (pages are written to <out_dir>/docs/REDCap/Data Dictionary/)
+  --json   also write every variable and its history as JSON (used by the website's
+           Variable Explorer)
 
 Milestones = git release tags. For v1.0.0–v3.3.0 the dictionary lived in
 per-version folders (vX.Y.Z/*_DataDictionary_*.csv); we read the *final*
@@ -22,10 +24,12 @@ Instrument status (one of):
 Variable renames come from data/bridge2ai_voice_redcap_variable_renames.csv.
 Each run also prints likely renames that are not in that file yet.
 """
-import csv, collections, html, io, os, re, subprocess, sys
+import csv, collections, html, io, json, os, re, subprocess, sys
 
-REPO = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = sys.argv[2] if len(sys.argv) > 2 else REPO
+JSON_OUT = next((a.split('=', 1)[1] for a in sys.argv[1:] if a.startswith('--json=')), None)
+ARGS = [a for a in sys.argv[1:] if not a.startswith('--json=')]
+REPO = ARGS[0] if ARGS else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = ARGS[1] if len(ARGS) > 1 else REPO
 GH = 'https://github.com/eipm/bridge2ai-redcap'
 DOC_DIR = 'docs/REDCap/Data Dictionary'  # where pages will live in the repo
 UP = '../../..'                           # relative path from DOC_DIR to repo root
@@ -753,4 +757,76 @@ for i, (t, d) in enumerate(tags):
              f'{", ".join(retired_at.get(t, [])) or "—"} | {cs_cell} |')
 I.append('')
 open(os.path.join(OUT, DOC_DIR, 'Data Dictionary.md'), 'w', encoding='utf-8').write('\n'.join(I) + ref_defs())
+
+
+# ---------------------------------------------------------------- JSON export (Variable Explorer)
+def plain(s, limit=None):
+    return clean(s, limit).replace('\\|', '|')
+
+
+def change_text(k, old, new):
+    name = ATTR.get(k, k)
+    if k in ('Required Field?', 'Identifier?', 'Matrix Ranking?'):
+        return f'{name}: {YN(old)} → {YN(new)}'
+    if k == 'Form Name':
+        return f'Moved from {display(old)} to {display(new)}'
+    if k == 'Choices, Calculations, OR Slider Labels' and '|' in old + new and ',' in old + new:
+        a, b = parse_choices(old), parse_choices(new)
+        parts = []
+        added = [f'{c}={plain(b[c], 30)}' for c in b if c not in a]
+        removed = [f'{c}={plain(a[c], 30)}' for c in a if c not in b]
+        relab = [f'{c}: {plain(a[c], 25)} → {plain(b[c], 25)}' for c in b if c in a and a[c] != b[c]]
+        if added: parts.append('added ' + ', '.join(added[:4]) + (' …' if len(added) > 4 else ''))
+        if removed: parts.append('removed ' + ', '.join(removed[:4]) + (' …' if len(removed) > 4 else ''))
+        if relab: parts.append('relabeled ' + '; '.join(relab[:3]) + (' …' if len(relab) > 3 else ''))
+        if not parts and list(a) != list(b): parts.append('reordered')
+        return 'Choices: ' + ('; '.join(parts) or 'changed')
+    return f'{name}: {plain(old, 70) or "∅"} → {plain(new, 70) or "∅"}'
+
+
+if JSON_OUT:
+    records = []
+    for form, d in by_form.items():
+        fstat = form_stats[form]['status']
+        for v in d['fields'] + d['removed']:
+            row = current.get(v) or last_row[v]
+            evs = []
+            for e in hist[v]:
+                t, kind = e['tag'], e['kind']
+                if kind == 'introduced':
+                    as_old = f' as {former[v][0][0]}' if former.get(v) else ''
+                    rep = ''.join(f'; replaces {o}' for o, tt, _ in replaces.get(v, []) if tt == t)
+                    evs.append([t, tagdate[t], 'Introduced', f'Added to {display(e["form"])}{as_old}{rep}'])
+                elif kind == 'reintroduced':
+                    evs.append([t, tagdate[t], 'Re-introduced', f'Added back to {display(e["form"])}'])
+                elif kind == 'removed':
+                    rep = ''.join(f'; replaced by {nw}' for nw, tt, _ in replaced_by.get(v, []) if tt == t)
+                    evs.append([t, tagdate[t], 'Removed', f'Removed from {display(e["form"])}{rep}'])
+                elif kind in ('renamed', 'recoded'):
+                    txt = f'{e["old"]} → {e["new"]}' + (f'. {e["note"]}' if e['note'] else '')
+                    evs.append([t, tagdate[t], REL[kind][1], txt])
+                    for k, old, new in e['changes']:
+                        evs.append([t, tagdate[t], 'Changed', change_text(k, old, new)])
+                else:
+                    evs.append([t, tagdate[t], 'Changed', '; '.join(change_text(k, o, n) for k, o, n in e['changes'])])
+            if form in RETIRED and form in RETIRED_IN and v in current:
+                rt = RETIRED_IN[form]
+                evs.append([rt, tagdate[rt], 'Retired', f'{display(form)} was retired from the {RETIRED[form]["from"]} protocol'])
+                evs.sort(key=lambda x: tag_idx[x[0]])
+            vs = values_summary(row).replace('`', '')
+            if vs.startswith('_') and vs.endswith('_'):
+                vs = vs[1:-1]
+            has_entry = any(e['kind'] != 'introduced' for e in hist[v]) or v in replaces
+            records.append({
+                'n': v, 'l': plain(row['Field Label'], 200), 'i': display(form), 'f': form,
+                'c': category_for(form), 's': 'removed' if v not in current else fstat,
+                't': row['Field Type'], 'v': vs, 'in': intro_of(v),
+                'fo': [o for o, _, _ in former.get(v, [])],
+                'p': f'{DOC_DIR}/{slug(form)}', 'a': v if has_entry else None, 'e': evs,
+            })
+    os.makedirs(os.path.dirname(os.path.abspath(JSON_OUT)), exist_ok=True)
+    json.dump({'releases': [[t, d] for t, d in tags], 'variables': records},
+              open(JSON_OUT, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    print('json:', JSON_OUT, len(records), 'variables', file=sys.stderr)
+
 print('pages:', len(by_form) + 1, 'fields:', len(hist), 'statuses:', dict(n_by_status), 'retired:', sorted(RETIRED))

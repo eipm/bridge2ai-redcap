@@ -1,0 +1,132 @@
+{% extends "main.html" %}
+
+{#- Landing page (direction A). Facts come from index.md's front matter, which scripts/build_site.py
+    builds from README.md, CITATION.cff and the data dictionary index. -#}
+
+{% block tabs %}
+{{ super() }}
+<section class="b2ai-hero">
+  <div class="b2ai-wrap b2ai-hero__grid">
+    <div class="b2ai-hero__text">
+      <span class="b2ai-eyebrow">Voice as a Biomarker of Health</span>
+      <h1>Protocols and REDCap resources for collecting voice data</h1>
+      <p>Everything a site needs to run the Bridge2AI-Voice protocols: the adult and pediatric protocols,
+        every questionnaire and acoustic task, and the REDCap project that captures them, with each
+        variable's history across releases.</p>
+      <div class="b2ai-actions">
+        <a class="b2ai-btn b2ai-btn--primary" href="{{ 'redcap/' | url }}">Import the REDCap project</a>
+        <a class="b2ai-btn" href="{{ 'docs/REDCap/Data%20Dictionary/Data%20Dictionary/' | url }}">Browse the data dictionary</a>
+        <a class="b2ai-btn" href="{{ 'explorer/' | url }}">Find a variable</a>
+      </div>
+    </div>
+    <aside class="b2ai-release" aria-label="Current release">
+      <span class="b2ai-release__label">Current release</span>
+      <a class="b2ai-release__version" href="{{ page.meta.repo }}/releases">{{ page.meta.version }}</a>
+      <span class="b2ai-release__meta">Released {{ page.meta.released }}{% if page.meta.redcap_version %} · REDCap {{ page.meta.redcap_version }}{% endif %}</span>
+      <dl class="b2ai-stats">
+        {% for value, label in page.meta.stats %}
+        <div><dt>{{ label }}</dt><dd>{{ value }}</dd></div>
+        {% endfor %}
+      </dl>
+    </aside>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="b2ai-home">
+  <section class="b2ai-band" id="protocols">
+    <div class="b2ai-wrap">
+      <div class="b2ai-section-head">
+        <div>
+          <h2>Adult protocols</h2>
+          <p>One protocol per disease cohort. Each combines questionnaires with recorded acoustic tasks.</p>
+        </div>
+      </div>
+      <div class="b2ai-cards">
+        {% for p in page.meta.adult %}
+        <a class="b2ai-card" href="{{ p.url | url }}">
+          {% if p.icon %}<img src="{{ p.icon | url }}" alt="" width="36" height="36">{% endif %}
+          <span class="b2ai-card__title">{{ p.name }}</span>
+          <span class="b2ai-card__time">{{ p.facts[0] }}</span>
+          <span class="b2ai-card__facts">{% for f in p.facts[1:] %}<span>{{ f }}</span>{% endfor %}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="b2ai-links">
+        {% for r in page.meta.adult_resources %}<a href="{{ r.url | url }}">{{ r.name }}</a>{% endfor %}
+      </div>
+
+      <div class="b2ai-section-head b2ai-section-head--spaced">
+        <div>
+          <h2>Pediatric protocols</h2>
+          <p>Grouped by age, so tasks match what a child can do.</p>
+        </div>
+      </div>
+      <div class="b2ai-cards">
+        {% for p in page.meta.pediatric %}
+        <a class="b2ai-card" href="{{ p.url | url }}">
+          <span class="b2ai-card__title">{{ p.name }}</span>
+          <span class="b2ai-card__time">{{ p.facts[0] }}</span>
+          <span class="b2ai-card__facts">{% for f in p.facts[1:] %}<span>{{ f }}</span>{% endfor %}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="b2ai-links">
+        {% for r in page.meta.pediatric_resources %}<a href="{{ r.url | url }}">{{ r.name }}</a>{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="b2ai-wrap b2ai-section" id="redcap">
+    <div class="b2ai-section-head">
+      <div>
+        <h2>REDCap project</h2>
+        <p>Import the whole project in one step, add instruments to a project you already run, or look up
+          what any variable means and how it changed.</p>
+      </div>
+    </div>
+    <div class="b2ai-cards b2ai-cards--wide">
+      <a class="b2ai-tile" href="{{ 'redcap/' | url }}">
+        <span class="b2ai-tile__title">Import the project</span>
+        <span>Project XML with English and Spanish (es-419) translations built in, the Data Dictionary CSV and the Code Book.</span>
+      </a>
+      <a class="b2ai-tile b2ai-tile--accent" href="{{ 'docs/REDCap/Data%20Dictionary/Data%20Dictionary/' | url }}">
+        <span class="b2ai-tile__title">Data dictionary &amp; field history</span>
+        <span>Every variable, what it captures, the release that added it and every change since.</span>
+      </a>
+      <a class="b2ai-tile" href="{{ 'docs/REDCap/Instruments/' | url }}">
+        <span class="b2ai-tile__title">Instruments</span>
+        <span>Instrument ZIPs to add only the forms you need, each with its Spanish translation file.</span>
+      </a>
+      <a class="b2ai-tile" href="{{ 'explorer/' | url }}">
+        <span class="b2ai-tile__title">Variable explorer</span>
+        <span>Search current and past variables, including renamed ones, by name or label.</span>
+      </a>
+      <a class="b2ai-tile" href="{{ 'docs/REDCap/Data%20Dictionary/Task%20Timeline/' | url }}">
+        <span class="b2ai-tile__title">Task timeline</span>
+        <span>When each questionnaire and acoustic task was introduced and retired.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="b2ai-band b2ai-band--solid" id="releases">
+    <div class="b2ai-wrap b2ai-releases">
+      <div>
+        <h2>Recent releases</h2>
+        <p>Each release is tagged on GitHub and archived on Zenodo.</p>
+        <a href="https://zenodo.org/doi/10.5281/zenodo.12760724">DOI 10.5281/zenodo.12760724</a>
+      </div>
+      <ol>
+        {% for r in page.meta.releases %}
+        <li>
+          {% if r.upcoming %}<span class="b2ai-releases__tag">{{ r.tag }}</span>{% else %}<a class="b2ai-releases__tag" href="{{ page.meta.repo }}/releases/tag/{{ r.tag }}">{{ r.tag }}</a>{% endif %}
+          <span class="b2ai-releases__date">{{ r.date }}</span>
+          <span>{% if r.upcoming %}Upcoming release{% else %}Release notes on GitHub{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+</div>
+{% endblock %}
