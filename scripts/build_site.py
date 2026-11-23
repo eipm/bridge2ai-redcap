@@ -194,9 +194,10 @@ adult_res, peds_res = res_tiles(adult_res), res_tiles(peds_res)
 tags = subprocess.run(['git', '-C', ROOT, 'for-each-ref', '--sort=-creatordate', '--count=3',
                        '--format=%(refname:short)|%(creatordate:short)', 'refs/tags'], capture_output=True, text=True).stdout.split()
 releases = [{'tag': t.split('|')[0].replace('tags/', ''), 'date': t.split('|')[1]} for t in tags]
-if releases and releases[0]['tag'] != f'v{version}':
-    releases.insert(0, {'tag': f'v{version}', 'date': released, 'upcoming': True})
-    releases = releases[:3]
+# The version in CITATION.cff is the current release. Its tag is created when the GitHub release is
+# published, which can be after this build, so list it from CITATION.cff with its release date.
+if not releases or releases[0]['tag'] != f'v{version}':
+    releases = ([{'tag': f'v{version}', 'date': released}] + releases)[:3]
 
 landing = {
     'template': 'home.html', 'title': 'Home', 'hide': ['navigation', 'toc'],
