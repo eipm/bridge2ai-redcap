@@ -10,6 +10,8 @@
 
 Every variable in the [REDCap data dictionary](../../../data/bridge2ai_voice_redcap_project_data_dictionary.csv): what it captures, which release introduced it, and every release where it changed. Milestones are the tagged releases of this repository; every milestone links to its GitHub release page. History is rebuilt from each release's dictionary.
 
+🗓️ **[Task Timeline](Task%20Timeline.md):** when each questionnaire and acoustic task was added to and retired from the Bridge2AI-Voice app, lined up with these REDCap releases.
+
 **Instruments:** 🟢 62 active · 🗄️ 4 retired · 🗂️ 9 previous versions · ⚫ 14 removed  
 **Fields:** 📋 2452 in REDCap · ⚫ 119 removed · 46 milestones ([v1.0.0] → [v4.11.1], 2023-09-21 → 2026-10-15)
 

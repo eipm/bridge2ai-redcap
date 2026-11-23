@@ -638,6 +638,8 @@ I = [HEADER, f'[![Back to Main Document](https://img.shields.io/badge/back%20to%
      'what it captures, which release introduced it, and every release where it changed. '
      'Milestones are the tagged releases of this repository; every milestone links to its GitHub release page. '
      'History is rebuilt from each release\'s dictionary.\n',
+     '🗓️ **[Task Timeline](Task%20Timeline.md):** when each questionnaire and acoustic task was added to and retired '
+     'from the Bridge2AI-Voice app, lined up with these REDCap releases.\n',
      f'**Instruments:** 🟢 {n_by_status["active"]} active · 🗄️ {n_by_status["retired"]} retired · '
      f'🗂️ {n_by_status["previous"]} previous versions · ⚫ {n_by_status["removed"]} removed  ',
      f'**Fields:** 📋 {n_fields} in REDCap · ⚫ {n_removed} removed · '
