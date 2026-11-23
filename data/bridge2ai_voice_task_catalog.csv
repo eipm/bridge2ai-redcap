@@ -1,0 +1,66 @@
+app_item,display_name,type,redcap_form,protocols,note
+Demographics,Demographics,Questionnaire,q_generic_demographics,,"Shown in the app as ""About you"""
+Confounders,Confounders,Questionnaire,q_generic_confounders,,"Shown in the app as ""Tell us about your health"""
+VoiceQualityPerception,Voice Perception,Questionnaire,q_generic_voice_perception,,Renamed in the app to VoicePerception; same REDCap form
+VoicePerception,Voice Perception,Questionnaire,q_generic_voice_perception,,Replaces the app item VoiceQualityPerception
+VhiQuestionnaire,VHI-10,Questionnaire,q_generic_voice_handicap_index_vhi10,,
+PatientHealthQuestionnaire,PHQ-9,Questionnaire,q_generic_patient_health_questionnaire9,,
+GadAnxietyQuestionnaire,GAD-7 Anxiety,Questionnaire,q_generic_gad7_anxiety,,
+VoiceProblemSeverity,Voice Problem Severity,Questionnaire,q_voice_voice_problem_severity,,
+PanasQuestionnaire,PANAS,Questionnaire,q_mood_panas,,
+CustomAffectScaleQuestionnaire,Custom Affect Scale,Questionnaire,q_mood_custom_affect_scale,,
+Dsm5Questionnaire,DSM-5 Adult,Questionnaire,q_mood_dsm5_adult,,
+PtsdAdultQuestionnaire,PTSD Adult,Questionnaire,q_mood_ptsd_adult,,
+AdhdAdultQuestionnaire,ADHD Adult,Questionnaire,q_mood_adhd_adult,,
+MoodParticipantHistory,Participant History,Questionnaire,q_mood_participant_history,,
+DyspneaIndexQuestionnaire,Dyspnea Index (DI),Questionnaire,q_resp_dyspnea_index_di,,
+LeicesterCoughQuestionnaire,Leicester Cough Questionnaire (LCQ),Questionnaire,q_resp_leicester_cough_questionnaire_lcq,,
+WinogradQuestionnaire,Winograd Schemas,Questionnaire,q_neuro_winograd_schemas,,"Shown in the app as ""Winograd Questionnaire"""
+WordColorStroopQuestionnaire,Word-Color Stroop,Acoustic task,q_neuro_wordcolor_stroop,,Recorded as an acoustic task in the app; responses stored in a REDCap questionnaire form
+ProductiveVocabularyQuestionnaire,Productive Vocabulary,Acoustic task,q_neuro_productive_vocabulary,,Recorded as an acoustic task in the app; responses stored in a REDCap questionnaire form
+RandomItemGenerationQuestionnaire,Random Item Generation,Acoustic task,q_neuro_random_item_generation,,Recorded as an acoustic task in the app; responses stored in a REDCap questionnaire form
+HarvardSentencesQuestionnaire,Harvard Sentences,Acoustic task,q_generic_harvard_sentences,,Recorded as an acoustic task in the app; responses stored in a REDCap questionnaire form
+ProlongedVowel,Prolonged Vowel,Acoustic task,,,
+MaximumPhonationTime,Maximum Phonation Time,Acoustic task,,,
+Glides,Glides,Acoustic task,,,
+Loudness,Loudness,Acoustic task,,,
+Diadochokinesis,Diadochokinesis,Acoustic task,,,
+FreeSpeechGeneric,Free Speech,Acoustic task,,,
+RespirationAndCough,Respiration and Cough,Acoustic task,,,
+PictureDescription,Picture Description,Acoustic task,,,
+StoryRecall,Story Recall,Acoustic task,,,
+RainbowPassage,Rainbow Passage,Acoustic task,,,
+CaterpillarPassage,Caterpillar Passage,Acoustic task,,,
+CapeVSentences,Cape V Sentences,Acoustic task,,,
+FreeSpeechVoiceDisorder,Free Speech (Voice),Acoustic task,,,
+AnimalFluency,Animal Fluency,Acoustic task,,,
+OpenResponseQuestions,Open Response Questions,Acoustic task,,,
+BreathSounds,Breath Sounds,Acoustic task,,,
+VoluntaryCough,Voluntary Cough,Acoustic task,,,
+CinderellaStory,Cinderella Story,Acoustic task,,,
+PediatricDemographics,Demographics,Questionnaire,pediatric_q_generic_demographics,,
+PediatricVhiQuestionnaire,VHI-10,Questionnaire,pediatric_q_generic_vhi_10,,
+PediatricVoiceOutcomeSurvey,Voice Outcome Survey,Questionnaire,pediatric_q_generic_voice_outcome_survey,,
+PediatricVoiceRelatedQOLSurvey,Voice-Related Quality of Life Survey,Questionnaire,pediatric_q_generic_voice_related_qol_survey,,
+PediatricPatientHealthQuestionnaire,PHQ-A,Questionnaire,pediatric_q_generic_phqa,,
+PediatricMedicalConditionsQuestionnaire,Medical Conditions,Questionnaire,pediatric_q_generic_medical_conditions,,
+PediatricIdentifyingPictures,Identifying Pictures,Acoustic task,,,
+PediatricNoisySounds,Noisy Sounds,Acoustic task,,,
+PediatricSillySounds,Silly Sounds,Acoustic task,,,
+PediatricRepeatingWords,Repeating Words,Acoustic task,,,
+PediatricRepeatingSentences,Repeating Sentences,Acoustic task,,,
+PediatricPictureDescription,Picture Description,Acoustic task,,,
+PediatricReadingPassage,Reading Passage,Acoustic task,,,
+PediatricConversationSimple,Conversation (Simple),Acoustic task,,,Replaced by Conversation (2 to 4) and Conversation (4 to 6)
+PediatricConversationAdvanced,Conversation (Advanced),Acoustic task,,,Replaced by Conversation (6 plus)
+PediatricConversation2To4,Conversation (2 to 4),Acoustic task,,,
+PediatricConversation4To6,Conversation (4 to 6),Acoustic task,,,
+PediatricConversation6Plus,Conversation (6 plus),Acoustic task,,,
+PediatricAbcsAnd123s,ABCs and 123s,Acoustic task,,,
+PediatricDaysAndNumberNaming,Days and Number Naming,Acoustic task,,,
+PediatricRoleNamingTasksSounds,Role Naming Tasks Sounds,Acoustic task,,,
+PediatricGenerativeNaming,Generative Naming Task,Acoustic task,,,
+PediatricLongSounds,Long Sounds,Acoustic task,,,
+AudioCheck,Audio Check,Setup,,,Microphone and environment check before recording
+NormalVoiceAudioCheck,Normal Voice Audio Check,Setup,,,Only in a pre-release build
+TestCheck,Test Check,internal,,,Internal test item; not shown on the timeline

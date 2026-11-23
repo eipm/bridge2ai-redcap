@@ -8,11 +8,11 @@
 
 Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
-[![GitHub](https://img.shields.io/badge/github-4.11.1-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.55-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
+[![GitHub](https://img.shields.io/badge/github-4.11.2-green?style=flat&logo=github)](https://github.com/eipm/bridge2ai-redcap) [![REDCap](https://img.shields.io/badge/REDCap-16.0.61-red?style=flat&logo=redcap)](https://www.project-redcap.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12760724.svg)](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 | Version | Date YYYY-mm-dd |
 | :-----: | :-------------: |
-| v4.11.1 |   2026-10-15    |
+| v4.11.2 |   2026-11-23    |
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="images/main_logo_white.svg"><img src="images/main_logo_black.svg" height="32" align="absmiddle" alt=""></picture> Bridge2AI-Voice Protocols
 
@@ -181,7 +181,7 @@ Bridge2AI-Voice Protocols and REDCap resources for the Bridge2AI-Voice project.
 
 If you are citing this repository directly (for example, a specific version of the data dictionary or metadata), please also reference the Zenodo record:
 
-> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.11.1) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
+> Sigaras, A., Zisimopoulos, P., Tang, J., Salvi Cruz, S., Ramos, J. M., Rameau, A., Ghosh, S. S., Elemento, O., Belisle-Pipon, J.-C., Ravitsky, V., Powell, M. E., Johnson, A., Dorr, D., Payne, P. R., Boyer, M., Watts, S., Bahr, R., Rudzicz, F., Lerner-Ellis, J., Awan, S., Bolser, D., Bridge2AI-Voice, & Bensoussan, Y. (2026). *Bridge2AI Voice REDCap* (v4.11.2) [Dataset]. Zenodo. [https://zenodo.org/doi/10.5281/zenodo.12760724](https://zenodo.org/doi/10.5281/zenodo.12760724)
 
 If you use the Bridge2AI-Voice Adult protocols in your work, please cite the Interspeech 2024 paper:
 
@@ -210,6 +210,8 @@ The Bridge2AI-Voice REDCap project ships as a set of importable artifacts — a 
 | 📘 Data Dictionary | CSV defining every field, type, validation, and branching rule. **English only** — the CSV schema has no slot for MLM translations. | [📘 Browse CSV](data/bridge2ai_voice_redcap_project_data_dictionary.csv) |
 | 🗜️ Project XML | Complete project import file — instruments, surveys, repeating settings, and the **English + Spanish (`es-419`) MLM translation overlay**. | [🗜️ Browse XML](data/bridge2ai_voice_redcap_project_xml.xml) |
 | 📓 Code Book | Human-readable codebook covering all instruments, fields, and value sets. | [📓 Browse PDF](data/bridge2ai_voice_redcap_codebook.pdf) |
+| 📖 Field History | Every variable in the Data Dictionary, by category and instrument: what it captures, the release that introduced it, every change since, and whether its instrument is active, retired, a previous version, or removed. | [📖 Browse history](docs/REDCap/Data%20Dictionary/Data%20Dictionary.md) |
+| 🔤 Variable Renames | Crosswalk of variables that were renamed, recoded, or replaced between releases. Use it to line up data exported under different releases. | [🔤 Browse CSV](data/bridge2ai_voice_redcap_variable_renames.csv) |
 | 📦 Per-Instrument ZIPs | Individual instrument bundles, one ZIP per form, for selective import. **Each ZIP is single-language**; pair with its matching per-instrument translation `.json` file (linked in the index) to add Spanish translations. | [📦 Browse all 66 instruments](docs/REDCap/Instruments.md) |
 | 🌐 MLM Translations | Full-project Multi-Language Management bundle that layers **Spanish (`es-419`)** on top of the Data Dictionary CSV. Per-instrument MLM files are surfaced alongside their ZIPs in the [Instruments index](docs/REDCap/Instruments.md). | [🌐 Browse JSON](data/bridge2ai_voice_redcap_mlm_translations_es-419.json) |
 

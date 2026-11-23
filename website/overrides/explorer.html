@@ -1,0 +1,36 @@
+{% extends "main.html" %}
+
+{#- Variable Explorer (direction C). Data: assets/data/variables.json, written by
+    scripts/build_data_dictionary_docs.py --json. Logic: assets/javascripts/explorer.js. -#}
+
+{% block tabs %}
+{{ super() }}
+<section class="b2ai-hero b2ai-hero--compact">
+  <div class="b2ai-wrap">
+    <h1>Find any variable, current or past</h1>
+    <p>Search by variable name or label. Former names lead to the variable they became.</p>
+    <div class="bx-search">
+      <label for="bx-q">Variable or label</label>
+      <input id="bx-q" type="search" placeholder="e.g. consent, age, vfp" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="bx-filters" role="group" aria-label="Filter by status" id="bx-filters"></div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="bx" id="bx" data-src="{{ 'assets/data/variables.json' | url }}" data-base="{{ base_url }}" data-repo="{{ config.repo_url }}">
+  <section class="bx-results" aria-label="Results">
+    <p class="bx-count" id="bx-count" aria-live="polite">Loading variables…</p>
+    <div id="bx-list" class="bx-list"></div>
+  </section>
+  <section class="bx-detail" id="bx-detail" aria-label="Variable details" aria-live="polite">
+    <p class="bx-empty">Choose a variable to see its history.</p>
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="{{ 'assets/javascripts/explorer.js' | url }}"></script>
+{% endblock %}

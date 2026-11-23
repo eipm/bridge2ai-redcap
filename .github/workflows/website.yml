@@ -1,0 +1,61 @@
+# Builds the Bridge2AI-Voice Protocols & REDCap website (MkDocs + Material) and deploys it to
+# GitHub Pages. Pull requests get a build check; pushes to main also deploy.
+# One-time setup: repository Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out with full history and tags
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the Variable Explorer reads the data dictionary at every release tag
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: website/requirements.txt
+
+      - name: Install MkDocs Material
+        run: pip install -r website/requirements.txt
+
+      # The Task Timeline page is not rebuilt here: its generator needs the iOS app source,
+      # which is not public. The committed docs/REDCap/Data Dictionary/Task Timeline.md is used.
+      - name: Build the site
+        run: python scripts/build_site.py build
+
+      - name: Upload the site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
