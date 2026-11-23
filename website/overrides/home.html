@@ -21,7 +21,7 @@
     </div>
     <aside class="b2ai-release" aria-label="Current release">
       <span class="b2ai-release__label">Current release</span>
-      <a class="b2ai-release__version" href="{{ page.meta.repo }}/releases">{{ page.meta.version }}</a>
+      <a class="b2ai-release__version" href="{{ page.meta.repo }}/releases/tag/{{ page.meta.version }}">{{ page.meta.version }}</a>
       <span class="b2ai-release__meta">Released {{ page.meta.released }}{% if page.meta.redcap_version %} · REDCap {{ page.meta.redcap_version }}{% endif %}</span>
       <dl class="b2ai-stats">
         {% for value, label in page.meta.stats %}
@@ -120,9 +120,9 @@
       <ol>
         {% for r in page.meta.releases %}
         <li>
-          {% if r.upcoming %}<span class="b2ai-releases__tag">{{ r.tag }}</span>{% else %}<a class="b2ai-releases__tag" href="{{ page.meta.repo }}/releases/tag/{{ r.tag }}">{{ r.tag }}</a>{% endif %}
+          <a class="b2ai-releases__tag" href="{{ page.meta.repo }}/releases/tag/{{ r.tag }}">{{ r.tag }}</a>
           <span class="b2ai-releases__date">{{ r.date }}</span>
-          <span>{% if r.upcoming %}Upcoming release{% else %}Release notes on GitHub{% endif %}</span>
+          <a href="{{ page.meta.repo }}/releases/tag/{{ r.tag }}">Release notes on GitHub</a>
         </li>
         {% endfor %}
       </ol>
