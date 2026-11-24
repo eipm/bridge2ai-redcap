@@ -1,0 +1,70 @@
+{% extends "main.html" %}
+
+{#- Acoustic Task Tutorials. Data: the page's front matter, which scripts/build_site.py builds from
+    the adult acoustic tasks page. Players: assets/javascripts/tutorials.js. -#}
+
+{% macro video(id, lang, title) -%}
+<div class="b2ai-video" data-yt="{{ id }}" data-lang="{{ lang }}" data-title="{{ title }}">
+  <a href="https://youtu.be/{{ id }}">Watch on YouTube</a>
+</div>
+{%- endmacro %}
+
+{% macro card(t, retired=false) -%}
+<article class="b2ai-tut__card{% if t.en and t.es %} b2ai-tut__card--bilingual{% endif %}{% if t.desc_en and t.desc_es %} b2ai-tut__card--bilingual-desc{% endif %}">
+  {% if t.en %}{{ video(t.en, 'en', t.name ~ ' — English tutorial') }}{% endif %}
+  {% if t.es %}{{ video(t.es, 'es', t.name ~ ' — Spanish tutorial') }}{% endif %}
+  {% if not t.en and not t.es %}<div class="b2ai-video b2ai-video--none"><span>No tutorial video</span></div>{% endif %}
+  <div class="b2ai-tut__body">
+    <h3>{{ t.name }}</h3>
+    <p class="b2ai-tut__meta">
+      <span>{{ t.time }}</span>
+      <span>{{ t.recordings }} recording{% if t.recordings != '1' %}s{% endif %}</span>
+      <span>{% if retired %}Retired from {{ t.protocols }}{% else %}{{ t.protocols }}{% endif %}</span>
+    </p>
+    <p class="b2ai-tut__links">
+      {#- Labels stay in English. With both languages, the switch picks which page "Description"
+          opens. English-only tasks always show theirs. -#}
+      {% if t.desc_en and t.desc_es %}
+      <a href="{{ t.desc_en | url }}" data-desc-lang="en">Description</a>
+      <a href="{{ t.desc_es | url }}" data-desc-lang="es">Description</a>
+      {% elif t.desc_en %}
+      <a href="{{ t.desc_en | url }}">Description (English)</a>
+      {% elif t.desc_es %}
+      <a href="{{ t.desc_es | url }}">Description (Spanish)</a>
+      {% endif %}
+    </p>
+  </div>
+</article>
+{%- endmacro %}
+
+{% block content %}
+<div class="b2ai-tut" id="b2ai-tut" data-lang="en">
+  <h1>Acoustic Task Tutorials</h1>
+  <p class="b2ai-tut__intro">A video demonstration of every adult acoustic task, in English and Spanish. Each video
+    loads from YouTube only when you press play. For each task's timing, recordings and protocols, see the
+    <a href="{{ page.meta.tasks_page | url }}">acoustic tasks list</a>.</p>
+
+  <div class="b2ai-tut__bar">
+    <div class="b2ai-tut__langs" role="group" aria-label="Video language">
+      <button type="button" class="bx-chip bx-chip--on" data-set-lang="en" aria-pressed="true">English (en-us)</button>
+      <button type="button" class="bx-chip" data-set-lang="es" aria-pressed="false">Spanish (es-419)</button>
+    </div>
+    {% if page.meta.playlists.en %}<a class="b2ai-btn" data-lang-only="en" href="{{ page.meta.playlists.en }}">Watch all on YouTube</a>{% endif %}
+    {% if page.meta.playlists.es %}<a class="b2ai-btn" data-lang-only="es" href="{{ page.meta.playlists.es }}">Watch all on YouTube</a>{% endif %}
+  </div>
+
+  <h2>Active tasks <span class="b2ai-tut__count">{{ page.meta.active | length }}</span></h2>
+  <div class="b2ai-tut__grid">
+    {% for t in page.meta.active %}{{ card(t) }}{% endfor %}
+  </div>
+
+  {% if page.meta.retired %}
+  <details class="b2ai-tut__retired">
+    <summary>Retired tasks ({{ page.meta.retired | length }}) · no longer collected, English only</summary>
+    <div class="b2ai-tut__grid">
+      {% for t in page.meta.retired %}{{ card(t, true) }}{% endfor %}
+    </div>
+  </details>
+  {% endif %}
+</div>
+{% endblock %}

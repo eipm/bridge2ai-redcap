@@ -19,7 +19,7 @@ build/site-src/ that mirrors the repository layout (so every relative link keeps
   - build/mkdocs.yml is generated, including the navigation, from README.md and the
     data dictionary index.
 """
-import json, os, re, shutil, subprocess, sys
+import html, json, os, re, shutil, subprocess, sys
 from urllib.parse import quote, unquote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -96,7 +96,33 @@ def raw_html_paths(md):
     return RAW_ATTR_RE.sub(fix, md)
 
 
+BADGE_DEF_RE = re.compile(r'^\[([^\]]+)\]:\s*https://custom-icon-badges\.demolab\.com/badge/([^\s?]+?)\.svg\S*[ \t]*$\n?', re.M)
+
+
+def badge_text(path):
+    """Text of a shields-style badge URL path: 'Recording%201-Glides--Low%20to%20High-8A2BE2' →
+    'Recording 1 · Glides-Low to High' ('--' is a dash, '_' a space, the last part the color)."""
+    parts = unquote(path).replace('--', '\0').replace('__', '\1').split('-')
+    parts = parts[:-1] if len(parts) > 1 else parts
+    return ' · '.join(p.replace('_', ' ').replace('\0', '-').replace('\1', '_').strip() for p in parts if p.strip())
+
+
+def local_badges(md):
+    """Badge images from custom-icon-badges.demolab.com load slowly or not at all outside GitHub
+    (GitHub caches them), so the site shows them as local chips with the same text."""
+    defs = {key: badge_text(path) for key, path in BADGE_DEF_RE.findall(md)}
+    if not defs:
+        return md
+    md = BADGE_DEF_RE.sub('', md)
+    md = re.sub(r'\[!\[[^\]]*\]\[([^\]]+)\]\]\(([^)\s]+)\)',
+                lambda m: f'[{defs[m[1]]}]({m[2]}){{ .b2ai-chip }}' if m[1] in defs else m[0], md)
+    md = re.sub(r'!\[[^\]]*\]\[([^\]]+)\]',
+                lambda m: f'<span class="b2ai-badge">{html.escape(defs[m[1]])}</span>' if m[1] in defs else m[0], md)
+    return md
+
+
 def adjust(md, rel=''):
+    md = local_badges(md)
     md = folder_links(md, rel)
     md = HEADER_RE.sub('', md, count=1)
     if rel and not rel.endswith('/index.md'):
@@ -108,6 +134,73 @@ def adjust(md, rel=''):
     md = README_RE.sub(readme_target, md)
     md = re.sub(r'\]\((?:\./)?LICENSE\)', f']({GH}/blob/main/LICENSE)', md)
     return md
+
+
+# ---------------------------------------------------------------- acoustic task tutorials (YouTube)
+# Source: the active and retired tables on the adult acoustic tasks page (English and Spanish
+# YouTube tutorials per task) and its playlist links. The site gets a Task Tutorials page, and
+# each task description page shows its tutorial under the title.
+TASKS_MD = 'docs/Adults/Acoustic Tasks/Adult Acoustic Tasks.md'
+TUTORIALS_MD = 'docs/Adults/Acoustic Tasks/Task Tutorials.md'
+YT_RE = re.compile(r'(?:youtu\.be/|youtube\.com/watch\?v=)([A-Za-z0-9_-]{11})')
+PLAYLIST_RE = re.compile(r'youtube\.com/playlist\?list=([A-Za-z0-9_-]+)')
+
+
+def parse_tutorials():
+    src = read(TASKS_MD)
+    base = os.path.dirname(TASKS_MD)
+
+    def video(cell):
+        m = YT_RE.search(cell)
+        return m[1] if m else None
+
+    def page(cell):
+        # links are written as (<path with (parentheses).md>) or (path.md)
+        m = re.search(r'\]\(<([^>]+\.md)>\)', cell) or re.search(r'\]\(([^)\s]+\.md)\)', cell)
+        return os.path.normpath(os.path.join(base, unquote(m[1]))) if m else None
+
+    tasks, section = [], None
+    for line in src.split('\n'):
+        if line.startswith('## '):
+            section = 'active' if 'Active' in line else 'retired' if 'Retired' in line else None
+            continue
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if not section or len(cells) < 7 or not cells[0].isdigit():
+            continue
+        task = {'name': cells[1], 'time': cells[2], 'recordings': cells[3], 'protocols': cells[4],
+                'retired': section == 'retired', 'en': video(cells[5])}
+        if section == 'active':
+            task.update(es=video(cells[6]), desc_en=page(cells[7]), desc_es=page(cells[8]))
+        else:
+            task.update(es=None, desc_en=page(cells[6]), desc_es=None)
+        tasks.append(task)
+    playlists = {}
+    for line in src.split('\n'):
+        m = PLAYLIST_RE.search(line)
+        if m:
+            playlists['es' if 'Spanish' in line else 'en'] = f'https://www.youtube.com/playlist?list={m[1]}'
+    return tasks, playlists
+
+
+def video_html(video_id, lang, title):
+    """Placeholder that assets/javascripts/tutorials.js turns into a click-to-load player. Without
+    JavaScript it is a plain link to the video."""
+    return (f'<div class="b2ai-video" data-yt="{video_id}" data-lang="{lang}" data-title="{html.escape(title)}">'
+            f'<a href="https://youtu.be/{video_id}">Watch on YouTube</a></div>')
+
+
+tutorials, playlists = parse_tutorials()
+video_for_page = {}  # description page → (video id, language, task name)
+for t in tutorials:
+    for lang in ('en', 'es'):
+        if t.get(f'desc_{lang}') and t.get(lang):
+            video_for_page[t[f'desc_{lang}']] = (t[lang], lang, t['name'])
+
+
+def add_tutorial(md, rel):
+    video_id, lang, name = video_for_page[rel]
+    title = f'{name} — {"Spanish" if lang == "es" else "English"} tutorial'
+    return re.sub(r'^(# .+)$', lambda m: m[1] + '\n\n' + video_html(video_id, lang, title) + '\n', md, count=1, flags=re.M)
 
 
 # ---------------------------------------------------------------- assemble build/site-src
@@ -122,7 +215,8 @@ for d, _, files in os.walk(os.path.join(ROOT, 'docs')):
         dst = os.path.join(SRC, rel)
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         if f.endswith('.md'):
-            write(rel, adjust(open(src, encoding='utf-8').read(), rel))
+            md = adjust(open(src, encoding='utf-8').read(), rel)
+            write(rel, add_tutorial(md, rel) if rel in video_for_page else md)
         else:
             os.symlink(src, dst)
 for d in ('images', 'data'):
@@ -191,6 +285,9 @@ def res_tiles(tds):
 
 
 adult_res, peds_res = res_tiles(adult_res), res_tiles(peds_res)
+# Task Tutorials sits right after Acoustic Tasks (menu and home page)
+at = next((i for i, r in enumerate(adult_res) if r['name'] == 'Acoustic Tasks'), len(adult_res) - 1)
+adult_res.insert(at + 1, {'name': 'Task Tutorials', 'href': quote(TUTORIALS_MD), 'url': md_to_url(TUTORIALS_MD)})
 tags = subprocess.run(['git', '-C', ROOT, 'for-each-ref', '--sort=-creatordate', '--count=3',
                        '--format=%(refname:short)|%(creatordate:short)', 'refs/tags'], capture_output=True, text=True).stdout.split()
 releases = [{'tag': t.split('|')[0].replace('tags/', ''), 'date': t.split('|')[1]} for t in tags]
@@ -224,6 +321,23 @@ about = '# About\n\n## How to Cite\n\n' + readme_section('How to Cite') + '\n## 
 write('about.md', adjust(about, 'about.md'))
 write('CREDITS.md', adjust(read('CREDITS.md'), 'CREDITS.md'))
 write('explorer.md', '---\ntemplate: explorer.html\ntitle: Variable Explorer\nhide:\n  - navigation\n  - toc\n---\n')
+
+
+def tutorial_card(t):
+    return {'name': t['name'], 'time': t['time'], 'recordings': t['recordings'],
+            'protocols': 'All adult protocols' if t['protocols'] == 'All' else t['protocols'],
+            'en': t['en'], 'es': t['es'],
+            'desc_en': md_to_url(t['desc_en']) if t['desc_en'] else None,
+            'desc_es': md_to_url(t['desc_es']) if t['desc_es'] else None}
+
+
+tutorials_page = {
+    'template': 'tutorials.html', 'title': 'Acoustic Task Tutorials', 'hide': ['toc'],
+    'active': [tutorial_card(t) for t in tutorials if not t['retired']],
+    'retired': [tutorial_card(t) for t in tutorials if t['retired']],
+    'playlists': playlists, 'tasks_page': md_to_url(TASKS_MD),
+}
+write(TUTORIALS_MD, '---\n' + json.dumps(tutorials_page, ensure_ascii=False, indent=1) + '\n---\n')
 
 
 # ---------------------------------------------------------------- navigation
@@ -326,6 +440,7 @@ config = {
         'icon': {'repo': 'fontawesome/brands/github'},
     },
     'extra_css': ['assets/stylesheets/b2ai.css'],
+    'extra_javascript': ['assets/javascripts/tutorials.js'],
     'extra': {'generator': False, 'social': [{'icon': 'fontawesome/brands/github', 'link': GH}]},
     'plugins': ['search'],
     'markdown_extensions': ['tables', 'attr_list', 'md_in_html', 'admonition', 'pymdownx.superfences',
