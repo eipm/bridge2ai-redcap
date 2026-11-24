@@ -13,7 +13,7 @@ Every variable in the [REDCap data dictionary](../../../data/bridge2ai_voice_red
 🗓️ **[Task Timeline](Task%20Timeline.md):** when each questionnaire and acoustic task was added to and retired from the Bridge2AI-Voice app, lined up with these REDCap releases.
 
 **Instruments:** 🟢 62 active · 🗄️ 4 retired · 🗂️ 9 previous versions · ⚫ 14 removed  
-**Fields:** 📋 2452 in REDCap · ⚫ 119 removed · 46 milestones ([v1.0.0] → [v4.11.1], 2023-09-21 → 2026-10-15)
+**Fields:** 📋 2452 in REDCap · ⚫ 119 removed · 47 milestones ([v1.0.0] → [v4.11.2], 2023-09-21 → 2026-11-23)
 
 ## How to Read This
 
@@ -326,6 +326,7 @@ Counts are fields. Instrument renames are not counted as field changes. Protocol
 | [v4.10.0] | 2026-08-27 | — | 17 | — | — | — | [`79e2d92`](https://github.com/eipm/bridge2ai-redcap/commit/79e2d92) v.4.9.2<br>[`920bfbb`](https://github.com/eipm/bridge2ai-redcap/commit/920bfbb) updated REDCap addition reproschema values<br>[`6def457`](https://github.com/eipm/bridge2ai-redcap/commit/6def457) Mark Essential Tremor as required field in eligible studies… |
 | [v4.11.0] | 2026-10-07 | 187 | — | — | — | — | [`46d0c12`](https://github.com/eipm/bridge2ai-redcap/commit/46d0c12) v4.11.0 |
 | [v4.11.1] | 2026-10-15 | — | — | — | — | — | — |
+| [v4.11.2] | 2026-11-23 | — | — | — | — | — | — |
 
 <!-- milestone links -->
 [v1.0.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v1.0.0
@@ -374,3 +375,4 @@ Counts are fields. Instrument renames are not counted as field changes. Protocol
 [v4.10.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.10.0
 [v4.11.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.11.0
 [v4.11.1]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.11.1
+[v4.11.2]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.11.2

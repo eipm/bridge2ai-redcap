@@ -10,7 +10,7 @@
 
 When each questionnaire and acoustic task was introduced and retired, placed on the REDCap release timeline of this repository.
 
-**Tasks:** 🟢 49 active · 🗄️ 24 retired (counting each task version separately) · **REDCap releases:** 46 ([v1.0.0][redcap-v1.0.0] → [v4.11.1][redcap-v4.11.1])
+**Tasks:** 🟢 49 active · 🗄️ 24 retired (counting each task version separately) · **REDCap releases:** 47 ([v1.0.0][redcap-v1.0.0] → [v4.11.2][redcap-v4.11.2])
 
 ## How to Read This
 
@@ -145,4 +145,4 @@ Listed on the task pages in this repository with no matching app task. They may 
 [redcap-v3.16.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v3.16.0
 [redcap-v4.0.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.0.0
 [redcap-v4.2.0]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.2.0
-[redcap-v4.11.1]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.11.1
+[redcap-v4.11.2]: https://github.com/eipm/bridge2ai-redcap/releases/tag/v4.11.2
