@@ -213,3 +213,43 @@
 .md-copyright a:hover { color: #ffffff; }
 @media screen and (max-width: 76.1875em) { .bx-detail { position: static; max-height: none; } }
 @media (prefers-reduced-motion: reduce) { .b2ai-card, .b2ai-tile { transition: none; } }
+
+/* ---------- Acoustic Task Tutorials and video players ---------- */
+.b2ai-video { position: relative; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 1.2rem; overflow: hidden; background: #000; margin: 0 0 1rem; }
+.b2ai-video > a { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; }
+.b2ai-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.b2ai-video__play { all: unset; position: absolute; inset: 0; cursor: pointer; display: block; }
+.b2ai-video__play img, .md-typeset .b2ai-video__play img { width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; }
+.b2ai-video__play:focus-visible { outline: 3px solid var(--b2ai-purple); outline-offset: -3px; }
+/* play button in the bottom-right corner: the thumbnails carry the task name in the center and the B2Ai logo bottom-left */
+.b2ai-video__icon { position: absolute; right: .7rem; bottom: .7rem; width: 2.6rem; height: 1.85rem; fill: #000000cc; transition: fill .15s ease, transform .15s ease; }
+.b2ai-video__play:hover .b2ai-video__icon { transform: scale(1.08); }
+.b2ai-video__icon .b2ai-video__arrow { fill: #fff; }
+.b2ai-video__play:hover .b2ai-video__icon, .b2ai-video__play:focus-visible .b2ai-video__icon { fill: #420B74; }
+.b2ai-video--none { display: flex; align-items: center; justify-content: center; background: var(--b2ai-surface); color: var(--b2ai-muted); font-size: .7rem; }
+.md-typeset .b2ai-video { max-width: 40rem; }
+
+.b2ai-tut__intro { max-width: 40rem; color: var(--b2ai-muted); }
+.b2ai-tut__bar { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin: 1rem 0 1.6rem; }
+.b2ai-tut__langs { display: flex; flex-wrap: wrap; gap: .4rem; }
+.b2ai-tut__count { font-size: .7rem; font-weight: 600; color: var(--b2ai-muted); background: var(--b2ai-surface); border-radius: 100px; padding: .1rem .6rem; vertical-align: middle; }
+.b2ai-tut__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1.2rem; }
+.b2ai-tut__card { display: flex; flex-direction: column; border: 1.5px solid var(--b2ai-line); border-radius: 1.6rem; padding: .6rem; background: var(--b2ai-card); }
+.b2ai-tut__card .b2ai-video { margin: 0; border-radius: 1.1rem; max-width: none; }
+.b2ai-tut__body { padding: .7rem .5rem .3rem; display: flex; flex-direction: column; gap: .3rem; }
+.md-typeset .b2ai-tut__body h3 { margin: 0; font-size: .85rem; }
+.md-typeset .b2ai-tut__meta { margin: 0; display: flex; flex-wrap: wrap; gap: .2rem .8rem; font-size: .66rem; color: var(--b2ai-muted); }
+.md-typeset .b2ai-tut__links { margin: .2rem 0 0; display: flex; flex-wrap: wrap; gap: .2rem 1rem; font-size: .68rem; font-weight: 600; }
+.b2ai-tut__retired { margin-top: 2rem; }
+.b2ai-tut__retired .b2ai-tut__grid { margin-top: .8rem; }
+/* language switch: show the chosen language's video and playlist link */
+.b2ai-tut[data-lang="en"] .b2ai-video[data-lang="es"],
+.b2ai-tut[data-lang="es"] .b2ai-tut__card--bilingual .b2ai-video[data-lang="en"],
+.b2ai-tut[data-lang="en"] [data-lang-only="es"],
+.b2ai-tut[data-lang="es"] [data-lang-only="en"],
+.b2ai-tut[data-lang="en"] .b2ai-tut__card--bilingual-desc [data-desc-lang="es"],
+.b2ai-tut[data-lang="es"] .b2ai-tut__card--bilingual-desc [data-desc-lang="en"] { display: none; }
+@media (prefers-reduced-motion: reduce) { .b2ai-video__icon { transition: none; } }
+
+/* badges from the task pages (Press to Record, Recording 1 · …), shown as local chips */
+.md-typeset .b2ai-badge { display: inline-block; padding: .15em .8em; border-radius: 100px; background: var(--b2ai-purple); color: #ffffff; font-size: .8em; font-weight: 600; line-height: 1.6; }
